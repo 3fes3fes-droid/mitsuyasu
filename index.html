@@ -12,15 +12,16 @@ html,body{background:#080c14;color:#eef2ff;font-family:-apple-system,'Hiragino S
 .page{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px 20px;position:relative;}
 .p-term{background:#080c14;}
 .p-meaning{background:#0c1220;}
-.term-category{position:absolute;top:20px;left:20px;font-size:11px;color:#4a5a80;
-  background:#0f1624;padding:3px 10px;border-radius:999px;border:1px solid #1a2035;}
-.list-open-btn{position:absolute;top:16px;right:16px;background:transparent;
-  border:1px solid #1a2035;border-radius:6px;color:#4a5a80;font-size:11px;
-  font-weight:700;font-family:inherit;padding:4px 10px;cursor:pointer;}
+/* カテゴリーを大きく変更 */
+.term-category{position:absolute;top:20px;left:20px;font-size:16px;font-weight:700;color:#4f9cf9;
+  background:#0f1624;padding:5px 14px;border-radius:999px;border:1px solid #1a2035;}
+/* ボタン配置の調整 */
+.list-open-btn{background:#1a2035;border:1px solid #4a5a80;border-radius:6px;color:#eef2ff;
+  font-size:13px;font-weight:700;font-family:inherit;padding:8px 16px;cursor:pointer;margin-top:30px;}
 .term-fullname{font-size:13px;color:#4f9cf9;opacity:.75;margin-bottom:14px;
   text-align:center;letter-spacing:.04em;min-height:18px;}
 #term-text{font-weight:900;color:#eef2ff;text-align:center;line-height:1.15;letter-spacing:-.01em;}
-.meaning-term-label{font-size:12px;color:#4a5a80;margin-bottom:4px;text-align:center;}
+.meaning-term-label{font-size:14px;color:#4a5a80;margin-bottom:4px;text-align:center;}
 .meaning-term{font-size:18px;font-weight:900;color:#4f9cf9;text-align:center;margin-bottom:22px;}
 #meaning-text{color:#8898c0;line-height:2.0;text-align:left;width:100%;max-width:520px;}
 .related-section{margin-top:20px;width:100%;max-width:520px;}
@@ -34,7 +35,6 @@ html,body{background:#080c14;color:#eef2ff;font-family:-apple-system,'Hiragino S
 .bar-btn.on{border-color:#4f9cf9;color:#4f9cf9;}
 #phase-label{font-size:10px;color:#4a5a80;min-width:24px;text-align:center;}
 
-/* 一覧ビュー */
 #list-view{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#080c14;flex-direction:column;z-index:100;}
 #list-view.show{display:flex;}
 .list-header{height:44px;background:#0c1220;border-bottom:1px solid #1a2035;display:flex;align-items:center;padding:0 14px;gap:12px;flex-shrink:0;}
@@ -132,9 +132,9 @@ function render(){
   document.getElementById('scroll').innerHTML = `
     <div class="page p-term" style="min-height:${vh}px" id="pg-term">
       <div class="term-category">${t.category}</div>
-      <button class="list-open-btn" onclick="switchView('list')">一覧 ☰</button>
       <div class="term-fullname" id="term-fullname">${t.full || ''}</div>
       <div id="term-text">${t.term}</div>
+      <button class="list-open-btn" onclick="switchView('list')">一覧 ☰</button>
     </div>
     <div class="page p-meaning" style="min-height:${vh}px" id="pg-meaning">
       <div class="meaning-term-label">${t.category}</div>
@@ -159,9 +159,10 @@ function fitTermFont(){
   const pg = document.getElementById('pg-term');
   const el = document.getElementById('term-text');
   const full = document.getElementById('term-fullname');
+  const btn = pg.querySelector('.list-open-btn');
   if(!pg||!el) return;
   const vh = getVH();
-  const usedH = 24+24+22+(full&&full.textContent?32:0);
+  const usedH = 24+24+22+(full&&full.textContent?32:0)+(btn?btn.offsetHeight+30:0);
   const maxH = vh - usedH, maxW = pg.clientWidth - 40;
   let lo=20, hi=220;
   while(hi-lo>1){ const mid=(lo+hi)>>1; el.style.fontSize=mid+'px';
