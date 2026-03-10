@@ -12,21 +12,24 @@ html,body{background:#080c14;color:#eef2ff;font-family:-apple-system,'Hiragino S
 .page{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px 20px;position:relative;}
 .p-term{background:#080c14;}
 .p-meaning{background:#0c1220;}
-/* カテゴリーを大きく変更 */
+/* 分野ラベル */
 .term-category{position:absolute;top:20px;left:20px;font-size:16px;font-weight:700;color:#4f9cf9;
   background:#0f1624;padding:5px 14px;border-radius:999px;border:1px solid #1a2035;}
-/* ボタン配置の調整 */
-.list-open-btn{background:#1a2035;border:1px solid #4a5a80;border-radius:6px;color:#eef2ff;
-  font-size:13px;font-weight:700;font-family:inherit;padding:8px 16px;cursor:pointer;margin-top:30px;}
-.term-fullname{font-size:13px;color:#4f9cf9;opacity:.75;margin-bottom:14px;
-  text-align:center;letter-spacing:.04em;min-height:18px;}
+/* 一覧ボタン（右上に固定） */
+.list-open-btn{position:absolute;top:16px;right:16px;background:transparent;
+  border:1px solid #1a2035;border-radius:6px;color:#4a5a80;font-size:11px;
+  font-weight:700;font-family:inherit;padding:4px 10px;cursor:pointer;}
+/* 正式名称を大きく修正 */
+.term-fullname{font-size:18px;font-weight:700;color:#4f9cf9;opacity:1.0;margin-bottom:14px;
+  text-align:center;letter-spacing:.02em;min-height:24px;max-width:90%;}
 #term-text{font-weight:900;color:#eef2ff;text-align:center;line-height:1.15;letter-spacing:-.01em;}
+/* 単語画面の関連用語セクション */
+.term-related-section{margin-top:30px;width:100%;max-width:520px;display:flex;flex-direction:column;align-items:center;}
 .meaning-term-label{font-size:14px;color:#4a5a80;margin-bottom:4px;text-align:center;}
 .meaning-term{font-size:18px;font-weight:900;color:#4f9cf9;text-align:center;margin-bottom:22px;}
 #meaning-text{color:#8898c0;line-height:2.0;text-align:left;width:100%;max-width:520px;}
-.related-section{margin-top:20px;width:100%;max-width:520px;}
-.related-label{font-size:11px;color:#e3b341;font-weight:700;margin-bottom:8px;}
-.related-tags{display:flex;flex-wrap:wrap;gap:6px;}
+.related-label{font-size:11px;color:#e3b341;font-weight:700;margin-bottom:8px;text-align:center;}
+.related-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;}
 .related-tag{font-size:12px;background:#0d1320;border:1px solid #1a2035;color:#8898c0;padding:3px 11px;border-radius:999px;}
 #bar{height:44px;background:#0c1220;border-top:1px solid #1a2035;display:flex;align-items:center;padding:0 14px;gap:8px;}
 #timer-track{flex:1;height:3px;background:#1a2035;border-radius:999px;overflow:hidden;}
@@ -132,19 +135,19 @@ function render(){
   document.getElementById('scroll').innerHTML = `
     <div class="page p-term" style="min-height:${vh}px" id="pg-term">
       <div class="term-category">${t.category}</div>
+      <button class="list-open-btn" onclick="switchView('list')">一覧 ☰</button>
       <div class="term-fullname" id="term-fullname">${t.full || ''}</div>
       <div id="term-text">${t.term}</div>
-      <button class="list-open-btn" onclick="switchView('list')">一覧 ☰</button>
+      ${t.related && t.related.length ? `
+        <div class="term-related-section">
+          <div class="related-label">💡 関連用語</div>
+          <div class="related-tags">${t.related.map(r=>`<span class="related-tag">${r}</span>`).join('')}</div>
+        </div>` : ''}
     </div>
     <div class="page p-meaning" style="min-height:${vh}px" id="pg-meaning">
       <div class="meaning-term-label">${t.category}</div>
       <div class="meaning-term">${t.term}</div>
       <div id="meaning-text">${t.desc}</div>
-      ${t.related && t.related.length ? `
-        <div class="related-section">
-          <div class="related-label">💡 関連用語</div>
-          <div class="related-tags">${t.related.map(r=>`<span class="related-tag">${r}</span>`).join('')}</div>
-        </div>` : ''}
     </div>`;
   document.getElementById('scroll').scrollTop = 0;
   setPhaseUI('term');
@@ -159,10 +162,10 @@ function fitTermFont(){
   const pg = document.getElementById('pg-term');
   const el = document.getElementById('term-text');
   const full = document.getElementById('term-fullname');
-  const btn = pg.querySelector('.list-open-btn');
+  const rel = pg.querySelector('.term-related-section');
   if(!pg||!el) return;
   const vh = getVH();
-  const usedH = 24+24+22+(full&&full.textContent?32:0)+(btn?btn.offsetHeight+30:0);
+  const usedH = 24+24+22+(full?full.offsetHeight+14:0)+(rel?rel.offsetHeight+30:0);
   const maxH = vh - usedH, maxW = pg.clientWidth - 40;
   let lo=20, hi=220;
   while(hi-lo>1){ const mid=(lo+hi)>>1; el.style.fontSize=mid+'px';
@@ -174,9 +177,7 @@ function fitMeaningFont(){
   const el = document.getElementById('meaning-text');
   if(!pg||!el) return;
   const vh = getVH();
-  const relBox = pg.querySelector('.related-section');
-  const relH = relBox ? relBox.offsetHeight+20 : 0;
-  const usedH = 24+24+22+22+relH, maxH = vh - usedH;
+  const usedH = 24+24+22+22, maxH = vh - usedH;
   let lo=14, hi=32;
   while(hi-lo>1){ const mid=(lo+hi)>>1; el.style.fontSize=mid+'px';
     el.scrollHeight<=maxH?(lo=mid):(hi=mid); }
