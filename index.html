@@ -12,25 +12,26 @@ html,body{background:#080c14;color:#eef2ff;font-family:-apple-system,'Hiragino S
 .page{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px 20px;position:relative;}
 .p-term{background:#080c14;}
 .p-meaning{background:#0c1220;}
-/* 分野ラベル */
 .term-category{position:absolute;top:20px;left:20px;font-size:16px;font-weight:700;color:#4f9cf9;
   background:#0f1624;padding:5px 14px;border-radius:999px;border:1px solid #1a2035;}
-/* 一覧ボタン（右上に固定） */
 .list-open-btn{position:absolute;top:16px;right:16px;background:transparent;
   border:1px solid #1a2035;border-radius:6px;color:#4a5a80;font-size:11px;
   font-weight:700;font-family:inherit;padding:4px 10px;cursor:pointer;}
-/* 正式名称を大きく修正 */
 .term-fullname{font-size:18px;font-weight:700;color:#4f9cf9;opacity:1.0;margin-bottom:14px;
   text-align:center;letter-spacing:.02em;min-height:24px;max-width:90%;}
 #term-text{font-weight:900;color:#eef2ff;text-align:center;line-height:1.15;letter-spacing:-.01em;}
-/* 単語画面の関連用語セクション */
-.term-related-section{margin-top:30px;width:100%;max-width:520px;display:flex;flex-direction:column;align-items:center;}
+
+/* 関連用語セクションの調整 */
+.term-related-section{margin-top:40px;width:100%;max-width:600px;display:flex;flex-direction:column;align-items:center;}
+.related-label{font-size:14px;color:#e3b341;font-weight:700;margin-bottom:12px;text-align:center;letter-spacing:0.1em;}
+.related-tags{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
+
+/* 関連用語の文字を大きく（単語の半分くらいのイメージ） */
+.related-tag{font-size:22px;font-weight:700;background:#0d1320;border:1px solid #1a2035;color:#8898c0;padding:6px 18px;border-radius:12px;}
+
 .meaning-term-label{font-size:14px;color:#4a5a80;margin-bottom:4px;text-align:center;}
 .meaning-term{font-size:18px;font-weight:900;color:#4f9cf9;text-align:center;margin-bottom:22px;}
 #meaning-text{color:#8898c0;line-height:2.0;text-align:left;width:100%;max-width:520px;}
-.related-label{font-size:11px;color:#e3b341;font-weight:700;margin-bottom:8px;text-align:center;}
-.related-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;}
-.related-tag{font-size:12px;background:#0d1320;border:1px solid #1a2035;color:#8898c0;padding:3px 11px;border-radius:999px;}
 #bar{height:44px;background:#0c1220;border-top:1px solid #1a2035;display:flex;align-items:center;padding:0 14px;gap:8px;}
 #timer-track{flex:1;height:3px;background:#1a2035;border-radius:999px;overflow:hidden;}
 #timer-fill{height:100%;width:100%;border-radius:999px;background:#4f9cf9;}
@@ -165,7 +166,8 @@ function fitTermFont(){
   const rel = pg.querySelector('.term-related-section');
   if(!pg||!el) return;
   const vh = getVH();
-  const usedH = 24+24+22+(full?full.offsetHeight+14:0)+(rel?rel.offsetHeight+30:0);
+  // 余白計算の微調整
+  const usedH = 24+24+22+(full?full.offsetHeight+14:0)+(rel?rel.offsetHeight+40:0);
   const maxH = vh - usedH, maxW = pg.clientWidth - 40;
   let lo=20, hi=220;
   while(hi-lo>1){ const mid=(lo+hi)>>1; el.style.fontSize=mid+'px';
