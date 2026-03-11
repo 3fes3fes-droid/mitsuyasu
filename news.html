@@ -473,10 +473,15 @@ function rss2jsonToXml(j) {
 }
 async function fetchWithProxy(url) {
   const enc = encodeURIComponent(url);
+  // 1) 自前Netlify Function（最優先・安定）
+  try { const r=await fetch(`/api/proxy?url=${enc}`,{signal:AbortSignal.timeout(12000)}); if(r.ok){const t=await r.text(); if(t?.includes("<item")) return t;} } catch {}
+  // 2) news.google.comは直接取れることがある
   if (url.includes("news.google.com")) {
     try { const r=await fetch(url,{signal:AbortSignal.timeout(8000)}); if(r.ok){const t=await r.text(); if(t?.includes("<item")) return t;} } catch {}
   }
+  // 3) rss2json（フォールバック）
   try { const r=await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${enc}&count=20`,{signal:AbortSignal.timeout(10000)}); if(r.ok){const j=await r.json(); const x=rss2jsonToXml(j); if(x) return x;} } catch {}
+  // 4) 野良プロキシ（最終手段）
   try { const r=await fetch(`https://api.allorigins.win/get?url=${enc}`,{signal:AbortSignal.timeout(10000)}); if(r.ok){const j=await r.json(); if(j.contents?.includes("<item")) return j.contents;} } catch {}
   try { const r=await fetch(`https://corsproxy.io/?${enc}`,{signal:AbortSignal.timeout(10000)}); if(r.ok){const t=await r.text(); if(t?.includes("<item")) return t;} } catch {}
   return null;
