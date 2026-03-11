@@ -1,3 +1,5 @@
+// Netlify Function: /netlify/functions/proxy.js
+
 exports.handler = async function(event) {
   const url = event.queryStringParameters?.url;
   if (!url) return { statusCode: 400, body: 'url parameter required' };
@@ -8,8 +10,17 @@ exports.handler = async function(event) {
     'rss.itmedia.co.jp', 'ascii.jp', 'news.mynavi.jp',
     'www.watch.impress.co.jp', 'pc.watch.impress.co.jp',
     'akiba-pc.watch.impress.co.jp', 'internet.watch.impress.co.jp',
-    'www.4gamer.net', 'feeds.bbci.co.uk', 'trends.google.co.jp',
+    'www.4gamer.net', 'feeds.bbci.co.uk', 'www.reuters.com',
+    'trends.google.co.jp',
     'www.shinmai.co.jp', 'shimintimes.co.jp',
+    'www.j-cast.com',
+    'www.gizmodo.jp',
+    'zenn.dev',
+    'www.sponichi.co.jp',
+    'toyokeizai.net',
+    'www.lifehacker.jp',
+    'b.hatena.ne.jp',
+    'rocketnews24.com',
   ];
 
   let hostname;
@@ -22,14 +33,21 @@ exports.handler = async function(event) {
 
   try {
     const res = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; RSSReader/1.0)', 'Accept': 'application/rss+xml, application/xml, text/xml, */*' },
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; RSSReader/1.0)',
+        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+      },
       signal: AbortSignal.timeout(10000),
     });
     if (!res.ok) return { statusCode: res.status, body: `upstream error: ${res.status}` };
     const body = await res.text();
     return {
       statusCode: 200,
-      headers: { 'Content-Type': res.headers.get('content-type') || 'text/xml', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'public, max-age=300' },
+      headers: {
+        'Content-Type': res.headers.get('content-type') || 'text/xml',
+        'Access-Control-Allow-Origin': '*',
+        'Cache-Control': 'public, max-age=300',
+      },
       body,
     };
   } catch(e) { return { statusCode: 500, body: `fetch error: ${e.message}` }; }
