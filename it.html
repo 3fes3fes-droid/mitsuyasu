@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>IP単語帳</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#080c14;color:#eef2ff;font-family:-apple-system,'Hiragino Sans','Noto Sans JP',sans-serif;overflow:hidden;position:fixed;width:100%;height:100%}
+#scroll{width:100%;height:calc(100% - 44px);overflow-y:scroll;-webkit-overflow-scrolling:touch;}
+#scroll::-webkit-scrollbar{display:none}
+.page{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px 20px;position:relative;}
+.p-term{background:#080c14;}
+.p-meaning{background:#0c1220;}
+.term-category{position:absolute;top:20px;left:20px;font-size:11px;color:#4a5a80;
+  background:#0f1624;padding:3px 10px;border-radius:999px;border:1px solid #1a2035;}
+.list-open-btn{position:absolute;top:16px;right:16px;background:transparent;
+  border:1px solid #1a2035;border-radius:6px;color:#4a5a80;font-size:11px;
+  font-weight:700;font-family:inherit;padding:4px 10px;cursor:pointer;}
+.term-fullname{font-size:13px;color:#4f9cf9;opacity:.75;margin-bottom:14px;
+  text-align:center;letter-spacing:.04em;min-height:18px;}
+#term-text{font-weight:900;color:#eef2ff;text-align:center;line-height:1.15;letter-spacing:-.01em;}
+.meaning-term-label{font-size:12px;color:#4a5a80;margin-bottom:4px;text-align:center;}
+.meaning-term{font-size:18px;font-weight:900;color:#4f9cf9;text-align:center;margin-bottom:22px;}
+#meaning-text{color:#8898c0;line-height:2.0;text-align:left;width:100%;max-width:520px;}
+.related-section{margin-top:20px;width:100%;max-width:520px;}
+.related-label{font-size:11px;color:#e3b341;font-weight:700;margin-bottom:8px;}
+.related-tags{display:flex;flex-wrap:wrap;gap:6px;}
+.related-tag{font-size:12px;background:#0d1320;border:1px solid #1a2035;color:#8898c0;padding:3px 11px;border-radius:999px;}
+#bar{height:44px;background:#0c1220;border-top:1px solid #1a2035;display:flex;align-items:center;padding:0 14px;gap:8px;}
+#timer-track{flex:1;height:3px;background:#1a2035;border-radius:999px;overflow:hidden;}
+#timer-fill{height:100%;width:100%;border-radius:999px;background:#4f9cf9;}
+.bar-btn{background:transparent;border:1px solid #1a2035;border-radius:6px;color:#4a5a80;font-size:11px;font-weight:700;font-family:inherit;padding:4px 10px;cursor:pointer;white-space:nowrap;}
+.bar-btn.on{border-color:#4f9cf9;color:#4f9cf9;}
+#phase-label{font-size:10px;color:#4a5a80;min-width:24px;text-align:center;}
+
+/* 一覧ビュー */
+#list-view{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#080c14;flex-direction:column;z-index:100;}
+#list-view.show{display:flex;}
+.list-header{height:44px;background:#0c1220;border-bottom:1px solid #1a2035;display:flex;align-items:center;padding:0 14px;gap:12px;flex-shrink:0;}
+.list-toolbar{padding:12px 14px 8px;background:#080c14;border-bottom:1px solid #1a2035;display:flex;flex-direction:column;gap:8px;flex-shrink:0;}
+.search-input{width:100%;background:#0f1624;border:1px solid #1a2035;border-radius:8px;color:#eef2ff;padding:9px 13px;font-size:16px;font-family:inherit;outline:none;}
+.search-input:focus{border-color:#4f9cf9;}
+.search-scope{display:flex;gap:14px;}
+.scope-label{display:flex;align-items:center;gap:4px;font-size:12px;color:#4a5a80;cursor:pointer;}
+.scope-label input{accent-color:#4f9cf9;}
+.scope-label:has(input:checked){color:#4f9cf9;}
+.len-filter-row{display:flex;gap:5px;flex-wrap:wrap;}
+.len-btn{background:#0f1624;border:1px solid #1a2035;border-radius:6px;color:#4a5a80;padding:3px 10px;font-size:11px;font-family:inherit;cursor:pointer;}
+.len-btn.active{border-color:#4f9cf9;color:#4f9cf9;background:#0d1830;}
+.list-count{padding:8px 14px 4px;font-size:11px;color:#4a5a80;flex-shrink:0;}
+.list-scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:0 14px 20px;}
+.list-wrap{display:flex;flex-direction:column;gap:8px;padding-top:8px;}
+.list-item{background:#0f1624;border:1px solid #1a2035;border-radius:10px;padding:13px 15px;}
+.list-item-header{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:5px;}
+.list-term{font-weight:700;font-size:15px;color:#4f9cf9;}
+.list-fullname{font-size:11px;color:#4f9cf9;opacity:.6;margin-top:1px;}
+.list-cat{font-size:10px;color:#4a5a80;background:#1a2035;padding:2px 8px;border-radius:999px;white-space:nowrap;flex-shrink:0;margin-top:2px;}
+.list-desc{font-size:13px;color:#6878a0;line-height:1.65;}
+.list-related{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px;}
+.list-related-tag{font-size:11px;background:#080c14;border:1px solid #1a2035;color:#4a5a80;padding:2px 8px;border-radius:999px;}
+</style>
+</head>
+<body>
+
+<div id="scroll"></div>
+<div id="bar">
+  <span id="phase-label">単語</span>
+  <div id="timer-track"><div id="timer-fill"></div></div>
+  <button class="bar-btn" id="auto-btn" onclick="toggleAuto()">▶ 自動</button>
+  <button class="bar-btn" onclick="doShuffle()">⇄</button>
+</div>
+
+<div id="list-view">
+  <div class="list-header">
+    <button class="bar-btn" onclick="switchView('slide')">← スライド</button>
+    <span style="font-size:13px;font-weight:700;color:#4a5a80;">一覧</span>
+  </div>
+  <div class="list-toolbar">
+    <input class="search-input" id="search-input" placeholder="用語・説明・分野で絞り込み…" oninput="filterList()">
+    <div class="search-scope">
+      <label class="scope-label"><input type="radio" name="scope" value="all" checked onchange="filterList()"> 全文</label>
+      <label class="scope-label"><input type="radio" name="scope" value="term" onchange="filterList()"> 用語のみ</label>
+      <label class="scope-label"><input type="radio" name="scope" value="desc" onchange="filterList()"> 説明のみ</label>
+    </div>
+    <div class="len-filter-row">
+      <button class="len-btn active" data-len="0" onclick="setLenFilter(this)">すべて</button>
+      <button class="len-btn" data-len="2" onclick="setLenFilter(this)">2文字</button>
+      <button class="len-btn" data-len="3" onclick="setLenFilter(this)">3文字</button>
+      <button class="len-btn" data-len="4" onclick="setLenFilter(this)">4文字</button>
+      <button class="len-btn" data-len="5" onclick="setLenFilter(this)">5文字以上</button>
+    </div>
+  </div>
+  <div class="list-count" id="list-count"></div>
+  <div class="list-scroll">
+    <div class="list-wrap" id="list-wrap"></div>
+  </div>
+</div>
+
+<script>
+let ALL_TERMS = [];
+const DUR = { term:4000, meaning:7000 };
+const COLORS = { term:'#4f9cf9', meaning:'#34d399' };
+const PHASE_LABEL = { term:'単語', meaning:'意味' };
+
+let terms = [];
+let idx = 0, autoOn = false, phase = 'term';
+let timerRaf = null, timerTimeout = null, timerStart = null;
+let activeLenFilter = 0;
+
+function getVH(){ return window.innerHeight - 44; }
+
+function scrollToPage(n){
+  document.getElementById('scroll').scrollTop = n * getVH();
+}
+
+function switchView(v){
+  if(v === 'list'){
+    document.getElementById('list-view').classList.add('show');
+    stopTimer(); autoOn = false;
+    document.getElementById('auto-btn').textContent = '▶ 自動';
+    document.getElementById('auto-btn').classList.remove('on');
+    buildList(ALL_TERMS); filterList();
+  } else {
+    document.getElementById('list-view').classList.remove('show');
+  }
+}
+
+function render(){
+  const t = terms[idx];
+  const vh = getVH();
+  document.getElementById('scroll').innerHTML = `
+    <div class="page p-term" style="min-height:${vh}px" id="pg-term">
+      <div class="term-category">${t.category}</div>
+      <button class="list-open-btn" onclick="switchView('list')">一覧 ☰</button>
+      <div class="term-fullname" id="term-fullname">${t.full || ''}</div>
+      <div id="term-text">${t.term}</div>
+    </div>
+    <div class="page p-meaning" style="min-height:${vh}px" id="pg-meaning">
+      <div class="meaning-term-label">${t.category}</div>
+      <div class="meaning-term">${t.term}</div>
+      <div id="meaning-text">${t.desc}</div>
+      ${t.related && t.related.length ? `
+        <div class="related-section">
+          <div class="related-label">💡 関連用語</div>
+          <div class="related-tags">${t.related.map(r=>`<span class="related-tag">${r}</span>`).join('')}</div>
+        </div>` : ''}
+    </div>`;
+  document.getElementById('scroll').scrollTop = 0;
+  setPhaseUI('term');
+  fitFonts();
+  if(autoOn) runPhase('term');
+}
+
+function fitFonts(){
+  requestAnimationFrame(()=>{ fitTermFont(); fitMeaningFont(); });
+}
+function fitTermFont(){
+  const pg = document.getElementById('pg-term');
+  const el = document.getElementById('term-text');
+  const full = document.getElementById('term-fullname');
+  if(!pg||!el) return;
+  const vh = getVH();
+  const usedH = 24+24+22+(full&&full.textContent?32:0);
+  const maxH = vh - usedH, maxW = pg.clientWidth - 40;
+  let lo=20, hi=220;
+  while(hi-lo>1){ const mid=(lo+hi)>>1; el.style.fontSize=mid+'px';
+    (el.scrollHeight<=maxH&&el.scrollWidth<=maxW)?(lo=mid):(hi=mid); }
+  el.style.fontSize=lo+'px';
+}
+function fitMeaningFont(){
+  const pg = document.getElementById('pg-meaning');
+  const el = document.getElementById('meaning-text');
+  if(!pg||!el) return;
+  const vh = getVH();
+  const relBox = pg.querySelector('.related-section');
+  const relH = relBox ? relBox.offsetHeight+20 : 0;
+  const usedH = 24+24+22+22+relH, maxH = vh - usedH;
+  let lo=14, hi=32;
+  while(hi-lo>1){ const mid=(lo+hi)>>1; el.style.fontSize=mid+'px';
+    el.scrollHeight<=maxH?(lo=mid):(hi=mid); }
+  el.style.fontSize=lo+'px';
+}
+
+function startTimer(dur, color, cb){
+  stopTimer(); timerStart = performance.now();
+  document.getElementById('timer-fill').style.background = color;
+  document.getElementById('timer-fill').style.width = '100%';
+  function frame(now){
+    const pct = Math.max(0, 1-(now-timerStart)/dur);
+    document.getElementById('timer-fill').style.width = (pct*100)+'%';
+    if(pct>0) timerRaf = requestAnimationFrame(frame);
+  }
+  timerRaf = requestAnimationFrame(frame);
+  timerTimeout = setTimeout(()=>{ stopTimer(); cb&&cb(); }, dur);
+}
+function stopTimer(){
+  if(timerRaf){ cancelAnimationFrame(timerRaf); timerRaf=null; }
+  if(timerTimeout){ clearTimeout(timerTimeout); timerTimeout=null; }
+}
+
+function setPhaseUI(ph){
+  document.getElementById('phase-label').textContent = PHASE_LABEL[ph];
+  document.getElementById('timer-fill').style.background = COLORS[ph];
+}
+function runPhase(ph){
+  phase = ph; setPhaseUI(ph);
+  scrollToPage(ph==='term'?0:1);
+  startTimer(DUR[ph], COLORS[ph], ()=>{
+    if(!autoOn) return;
+    if(ph==='term') runPhase('meaning');
+    else { idx=(idx+1)%terms.length; render(); }
+  });
+}
+
+function toggleAuto(){
+  autoOn = !autoOn;
+  const btn = document.getElementById('auto-btn');
+  if(autoOn){
+    btn.textContent='⏹ 停止'; btn.classList.add('on');
+    const st = document.getElementById('scroll').scrollTop;
+    runPhase(st < getVH()*0.5 ? 'term' : 'meaning');
+  } else {
+    btn.textContent='▶ 自動'; btn.classList.remove('on'); stopTimer();
+  }
+}
+
+function doShuffle(){
+  stopTimer(); autoOn=false;
+  document.getElementById('auto-btn').textContent='▶ 自動';
+  document.getElementById('auto-btn').classList.remove('on');
+  for(let i=terms.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1)); [terms[i],terms[j]]=[terms[j],terms[i]];
+  }
+  idx=0; render();
+}
+
+function buildList(list){
+  document.getElementById('list-count').textContent = list.length+'語';
+  document.getElementById('list-wrap').innerHTML = list.map(t=>{
+    const fullHtml = t.full ? `<div class="list-fullname">${t.full}</div>` : '';
+    const relHtml = t.related&&t.related.length
+      ? `<div class="list-related">${t.related.map(r=>`<span class="list-related-tag">${r}</span>`).join('')}</div>` : '';
+    return `<div class="list-item">
+      <div class="list-item-header">
+        <div><div class="list-term">${t.term}</div>${fullHtml}</div>
+        <span class="list-cat">${t.category}</span>
+      </div>
+      <div class="list-desc">${t.desc}</div>${relHtml}
+    </div>`;
+  }).join('');
+}
+
+function setLenFilter(btn){
+  document.querySelectorAll('.len-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  activeLenFilter = parseInt(btn.dataset.len);
+  filterList();
+}
+
+function filterList(){
+  const q = document.getElementById('search-input').value.trim().toLowerCase();
+  const scope = document.querySelector('input[name="scope"]:checked').value;
+  let filtered = ALL_TERMS;
+  if(q){ filtered = filtered.filter(t=>{
+    if(scope==='term') return t.term.toLowerCase().includes(q)||(t.full&&t.full.toLowerCase().includes(q));
+    if(scope==='desc') return t.desc.toLowerCase().includes(q);
+    return t.term.toLowerCase().includes(q)||t.desc.toLowerCase().includes(q)
+      ||t.category.toLowerCase().includes(q)||(t.full&&t.full.toLowerCase().includes(q));
+  }); }
+  if(activeLenFilter>0){ filtered = filtered.filter(t=>{
+    const len=t.term.length;
+    return activeLenFilter===5 ? len>=5 : len===activeLenFilter;
+  }); }
+  buildList(filtered);
+}
+
+window.addEventListener('resize', ()=>{ if(terms.length) render(); });
+
+async function init(){
+  document.getElementById('scroll').innerHTML =
+    '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#4a5a80;font-size:14px;">読み込み中…</div>';
+  try {
+    const res = await fetch('./terms.json?v=' + Date.now());
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    ALL_TERMS = await res.json();
+  } catch(e) {
+    document.getElementById('scroll').innerHTML =
+      '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;">' +
+      '<div style="color:#f87171;font-size:14px;">terms.json が読み込めませんでした</div>' +
+      '<div style="color:#4a5a80;font-size:12px;">' + e.message + '</div>' +
+      '</div>';
+    return;
+  }
+  terms = [...ALL_TERMS];
+  doShuffle();
+}
+init();
+</script>
+</body>
+</html>
