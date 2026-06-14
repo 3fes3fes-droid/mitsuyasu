@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MP4 Random Player</title>
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #050505;
+    color: #eee;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow: hidden;
+  }
+  #video {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    object-fit: contain;
+  }
+  #panel {
+    position: fixed;
+    left: 12px;
+    bottom: 12px;
+    max-width: min(900px, calc(100vw - 24px));
+    background: rgba(0,0,0,.72);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 10px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.45;
+    z-index: 10;
+  }
+  #title {
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  #meta {
+    opacity: .82;
+    word-break: break-word;
+  }
+  #buttons {
+    margin-top: 8px;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  button {
+    color: #eee;
+    background: #222;
+    border: 1px solid #555;
+    border-radius: 7px;
+    padding: 6px 9px;
+    cursor: pointer;
+  }
+  button:hover { background: #333; }
+  #status {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.70);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 13px;
+    max-width: min(680px, calc(100vw - 20px));
+    text-align: right;
+    z-index: 10;
+  }
+  #mobileControls {
+    display: none;
+  }
+  .hidden { display: none !important; }
+
+  @media (pointer: coarse) {
+    #panel {
+      left: 8px;
+      right: 8px;
+      bottom: 86px;
+      max-width: none;
+      font-size: 12px;
+      padding: 8px;
+    }
+    #buttons {
+      gap: 5px;
+    }
+    #buttons button {
+      padding: 5px 7px;
+      font-size: 12px;
+    }
+    #status {
+      top: 8px;
+      right: 8px;
+      font-size: 12px;
+      max-width: calc(100vw - 16px);
+    }
+    #mobileControls {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      z-index: 20;
+      pointer-events: auto;
+    }
+    #mobileControls button {
+      font-size: 16px;
+      padding: 14px 18px;
+      border-radius: 12px;
+      background: rgba(0,0,0,.78);
+      color: #eee;
+      border: 1px solid rgba(255,255,255,.35);
+    }
+    #mobileControls .nextMobile {
+      font-size: 18px;
+      padding-left: 26px;
+      padding-right: 26px;
+    }
+  }
+</style>
+</head>
+<body>
+<video id="video" controls autoplay playsinline preload="metadata"></video>
+
+<div id="status">loading...</div>
+
+<div id="panel">
+  <div id="title"></div>
+  <div id="meta"></div>
+  <div id="buttons">
+    <button id="backBtn">10秒戻し / ←</button>
+    <button id="fwdBtn">10秒送り / →</button>
+    <button id="nextBtn">次 / ↑</button>
+    <button id="keepBtn">残す / k</button>
+    <button id="exportBtn">残したURLを書き出し</button>
+    <button id="clearKeepBtn">残すリスト初期化</button>
+    <button id="toggleBtn">パネル / h</button>
+  </div>
+</div>
+
+<div id="mobileControls">
+  <button id="mobileBackBtn">-10秒</button>
+  <button id="mobileNextBtn" class="nextMobile">次</button>
+  <button id="mobileFwdBtn">+10秒</button>
+</div>
+
+<script>
+"use strict";
+
+/*
+  必要ファイル:
+  - play.html
+  - mp4_catalog.json
+
+  任意ファイル:
+  - ng_words.json
+    enabled: true, words: ["..."] の形式。
+    同じ階層に置くと、タイトル・メーカー・女優名などにNGワードを含む動画を除外する。
+
+  操作:
+  - → : 10秒送り
+  - ← : 10秒戻し
+  - ↑ : 次のランダム動画
+  - k : 現在の動画を「残す」リストに保存
+  - h : パネルと右上ステータスの表示/非表示
+*/
+
+const CATALOG_URL = "mp4_catalog.json";
+const NG_WORDS_URL = "ng_words.json";
+
+const LS_KEEP_URLS = "dmm_random_player_keep_urls_v3";
+const LS_KEEP_ITEMS = "dmm_random_player_keep_items_v3";
+
+const video = document.getElementById("video");
+const statusEl = document.getElementById("status");
+const panel = document.getElementById("panel");
+const titleEl = document.getElementById("title");
+const metaEl = document.getElementById("meta");
+
+let allItems = [];
+let order = [];
+let pos = -1;
+let current = null;
+
+let rawItemCount = 0;
+let ngWordCount = 0;
+let ngExcludedCount = 0;
+
+function loadArray(key) {
+  try {
+    const v = JSON.parse(localStorage.getItem(key) || "[]");
+    return Array.isArray(v) ? v : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveArray(key, arr) {
+  localStorage.setItem(key, JSON.stringify(arr));
+}
+
+function shuffleOrder() {
+  order = allItems.map((_, i) => i);
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  pos = -1;
+}
+
+function updateStatus(extraText = "") {
+  const keepCount = loadArray(LS_KEEP_URLS).length;
+  const idxText = allItems.length ? `${Math.max(0, pos + 1)} / ${allItems.length}` : "0 / 0";
+  const ngText = ngWordCount ? ` / NG ${ngWordCount}語 / 除外 ${ngExcludedCount}` : "";
+  statusEl.textContent = `候補 ${allItems.length} / 再生順 ${idxText} / 残す ${keepCount}${ngText}${extraText ? " / " + extraText : ""}`;
+}
+
+function showItem(item) {
+  current = item;
+
+  if (!item) {
+    titleEl.textContent = "再生できる項目がありません";
+    metaEl.textContent = "";
+    video.removeAttribute("src");
+    video.load();
+    updateStatus();
+    return;
+  }
+
+  titleEl.textContent = `${item.id || ""} ${item.title || ""}`.trim();
+
+  const actresses = Array.isArray(item.actresses) ? item.actresses.join(" / ") : "";
+  metaEl.textContent = [
+    item.maker,
+    item.label,
+    item.series,
+    actresses,
+    item.delivery_start_at,
+    item.page
+  ].filter(Boolean).join(" | ");
+
+  video.src = item.mp4;
+  video.load();
+  video.play().catch(() => {
+    updateStatus("自動再生が止められた場合は動画の再生ボタンを押す");
+  });
+
+  updateStatus();
+}
+
+function nextRandom() {
+  if (!allItems.length) {
+    showItem(null);
+    return;
+  }
+
+  pos++;
+  if (pos >= order.length) {
+    shuffleOrder();
+    pos++;
+  }
+
+  showItem(allItems[order[pos]]);
+}
+
+function seekBy(seconds) {
+  if (!video || !Number.isFinite(video.duration)) return;
+  video.currentTime = Math.max(0, Math.min(video.duration, video.currentTime + seconds));
+}
+
+function keepCurrent() {
+  if (!current || !current.mp4) return;
+
+  const urls = loadArray(LS_KEEP_URLS).map(String);
+  if (!urls.includes(current.mp4)) {
+    urls.push(current.mp4);
+    saveArray(LS_KEEP_URLS, urls);
+  }
+
+  const items = loadArray(LS_KEEP_ITEMS);
+  const exists = items.some(x => x && x.mp4 === current.mp4);
+  if (!exists) {
+    items.push({
+      id: current.id || "",
+      title: current.title || "",
+      mp4: current.mp4,
+      page: current.page || "",
+      thumb: current.thumb || "",
+      actresses: Array.isArray(current.actresses) ? current.actresses : [],
+      maker: current.maker || "",
+      label: current.label || "",
+      series: current.series || "",
+      director: current.director || "",
+      delivery_start_at: current.delivery_start_at || "",
+      review_average: current.review_average ?? null,
+      kept_at: new Date().toISOString()
+    });
+    saveArray(LS_KEEP_ITEMS, items);
+  }
+
+  updateStatus("保存した");
+}
+
+function clearKeepList() {
+  const ok = confirm("残すリストを初期化します。書き出し前なら元に戻せません。");
+  if (!ok) return;
+  localStorage.removeItem(LS_KEEP_URLS);
+  localStorage.removeItem(LS_KEEP_ITEMS);
+  updateStatus("残すリスト初期化");
+}
+
+function downloadJson(filename, data) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type: "application/json;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function exportKeep() {
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const data = {
+    exported_at: new Date().toISOString(),
+    keep_count: loadArray(LS_KEEP_URLS).length,
+    keep_urls: loadArray(LS_KEEP_URLS),
+    keep_items: loadArray(LS_KEEP_ITEMS)
+  };
+  downloadJson(`keep_export_${stamp}.json`, data);
+}
+
+function togglePanel() {
+  panel.classList.toggle("hidden");
+  statusEl.classList.toggle("hidden");
+}
+
+async function loadNgWords() {
+  try {
+    const res = await fetch(NG_WORDS_URL);
+    if (!res.ok) {
+      console.warn("ng_words.json not found:", res.status);
+      return [];
+    }
+
+    const data = await res.json();
+
+    if (!data || data.enabled === false) {
+      return [];
+    }
+
+    if (!Array.isArray(data.words)) {
+      console.warn("ng_words.json の words が配列ではありません。");
+      return [];
+    }
+
+    return data.words
+      .map(x => String(x || "").trim())
+      .filter(Boolean);
+  } catch (err) {
+    console.warn("ng_words.json load failed:", err);
+    return [];
+  }
+}
+
+function getSearchText(item) {
+  return [
+    item.id,
+    item.title,
+    item.maker,
+    item.label,
+    item.series,
+    item.director,
+    Array.isArray(item.actresses) ? item.actresses.join(" ") : ""
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function applyNgFilter(items, ngWords) {
+  if (!ngWords.length) return items;
+
+  const words = ngWords.map(w => w.toLowerCase());
+
+  return items.filter(item => {
+    const text = getSearchText(item);
+    return !words.some(word => text.includes(word));
+  });
+}
+
+video.addEventListener("ended", nextRandom);
+
+video.addEventListener("error", () => {
+  updateStatus("動画読み込みエラー。↑か次ボタンで次へ");
+});
+
+document.getElementById("backBtn").addEventListener("click", () => seekBy(-10));
+document.getElementById("fwdBtn").addEventListener("click", () => seekBy(10));
+document.getElementById("nextBtn").addEventListener("click", nextRandom);
+document.getElementById("keepBtn").addEventListener("click", keepCurrent);
+document.getElementById("exportBtn").addEventListener("click", exportKeep);
+document.getElementById("clearKeepBtn").addEventListener("click", clearKeepList);
+document.getElementById("toggleBtn").addEventListener("click", togglePanel);
+
+document.getElementById("mobileBackBtn").addEventListener("click", () => seekBy(-10));
+document.getElementById("mobileFwdBtn").addEventListener("click", () => seekBy(10));
+document.getElementById("mobileNextBtn").addEventListener("click", nextRandom);
+
+document.addEventListener("keydown", (ev) => {
+  const k = ev.key.toLowerCase();
+  const tag = (ev.target && ev.target.tagName || "").toLowerCase();
+
+  if (tag === "input" || tag === "textarea" || ev.isComposing) return;
+
+  if (k === "arrowright") {
+    ev.preventDefault();
+    seekBy(10);
+  } else if (k === "arrowleft") {
+    ev.preventDefault();
+    seekBy(-10);
+  } else if (k === "arrowup") {
+    ev.preventDefault();
+    nextRandom();
+  } else if (k === "k") {
+    ev.preventDefault();
+    keepCurrent();
+  } else if (k === "h") {
+    ev.preventDefault();
+    togglePanel();
+  }
+});
+
+async function boot() {
+  const res = await fetch(CATALOG_URL);
+  if (!res.ok) throw new Error(`catalog load failed: ${res.status}`);
+
+  const data = await res.json();
+  if (!Array.isArray(data.items)) {
+    throw new Error("mp4_catalog.json の items が配列ではありません。");
+  }
+
+  const ngWords = await loadNgWords();
+
+  const rawItems = data.items.filter(x => x && x.mp4);
+  rawItemCount = rawItems.length;
+  ngWordCount = ngWords.length;
+
+  allItems = applyNgFilter(rawItems, ngWords);
+  ngExcludedCount = rawItemCount - allItems.length;
+
+  shuffleOrder();
+  nextRandom();
+}
+
+boot().catch(err => {
+  console.error(err);
+  statusEl.textContent = "ERROR";
+  titleEl.textContent = "読み込み失敗";
+  metaEl.textContent = String(err && err.message ? err.message : err);
+});
+</script>
+</body>
+</html>
