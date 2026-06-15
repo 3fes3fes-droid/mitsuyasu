@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>伊豆仁田 時刻表</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #22263a;
+    --border: #2e3350;
+    --text: #e8eaf0;
+    --muted: #7880a0;
+    --accent-home: #4fc3f7;   /* 帰宅：青 */
+    --accent-out:  #81c784;   /* 外出：緑 */
+    --next-bg: #ff6b35;
+    --next-text: #fff;
+    --warn: #ffd54f;
+    --tag-bg: #2e3350;
+    --transfer: #ce93d8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Helvetica Neue', 'Hiragino Sans', 'Meiryo', sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+    padding-bottom: 32px;
+  }
+
+  /* ヘッダー */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .next-clock {
+    font-size: 16px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--next-text);
+    opacity: 0.85;
+    margin-bottom: 4px;
+    letter-spacing: 0.05em;
+  }
+  #gps-status {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .gps-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--muted);
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .gps-dot.active { background: var(--accent-out); }
+
+  /* タブ */
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 4px 8px;
+    gap: 2px;
+  }
+  .tab-row {
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+  }
+  .tab {
+    flex: 0 0 auto;
+    padding: 8px 12px;
+    border: none;
+    background: none;
+    color: var(--muted);
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    transition: all 0.15s;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  .tab.active-home { color: var(--accent-home); border-bottom-color: var(--accent-home); }
+  .tab.active-out  { color: var(--accent-out);  border-bottom-color: var(--accent-out); }
+  .tab:not(.active-home):not(.active-out):hover { color: var(--text); }
+  .home-ico {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    color: currentColor;
+  }
+
+  /* GPS近い駅バナー */
+  #nearby-banner {
+    display: none;
+    margin: 12px 16px 0;
+    padding: 10px 14px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  #nearby-banner strong { color: var(--text); }
+
+  /* セクション */
+  .section {
+    display: none;
+    padding: 12px 16px 0;
+  }
+  .section.visible { display: block; }
+
+  /* 次の電車カード */
+  .next-card {
+    background: var(--next-bg);
+    color: var(--next-text);
+    border-radius: 12px;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .next-label { font-size: 16.5px; font-weight: 700; letter-spacing: 0.08em; opacity: 0.85; }
+  .next-time  { font-size: 42px; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; }
+  .next-sub   { font-size: 18px; opacity: 0.85; margin-top: 4px; }
+  .next-until { font-size: 19.5px; font-weight: 700; text-align: right; }
+  .next-until-min { font-size: 42px; font-weight: 800; line-height: 1; }
+
+  /* 時刻グリッド */
+  .hour-block {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .hour-label {
+    width: 32px;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--muted);
+    padding: 6px 4px 6px 0;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.8;
+  }
+  .hour-divider {
+    width: 1px;
+    background: var(--border);
+    flex-shrink: 0;
+    margin: 0 8px;
+    min-height: 30px;
+    align-self: stretch;
+  }
+  .minutes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 4px 0;
+    flex: 1;
+  }
+  .min-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    padding: 4px 6px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    cursor: default;
+    transition: background 0.1s;
+    position: relative;
+    text-decoration: none;
+  }
+  .min-chip.next-train {
+    background: var(--next-bg);
+    color: var(--next-text);
+    border-color: var(--next-bg);
+  }
+  .min-chip.past {
+    opacity: 0.3;
+  }
+  .min-chip.transfer::after {
+    content: '乗';
+    position: absolute;
+    top: -4px; right: -4px;
+    font-size: 8px;
+    background: var(--transfer);
+    color: #fff;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 700;
+  }
+  .min-chip.special::after {
+    content: '特';
+    position: absolute;
+    top: -4px; right: -4px;
+    font-size: 8px;
+    background: var(--warn);
+    color: #222;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 700;
+  }
+
+  /* セクションヘッダー */
+  .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+  }
+  .sec-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .sec-badge {
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+  .badge-home { background: rgba(79,195,247,0.15); color: var(--accent-home); }
+  .badge-out  { background: rgba(129,199,132,0.15); color: var(--accent-out); }
+
+  .route-info {
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background: var(--surface2);
+    border-radius: 6px;
+    border-left: 3px solid var(--border);
+  }
+  .route-info .transfer-note {
+    color: var(--transfer);
+    font-weight: 600;
+  }
+  .route-info .jikoku-note {
+    color: var(--warn);
+    font-weight: 600;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 14px 0;
+  }
+
+  /* 凡例 */
+  .legend {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    font-size: 11px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 16px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-dot {
+    width: 10px; height: 10px;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="next-card" id="next-card-active">
+    <div>
+      <div class="next-time" id="ntime-active">--:--</div>
+      <div class="next-sub" id="nsub-active">--</div>
+    </div>
+    <div class="next-until">
+      <div id="clock" class="next-clock">--:--</div>
+      <div class="next-until-min" id="nuntil-active">--</div>
+      <div style="font-size:11px;opacity:.85;">分後</div>
+    </div>
+  </div>
+  <div id="gps-status">
+    <span class="gps-dot" id="gps-dot"></span>
+    <span id="gps-text">GPS取得中...</span>
+  </div>
+</header>
+
+<div class="tabs" id="tabs">
+  <div class="tab-row">
+    <button class="tab active-out" data-tab="out-daito"><svg class="home-ico" viewBox="0 0 24 24" fill="none"><path d="M3 12.5 12 4l9 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 11v9h14v-9" fill="currentColor" opacity="0.18"/><path d="M5 11v9h14v-9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20v-5h4v5" fill="currentColor"/><rect x="15.5" y="5.2" width="1.7" height="3.4" fill="currentColor"/></svg> → 大仁</button>
+    <button class="tab" data-tab="home-daito">大仁 → <svg class="home-ico" viewBox="0 0 24 24" fill="none"><path d="M3 12.5 12 4l9 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 11v9h14v-9" fill="currentColor" opacity="0.18"/><path d="M5 11v9h14v-9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20v-5h4v5" fill="currentColor"/><rect x="15.5" y="5.2" width="1.7" height="3.4" fill="currentColor"/></svg></button>
+    <button class="tab" data-tab="out-mishima"><svg class="home-ico" viewBox="0 0 24 24" fill="none"><path d="M3 12.5 12 4l9 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 11v9h14v-9" fill="currentColor" opacity="0.18"/><path d="M5 11v9h14v-9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20v-5h4v5" fill="currentColor"/><rect x="15.5" y="5.2" width="1.7" height="3.4" fill="currentColor"/></svg> → 三島</button>
+  </div>
+  <div class="tab-row">
+    <button class="tab" data-tab="out-numazu"><svg class="home-ico" viewBox="0 0 24 24" fill="none"><path d="M3 12.5 12 4l9 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 11v9h14v-9" fill="currentColor" opacity="0.18"/><path d="M5 11v9h14v-9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20v-5h4v5" fill="currentColor"/><rect x="15.5" y="5.2" width="1.7" height="3.4" fill="currentColor"/></svg> → 沼津</button>
+    <button class="tab" data-tab="home-mishima">三島 → <svg class="home-ico" viewBox="0 0 24 24" fill="none"><path d="M3 12.5 12 4l9 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 11v9h14v-9" fill="currentColor" opacity="0.18"/><path d="M5 11v9h14v-9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20v-5h4v5" fill="currentColor"/><rect x="15.5" y="5.2" width="1.7" height="3.4" fill="currentColor"/></svg></button>
+    <button class="tab" data-tab="home-numazu">沼津 → <svg class="home-ico" viewBox="0 0 24 24" fill="none"><path d="M3 12.5 12 4l9 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 11v9h14v-9" fill="currentColor" opacity="0.18"/><path d="M5 11v9h14v-9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20v-5h4v5" fill="currentColor"/><rect x="15.5" y="5.2" width="1.7" height="3.4" fill="currentColor"/></svg></button>
+  </div>
+</div>
+
+<div id="nearby-banner">
+  📍 現在地に近い駅: <strong id="nearby-station">--</strong>
+</div>
+
+<!-- ===== 帰宅: 三島→伊豆仁田 ===== -->
+<div class="section" id="sec-home-mishima">
+  <div class="sec-header">
+    <span class="sec-title">三島 → 伊豆仁田</span>
+    <span class="sec-badge badge-home">帰宅</span>
+  </div>
+  <div class="route-info">伊豆箱根鉄道駿豆線 / 三島発 修善寺方面</div>
+  <div id="grid-home-mishima"></div>
+</div>
+
+<!-- ===== 帰宅: 沼津→三島→伊豆仁田 ===== -->
+<div class="section" id="sec-home-numazu">
+  <div class="sec-header">
+    <span class="sec-title">沼津 → 伊豆仁田</span>
+    <span class="sec-badge badge-home">帰宅</span>
+  </div>
+  <div class="route-info">
+    JR東海道本線（沼津→三島）＋ 伊豆箱根鉄道（三島→伊豆仁田）<br>
+    <span class="transfer-note">⚑ 三島駅で乗り換え（JR→伊豆箱根）</span><br>
+    <span class="jikoku-note">※ 沼津発時刻を表示。三島乗継は各自確認。</span>
+  </div>
+  <div id="grid-home-numazu"></div>
+</div>
+
+<!-- ===== 帰宅: 大仁→伊豆仁田 ===== -->
+<div class="section" id="sec-home-daito">
+  <div class="sec-header">
+    <span class="sec-title">大仁 → 伊豆仁田</span>
+    <span class="sec-badge badge-home">帰宅</span>
+  </div>
+  <div class="route-info">伊豆箱根鉄道駿豆線 / 大仁発 三島方面（伊豆仁田着）</div>
+  <div id="grid-home-daito"></div>
+</div>
+
+<!-- ===== 外出: 伊豆仁田→三島 ===== -->
+<div class="section" id="sec-out-mishima">
+  <div class="sec-header">
+    <span class="sec-title">伊豆仁田 → 三島</span>
+    <span class="sec-badge badge-out">外出</span>
+  </div>
+  <div class="route-info">伊豆箱根鉄道駿豆線 / 三島方面</div>
+  <div id="grid-out-mishima"></div>
+</div>
+
+<!-- ===== 外出: 伊豆仁田→沼津 ===== -->
+<div class="section" id="sec-out-numazu">
+  <div class="sec-header">
+    <span class="sec-title">伊豆仁田 → 沼津</span>
+    <span class="sec-badge badge-out">外出</span>
+  </div>
+  <div class="route-info">
+    伊豆箱根鉄道（伊豆仁田→三島）＋ JR東海道本線（三島→沼津）<br>
+    <span class="transfer-note">⚑ 三島駅で乗り換え（伊豆箱根→JR 沼津方面）</span><br>
+    <span class="jikoku-note">※ 伊豆仁田発時刻を表示。三島でJRに乗換。</span>
+  </div>
+  <div id="grid-out-numazu"></div>
+</div>
+
+<!-- ===== 外出: 伊豆仁田→大仁 ===== -->
+<div class="section visible" id="sec-out-daito">
+  <div class="sec-header">
+    <span class="sec-title">伊豆仁田 → 大仁</span>
+    <span class="sec-badge badge-out">外出</span>
+  </div>
+  <div class="route-info">伊豆箱根鉄道駿豆線 / 修善寺方面（大仁通過）</div>
+  <div id="grid-out-daito"></div>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:var(--next-bg)"></div>次の電車</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--surface);border:1px solid var(--border);opacity:.4"></div>通過済み</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--transfer)"></div>乗換あり</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--warn)"></div>特急</div>
+</div>
+
+<script>
+// ============================================================
+// 時刻データ（日曜・祝日）
+// ============================================================
+const DATA = {
+
+  // 三島発 → 伊豆仁田方面（伊豆箱根鉄道 修善寺方面）発時刻
+  // 三島→伊豆仁田 所要約9分
+  'home-mishima': {
+    label: '三島発',
+    sub: '三島発 → 伊豆仁田',
+    url: 'https://transit.yahoo.co.jp/timetable/23636/4941?kind=4',
+    times: [
+      [5,43],[6,10],[6,26],[6,49],
+      [7,11],[7,22],[7,34],[7,44],[7,56],
+      [8,9],[8,20],[8,31],[8,47],
+      [9,0],[9,15],[9,27],[9,43],
+      [10,5],[10,16],[10,27],[10,40],[10,50],
+      [11,11],[11,32],[11,57],
+      [12,21],[12,38],[12,53],
+      [13,7],[13,26],[13,40],[13,50],
+      [14,8],[14,33],[14,53],
+      [15,12],[15,27],[15,41],[15,54],
+      [16,15],[16,30],[16,45],
+      [17,1],[17,17],[17,33],[17,49],
+      [18,5],[18,20],[18,36],[18,52],
+      [19,7],[19,23],[19,39],
+      [20,0],[20,15],[20,37],
+      [21,0],[21,20],[21,42],
+      [22,4],[22,26],[22,55],
+      [23,20],[23,50]
+    ],
+    // 10:40, 13:40 は特急
+    special: [[10,40],[13,40]],
+    note: '大場行き(23:50)以外はすべて修善寺行き'
+  },
+
+  // 沼津発 → 三島（JR）→ 伊豆仁田（伊豆箱根）
+  // 沼津→三島 JR約8分、三島→伊豆仁田 伊豆箱根約9分
+  'home-numazu': {
+    label: '沼津発',
+    sub: '沼津発 → 三島乗換 → 伊豆仁田',
+    url: 'https://transit.yahoo.co.jp/timetable/23600/1360?kind=4',
+    times: [
+      [4,56],[5,17],[5,52],
+      [6,1],[6,6],[6,20],[6,32],[6,44],[6,53],[6,58],
+      [7,13],[7,22],[7,35],[7,38],[7,47],[7,56],
+      [8,8],[8,29],[8,40],[8,47],[8,59],
+      [9,11],[9,32],[9,35],[9,45],
+      [10,5],[10,11],[10,23],[10,40],[10,53],
+      [11,7],[11,22],[11,27],[11,40],[11,51],
+      [12,2],[12,21],[12,29],[12,44],[12,50],
+      [13,6],[13,23],[13,33],[13,44],
+      [14,3],[14,11],[14,29],[14,41],[14,49],
+      [15,7],[15,13],[15,26],[15,41],[15,48],
+      [16,9],[16,22],[16,29],[16,41],[16,48],
+      [17,1],[17,14],[17,25],[17,40],[17,56],
+      [18,10],[18,24],[18,39],[18,44],[18,55],
+      [19,3],[19,13],[19,33],[19,44],[19,54],
+      [20,11],[20,18],[20,33],[20,41],
+      [21,5],[21,21],[21,34],[21,47],
+      [22,10],[22,39],
+      [23,9],[23,36]
+    ],
+    special: [],
+    note: '沼津発時刻。三島でJR→伊豆箱根に乗換。'
+  },
+
+  // 大仁発 → 伊豆仁田（伊豆箱根鉄道 三島方面）
+  // 大仁→伊豆仁田 所要約5分
+  'home-daito': {
+    label: '大仁発',
+    sub: '大仁発 → 伊豆仁田',
+    url: 'https://transit.yahoo.co.jp/timetable/23491/4940?kind=4',
+    times: [
+      [5,35],[5,52],
+      [6,7],[6,30],[6,39],[6,50],
+      [7,3],[7,24],[7,38],
+      [8,2],[8,11],[8,26],[8,40],[8,55],
+      [9,8],[9,23],[9,36],[9,58],
+      [10,19],[10,37],
+      [11,2],[11,25],[11,39],
+      [12,1],[12,18],[12,40],[12,46],
+      [13,7],[13,29],[13,46],
+      [14,2],[14,14],[14,36],[14,50],
+      [15,5],[15,18],[15,34],[15,44],[15,56],
+      [16,11],[16,27],[16,42],[16,58],
+      [17,14],[17,30],[17,46],
+      [18,1],[18,17],[18,33],[18,49],
+      [19,5],[19,21],[19,36],
+      [20,7],[20,28],[20,50],
+      [21,12],[21,34],[21,55],
+      [22,18],[22,47],
+      [23,11]
+    ],
+    // 12:40東京, 15:44東京 は特急
+    special: [[12,40],[15,44]],
+    note: '12:40・15:44は特急（東京行き）'
+  },
+
+  // 伊豆仁田発 → 三島（伊豆箱根鉄道）
+  'out-mishima': {
+    label: '伊豆仁田発',
+    sub: '伊豆仁田発 → 三島',
+    url: 'https://transit.yahoo.co.jp/timetable/23466/4940?kind=4',
+    times: [
+      [5,51],
+      [6,7],[6,23],[6,45],[6,56],
+      [7,6],[7,18],[7,40],[7,53],
+      [8,17],[8,27],[8,44],[8,56],
+      [9,12],[9,23],[9,39],[9,51],
+      [10,13],[10,34],[10,55],
+      [11,18],[11,40],[11,54],
+      [12,16],[12,34],
+      [13,2],[13,23],[13,44],
+      [14,4],[14,16],[14,29],[14,51],
+      [15,6],[15,21],[15,35],[15,49],
+      [16,11],[16,27],[16,43],[16,58],
+      [17,14],[17,30],[17,46],
+      [18,1],[18,17],[18,33],[18,49],
+      [19,4],[19,20],[19,36],[19,53],
+      [20,22],[20,44],
+      [21,6],[21,27],[21,49],
+      [22,11],[22,33],
+      [23,2],[23,28]
+    ],
+    special: [],
+    note: 'すべて三島行き'
+  },
+
+  // 伊豆仁田発 → 三島（伊豆箱根）→ 沼津（JR）
+  // ※伊豆仁田発時刻のみ表示。三島でJR乗換。
+  'out-numazu': {
+    label: '伊豆仁田発',
+    sub: '伊豆仁田発 → 三島乗換 → 沼津',
+    url: 'https://transit.yahoo.co.jp/timetable/23466/4940?kind=4',
+    times: [
+      [5,51],
+      [6,7],[6,23],[6,45],[6,56],
+      [7,6],[7,18],[7,40],[7,53],
+      [8,17],[8,27],[8,44],[8,56],
+      [9,12],[9,23],[9,39],[9,51],
+      [10,13],[10,34],[10,55],
+      [11,18],[11,40],[11,54],
+      [12,16],[12,34],
+      [13,2],[13,23],[13,44],
+      [14,4],[14,16],[14,29],[14,51],
+      [15,6],[15,21],[15,35],[15,49],
+      [16,11],[16,27],[16,43],[16,58],
+      [17,14],[17,30],[17,46],
+      [18,1],[18,17],[18,33],[18,49],
+      [19,4],[19,20],[19,36],[19,53],
+      [20,22],[20,44],
+      [21,6],[21,27],[21,49],
+      [22,11],[22,33],
+      [23,2],[23,28]
+    ],
+    special: [],
+    note: '伊豆仁田発→三島でJR乗換→沼津'
+  },
+
+  // 伊豆仁田発 → 大仁（伊豆箱根鉄道 修善寺方面）
+  'out-daito': {
+    label: '伊豆仁田発',
+    sub: '伊豆仁田発 → 大仁',
+    url: 'https://transit.yahoo.co.jp/timetable/23466/4941?kind=4',
+    times: [
+      [5,57],
+      [6,8],[6,23],[6,40],
+      [7,1],[7,23],[7,35],[7,47],[7,59],
+      [8,11],[8,23],[8,33],[8,45],
+      [9,1],[9,12],[9,28],[9,40],[9,56],
+      [10,18],[10,29],[10,42],
+      [11,2],[11,23],[11,45],
+      [12,11],[12,35],[12,52],
+      [13,7],[13,22],[13,39],
+      [14,4],[14,23],[14,50],
+      [15,7],[15,25],[15,40],[15,55],
+      [16,11],[16,27],[16,43],[16,59],
+      [17,14],[17,30],[17,46],
+      [18,2],[18,17],[18,33],[18,49],
+      [19,5],[19,20],[19,36],[19,52],
+      [20,12],[20,28],[20,50],
+      [21,12],[21,33],[21,55],
+      [22,17],[22,39],
+      [23,9],[23,33]
+    ],
+    special: [],
+    note: 'すべて修善寺方面（大仁通過）'
+  }
+};
+
+// ============================================================
+// 駅の座標（GPS判定用）[FIX] Wikipedia記載の正確な座標に修正
+// 旧・伊豆仁田座標(35.0201,138.9224)は実際の駅から約7kmズレており
+// 「家にいても三島判定になる」不具合の主因だった
+// ============================================================
+const STATIONS = [
+  { name: '三島',   lat: 35.12722,  lon: 138.91056,  tabs: ['home-mishima','out-mishima','out-numazu'] },
+  { name: '沼津',   lat: 35.10311,  lon: 138.85928,  tabs: ['home-numazu','out-numazu'] },
+  { name: '大仁',   lat: 34.99452,  lon: 138.93764,  tabs: ['home-daito','out-daito'] },
+  { name: '伊豆仁田', lat: 35.07911, lon: 138.94160, tabs: ['out-mishima','out-numazu','out-daito'] }
+];
+
+// ============================================================
+// [FIX] 球面距離計算（Haversine公式）
+// 緯度経度の単純なユークリッド距離は日本付近で経度1度が
+// 緯度1度より約18%短いため誤差が出る。kmで正確に計算する。
+// ============================================================
+function haversineKm(lat1, lon1, lat2, lon2) {
+  const R = 6371; // 地球の半径(km)
+  const toRad = deg => deg * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2) ** 2 +
+            Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+            Math.sin(dLon/2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+// ============================================================
+// 時刻操作
+// ============================================================
+function toMin(h, m) { return h * 60 + m; }
+function nowMin() {
+  const d = new Date();
+  return d.getHours() * 60 + d.getMinutes();
+}
+function fmtTime(h, m) {
+  return String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0');
+}
+
+// ============================================================
+// グリッド描画
+// ============================================================
+function buildGrid(tabKey) {
+  const data = DATA[tabKey];
+  const times = data.times;
+  const specials = data.special || [];
+
+  const isSpecial = (h, m) => specials.some(([sh,sm]) => sh===h && sm===m);
+
+  // 時間ごとにグループ化
+  const byHour = {};
+  times.forEach(([h,m]) => {
+    if (!byHour[h]) byHour[h] = [];
+    byHour[h].push(m);
+  });
+
+  const container = document.getElementById('grid-' + tabKey);
+  container.innerHTML = '';
+
+  const hours = Object.keys(byHour).map(Number).sort((a,b)=>a-b);
+  hours.forEach(h => {
+    const block = document.createElement('div');
+    block.className = 'hour-block';
+
+    const label = document.createElement('div');
+    label.className = 'hour-label';
+    label.textContent = h;
+    block.appendChild(label);
+
+    const div = document.createElement('div');
+    div.className = 'hour-divider';
+    block.appendChild(div);
+
+    const mins = document.createElement('div');
+    mins.className = 'minutes';
+
+    byHour[h].forEach(m => {
+      const chip = document.createElement('a');
+      chip.className = 'min-chip';
+      chip.textContent = String(m).padStart(2,'0');
+      chip.dataset.hour = h;
+      chip.dataset.min  = m;
+      chip.href = data.url || '#';
+      chip.target = '_blank';
+      chip.rel = 'noopener';
+      if (isSpecial(h, m)) chip.classList.add('special');
+      mins.appendChild(chip);
+    });
+
+    block.appendChild(mins);
+    container.appendChild(block);
+  });
+}
+
+// ============================================================
+// 次の電車ハイライト更新
+// ============================================================
+function updateHighlights() {
+  const now = nowMin();
+
+  Object.keys(DATA).forEach(tabKey => {
+    const data = DATA[tabKey];
+    const times = data.times;
+
+    // 次の電車を探す（今から一番近い未来の電車）
+    let nextIdx = -1;
+    let minDiff = Infinity;
+    times.forEach(([h,m], i) => {
+      const diff = toMin(h,m) - now;
+      if (diff >= 0 && diff < minDiff) {
+        minDiff = diff;
+        nextIdx = i;
+      }
+    });
+
+    // チップ更新
+    const container = document.getElementById('grid-' + tabKey);
+    if (!container) return;
+    container.querySelectorAll('.min-chip').forEach(chip => {
+      const ch = parseInt(chip.dataset.hour);
+      const cm = parseInt(chip.dataset.min);
+      const diff = toMin(ch,cm) - now;
+      chip.classList.remove('next-train','past');
+      if (diff < 0) chip.classList.add('past');
+    });
+
+    // 次の電車カード
+    const ntimeEl  = document.getElementById('ntime-'  + tabKey);
+    const nuntilEl = document.getElementById('nuntil-' + tabKey);
+
+    if (nextIdx >= 0) {
+      const [nh, nm] = times[nextIdx];
+      const diff = toMin(nh,nm) - now;
+      if (ntimeEl)  ntimeEl.textContent  = fmtTime(nh,nm);
+      if (nuntilEl) nuntilEl.textContent = diff;
+
+      // チップにnext-trainクラス
+      container.querySelectorAll('.min-chip').forEach(chip => {
+        if (parseInt(chip.dataset.hour)===nh && parseInt(chip.dataset.min)===nm) {
+          chip.classList.add('next-train');
+        }
+      });
+    } else {
+      if (ntimeEl)  ntimeEl.textContent  = '終了';
+      if (nuntilEl) nuntilEl.textContent = '--';
+    }
+  });
+
+  updateActiveCard();
+}
+
+// ============================================================
+// アクティブタブの「次の電車」カード更新
+// ============================================================
+function updateActiveCard() {
+  const now = nowMin();
+  const data = DATA[currentTab];
+  if (!data) return;
+  const times = data.times;
+
+  let nextIdx = -1;
+  let minDiff = Infinity;
+  times.forEach(([h,m], i) => {
+    const diff = toMin(h,m) - now;
+    if (diff >= 0 && diff < minDiff) {
+      minDiff = diff;
+      nextIdx = i;
+    }
+  });
+
+  const ntimeEl  = document.getElementById('ntime-active');
+  const nuntilEl = document.getElementById('nuntil-active');
+  const nsubEl   = document.getElementById('nsub-active');
+
+  nsubEl.textContent = data.sub || '';
+
+  if (nextIdx >= 0) {
+    const [nh, nm] = times[nextIdx];
+    const diff = toMin(nh,nm) - now;
+    ntimeEl.textContent  = fmtTime(nh,nm);
+    nuntilEl.textContent = diff;
+  } else {
+    ntimeEl.textContent  = '終了';
+    nuntilEl.textContent = '--';
+  }
+}
+
+// ============================================================
+// 時計
+// ============================================================
+function updateClock() {
+  const d = new Date();
+  document.getElementById('clock').textContent =
+    String(d.getHours()).padStart(2,'0') + ':' +
+    String(d.getMinutes()).padStart(2,'0') + ':' +
+    String(d.getSeconds()).padStart(2,'0');
+}
+
+// ============================================================
+// タブ切替
+// ============================================================
+let currentTab = 'out-daito';
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    const tabKey = btn.dataset.tab;
+    currentTab = tabKey;
+
+    // [FIX] 実際のユーザー操作の場合のみGPS自動切替を停止
+    // (GPSによるprogrammatic .click()はisTrusted=falseになる)
+    if (e.isTrusted) userSelectedTab = true;
+
+    document.querySelectorAll('.tab').forEach(b => {
+      b.classList.remove('active-home','active-out');
+    });
+    const isHome = tabKey.startsWith('home-');
+    btn.classList.add(isHome ? 'active-home' : 'active-out');
+
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('visible'));
+    document.getElementById('sec-' + tabKey).classList.add('visible');
+
+    updateActiveCard();
+  });
+});
+
+// ============================================================
+// GPS
+// [FIX] enableHighAccuracy:true + watchPositionで継続監視
+// [FIX] 距離計算をHaversine(km)に変更
+// [FIX] accuracy(精度)が悪い測位は最寄り駅判定をスキップし、
+//       現在の精度・座標を画面に表示してデバッグ可能にする
+// 手動でタブを切り替えた後はGPSによる自動切替を行わない
+// ============================================================
+let userSelectedTab = false;
+let lastAutoTab = null;
+const ACCURACY_THRESHOLD_M = 500; // この精度(m)より悪い結果は最寄り駅判定に使わない
+
+function geoSuccess(pos) {
+  const { latitude: lat, longitude: lon, accuracy } = pos.coords;
+  document.getElementById('gps-dot').classList.add('active');
+
+  // 一番近い駅を計算（Haversine, km）
+  let nearest = null, minDist = Infinity;
+  STATIONS.forEach(st => {
+    const d = haversineKm(lat, st.lat, lon, st.lon);
+    if (d < minDist) { minDist = d; nearest = st; }
+  });
+
+  const distKm = minDist.toFixed(2);
+  const accStr = accuracy >= 1000 ? (accuracy/1000).toFixed(1) + 'km' : Math.round(accuracy) + 'm';
+
+  if (accuracy > ACCURACY_THRESHOLD_M) {
+    // 精度が悪い場合は最寄り駅判定に使わず、精度の悪さを明示
+    document.getElementById('gps-text').textContent =
+      `📍 精度低(±${accStr}) 測位中… 候補:${nearest.name}(約${distKm}km)`;
+    return;
+  }
+
+  document.getElementById('gps-text').textContent =
+    `📍 ${nearest.name}付近 (約${distKm}km / 精度±${accStr})`;
+
+  const banner = document.getElementById('nearby-banner');
+  const nStation = document.getElementById('nearby-station');
+  banner.style.display = 'block';
+  nStation.textContent = nearest.name;
+
+  // 近い駅に対応するタブを自動選択
+  // ユーザーが手動でタブを選んだ後、または最寄り駅が変わっていない場合は切り替えない
+  if (!userSelectedTab && nearest.tabs && nearest.tabs.length > 0) {
+    const firstTab = nearest.tabs[0];
+    if (firstTab !== lastAutoTab) {
+      lastAutoTab = firstTab;
+      document.querySelector(`[data-tab="${firstTab}"]`)?.click();
+    }
+  }
+}
+
+function geoError(err) {
+  document.getElementById('gps-text').textContent = 'GPS取得失敗（手動でタブ選択してください）';
+}
+
+if (navigator.geolocation) {
+  navigator.geolocation.watchPosition(geoSuccess, geoError, {
+    enableHighAccuracy: true,
+    maximumAge: 10000,
+    timeout: 15000
+  });
+} else {
+  document.getElementById('gps-text').textContent = 'GPS非対応ブラウザ';
+}
+
+// ============================================================
+// 初期化
+// ============================================================
+Object.keys(DATA).forEach(k => buildGrid(k));
+updateClock();
+updateHighlights();
+setInterval(updateClock, 1000);
+setInterval(updateHighlights, 30000);
+</script>
+</body>
+</html>
