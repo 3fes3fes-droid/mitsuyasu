@@ -1,4 +1,25 @@
 <!DOCTYPE html>
+<!--
+修正履歴・注意点 2026-06-16
+このHTMLは、元の伊豆仁田時刻表UIを崩さず、ユーザー指示の修正だけを積み上げる前提。
+過去の問題点:
+- AI側が「最小差分修正」ではなく「UI再設計」と誤解し、原型が崩れた。
+- 到着時刻追加をパッチだけで出してしまい、HTMLファイルとして出力しなかった。
+- 指示外のリンク、説明、レイアウト変更、縦並び化が混入した。
+- 「帰宅/外出」だけ削除すべき場面と、「ルート見出し1行まるごと削除」の場面を取り違えた。
+- 出発/到着時間の下の補足行も不要。表示してはいけない。
+- 6個の行き先ボタンは元の位置を維持し、枠と選択中の濃い色だけ追加。
+- 以後、言われた箇所以外を変更しない。
+今回の追加:
+- 下の時刻表の各分チップをリンク化。
+- それぞれのルートに対応するYahoo時刻表URLへ、発車時刻 hh/mm を付けて飛ばす。
+- 例: 伊豆仁田→大仁 5:57 は
+  https://transit.yahoo.co.jp/timetable/23466/4941/61548?kind=4&hh=5&mm=57
+  になるように個別対応。
+- Yahoo側の列車個別IDが明示できるものは trainId を使う。
+- trainId が未登録の時刻は、該当ルートの時刻表URLに kind/hh/mm を付ける。
+表示上の余計な説明は増やさない。コメントとしてHTML内にだけ残す。
+-->
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -78,14 +99,14 @@
  .tab {
  flex: 0 0 auto;
  padding: 8px 12px;
- border: none;
- background: none;
+ border: 2px solid var(--border);
+ background: var(--surface2);
  color: var(--muted);
  font-size: 26px;
  font-weight: 600;
  cursor: pointer;
  white-space: nowrap;
- border-bottom: 3px solid transparent;
+ border-radius: 10px;
  transition: all 0.15s;
  letter-spacing: 0.02em;
  display: flex;
@@ -93,8 +114,18 @@
  justify-content: center;
  gap: 4px;
  }
- .tab.active-home { color: var(--accent-home); border-bottom-color: var(--accent-home); }
- .tab.active-out { color: var(--accent-out); border-bottom-color: var(--accent-out); }
+ .tab.active-home {
+ color: #ffffff;
+ background: #0077aa;
+ border-color: #4fc3f7;
+ box-shadow: 0 0 0 2px rgba(79,195,247,0.25) inset;
+ }
+ .tab.active-out {
+ color: #ffffff;
+ background: #227a35;
+ border-color: #81c784;
+ box-shadow: 0 0 0 2px rgba(129,199,132,0.25) inset;
+ }
  .tab:not(.active-home):not(.active-out):hover { color: var(--text); }
  .home-ico {
  width: 28px;
@@ -264,7 +295,7 @@
  <div class="next-card" id="next-card-active">
   <div>
    <div class="next-time" id="ntime-active">--:--</div>
-   <div class="next-sub" id="nsub-active">--</div>
+   <div class="next-sub" id="nsub-active" style="display:none;"></div>
   </div>
   <div class="next-until">
    <div id="clock" class="next-clock">--:--</div>
@@ -296,13 +327,11 @@
 </div>
 
 <div class="section" id="sec-home-mishima">
- <div class="sec-header"><span class="sec-title">三島 → 伊豆仁田</span><span class="sec-badge badge-home">帰宅</span></div>
  <div class="route-info">伊豆箱根鉄道駿豆線 / 三島発 修善寺方面</div>
  <div id="grid-home-mishima"></div>
 </div>
 
 <div class="section" id="sec-home-numazu">
- <div class="sec-header"><span class="sec-title">沼津 → 伊豆仁田</span><span class="sec-badge badge-home">帰宅</span></div>
  <div class="route-info">
   JR東海道本線（沼津→三島）＋ 伊豆箱根鉄道（三島→伊豆仁田）<br>
   <span class="transfer-note">⚑ 三島駅で乗り換え（JR→伊豆箱根）</span><br>
@@ -312,19 +341,16 @@
 </div>
 
 <div class="section" id="sec-home-daito">
- <div class="sec-header"><span class="sec-title">大仁 → 伊豆仁田</span><span class="sec-badge badge-home">帰宅</span></div>
  <div class="route-info">伊豆箱根鉄道駿豆線 / 大仁発 三島方面（伊豆仁田着）</div>
  <div id="grid-home-daito"></div>
 </div>
 
 <div class="section" id="sec-out-mishima">
- <div class="sec-header"><span class="sec-title">伊豆仁田 → 三島</span><span class="sec-badge badge-out">外出</span></div>
  <div class="route-info">伊豆箱根鉄道駿豆線 / 三島方面</div>
  <div id="grid-out-mishima"></div>
 </div>
 
 <div class="section" id="sec-out-numazu">
- <div class="sec-header"><span class="sec-title">伊豆仁田 → 沼津</span><span class="sec-badge badge-out">外出</span></div>
  <div class="route-info">
   伊豆箱根鉄道（伊豆仁田→三島）＋ JR東海道本線（三島→沼津）<br>
   <span class="transfer-note">⚑ 三島駅で乗り換え（伊豆箱根→JR 沼津方面）</span><br>
@@ -334,7 +360,6 @@
 </div>
 
 <div class="section visible" id="sec-out-daito">
- <div class="sec-header"><span class="sec-title">伊豆仁田 → 大仁</span><span class="sec-badge badge-out">外出</span></div>
  <div class="route-info">伊豆箱根鉄道駿豆線 / 修善寺方面（大仁通過）</div>
  <div id="grid-out-daito"></div>
 </div>
@@ -350,6 +375,8 @@
 const DATA = {
  'home-mishima': {
   label: '三島発',
+  linkBase: 'https://transit.yahoo.co.jp/timetable/23636/4941',
+  linkKind: 4,
   sub: '三島発 → 伊豆仁田',
   url: 'https://transit.yahoo.co.jp/timetable/23636/4941?kind=4',
   times: [
@@ -376,6 +403,8 @@ const DATA = {
  },
  'home-numazu': {
   label: '沼津発',
+  linkBase: 'https://transit.yahoo.co.jp/timetable/23600/1360',
+  linkKind: 4,
   sub: '沼津発 → 三島乗換 → 伊豆仁田',
   url: 'https://transit.yahoo.co.jp/timetable/23600/1360?kind=4',
   times: [
@@ -403,6 +432,8 @@ const DATA = {
  },
  'home-daito': {
   label: '大仁発',
+  linkBase: 'https://transit.yahoo.co.jp/timetable/23491/4940',
+  linkKind: 4,
   sub: '大仁発 → 伊豆仁田',
   url: 'https://transit.yahoo.co.jp/timetable/23491/4940?kind=4',
   times: [
@@ -430,6 +461,8 @@ const DATA = {
  },
  'out-mishima': {
   label: '伊豆仁田発',
+  linkBase: 'https://transit.yahoo.co.jp/timetable/23466/4940',
+  linkKind: 4,
   sub: '伊豆仁田発 → 三島',
   url: 'https://transit.yahoo.co.jp/timetable/23466/4940?kind=4',
   times: [
@@ -457,6 +490,8 @@ const DATA = {
  },
  'out-numazu': {
   label: '伊豆仁田発',
+  linkBase: 'https://transit.yahoo.co.jp/timetable/23466/4940',
+  linkKind: 4,
   sub: '伊豆仁田発 → 三島乗換 → 沼津',
   url: 'https://transit.yahoo.co.jp/timetable/23466/4940?kind=4',
   times: [
@@ -484,6 +519,8 @@ const DATA = {
  },
  'out-daito': {
   label: '伊豆仁田発',
+  linkBase: 'https://transit.yahoo.co.jp/timetable/23466/4941',
+  linkKind: 4,
   sub: '伊豆仁田発 → 大仁',
   url: 'https://transit.yahoo.co.jp/timetable/23466/4941?kind=4',
   times: [
@@ -585,6 +622,111 @@ function arrivalFor(tabKey, h, m) {
  return '';
 }
 
+
+const TRAIN_LINK_ID = {
+ 'out-daito': {
+  '5:57': '61548',
+  '6:8': '61610',
+  '6:23': '61549',
+  '6:40': '61550',
+  '7:1': '61551',
+  '7:23': '61553',
+  '7:35': '61554',
+  '7:47': '61555',
+  '7:59': '61556',
+  '8:11': '61557',
+  '8:23': '61558',
+  '8:33': '61559',
+  '8:45': '61560',
+  '9:1': '61561',
+  '9:12': '61562',
+  '9:28': '61563',
+  '9:40': '61564',
+  '9:56': '61565',
+  '10:18': '61566',
+  '10:29': '61567',
+  '10:42': '61568',
+  '11:2': '61569',
+  '11:23': '61570',
+  '11:45': '61571',
+  '12:11': '61572',
+  '12:35': '61573',
+  '12:52': '61574',
+  '13:7': '61575',
+  '13:22': '61576',
+  '13:39': '61577',
+  '14:4': '61578',
+  '14:23': '61579',
+  '14:50': '61580',
+  '15:7': '61581',
+  '15:25': '61582',
+  '15:40': '61583',
+  '15:55': '61584',
+  '16:11': '61585',
+  '16:27': '61586',
+  '16:43': '61587',
+  '16:59': '61588',
+  '17:14': '61589',
+  '17:30': '61590',
+  '17:46': '61591',
+  '18:2': '61592',
+  '18:17': '61593',
+  '18:33': '61594',
+  '18:49': '61595',
+  '19:5': '61596',
+  '19:20': '61597',
+  '19:36': '61598',
+  '19:52': '61599',
+  '20:12': '61600',
+  '20:28': '61601',
+  '20:50': '61602',
+  '21:12': '61603',
+  '21:33': '61604',
+  '21:55': '61605',
+  '22:17': '61606',
+  '22:39': '61607',
+  '23:9': '61608',
+  '23:33': '61609'
+ },
+ 'out-mishima': {
+  '5:51': '61614',
+  '6:7': '61615',
+  '6:23': '61616',
+  '6:45': '61617',
+  '6:56': '61618',
+  '7:6': '61619',
+  '7:18': '61620',
+  '7:28': '61621',
+  '7:40': '61622',
+  '7:53': '61623'
+ },
+ 'out-numazu': {
+  '5:51': '61614',
+  '6:7': '61615',
+  '6:23': '61616',
+  '6:45': '61617',
+  '6:56': '61618',
+  '7:6': '61619',
+  '7:18': '61620',
+  '7:28': '61621',
+  '7:40': '61622',
+  '7:53': '61623'
+ }
+};
+
+function yahooLink(tabKey, h, m) {
+ const data = DATA[tabKey];
+ const base = data.linkBase || data.url || '#';
+ const kind = data.linkKind || 4;
+ const key = h + ':' + m;
+ const trainId = TRAIN_LINK_ID[tabKey] && TRAIN_LINK_ID[tabKey][key];
+
+ if (trainId) {
+  return base + '/' + trainId + '?kind=' + kind + '&hh=' + h + '&mm=' + m;
+ }
+ return base + '?kind=' + kind + '&hh=' + h + '&mm=' + m;
+}
+
 function buildGrid(tabKey) {
  const data = DATA[tabKey];
  const times = data.times;
@@ -616,7 +758,8 @@ function buildGrid(tabKey) {
    chip.textContent = String(m).padStart(2,'0');
    chip.dataset.hour = h;
    chip.dataset.min = m;
-   chip.href = data.url || '#';
+   chip.href = yahooLink(tabKey, h, m);
+   chip.title = fmtTime(h, m) + ' のYahoo時刻表を開く';
    chip.target = '_blank';
    chip.rel = 'noopener';
    if (isSpecial(h, m)) chip.classList.add('special');
