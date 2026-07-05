@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>誕生日DB</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3a;
+    --accent: #e85d9c;
+    --accent2: #7c3aed;
+    --accent3: #06b6d4;
+    --text: #e8e8f0;
+    --text-muted: #6b6b8a;
+    --text-dim: #3a3a5c;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --tag-bg: #1e1e30;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans JP', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image:
+      linear-gradient(rgba(124,58,237,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(124,58,237,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── HEADER ── */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    padding: 16px 32px;
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(10,10,15,0.92);
+    backdrop-filter: blur(12px);
+    flex-wrap: wrap;
+  }
+  .logo {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px; font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .logo .sub { font-size: 11px; color: var(--text-muted); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
+  .stats { font-size: 12px; color: var(--text-muted); font-family: 'Space Mono', monospace; }
+  .stats strong { color: var(--accent); font-size: 14px; }
+
+  /* ── OMNI SEARCH (1画面の主役) ── */
+  .omni-wrap {
+    position: relative; z-index: 10;
+    padding: 24px 32px 16px;
+    background: rgba(10,10,15,0.6);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+  .omni-box {
+    display: flex; gap: 10px; align-items: stretch;
+    max-width: 1200px; margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .omni-input-wrap {
+    flex: 1; min-width: 260px; position: relative;
+  }
+  .omni-input {
+    width: 100%;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 48px 16px 52px;
+    font-size: 16px;
+    color: var(--text);
+    font-family: 'Noto Sans JP', sans-serif;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .omni-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(232,93,156,0.12); }
+  .omni-input::placeholder { color: var(--text-muted); }
+  .omni-icon {
+    position: absolute; left: 18px; top: 50%; transform: translateY(-50%);
+    font-size: 18px; color: var(--text-muted); pointer-events: none;
+  }
+  .omni-clear {
+    position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+    background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted);
+    width: 28px; height: 28px; border-radius: 50%; cursor: pointer;
+    display: none; align-items: center; justify-content: center; font-size: 14px; line-height: 1;
+  }
+  .omni-clear.show { display: flex; }
+  .omni-clear:hover { color: var(--text); border-color: var(--accent); }
+
+  .btn {
+    padding: 14px 22px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px; font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Noto Sans JP', sans-serif;
+    white-space: nowrap;
+  }
+  .btn-primary { background: var(--accent); color: white; }
+  .btn-primary:hover { background: #d44d89; transform: translateY(-1px); }
+  .btn-primary:disabled { background: var(--text-dim); cursor: not-allowed; transform: none; }
+  .btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-ghost { background: transparent; color: var(--text-muted); border: 1px solid var(--border); padding: 10px 14px; font-size: 12px; }
+  .btn-ghost:hover { border-color: var(--accent2); color: var(--accent2); }
+  .btn-small { padding: 8px 14px; font-size: 12px; }
+
+  /* ステータスピル（検索中 / ヒット数） */
+  .omni-status {
+    max-width: 1200px; margin: 10px auto 0;
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    font-size: 12px; color: var(--text-muted);
+  }
+  .status-pill {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 5px 12px;
+    font-family: 'Space Mono', monospace;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .status-pill.local { border-color: var(--accent); color: var(--accent); }
+  .status-pill.remote { border-color: var(--accent3); color: var(--accent3); }
+  .status-pill.loading { border-color: var(--warning); color: var(--warning); }
+  .status-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .status-pill.loading .dot { animation: pulse 1s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+
+  /* ── MAIN LAYOUT ── */
+  main {
+    position: relative; z-index: 5;
+    padding: 24px 32px 60px;
+    max-width: 1400px; margin: 0 auto;
+  }
+
+  /* セクション見出し */
+  .section-head {
+    display: flex; align-items: center; justify-content: space-between;
+    margin: 28px 0 14px; gap: 12px; flex-wrap: wrap;
+  }
+  .section-head:first-child { margin-top: 4px; }
+  .section-title {
+    font-size: 14px; font-weight: 700; color: var(--text);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-title .count {
+    font-family: 'Space Mono', monospace; font-size: 12px;
+    background: var(--tag-bg); border: 1px solid var(--border);
+    padding: 2px 10px; border-radius: 999px; color: var(--text-muted); font-weight: 400;
+  }
+  .section-title .count.hot { color: var(--accent); border-color: var(--accent); }
+  .section-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  /* フィルター（保存済み用：コンパクト横並び） */
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 14px;
+    padding: 10px 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    align-items: center;
+  }
+  .filter-group { display: flex; align-items: center; gap: 6px; }
+  .filter-label { font-size: 10px; color: var(--text-muted); white-space: nowrap; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
+  select, .filter-input {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: var(--text);
+    font-family: 'Noto Sans JP', sans-serif;
+    outline: none;
+    cursor: pointer;
+  }
+  select:focus, .filter-input:focus { border-color: var(--accent2); }
+  .filter-input[type=number] { width: 82px; }
+  .filter-input[type=number].short { width: 60px; }
+
+  /* アクティブフィルターチップ */
+  .active-filter-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+  .filter-pill {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 99px;
+    padding: 4px 14px;
+    font-size: 12px; font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+  }
+  .filter-pill:hover { background: #d44d89; }
+
+  /* ── RESULTS GRID ── */
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+
+  /* ── CARD ── */
+  .person-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    transition: all 0.2s;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+  }
+  .person-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .person-card.is-saved::before { opacity: 0.5; background: var(--success); }
+  .person-card:hover { border-color: var(--accent2); transform: translateY(-2px); }
+  .person-card:hover::before { opacity: 1; }
+
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 10px; gap: 8px; }
+  .person-name { font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.3; word-break: break-word; }
+  .person-name-en { font-size: 11px; color: var(--text-muted); font-family: 'Space Mono', monospace; margin-top: 2px; }
+  .person-birthday { font-family: 'Space Mono', monospace; font-size: 12px; color: var(--accent3); text-align: right; white-space: nowrap; }
+  .person-age { font-size: 26px; font-weight: 700; color: var(--text); text-align: right; line-height: 1; }
+  .person-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+  .tag { background: var(--tag-bg); border: 1px solid var(--border); border-radius: 4px; padding: 3px 8px; font-size: 11px; color: var(--text-muted); }
+  .tag.cat { border-color: var(--accent2); color: var(--accent2); }
+  .tag.country { border-color: var(--accent3); color: var(--accent3); }
+  .tag.src { border-color: var(--warning); color: var(--warning); font-size: 10px; }
+  .card-footer { display: flex; justify-content: flex-end; gap: 6px; }
+
+  /* クリックフィルターチップ */
+  .fchip {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 1px 3px;
+    transition: background 0.15s, color 0.15s;
+    display: inline-block;
+  }
+  .fchip:hover { background: var(--accent); color: #fff !important; }
+
+  .btn-save {
+    background: transparent;
+    color: var(--accent3);
+    border: 1px solid var(--accent3);
+    padding: 6px 12px; font-size: 11px; font-weight: 700;
+    border-radius: 6px; cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .btn-save:hover { background: var(--accent3); color: #000; }
+  .btn-save.saved { background: var(--success); border-color: var(--success); color: #000; }
+  .btn-delete {
+    background: transparent; color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 6px 9px; font-size: 13px; line-height: 1;
+    border-radius: 6px; cursor: pointer;
+  }
+  .btn-delete:hover { border-color: #e85d5d; color: #e85d5d; }
+  .btn-edit {
+    background: transparent; color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 6px 9px; font-size: 13px; line-height: 1;
+    border-radius: 6px; cursor: pointer;
+  }
+  .btn-edit:hover { border-color: #a78bfa; color: #a78bfa; }
+
+  /* real name row */
+  .person-realname { font-size: 11px; color: var(--text-muted); margin-top: 3px; }
+  .person-realname span { color: #a78bfa; }
+  .person-memo { font-size: 12px; color: var(--text-muted); margin-top: 6px; padding-top: 8px; border-top: 1px solid var(--border); line-height: 1.5; white-space: pre-wrap; }
+
+  /* ── 空/ステータス ── */
+  .status-msg { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 13px; }
+  .status-msg .icon { font-size: 36px; margin-bottom: 10px; }
+  .spinner { width: 28px; height: 28px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 10px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── COLLAPSIBLE BULK ── */
+  details.collapsible {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  details.collapsible[open] { border-color: var(--accent2); }
+  details.collapsible summary {
+    padding: 14px 18px; cursor: pointer; user-select: none;
+    font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; gap: 10px;
+    list-style: none;
+  }
+  details.collapsible summary::-webkit-details-marker { display: none; }
+  details.collapsible summary::before {
+    content: '▶'; font-size: 10px; color: var(--text-muted);
+    transition: transform 0.2s;
+  }
+  details.collapsible[open] summary::before { transform: rotate(90deg); color: var(--accent2); }
+  details.collapsible .collapsible-body { padding: 0 18px 18px; }
+
+  /* ── BULK ── */
+  .bulk-textarea {
+    width: 100%; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px;
+    font-size: 13px; color: var(--text); font-family: 'Noto Sans JP', sans-serif;
+    outline: none; resize: vertical; min-height: 120px; margin-bottom: 10px;
+  }
+  .bulk-textarea:focus { border-color: var(--accent); }
+  .bulk-meta { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 14px; }
+  .bulk-meta-item {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 999px; padding: 6px 10px; font-size: 11px; color: var(--text-muted);
+  }
+  .bulk-meta-item strong { color: var(--text); font-family: 'Space Mono', monospace; }
+  .bulk-progress-wrap { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-bottom: 14px; display: none; }
+  .bulk-progress-label { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 6px; color: var(--text-muted); }
+  .bulk-progress-label span { color: var(--accent); font-family: 'Space Mono', monospace; font-weight: 700; }
+  .bulk-bar-bg { background: var(--surface); border-radius: 99px; height: 6px; overflow: hidden; }
+  .bulk-bar-fill { height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--accent), var(--accent2)); transition: width 0.3s; width: 0%; }
+  .bulk-log { margin-top: 10px; max-height: 120px; overflow-y: auto; font-size: 11px; color: var(--text-muted); font-family: 'Space Mono', monospace; line-height: 1.7; }
+  .bulk-log .ok { color: var(--success); }
+  .bulk-log .skip { color: var(--text-dim); }
+  .bulk-log .err { color: #e85d5d; }
+  .bulk-result-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin-top: 14px; }
+  .bulk-result-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; display: flex; align-items: flex-start; gap: 10px; }
+  .bulk-result-card.excluded { opacity: 0.35; border-color: var(--text-dim); }
+  .bulk-result-card.notfound { border-color: var(--accent2); }
+  .bulk-check { width: 18px; height: 18px; accent-color: var(--accent); flex-shrink: 0; margin-top: 2px; cursor: pointer; }
+  .bulk-card-info { flex: 1; min-width: 0; }
+  .bulk-card-name { font-size: 13px; font-weight: 700; }
+  .bulk-card-query { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
+  .bulk-card-bday { font-size: 12px; color: var(--accent3); font-family: 'Space Mono', monospace; margin-top: 4px; }
+  .bulk-card-occ { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+  .bulk-actions { display: flex; gap: 8px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+  .bulk-summary { font-size: 12px; color: var(--text-muted); flex: 1; }
+  .bulk-summary strong { color: var(--accent); }
+  .notfound-edit { margin-top: 6px; display: flex; flex-direction: column; gap: 4px; }
+  .notfound-edit input {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 5px;
+    padding: 5px 8px; font-size: 11px; color: var(--text);
+    font-family: 'Noto Sans JP', sans-serif; outline: none; width: 100%;
+  }
+  .notfound-edit input:focus { border-color: var(--accent2); }
+  .notfound-edit input::placeholder { color: var(--text-dim); }
+  .btn-notfound-save {
+    margin-top: 4px; width: 100%;
+    background: transparent; color: var(--success); border: 1px solid var(--success);
+    padding: 5px 10px; font-size: 11px; border-radius: 5px; cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .btn-notfound-save:hover { background: var(--success); color: #000; }
+
+  /* ── notification ── */
+  .notif {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--surface2); border: 1px solid var(--success); color: var(--success);
+    padding: 12px 20px; border-radius: 10px;
+    font-size: 13px; font-weight: 600; z-index: 999;
+    transform: translateY(80px); opacity: 0; transition: all 0.3s; pointer-events: none;
+  }
+  .notif.show { transform: translateY(0); opacity: 1; }
+  .notif.warn { border-color: var(--warning); color: var(--warning); }
+  .notif.err  { border-color: #e85d5d; color: #e85d5d; }
+
+  /* ── EDIT MODAL ── */
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.75); backdrop-filter: blur(4px);
+    z-index: 100; display: flex; align-items: center; justify-content: center;
+    padding: 20px; opacity: 0; pointer-events: none; transition: opacity 0.2s;
+  }
+  .modal-overlay.open { opacity: 1; pointer-events: all; }
+  .modal {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 22px 28px; width: 100%; max-width: 780px;
+    transform: translateY(20px); transition: transform 0.25s; position: relative;
+    max-height: 90vh; overflow-y: auto;
+  }
+  .modal-overlay.open .modal { transform: translateY(0); }
+  .modal-title { font-size: 15px; font-weight: 700; margin-bottom: 14px; color: var(--text); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .modal-close { position: absolute; top: 14px; right: 14px; background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; line-height: 1; padding: 4px 8px; border-radius: 6px; }
+  .modal-close:hover { color: var(--text); background: var(--surface2); }
+  .modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; }
+  .modal-grid .modal-field-full { grid-column: 1 / -1; }
+  .modal-field { margin-bottom: 10px; }
+  .modal-label { display: block; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 4px; }
+  .modal-input, .modal-textarea { width: 100%; background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: var(--text); font-family: 'Noto Sans JP', sans-serif; outline: none; transition: border-color 0.2s; }
+  .modal-input:focus, .modal-textarea:focus { border-color: #a78bfa; }
+  .modal-textarea { resize: vertical; min-height: 52px; }
+  .modal-footer { display: flex; justify-content: flex-end; gap: 10px; margin-top: 14px; align-items: center; }
+  .modal-name-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .modal-name-row .modal-input { flex: 1; min-width: 200px; }
+  .btn-autofill {
+    background: transparent; color: var(--accent2);
+    border: 1px solid var(--accent2);
+    padding: 7px 12px; font-size: 11px; border-radius: 6px; cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif; white-space: nowrap;
+  }
+  .btn-autofill:hover { background: var(--accent2); color: #fff; }
+  .btn-autofill:disabled { opacity: 0.45; cursor: not-allowed; }
+  .kbd {
+    display: inline-block; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 4px; padding: 1px 6px; font-size: 10px;
+    font-family: 'Space Mono', monospace; color: var(--text-muted);
+  }
+
+  /* ── 小さめレスポンシブ ── */
+  @media (max-width: 720px) {
+    header { padding: 12px 16px; }
+    .omni-wrap { padding: 16px 16px 12px; }
+    main { padding: 16px; }
+    .modal-grid { grid-template-columns: 1fr; }
+    .results-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 480px) {
+    .results-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    誕生日DB
+    <span class="sub">有名人データベース</span>
+  </div>
+  <div class="stats" id="headerStats">—</div>
+</header>
+
+<!-- ★ 1画面の主役：統合検索バー -->
+<div class="omni-wrap">
+  <div class="omni-box">
+    <div class="omni-input-wrap">
+      <span class="omni-icon">🔍</span>
+      <input class="omni-input" id="omniInput" type="text" autocomplete="off"
+             placeholder="名前で検索（部分一致OK・ローカル＋Wikidata同時）" />
+      <button class="omni-clear" id="omniClear" onclick="clearOmni()" title="クリア">✕</button>
+    </div>
+    <button class="btn btn-primary" id="searchBtn" onclick="runOmniSearch(true)">Wikidata検索</button>
+    <button class="btn btn-secondary" onclick="openNewEntry()">＋ 新規追加</button>
+  </div>
+
+  <!-- インライン条件フィルター（生まれ年月日・職業・国） -->
+  <div class="omni-status" style="margin-top:12px">
+    <div class="filters" style="margin:0;flex:1">
+      <div class="filter-group">
+        <span class="filter-label">年</span>
+        <input class="filter-input" id="f-year" type="number" placeholder="1985" min="1900" max="2030" style="width:78px" oninput="onFilterChange()">
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">月</span>
+        <select id="f-month" onchange="onFilterChange()">
+          <option value="">--</option>
+          <option>1月</option><option>2月</option><option>3月</option>
+          <option>4月</option><option>5月</option><option>6月</option>
+          <option>7月</option><option>8月</option><option>9月</option>
+          <option>10月</option><option>11月</option><option>12月</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">日</span>
+        <input class="filter-input short" id="f-day" type="number" placeholder="15" min="1" max="31" oninput="onFilterChange()">
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">職業</span>
+        <select id="f-job" onchange="onFilterChange()">
+          <option value="">すべて</option>
+          <option>俳優</option><option>女優</option><option>歌手</option>
+          <option>お笑い</option><option>ミュージシャン</option>
+          <option>アイドル</option><option>モデル</option><option>スポーツ</option>
+          <option>映画監督</option><option>声優</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">国</span>
+        <select id="f-country" onchange="onFilterChange()">
+          <option value="">すべて</option>
+          <option>日本</option><option>アメリカ</option><option>韓国</option>
+          <option>イギリス</option><option>フランス</option><option>中国</option>
+          <option>その他</option>
+        </select>
+      </div>
+      <button class="btn btn-ghost btn-small" onclick="clearFilters()">条件リセット</button>
+    </div>
+  </div>
+
+  <div class="omni-status" id="omniStatus"></div>
+</div>
+
+<main>
+  <div id="activeFilterBar"></div>
+
+  <!-- ★ Wikidata検索結果（クエリ入力・検索実行時のみ表示） -->
+  <div id="remoteSection" style="display:none">
+    <div class="section-head">
+      <div class="section-title">
+        🌐 Wikidata候補
+        <span class="count" id="remoteCount">0</span>
+      </div>
+      <div class="section-actions">
+        <button class="btn btn-ghost btn-small" onclick="hideRemote()">閉じる</button>
+      </div>
+    </div>
+    <div id="remoteResults"></div>
+  </div>
+
+  <!-- ★ ローカルDB（保存済み）= メイン表示 -->
+  <div id="localSection">
+    <div class="section-head">
+      <div class="section-title">
+        ⭐ 保存済み
+        <span class="count hot" id="localCount">0</span>
+      </div>
+      <div class="section-actions">
+        <button class="btn btn-ghost btn-small" onclick="toggleSort()" id="sortBtn">🎲 ランダム</button>
+        <button class="btn btn-ghost btn-small" onclick="fetchAllBirthplaces()">🗺️ 出身地一括取得</button>
+        <button class="btn btn-ghost btn-small" onclick="exportJSON()">⬇ エクスポート</button>
+        <label class="btn btn-ghost btn-small" style="cursor:pointer">
+          ⬆ インポート
+          <input type="file" accept=".json" style="display:none" onchange="importJSON(event)">
+        </label>
+      </div>
+    </div>
+    <div id="bpProgress" style="display:none;font-size:12px;color:var(--text-muted);margin-bottom:10px"></div>
+    <div id="localResults"></div>
+  </div>
+
+  <!-- 一括処理：折りたたみ -->
+  <details class="collapsible" id="bulkDetails">
+    <summary>📋 一括処理（改行区切りで複数人まとめて検索）</summary>
+    <div class="collapsible-body">
+      <textarea class="bulk-textarea" id="bulkTextarea" placeholder="1行に1人ずつ名前を貼り付け&#10;例：&#10;木村拓哉&#10;中居正広&#10;有吉弘行"></textarea>
+      <div class="bulk-meta">
+        <div class="bulk-meta-item">入力行 <strong id="bulkMetaCount">0</strong></div>
+        <div class="bulk-meta-item">重複行 <strong id="bulkMetaDup">0</strong></div>
+        <div class="bulk-meta-item">保存済み候補 <strong id="bulkMetaSaved">0</strong></div>
+      </div>
+      <div style="display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap">
+        <button class="btn btn-primary" id="bulkStartBtn" onclick="startBulk()">🚀 一括検索</button>
+        <button class="btn btn-secondary" onclick="clearBulk()">クリア</button>
+      </div>
+      <div class="bulk-progress-wrap" id="bulkProgressWrap">
+        <div class="bulk-progress-label">
+          <span id="bulkProgressText">検索中...</span>
+          <span id="bulkProgressNum">0 / 0</span>
+        </div>
+        <div class="bulk-bar-bg"><div class="bulk-bar-fill" id="bulkBarFill"></div></div>
+        <div class="bulk-log" id="bulkLog"></div>
+      </div>
+      <div id="bulkResultsWrap" style="display:none">
+        <div class="bulk-actions">
+          <div class="bulk-summary" id="bulkSummary"></div>
+          <button class="btn btn-secondary btn-small" onclick="bulkToggleAll(true)">全選択</button>
+          <button class="btn btn-secondary btn-small" onclick="bulkToggleAll(false)">全解除</button>
+          <button class="btn btn-primary btn-small" onclick="bulkSaveChecked()">✅ チェック分を保存</button>
+        </div>
+        <div class="bulk-result-grid" id="bulkResultGrid"></div>
+      </div>
+    </div>
+  </details>
+
+</main>
+
+<div class="notif" id="notif"></div>
+
+<!-- EDIT / NEW MODAL -->
+<div class="modal-overlay" id="editModal" onclick="closeModalOnBg(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-title" id="editModalTitle">✏️ 情報を編集</div>
+    <input type="hidden" id="editId">
+    <div class="modal-grid">
+      <div class="modal-field modal-field-full">
+        <label class="modal-label">芸名（表示名）<span class="kbd" style="margin-left:6px">Ctrl+Enter</span> 保存 <span class="kbd">Esc</span> 閉じる</label>
+        <div class="modal-name-row">
+          <input class="modal-input" id="editName" type="text" placeholder="例：木村拓哉">
+          <button class="btn-autofill" id="autofillBtn" onclick="autofillFromWikidata()">🔍 Wikidataから自動入力</button>
+        </div>
+      </div>
+      <div class="modal-field">
+        <label class="modal-label">本名</label>
+        <input class="modal-input" id="editRealName" type="text" placeholder="不明なら空白でOK">
+      </div>
+      <div class="modal-field">
+        <label class="modal-label">生年月日</label>
+        <input class="modal-input" id="editBirthday" type="text" placeholder="19721113 または 1972-11-13">
+      </div>
+      <div class="modal-field">
+        <label class="modal-label">職業・カテゴリ</label>
+        <input class="modal-input" id="editOccupation" type="text" placeholder="例：俳優・歌手">
+      </div>
+      <div class="modal-field">
+        <label class="modal-label">国籍</label>
+        <input class="modal-input" id="editCountry" type="text" placeholder="例：日本">
+      </div>
+      <div class="modal-field">
+        <label class="modal-label">出身地</label>
+        <input class="modal-input" id="editBirthplace" type="text" placeholder="例：東京都">
+      </div>
+      <div class="modal-field modal-field-full">
+        <label class="modal-label">メモ</label>
+        <textarea class="modal-textarea" id="editMemo" placeholder="グループ名、代表作など…"></textarea>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal()">キャンセル</button>
+      <button class="btn btn-primary" onclick="saveEdit()">保存する</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ═════════════════════════════════════════════
+   STATE
+   ═════════════════════════════════════════════ */
+let savedPeople = [];
+let remoteResults = [];          // Wikidata側のヒット
+let clickFilter = { type: null, value: null, label: null };
+let sortMode = 'random';         // 'random' | 'birthday'
+let omniDebounceTimer = null;
+let remoteAbortCtrl = null;      // 連続検索のキャンセル用
+let lastRemoteQuery = '';
+
+/* ═════════════════════════════════════════════
+   UTILS
+   ═════════════════════════════════════════════ */
+function escHtml(str) {
+  if (str === undefined || str === null) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function formatBirthday(bd) {
+  if (!bd) return '不明';
+  const parts = bd.split('-');
+  if (parts.length < 3) return bd;
+  return `${parts[0]}年${parseInt(parts[1])}月${parseInt(parts[2])}日`;
+}
+function fmtMMDD(mmdd) {
+  if (!mmdd) return '';
+  const p = mmdd.split('-');
+  return p.length >= 2 ? `${parseInt(p[0])}月${parseInt(p[1])}日` : mmdd;
+}
+function calcAge(bd) {
+  if (!bd) return null;
+  const birth = new Date(bd);
+  if (isNaN(birth)) return null;
+  const today = new Date();
+  let age = today.getFullYear() - birth.getFullYear();
+  if (today.getMonth() < birth.getMonth() || (today.getMonth() === birth.getMonth() && today.getDate() < birth.getDate())) age--;
+  return age >= 0 && age < 130 ? age : null;
+}
+function normalizeNameKey(str) {
+  return (str || '').toLowerCase().replace(/\s+/g, '').replace(/[・･＝=,，、.。]/g, '');
+}
+function parseBirthday(raw) {
+  const s = (raw||'').trim().replace(/[\/\.年月]/g, '-').replace(/日/g, '').replace(/\s+/g, '');
+  if (/^\d{8}$/.test(s)) return `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}`;
+  const m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+  if (m) return `${m[1]}-${m[2].padStart(2,'0')}-${m[3].padStart(2,'0')}`;
+  return s;
+}
+function showNotif(msg, type='ok') {
+  const el = document.getElementById('notif');
+  el.textContent = msg;
+  el.classList.remove('warn','err');
+  if (type === 'warn') el.classList.add('warn');
+  if (type === 'err')  el.classList.add('err');
+  el.classList.add('show');
+  clearTimeout(el._t);
+  el._t = setTimeout(() => el.classList.remove('show'), 2800);
+}
+
+/* ═════════════════════════════════════════════
+   OMNI SEARCH (ローカル即時 + Wikidataは任意)
+   ═════════════════════════════════════════════ */
+const omniInput = document.getElementById('omniInput');
+const omniClearBtn = document.getElementById('omniClear');
+
+omniInput.addEventListener('input', () => {
+  omniClearBtn.classList.toggle('show', !!omniInput.value);
+  // ローカル検索は即時（リアルタイム）
+  clearTimeout(omniDebounceTimer);
+  omniDebounceTimer = setTimeout(() => {
+    renderLocal();
+    updateOmniStatus();
+  }, 80);
+});
+omniInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter') { e.preventDefault(); runOmniSearch(true); }
+  if (e.key === 'Escape') { clearOmni(); }
+});
+
+function clearOmni() {
+  omniInput.value = '';
+  omniClearBtn.classList.remove('show');
+  hideRemote();
+  renderLocal();
+  updateOmniStatus();
+  omniInput.focus();
+}
+
+function onFilterChange() { renderLocal(); updateOmniStatus(); }
+function clearFilters() {
+  ['f-year','f-month','f-day','f-job','f-country'].forEach(id => document.getElementById(id).value = '');
+  renderLocal(); updateOmniStatus();
+}
+
+/* 現在のフィルターで保存済みを絞り込み */
+function getLocalMatches() {
+  const q = normalizeNameKey(omniInput.value);
+  const fYear  = document.getElementById('f-year').value.trim();
+  const fMRaw  = document.getElementById('f-month').value;
+  const fMonth = fMRaw ? fMRaw.replace('月','') : '';
+  const fDay   = document.getElementById('f-day').value.trim();
+  const fJob   = document.getElementById('f-job').value;
+  const fCty   = document.getElementById('f-country').value;
+
+  return savedPeople.filter(p => {
+    // 名前（部分一致・ゆるマッチ）
+    if (q) {
+      const keys = [p.name, p.nameEn, p.realName].filter(Boolean).map(normalizeNameKey);
+      if (!keys.some(k => k && (k.includes(q) || q.includes(k)))) return false;
+    }
+    if (fYear  && !p.birthday?.startsWith(fYear)) return false;
+    if (fMonth && parseInt((p.birthday||'').slice(5,7)) !== parseInt(fMonth)) return false;
+    if (fDay   && parseInt((p.birthday||'').slice(8,10)) !== parseInt(fDay)) return false;
+    if (fJob   && !((p.occupation||'').includes(fJob) || (p.description||'').includes(fJob))) return false;
+    if (fCty   && !(p.country||'').includes(fCty)) return false;
+
+    // クリックフィルター（年/MMDD/age）
+    if (clickFilter.type === 'year' && !p.birthday?.startsWith(clickFilter.value)) return false;
+    if (clickFilter.type === 'mmdd' && p.birthday?.slice(5) !== clickFilter.value) return false;
+    if (clickFilter.type === 'age'  && String(calcAge(p.birthday)) !== clickFilter.value) return false;
+    return true;
+  });
+}
+
+function updateOmniStatus() {
+  const q = omniInput.value.trim();
+  const local = getLocalMatches();
+  const hasFilter = hasAnyFilter();
+  const pills = [];
+
+  if (q || hasFilter) {
+    pills.push(`<div class="status-pill local"><span class="dot"></span>ローカル ${local.length} 件</div>`);
+  }
+  if (q && remoteResults.length > 0 && lastRemoteQuery === q) {
+    pills.push(`<div class="status-pill remote"><span class="dot"></span>Wikidata ${remoteResults.length} 件</div>`);
+  } else if (q && !hasFilter) {
+    pills.push(`<div class="status-pill">🌐 Wikidata検索するには <span class="kbd" style="margin-left:4px">Enter</span></div>`);
+  }
+  document.getElementById('omniStatus').innerHTML = pills.join('');
+}
+
+function hasAnyFilter() {
+  return ['f-year','f-month','f-day','f-job','f-country']
+    .some(id => (document.getElementById(id).value || '').trim() !== '')
+    || clickFilter.type !== null;
+}
+
+/* Enter等で実際にWikidataを叩く */
+async function runOmniSearch(includeRemote) {
+  const query = omniInput.value.trim();
+  const hasFilter = hasAnyFilter();
+
+  // ローカル即時
+  renderLocal();
+  updateOmniStatus();
+
+  if (!includeRemote) return;
+  if (!query && !hasFilter) { showNotif('🔍 名前か条件を入力してください', 'warn'); return; }
+
+  // キャンセル
+  if (remoteAbortCtrl) remoteAbortCtrl.abort();
+  remoteAbortCtrl = new AbortController();
+  lastRemoteQuery = query;
+
+  const btn = document.getElementById('searchBtn');
+  btn.disabled = true; btn.textContent = '検索中...';
+
+  showRemoteLoading();
+  try {
+    let results = [];
+    if (query) {
+      results = await searchWikidata(query, remoteAbortCtrl.signal);
+    } else {
+      results = await searchByFilters(remoteAbortCtrl.signal);
+    }
+    // 追加フィルター適用
+    const fYear  = document.getElementById('f-year').value.trim();
+    const fMRaw  = document.getElementById('f-month').value;
+    const fMonth = fMRaw ? fMRaw.replace('月','') : '';
+    const fDay   = document.getElementById('f-day').value.trim();
+    const fJob   = document.getElementById('f-job').value;
+    const fCty   = document.getElementById('f-country').value;
+    if (fYear)  results = results.filter(p => p.birthday?.startsWith(fYear));
+    if (fMonth) results = results.filter(p => parseInt((p.birthday||'').slice(5,7)) === parseInt(fMonth));
+    if (fDay)   results = results.filter(p => parseInt((p.birthday||'').slice(8,10)) === parseInt(fDay));
+    if (fJob)   results = results.filter(p => (p.occupation||'').includes(fJob) || (p.description||'').includes(fJob));
+    if (fCty)   results = results.filter(p => (p.country||'').includes(fCty));
+
+    remoteResults = results;
+    renderRemote();
+    updateOmniStatus();
+  } catch (e) {
+    if (e.name === 'AbortError') return;
+    showStatus('remoteResults', '⚠️', 'エラーが発生しました。<br><small>'+escHtml(e.message)+'</small>');
+  } finally {
+    btn.disabled = false; btn.textContent = 'Wikidata検索';
+  }
+}
+
+async function searchWikidata(name, signal) {
+  const searchUrl = `https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(name)}&language=ja&type=item&limit=20&format=json&origin=*`;
+  const searchRes = await fetch(searchUrl, { signal });
+  const searchData = await searchRes.json();
+  if (!searchData.search || searchData.search.length === 0) return [];
+  const ids = searchData.search.slice(0, 15).map(e => e.id);
+  return await fetchDetails(ids, signal);
+}
+
+async function searchByFilters(signal) {
+  const fYear  = document.getElementById('f-year').value.trim();
+  const fMRaw  = document.getElementById('f-month').value;
+  const fMonth = fMRaw ? fMRaw.replace('月','') : '';
+  const fDay   = document.getElementById('f-day').value.trim();
+  let filters = [];
+  if (fYear)  filters.push(`FILTER(YEAR(?birth) = ${fYear})`);
+  if (fMonth) filters.push(`FILTER(MONTH(?birth) = ${parseInt(fMonth)})`);
+  if (fDay)   filters.push(`FILTER(DAY(?birth) = ${parseInt(fDay)})`);
+  if (!filters.length) return [];
+  const sparql = `
+    SELECT DISTINCT ?person ?personLabel ?birth ?countryLabel ?occLabel WHERE {
+      ?person wdt:P31 wd:Q5; wdt:P569 ?birth.
+      OPTIONAL { ?person wdt:P27 ?country. }
+      OPTIONAL { ?person wdt:P106 ?occ. }
+      ${filters.join('\n')}
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "ja,en". }
+    } LIMIT 40
+  `;
+  const url = 'https://query.wikidata.org/sparql?query=' + encodeURIComponent(sparql) + '&format=json';
+  const res = await fetch(url, { headers: { 'Accept': 'application/json' }, signal });
+  const data = await res.json();
+  return (data.results?.bindings || []).map(row => ({
+    id: row.person?.value?.split('/').pop(),
+    name: row.personLabel?.value || '不明',
+    nameEn: '', birthday: row.birth?.value?.slice(0,10) || '',
+    occupation: row.occLabel?.value || '',
+    country: row.countryLabel?.value || '',
+    description: ''
+  })).filter(p => p.birthday && !p.name.startsWith('Q'));
+}
+
+async function fetchDetails(ids, signal) {
+  const sparql = `
+    SELECT DISTINCT ?person ?personLabel ?personAltLabel ?birth ?countryLabel ?occLabel ?desc ?realName ?bpLabel WHERE {
+      VALUES ?person { ${ids.map(id => 'wd:' + id).join(' ')} }
+      ?person wdt:P31 wd:Q5; wdt:P569 ?birth.
+      OPTIONAL { ?person wdt:P27 ?country. }
+      OPTIONAL { ?person wdt:P106 ?occ. }
+      OPTIONAL { ?person schema:description ?desc FILTER(LANG(?desc) = "ja") }
+      OPTIONAL { ?person wdt:P1477 ?realName. }
+      OPTIONAL { ?person wdt:P19 ?bp. }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "ja,en". }
+    }
+  `;
+  const url = 'https://query.wikidata.org/sparql?query=' + encodeURIComponent(sparql) + '&format=json';
+  const res = await fetch(url, { headers: { 'Accept': 'application/json' }, signal });
+  const data = await res.json();
+  const map = {};
+  for (const row of (data.results?.bindings || [])) {
+    const id = row.person.value.split('/').pop();
+    if (!map[id]) {
+      map[id] = {
+        id, name: row.personLabel?.value || '不明',
+        nameEn: row.personAltLabel?.value || '',
+        birthday: row.birth?.value?.slice(0,10) || '',
+        country: row.countryLabel?.value || '',
+        occupation: row.occLabel?.value || '',
+        description: row.desc?.value || '',
+        realName: row.realName?.value || '',
+        birthplace: row.bpLabel?.value || '',
+        memo: ''
+      };
+    } else {
+      if (row.occLabel?.value && !map[id].occupation.includes(row.occLabel.value))
+        map[id].occupation += '・' + row.occLabel.value;
+    }
+  }
+  return Object.values(map).filter(p => p.birthday && !p.name.startsWith('Q'));
+}
+
+function showRemoteLoading() {
+  document.getElementById('remoteSection').style.display = 'block';
+  document.getElementById('remoteCount').textContent = '…';
+  document.getElementById('remoteResults').innerHTML =
+    `<div class="status-msg"><div class="spinner"></div>Wikidataを検索中...</div>`;
+}
+
+function renderRemote() {
+  const sec = document.getElementById('remoteSection');
+  const container = document.getElementById('remoteResults');
+  const countEl = document.getElementById('remoteCount');
+  if (remoteResults.length === 0) {
+    sec.style.display = 'block';
+    countEl.textContent = '0';
+    const q = escHtml(omniInput.value.trim());
+    container.innerHTML = `
+      <div class="status-msg" style="padding:24px">
+        <div class="icon">🔎</div>
+        Wikidataに「${q}」が見つかりませんでした
+        <div style="margin-top:14px;display:flex;justify-content:center;gap:8px;flex-wrap:wrap">
+          <button class="btn btn-primary btn-small" onclick="openNewEntryWithName('${q.replace(/'/g,'&#39;')}')">＋ 手動で追加</button>
+          <button class="btn btn-secondary btn-small" onclick="hideRemote()">閉じる</button>
+        </div>
+      </div>`;
+    return;
+  }
+  sec.style.display = 'block';
+  countEl.textContent = remoteResults.length;
+  container.innerHTML = `<div class="results-grid">${remoteResults.map(p => personCard(p, false)).join('')}</div>`;
+}
+
+function hideRemote() {
+  document.getElementById('remoteSection').style.display = 'none';
+  remoteResults = [];
+  lastRemoteQuery = '';
+  updateOmniStatus();
+}
+
+/* ═════════════════════════════════════════════
+   LOCAL PANEL (保存済み)
+   ═════════════════════════════════════════════ */
+function toggleSort() {
+  sortMode = (sortMode === 'random') ? 'birthday' : 'random';
+  document.getElementById('sortBtn').textContent = sortMode === 'random' ? '🎲 ランダム' : '📅 誕生日順';
+  renderLocal();
+}
+
+function renderLocal() {
+  // アクティブフィルターバー
+  const afBar = document.getElementById('activeFilterBar');
+  if (clickFilter.type) {
+    afBar.innerHTML = `<div class="active-filter-bar">
+      <span style="font-size:12px;color:var(--text-muted)">絞り込み中：</span>
+      <span class="filter-pill" onclick="clearClickFilter()">${escHtml(clickFilter.label)} ×</span>
+    </div>`;
+  } else {
+    afBar.innerHTML = '';
+  }
+
+  let filtered = getLocalMatches();
+  const container = document.getElementById('localResults');
+  document.getElementById('localCount').textContent = filtered.length;
+
+  if (savedPeople.length === 0) {
+    container.innerHTML = `<div class="status-msg"><div class="icon">⭐</div>まだ誰も保存されていません<br><small>上で検索して「＋保存」、または「＋新規追加」から手動で登録できます</small></div>`;
+    return;
+  }
+  if (filtered.length === 0) {
+    const q = escHtml(omniInput.value.trim());
+    container.innerHTML = `
+      <div class="status-msg">
+        <div class="icon">🔍</div>
+        保存済みに一致する人物はいません${q ? `（「${q}」）` : ''}
+        ${q ? `
+          <div style="margin-top:14px;display:flex;justify-content:center;gap:8px;flex-wrap:wrap">
+            <button class="btn btn-primary btn-small" onclick="runOmniSearch(true)">🌐 Wikidataで探す</button>
+            <button class="btn btn-secondary btn-small" onclick="openNewEntryWithName('${q.replace(/'/g,'&#39;')}')">＋ 手動で追加</button>
+          </div>` : ''}
+      </div>`;
+    return;
+  }
+
+  // ソート
+  const hasActiveSearch = !!omniInput.value.trim() || hasAnyFilter();
+  if (sortMode === 'random' && !hasActiveSearch) {
+    // ランダム並び（シャッフル）
+    for (let i = filtered.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+    }
+  } else {
+    filtered.sort((a, b) => (a.birthday||'').localeCompare(b.birthday||''));
+  }
+
+  container.innerHTML = `<div class="results-grid">${filtered.map(p => personCard(p, true)).join('')}</div>`;
+}
+
+/* ═════════════════════════════════════════════
+   PERSON CARD
+   ═════════════════════════════════════════════ */
+function personCard(p, isSaved) {
+  const age = calcAge(p.birthday);
+  const alreadySaved = !isSaved && savedPeople.some(s => s.id === p.id);
+
+  const tags = [];
+  if (p.occupation) tags.push(`<span class="tag cat">${escHtml(p.occupation.split('・')[0])}</span>`);
+  if (p.country)    tags.push(`<span class="tag country">${escHtml(p.country)}</span>`);
+
+  const realNameRow   = p.realName  ? `<div class="person-realname">本名：<span>${escHtml(p.realName)}</span></div>` : '';
+  const birthplaceRow = p.birthplace? `<div class="person-realname">出身：<span>${escHtml(p.birthplace)}</span></div>` : '';
+  const memoRow       = p.memo      ? `<div class="person-memo">📝 ${escHtml(p.memo)}</div>` : '';
+
+  const editBtn = isSaved ? `<button class="btn-edit" title="編集" onclick="openEdit('${p.id}')">✏️</button>` : '';
+  const saveBtn = isSaved
+    ? `<button class="btn-delete" title="削除" onclick="removePerson('${p.id}')">🗑️</button>`
+    : `<button class="btn-save ${alreadySaved ? 'saved' : ''}" id="save-${p.id}"
+        onclick='toggleSave(${JSON.stringify(p).replace(/'/g,"&#39;")}, this)'>
+        ${alreadySaved ? '✓ 保存済み' : '＋ 保存'}
+      </button>`;
+
+  const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(p.name)}`;
+
+  const bdYear = p.birthday?.slice(0,4) || '';
+  const bdMMDD = p.birthday?.slice(5)   || '';
+  const ageStr = age !== null ? String(age) : '';
+
+  const yearEl = bdYear
+    ? (isSaved
+        ? `<span class="fchip" onclick="setClickFilter('year','${bdYear}','${bdYear}年生まれ')">${bdYear}年</span>`
+        : `${bdYear}年`) : '';
+  const mmddEl = bdMMDD
+    ? (isSaved
+        ? `<span class="fchip" onclick="setClickFilter('mmdd','${bdMMDD}','${fmtMMDD(bdMMDD)}')">${fmtMMDD(bdMMDD)}</span>`
+        : fmtMMDD(bdMMDD)) : '';
+  const ageEl = ageStr
+    ? (isSaved
+        ? `<div class="person-age"><span class="fchip" style="font-size:inherit;font-weight:inherit" onclick="setClickFilter('age','${ageStr}','${ageStr}歳')">${ageStr}</span><span style="font-size:13px;font-weight:400;color:var(--text-muted)">歳</span></div>`
+        : `<div class="person-age">${ageStr}<span style="font-size:13px;font-weight:400;color:var(--text-muted)">歳</span></div>`)
+    : '';
+
+  const bdLine = (yearEl || mmddEl) ? `<div class="person-birthday">${yearEl}${yearEl&&mmddEl?' ':''}${mmddEl}</div>` : '';
+
+  return `
+    <div class="person-card ${isSaved ? 'is-saved' : ''}" id="card-${p.id}">
+      <div class="card-top">
+        <div style="flex:1;min-width:0">
+          <div class="person-name">
+            <a href="${googleUrl}" target="_blank" rel="noopener"
+               style="color:inherit;text-decoration:none"
+               onmouseover="this.style.color='var(--accent)'"
+               onmouseout="this.style.color='inherit'">${escHtml(p.name)}</a>
+          </div>
+          ${p.nameEn ? `<div class="person-name-en">${escHtml(p.nameEn)}</div>` : ''}
+          ${realNameRow}${birthplaceRow}
+        </div>
+        <div style="text-align:right;flex-shrink:0;padding-left:8px">
+          ${ageEl}${bdLine}
+        </div>
+      </div>
+      <div class="person-tags">${tags.join('')}${!isSaved && alreadySaved ? '<span class="tag src">保存済み</span>' : ''}</div>
+      ${memoRow}
+      <div class="card-footer" style="margin-top:10px">${editBtn}${saveBtn}</div>
+    </div>`;
+}
+
+/* ═════════════════════════════════════════════
+   CLICK FILTER
+   ═════════════════════════════════════════════ */
+function setClickFilter(type, value, label) {
+  if (clickFilter.type === type && clickFilter.value === value) {
+    clickFilter = { type: null, value: null, label: null };
+  } else {
+    clickFilter = { type, value, label };
+  }
+  renderLocal(); updateOmniStatus();
+  window.scrollTo({ top: document.getElementById('localSection').offsetTop - 80, behavior: 'smooth' });
+}
+function clearClickFilter() {
+  clickFilter = { type: null, value: null, label: null };
+  renderLocal(); updateOmniStatus();
+}
+
+/* ═════════════════════════════════════════════
+   SAVE / REMOVE
+   ═════════════════════════════════════════════ */
+function toggleSave(person, btn) {
+  const idx = savedPeople.findIndex(s => s.id === person.id);
+  if (idx >= 0) {
+    savedPeople.splice(idx, 1);
+    btn.textContent = '＋ 保存';
+    btn.classList.remove('saved');
+  } else {
+    savedPeople.push({ ...person, savedAt: new Date().toISOString() });
+    btn.textContent = '✓ 保存済み';
+    btn.classList.add('saved');
+    showNotif('⭐ 保存しました：' + person.name);
+  }
+  persistSaved();
+  updateHeaderStats();
+  renderLocal();
+}
+
+function removePerson(id) {
+  const p = savedPeople.find(s => s.id === id);
+  if (!p) return;
+  if (!confirm(`「${p.name}」を削除しますか？`)) return;
+  savedPeople = savedPeople.filter(s => s.id !== id);
+  persistSaved();
+  updateHeaderStats();
+  renderLocal();
+  showNotif('🗑️ 削除しました：' + p.name);
+}
+
+function persistSaved() {
+  localStorage.setItem('bday_db', JSON.stringify(savedPeople));
+  fetch('/save', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ filename: 'birthday_db.json', content: JSON.stringify(savedPeople, null, 2) })
+  }).catch(() => {});
+}
+
+function updateHeaderStats() {
+  const n = savedPeople.length;
+  const withBp = savedPeople.filter(p => p.birthplace).length;
+  document.getElementById('headerStats').innerHTML =
+    `<strong>${n}</strong> 人保存 &nbsp;/&nbsp; 出身地: ${withBp}`;
+}
+
+/* ═════════════════════════════════════════════
+   BIRTHPLACE BULK FETCH
+   ═════════════════════════════════════════════ */
+async function fetchAllBirthplaces() {
+  const targets = savedPeople.filter(p => p.id && !p.birthplace && !p.id.startsWith('local_'));
+  if (targets.length === 0) { showNotif('✅ 全員すでに出身地あり'); return; }
+  const prog = document.getElementById('bpProgress');
+  prog.style.display = 'block';
+  const BATCH = 50; let done = 0, updated = 0;
+  for (let i = 0; i < targets.length; i += BATCH) {
+    const batch = targets.slice(i, i + BATCH);
+    const ids = batch.map(p => 'wd:' + p.id);
+    const sparql = `SELECT DISTINCT ?person ?bpLabel WHERE {
+      VALUES ?person { ${ids.join(' ')} }
+      OPTIONAL { ?person wdt:P19 ?bp. }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "ja,en". }
+    }`;
+    try {
+      const url = 'https://query.wikidata.org/sparql?query=' + encodeURIComponent(sparql) + '&format=json';
+      const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+      const data = await res.json();
+      for (const row of (data.results?.bindings || [])) {
+        const qid = row.person?.value?.split('/').pop();
+        const bp  = row.bpLabel?.value || '';
+        if (!qid || !bp) continue;
+        const idx = savedPeople.findIndex(p => p.id === qid);
+        if (idx >= 0 && !savedPeople[idx].birthplace) { savedPeople[idx].birthplace = bp; updated++; }
+      }
+    } catch(e) {}
+    done += batch.length;
+    prog.textContent = `取得中… ${done} / ${targets.length} 件 （出身地追加：${updated} 件）`;
+    await new Promise(r => setTimeout(r, 400));
+  }
+  persistSaved();
+  prog.textContent = `完了！ 出身地を ${updated} 件追加しました。`;
+  setTimeout(() => prog.style.display = 'none', 4000);
+  showNotif(`✅ 出身地 ${updated} 件追加`);
+  updateHeaderStats();
+  renderLocal();
+}
+
+/* ═════════════════════════════════════════════
+   EXPORT / IMPORT
+   ═════════════════════════════════════════════ */
+function exportJSON() {
+  const blob = new Blob([JSON.stringify(savedPeople, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `birthday_db_${new Date().toISOString().slice(0,10)}.json`; a.click();
+  showNotif('✅ JSONをエクスポートしました');
+}
+
+function importJSON(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    try {
+      const imported = JSON.parse(ev.target.result);
+      if (!Array.isArray(imported)) throw new Error();
+      let added = 0, updated = 0;
+      const FIELDS = ['birthday','name','nameEn','realName','occupation','country','birthplace','description','memo'];
+      imported.forEach(p => {
+        const idx = savedPeople.findIndex(s => s.id === p.id);
+        if (idx < 0) {
+          savedPeople.push(p); added++;
+        } else {
+          let changed = false;
+          FIELDS.forEach(f => { if (p[f] && !savedPeople[idx][f]) { savedPeople[idx][f] = p[f]; changed = true; } });
+          if (changed) updated++;
+        }
+      });
+      persistSaved(); updateHeaderStats(); renderLocal();
+      showNotif(`✅ ${added}件追加・${updated}件更新`);
+    } catch { showNotif('❌ 読み込み失敗', 'err'); }
+  };
+  reader.readAsText(file);
+  e.target.value = '';
+}
+
+/* ═════════════════════════════════════════════
+   EDIT MODAL
+   ═════════════════════════════════════════════ */
+function openNewEntry() {
+  document.getElementById('editModalTitle').textContent = '＋ 新規追加';
+  document.getElementById('editId').value = 'local_' + Date.now();
+  document.getElementById('editName').value = '';
+  document.getElementById('editRealName').value = '';
+  document.getElementById('editBirthday').value = '';
+  document.getElementById('editOccupation').value = '';
+  document.getElementById('editCountry').value = '日本';
+  document.getElementById('editBirthplace').value = '';
+  document.getElementById('editMemo').value = '';
+  document.getElementById('editModal').classList.add('open');
+  setTimeout(() => document.getElementById('editName').focus(), 100);
+}
+function openNewEntryWithName(name) {
+  openNewEntry();
+  document.getElementById('editName').value = name;
+}
+function openEdit(id) {
+  const p = savedPeople.find(s => s.id === id);
+  if (!p) return;
+  document.getElementById('editModalTitle').textContent = '✏️ 情報を編集';
+  document.getElementById('editId').value = id;
+  document.getElementById('editName').value = p.name || '';
+  document.getElementById('editRealName').value = p.realName || '';
+  document.getElementById('editBirthday').value = p.birthday || '';
+  document.getElementById('editOccupation').value = p.occupation || '';
+  document.getElementById('editCountry').value = p.country || '';
+  document.getElementById('editBirthplace').value = p.birthplace || '';
+  document.getElementById('editMemo').value = p.memo || '';
+  document.getElementById('editModal').classList.add('open');
+}
+function closeModal() { document.getElementById('editModal').classList.remove('open'); }
+function closeModalOnBg(e) { if (e.target === document.getElementById('editModal')) closeModal(); }
+
+function saveEdit() {
+  const id  = document.getElementById('editId').value;
+  const idx = savedPeople.findIndex(p => p.id === id);
+  const name = document.getElementById('editName').value.trim();
+  if (!name) { showNotif('⚠️ 名前を入力してください', 'warn'); return; }
+  const entry = {
+    id,
+    name,
+    realName:    document.getElementById('editRealName').value.trim(),
+    birthday:    parseBirthday(document.getElementById('editBirthday').value),
+    occupation:  document.getElementById('editOccupation').value.trim(),
+    country:     document.getElementById('editCountry').value.trim(),
+    birthplace:  document.getElementById('editBirthplace').value.trim(),
+    memo:        document.getElementById('editMemo').value.trim(),
+    nameEn:      idx >= 0 ? (savedPeople[idx].nameEn || '') : '',
+    description: idx >= 0 ? (savedPeople[idx].description || '') : '',
+    savedAt:     idx >= 0 ? savedPeople[idx].savedAt : new Date().toISOString(),
+    _found: true,
+  };
+  if (idx >= 0) { savedPeople[idx] = entry; } else { savedPeople.push(entry); }
+  persistSaved(); updateHeaderStats(); closeModal();
+  showNotif((idx >= 0 ? '✅ 更新：' : '✅ 追加：') + entry.name);
+  renderLocal();
+}
+
+async function autofillFromWikidata() {
+  const name = document.getElementById('editName').value.trim();
+  if (!name) { showNotif('⚠️ 名前を入力してください', 'warn'); return; }
+  const btn = document.getElementById('autofillBtn');
+  btn.disabled = true; btn.textContent = '🔄 検索中...';
+  try {
+    const surl = `https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(name)}&language=ja&type=item&limit=5&format=json&origin=*`;
+    const sres = await fetch(surl);
+    const sdata = await sres.json();
+    if (!sdata.search || sdata.search.length === 0) { showNotif('❌ Wikidataに見つかりません', 'err'); return; }
+    const ids = sdata.search.slice(0,3).map(e => e.id);
+    const sparql = `
+      SELECT DISTINCT ?person ?personLabel ?birth ?occLabel ?countryLabel ?realName ?bpLabel WHERE {
+        VALUES ?person { ${ids.map(id=>'wd:'+id).join(' ')} }
+        ?person wdt:P31 wd:Q5; wdt:P569 ?birth.
+        OPTIONAL { ?person wdt:P106 ?occ. }
+        OPTIONAL { ?person wdt:P27 ?country. }
+        OPTIONAL { ?person wdt:P1477 ?realName. }
+        OPTIONAL { ?person wdt:P19 ?bp. }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "ja,en". }
+      } LIMIT 5
+    `;
+    const qurl = 'https://query.wikidata.org/sparql?query=' + encodeURIComponent(sparql) + '&format=json';
+    const qres = await fetch(qurl, { headers: { 'Accept': 'application/json' } });
+    const qdata = await qres.json();
+    const rows = qdata.results?.bindings || [];
+    if (rows.length === 0) { showNotif('❌ 人物情報なし', 'err'); return; }
+    const row = rows[0];
+    if (row.personLabel?.value) document.getElementById('editName').value = row.personLabel.value;
+    if (row.birth?.value)       document.getElementById('editBirthday').value = row.birth.value.slice(0,10);
+    if (row.realName?.value)    document.getElementById('editRealName').value = row.realName.value;
+    if (row.countryLabel?.value) document.getElementById('editCountry').value = row.countryLabel.value;
+    if (row.bpLabel?.value)     document.getElementById('editBirthplace').value = row.bpLabel.value;
+    const occs = [...new Set(rows.map(r => r.occLabel?.value).filter(Boolean))];
+    if (occs.length) document.getElementById('editOccupation').value = occs.join('・');
+    if (!document.getElementById('editId').value.startsWith('local_')) {
+      const qid = rows[0].person?.value?.split('/').pop();
+      if (qid) document.getElementById('editId').value = qid;
+    } else {
+      const qid = rows[0].person?.value?.split('/').pop();
+      if (qid && !savedPeople.some(s => s.id === qid)) {
+        document.getElementById('editId').value = qid;
+      }
+    }
+    showNotif('✅ 自動入力：' + (row.personLabel?.value || name));
+  } catch(e) {
+    showNotif('❌ エラー', 'err');
+  } finally {
+    btn.disabled = false; btn.textContent = '🔍 Wikidataから自動入力';
+  }
+}
+
+/* ═════════════════════════════════════════════
+   BULK
+   ═════════════════════════════════════════════ */
+let bulkResults = [];
+let bulkAbort = false;
+
+document.getElementById('bulkTextarea').addEventListener('input', updateBulkMeta);
+document.getElementById('bulkTextarea').addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); startBulk(); }
+});
+
+function updateBulkMeta() {
+  const lines = document.getElementById('bulkTextarea').value.split('\n').map(v => v.trim()).filter(Boolean);
+  const uniqueKeys = new Set();
+  let dup = 0, saved = 0;
+  lines.forEach(name => {
+    const key = normalizeNameKey(name);
+    if (!key) return;
+    if (uniqueKeys.has(key)) dup++;
+    uniqueKeys.add(key);
+    if (savedPeople.some(p => {
+      const keys = [p.name, p.nameEn, p.realName].filter(Boolean).map(normalizeNameKey);
+      return keys.some(k => k === key);
+    })) saved++;
+  });
+  document.getElementById('bulkMetaCount').textContent = lines.length;
+  document.getElementById('bulkMetaDup').textContent = dup;
+  document.getElementById('bulkMetaSaved').textContent = saved;
+}
+
+function clearBulk() {
+  document.getElementById('bulkTextarea').value = '';
+  document.getElementById('bulkProgressWrap').style.display = 'none';
+  document.getElementById('bulkResultsWrap').style.display = 'none';
+  bulkResults = [];
+  updateBulkMeta();
+}
+
+async function startBulk() {
+  const text = document.getElementById('bulkTextarea').value.trim();
+  if (!text) return;
+  const names = [...new Set(text.split('\n').map(l => l.trim()).filter(Boolean))];
+  if (names.length === 0) return;
+
+  bulkAbort = false; bulkResults = [];
+  const btn = document.getElementById('bulkStartBtn');
+  btn.disabled = true; btn.textContent = '⏳ 検索中...';
+
+  const wrap  = document.getElementById('bulkProgressWrap');
+  const log   = document.getElementById('bulkLog');
+  const bar   = document.getElementById('bulkBarFill');
+  const num   = document.getElementById('bulkProgressNum');
+  const ptext = document.getElementById('bulkProgressText');
+  wrap.style.display = 'block';
+  document.getElementById('bulkResultsWrap').style.display = 'none';
+  log.innerHTML = '';
+
+  for (let i = 0; i < names.length; i++) {
+    if (bulkAbort) break;
+    const name = names[i];
+    num.textContent = `${i+1} / ${names.length}`;
+    ptext.textContent = `検索中：${name}`;
+    bar.style.width = ((i+1)/names.length*100) + '%';
+    try {
+      const surl = `https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(name)}&language=ja&type=item&limit=5&format=json&origin=*`;
+      const sres = await fetch(surl);
+      const sdata = await sres.json();
+      if (!sdata.search || sdata.search.length === 0) {
+        log.innerHTML += `<div class="skip">✗ 見つからず：${escHtml(name)}</div>`;
+        bulkResults.push({ _query: name, _found: false });
+        log.scrollTop = log.scrollHeight; continue;
+      }
+      const ids = sdata.search.slice(0,3).map(e => e.id);
+      const sparql = `
+        SELECT DISTINCT ?person ?personLabel ?birth ?occLabel ?countryLabel ?realName ?bpLabel WHERE {
+          VALUES ?person { ${ids.map(id=>'wd:'+id).join(' ')} }
+          ?person wdt:P31 wd:Q5; wdt:P569 ?birth.
+          OPTIONAL { ?person wdt:P106 ?occ. }
+          OPTIONAL { ?person wdt:P27 ?country. }
+          OPTIONAL { ?person wdt:P1477 ?realName. }
+          OPTIONAL { ?person wdt:P19 ?bp. }
+          SERVICE wikibase:label { bd:serviceParam wikibase:language "ja,en". }
+        } LIMIT 10
+      `;
+      const qurl = 'https://query.wikidata.org/sparql?query=' + encodeURIComponent(sparql) + '&format=json';
+      const qres = await fetch(qurl, { headers: { 'Accept': 'application/json' } });
+      const qdata = await qres.json();
+      const rows = qdata.results?.bindings || [];
+      if (rows.length === 0) {
+        const members = await fetchGroupMembers(ids, name);
+        if (members && members.length > 0) {
+          log.innerHTML += `<div class="ok">👥 グループ展開：${escHtml(name)}（${members.length}人）</div>`;
+          for (const m of members) {
+            bulkResults.push(m);
+            log.innerHTML += `<div class="ok" style="padding-left:18px;font-size:11px">  ✓ ${escHtml(m.name)}（${formatBirthday(m.birthday)}）</div>`;
+          }
+        } else {
+          log.innerHTML += `<div class="skip">✗ 見つからず：${escHtml(name)}</div>`;
+          bulkResults.push({ _query: name, _found: false });
+        }
+        log.scrollTop = log.scrollHeight; continue;
+      }
+      const row = rows[0];
+      const person = {
+        id: row.person.value.split('/').pop(),
+        name: row.personLabel?.value || name,
+        nameEn: '', birthday: row.birth?.value?.slice(0,10) || '',
+        occupation: row.occLabel?.value || '', country: row.countryLabel?.value || '',
+        realName: row.realName?.value || '', birthplace: row.bpLabel?.value || '',
+        description: '', memo: '', _query: name, _found: true
+      };
+      rows.forEach(r => {
+        if (r.occLabel?.value && !person.occupation.includes(r.occLabel.value))
+          person.occupation += (person.occupation ? '・' : '') + r.occLabel.value;
+      });
+      bulkResults.push(person);
+      log.innerHTML += `<div class="ok">✓ ${escHtml(name)} → ${escHtml(person.name)}（${formatBirthday(person.birthday)}）</div>`;
+    } catch(e) {
+      log.innerHTML += `<div class="err">! エラー：${escHtml(name)}</div>`;
+      bulkResults.push({ _query: name, _found: false });
+    }
+    log.scrollTop = log.scrollHeight;
+    await new Promise(r => setTimeout(r, 300));
+  }
+
+  ptext.textContent = '完了！';
+  btn.disabled = false; btn.textContent = '🚀 一括検索';
+  renderBulkResults();
+}
+
+function renderBulkResults() {
+  const wrap = document.getElementById('bulkResultsWrap');
+  const grid = document.getElementById('bulkResultGrid');
+  const summary = document.getElementById('bulkSummary');
+  wrap.style.display = 'block';
+  const found = bulkResults.filter(p => p._found);
+  const notFound = bulkResults.filter(p => !p._found);
+  const alreadySaved = found.filter(p => savedPeople.some(s => s.id === p.id));
+  summary.innerHTML = `<strong>${found.length}</strong>件ヒット / <strong>${notFound.length}</strong>件見つからず / 保存済み：${alreadySaved.length}件`;
+  grid.innerHTML = bulkResults.map((p, i) => {
+    if (!p._found) return `
+      <div class="bulk-result-card notfound" id="brc-${i}" style="flex-direction:column">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+          <span style="font-size:16px">✏️</span>
+          <div>
+            <div class="bulk-card-name" style="color:var(--text-muted);font-size:11px">見つからず → 手動入力</div>
+            <div class="bulk-card-query">検索名：${escHtml(p._query)}</div>
+          </div>
+        </div>
+        <div class="notfound-edit">
+          <input id="nf-name-${i}" type="text" placeholder="芸名" value="${escHtml(p._query)}">
+          <input id="nf-bday-${i}" type="text" placeholder="生年月日（1985-03-21）">
+          <input id="nf-occ-${i}" type="text" placeholder="職業（例：俳優）">
+          <input id="nf-country-${i}" type="text" placeholder="国籍（例：日本）" value="日本">
+          <input id="nf-memo-${i}" type="text" placeholder="メモ（任意）">
+          <button class="btn-notfound-save" onclick="saveNotFound(${i})">＋ 手動で追加</button>
+        </div>
+      </div>`;
+    const already = savedPeople.some(s => s.id === p.id);
+    return `
+      <div class="bulk-result-card" id="brc-${i}">
+        <input type="checkbox" class="bulk-check" id="bchk-${i}" ${already ? '' : 'checked'}
+          onchange="document.getElementById('brc-${i}').classList.toggle('excluded', !this.checked)">
+        <div class="bulk-card-info">
+          <div class="bulk-card-name">${escHtml(p.name)}${already ? ' <span style="font-size:10px;color:var(--success)">保存済</span>' : ''}</div>
+          <div class="bulk-card-query">検索名：${escHtml(p._query)}</div>
+          <div class="bulk-card-bday">${formatBirthday(p.birthday)}</div>
+          <div class="bulk-card-occ">${escHtml(p.occupation)} ${p.country ? '/ '+escHtml(p.country) : ''}</div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function bulkToggleAll(checked) {
+  bulkResults.forEach((p, i) => {
+    if (!p._found) return;
+    const chk = document.getElementById('bchk-'+i);
+    const card = document.getElementById('brc-'+i);
+    if (chk) { chk.checked = checked; card.classList.toggle('excluded', !checked); }
+  });
+}
+
+function bulkSaveChecked() {
+  let added = 0;
+  bulkResults.forEach((p, i) => {
+    if (!p._found) return;
+    const chk = document.getElementById('bchk-'+i);
+    if (!chk || !chk.checked) return;
+    if (!savedPeople.some(s => s.id === p.id)) {
+      savedPeople.push({ ...p, savedAt: new Date().toISOString() }); added++;
+    }
+  });
+  persistSaved(); updateHeaderStats(); renderLocal();
+  showNotif(`✅ ${added}件保存`);
+  renderBulkResults();
+}
+
+function saveNotFound(i) {
+  const name    = document.getElementById(`nf-name-${i}`)?.value.trim();
+  const bday    = document.getElementById(`nf-bday-${i}`)?.value.trim();
+  const occ     = document.getElementById(`nf-occ-${i}`)?.value.trim();
+  const country = document.getElementById(`nf-country-${i}`)?.value.trim();
+  const memo    = document.getElementById(`nf-memo-${i}`)?.value.trim();
+  if (!name) { showNotif('⚠️ 名前を入力してください', 'warn'); return; }
+  const entry = {
+    id: 'local_' + Date.now() + '_' + i,
+    name, realName: '', nameEn: '',
+    birthday: bday ? parseBirthday(bday) : '',
+    occupation: occ || '', country: country || '', birthplace: '',
+    description: '', memo: memo || '',
+    savedAt: new Date().toISOString(), _found: true
+  };
+  if (!savedPeople.some(s => s.name === name && s.birthday === entry.birthday)) {
+    savedPeople.push(entry);
+    persistSaved(); updateHeaderStats();
+    showNotif('✅ 手動追加：' + name);
+    const card = document.getElementById(`brc-${i}`);
+    if (card) card.innerHTML = `<div class="bulk-card-info"><div class="bulk-card-name">${escHtml(name)} <span style="font-size:10px;color:var(--success)">保存済</span></div><div class="bulk-card-bday">${escHtml(bday)}</div></div>`;
+    renderLocal();
+  } else {
+    showNotif('⚠️ すでに保存済み', 'warn');
+  }
+}
+
+async function fetchGroupMembers(ids, groupName) {
+  const sparql = `
+    SELECT DISTINCT ?member ?memberLabel ?birth ?occLabel ?countryLabel ?realName ?bpLabel WHERE {
+      VALUES ?group { ${ids.map(id => 'wd:' + id).join(' ')} }
+      ?group wdt:P527 ?member. ?member wdt:P31 wd:Q5.
+      OPTIONAL { ?member wdt:P569 ?birth. }
+      OPTIONAL { ?member wdt:P106 ?occ. }
+      OPTIONAL { ?member wdt:P27 ?country. }
+      OPTIONAL { ?member wdt:P1477 ?realName. }
+      OPTIONAL { ?member wdt:P19 ?bp. }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "ja,en". }
+    } LIMIT 30
+  `;
+  try {
+    const url = 'https://query.wikidata.org/sparql?query=' + encodeURIComponent(sparql) + '&format=json';
+    const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+    const data = await res.json();
+    const rows = data.results?.bindings || [];
+    if (rows.length === 0) return null;
+    const map = {};
+    for (const row of rows) {
+      const mid = row.member.value.split('/').pop();
+      if (!map[mid]) {
+        map[mid] = { id: mid, name: row.memberLabel?.value || '不明', nameEn: '',
+          birthday: row.birth?.value?.slice(0,10) || '', occupation: row.occLabel?.value || '',
+          country: row.countryLabel?.value || '', birthplace: row.bpLabel?.value || '',
+          realName: row.realName?.value || '', description: '', memo: '',
+          _query: groupName, _fromGroup: groupName, _found: true };
+      } else {
+        if (row.occLabel?.value && !map[mid].occupation.includes(row.occLabel.value))
+          map[mid].occupation += '・' + row.occLabel.value;
+      }
+    }
+    return Object.values(map);
+  } catch(e) { return null; }
+}
+
+function showStatus(containerId, icon, msg) {
+  document.getElementById(containerId).innerHTML = `<div class="status-msg"><div class="icon">${icon}</div>${msg}</div>`;
+}
+
+/* ═════════════════════════════════════════════
+   KEYBOARD SHORTCUTS
+   ═════════════════════════════════════════════ */
+document.addEventListener('keydown', e => {
+  const modal = document.getElementById('editModal');
+  const isOpen = modal.classList.contains('open');
+  const tag = document.activeElement?.tagName?.toLowerCase();
+  const isInput = tag === 'input' || tag === 'textarea' || tag === 'select';
+
+  if (e.key === 'Escape' && isOpen) { closeModal(); return; }
+  if (isOpen && e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); saveEdit(); return; }
+
+  // "/" で検索フォーカス
+  if (!isOpen && !isInput && e.key === '/') {
+    e.preventDefault();
+    omniInput.focus(); omniInput.select();
+    return;
+  }
+  // "n" で新規追加
+  if (!isOpen && !isInput && e.key === 'n') { e.preventDefault(); openNewEntry(); return; }
+});
+
+/* ═════════════════════════════════════════════
+   INIT
+   ═════════════════════════════════════════════ */
+(async () => {
+  try {
+    const res = await fetch('./birthday_db.json');
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data)) savedPeople = data;
+    }
+  } catch(e) {
+    savedPeople = JSON.parse(localStorage.getItem('bday_db') || '[]');
+  }
+  if (savedPeople.length === 0) {
+    savedPeople = JSON.parse(localStorage.getItem('bday_db') || '[]');
+  }
+  updateHeaderStats();
+  updateBulkMeta();
+  updateOmniStatus();
+  renderLocal();
+})();
+</script>
+</body>
+</html>
