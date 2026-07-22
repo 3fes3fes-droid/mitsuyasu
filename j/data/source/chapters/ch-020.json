@@ -1,0 +1,131 @@
+{
+  "id": "ch-020",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 20,
+  "zero_number": null,
+  "label": "第20話",
+  "title_official": "幼魚と逆罰―弐―",
+  "title_search_normalized": "幼魚と逆罰―弐―",
+  "start_page": 67,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.67",
+  "summary_short": "虎杖と七海は映画館で異形の存在を倒すが、それらが呪霊ではなく改造された人間だと判明する。真人は順平に、人間と呪いについて独自の思想を語る。",
+  "summary_full": "七海は十劃呪法で相手の弱点を作り、虎杖は肉体の打撃と遅れて届く呪力による逕庭拳で二体を制圧する。七海は倒した異形から人間の反応を感じ、家入硝子の検分で、二体は呪霊ではなく術式で肉体を変形させられた元人間と判明する。虎杖は人を殺した可能性に動揺する。一方、真人は順平へ、魂が肉体より先に存在し、自分は魂の形を変えて肉体を改造できると語り、人間を実験材料として扱う思想を見せる。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 and 七海 deal with the curses at キネマシネマ and learn they may not be 呪霊 after all. They discover that a powerful 呪霊 used its power to transform humans into unsightly beings. Meanwhile, the culprit, 真人 , and the only known witness, 順平 discuss the origin of curses.",
+    "summary_full_legacy": "七海 slashes through his target's weak points. 七海 explains that his ability creates weak points on his enemies that he slash apart, even with his bandaged blade. He asks if the young 悠仁 is paying attention, but he's trying to focus on the enemy curses. 七海 adds that revealing a technique to an enemy, the power can improve based on the conditions. Using the back of his wrapped-up blade, 七海 strikes the exposed points of one of the curse. Once one curse is dealt with, 悠仁 focuses on the other. He recalls training with 五条 sensei and learning from him that his 呪力 has a slight time-lag. 五条 taught 悠仁 to utilize the time-lag in order to make one curse-infused punch into a double-impacted strike called \" 逕庭拳 \". 悠仁's 逕庭拳. Using his newly developed signature move, 悠仁 annihilates the remaining curse with a punch reinforced with the twin-impact of his 呪力. 七海 silently takes notice of 悠仁's incredible potential and admits he understands why 五条悟 took him on. 七海 suddenly realizes something isn't right about these curses and decides to take a photo of them, which they show up in. He tells 悠仁 to stop attacking and shows him the photo. They report their findings to Doctor 家入硝子 and learn that these are ex-humans that have had their bodies transmogrified by 呪力. Doctor 家入 reveals that these curses used to be human. Both victims were killed from the shock of their modification and were somehow granted the ability to use 呪力 like a 呪霊 would. The doctor assures 悠仁 that he's not responsible for their deaths after explaining all of her findings. 悠仁 is upset by their deaths regardless, drawing 七海's interest. 七海 surmises that the residuals from the movie theater were meant to draw them out. He states that their enemy is skilled and the coming mission won't be easy. Even so, 悠仁 and 七海 head out to put an end to whoever did this. \" Thanks to the hatred spewed between people.. I was born .\" Meanwhile, in the sewers deep beneath 川崎市, 順平 meets with the culprit. The 呪霊 who transmogrified the victims, 真人 , explains to 順平 that his kind are born from humanity's negative energy. An image of fear shared by many people can give birth to \"imaginary vengeful spirits\" but 真人 comments that this system is shallow. 真人 claims people fear natural disasters the most and the negativity directed at them created the powerful 呪霊 whom 真人 calls his friends. 順平 asks what was 真人 born from. 真人 replies that he was born from the hate people feel for one another.",
+    "characters_raw_text": "虎杖悠仁 七海建人 漏瑚 (カメオ登場) 五条悟 家入硝子 真人 吉野順平 花御 (カメオ登場)",
+    "locations_raw_text": "川崎市 真人's Underground Lair 真人's Underground Lair",
+    "battles_events_raw_text": "虎杖悠仁 & 七海建人 vs. 改造人間 (終了)",
+    "techniques_raw_text": "七海建人の術式 十劃呪法 虎杖悠仁の術式 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-0af61a454d",
+    "char-17322e71e5",
+    "char-1751414065",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-6309a7e2f4",
+    "char-83967cd8ae",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_candidate": [
+    "term-c91391b066",
+    "term-8914e5bc1a"
+  ],
+  "key_events_verified_phase2": [
+    "虎杖と七海が異形二体を制圧する",
+    "異形が元人間の改造人間だと判明する",
+    "真人が順平へ魂と肉体の関係を説明する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-baadf43d19",
+    "char-6309a7e2f4",
+    "char-d4a4bc45c6",
+    "char-236cc955ae",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase2-keiteiken",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a35b2bcd34",
+      "relation": "identified"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "explained"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-e69f8fd37d",
+    "tech-phase2-keiteiken",
+    "tech-a35b2bcd34",
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase2": [
+    "term-65867f280c",
+    "term-8914e5bc1a",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "ch-203",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 203,
+  "zero_number": null,
+  "label": "第203話",
+  "title_official": "血と油②",
+  "title_search_normalized": "血と油2",
+  "start_page": 67,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.67",
+  "summary_short": "脹相は九十九を温存するため、単独で羂索へ挑む。羂索は呪霊操術と体術で脹相を圧倒し、九相図を失敗作と切り捨てる。",
+  "summary_full": "脹相は九十九を温存し、羂索の手札を引き出すため単独で戦う。赤血操術の穿血や近接戦を仕掛けるが、羂索は低級呪霊を盾や足場として使い、体術でも脹相を圧倒する。羂索は呪胎九相図を失敗作と切り捨て、虎杖に役割がある限り脹相たちは不要だと侮辱する。脹相は一度倒されるが、弟たちのために自分が兄として戦う意味を思い直す。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "脹相 volunteers himself as the first line of defense against 羂索 's infiltration of the 薨星宮 . 九十九由基 warns him that he'll be killed, but 脹相 will do anything to destroy his estranged father and ensure the safety of his brothers.",
+    "summary_full_legacy": "羂索 effortlessly avoids 脹相's attack. Before confronting his father, 脹相 strategized at a table with 由基 and 天元 . He offered himself to go first and fight 羂索 alone before 由基. 由基 replied to this proposition by simply telling 脹相 that he would die. 脹相 knows he would only hold 由基 back if they fought together and offered to draw out 羂索's cursed techniques and even his domain if possible. Once 脹相 forces 羂索 to reveal his hand, 由基 can strike. Even with these added details, 由基 repeated that 脹相 would die. Even so, 脹相 stated that wasn't important to him so long as his brothers were safe. In the present, 脹相 fires 穿血 directly at 羂索 to begin their fight. The 呪詛師 bends backward to avoid the attack while summoning a small 呪霊 to crawl along the blood beam. 脹相 bends the beam to tear the curse apart and rips up the floor in the process. 羂索 rides the momentum of the debris and throws one of the destroyed stones at his opponent. 脹相 believes 羂索 is underestimating him but curses suddenly appear from behind the rock to take him by surprise. 脹相 acts quickly throws compressed blood at the curses, using 超新星 to blow them up. 羂索 uses the division to close the distance and lands consecutive unarmed hits. He knocks 脹相 back but the blood manipulator leaves compressed blood behind and explodes it at point-blank range next to 羂索 using 超新星. 脹相 overpowered by 羂索 before landing a single hit. 羂索 protects himself using a 呪霊 as a shield. 脹相 asks him what he wants from 悠仁 but claims 悠仁's only role was to serve as a vessel for 宿儺. He claims 悠仁 is a signal fire for the continuing chain of curses and the eye of the storm for a new age. This irritates 脹相, who fires another 穿血 at his father, which 羂索 casually avoids with contempt. 脹相 rejects 羂索's notion that 悠仁 is the cause of suffering and directs that responsibility back on the 呪詛師. Cursed spirits suddenly restrain 脹相's feet from underneath the floor while he's distracted. 羂索 knocks 脹相 to the ground and pummels him with stomps while gloating that he already knows the 呪胎九相図 Womb is only trying to get him to reveal his abilities to 由基. 羂索 has only been manipulating weak 呪霊 and insults 脹相 by saying maybe even that isn't necessary for victory. He continues by calling 脹相 and his brothers for being failed creations and says the eldest brother should be grateful high expectations were ever placed upon them. Irate, 脹相 attempts to grab 羂索's leg but the 呪詛師 creates a swarm of centipede-like curses to knock 脹相 away. That swarm takes 脹相 into the air and then slams him into the ground, tearing apart his clothes and severely injuring him. \"Younger brothers of the 呪胎九相図 Wombs, fire!!!\" Nearing victory, 羂索 boasts that for a sorcerer , the rank of special grade signifies the power to overthrow nations. This is obviously true for 五条悟 , but 夏油傑 's 呪霊操術 can command an army of demons. Weak curses can be reinforced with 呪力 and overwhelm fighters of even 脹相's caliber. With 脹相 close to defeat, 天元 urges 由基 to take action. However, 由基 tells them to wait as she believes 脹相 has more to offer. Disappointed in himself, 脹相 believes he's failed as a big brother because he hasn't even landed a hit in this fight. Despite his failure so far, 脹相 gets up and continues fighting to punish his father for calling his brothers uninteresting. Shouting for the younger brothers of the 呪胎九相図 Wombs to fire, 脹相 gets his second wind and draws strength from the thoughts of his siblings.",
+    "characters_raw_text": "脹相 九十九由基 天元 羂索 壊相 (想像) 虎杖悠仁 (想像) 血塗 (想像)",
+    "locations_raw_text": "薨星宮",
+    "battles_events_raw_text": "九十九由基 & 脹相 vs. 羂索 (開始)",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂 穿血 超新星／百斂 穿血 超新星 呪物 呪胎: 呪胎九相図 (言及のみ) 羂索の術式 呪霊操術 (夏油傑として)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-6534bbe6c9",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-17ae81079b",
+    "tech-1bc0d9ec7b",
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a"
+  ],
+  "key_events_verified_phase10": [
+    "脹相が単独で羂索へ挑む",
+    "羂索が呪霊操術と体術で脹相を圧倒する",
+    "羂索が九相図を失敗作と呼ぶ",
+    "脹相が兄として再起する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-851111b10d",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "remembered"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "remembered"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "waiting"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-851111b10d",
+    "char-678a848346",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-baadf43d19",
+    "char-1566dd973d"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-5d6a005065",
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase10": [
+    "term-58cf854ee7",
+    "term-c5958133bc",
+    "term-dad5591883"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

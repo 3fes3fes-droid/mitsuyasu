@@ -1,0 +1,204 @@
+{
+  "id": "ch-221",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 221,
+  "zero_number": null,
+  "label": "第221話",
+  "title_official": "得喪",
+  "title_search_normalized": "得喪",
+  "start_page": 67,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "bath-return",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.67",
+  "summary_short": "来栖と天使の術式で獄門疆「裏」が開かれ、五条が解放される。五条は即座に羂索と宿儺の前へ現れ、決戦の日を12月24日に定める。",
+  "summary_full": "来栖と天使の術式で獄門疆「裏」が開かれ、五条が解放される。五条は即座に羂索と宿儺の前へ現れ、決戦の日を12月24日に定める。獄門疆「裏」が開いた直後、五条は日本海溝から脱出し羂索の前へ現れる。宿儺が割って入り、三者は12月24日に新宿で決着をつけることで合意する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 's allies execute a plan to restore hope and free him from 獄門疆 . 悟 doesn't appear before his allies, however, leaving them to ponder his fate. Instead, the world's strongest sorcerer immediately confronts 羂索 and sets the course for the future of the jujutsu world.",
+    "summary_full_legacy": "The back of 獄門疆 disappears but leaves no sign of 五条悟. 悠仁 and 高羽 take out the back of 獄門疆 in the middle of a room. Confused, 華 asks if they're planning to unseal 五条悟 within the confines of the small space. 高羽 takes her comment as if they need to freshen things up and be more lively for a welcome party. 天使 is aware that time doesn't flow in 獄門疆 and emphasizes that this could have affected 五条's mental state. Everyone agrees to relocate and they move the back gate to 呪術高専 第4訓練場 in the Kiroko Minne of Saitama Prefecture. When 高羽 and all the students are in a safe position, 棘 gives 華 the signal. She uses 邪去侮の梯子 on the back of Prison Rrealm while everyone watches on in anticipation for the return of the strongest sorcerer . However, when the dust settles, the 呪物 is gone with no sign of 五条. 華 gets defensive about the lack of 五条's presence and denies it being her fault when suddenly there's an earthquake. 五条悟 returns and immediately confronts 羂索. Elsewhere, 羂索 reveals that he placed 獄門疆 in the subduction zone in the deepest area of the Japan trench. He put it down there and surrounded it with layers of seals and 呪霊 that served as detectors. This measure was put into place after 天元 informed 羂索 about the back gate. He believed these preventative measures could kill 五条悟 if he got free but failed to do just that. 羂索 reveals all of this as he comes face to face with the returning bearer of the 六眼 . 羂索 taunts 五条 about his long rest but the latter tells him to choose his last words more carefully. The two strongest sorcerers come face to face. Ready to put an end to the imposter, 五条 activates Blue and generates a large force of attraction. 羂索 tries to resist the force of Blue when 宿儺 steps in to confront 五条 in mid-air. 五条 comments on 恵 looking differently and 宿儺 asks if he remembers something as they descend to the ground. 宿儺 reminds 五条 that he promised to kill him once he gained control of his vessel. 宿儺 switched bodies but still plans to make due on his threat. 五条 replies by mocking 宿儺 for running from 悠仁, upsetting 裏梅 . 五条 responds to 裏梅's aggression with a punch that sends them flying back, asking who they are after incapacitating them. A declaration of victory right after his comeback!! 羂索 asks 宿儺 to uphold his end of their deal before fighting. 五条 mocks 宿儺 for taking orders from 羂索 but he also thinks to himself about the things he needs to take care of before fighting as well. He wants to properly mourn his best friend but recognizes he won't be able to kill 羂索 while he has a 縛り with 宿儺 keeping them as allies. 宿儺 recalls 万 's comment about love and agrees to wait for a proper showdown. 五条 suggests they have their final battle on December 24th so 傑 can maintain a single date of death. Taken aback by 五条's confidence, he asks if the sorcerer doesn't expect to lose. After recalling 悠仁 asking if he would lose to 宿儺. 五条 gives 羂索 the same answer he did his young student: \" Nah, I'd win \".",
+    "characters_raw_text": "虎杖悠仁 高羽史彦 来栖華 西宮桃 秤金次 家入硝子 星綺羅羅 狗巻棘 パンダ 乙骨憂太 三輪霞 禪院真希 脹相 羂索 五条悟 宿儺 裏梅",
+    "locations_raw_text": "Kiroko Mine, Saitama Prefecture (呪術高専 第4訓練場)",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪物 獄門疆 来栖華の術式 術式 邪去侮の梯子 五条悟の術式 無下限呪術 術式 術式順転「蒼」／無限 術式 術式順転「蒼」／無限",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "bath",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-00f5cc93b4",
+    "char-02aa196fbb",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-484fd66a1e",
+    "char-65e7fd1c87",
+    "char-672d843799",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-2326f083fd",
+    "tech-4b0b9dc682",
+    "tech-56316150ed",
+    "tech-8b181ff845",
+    "tech-90aaa17cfe",
+    "tech-cf2f8dca4a",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-6e7e2b846e",
+    "term-f9dde75323"
+  ],
+  "key_events_verified_phase11": [
+    "来栖と天使の術式で獄門疆「裏」が開かれ、五条が解放される。",
+    "五条は即座に羂索と宿儺の前へ現れ、決戦の日を12月24日に定める。",
+    "獄門疆「裏」が開いた直後、五条は日本海溝から脱出し羂索の前へ現れる。",
+    "宿儺が割って入り、三者は12月24日に新宿で決着をつけることで合意する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-00f5cc93b4",
+    "char-02aa196fbb",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-484fd66a1e",
+    "char-65e7fd1c87",
+    "char-672d843799",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-2326f083fd",
+    "tech-56316150ed",
+    "tech-cf2f8dca4a"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-2326f083fd",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-56316150ed",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-f9dde75323"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

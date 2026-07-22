@@ -1,0 +1,123 @@
+{
+  "id": "ch-142",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 16,
+  "number": 142,
+  "zero_number": null,
+  "label": "第142話",
+  "title_official": "お兄ちゃんの背中",
+  "title_search_normalized": "お兄ちゃんの背中",
+  "start_page": 169,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-16"
+  ],
+  "source_locator": "単行本16巻 目次 p.169",
+  "summary_short": "脹相は血液操作と兄としての執念で直哉を追い詰め、超新星を命中させる。乙骨は倒れた直哉の前へ、虎杖の遺体を伴って現れる。",
+  "summary_full": "直哉は投射呪法の速度で脹相を追い込むが、脹相は大量の血を体外へ展開し、百斂で圧縮した血を複数方向から爆発させる超新星を発動する。直哉は攻撃を受け、呪胎九相図の血に含まれる毒によって吐血し、行動不能へ陥る。兄弟を見下す直哉に対し、脹相は弟たちがいたから今の自分があると語る。決着直後、乙骨が胸を刺した虎杖を引きずって現れ、直哉へ反転術式による治療を条件に取引を持ちかける。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Despite 悠仁 's execution having already been carried out, the fight between 直哉 and 脹相 continues! The would-be heir to the 禪院 clan and the death painting clash not only physically, but in their ideals as well. When 直哉 questions his opponent's toughness, 脹相 proves that his duty as the oldest of ten brothers is what gives him strength.",
+    "summary_full_legacy": "After 脹相 says that he's the oldest of ten siblings, 直哉 clarifies that he's asking about his 術式 and toughness, suddenly disappearing from 脹相's view. 脹相 notices a blur beside him and quickly turns to face the incredibly fast 直哉, who realizes that 脹相 has focused 赤鱗躍動 in the muscles of his eyes to raise their sharpness so that he can adjust to his speed. 直哉 figures out a way to bypass 脹相's toughness. However, 直哉 easily counters 脹相's counter, striking him in the midsection and saying that he always assumes that he will counter. As 脹相 recovers from the strike, blood suddenly begins to pour from an open wound, and 直哉 reveals that he decided to use a knife to affect his 赤血操術 , asking him how long he can fight in that condition. 脹相 commends his plan, and 直哉 talks about how sorcerers should keep any weapons hidden since it isn't cool. He adds that many do carry them around and are dependent on them, saying that the way in which his older brothers show off their weapons is pathetic and wondering how they could complain about 甚爾 . 脹相 turns his excessive bleeding into an advantage. 脹相 mentions 直哉's dislike for his brothers, and 直哉 says that older brothers who are weaker than their younger brothers should just hang themselves and die since they're pointless. 脹相 replies that 直哉 may be the way he is because of his brothers, and 直哉 scoffs at 脹相's cliché reasoning. 脹相 continues by saying that regardless of their strength, older brothers are role models and give their younger brothers the chance to avoid the mistakes that they themselves made or to follow behind them if they go down the right path. He asks 直哉 to consider the possibility that he is strong only because his older brothers are weak. He then reveals that he is strong because he had no one older to guide him, forcing him to face his own mistakes and continue walking ahead of his younger brothers. \" Sorry, but you didn't love your brothers... and I can't understand that . \" As the blood from 脹相's wound pools at his feet and begins to billow away from him, 直哉 backs away and wonders how he can survive after so much blood loss. It's stated that 呪胎九相図 have blood mixed from 呪霊 and humans, allowing them not to die of blood loss since they can convert 呪力 into blood. 脹相 raises the wall of blood and causes 直哉 to lose sight of them. A slow 苅祓 attack comes out of the blood, and 直哉 easily ducks below it, guessing that 脹相 is finally dying from blood loss. However, 脹相 suddenly appears several feet to his left and fires a 穿血 shot, which 直哉 barely dodges and understands he can't have touch him. 脹相's victory is soured when 憂太 suddenly reappears. With the wall of blood still flowing toward him, 直哉 barely blocks a kick from 脹相 and finds that some of the blood has stained his hakama . He says to himself that his legs suddenly feel heavy, worrying that the blood is affecting him. 脹相 prepares to fire another 穿血 shot as blood hovers around him, telling 直哉 that he knows what comes next and that it's checkmate. 憂太 knocks the 呪胎九相図 out cold. 直哉 remains confident in his 術式 and tells himself that he can still move despite the binding affect from the blood. He tells 脹相 to go ahead and fire, but as he dashes toward him, he wonders why 脹相 isn't releasing the attack. It's then stated that the move 脹相 would use was his own, created after he honed his technique for 150 years. 脹相 releases a 超新星 attack, causing the large orb of blood to shoot out in several directions and strike 直哉's body. 脹相 apologizes and says that he can't understand why 直哉 didn't love his brothers. Behind 脹相, 憂太 suddenly appears dragging an unconscious 悠仁 by his hoodie. 脹相 tries to react, but 憂太 repeatedly strikes him in the face and knocks him to the ground. As 直哉 looks up, 憂太 says that he seems to be hurt.",
+    "characters_raw_text": "脹相 禪院直哉 伏黒甚爾 (言及のみ) 乙骨憂太 虎杖悠仁",
+    "locations_raw_text": "渋谷",
+    "battles_events_raw_text": "脹相 vs. 禪院直哉 (終了)",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂／赤鱗躍動・載 穿血 苅祓／超新星／百斂／赤鱗躍動・載 穿血 苅祓／超新星 禪院直哉の術式 投射呪法 乙骨憂太の術式 反転術式 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-851111b10d",
+    "char-b3be077b48",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-17ae81079b",
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7",
+    "tech-cc23098baa",
+    "tech-cf5d1ac726",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase8": [
+    "脹相が超新星を発動する",
+    "直哉が九相図の血の毒で行動不能になる",
+    "脹相が兄としての価値観を語る",
+    "乙骨が倒れた虎杖を伴って現れる"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "poisoned"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "apparently-dead"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-851111b10d",
+    "char-b3be077b48",
+    "char-c28763b98a",
+    "char-baadf43d19"
+  ],
+  "technique_appearances_verified_phase8": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-17ae81079b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase8": [
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-17ae81079b",
+    "tech-cc23098baa"
+  ],
+  "term_ids_verified_phase8": [
+    "term-c5958133bc",
+    "term-phase8-poison"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-16",
+    "src-manga-games-vol-16",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

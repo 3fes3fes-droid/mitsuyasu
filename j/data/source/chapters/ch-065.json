@@ -1,0 +1,142 @@
+{
+  "id": "ch-065",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 8,
+  "number": 65,
+  "zero_number": null,
+  "label": "第65話",
+  "title_official": "懐玉",
+  "title_search_normalized": "懐玉",
+  "start_page": 69,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-08"
+  ],
+  "source_locator": "単行本8巻 目次 p.69",
+  "summary_short": "五条悟と夏油傑が高専二年だった時代へ遡る。二人は天元との同化に適合する星漿体・天内理子の護衛と、場合によっては抹消する任務を命じられる。",
+  "summary_full": "2006年、呪術高専二年の五条悟・夏油傑・家入硝子が描かれる。冥冥と庵歌姫は浜松の洋館で、空間を循環させる結界に閉じ込められていた。五条と夏油が救出するが、帳を下ろし忘れたため騒ぎとなり、夜蛾正道から叱責される。五条は非術師を守ることを面倒と考え、夏油は呪術は弱者を守るためにあると主張して対立する。夜蛾は二人へ、天元の同化対象である星漿体・天内理子を護衛し、必要なら抹消する任務を命じる。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "A decade ago when 五条悟 and 夏油傑 were both second-years at 呪術高専 , they were assigned a mission to escort the perfect match for the 星漿体 Vessel .",
+    "summary_full_legacy": "悟 abruptly breaks apart the mansion. Grade 1 sorcerer , 冥冥 , and grade 2 sorcerer 庵歌姫 investigate a cursed mansion in 浜松市 and get caught within a barrier that overlaps space. This creates a never ending hallway. The girls deduce this after traveling fifteen kilometers without seeing of any of the markers they left behind. The walls are squishy upon impact, making them impenetrable. 歌姫 decides they should split up and move unpredictably to escape the barrier. Once outside they should be able to attack or call for help. Before the girls are able to put their plan into action, the house is torn apart by 術式 術式順転「蒼」 . As 歌姫 recovers from the sudden eruption, 呪術高専 second-year, 五条悟 appears in front of her. He asks if she's crying, annoying 歌姫 and 冥冥 asks if he would console her should the grade 1 sorcerer cry. 五条 believes 冥冥 wouldn't cry and just before 歌姫 is able to berate him, a giant curse appears behind her. 傑's curse suddenly saves 歌姫. In an even more abrupt moment, an even larger curse spirit appears to devour it. 呪術高専 second year, 夏油傑, is also present and orders his curse not eat the other one just yet so he can assimilate it later. He tells 悟 its not nice to pick on weaklings like 歌姫. 悟 points out that 傑 is teasing 歌姫 without realizing it and claims nobody would pick on someone who's strong. 悟 and 傑's classmate, 家入硝子 arrives with them, much to the excitement of 歌姫. Apparently 冥冥 and 歌姫 were trapped in a rare type of barrier that messes with time. The students were sent there since it was strange despite a grade 1 sorcerer appearing. 冥冥 immediately asks where the curtain is, shocking all of the students, who forgot to put a barrier up. 悟 and 傑 disagree on what it means to be a sorcerer. Soon after news of the explosion that destroyed the mansion makes the news. Grade 1 sorcerer and first year teacher, 夜蛾正道 , question his three students. One of them said they put up a curtain and then left their assistant manager behind. 硝子 and 傑 are quick to point 悟 out. Afterward, 悟 complains that curtains are pointless since civilians can't see jujutsu or curses anyway. 傑 argues that its important that regular humans can't see sorcerers to provide peace of mind and hide the existence of curses. 悟 believes its a pain looking out for the weak but 傑 believes jujutsu exists to protect non-sorcerers. 悟 hates those righteous ideals, annoying 夏油. As their argument begins to heat up, 硝子 runs away. 正道 returns to class shortly after and the boys quickly clean up their act. He assigns them a mission together that comes straight from 天元様. There is a girl who is a perfect match for 天元様, who is known as the 星漿体 Vessel. 夜蛾 tells the boys they must escort the girl to 天元様 and erase her.",
+    "characters_raw_text": "庵歌姫 冥冥 五条悟 夏油傑 家入硝子 夜蛾正道 天内理子",
+    "locations_raw_text": "浜松市",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "結界 Looping Hallway 結界 Looping Hallway 結界 五条悟の術式 無下限呪術 術式 術式順転「蒼」 術式 術式順転「蒼」 夏油傑の術式 呪霊操術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-3de3b8af11",
+    "char-58278d1ec5",
+    "char-63e2590b87",
+    "char-6eab17a5a8",
+    "char-b9d4880408",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-90aaa17cfe",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [
+    "term-6f0611c4ff"
+  ],
+  "key_events_verified_phase4": [
+    "冥冥と歌姫が循環する結界から救出される",
+    "五条と夏油の非術師に対する思想差が示される",
+    "星漿体の護衛・抹消任務が命じられる"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "shown-or-introduced"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-3de3b8af11",
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-b9d4880408",
+    "char-d4a4bc45c6",
+    "char-58278d1ec5",
+    "char-6eab17a5a8",
+    "char-63e2590b87"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-cf2f8dca4a",
+    "tech-90aaa17cfe",
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase4": [
+    "term-3f92b6bb78",
+    "term-f9e3abf542",
+    "term-5a7fcb32e8",
+    "term-cf5652fdbe",
+    "term-6f0611c4ff",
+    "term-87e5231adf"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-08",
+    "src-manga-games-vol-08",
+    "src-official-character-vote-4"
+  ]
+}

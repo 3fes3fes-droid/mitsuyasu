@@ -1,0 +1,113 @@
+{
+  "id": "ch-260",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 29,
+  "number": 260,
+  "zero_number": null,
+  "label": "第260話",
+  "title_official": "人外魔境新宿決戦㉜",
+  "title_search_normalized": "人外魔境新宿決戦32",
+  "start_page": 111,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-29"
+  ],
+  "source_locator": "単行本29巻 目次 p.111",
+  "summary_short": "東堂が改造した不義遊戯とともに復帰し、虎杖と連携して宿儺を翻弄する。東堂は振動装置を義手として使い、短時間に多数の位置交換を可能にする。",
+  "summary_full": "東堂が改造した不義遊戯とともに復帰し、虎杖と連携して宿儺を翻弄する。東堂は振動装置を義手として使い、短時間に多数の位置交換を可能にする。東堂は来栖を隠していたため復帰を虎杖へ知らせず、振動装置を使う改造不義遊戯を完成させていた。交換対象と回数を増やし、宿儺の予測を崩す。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Armed with a modified 不義遊戯 , 東堂 joins in the fight with 悠仁 to bring down 宿儺 .",
+    "summary_full_legacy": "不義遊戯: Revised!! Removing the bandages from his arm, 東堂葵 reveals that he has replaced his severed left hand with a vibraslap . By altering the activation condition of 不義遊戯 from a hand clap to the metal ball striking the instrument’s wooden box, 東堂 is now able to perform approximately fifty swaps per second. As he strikes the vibraslap, 悠仁, 東堂, and 宿儺 begin rapidly exchanging positions, creating the effect of a spinning roulette wheel. When the vibraslap briefly stops rattling, 宿儺 and 悠仁 prepare to strike one another. 東堂 immediately strikes the instrument again, swapping their positions at the last moment and allowing both himself and 悠仁 to land clean attacks on 宿儺. Through a 縛り that restricts the number of swaps per strike of the instrument, 東堂 is able to designate multiple targets for 不義遊戯 while significantly expanding its effective range. It is revealed that 東堂 adjusted his 術式 during the Lake Gosho Colony with assistance from 乙骨憂太 , enabling him to facilitate the escape of the sorcerers trapped within 宿儺’s 伏魔御廚子 . Unable to adapt to the rapid swapping, 宿儺 finds himself at the mercy of 悠仁 and 東堂. 宿儺 deems 東堂 exceptionally troublesome due to his egocentric and improvisational combat style, which renders his movements difficult to predict. 東堂 swaps 宿儺’s position to the bottom of a crater before leaping in and exchanging places with him. With 宿儺 launched into the air, 東堂 attempts to strike while he appears unable to evade, but 宿儺 uses the air itself as footing to avoid the attack. Surprised, 東堂 takes note of 宿儺’s ability to maneuver midair despite not understanding how. As the battle continues, 東堂 repeatedly employs 不義遊戯 to rescue 悠仁 from lethal attacks while simultaneously creating openings for counterattacks. 宿儺 finds it impossible to fully adapt to the constant position changes, particularly because 東堂 can freely alter the number of swaps with each strike of the vibraslap. However, 宿儺 has previously observed 悠仁 and 東堂's fights together, and knows there's one moment he'll be able to anticipate the timing: the moment 悠仁's focus peaks. Using one of 冥冥's crows, 東堂 fools 宿儺 with his signature feint. When 悠仁 and 宿儺 prepare to punch one another head-on, 宿儺 assumes that 東堂 will feint and refrain from swapping 悠仁, mirroring his tactics during the climax of 悠仁’s battle with 真人 . At that moment, one of 冥冥 ’s crows appears behind 宿儺, surprising him. 宿儺 didn't expect the crow and tries to quickly adapt, believing 東堂 intends to swap 悠仁 with the crow. 宿儺 turns and destroys the bird with a kick just as 東堂 strikes the vibraslap but no swap occurs. 東堂 taunts 宿儺 for falling for three layers of dception and this miscalculation proves grave, as 悠仁 lands a direct blow to 宿儺's chest with 黒閃 . \"Then 宿儺 saw a ghost of immense strength who he had buried with his own hands.\" Driving his fingers into 宿儺’s chest, an enraged 悠仁 roars as he attempts to tear out his heart. Forming a hand sign, 宿儺 prepares to activate his 領域展開 once more. Due to his extraordinary efficiency with 呪力 , even though his reserves have dropped to a level comparable to 憂太’s, 宿儺 is capable of deploying his domain repeatedly once his burnt-out 術式 recovers. Just as he is about to do so, 宿儺 suddenly perceives 五条悟 emerging from the smoke.",
+    "characters_raw_text": "東堂葵 虎杖悠仁 宿儺 乙骨憂太 (言及のみ) 冥冥 (想像) 五条悟",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 冥冥の術式 黒鳥操術 虎杖悠仁の術式 黒閃",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-69d5ecb511",
+    "tech-ab3bfa159a",
+    "tech-d845dd244c"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "東堂が改造した不義遊戯とともに復帰し、虎杖と連携して宿儺を翻弄する。",
+    "東堂は振動装置を義手として使い、短時間に多数の位置交換を可能にする。",
+    "東堂は来栖を隠していたため復帰を虎杖へ知らせず、振動装置を使う改造不義遊戯を完成させていた。",
+    "交換対象と回数を増やし、宿儺の予測を崩す。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-214d93f273"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-214d93f273",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-29",
+    "src-manga-games-vol-29",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

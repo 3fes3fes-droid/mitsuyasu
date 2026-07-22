@@ -1,0 +1,143 @@
+{
+  "id": "ch-206",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 206,
+  "zero_number": null,
+  "label": "第206話",
+  "title_official": "星と油②",
+  "title_search_normalized": "星と油2",
+  "start_page": 127,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.127",
+  "summary_short": "九十九と天元は羂索の領域を天元に解体させる作戦を実行するが、閉じない領域への対応が遅れる。九十九は重傷を負いながら反転術式で復帰し、接近戦を続ける。",
+  "summary_full": "九十九と天元は、羂索に領域を展開させ、天元が外殻を解体した後に術式の焼き切れを狙う作戦を実行する。しかし胎蔵遍野は結界を閉じず、解体すべき外殻がない。九十九の簡易領域は羂索の領域に削られ、必中攻撃で全身に重傷を負う。天元が領域を消した後も、九十九は反転術式を使わず接近戦を継続し、凰輪で羂索を拘束する。倒れかけた九十九を援護するため、脹相が再び戦場へ戻る。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "九十九由基 and 天元 execute their plan to counter 羂索 's domain in hopes of finally defeating the 呪詛師 . However, they made a major miscalculation and underestimated their opponent. When the plot goes awry, 由基 must rely on her toughness to survive and execute one last-ditch effort to win.",
+    "summary_full_legacy": "天元 fails to save 由基 from 羂索's can't miss attack. Prior to 由基's fight with 羂索, she discussed the details of her plan with 天元. As planned, 脹相 confronted 羂索 in the labyrinthine of empty barriers directly above the 薨星宮 . A skilled barrier technique user such as 羂索 can freely manipulate the environment within an empty barrier. This works in 由基's advantage, as 天元 wants him to feel comfortable so that he'll stay within the barrier. 天元 is confident they can dispel the empty barrier along with 羂索's domain in ten seconds if 由基 can get him to open it. 由基 asked if she should use 領域展開 instead of 簡易領域 , which would likely guarantee 羂索 to expand his domain as a result. 天元 rejected this idea because the outer layer of the domain would be hers, meaning erasing the empty barrier would dispel her domain first. Additionally, 羂索 could resist her domain with anti-domain techniques. They decided to go with the strategy of getting 羂索 to expand his domains 天元 could erase it and 由基 defeat him once their cursed techniques are unusable. 由基 keeps attacking 羂索 despite her injuries. However, 由基 and 天元 miscalculated. 羂索 is able to expand his domain without closing the barrier, leaving no outer shell for 天元 to remove. 由基 defends herself with 簡易領域 but its quickly stripped away by the 呪詛師's superior barrier. 天元 assumes the edge of 羂索's sure-hit area is the outer shell of the barrier and tries to erase it in time. 羂索 figures out 天元の play and boasts that the two of them aren't alike because he's lived a thousand years of conflicts and alliances in a cursed world. With 由基's entire 簡易領域 destroyed, she's hit by a large blastwave from 胎蔵遍野 's can't-miss attack. 天元 dispells the empty barrier and 羂索's domain immediately after, but it appears as if this is were too late. 羂索 and 由基 fall to the room below where the latter is gruesomely injured and collapsed on the ground. 羂索 tells 由基 that expanding on her own domain would've been better and relying on 天元 was a mistake. He claims that 天元 is hiding something important and prepares to reveal something about the 死滅回游 . \"I like the rough type.\" However, 羂索 doesn't complete his statement because he notices that 由基 has moved and her 式神 is in her place. The 呪詛師 notices 由基 behind him and turns to face her, leaving him open to an attack from 凰輪 . He avoids 凰輪 and assumes 由基 is using the 式神 to buy her time to heal. 羂索 decides to use that time to replenish his cursed techniques but 由基 does the unexpected and attacks him herself. Rather than use 反転術式 , 由基 uses her mangled body to pressure 羂索 with a flurry of high-paced combinations of close ranged attacks. 凰輪 manages to wrap itself around 羂索 but 由基 collapses from her injuries as a result of pushing her body beyond its limits. 羂索 assumes that he's won and questions if there was a better course of action for 由基. In response, 由基 reminds 羂索 that she likes the rough-type of man. On cue, 脹相 comes crashing through the wall behind 羂索 with compressed blood already prepared to take out his estranged father.",
+    "characters_raw_text": "天元 九十九由基 脹相 羂索",
+    "locations_raw_text": "薨星宮",
+    "battles_events_raw_text": "九十九由基 & 脹相 vs. 羂索",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂 羂索の術式 呪霊操術 (夏油傑として) 領域展開：胎蔵遍野 領域展開：胎蔵遍野／式神「凰輪」 九十九由基の術式 簡易領域",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-a34bfbb398"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-4b0b9dc682",
+    "tech-5eb242be96",
+    "tech-a1213858c7",
+    "tech-a34bfbb398",
+    "tech-cf5d1ac726",
+    "tech-d2feb31d47",
+    "tech-e28246ff34",
+    "tech-f1d024fea2"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-cf5d1ac726",
+    "term-5cb906769f"
+  ],
+  "key_events_verified_phase10": [
+    "天元が羂索の領域解体を試みる",
+    "結界を閉じない胎蔵遍野に作戦が崩される",
+    "九十九が必中攻撃で重傷を負う",
+    "九十九が治療せず羂索へ攻め続ける",
+    "脹相が再参戦する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "severely-injured"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "domain-active"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "barrier-support"
+    },
+    {
+      "character_id": "char-a34bfbb398",
+      "presence": "restrains-kenjaku"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "returns"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-1566dd973d",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-a34bfbb398",
+    "char-851111b10d"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-f1d024fea2",
+      "relation": "sure-hit-used"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "eroded"
+    },
+    {
+      "technique_id": "tech-2374b0f892",
+      "relation": "used-while-weakened"
+    },
+    {
+      "technique_id": "tech-a34bfbb398",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "deliberately-delayed"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-f1d024fea2",
+    "tech-e28246ff34",
+    "tech-2374b0f892",
+    "tech-a34bfbb398",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_verified_phase10": [
+    "term-58cf854ee7",
+    "term-phase6-open-barrier-domain",
+    "term-54c44682c5",
+    "term-d97934afcd",
+    "term-e28246ff34"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

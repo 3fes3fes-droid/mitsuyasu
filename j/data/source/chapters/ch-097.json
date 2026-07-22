@@ -1,0 +1,170 @@
+{
+  "id": "ch-097",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 11,
+  "number": 97,
+  "zero_number": null,
+  "label": "第97話",
+  "title_official": "渋谷事変⑮",
+  "title_search_normalized": "渋谷事変15",
+  "start_page": 171,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-11"
+  ],
+  "source_locator": "単行本11巻 目次 p.171",
+  "summary_short": "オガミ婆は孫へ伏黒甚爾の肉体情報を降ろすが、甚爾の肉体が孫の魂を上回る。伏黒は粟坂の術式「あべこべ」を見破り、虎杖との連携で倒す。",
+  "summary_full": "オガミ婆は暴走を避けるため魂の情報を降ろさず、孫へ伏黒甚爾の肉体情報だけを上書きする。しかし完全な呪力ゼロの肉体は孫の魂を上回って主導権を奪い、降霊された甚爾が自律して動き始める。甚爾は猪野が来訪瑞獣「龍」を出す前に覆面を奪い、圧倒的な速度と打撃で重傷を負わせる。首都高速では伏黒が脱兎や満象で粟坂の反応を測り、虎杖と弱い攻撃から強い攻撃へ切り替える連携で「あべこべ」の範囲を突き、粟坂を倒す。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The curse users reveal their cursed techniques and the battle against the jujutsu sorcerers heats up. オガミ shapeshifts her grandson into the body of the Sorcerer Killer. Meanwhile, 恵 deduces the nature of 粟坂二良 's technique and devises a counter-attack.",
+    "summary_full_legacy": "The revived Sorcerer Killer makes 猪野 his first victim. Confused, 猪野琢真 looks across the roof of 渋谷 Tower at オガミ and her grandson, who has shapeshifted into 伏黒甚爾 . 猪野 figures out the old woman is a necromancer and he can tell with just one look that 甚爾 is ridiculously strong. The jujutsu sorcerer attempts to summon Auspicious Beast , 龍, but 甚爾 rips off his mask before 猪野 even knows what's happening. 猪野 recognizes his opponent has incredible speed and attempts to turn around, but 甚爾 lands a powerful right hook right to the sorcerer's jaw. He follows up by grabbing 猪野's collar and pummeling his face with a flurry of unforgiving rapid-fire punches. 悠仁 and 恵 pouring on the pressure. Down below on the Metropolitan Expressway . 粟坂 is surrounded by 恵's 脱兎 式神 . He realizes their purpose is more of a diversion than an attack. He wonders if the 呪術高専 students will try to hit him with a lethal blow from behind the rabbits, but the swarm of 式神 is suddenly deactivated. Suddenly, 満象 falls from the sky with 恵 on top of it, attempting to smash the 呪詛師 with the force of its weight. The impact is great but 粟坂 resists and the 式神 is deactivated just as quickly as it appeared. This annoys the old man, who demands 恵 to man up and fight him directly. 恵 replies that's more 悠仁's style, and right on cue, 悠仁 hurls a car at 粟坂. The 呪詛師 is able to nullify the blow, but he's surprised by 悠仁's raw strength. The students finally injure 粟坂. 恵's plan simply involves them relentlessly attack for now. He gets the 呪詛師's attention while 悠仁 prepares a full power swing. 粟坂 believes he can easily anticipate 悠仁's punch and 恵's attack at the same time. 粟坂's 術式 is あべこべ , it makes strong attacks weak and weak attacks strong while activated. He believes the harder his opponent's fight, the easier he wins. Apparently, no one has ever avoided his counter-attack after a desperate full-power swing. 悠仁 adjusts the power in his punch to offset あべこべ. When 悠仁 and 恵 retreated earlier, 恵 already figured their opponent's innate technique . He surmised that Awaka's あべこべ technique must have a maximum and a minimum limit and the 呪詛師 is reinforcing his body with 呪力 on top of it. He can't win against someone as powerful as 五条 and complicated techniques would put him at a disadvantage. 悠仁 understood and suggested they attack with a strong attack and a weak one at the same time. 恵 agreed and stated they just needed to keep the pressure on and prevent him from realizing they've figured it out. 悠仁 finishes the fight. In the present exchange of blows, 悠仁 makes contact and his punch is nullified, but a simple poke from 恵's 蝦蟇 's tongue is enough to do serious damage. 粟坂 bleeds from the mouth and before he has a chance to recover, both boys resume their relentless assault. Injured for the first time in this battle, 粟坂 refuses to lose and forces the boys back, demanding the kids don't get cocky. Suddenly, 悠仁 gets behind the old man and throws another full power punch. 粟坂 turns around to counter it, but 悠仁 stops just before. The student adjusts his strike, throwing a weaker punch, which あべこべ makes extremely powerful and knocks the 呪詛師 unconscious. Impressed, 恵 tells 悠仁 that he can pull off refined strikes surprisingly well.",
+    "characters_raw_text": "伏黒甚爾 (as Granny オガミ's grandson) 猪野琢真 粟坂二良 虎杖悠仁 伏黒恵",
+    "locations_raw_text": "渋谷 渋谷 Tower 首都高速3号渋谷線 渋谷 Tower 首都高速3号渋谷線",
+    "battles_events_raw_text": "The 渋谷事変 猪野琢真 vs. オガミ & Her Grandson (終了) 虎杖悠仁 & 伏黒恵 vs. 粟坂二良 (終了) 猪野琢真 vs. オガミ & Her Grandson (終了) 虎杖悠仁 & 伏黒恵 vs. 粟坂二良 (終了)",
+    "techniques_raw_text": "粟坂二良の術式 あべこべ 伏黒恵の術式 十種影法術 術式 満象 脱兎／蝦蟇 満象 脱兎／蝦蟇 オガミの術式 降霊術 術式 猪野琢真の術式 来訪瑞獣 龍 (失敗) 龍 (失敗)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-0be6deff32",
+    "char-2615d69152",
+    "char-3c1852867d",
+    "char-b18262c082",
+    "char-baadf43d19",
+    "char-c33b96dce8",
+    "char-cf2d32d5b9",
+    "char-d31c75a751",
+    "char-d5482ceba1",
+    "char-df284f67ad"
+  ],
+  "technique_ids_candidate": [
+    "tech-0be6deff32",
+    "tech-146ed91574",
+    "tech-7c3237f986",
+    "tech-a88b067dfe",
+    "tech-b18262c082",
+    "tech-df284f67ad",
+    "tech-fbf15eb3e2"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase5": [
+    "甚爾の肉体情報が孫の魂を上回る",
+    "降霊された甚爾が猪野を重傷にする",
+    "虎杖と伏黒が粟坂二良を倒す"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "incarnated-body-information"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-and-severely-injured"
+    },
+    {
+      "character_id": "char-2615d69152",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c33b96dce8",
+      "presence": "body-overwritten"
+    },
+    {
+      "character_id": "char-d31c75a751",
+      "presence": "appearance-and-defeated"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-d5482ceba1",
+    "char-cf2d32d5b9",
+    "char-2615d69152",
+    "char-c33b96dce8",
+    "char-d31c75a751",
+    "char-baadf43d19",
+    "char-3c1852867d"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-fbf15eb3e2",
+      "relation": "body-information-overwrites-host"
+    },
+    {
+      "technique_id": "tech-146ed91574",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase5-ino-ryu",
+      "relation": "attempted-but-interrupted"
+    },
+    {
+      "technique_id": "tech-a88b067dfe",
+      "relation": "defeated"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-df284f67ad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-0be6deff32",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-b18262c082",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-fbf15eb3e2",
+    "tech-146ed91574",
+    "tech-phase5-ino-ryu",
+    "tech-a88b067dfe",
+    "tech-7c3237f986",
+    "tech-df284f67ad",
+    "tech-0be6deff32",
+    "tech-b18262c082"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-65867f280c",
+    "term-65867f280c",
+    "term-phase5-body",
+    "term-bfcc1b065d",
+    "term-phase4-zero-cursed-energy",
+    "term-cba4367139"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-11",
+    "src-manga-games-vol-11",
+    "src-official-character-vote-4"
+  ]
+}

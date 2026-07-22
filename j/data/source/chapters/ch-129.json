@@ -1,0 +1,134 @@
+{
+  "id": "ch-129",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 15,
+  "number": 129,
+  "zero_number": null,
+  "label": "第129話",
+  "title_official": "渋谷事変㊻",
+  "title_search_normalized": "渋谷事変46",
+  "start_page": 91,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-15"
+  ],
+  "source_locator": "単行本15巻 目次 p.91",
+  "summary_short": "真人は東堂を先に排除するため、0.2秒の領域展開「自閉円頓裹」を発動する。東堂は簡易領域で対抗するが、真人の術式を完全には防ぎ切れない。",
+  "summary_full": "東堂は不義遊戯で虎杖と真人の位置を入れ替え続け、真人の本体を見極めながら攻撃する。真人は複数の魂を弱く反発させ、瞬間的な攻撃力は高いが耐久力の低い幾魂異性体を作り、東堂を戦場から引き離す。東堂は一撃で性質を見抜いて三体を倒し、虎杖のもとへ戻る。二人を通常の接触だけで処理できないと判断した真人は、五条の0.2秒の領域を模倣し、自閉円頓裹を展開する。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The climactic battle between 悠仁 , 東堂 , and 真人 rages through the streets of 渋谷 . The cursed spirit desperately tries to take 東堂 out of the equation so he can focus on killing 悠仁. When all else fails to get the top-knot gorilla out of the way, 真人 uses inspiration from 五条悟 to activate a 領域展開 of 0.2 seconds!",
+    "summary_full_legacy": "\" Did you.. forget about me?! \" 真人 emphatically yells to 悠仁 that it's their last chance to curse one another. Asking if the curse has forgotten about him, 東堂 swaps all three of their positions so he is holding 真人 and then slams him headfirst into the ground. 悠仁 attempts to smash 真人's head with a kick, but the curse dismembers his head to avoid the blow. The special grade curse's body grows two eyes and transforms its arm into blades before rapidly attacking the sorcerers. At the same time, 真人's head grows a separate body and stands behind his other half to activate 多重魂 . This time 真人 combines souls with weak rejection to form one powerful transfigured human using 撥体 . 東堂 uses 不義遊戯 to continuously give his side advantageous positions against the enemy. He believes 真人's body contains most of the power but the head is the real him because it used 無為転変 . 真人's 撥体 knocks 東堂 through a building. Before taking out 真人's real self, 東堂 attempts to take out the 撥体. However, much to his surprise, 東堂 is suddenly smacked aside with an extraordinarily powerful blow. The impact sends 東堂 crashing through an entire floor of an office building. He crashes out the other side into the road but manages to recover his balance. 東堂葵 refuses to allow 真人 to exclude him from the fight. The 撥体 confronts the grade 1 sorcerer and 東堂 counterattacks by infusing a rock with 呪力 and swapping places with it behind his opponent. Much to 東堂's surprise, one hit is enough to kill the 撥体. He surmises that its explosive power was a result of 真人 expending numerous souls at once to manifest it. There are two more confronting him and 東堂 asks for their forgiveness before taking them out. While 真人 is free of 不義遊戯, he decides to pile on the attacks against 悠仁. He uses a more ferocious version of Body Repel to attack but the sorcerer avoids the attack and dropkicks 真人 through the air. The curse counters by grabbing 悠仁's leg and slamming him to the ground. When the dust settles from the crash, 真人 attempts to follow up the attack. He's irritated to find the top-knot Gorilla standing back at 悠仁's side. 東堂 taunts their adversary about wanting to keep him out of the fun. An all-or-nothing doman expansion of 0.2 seconds! 真人 is surprised not even two 撥体 were enough to stall or defeat 東堂. He can't transfigure 東堂 without being able to touch him and 宿儺 retaliate if 真人 attempts 領域展開. It's too complex for 真人 to exclude 悠仁 from a domain's barrier so he decides to take inspiration from his battle with 五条悟. 悠仁 and 東堂 are both shocked when 真人 suddenly activates 自閉円頓裹 . They believe this action would normally be suicide but 真人 is ready to bet on an all-or-nothing 領域展開 of just 0.2 seconds.",
+    "characters_raw_text": "虎杖悠仁 東堂葵 真人 宿儺 (回想)",
+    "locations_raw_text": "渋谷",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 東堂葵 vs. 真人 虎杖悠仁 & 東堂葵 vs. 真人",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 真人の術式 領域展開：自閉円頓裹 無為転変 多重魂「撥体」／幾魂異性体 多重魂「撥体」／幾魂異性体",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-4b0b9dc682",
+    "tech-71a2d65cad",
+    "tech-73135cb5c7",
+    "tech-a0a8d9c6ff",
+    "tech-e28246ff34",
+    "tech-f0f06d52dc",
+    "tech-f81d55ad09"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-e6a70dfe56",
+    "term-e28246ff34"
+  ],
+  "key_events_verified_phase7": [
+    "真人が幾魂異性体を作る",
+    "東堂が幾魂異性体の性質を見抜いて倒す",
+    "東堂が虎杖との連携へ戻る",
+    "真人が0.2秒の自閉円頓裹を展開する"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-18d7c58412",
+    "char-2b8d365a39"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-4688b07b42",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-f81d55ad09",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a0a8d9c6ff",
+      "relation": "created"
+    },
+    {
+      "technique_id": "tech-f0f06d52dc",
+      "relation": "activated-0.2-seconds"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-4688b07b42",
+    "tech-71a2d65cad",
+    "tech-f81d55ad09",
+    "tech-a0a8d9c6ff",
+    "tech-f0f06d52dc"
+  ],
+  "term_ids_verified_phase7": [
+    "term-e6a70dfe56",
+    "term-d97934afcd",
+    "term-65867f280c",
+    "term-phase5-transfigured-human"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-15",
+    "src-manga-games-vol-15",
+    "src-legacy-ju-txt"
+  ]
+}

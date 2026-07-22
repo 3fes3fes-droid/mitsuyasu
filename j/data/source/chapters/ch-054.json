@@ -1,0 +1,152 @@
+{
+  "id": "ch-054",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 54,
+  "zero_number": null,
+  "label": "第54話",
+  "title_official": "呪術甲子園",
+  "title_search_normalized": "呪術甲子園",
+  "start_page": 27,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.27",
+  "summary_short": "交流会二日目は五条の手配により野球試合へ変更される。東京校と京都校の生徒たちは、戦闘とは異なる形で勝敗を競う。",
+  "summary_full": "襲撃後の交流会二日目は、五条が箱へ野球の指示を紛れ込ませたことで野球試合へ変更される。東京校と京都校の生徒は学校対抗の体裁を保ちながら、真剣さと緩さが混在する試合を行う。三輪の天然、真依の投球、狗巻の走塁、パンダの特殊な判定など各人の性格が描かれる。虎杖の強打で東堂が顔面に球を受けても京都校から心配されず、東京校が得点して勝利する。戦闘とは異なる時間を共有し、交流会は終了する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条 and all the students decide that despite all the fighting, the Goodwill Event should continue. In order to finally settle the score between students, the event is reorganized into... a game of baseball!?",
+    "summary_full_legacy": "葵 vouches for the Goodwill Event to continue. 五条悟 meets with all the students to decide if they should continue the Goodwill Event. A lot happened and some people died, making 悠仁 and some others hesitate. However, 葵 speaks up and says they should continue the event. Surprising everyone, 葵 makes several solid points as to why they should continue, which everyone else agrees as well. In another twist, 五条 decides to forgo the individual portion of the event and has 悠仁 draw another team event at random. 悠仁 ends up picking baseball, to the surprise of both principals who were trying to keep up traditions. The baseball game begins with 三輪 batting while 歌姫 and 桃 argue about the rules. 加茂 comes up to bat next and asks 悠仁, the catcher, why he became a jujutsu sorcerer . 真希 intentionally hits 葵 in the face with the baseball. 悠仁 explains that he wants to help people and so that he won't die alone. Noritoshi only became a jujutsu sorcerer to help his mother, so he understands the reasoning. Impressed with 悠仁, Noritoshi decides not to swing and is easily struck out by 真希. The teams switch sides and 野薔薇 steps up to bat while メカ丸 controls a pitching machine. Angry by the her rival's advantage, 野薔薇 confronts 真依 at first base before managing to hit the ball while up to bat. 恵 sacrifices himself on a bunt so 野薔薇 can move up a base and then パンダ and 真希 capitalize, helping the team appear to score three runs. However, as 桃 uses her broom to catch 真希's ball. The 東京 students argue that's cheating while 葵 steps up to bat. He wants to face 悠仁, who's the pitcher rather than the catcher, which annoys 真希, who strikes him in the face with the ball. Almost everyone congratulates her on the pitch, and 悠仁 realizes just how hated 東堂 is. The Goodwill Event concludes with 東京 as the victor. While the game goes on, the two principals speak about 悠仁. 楽巌寺 admits he doesn't hate 悠仁 it's simply that the rules mean his presence cannot be condoned. 宿儺 could cause mass death but 夜蛾 believes 悠仁 could save even more potential lives as a sorcerer. All sorcerer's experience a lot of regrets, like 夜蛾 does with his former student, 夏油傑 . This makes it important for the teachers to support the students for now because their regrets as adults can wait. As the baseball game comes to a close, 悠仁 hits a home run that helps 棘 score. The 30th Annual Kyoto Goodwill Event finally concludes with 東京 High as the winner.",
+    "characters_raw_text": "五条悟 伏黒恵 西宮桃 加茂憲紀 釘崎野薔薇 虎杖悠仁 パンダ 狗巻棘 禪院真希 三輪霞 禪院真依 東堂葵 楽巌寺嘉伸 夜蛾正道 夏油傑 (回想)",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 (終了) 野球 野球",
+    "techniques_raw_text": "呪術師",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-830f121430",
+    "char-a61d6ef891",
+    "char-ac327bdd73",
+    "char-b9d4880408",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "交流会二日目が野球へ変更される",
+    "東京校と京都校が野球で対戦する",
+    "虎杖の打球が東堂の顔面へ当たる",
+    "東京校が得点して交流会を終える"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-484fd66a1e",
+    "char-830f121430",
+    "char-5a0f7ded8d",
+    "char-baadf43d19",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-24d736edff",
+    "char-ebd2a8efa8",
+    "char-5724ed462b",
+    "char-d76df97dca",
+    "char-ac327bdd73",
+    "char-58278d1ec5"
+  ],
+  "technique_appearances_verified_phase3": [],
+  "technique_ids_verified_phase3": [],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

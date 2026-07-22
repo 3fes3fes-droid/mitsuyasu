@@ -1,0 +1,183 @@
+{
+  "id": "ch-226",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 226,
+  "zero_number": null,
+  "label": "第226話",
+  "title_official": "人外魔境新宿決戦④",
+  "title_search_normalized": "人外魔境新宿決戦4",
+  "start_page": 167,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.167",
+  "summary_short": "五条は反転術式で斬撃を耐えながら、簡易領域と落花の情で時間を稼ぐ。さらに反転術式で焼き切れた術式を回復させ、宿儺を伏魔御厨子ごと吹き飛ばす。",
+  "summary_full": "五条は反転術式で斬撃を耐えながら、簡易領域と落花の情で時間を稼ぐ。さらに反転術式で焼き切れた術式を回復させ、宿儺を伏魔御厨子ごと吹き飛ばす。五条は反転術式を全開にして斬撃を治し、簡易領域と落花の情で耐える。さらに脳の一部を壊して再生し、焼き切れた無下限呪術を復活させる。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The barrier of 無量空処 is crushed by the relentless slashes of 伏魔御廚子 ! While 五条悟 can use 反転術式 to survive, his allies watching the fight know this situation doesn't fair well for even the strongest.",
+    "summary_full_legacy": "五条 slashed relentlessly by 伏魔御廚子. With his domain shattered from the outside, 五条's neck is sliced by the can't-miss attack of 伏魔御廚子 . 悠仁 stands up out of his seat in the monitoring area and yells out of concern for his sensei. 五条 immediately heals himself with 反転術式, but as Higururma points out, the slashes from 伏魔御廚子 will continue as long as he's range. 脹相 asks why 五条 doesn't try to escape the open barrier and 秤 agrees he should escape with his speed. However, 日下部 reveals to them that 五条 can only teleport by applying his 無下限呪術 , meaning he's in trouble while his technique is still burnt out. 宿儺 unleashes a torrent of slashes on 五条 that rip and tear at him relentlessly. 五条 uses 反転術式 at full output to survive but he's badly cut and bloodied from the barrage. Despite this, 五条 remarks to himself that he's glad that compared to this sure-hit effect, his 無下限呪術 is far superior to 宿儺's technique. 五条 dashes away but 宿儺 immediately impedes his path and refuses to let him get away. They engage in hand-to-hand combat and 五条 even nearly lands a direct hit. This forces 宿儺 to admit that he's impressed 五条 can still move so well while enduring the slashes and healing himself. 宿儺 impedes 五条 from escaping his domain. Curious, 悠仁 asks what would happen to 宿儺's domain if the shrine itself was destroyed. 日下部 tells him that objects materialized within a domain usually don't hold any real importance. 冥冥 adds that 五条's 六眼 would've revealed to him if destroying the shrine would help. 綺羅羅 panics because they don't think 五条 can do anything in response. 五条 activates simple domain to protect himself from the domain, surprising his student. 悠仁 thought 五条 couldn't use simple domain but 日下部 clarifies that he can't teach it because he's a natural genius. 五条 heals himself while protecting himself from the sure-hit effect at the same time but 脹相 comments that this effort will only buy him time. \"Is 五条悟... about to lose!?\" After a brief physical exchange between the fighters, 五条's simple domain is destroyed and he's slashed by the domain again. 五条 immediately activates simple domain again to protect himself, irritating 宿儺. However, this time, everyone notices that 五条 isn't healing himself. 猪野 theorizes that he's running low on 呪力 but 憂太 rejects this idea. 五条's simple domain is destroyed once again and he suffers even more slashes, forcing a single question to be asked: is 五条悟 about to lose? Rules mean nothing in this battle of the strongest!! However, 五条 suddenly closes the distance using the speed of Blue and uses his legs to wrap himself around 宿儺. 宿儺 immediately notes this speed and is surprised by this occurrence. 五条 quickly unleashes 術式 術式反転「赫」 at point blank and sends 宿儺 crashing into the shrine. Shocked, 憂太 stands up and surmises that 五条 must have used 反転術式 to recover his burnt-out innate technique. With the momentum swung back in his favor, 五条 heals himself and admits that was a tough situation to get out of.",
+    "characters_raw_text": "宿儺 五条悟 虎杖悠仁 脹相 来栖華 秤金次 日下部篤也 三輪霞 冥冥 星綺羅羅 乙骨憂太 鹿紫雲一 猪野琢真",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 無下限呪術 術式 術式反転「赫」／反転術式 術式 術式 術式反転「赫」 宿儺の術式 領域展開：伏魔御廚子",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-6e6dd087e1",
+    "tech-7341630eb6",
+    "tech-ae26dbd914",
+    "tech-af5ae87255",
+    "tech-cf2f8dca4a",
+    "tech-cf5d1ac726",
+    "tech-e28246ff34"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-cf5d1ac726",
+    "term-e28246ff34",
+    "term-7341630eb6"
+  ],
+  "key_events_verified_phase11": [
+    "五条は反転術式で斬撃を耐えながら、簡易領域と落花の情で時間を稼ぐ。",
+    "さらに反転術式で焼き切れた術式を回復させ、宿儺を伏魔御厨子ごと吹き飛ばす。",
+    "五条は反転術式を全開にして斬撃を治し、簡易領域と落花の情で耐える。",
+    "さらに脳の一部を壊して再生し、焼き切れた無下限呪術を復活させる。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-e28246ff34",
+    "tech-7341630eb6",
+    "tech-cf5d1ac726",
+    "tech-c03b9316e7"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-7341630eb6",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-c03b9316e7",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-cf5d1ac726",
+    "term-e28246ff34",
+    "term-7341630eb6"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

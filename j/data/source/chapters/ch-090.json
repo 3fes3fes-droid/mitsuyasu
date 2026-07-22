@@ -1,0 +1,166 @@
+{
+  "id": "ch-090",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 11,
+  "number": 90,
+  "zero_number": null,
+  "label": "第90話",
+  "title_official": "渋谷事変⑧",
+  "title_search_normalized": "渋谷事変8",
+  "start_page": 29,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-11"
+  ],
+  "source_locator": "単行本11巻 目次 p.29",
+  "summary_short": "疲弊した五条の前に、死んだはずの夏油傑の肉体を持つ人物が現れる。五条の脳内で一年分の時間が流れたことで獄門疆の条件が成立し、封印される。",
+  "summary_full": "獄門疆の封印には、開門後の有効範囲内へ対象を一分間留める必要がある。ただし羂索が設定した条件は現実の一分ではなく、五条本人の脳内時間での一分だった。改造人間を殲滅した五条の前へ、死んだはずの親友・夏油傑の肉体を使う羂索が姿を現す。高専時代から百鬼夜行までの記憶が一瞬で五条の脳内を巡り、条件が成立して獄門疆が五条を拘束する。五条は六眼が肉体を夏油本人と判定しても、自分の魂は目の前の存在を偽物だと否定すると告げる。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Pseudo-夏油 's plan to seal 五条悟 moves into its final phase. Confronted by his dead best friend that he killed himself, 悟 learns the shocking truth and falls into the clutches of 獄門疆 .",
+    "summary_full_legacy": "\" Gate... open! \" 獄門疆 is the final remains of the Buddhist Monk Genshin. It is a living barrier capable of sealing anything, even 五条悟. 夏油 explained this to his allies prior to the beginning of the 渋谷事変 . 漏瑚 inquired about the conditions and 夏油 revealed that the target must stay within a four-meter radius for one minute. Annoyed, 漏瑚 threatened to burn 夏油 up because they all know there's no way they can achieve that condition when dealing with someone like 五条. 夏油 assured him not to worry as his version of one minute isn't so literal. In the present, 夏油 orders 獄門疆 to open. The 呪物 breaks out of its talisman seal and expands into a cycloptic curse with flesh spread out and attached to the four sides of the cube. The eye meets 悟's gaze and he instantly attempts to flee. However, 夏油 finally reveals himself and greets 悟 as if they were still friends. The plot to seal 五条悟 reaches its climax. Confused, memories of his best friend rush through 悟's mind and he still can't understand how it is 夏油 could be alive. 悟 killed 傑 himself almost a year ago but the 六眼 reject all possibilities.  When 夏油 said one minute to 漏瑚 in the past, he meant one minute's worth of time processed with 悟's 六眼 enhanced brain. Although it was just a moment, that much time passed a long time ago for 五条. 獄門疆 ensnares 悟, immobilizing him and shutting off all access to his body's 呪力 . He recognizes this is checkmate, but he still demands to know who 夏油 is. No matter what the 六眼 tell him, 悟 knows in his heart that 傑 is dead and this man is an imposter. An imposter reveals himself to be inhabiting 傑's body. 夏油 removes the stitches from his head and reveals a brain-like curse inhabiting 傑's head. The imposter has a 術式 that allows him to enter the bodies of other sorcerers and utilize their innate techniques . This Pseudo-夏油 obtained curse manipulation and planned these exact circumstances to deal with 五条悟. 悟 is confident the sorcerer who defeated 傑 will step up in his place. However, Pseudo-夏油 argues 乙骨憂太 cannot become the next 五条悟 without the powers gained from cursing 折本里香 's soul. He bids farewell to 悟 and asks them to meet again in the new world. Meanwhile, far down the 副都心線 ホーム , Team 冥冥 heads toward 悟's position. Suddenly, 悠仁 stops and 憂憂 asks him what's wrong. finds a small メカ丸-like communication device on his ear, with 与幸吉 speaking to him and asking if he can hear his voice.",
+    "characters_raw_text": "Pseudo-夏油 漏瑚 (回想) 花御 (回想) 真人 五条悟 乙骨憂太 (回想) 折本里香 (回想) 冥冥 憂憂 虎杖悠仁 与幸吉 (傀儡)",
+    "locations_raw_text": "渋谷 渋谷駅 副都心線 ホーム 渋谷駅 副都心線 ホーム 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変 五条悟 vs. 真人's Group (終了) 五条悟 vs. 真人's Group (終了)",
+    "techniques_raw_text": "呪物 獄門疆 夏油傑の術式 呪霊操術 (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-b9d4880408",
+    "char-ba2d62b596",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-dad71c9f31",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-6246245c7a"
+  ],
+  "term_ids_candidate": [
+    "term-6e7e2b846e"
+  ],
+  "key_events_verified_phase5": [
+    "羂索が夏油傑の肉体で五条の前へ現れる",
+    "五条の脳内時間で封印条件が成立する",
+    "獄門疆が五条を拘束する"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-as-suguru-geto"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-and-captured"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "body-and-recollection"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-ba2d62b596",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "posthumous-puppet-activation"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-678a848346",
+    "char-a61fa295f1",
+    "char-9148bf784c",
+    "char-18d7c58412",
+    "char-17322e71e5",
+    "char-b9d4880408",
+    "char-c28763b98a",
+    "char-ba2d62b596",
+    "char-07918bda3f",
+    "char-e41848a08f",
+    "char-baadf43d19",
+    "char-dad71c9f31"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-phase5-prison-realm",
+      "relation": "activated-and-captured"
+    },
+    {
+      "technique_id": "tech-6246245c7a",
+      "relation": "revealed"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "body-inherited-context"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-phase5-prison-realm",
+    "tech-6246245c7a",
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-6e7e2b846e",
+    "term-phase5-prison-realm-condition",
+    "term-phase5-body",
+    "term-65867f280c",
+    "term-phase5-six-eyes",
+    "term-e6db99e6ff"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-11",
+    "src-manga-games-vol-11",
+    "src-official-character-vote-4"
+  ]
+}

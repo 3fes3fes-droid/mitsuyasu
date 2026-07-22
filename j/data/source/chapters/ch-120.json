@@ -1,0 +1,168 @@
+{
+  "id": "ch-120",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 120,
+  "zero_number": null,
+  "label": "第120話",
+  "title_official": "渋谷事変㊳",
+  "title_search_normalized": "渋谷事変38",
+  "start_page": 89,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.89",
+  "summary_short": "肉体を取り戻した虎杖は、宿儺が生んだ大量の死と破壊を目の当たりにして絶望する。それでも戦うため立ち上がり、重傷の七海は改造人間の群れの中で真人と再会する。",
+  "summary_full": "虎杖は肉体を取り戻し、宿儺が伏魔御廚子で作った破壊と大量死を記憶ごと突き付けられる。自分を人殺しと責めて死を望むが、戦って責任を果たすしかないと立ち上がる。一方、漏瑚の炎で左半身を焼かれた七海は、マレーシアで暮らす夢と灰原の幻を見ながら改造人間を倒し続ける。真人が背後から現れ、駆け付けた虎杖の前で七海の魂へ触れる。七海は「後は頼みます」と虎杖へ託し、無為転変で死亡する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 regains control over his body only to witness the aftermath of all the destruction from 宿儺 's merciless rampage. He initially breaks down emotionally but quickly realizes he must act in order to redeem himself. Meanwhile, 七海 has survived his previous battles, but he's heavily injured and delirious. He makes his last stand against a swarm of transfigured humans and reluctantly reunites with a familiar foe.",
+    "summary_full_legacy": "What remains of 渋谷 after 宿儺's rampage. 宿儺 returns to the area in front of 渋谷 109 after dropping off 恵 at the 渋谷 料金所 to be medically treated. With his grip over 悠仁's body loosening, 宿儺 switches control back over to the brat and tells him to \" take a good look .\" When 宿儺's marks disappear and 悠仁 regains consciousness, he's faced with a wasteland that used to be Dogenzaka. There's a skyline in the distance, but a grand portion of 渋谷 has been destroyed. 重面春太 's corpse is in plain view as the first thing for 悠仁 to see as well. Initially dumbfounded, 悠仁 collapses as memories from 宿儺's rampage invade his mind. He vomits and cries after realizing that 宿儺 murdered several people including 美々子 and 菜々子 and heavily endangered his friends and colleagues. \" At this rate... I'm nothing but a murderer. \" The distressed student recalls asking why he had to be executed upon initially deciding to enroll at 呪術高専 . As tears fall from his eyes and 悠仁 huffs for air, he tells himself to just die already. He begins frantically scratching the ground and continuing to tell himself to die as his grandfather's words play in his head. Suddenly, 悠仁 stops and sits still for a moment, raising his head and declaring that he needs to move, that he needs to fight. 悠仁 believes at this rate, he'll be nothing but a murderer, placing him into a state of cold focus. Meanwhile, there is a telephone ringing inside 渋谷駅. Right down the corridor from it is grade 1 sorcerer 七海. Despite being severely injured by 陀艮 's 死累累湧軍 and 漏瑚 's flames, he's still alive and walking around with his sword. The left half of his body is completely scorched, including that entire side of his face. He walks past a photo booth while traversing slowly down the hallway. After 七海 passes by, the curtain inside the booth opens, revealing 真人 inside. He watches 七海 move through the station until the sorcerer encounters a large group of transfigured humans. 七海's last stand. After descending the stairs and coming face to face with the swarm, 七海 begins to daydream about Malaysia. He wishes he could have built a house on a secluded beach and read the countless books he never got around to finishing. Rather than going through those books page by page as if he was reclaiming time, 七海 is looking for 恵. He's not sure how 真希 or 直毘人 have fared and admits to himself that he's just tired. 七海 asks himself if he's done enough already, but continues to fight. He ferociously slices through the transfigured humans with his blunt sword until a familiar hand touches his chest. 七海 looks up to see 真人 and claims he didn't know the 呪霊 was around. 真人 replies that he's been here the whole time and asks if the 7:3 sorcerer would like to chat since they go way back. 悠仁 directs his rage and hatred at 真人 once again. Instead of replying, 七海 looks down and speaks with 灰原雄 . 七海 wonders why he came back to being a sorcerer with just a vague reason for it being worthwhile, asking 灰原 what he was trying to do. An illusion, or perhaps 灰原's spirit appears and points 七海 to his right. 七海 looks over to find 悠仁 entering the station right down the hall. 真人 is amused to see him and 七海 tells 灰原 that he doesn't want to end up cursing the young man. In his last moments, 七海 smiles at his protégé and tells him that he's got it from here. 真人 promptly kills 七海 by totally destroying the top half of his body, shocking 悠仁. Enraged in the next moment, 悠仁 screams and demands to know what 真人 is, rushing at him to fight. Further entertained, 真人 tells his adversary he can hear just fine without the yelling, preparing for their fated rematch.",
+    "characters_raw_text": "宿儺 虎杖悠仁 重面春太 (Corpse) 日下部篤也 (回想) パンダ (回想) 美々子 (回想) 菜々子 (回想) 七海建人 真人 伏黒恵 (言及のみ) 禪院真希 (言及のみ) 禪院直毘人 (言及のみ) 灰原雄 (想像)",
+    "locations_raw_text": "渋谷 前 渋谷 109 渋谷駅 前 渋谷 109 渋谷駅",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪具 七海's 鈍刀 真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-1a74b17cf8",
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-53c5711b23",
+    "char-6309a7e2f4",
+    "char-672d843799",
+    "char-6c8cc9b546",
+    "char-b2b454d6e2",
+    "char-baadf43d19",
+    "char-da4ca46be3"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad",
+    "tech-a35b2bcd34"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase6": [
+    "虎杖が宿儺による大量死を認識する",
+    "虎杖が自責を抱えながら戦線へ戻る",
+    "七海が重傷のまま改造人間を倒す",
+    "真人が虎杖の前で七海を殺す"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-traumatized"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "corpse"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-da4ca46be3",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-1a74b17cf8",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "killed"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b2b454d6e2",
+      "presence": "imagined"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-baadf43d19",
+    "char-2b8d365a39",
+    "char-6c8cc9b546",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-da4ca46be3",
+    "char-1a74b17cf8",
+    "char-6309a7e2f4",
+    "char-18d7c58412",
+    "char-b2b454d6e2",
+    "char-3c1852867d",
+    "char-24d736edff",
+    "char-22abdd626c"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-phase6-nanami-blunt-sword",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used-to-kill-nanami"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-phase6-nanami-blunt-sword",
+    "tech-e69f8fd37d",
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase6": [
+    "term-phase5-transfigured-human",
+    "term-65867f280c",
+    "term-phase5-body",
+    "term-phase5-special-grade-curse"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

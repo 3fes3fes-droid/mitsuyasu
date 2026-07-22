@@ -1,0 +1,140 @@
+{
+  "id": "ch-073",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 73,
+  "zero_number": null,
+  "label": "第73話",
+  "title_official": "懐玉―玖―",
+  "title_search_normalized": "懐玉―玖―",
+  "start_page": 47,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.47",
+  "summary_short": "夏油は理子と五条の仇を討つため甚爾へ挑む。呪霊操術で多様な呪霊を繰り出すが、甚爾の肉体と呪具に圧倒され敗北する。",
+  "summary_full": "天内理子を殺され、五条も死亡したと思った夏油は甚爾へ攻撃を仕掛ける。呪霊操術で虹龍や口裂け女を出し、格納型呪霊を取り込んで武器を奪おうとするが、呪力を持たない甚爾は術師の常識外の速度と感覚で対応する。口裂け女の簡易領域と問い掛けも突破され、夏油は釈魂刀で深く斬られて敗北する。甚爾は、夏油を殺した場合に取り込まれた呪霊がどうなるか不明なため命を取らず、理子の遺体を盤星教へ運ぶ。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "With the Escort Mission turning into a complete disaster, 傑 fights to avenge everyone. He pulls out some of the strongest curses he has to offer, but are they any match for 甚爾 ?",
+    "summary_full_legacy": "甚爾 explains how he managed to remain invisible as he infiltrated the school. The majority of the barriers protecting 東京 呪術高専 are simply hiding it. So long as someone knows their location in advance, they could easily locate the 薨星宮 and the Cursed Warehouse. Jujutsu sorcerers are busy this time of year so 甚爾 is an invisible man because he has no 呪力. However, once he holds on to a cursed tool , that is imbued with 呪力 that makes him detectible. 傑 attempts to attack 甚爾 with his 虹龍 and the assassin fires more rounds at 傑 while he continues talking. 甚爾 manages to avoid 傑's curse and continues explaining how he managed to infiltrate the school. He swallowed the 呪霊 he uses to store his curse tools, allowing him to stay invisible even with that. 傑 uses some of his most powerful curses to attack. 傑 interrupts 甚爾, demanding he stop talking. He knows that revealing certain information can improve his heavenly restriction. What he doesn't know is how he tracked them to the entrance into the tombs. No residuals were left behind, but 甚爾 used more practical methods of tracking to follow them. His lack of 呪力 makes sharpens his five sense to their peak, allowing him to detect 呪霊 as well. 傑 asks about 黒井 , but 甚爾 isn't even sure if she's dead or not. 甚爾 caught in the the Domain of 傑's 口裂け女. 虹龍 attacks again but this time 甚爾 slashes it apart with ease using his katana-like cursed tool. 傑 is shocked because 虹龍 has the hardest skin among his 呪霊. 甚爾 isn't impressed by 傑's technique but he's suddenly caught inside the second spirit's Innate Domain. This unwillingly places 甚爾 into a pact that will keep the domain their until the question is answered. The Imaginary Vengeful Spirit asks if she's pretty, but 甚爾 replies that she isn't his type. Despite all their blessings, one by one the sorcerers fall to 甚爾's strength. The Vengeful Spirit's domain disappears, allowing 甚爾 to see the scissors floating around him. They're close to his body, ready to cut him apart, but 甚爾 effortlessly deflects all the blades with the 天逆鉾 . 傑 comes in close and attempts to absorb 甚爾's inventory curse, but it rejects him somehow. 甚爾 draws a second blade from his curse and slashes both 傑 and his curse, defeating them both in an instant. 甚爾 puts 傑 down and incapacitates him, claiming he would have killed him but he could possibly release all the 呪霊 he's taken in if he dies. Still unimpressed, 甚爾 tells 傑 to thank his parents for his blessing. Despite all their blessing and abilities, they all lost to a simple monkey who can't even use jujutsu. 甚爾's monologue reminds him that 恵 means blessings and that's what he named his son. At the same time in the foothills of 呪術高専. 悟 's hand twitches, showing signs of life.",
+    "characters_raw_text": "伏黒甚爾 夏油傑 天内理子 美里 黒井 五条悟",
+    "locations_raw_text": "東京 呪術高専 薨星宮 薨星宮",
+    "battles_events_raw_text": "夏油傑 vs. 伏黒甚爾 (開始・終了)",
+    "techniques_raw_text": "呪具 天逆鉾／釈魂刀 夏油傑の術式 呪霊操術 口裂け女 虹龍 口裂け女 虹龍",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-526551b91f",
+    "char-5ae093db78",
+    "char-5da68e2f6c",
+    "char-63e2590b87",
+    "char-71f5d39336",
+    "char-b9d4880408",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-ed19637c63"
+  ],
+  "key_events_verified_phase4": [
+    "夏油が甚爾へ挑み敗北する",
+    "虹龍と口裂け女が使用される",
+    "甚爾が理子の遺体を持ち去る"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance-and-defeated"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "corpse"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "mentioned-as-dead"
+    },
+    {
+      "character_id": "char-5ae093db78",
+      "presence": "appearance-and-destroyed"
+    },
+    {
+      "character_id": "char-71f5d39336",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5da68e2f6c",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-d5482ceba1",
+    "char-b9d4880408",
+    "char-63e2590b87",
+    "char-17322e71e5",
+    "char-5ae093db78",
+    "char-71f5d39336",
+    "char-5da68e2f6c"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase4-inverted-spear",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "used-by-curse"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-1bc0d9ec7b",
+    "tech-phase4-inverted-spear",
+    "tech-phase4-split-soul-katana",
+    "tech-e28246ff34"
+  ],
+  "term_ids_verified_phase4": [
+    "term-8914e5bc1a",
+    "term-ed19637c63",
+    "term-bf1b3beaca",
+    "term-bfcc1b065d",
+    "term-phase4-zero-cursed-energy"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

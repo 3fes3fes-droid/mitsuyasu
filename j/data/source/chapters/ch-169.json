@@ -1,0 +1,119 @@
+{
+  "id": "ch-169",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 19,
+  "number": 169,
+  "zero_number": null,
+  "label": "第169話",
+  "title_official": "東京第１結界⑨",
+  "title_search_normalized": "東京第1結界9",
+  "start_page": 149,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-19"
+  ],
+  "source_locator": "単行本19巻 目次 p.149",
+  "summary_short": "伏黒がレジィ一派と戦う中、髙羽史彦が乱入して味方する。髙羽は爆発物を操る黄櫨折と対峙し、伏黒はレジィとの一対一へ移る。",
+  "summary_full": "芸人の髙羽史彦が乱入し、善人と判断した伏黒に加勢する。髙羽は黄櫨の爆発を受けても傷を負わず、本人が面白いと確信したことを現実にする術式「超人」を無意識に発動するが、自身は能力を理解していない。髙羽が黄櫨を引き受けたことで、伏黒はレジィと一対一になる。伏黒は相手の術式を探りながら、式神を使って場所を移し本格的な決戦へ入る。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 's battle is interrupted by an eccentric comedian with an abundance of personality. 高羽史彦 takes 恵's side and helps him fend off the other 死滅回游 players.",
+    "summary_full_legacy": "高羽 introducing himself with a terrible joke. 高羽史彦 decides to help 恵 because the thirty-five-year-old can tell whether someone is good or bad by their face. He quickly realizes 恵 has a bad face but writes it off as all \"revisionist\". 恵 tries to correct him with the correct wording and quickly realizes 高羽 is eccentric. Regardless of his personality, 高羽 protected 恵 so the 呪術高専 student is willing to trust him. レジィ and 黄櫨折 don't recognize 高羽, so they try asking what time period he's from. 高羽 interrupts 黄櫨折 by assuming the question was going to be whether he's funny or not. He explains that his costume is based on a funny superhero and his intimidation factor suddenly flares up while preparing to tell a joke. 黄櫨折 and レジィ prepare for an attack but 高羽 just tells a joke that gets a dead silent reaction. 高羽 says \"Don't marry me! I don't want you as my wi-fi!\", which absolutely no one finds funny. \" Because I'm an entertainer! \" 高羽 comments on the tough crowd but continues to hype himself up nonetheless. Even though his opponents are stiff, 高羽 will continue to do what he does because he's an entertainer. While emphatically exclaiming that statement, 高羽 delivers a fierce flying dropkick that sends 黄櫨折 crashing into a building. レジィ notes that the shift in 高羽's 呪力 output is great and quickly realizes that the failing comedian is actually strong. 高羽 does a handstand and explains that he's an old-school performer who's pro-violence, buying 恵 enough time to get into position. 恵 works with the eccentric 高羽 to split up their adversaries. 恵 tries to surprise attack レジィ from his own shadow but he jumps away from the ground in time to avoid it. 恵 tells 高羽 they should split 黄櫨折 and レジィ up. While trying to explain 黄櫨折の exploding body parts, 恵 has to tell 高羽 to stop getting so close to his face. 恵 uses コガネ to confirm that 日車寛見 was the one who added Rule Ten to the 死滅回游. Assured that 悠仁 completed their mission, 恵 states he's done with this colony and tells レジィ he'll let him go if he backs off. レジィ refuses because he needs to make up for 針千鈞 's lost points. Hazonki recovers from the dropkick he suffered and calls out to 高羽. The comedian ignores him and introduces himself properly to 恵. The 呪術高専 student requests that 高羽 take 黄櫨折の points if possible. 高羽 accepts on the condition that he continues to entertain, which doesn't bother 恵 as long as he wins. \" So I can fight for real... without holding back. \" Satisfied, 高羽 begins \"sparking\" while 黄櫨折 sends an explosive projectile at him. 高羽 knocks it away with a fan and manages to close the distance before poking his opponent in the rear end as a joke. 黄櫨折 is enranged but 高羽 immediately follows up with a powerful kick that sends his opponent through another building. Impressed, 恵 expresses that he's glad 高羽 isn't his enemy. 高羽 is happy to help and bids farewell to 恵, telling him to stay alive. レジィ thinks 高羽 is toast because 黄櫨折 will go all out after being mocked so much. 恵 tells his adversary to worry about himself. With his objective completed, 恵 can fight one-on-one for real, without holding back.",
+    "characters_raw_text": "伏黒恵 高羽史彦 レジィ・スター 庵 黄櫨折 日車寛見 (言及のみ) 虎杖悠仁 (言及のみ) 針千鈞 (言及のみ)",
+    "locations_raw_text": "東京第1結界／池袋",
+    "battles_events_raw_text": "死滅回游 伏黒恵 vs. レジィ・スター's Group (終了) 高羽史彦 vs. 庵 黄櫨折 (開始) 伏黒恵 vs. レジィ・スター's Group (終了) 高羽史彦 vs. 庵 黄櫨折 (開始)",
+    "techniques_raw_text": "Cursed 術式 庵 黄櫨折の Explosive Flesh 術式 高羽史彦の術式 超人 伏黒恵の術式 十種影法術 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo1",
+  "character_ids_candidate": [
+    "char-026d657efa",
+    "char-02aa196fbb",
+    "char-27f5cf78ab",
+    "char-3062a0117e",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-577ea0ec09",
+    "char-8a6e43878f",
+    "char-baadf43d19",
+    "char-df284f67ad"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b352da6cb",
+    "tech-7c3237f986"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase9": [
+    "髙羽が伏黒へ加勢する",
+    "髙羽が黄櫨の爆発を無傷で受ける",
+    "髙羽と黄櫨、伏黒とレジィに戦闘が分かれる",
+    "伏黒がレジィの術式を分析する"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "joins-fushiguro"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "fighting-reggie"
+    },
+    {
+      "character_id": "char-026d657efa",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-27f5cf78ab",
+      "presence": "fighting-takaba"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-02aa196fbb",
+    "char-3c1852867d",
+    "char-026d657efa",
+    "char-27f5cf78ab"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-4b352da6cb",
+      "relation": "unconsciously-active"
+    },
+    {
+      "technique_id": "tech-511d655411",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-4b352da6cb",
+    "tech-511d655411",
+    "tech-7c3237f986"
+  ],
+  "term_ids_verified_phase9": [
+    "term-152790e31d",
+    "term-bb89ef15f2",
+    "term-49963d44ff"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-19",
+    "src-manga-games-vol-19",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

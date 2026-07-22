@@ -1,0 +1,145 @@
+{
+  "id": "ch-085",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 85,
+  "zero_number": null,
+  "label": "第85話",
+  "title_official": "渋谷事変③",
+  "title_search_normalized": "渋谷事変3",
+  "start_page": 106,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.106",
+  "summary_short": "五条は一般人を避けながら特級呪霊の連携へ対処し、花御を壁へ押し潰して祓う。敵側はなお五条を獄門疆の条件内へ留めようとする。",
+  "summary_full": "五条は無下限呪術を一時的に解き、純粋な体術と呪力操作で漏瑚を追い詰める。花御は五条の狙いが漏瑚にあると誤認し、術式を使うため領域展延を解除するが、それこそ五条の誘いだった。五条は花御の目元の枝を引き抜き、再び無下限を強めて壁との間へ圧力を掛ける。花御は身体を押し潰されて消滅し、漏瑚と脹相は仲間を失う。一般人を守りながらでも特級呪霊を圧倒する五条に対し、敵側は獄門疆を開くための時間を稼ぎ続ける。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The battle between 五条悟 and the special grade curses continues below 渋谷駅. The evildoers continue trying to execute their plan, but 悟 proves once again why he's the best, countering them at every turn.",
+    "summary_full_legacy": "\" Weren't you the ones who told me... to not run away? \" 漏瑚 and 花御 are intimidated by 悟's threats. He tells them to come and fight since they were the ones who said not to run away. Without fear, 悟 walks right up to 漏瑚's face and ignores 花御 beside him. They both move to attack but 悟 counters 漏瑚's hand with his own physical body. He avoids 花御's attempt at a strike and snaps 漏瑚's arm clean off. He uses to block 花御's follow-up attack and continues to chase after 漏瑚. 花御 realizes 悟 only made the threat earlier to confuse them, and not only that, 悟 has completely deactivated his 無下限呪術 technique. He questions if 悟 plans to abandon focusing on his technique and plans to fight in close quarters. 花御 decides it's best to activate his innate technique in this situation. However, this turns out to be a fatal mistake. 漏瑚 turns back to yell at Hanani, reminding him not to deactivate his 領域展延 . 五条's leads Hananmi straight into his trap. 悟 turns back and grabs the tree branches growing out of 花御's eye sockets. The strongest sorcerer forcibly pulls out the branches completely from 花御's shell. He knew that the curses wouldn't be able to use the barrier technique and their innate technique at the same time. 漏瑚 runs away in fear, shocked that 悟 is so powerful while only using 呪力 manipulation and physical attacks. 脹相 attempts to hit 五条 with 赤血操術 while killing civilians along the way but it's stopped by the 無限 . 悟 recognizes that 脹相 is a 呪胎九相図 and decides to ignore him for now so he can deal with the two more proactive curses. 漏瑚 and 花御 both attack him again with 領域展延. However, this time 悟 can counter by strengthening the 無限 because 花御 is in a weakened state. 悠仁's reaction to learning 真人 is involved in the 渋谷事変. 悟 turns to 花御 and crushes him against the wall with the expanded 無下限呪術. 漏瑚 attempts to divert his attention by threatening civilians but 悟 doesn't hesitate to crush 花御 completely, annihilating the curse, leaving nothing left but a giant crater in the wall. With 花御 exorcised, 悟 turns back to meet the despaired 漏瑚's gaze and claims he's next. Near exit 2 of the 明治神宮前駅 , an assistant manager meets with the 冥冥 Team to debrief them on developments in the 渋谷事変. They already know about the curtain surrounding the station which is trapping non-sorcerers. A new barrier has appeared on the 副都心線 ホーム after 五条 entered to keep sorcerers out. Between the two curtains is the caster, who's taking that risk in order to strengthen the barrier. Two other managers have already been taken out and in between the barriers are several transfigured humans. This forces 悠仁 to recall 真人 's face, shocking the young man with the revelation that his nemesis must be near.",
+    "characters_raw_text": "五条悟 花御 漏瑚 脹相 憂憂 冥冥 虎杖悠仁 真人 (回想)",
+    "locations_raw_text": "渋谷 渋谷駅 副都心線 明治神宮前駅ホーム 渋谷駅 副都心線 明治神宮前駅ホーム 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変 五条悟 vs. 真人's Group 五条悟 vs. 真人's Group",
+    "techniques_raw_text": "脹相の術式 赤血操術 花御の術式 Disaster Plants (名称不明) 領域展延 漏瑚の術式 Disaster Flames (名称不明) 領域展延 五条悟の術式 無下限呪術 六眼",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-851111b10d",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-1baac5a3fc",
+    "tech-34f2643025",
+    "tech-542b17dcab",
+    "tech-9754429d12",
+    "tech-a1213858c7",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-7037f2a1bd",
+    "term-6e7e2b846e"
+  ],
+  "key_events_verified_phase5": [
+    "五条が花御に領域展延を解除させる",
+    "五条が花御を壁へ押し潰して消滅させる",
+    "漏瑚と脹相が戦闘を継続する"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance-and-destroyed"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-17322e71e5",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-851111b10d",
+    "char-e41848a08f",
+    "char-07918bda3f",
+    "char-baadf43d19",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-34f2643025",
+      "relation": "used-and-released"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used-to-crush-hanami"
+    },
+    {
+      "technique_id": "tech-9754429d12",
+      "relation": "attempted"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-34f2643025",
+    "tech-cf2f8dca4a",
+    "tech-9754429d12"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-34f2643025",
+    "term-phase5-special-grade-curse",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "ch-052",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 6,
+  "number": 52,
+  "zero_number": null,
+  "label": "第52話",
+  "title_official": "規格外",
+  "title_search_normalized": "規格外",
+  "start_page": 173,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-06"
+  ],
+  "source_locator": "単行本6巻 目次 p.173",
+  "summary_short": "五条は組屋鞣造を制圧し、虚式「茈」で花御へ甚大な損傷を与える。混乱の裏で真人は高専の保管庫へ侵入し、宿儺の指と呪胎九相図を奪う。",
+  "summary_full": "楽巌寺は演奏で増幅した呪力を音波として放ち、組屋と戦う。歌姫は重面春太に襲われるが、釘崎と真依が加勢し、帳の消滅で重面は逃走する。五条は戦場を俯瞰し、楽巌寺の要請を受けて組屋を殺さず四肢を破壊して拘束する。逃走する花御へ、術式順転「蒼」と術式反転「赫」を衝突させた虚式「茈」を放ち、森林ごと大きく抉る。混乱の間に真人は高専の忌庫から呪物を奪い、任務完遂を宣言して脱出する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The battle that interrupted the Goodwill Event comes to a climactic end as 五条悟 joins the fight. However, 真人 's group continues its schemes in the background amongst all the chaos.",
+    "summary_full_legacy": "五条 looks over the entire battlefield. As 鞣造 uses his axe to deflect soundwaves of 呪力 sent at him by 楽巌寺, the 呪詛師 realizes the old man's 術式 amplifies the music he plays and launches it. 鞣造 believes that his technique makes him a predictable mid-ranged fighter. At the same time, 歌姫 continues further into the school towards the battlefield. She calls 桃 who has reached 硝子 with 三輪, along with the others. Due to the nature of the curtain, reception is still working on phones. 歌姫 is interrupted when she's suddenly attacked by a 呪詛師 wielding a hand-sword. 野薔薇 and 真依 arrive to back her up when the curtain suddenly disappears. The 呪詛師 is forced to flee as 鞣造 looks up to see 五条悟 floating high in the sky. \" I'll start... with you! \" 五条 surveys the entire battlefield with his high vantage point in the sky. He notices 悠仁 looking at him and is surprised to see how strong he's grown. As 葵 makes sense working well with 悠仁, 五条 figures they'll be okay on their own for a while. Instead, 五条 starts by confronting 鞣造. 楽巌寺 quickly yells for 五条 not to kill the 呪詛師. In seconds, 五条 destroys all 鞣造's limbs, instantly immobilizing him. He asks Gakauganji to get him healed for questioning while thinking over the situation. 虚式「茈」 ! 五条 noticed the 呪詛師 who attacked 歌姫 has fled and 花御 will likely follow suit. To prevent the special grade from escaping, 五条 decides to get a little crazy, simultaneously activating the 無下限呪術 technique, 術式反転「赫」 as well as the strengthened 無下限呪術 術式: Blue . \" Mission accomplished. \" 花御 attempts to leave the area, claiming he's not proud enough to face 五条. 悠仁 tries to pursue but 葵 stops him, fearing his new friend will become collateral damage. 五条 unleashes the 無下限呪術 虚式「茈」, a giant blast created by a warp in space-time that hollows out a large majority of the forest. The fissure created by the attack is so ridiculously large that 葵 can't even tell if the 呪霊 was exorcised. Meanwhile, 真人 escapes one of the vaults on campus, worried about if 花御 is okay. He murders two members of the school's staff on his way out, stating the mission has been accomplished.",
+    "characters_raw_text": "楽巌寺嘉伸 組屋鞣造 庵歌姫 重面春太 釘崎野薔薇 禪院真依 五条悟 花御 虎杖悠仁 東堂葵 真人",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 楽巌寺嘉伸 vs. 組屋鞣造",
+    "techniques_raw_text": "五条悟の術式 無下限呪術 術式 術式順転「蒼」 虚式「茈」 術式 術式順転「蒼」 虚式「茈」 楽巌寺嘉伸の術式 Sound Wave 術式 (名称不明)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-3de3b8af11",
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-6c8cc9b546",
+    "char-833a399363",
+    "char-9148bf784c",
+    "char-ac327bdd73",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-76bee748ec",
+    "tech-90aaa17cfe",
+    "tech-cf2f8dca4a",
+    "tech-fb21434f98"
+  ],
+  "term_ids_candidate": [
+    "term-c5958133bc"
+  ],
+  "key_events_verified_phase3": [
+    "楽巌寺の音楽術式が描かれる",
+    "重面が歌姫を襲うが逃走する",
+    "五条が組屋を拘束する",
+    "五条が虚式「茈」で花御を攻撃する",
+    "真人が高専の忌庫から呪物を奪う"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-833a399363",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-ac327bdd73",
+    "char-833a399363",
+    "char-3de3b8af11",
+    "char-6c8cc9b546",
+    "char-5a0f7ded8d",
+    "char-5724ed462b",
+    "char-17322e71e5",
+    "char-9148bf784c",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-76bee748ec",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6e6dd087e1",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-fb21434f98",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-76bee748ec",
+    "tech-cf2f8dca4a",
+    "tech-90aaa17cfe",
+    "tech-6e6dd087e1",
+    "tech-fb21434f98"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-f9e3abf542",
+    "term-5b5abca89c",
+    "term-0a4956ab6c"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-06",
+    "src-manga-games-vol-06",
+    "src-official-character-vote-4"
+  ]
+}

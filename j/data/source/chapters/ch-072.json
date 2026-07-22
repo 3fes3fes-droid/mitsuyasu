@@ -1,0 +1,117 @@
+{
+  "id": "ch-072",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 72,
+  "zero_number": null,
+  "label": "第72話",
+  "title_official": "懐玉―捌―",
+  "title_search_normalized": "懐玉―捌―",
+  "start_page": 27,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.27",
+  "summary_short": "甚爾に敗れた五条を残し、夏油は理子を天元のもとへ導く。理子が同化せず皆と生きることを選んだ直後、甚爾に射殺される。",
+  "summary_full": "甚爾は倒れた五条へ念入りに傷を加え、夏油と理子を追って高専最深部の薨星宮へ入る。夏油は理子に、同化を拒んで黒井や皆と帰る選択肢を示す。理子は本当はもっと皆と一緒にいたいと涙を流し、差し伸べられた手を取ろうとする。しかしその瞬間、甚爾が銃で理子の頭部を撃ち、殺害する。甚爾は五条を殺したと告げ、怒る夏油と対峙する。星漿体護衛任務は完全な失敗へ転じる。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 has been killed!? The escort team nearly completes their mission until the former member of the 禪院家 changes everything.",
+    "summary_full_legacy": "甚爾 finishes off 悟. Using the special grade cursed tool : 天逆鉾 , 甚爾 nullifies 悟's technique and cuts him down with a flurry of slashes in a flash, leaving the young 悟 in a bloody heap and appearing to be dead. In the catacombs at at the Bottom of 東京 呪術高専 , 黒井 says her final goodbyes to 理子 . They cry and remind each other they with love one another always. 傑 stands by to complete the escort and shows 理子 the Main Hall of the 薨星宮. 傑 gives 理子 directions to 天元様 , who's protected by a barrier that only allows those invited inside. She can join with them until the  merger or turn back and return home with 黒井. Before the mission began, 悟 and 傑 agreed they would call of the mission if the 星漿体 Vessel didn't agree. 夜蛾 sensei made it seem as if the erasure of the 星漿体 Vessel as if it was something wrong. 傑 fights to avenge his friends. 理子 has been alone most of her life and different from other people. Her parents died so she believed that she would be okay leaving everyone behind. However, after spending time with everyone on the escort, 理子 cries and admits she wants to stay. 傑 offers to take 理子's hand and take her home. She agrees but is suddenly shot in the head, shocking 傑. As 理子's corpse lays before 傑, 甚爾 reveals himself and states its time to wrap things up. 傑 asks why, and 甚爾 tells him that he killed 五条悟. 傑 believes him and brings out two of his strongest 呪霊 immediately.",
+    "characters_raw_text": "五条悟 伏黒甚爾 天内理子 美里 黒井 夏油傑",
+    "locations_raw_text": "東京 呪術高専 薨星宮 薨星宮",
+    "battles_events_raw_text": "五条悟 vs. 伏黒甚爾 (終了)",
+    "techniques_raw_text": "呪具 天逆鉾 夏油傑の術式 呪霊操術 口裂け女 虹龍 口裂け女 虹龍",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-526551b91f",
+    "char-5ae093db78",
+    "char-63e2590b87",
+    "char-6eab17a5a8",
+    "char-71f5d39336",
+    "char-b9d4880408",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase4": [
+    "夏油が理子へ同化を拒む選択肢を示す",
+    "理子が帰ることを選ぶ",
+    "甚爾が理子を射殺する"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-and-presumed-dead"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-526551b91f",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-17322e71e5",
+    "char-d5482ceba1",
+    "char-63e2590b87",
+    "char-b9d4880408",
+    "char-526551b91f"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-phase4-inverted-spear",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "prepared-or-used"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-phase4-inverted-spear",
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase4": [
+    "term-6f0611c4ff",
+    "term-87e5231adf",
+    "term-58cf854ee7",
+    "term-phase4-star-religious-group",
+    "term-phase4-time-vessel-association"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

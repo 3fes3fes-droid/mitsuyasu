@@ -1,0 +1,129 @@
+{
+  "id": "ch-039",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 39,
+  "zero_number": null,
+  "label": "第39話",
+  "title_official": "京都姉妹校交流会―団体戦⑥―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦6―",
+  "start_page": 89,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.89",
+  "summary_short": "パンダは兄の核によるゴリラモードを使い、メカ丸を破る。戦いを通じて二人は相手の抱える事情を知り、一方で三輪霞は真希の実力と向き合う。",
+  "summary_full": "幼いパンダは夜蛾から、自分の内部に兄と姉の核があり、いつか力を貸してくれると教えられていた。ゴリラモードのパンダは防御越しに衝撃を通す激震掌でメカ丸を追い詰める。メカ丸はパンダの核を読んで背後から攻撃するが、パンダは呪力を一か所へ集中させて核の位置を偽装していた。パンダはメカ丸を破壊し、外見を気にせず仲間になれると幸吉へ伝える。幸吉は健康な体で京都校の仲間と会う願いを明かす。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Armed with the powers of his older brother, パンダ turns the tide of the battle against メカ丸 . Following their clash, the two of them are able to find common ground. At the same time, 霞 learns about 真希's true power.",
+    "summary_full_legacy": "夜蛾 teaching パンダ about his older brother and sister. Around the time パンダ was still a child, 夜蛾 told him that he had an older brother and sister. A rather young パンダ claimed that to be incorrect but 夜蛾 explained further. パンダ was born with three energy cores, two of which are his brother and sister. 夜蛾 believed that パンダ would get to know both of them one day because they'd always be there to lend him their power. メカ丸 tries to defend himself with his Ultra Shield move using his only functioning arm but his guard is effortlessly broken through by the brute strength of パンダ's ゴリラモード. Despite defending, メカ丸 could feel the impact of パンダ's blow resonating within him. This is due to ゴリラモード's Unblockable Drumming Beat . ゴリラモード's power smashes メカ丸's guard. The two sides analyze one another. メカ丸 knows his body can't sustain another hit from the Unblockable Drumming Beat and he can't use his Ultimate Cannon again. パンダ carefully analyzes メカ丸 's remaining capabilities and admits he's already managed to cripple two of his cores. ゴリラモード requires a lot of 呪力 and this is パンダ's last resort. メカ丸 will need to get in close to finish him off but in ゴリラモード, パンダ holds the advantage in close combat. メカ丸 grabs a tile off the roof they're fighting on and flings it at パンダ. While his opponent is deflecting the tile, メカ丸 uses his elbow-mounted boosters to blitz behind パンダ and strike his energy core. He commends パンダ for doing well for a doll but once again the 呪骸 surprises him. パンダ grabs メカ丸's arm and reveals he can fake his core's location by concentrating his 呪力 into a single point in his body. 真希 showcasing her skills against 霞. With one powerful palm strike, パンダ completely wrecks メカ丸's body, crushing the head and tearing off the only functioning arm. He tells メカ丸 he lost because he underestimated a doll. パンダ believes they can relate because neither of them feel the same as their classmates. Despite this, パンダ doesn't envy humans because of their gross tendencies. パンダ adds that he likes humans because they possess qualities that he doesn't and asks メカ丸 why he decided to become a jujutsu sorcerer. 幸吉 looks forward to the day he can walk among his classmates with a healthy body. パンダ claims he can help his peer but 幸吉 questions whether パンダ would feel the same if he saw メカ丸's true form. パンダ isn't picky about appearances and asks for メカ丸's phone before leaving. Meanwhile, 真希 continues fighting against 霞. While barely defending 真希 's onslaught of attacks, 霞 realizes that 真希 is actually crazy strong.",
+    "characters_raw_text": "パンダ 虎杖悠仁 (表紙のみ) 夜蛾正道 (回想) 与幸吉 (メカ丸として) 乙骨憂太 (回想) 加茂憲紀 東堂葵 三輪霞 西宮桃 禪院真依 禪院真希",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 パンダ vs. 究極メカ丸 (終了) 禪院真希 vs. 三輪霞 (開始) 呪霊討伐競争 パンダ vs. 究極メカ丸 (終了) 禪院真希 vs. 三輪霞 (開始) パンダ vs. 究極メカ丸 (終了) 禪院真希 vs. 三輪霞 (開始)",
+    "techniques_raw_text": "メカ丸の術式 Ultra Shield パンダの術式 ゴリラモード Unblockable Drumming Beat Unblockable Drumming Beat",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-58278d1ec5",
+    "char-672d843799",
+    "char-830f121430",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8",
+    "char-f5b0193f9b"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "パンダが激震掌でメカ丸を追い詰める",
+    "パンダが核の位置を偽装する",
+    "パンダがメカ丸を破壊して勝利する",
+    "与幸吉が健康な体で仲間に会いたい願いを明かす"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-as-mechamaru"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-672d843799",
+    "char-58278d1ec5",
+    "char-dad71c9f31",
+    "char-24d736edff",
+    "char-ebd2a8efa8"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-phase3-gorilla-mode",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-drumming-beat",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-c2ae5ed6dc",
+      "relation": "destroyed"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-phase3-gorilla-mode",
+    "tech-phase3-drumming-beat",
+    "tech-870eff819a",
+    "tech-c2ae5ed6dc"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-37f8736467",
+    "term-phase3-abrupt-mutated-corpse",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

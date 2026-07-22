@@ -1,0 +1,135 @@
+{
+  "id": "ch-075",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 75,
+  "zero_number": null,
+  "label": "第75話",
+  "title_official": "懐玉―拾壱―",
+  "title_search_normalized": "懐玉―拾壱―",
+  "start_page": 87,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.87",
+  "summary_short": "覚醒した五条は術式反転「赫」と虚式「茈」を使い、甚爾を倒す。死の間際、甚爾は息子の恵が禪院家へ売られる予定であることを五条へ伝える。",
+  "summary_full": "覚醒した五条は、六眼と無下限呪術を高精度で操り、甚爾の攻撃をかわす。甚爾は万里ノ鎖に天逆鉾を接続し、術式を解除できる刃の間合いを伸ばして対抗する。しかし五条は術式順転「蒼」と術式反転「赫」を衝突させた虚式「茈」を放ち、甚爾の胴を大きく抉る。死を悟った甚爾は、数年後に息子の伏黒恵が禪院家へ売られると五条へ伝える。五条は理子の遺体を回収し、盤星教信者を殺すか夏油へ尋ねるが、夏油は意味がないとして止める。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The final battle between 五条悟 and 伏黒甚爾 reaches its climax. The Sorcerer Killer believes he has the 無下限呪術 figured out, but 悟 is able to awaken a secret ability of the 無下限呪術 kept hidden even within the 五条家.",
+    "summary_full_legacy": "\" Throughout heaven and earth, I alone am the honored one. \" 甚爾 stretches his arm and confirms that the energy wave 悟 used didn't break any of his bones. He breaks down each of the logistics behind the techniques of the 無下限呪術 and fully believes none of them are a problem. He connects the 天逆鉾 to a chain and has a plan for each of the three distinct powers of the 無下限呪術. Even so, an uneasiness lingers over 甚爾. 悟 levitates above him, upside down and wearing that same insane grin despite having lost their previous fight. 甚爾 begins to hesitate but quickly calms down and makes his move to kill the young sorcerer, swinging the chain wildly in every direction. 悟 apologizes to 理子 because he's not vengeful for her. Throughout heaven and earth, 悟 believes he alone is the honored one. 甚爾 creates a dust wave that forces 悟 to float above it, only for the 天逆鉾 to appear in front of him. 甚爾 challenges the power of the awakened 無下限呪術. The attack will likely land, so 悟 focuses on countering. Inherited 術式 have a manual on how to use them but it's easy for other clans to learn how they work as well. He knows 甚爾 must be a 禪院. but there is one technique only known to a few in the 五条家. The 虚式 combines the motion of blue and the reversal of red, colliding two infinites that creates an imaginary mass that annihilates everything it touches. 悟 unleashes 虚式「茈」 and erases a large portion of 甚爾's left torso from existence, dealing him a fatal wound and ending their fight. 甚爾 faces the consequences of deviating from his natural instincts. 甚爾's uneasiness stemmed from him breaking his own rules. He knows he should have said \"I don't work for free\" and made a run for it, but the greatest sorcerer alive stood before him. 甚爾 wanted to discredit it and crush it to spite the jujutsu world and the 禪院 family. This self-affirmation caused 甚爾 to deviate from his true self, and at that point, he had already lost. Unfortunately for him, 甚爾 was unable to put aside his petty pride. His ex-wife, however, wasn't able to be proud of herself or others. 悟 asks 甚爾 for any last words and he initially claims he doesn't. However, he thinks of young 恵 and tells 悟 about how his young son will be sold to the 禪院 clan in two or three years and to do as he pleases with that information.",
+    "characters_raw_text": "伏黒甚爾 五条悟 天内理子 (言及のみ) 伏黒恵 (回想)",
+    "locations_raw_text": "盤星教",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪具 万里ノ鎖／天逆鉾 五条悟の術式 無下限呪術 虚式「茈」 虚式「茈」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-383f9ce538",
+    "char-3c1852867d",
+    "char-5da68e2f6c",
+    "char-63e2590b87",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-6e6dd087e1",
+    "tech-cf2f8dca4a",
+    "tech-fb21434f98"
+  ],
+  "term_ids_candidate": [
+    "term-f74654d902",
+    "term-ad8bd57883",
+    "term-dbce7f28c0"
+  ],
+  "key_events_verified_phase4": [
+    "五条が虚式「茈」で甚爾を倒す",
+    "甚爾が恵と禪院家の取引を伝える",
+    "五条と夏油が盤星教信者を殺さないと決める"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "recollection-or-mentioned"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "corpse"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-d5482ceba1",
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-63e2590b87",
+    "char-b9d4880408"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1baac5a3fc",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase4-inverted-spear",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase4-chain-thousand-miles",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-fb21434f98",
+      "relation": "first-shown-use"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-cf2f8dca4a",
+    "tech-1baac5a3fc",
+    "tech-phase4-inverted-spear",
+    "tech-phase4-chain-thousand-miles",
+    "tech-fb21434f98"
+  ],
+  "term_ids_verified_phase4": [
+    "term-bf1b3beaca",
+    "term-f74654d902",
+    "term-phase4-sorcerer-killer",
+    "term-phase4-zero-cursed-energy"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

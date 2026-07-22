@@ -1,0 +1,114 @@
+{
+  "id": "ch-185",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 185,
+  "zero_number": null,
+  "label": "第185話",
+  "title_official": "バイバイ",
+  "title_search_normalized": "バイバイ",
+  "start_page": 91,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.91",
+  "summary_short": "鹿紫雲の攻撃でパンダの核が次々に破壊される中、パンダ・ゴリラ・姉の核が兄妹として過ごした心象風景が描かれる。パンダは兄姉との別れを迎える。",
+  "summary_full": "鹿紫雲の攻撃で三つの核が崩壊していく中、パンダの内面では幼い兄妹の別れが描かれる。乱暴に振る舞っていた兄のゴリラも、姉も、末弟のパンダを案じながら父のもとへ旅立つ。現実では姉の形態も鹿紫雲に敗れ、パンダは頭部だけに近い状態まで破壊される。鹿紫雲が宿儺の居場所を聞き出そうとするところへ、大当たり状態の秤が到着する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "パンダ is the youngest of three siblings and has always had his brother and sister to look after him. Gorilla never appreciated パンダ's weakness but their sister tries to change his perspective. However, due to the damage パンダ sustained at the hands of 鹿紫雲一 , it may be time for the siblings to say goodbye.",
+    "summary_full_legacy": "パンダ's big sister angry with their brother for bullying him. Within a fantasy world representing パンダ's relationship with his sibling cores, a young version of パンダ is being battered in a play fight with his older brother, Gorilla. パンダ calls on their sister, Triceratops, to come to help him. Triceratops tells Gorilla that it's their little brother's turn to hit back but he responds to パンダ's attempt at throwing a punch with a brutal left hook that angers their sister and leaves パンダ crying. Later on, パンダ is bullied by two other kids into throwing his favorite ball into a river while Gorilla sits idly by. Gorilla calls パンダ stupid for doing so and the latter cries because he only did it to play with his big brother and the other kids. Triceratops arrives again to find パンダ crying and becomes irritated with Gorilla. Back at their home, she talks to Gorilla and reprimands him for not standing up for their little brother. Gorilla argues that パンダ is spoiled and cries to get his way with his big sister. However, Triceratops counters that argument by claiming Gorilla is spoiled by パンダ's willingness to constantly forgive him. パンダ arrives at the house and shows off a beetle he caught, but it's a dangerous one so Gorilla immediately throws it away. The パンダ siblings are forced to part ways for good. That night, Gorilla counts up the money he's saved to get パンダ a new ball. He tries to remember what color it was before falling asleep and assures himself パンダ would be fine with any color. However, Gorilla is woken up by their father (representing 夜蛾正道 ) and taken away along with Triceratops. The father explains that they can't stay with パンダ anymore while the youngest brother searches frantically for his siblings. Gorilla begins to panic and explains that パンダ can't survive on his own. The father replies that they're the ones being left behind by パンダ and asks his siblings to say goodbye as they all cry hysterically. 秤 arrives in time to rescue パンダ! Back in reality, パンダ's entire body has been destroyed, save for his head. 鹿紫雲's attack destroyed both パンダ's sibling cores and left his head in a pool of 呪骸 blood and stuffing. 鹿紫雲 points out that he didn't receive any points, leading him to believe his opponent must still be alive. He sticks パンダ's head on top of his staff and demands he tells him about 宿儺 . Stubborn til the end, パンダ refuses to say anything and 鹿紫雲 prepares to end him once in for all. Suddenly, 秤 descends from the sky behind 鹿紫雲 with an excess of 呪力 flowing from him, crushing a shipping container as he lands atop it. Arriving just in time to rescue his partner, 秤 jokingly asks if パンダ has lost some weight. パンダ is excited to see him and even 鹿紫雲 is intrigued by the newcomer.",
+    "characters_raw_text": "パンダ Gorilla (パンダ's brother) Triceratops (パンダ's sister) 鹿紫雲一 宿儺 (言及のみ) 秤金次",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-0e7004da56",
+    "char-2b8d365a39",
+    "char-672d843799",
+    "char-b05e05011d",
+    "char-dea43d7fc7",
+    "char-f5b0193f9b"
+  ],
+  "technique_ids_candidate": [
+    "tech-aee71097f5"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "パンダ・兄・姉の心象上の別れが描かれる",
+    "鹿紫雲が姉の核を破壊する",
+    "パンダが小型化するほどの損傷を負う",
+    "秤が鹿紫雲の前へ到着する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-672d843799",
+      "presence": "critically-damaged"
+    },
+    {
+      "character_id": "char-f5b0193f9b",
+      "presence": "core-lost"
+    },
+    {
+      "character_id": "char-b05e05011d",
+      "presence": "core-lost"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "victor-over-panda"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "arrives"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-672d843799",
+    "char-f5b0193f9b",
+    "char-b05e05011d",
+    "char-0e7004da56",
+    "char-dea43d7fc7"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-aee71097f5",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-955be682d2",
+      "relation": "active"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-aee71097f5",
+    "tech-955be682d2"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-f6f3d2df55",
+    "term-37f8736467"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

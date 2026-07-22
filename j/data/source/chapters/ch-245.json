@@ -1,0 +1,161 @@
+{
+  "id": "ch-245",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 27,
+  "number": 245,
+  "zero_number": null,
+  "label": "第245話",
+  "title_official": "人外魔境新宿決戦⑰",
+  "title_search_normalized": "人外魔境新宿決戦17",
+  "start_page": 169,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-27"
+  ],
+  "source_locator": "単行本27巻 目次 p.169",
+  "summary_short": "宿儺は渋谷での大量殺人について有罪となり、死刑と没収を宣告される。しかし没収の対象は宿儺の術式ではなく、呪具「神武解」となる。",
+  "summary_full": "宿儺は渋谷での大量殺人について有罪となり、死刑と没収を宣告される。しかし没収の対象は宿儺の術式ではなく、呪具「神武解」となる。ジャッジマンは宿儺へ有罪・死刑・没収を宣告するが、没収は御厨子ではなく神武解を対象とする。日車と虎杖は想定外の結果のまま処刑人の剣を当てる戦いへ移る。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "As the battle between the feverish gambler, 秤金次 , and the Frozen Star, 裏梅 rages on, 日車 and 悠仁 spring their plan to put 宿儺 on trial into action. Curious about 日車's 処刑人の剣, 宿儺 has no qualms about receiving a guilty verdict. However, just as all seems to be going to plan, a critical oversight threatens any chance at victory.",
+    "summary_full_legacy": "Away from his allies, 秤 continues to keep 裏梅 occupied. While they're still falling through the air from 秤's domain, 裏梅 uses 霜凪 , breathing out supercooled 呪力 that creates a large block of ice that encases 秤's right arm. 裏梅 punches the ice and shatters it, destroying 秤's arm. As the ancient sorcerer manipulates cold 呪力 in their hands and attempts to finish off 秤, the third-year student instantly regenerates his arm and grabs 裏梅 by the face. He slams 裏梅 downward through an apartment building and they crash to street level. The Frozen Star vs. The Feverish Gambler! 裏梅 quickly escapes the debris and creates a large spiked icicle while noting that in terms of regenerative speed using 反転術式 , 秤 surpasses even the likes of 宿儺 and 五条悟 . They then launch the icicle at 秤, slashing away the side of his lower admin as he rushes forward. However, 秤 though remains undeterred and continues pressing forward, surprising 裏梅. 秤 heals and throws a kick at 裏梅, but they catch it and freeze his foot. He doesn't hesitate to break off the frozen part of his leg and uses the opening to dropkick 裏梅 with a regenerated foot. The powerful impact sends Urauame crashing through multiple buildings. \"Guilty!!\" 秤 gives chase, finding his shoe along the way. 裏梅 admits that they need to change their attitude towards the battle since 秤 is unlike other modern sorcerers, who try to retain their humanity by limiting themselves from destroying what they can out of fear of alienation. In this regard, 秤 is not \"human\", so going forward, 裏梅 decides not to treat him as one. 裏梅 declares they will crush 秤 with all their might, freezing the pipes below so that they burst and create more moisture in the air. 秤 remembers a similar conversation involving humanity with 乙骨憂太 , who he respects and is moved by due to his reliable character. 秤 declares that his fever is running hot and will need 裏梅 to cool him off as the fight resumes. The other sorcerers take the field to seize a chance of success... Meanwhile, inside of 誅伏賜死 , 日車 begins divulging the rules of the domain to 宿儺. 日車 thinks that their victory is secured because the evidence given was the same evidence used in 悠仁's second trial: proof that 宿儺 was in possession of the boy's body while committing the mass murder at 渋谷 . However, 宿儺 suddenly interrupts him as he explains the rules, having been briefed on it already during 悠仁's battle with the lawyer. He admits guilty to the charges, causing ジャッジマン to sentence him to \"没収\" and \"死刑\". ... but that chance of success was a sham. Now armed with the 処刑人の剣, 日車 speculates that since 宿儺 lost the 十種影法術 術式 in his fight against 五条悟 , 没収 likely disabled his 御廚子 . Without his 術式, the sorcerers of 呪術高専 seize the golden opportunity to attack 宿儺. 日車 suddenly remembers 悠仁's words to him after he declared his participation in the battle, asking him if he wished to die. As 猪野琢真 , 脹相 , and 日下部篤也 appear on the battlefield, 日車 and 宿儺 realize that the sorcerers no longer have a winning chance. As a flurry of slashes lacerates the lawyer and 日下部, 日車 realizes that if the target of 没収 carries a cursed tool , then 没収 will take away that cursed tool instead of their 術式. 日車's technique confiscated 神武解 instead of 御廚子!",
+    "characters_raw_text": "秤金次 裏梅 乙骨憂太 (想像) 日車寛見 宿儺 虎杖悠仁 五条悟 (言及のみ) 猪野琢真 脹相 日下部篤也",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺 秤金次 vs. 裏梅",
+    "techniques_raw_text": "呪具 神武解 日車寛見の術式 領域展開：誅伏賜死 秤金次の術式 領域展開：坐殺博徒／式神 ジャッジマン 宿儺の術式 御廚子 裏梅の術式 氷凝呪法 霜凪 霜凪",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-dea43d7fc7",
+    "char-ef294e92de"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-3bd924870c",
+    "tech-4b0b9dc682",
+    "tech-7210756e15",
+    "tech-c958121642",
+    "tech-d2feb31d47",
+    "tech-ef294e92de"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-ed19637c63"
+  ],
+  "key_events_verified_phase11": [
+    "宿儺は渋谷での大量殺人について有罪となり、死刑と没収を宣告される。",
+    "しかし没収の対象は宿儺の術式ではなく、呪具「神武解」となる。",
+    "ジャッジマンは宿儺へ有罪・死刑・没収を宣告するが、没収は御厨子ではなく神武解を対象とする。",
+    "日車と虎杖は想定外の結果のまま処刑人の剣を当てる戦いへ移る。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-dea43d7fc7",
+    "char-ef294e92de"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ef294e92de",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-3bd924870c",
+    "tech-e1903ce05c",
+    "tech-160da18a4d"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-3bd924870c",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-e1903ce05c",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-160da18a4d",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-7a45f4dbe5"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-27",
+    "src-manga-games-vol-27",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

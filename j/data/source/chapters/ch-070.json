@@ -1,0 +1,132 @@
+{
+  "id": "ch-070",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 8,
+  "number": 70,
+  "zero_number": null,
+  "label": "第70話",
+  "title_official": "懐玉―陸―",
+  "title_search_normalized": "懐玉―陸―",
+  "start_page": 171,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-08"
+  ],
+  "source_locator": "単行本8巻 目次 p.171",
+  "summary_short": "五条・夏油・理子は沖縄へ向かい黒井を救出する。賞金の期限をやり過ごして高専へ帰還するが、疲労した五条の前に伏黒甚爾が現れる。",
+  "summary_full": "五条・夏油・理子は沖縄で黒井を救出する。拉致は護衛を遠方へ移動させるための策だったが、黒井を取り戻した後、理子の希望を受けて一行は海や水族館で短い時間を過ごす。空港では七海建人と灰原雄も警戒に参加する。五条は理子へ懸けられた懸賞金の期限が切れるまで無下限呪術を維持し、睡眠も取らず周囲を監視していた。高専の結界内へ戻り任務成功を確信して術式を解いた瞬間、伏黒甚爾が背後から五条の胴を刺す。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悟 , 傑 , and 理子 track down and rescues 黒井 from members of the 時の器の会 in 沖縄. They decide to spend the rest of their time relaxing while waiting out the time limit of the bounty. Once the group finally reaches 呪術高専 to complete the escort mission, there is a surprise waiting for the prodigy of the 五条家.",
+    "summary_full_legacy": "理子 expresses her desire to help rescue 黒井. 傑 apologizes to 理子 and 傑 for leaving 黒井 behind without considering her importance to the enemy. 悟 believes their enemies will try to pull of a trade. He knows they have the upper hand and plans on coordinating with their opponents to rescue 黒井. 理子 refuses because she hasn't gotten to say goodbye to her yet and worries that the merge will occur before hand. 悟 assumes the enemy will contact them soon and agrees to bring 理子 along as she isn't scared or lowers the chances of 黒井's survival. The kidnappers demand 沖縄 as a meeting spot where 悟, 傑, and Amanai are able to rescue 黒井 and apprehend the kidnappers. They decide to enjoy themselves and hit the beach before finally heading to 呪術高専 later. The next day Amanai's bounty will be lifted and hopefully the escort will be completed. The group saves 黒井 and celebrates with a beach day! At the beach, 黒井 apologizes for being captured by a non-sorcerer member of the 時の器の会. 傑 shares blame with her and explains that they were able to travel safely on a plane aided by their abilities. They wonder why 沖縄 was chosen as the meeting spot and 黒井 suggests that maybe they'll attack the airport. 呪術高専 took precautions by sending in first-years 灰原雄 and 七海建人 to guard the premises. Just when the mission appears to be over, 甚爾 suddenly stabs 悟 from behind. The always negative 七海 is counteracted by 灰原's upbeat attitude. While both of them are committed do their duty, 悟 messes around with 理子 and the others at the beach. He decides to leave 沖縄 tomorrow instead to avoid interactions with more curse users. 傑 is worried that 悟's 術式 is taxing his body, but 悟 assures 傑 that his presence makes everything okay. 灰原 and 七海 are \"thrilled\" to learn they have to stay one more day. That night, 理子 enjoys food and an aquarium with everyone. On the final day of the escort, 理子 successfully reaches the foothills of Tokoyo 呪術高専 four hours after her bounty is lifted. They pass through a number of torii gates, putting them inside 呪術高専's barrier. With the mission almost complete, 悟 deactivates his technique. However, he's suddenly stabbed from behind by 伏黒甚爾 . 悟 asks if he knows this man from somewhere but 甚爾 tells his not to worry about remembering some guy's name.",
+    "characters_raw_text": "五条悟 美里 黒井 夏油傑 天内理子 家入硝子 (言及のみ) 七海建人 灰原雄 伏黒甚爾",
+    "locations_raw_text": "沖縄 名称不明 海辺 名称不明 海辺",
+    "battles_events_raw_text": "五条悟 vs. 伏黒甚爾 (開始)",
+    "techniques_raw_text": "五条悟の術式 無下限呪術 無限 無限",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-526551b91f",
+    "char-6309a7e2f4",
+    "char-63e2590b87",
+    "char-b2b454d6e2",
+    "char-b9d4880408",
+    "char-d4a4bc45c6",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-8b181ff845",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase4": [
+    "黒井美里が沖縄で救出される",
+    "理子が同化前の短い自由時間を過ごす",
+    "疲労した五条が甚爾に奇襲される"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-526551b91f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b2b454d6e2",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-17322e71e5",
+    "char-b9d4880408",
+    "char-63e2590b87",
+    "char-526551b91f",
+    "char-6309a7e2f4",
+    "char-b2b454d6e2",
+    "char-d4a4bc45c6",
+    "char-d5482ceba1"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "continuously-used"
+    },
+    {
+      "technique_id": "tech-8b181ff845",
+      "relation": "continuously-used"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-cf2f8dca4a",
+    "tech-8b181ff845"
+  ],
+  "term_ids_verified_phase4": [
+    "term-6f0611c4ff",
+    "term-87e5231adf",
+    "term-3f92b6bb78",
+    "term-f9e3abf542"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-08",
+    "src-manga-games-vol-08",
+    "src-official-character-vote-4"
+  ]
+}

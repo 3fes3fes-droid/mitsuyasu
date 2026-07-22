@@ -1,0 +1,144 @@
+{
+  "id": "ch-084",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 84,
+  "zero_number": null,
+  "label": "第84話",
+  "title_official": "渋谷事変②",
+  "title_search_normalized": "渋谷事変2",
+  "start_page": 87,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.87",
+  "summary_short": "五条は渋谷駅地下で漏瑚・花御・脹相と対峙する。大量の一般人を盾にされ、無下限や大規模攻撃を制限された状態で戦う。",
+  "summary_full": "渋谷駅地下5階のホームで、漏瑚・花御・脹相は一般人を線路上へ追い込みながら五条を攻撃する。漏瑚と花御は領域展延で無下限呪術を中和し、脹相は離れた位置から赤血操術を放つ。五条は広範囲の術式や無量空処を使えば一般人を巻き込むため、近接戦を中心に対応せざるを得ない。敵側は犠牲を意に介さず、五条が一般人を守ろうとする判断そのものを制約として利用するが、五条は三体の連携と領域展延の性質を冷静に分析する。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The 呪霊 put Pseudo-夏油 's plan into action, trapping 五条悟 deep in the underground 東京 Metro and surrounding him with non-sorcerers that only serve to get in his way. With chaos stifling his ability to fight, the mighty 五条悟 is finally forced on the defensive. That being said, the strongest jujutsu sorcerer doesn't go down so easily.",
+    "summary_full_legacy": "Non-sorcerers are sent onto the train tracks to impede 悟's offense. Confronted with three special grade curses, 悟 stands confident on the subway platform. 花御 's roots block all possible exits but 悟 claims he wasn't going anywhere anyway. 悟 says if he leaves the curses, they will massacre everyone and 漏瑚 emphatically replies that they'll gladly slaughter all these humans anyway. Everyone standing on the outside lanes of the platform is forced onto the tracks, surrounding the four jujutsu users with non-sorcerers. 悟 nonchalantly tells those around him to stand out of his way if they don't want to die. He realizes that blocking the exists created a blind spot so he can't break through in case there are people on the other side. 漏瑚 threatens to kill everyone whether 悟 stays or not. 漏瑚 burns through several civilians as 花御 follows and 脹相 attacks with 苅祓 . Both 花御 and 漏瑚 attack 悟 and are stopped by his 無限 . They strengthen their 呪力 and activate 領域展延 , forcing 悟 to dodge. He surmises they learned the technique from a 呪詛師 . Normal barriers are meant to trap their target in a box but the 領域展延 metaphorically surrounds the target with water. With this method, the curses can neutralize the 無限. \" I'm surprised you thought you could beat me using your sorry excuse for a brain! \" Prior to the 渋谷事変, 夏油 advised his allies that 五条悟 is best when he's working alone. No matter how strong the ally anyone else would just get in his way. Inferior non-sorcerers will restrict his movements and render him incapable of using his cursed techniques. In this situation, 悟 would be forced on the defensive and even his 領域展開 would harm them. The plan is to kill time and force 悟 to think of countermeasures for twenty minutes until 夏油 is ready with 獄門疆 . 漏瑚 snatches somebody's head off and reminds 悟 the rules were for him not to run away. 悟 admits he was surprised and 漏瑚 is pleased to hear a possible excuse. However, 悟 rejects this and reveals his 六眼 , adding that he's only surprised because these foolish curses believed they could use their brains to defeat him. The strongest sorcerer points out 花御 and says since this is their third meeting, the weed is getting cut first.",
+    "characters_raw_text": "五条悟 漏瑚 花御 脹相 Pseudo-夏油 真人",
+    "locations_raw_text": "渋谷 渋谷駅 副都心線 ホーム 渋谷駅 副都心線 ホーム 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変 五条悟 vs. 真人's Group (開始) 五条悟 vs. 真人's Group (開始)",
+    "techniques_raw_text": "脹相の術式 赤血操術 苅祓 花御の術式 Disaster Plants * 領域展延 漏瑚の術式 Disaster Flames * 領域展延 五条悟の術式 領域展開：無量空処 (言及のみ) 無下限呪術 術式 術式順転「蒼」 (言及のみ) 術式 術式反転「赫」 (言及のみ) 六眼 術式 術式順転「蒼」 (言及のみ) 術式 術式反転「赫」 (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-9148bf784c",
+    "char-a61fa295f1"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-1baac5a3fc",
+    "tech-34f2643025",
+    "tech-4b0b9dc682",
+    "tech-542b17dcab",
+    "tech-6e6dd087e1",
+    "tech-90aaa17cfe",
+    "tech-9754429d12",
+    "tech-a1213858c7",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase5": [
+    "五条が漏瑚・花御・脹相と交戦する",
+    "漏瑚と花御が領域展延を使用する",
+    "一般人が五条の術式を制限する盾として使われる"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "recollection-or-mentioned"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "recollection-or-mentioned"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-17322e71e5",
+    "char-a61fa295f1",
+    "char-9148bf784c",
+    "char-851111b10d",
+    "char-678a848346",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-34f2643025",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "defended-and-restricted"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-karibarai",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-9754429d12",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-34f2643025",
+    "tech-cf2f8dca4a",
+    "tech-a1213858c7",
+    "tech-phase3-karibarai",
+    "tech-9754429d12"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-34f2643025",
+    "term-cf5652fdbe",
+    "term-phase5-special-grade-curse",
+    "term-65867f280c"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

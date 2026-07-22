@@ -1,0 +1,6113 @@
+[
+  {
+    "id": "tech-3ffbd11089",
+    "name": "200％虚式「茈」",
+    "reading": null,
+    "category": "虚式",
+    "users": [
+      "五条悟"
+    ],
+    "aliases": [],
+    "description": "伊地知の結界、歌姫の単独禁区、楽巌寺の演奏、詠唱と掌印で出力を高めた虚式「茈」。",
+    "chapterIds": [
+      "ch-223"
+    ],
+    "firstChapter": "ch-223",
+    "lastChapter": "ch-223",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      }
+    ]
+  },
+  {
+    "id": "tech-42c5acf52c",
+    "name": "G戦杖",
+    "reading": "ジーせんじょう",
+    "category": "術式／呪具",
+    "users": [
+      "シャルル・ベルナール"
+    ],
+    "aliases": [],
+    "description": "漫画のペン先を模した武器。対象の血を取り込むと未来を漫画のコマとして読む。",
+    "chapterIds": [
+      "ch-182",
+      "ch-183",
+      "ch-250"
+    ],
+    "firstChapter": "ch-182",
+    "lastChapter": "ch-250",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "シャルル・ベルナール",
+        "characterId": "char-4e5593708e"
+      }
+    ]
+  },
+  {
+    "id": "tech-a88b067dfe",
+    "name": "あべこべ",
+    "reading": "あべこべ",
+    "category": "生得術式",
+    "users": [
+      "粟坂二良"
+    ],
+    "aliases": [],
+    "description": "一定範囲内で強い攻撃を弱く、弱い攻撃を強く変換する。上限と下限がある。",
+    "chapterIds": [
+      "ch-095",
+      "ch-096",
+      "ch-097"
+    ],
+    "firstChapter": "ch-095",
+    "lastChapter": "ch-097",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "粟坂二良",
+        "characterId": "char-d31c75a751"
+      }
+    ]
+  },
+  {
+    "id": "tech-536c06630d",
+    "name": "グラニテブラスト",
+    "reading": "グラニテブラスト",
+    "category": "術式技",
+    "users": [
+      "石流龍"
+    ],
+    "aliases": [],
+    "description": "髪型の砲口から高出力の呪力を放つ。",
+    "chapterIds": [
+      "ch-176",
+      "ch-177",
+      "ch-179",
+      "ch-180",
+      "ch-216"
+    ],
+    "firstChapter": "ch-176",
+    "lastChapter": "ch-216",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "石流龍",
+        "characterId": "char-4a29b3de7b"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase3-gorilla-mode",
+    "name": "ゴリラモード",
+    "reading": "ごりらもーど",
+    "category": "呪骸の核／形態",
+    "users": [
+      "パンダ"
+    ],
+    "aliases": [],
+    "description": "パンダが兄の核を前面に出す近接戦闘形態。高い膂力と打撃性能を持つ。",
+    "chapterIds": [
+      "ch-038",
+      "ch-039",
+      "ch-133",
+      "ch-135",
+      "ch-184"
+    ],
+    "firstChapter": "ch-038",
+    "lastChapter": "ch-184",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase3-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "パンダ",
+        "characterId": "char-672d843799"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-evening-moon",
+    "name": "シン・陰流「抜刀」",
+    "reading": null,
+    "category": "剣術・対人技",
+    "users": [
+      "日下部篤也"
+    ],
+    "aliases": [],
+    "description": "刀身の周囲へ自動迎撃範囲を作り、侵入した対象を即座に斬るシン・陰流の技。",
+    "chapterIds": [
+      "ch-114",
+      "ch-115",
+      "ch-134"
+    ],
+    "firstChapter": "ch-114",
+    "lastChapter": "ch-134",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "日下部篤也",
+        "characterId": "char-53c5711b23"
+      }
+    ]
+  },
+  {
+    "id": "tech-ef294e92de",
+    "name": "ジャッジマン",
+    "reading": "ジャッジマン",
+    "category": "式神",
+    "users": [
+      "日車寛見"
+    ],
+    "aliases": [],
+    "description": "誅伏賜死で裁判を進行し、没収や死刑などの判決を下す式神。",
+    "chapterIds": [
+      "ch-159",
+      "ch-164",
+      "ch-165",
+      "ch-166",
+      "ch-244"
+    ],
+    "firstChapter": "ch-159",
+    "lastChapter": "ch-244",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "日車寛見",
+        "characterId": "char-3062a0117e"
+      }
+    ]
+  },
+  {
+    "id": "tech-2686f31bc1",
+    "name": "ドゥルヴ・ラクダワラの術式（名称不明）",
+    "reading": null,
+    "category": "生得術式・編集用ラベル",
+    "users": [
+      "ドゥルヴ・ラクダワラ"
+    ],
+    "aliases": [],
+    "description": "巨大な式神を周回させ、その軌跡を領域として対象を侵す。原作で正式名称は提示されていない。",
+    "chapterIds": [
+      "ch-174",
+      "ch-178"
+    ],
+    "firstChapter": "ch-174",
+    "lastChapter": "ch-178",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "ドゥルヴ・ラクダワラ",
+        "characterId": "char-6ede6f3587"
+      }
+    ]
+  },
+  {
+    "id": "tech-8f302c25a5",
+    "name": "ブラックホール化",
+    "reading": "ブラックホールか",
+    "category": "術式極限",
+    "users": [
+      "九十九由基"
+    ],
+    "aliases": [],
+    "description": "自らへ極端な仮想質量を与え、ブラックホールを発生させる自滅的な最終手段。",
+    "chapterIds": [
+      "ch-208"
+    ],
+    "firstChapter": "ch-208",
+    "lastChapter": "ch-208",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "九十九由基",
+        "characterId": "char-1566dd973d"
+      }
+    ]
+  },
+  {
+    "id": "tech-fd5a754a56",
+    "name": "リカ",
+    "reading": "りか",
+    "category": "術式外部装置",
+    "users": [
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "乙骨の呪力、模倣術式、呪具を保管する外付けの存在。指輪を通じて完全顕現する。",
+    "chapterIds": [
+      "ch-137",
+      "ch-141",
+      "ch-174",
+      "ch-178",
+      "ch-248",
+      "ch-249",
+      "ch-250"
+    ],
+    "firstChapter": "ch-137",
+    "lastChapter": "ch-250",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-nanami-blunt-sword",
+    "name": "七海の鈍刀",
+    "reading": null,
+    "category": "呪具",
+    "users": [
+      "七海建人"
+    ],
+    "aliases": [],
+    "description": "布を巻いた鈍刀。十劃呪法で作った弱点を打撃するために用いられる。",
+    "chapterIds": [
+      "ch-120"
+    ],
+    "firstChapter": "ch-120",
+    "lastChapter": "ch-120",
+    "officialNameStatus": "editorial-descriptive-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "七海建人",
+        "characterId": "char-6309a7e2f4"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase4-chain-thousand-miles",
+    "name": "万里ノ鎖",
+    "reading": "ばんりのくさり",
+    "category": "呪具",
+    "users": [
+      "伏黒甚爾"
+    ],
+    "aliases": [],
+    "description": "一端を見られない限り伸び続ける鎖。甚爾は天逆鉾へ接続して攻撃範囲を拡張する。",
+    "chapterIds": [
+      "ch-075"
+    ],
+    "firstChapter": "ch-075",
+    "lastChapter": "ch-075",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase4-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "伏黒甚爾",
+        "characterId": "char-d5482ceba1"
+      }
+    ]
+  },
+  {
+    "id": "tech-a83926de11",
+    "name": "三重疾苦",
+    "reading": "しっくしっくしっく",
+    "category": "領域展開",
+    "users": [
+      "万"
+    ],
+    "aliases": [],
+    "description": "構築した真球を必中にする万の領域。",
+    "chapterIds": [
+      "ch-219"
+    ],
+    "firstChapter": "ch-219",
+    "lastChapter": "ch-219",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "万",
+        "characterId": "char-0d3bc6b0dd"
+      }
+    ]
+  },
+  {
+    "id": "tech-3ed1d78924",
+    "name": "不知井底",
+    "reading": "せいていしらず",
+    "category": "拡張術式",
+    "users": [
+      "伏黒恵"
+    ],
+    "aliases": [],
+    "description": "鵺と蝦蟇を組み合わせた羽のある蛙型の式神。破壊されても元の式神には影響しない。",
+    "chapterIds": [
+      "ch-017",
+      "ch-043",
+      "ch-044"
+    ],
+    "firstChapter": "ch-017",
+    "lastChapter": "ch-044",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      }
+    ]
+  },
+  {
+    "id": "tech-4688b07b42",
+    "name": "不義遊戯",
+    "reading": "ブギウギ",
+    "category": "生得術式",
+    "users": [
+      "東堂葵"
+    ],
+    "aliases": [],
+    "description": "手を叩くことで一定以上の呪力を持つ二対象の位置を入れ替える。",
+    "chapterIds": [
+      "ch-035",
+      "ch-050",
+      "ch-051",
+      "ch-126",
+      "ch-127",
+      "ch-128",
+      "ch-129",
+      "ch-130",
+      "ch-132"
+    ],
+    "firstChapter": "ch-035",
+    "lastChapter": "ch-132",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "東堂葵",
+        "characterId": "char-d76df97dca"
+      }
+    ]
+  },
+  {
+    "id": "tech-d845dd244c",
+    "name": "不義遊戯 改",
+    "reading": "ブギウギ かい",
+    "category": "術式改造",
+    "users": [
+      "東堂葵"
+    ],
+    "aliases": [],
+    "description": "義手の振動装置を打ち鳴らし、一秒間に多数の入れ替え候補を発生させる改造版。",
+    "chapterIds": [
+      "ch-260",
+      "ch-263",
+      "ch-264"
+    ],
+    "firstChapter": "ch-260",
+    "lastChapter": "ch-264",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "東堂葵",
+        "characterId": "char-d76df97dca"
+      }
+    ]
+  },
+  {
+    "id": "tech-ab33983457",
+    "name": "世界を断つ斬撃",
+    "reading": "せかいをたつざんげき",
+    "category": "術式応用",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [
+      "世界斬"
+    ],
+    "description": "術式対象を空間・存在・世界そのものへ拡張し、無限ごと対象を分断する斬撃。",
+    "chapterIds": [
+      "ch-236",
+      "ch-238",
+      "ch-252"
+    ],
+    "firstChapter": "ch-236",
+    "lastChapter": "ch-252",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-miracle-cannon",
+    "name": "二重大祓砲",
+    "reading": "ミラクルキャノン",
+    "category": "傀儡砲撃",
+    "users": [
+      "与幸吉"
+    ],
+    "aliases": [],
+    "description": "試作0号の両掌から蓄積呪力二年分を同時放出する砲撃。",
+    "chapterIds": [
+      "ch-080"
+    ],
+    "firstChapter": "ch-080",
+    "lastChapter": "ch-080",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "与幸吉",
+        "characterId": "char-dad71c9f31"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase3-tsukumoso",
+    "name": "付喪操術",
+    "reading": "つくもそうじゅつ",
+    "category": "生得術式",
+    "users": [
+      "西宮桃"
+    ],
+    "aliases": [],
+    "description": "箒を遠隔操作し、飛行・突進・呪力を帯びた風による攻撃に用いる術式。",
+    "chapterIds": [
+      "ch-040",
+      "ch-041",
+      "ch-135"
+    ],
+    "firstChapter": "ch-040",
+    "lastChapter": "ch-135",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase3-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "西宮桃",
+        "characterId": "char-484fd66a1e"
+      }
+    ]
+  },
+  {
+    "id": "tech-af5ae87255",
+    "name": "伏魔御廚子",
+    "reading": "ふくまみづし",
+    "category": "領域展開",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [
+      "伏魔御厨子"
+    ],
+    "description": "結界を閉じず現実空間へ顕現し、範囲内へ解と捌を絶え間なく浴びせる領域。",
+    "chapterIds": [
+      "ch-008",
+      "ch-119",
+      "ch-224",
+      "ch-225",
+      "ch-227",
+      "ch-228",
+      "ch-258",
+      "ch-262"
+    ],
+    "firstChapter": "ch-008",
+    "lastChapter": "ch-262",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-3a1afe6fc8",
+    "name": "供花",
+    "reading": "くげ",
+    "category": "術式技",
+    "users": [
+      "花御"
+    ],
+    "aliases": [],
+    "description": "左肩の花から周囲の生命力を奪い、呪力へ変換する。",
+    "chapterIds": [
+      "ch-051"
+    ],
+    "firstChapter": "ch-051",
+    "lastChapter": "ch-051",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "花御",
+        "characterId": "char-9148bf784c"
+      }
+    ]
+  },
+  {
+    "id": "tech-870eff819a",
+    "name": "傀儡操術",
+    "reading": "かいらいそうじゅつ",
+    "category": "生得術式",
+    "users": [
+      "夜蛾正道",
+      "与幸吉"
+    ],
+    "aliases": [],
+    "description": "呪骸や機械の傀儡へ呪力を通し、遠隔操作する術式の総称。",
+    "chapterIds": [
+      "ch-038",
+      "ch-039",
+      "ch-079",
+      "ch-080",
+      "ch-081",
+      "ch-082",
+      "ch-091",
+      "ch-200"
+    ],
+    "firstChapter": "ch-038",
+    "lastChapter": "ch-200",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "夜蛾正道",
+        "characterId": "char-58278d1ec5"
+      },
+      {
+        "name": "与幸吉",
+        "characterId": "char-dad71c9f31"
+      }
+    ]
+  },
+  {
+    "id": "tech-9761156f3b",
+    "name": "八握剣異戒神将魔虚羅",
+    "reading": "やつかのつるぎ いかいしんしょう まこら",
+    "category": "式神",
+    "users": [
+      "伏黒恵",
+      "両面宿儺"
+    ],
+    "aliases": [
+      "魔虚羅",
+      "八握剣異戒神将"
+    ],
+    "description": "あらゆる事象へ段階的に適応する十種影法術最強の式神。歴代術師にも未調伏だった。",
+    "chapterIds": [
+      "ch-117",
+      "ch-118",
+      "ch-119",
+      "ch-219",
+      "ch-229",
+      "ch-230",
+      "ch-231",
+      "ch-233",
+      "ch-234"
+    ],
+    "firstChapter": "ch-117",
+    "lastChapter": "ch-234",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      },
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-1baac5a3fc",
+    "name": "六眼",
+    "reading": "りくがん",
+    "category": "特殊体質",
+    "users": [
+      "五条悟",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "呪力と術式を極めて精密に見抜き、呪力消費を限りなく小さくする五条家の特質。",
+    "chapterIds": [
+      "ch-071",
+      "ch-075",
+      "ch-096",
+      "ch-262"
+    ],
+    "firstChapter": "ch-071",
+    "lastChapter": "ch-262",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-214d93f273",
+    "name": "共振器式不義遊戯",
+    "reading": null,
+    "category": "術式改造",
+    "users": [
+      "東堂葵"
+    ],
+    "aliases": [],
+    "description": "左手の代わりに振動装置を装着し、振動回数と対象選択を拡張した不義遊戯。",
+    "chapterIds": [
+      "ch-260",
+      "ch-263"
+    ],
+    "firstChapter": "ch-260",
+    "lastChapter": "ch-263",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "東堂葵",
+        "characterId": "char-d76df97dca"
+      }
+    ]
+  },
+  {
+    "id": "tech-d9180946ec",
+    "name": "共鳴り",
+    "reading": "ともなり",
+    "category": "術式技",
+    "users": [
+      "釘崎野薔薇"
+    ],
+    "aliases": [],
+    "description": "対象の身体の一部や分身を藁人形へ重ね、術式を本体へ伝える。",
+    "chapterIds": [
+      "ch-005",
+      "ch-041",
+      "ch-060",
+      "ch-061",
+      "ch-062",
+      "ch-123",
+      "ch-124",
+      "ch-267",
+      "ch-268"
+    ],
+    "firstChapter": "ch-005",
+    "lastChapter": "ch-268",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "釘崎野薔薇",
+        "characterId": "char-5a0f7ded8d"
+      }
+    ]
+  },
+  {
+    "id": "tech-05a7ab0dcd",
+    "name": "円鹿",
+    "reading": "まどか",
+    "category": "式神",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "反転術式の正のエネルギーで治療し、術式を中和する鹿型式神。",
+    "chapterIds": [
+      "ch-218"
+    ],
+    "firstChapter": "ch-218",
+    "lastChapter": "ch-218",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-4b7f0d29f5",
+    "name": "再契象",
+    "reading": "さいけっしょう",
+    "category": "生得術式",
+    "users": [
+      "レジィ・スター"
+    ],
+    "aliases": [],
+    "description": "契約書や領収書の内容を実体化し、契約を履行させた後に紙を消費する。",
+    "chapterIds": [
+      "ch-168",
+      "ch-170",
+      "ch-171",
+      "ch-172"
+    ],
+    "firstChapter": "ch-168",
+    "lastChapter": "ch-172",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "レジィ・スター",
+        "characterId": "char-026d657efa"
+      }
+    ]
+  },
+  {
+    "id": "tech-e1903ce05c",
+    "name": "処刑人の剣",
+    "reading": "しょけいにんのつるぎ",
+    "category": "術式生成物",
+    "users": [
+      "日車寛見"
+    ],
+    "aliases": [],
+    "description": "死刑判決時に現れ、斬られた有罪者だけを即死させる剣。",
+    "chapterIds": [
+      "ch-166",
+      "ch-167",
+      "ch-244",
+      "ch-245",
+      "ch-246",
+      "ch-247",
+      "ch-248"
+    ],
+    "firstChapter": "ch-166",
+    "lastChapter": "ch-248",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "日車寛見",
+        "characterId": "char-3062a0117e"
+      }
+    ]
+  },
+  {
+    "id": "tech-a34bfbb398",
+    "name": "凰輪",
+    "reading": "ガルダ",
+    "category": "式神",
+    "users": [
+      "九十九由基"
+    ],
+    "aliases": [],
+    "description": "九十九の術式対象となる式神。質量を付与され、武器のようにも使われる。",
+    "chapterIds": [
+      "ch-135",
+      "ch-205",
+      "ch-206",
+      "ch-207"
+    ],
+    "firstChapter": "ch-135",
+    "lastChapter": "ch-207",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "九十九由基",
+        "characterId": "char-1566dd973d"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase4-clone-unnamed",
+    "name": "分身を作る術式（名称不明）",
+    "reading": "ぶんしんをつくるじゅつしき",
+    "category": "名称不明の術式",
+    "users": [
+      "分身術者"
+    ],
+    "aliases": [],
+    "description": "本体と同じ姿の分身を多数作る術式。原作で固有の術式名は提示されていない。",
+    "chapterIds": [
+      "ch-068",
+      "ch-069"
+    ],
+    "firstChapter": "ch-068",
+    "lastChapter": "ch-069",
+    "officialNameStatus": "editorial-label-not-official-name",
+    "sourceRefs": [],
+    "verification": "phase4-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "分身術者",
+        "characterId": "char-d218cffa84"
+      }
+    ]
+  },
+  {
+    "id": "tech-e69f8fd37d",
+    "name": "十劃呪法",
+    "reading": "とおかくじゅほう",
+    "category": "生得術式",
+    "users": [
+      "七海建人"
+    ],
+    "aliases": [],
+    "description": "対象を十等分し、七対三の比率点を強制的に弱点へする術式。",
+    "chapterIds": [
+      "ch-020",
+      "ch-022",
+      "ch-023",
+      "ch-029",
+      "ch-100",
+      "ch-106",
+      "ch-107",
+      "ch-120"
+    ],
+    "firstChapter": "ch-020",
+    "lastChapter": "ch-120",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "七海建人",
+        "characterId": "char-6309a7e2f4"
+      }
+    ]
+  },
+  {
+    "id": "tech-7c3237f986",
+    "name": "十種影法術",
+    "reading": "とくさのかげぼうじゅつ",
+    "category": "生得術式",
+    "users": [
+      "伏黒恵",
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "影を媒介として十種の式神を調伏・召喚し、影そのものも収納や移動に利用する禪院家相伝術式。",
+    "chapterIds": [
+      "ch-001",
+      "ch-006",
+      "ch-007",
+      "ch-009",
+      "ch-017",
+      "ch-034",
+      "ch-036",
+      "ch-043",
+      "ch-044",
+      "ch-058",
+      "ch-094",
+      "ch-095",
+      "ch-096",
+      "ch-097",
+      "ch-098",
+      "ch-113",
+      "ch-117",
+      "ch-154",
+      "ch-156",
+      "ch-161",
+      "ch-168",
+      "ch-169",
+      "ch-170",
+      "ch-171",
+      "ch-213",
+      "ch-217",
+      "ch-271"
+    ],
+    "firstChapter": "ch-001",
+    "lastChapter": "ch-271",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      },
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase7-manji-kick",
+    "name": "卍蹴り",
+    "reading": null,
+    "category": "体術",
+    "users": [
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "躰道の動きを応用し、予備動作を抑えて低い姿勢から蹴り上げる体術。",
+    "chapterIds": [
+      "ch-121"
+    ],
+    "firstChapter": "ch-121",
+    "lastChapter": "ch-121",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase7-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-6dcae0cbae",
+    "name": "単独禁区",
+    "reading": "ソロソロキンク",
+    "category": "生得術式",
+    "users": [
+      "庵歌姫"
+    ],
+    "aliases": [],
+    "description": "舞、楽曲、手印、呪詞の儀式工程を省略せず行い、範囲内の術師の呪力総量と出力を増幅する。",
+    "chapterIds": [
+      "ch-223"
+    ],
+    "firstChapter": "ch-223",
+    "lastChapter": "ch-223",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "庵歌姫",
+        "characterId": "char-3de3b8af11"
+      }
+    ]
+  },
+  {
+    "id": "tech-cf5d1ac726",
+    "name": "反転術式",
+    "reading": "はんてんじゅつしき",
+    "category": "呪力操作",
+    "users": [
+      "五条悟",
+      "乙骨憂太",
+      "家入硝子",
+      "宿儺",
+      "ほか"
+    ],
+    "aliases": [],
+    "description": "負の呪力同士を掛け合わせて正のエネルギーを生み、肉体を治療する高等技術。",
+    "chapterIds": [
+      "zero-04",
+      "ch-008",
+      "ch-074",
+      "ch-076",
+      "ch-117",
+      "ch-135",
+      "ch-143",
+      "ch-175",
+      "ch-179",
+      "ch-186",
+      "ch-188",
+      "ch-189",
+      "ch-206",
+      "ch-207",
+      "ch-226",
+      "ch-235",
+      "ch-246",
+      "ch-247",
+      "ch-248",
+      "ch-253",
+      "ch-258"
+    ],
+    "firstChapter": "zero-04",
+    "lastChapter": "ch-258",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      },
+      {
+        "name": "家入硝子",
+        "characterId": "char-d4a4bc45c6"
+      },
+      {
+        "name": "宿儺",
+        "characterId": "char-2b8d365a39"
+      },
+      {
+        "name": "ほか",
+        "characterId": null
+      }
+    ]
+  },
+  {
+    "id": "tech-d3451c7bbb",
+    "name": "反重力機構",
+    "reading": "アンチグラビティシステム",
+    "category": "生得術式",
+    "users": [
+      "虎杖香織",
+      "羂索"
+    ],
+    "aliases": [],
+    "description": "虎杖香織に刻まれていた重力へ干渉する術式。羂索は術式反転で重力を強める。",
+    "chapterIds": [
+      "ch-204",
+      "ch-207",
+      "ch-208"
+    ],
+    "firstChapter": "ch-204",
+    "lastChapter": "ch-208",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖香織",
+        "characterId": "char-ad3a5428f6"
+      },
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase7-arata-injury-stasis",
+    "name": "名称不明の傷固定術式（新田新）",
+    "reading": null,
+    "category": "生得術式",
+    "users": [
+      "新田新"
+    ],
+    "aliases": [],
+    "description": "処置時点までに受けた傷の悪化と出血を止める術式。治癒そのものではなく、新たな負傷は防げない。",
+    "chapterIds": [
+      "ch-126",
+      "ch-127"
+    ],
+    "firstChapter": "ch-126",
+    "lastChapter": "ch-127",
+    "officialNameStatus": "editorial-label-unofficial",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase7-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "新田新",
+        "characterId": "char-63369aaf46"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase8-hakari-door",
+    "name": "名称不明の扉による攻撃（秤金次）",
+    "reading": null,
+    "category": "術式技",
+    "users": [
+      "秤金次"
+    ],
+    "aliases": [],
+    "description": "列車のドアを思わせる扉を出現させ、対象を挟み込む秤の攻撃。正式な技名はこの時点で明示されない。",
+    "chapterIds": [
+      "ch-155",
+      "ch-157"
+    ],
+    "firstChapter": "ch-155",
+    "lastChapter": "ch-157",
+    "officialNameStatus": "editorial-label-unofficial",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase8-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "秤金次",
+        "characterId": "char-dea43d7fc7"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase7-uiui-spatial-transfer",
+    "name": "名称不明の空間移動術式（憂憂）",
+    "reading": null,
+    "category": "生得術式",
+    "users": [
+      "憂憂"
+    ],
+    "aliases": [],
+    "description": "冥冥と憂憂を離れた場所へ移動させる術式。この時点では正式名称と詳しい条件は明示されない。",
+    "chapterIds": [
+      "ch-133"
+    ],
+    "firstChapter": "ch-133",
+    "lastChapter": "ch-133",
+    "officialNameStatus": "editorial-label-unofficial",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase7-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "憂憂",
+        "characterId": "char-e41848a08f"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-smallpox-domain",
+    "name": "名称不明の領域（疱瘡婆）",
+    "reading": null,
+    "category": "領域展開",
+    "users": [
+      "疱瘡婆"
+    ],
+    "aliases": [],
+    "description": "標的を棺へ閉じ込め、墓石で埋葬し、三つ数え終えると疱瘡で死亡させる領域。正式名称は原作で明示されない。",
+    "chapterIds": [
+      "ch-101",
+      "ch-102"
+    ],
+    "firstChapter": "ch-101",
+    "lastChapter": "ch-102",
+    "officialNameStatus": "editorial-label-unofficial",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "疱瘡婆",
+        "characterId": "char-92d504ce2f"
+      }
+    ]
+  },
+  {
+    "id": "tech-07d7ee8f6e",
+    "name": "呪いの種子",
+    "reading": "のろいのしゅし",
+    "category": "術式技",
+    "users": [
+      "花御"
+    ],
+    "aliases": [],
+    "description": "対象の呪力を吸って成長する種子を撃ち込む。呪力を使うほど根が深く食い込む。",
+    "chapterIds": [
+      "ch-047",
+      "ch-049",
+      "ch-051"
+    ],
+    "firstChapter": "ch-047",
+    "lastChapter": "ch-051",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "花御",
+        "characterId": "char-9148bf784c"
+      }
+    ]
+  },
+  {
+    "id": "tech-f3ecd34833",
+    "name": "呪力の放出",
+    "reading": null,
+    "category": "呪力操作／術式特性",
+    "users": [
+      "石流龍"
+    ],
+    "aliases": [],
+    "description": "石流龍が極めて高い出力で呪力を放つ能力。術式使用の有無にかかわらず同等の出力を保つ。",
+    "chapterIds": [
+      "ch-176",
+      "ch-177",
+      "ch-180"
+    ],
+    "firstChapter": "ch-176",
+    "lastChapter": "ch-180",
+    "officialNameStatus": "manga-description",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "石流龍",
+        "characterId": "char-4a29b3de7b"
+      }
+    ]
+  },
+  {
+    "id": "tech-5607df824a",
+    "name": "呪力放出",
+    "reading": "じゅりょくほうしゅつ",
+    "category": "生得能力",
+    "users": [
+      "石流龍"
+    ],
+    "aliases": [],
+    "description": "極めて高い呪力出力を、術式使用の有無にかかわらず砲撃として放つ。",
+    "chapterIds": [
+      "ch-176",
+      "ch-177",
+      "ch-178",
+      "ch-179",
+      "ch-180"
+    ],
+    "firstChapter": "ch-176",
+    "lastChapter": "ch-180",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "石流龍",
+        "characterId": "char-4a29b3de7b"
+      }
+    ]
+  },
+  {
+    "id": "tech-deb6545546",
+    "name": "呪言",
+    "reading": "じゅごん",
+    "category": "生得術式",
+    "users": [
+      "狗巻棘",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "言葉を強制力として対象へ実現する術式。命令が強いほど術者への反動も大きい。",
+    "chapterIds": [
+      "zero-02",
+      "zero-03",
+      "zero-04",
+      "ch-017",
+      "ch-033",
+      "ch-043",
+      "ch-044",
+      "ch-045",
+      "ch-046",
+      "ch-100",
+      "ch-178",
+      "ch-250",
+      "ch-263"
+    ],
+    "firstChapter": "zero-02",
+    "lastChapter": "ch-263",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "狗巻棘",
+        "characterId": "char-a61d6ef891"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-1bc0d9ec7b",
+    "name": "呪霊操術",
+    "reading": "じゅれいそうじゅつ",
+    "category": "生得術式",
+    "users": [
+      "夏油傑",
+      "羂索"
+    ],
+    "aliases": [],
+    "description": "降伏させた呪霊を球状に取り込み、自在に召喚・操作する術式。",
+    "chapterIds": [
+      "zero-03",
+      "zero-04",
+      "ch-065",
+      "ch-066",
+      "ch-067",
+      "ch-068",
+      "ch-072",
+      "ch-073",
+      "ch-076",
+      "ch-077",
+      "ch-078",
+      "ch-090",
+      "ch-101",
+      "ch-133",
+      "ch-134",
+      "ch-136",
+      "ch-145",
+      "ch-200",
+      "ch-201",
+      "ch-202",
+      "ch-203",
+      "ch-204",
+      "ch-205",
+      "ch-208",
+      "ch-209",
+      "ch-239"
+    ],
+    "firstChapter": "zero-03",
+    "lastChapter": "ch-239",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "夏油傑",
+        "characterId": "char-b9d4880408"
+      },
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-commissioned-curtain",
+    "name": "嘱託式の帳",
+    "reading": "しょくたくしきのとばり",
+    "category": "結界術",
+    "users": [
+      "羂索側の呪詛師"
+    ],
+    "aliases": [],
+    "description": "術者がその場を離れても、呪符などの基点へ術式を預けて維持する帳。基点の破壊で解除される。",
+    "chapterIds": [
+      "ch-083",
+      "ch-086",
+      "ch-087",
+      "ch-092",
+      "ch-093",
+      "ch-094"
+    ],
+    "firstChapter": "ch-083",
+    "lastChapter": "ch-094",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "羂索側の呪詛師",
+        "characterId": null
+      }
+    ]
+  },
+  {
+    "id": "tech-39d2b30b48",
+    "name": "坐殺博徒",
+    "reading": "ざさつばくと",
+    "category": "領域展開",
+    "users": [
+      "秤金次"
+    ],
+    "aliases": [],
+    "description": "パチンコ台「私鉄純愛列車」の抽選を再現し、大当たりで無制限の呪力と自動反転術式を得る領域。",
+    "chapterIds": [
+      "ch-182",
+      "ch-183",
+      "ch-186",
+      "ch-187",
+      "ch-188",
+      "ch-189",
+      "ch-190"
+    ],
+    "firstChapter": "ch-182",
+    "lastChapter": "ch-190",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "秤金次",
+        "characterId": "char-dea43d7fc7"
+      }
+    ]
+  },
+  {
+    "id": "tech-955be682d2",
+    "name": "坐殺博徒の大当たり状態",
+    "reading": null,
+    "category": "領域効果",
+    "users": [
+      "秤金次"
+    ],
+    "aliases": [],
+    "description": "坐殺博徒で大当たりを引いた後、4分11秒間、無制限の呪力が流れ、自動的な反転術式で肉体が修復される状態。",
+    "chapterIds": [
+      "ch-183",
+      "ch-185",
+      "ch-186",
+      "ch-187",
+      "ch-189"
+    ],
+    "firstChapter": "ch-183",
+    "lastChapter": "ch-189",
+    "officialNameStatus": "manga-description",
+    "sourceRefs": [
+      "src-shueisha-vol-21",
+      "src-shueisha-vol-22",
+      "src-shueisha-vol-23",
+      "src-shueisha-vol-24"
+    ],
+    "verification": "phase10-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "秤金次",
+        "characterId": "char-dea43d7fc7"
+      }
+    ]
+  },
+  {
+    "id": "tech-f81d55ad09",
+    "name": "多重魂",
+    "reading": "たじゅうこん",
+    "category": "術式技",
+    "users": [
+      "真人"
+    ],
+    "aliases": [],
+    "description": "複数の魂を混ぜ合わせ、拒絶反応を利用して強い出力を生む。",
+    "chapterIds": [
+      "ch-121",
+      "ch-128",
+      "ch-129"
+    ],
+    "firstChapter": "ch-121",
+    "lastChapter": "ch-129",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-polymorphic-soul-isomer",
+    "name": "多重魂「撥体」",
+    "reading": "たじゅうこん ばったい",
+    "category": "無為転変の技",
+    "users": [
+      "真人"
+    ],
+    "aliases": [],
+    "description": "複数の魂を拒絶反応が起こるよう混ぜ合わせ、攻撃性の高い改造人間として放つ技。",
+    "chapterIds": [
+      "ch-089"
+    ],
+    "firstChapter": "ch-089",
+    "lastChapter": "ch-089",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-ultra-cannon",
+    "name": "大祓砲",
+    "reading": "ウルトラキャノン",
+    "category": "傀儡砲撃",
+    "users": [
+      "与幸吉"
+    ],
+    "aliases": [],
+    "description": "装甲傀儡から放つ高出力砲撃。試作0号では蓄積呪力一年分を充填して使用する。",
+    "chapterIds": [
+      "ch-080"
+    ],
+    "firstChapter": "ch-080",
+    "lastChapter": "ch-080",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "与幸吉",
+        "characterId": "char-dad71c9f31"
+      }
+    ]
+  },
+  {
+    "id": "tech-2abcf48f04",
+    "name": "大蛇",
+    "reading": "おろち",
+    "category": "式神",
+    "users": [
+      "伏黒恵"
+    ],
+    "aliases": [],
+    "description": "蛇型の式神。対象を拘束するが、宿儺に破壊される。",
+    "chapterIds": [
+      "ch-009"
+    ],
+    "firstChapter": "ch-009",
+    "lastChapter": "ch-009",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase4-inverted-spear",
+    "name": "天逆鉾",
+    "reading": "あまのさかほこ",
+    "category": "特級呪具",
+    "users": [
+      "伏黒甚爾"
+    ],
+    "aliases": [],
+    "description": "発動中の術式を強制解除する特級呪具。甚爾が無下限呪術の突破に使用する。",
+    "chapterIds": [
+      "ch-071",
+      "ch-072",
+      "ch-073",
+      "ch-075"
+    ],
+    "firstChapter": "ch-071",
+    "lastChapter": "ch-075",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase4-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "伏黒甚爾",
+        "characterId": "char-d5482ceba1"
+      }
+    ]
+  },
+  {
+    "id": "tech-0ec3138e2c",
+    "name": "奇跡",
+    "reading": "きせき",
+    "category": "生得術式",
+    "users": [
+      "重面春太"
+    ],
+    "aliases": [],
+    "description": "日常の小さな奇跡を記憶から消して蓄え、命の危機を自動的に回避する。",
+    "chapterIds": [
+      "ch-092",
+      "ch-099",
+      "ch-100",
+      "ch-114",
+      "ch-119"
+    ],
+    "firstChapter": "ch-092",
+    "lastChapter": "ch-119",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "重面春太",
+        "characterId": "char-6c8cc9b546"
+      }
+    ]
+  },
+  {
+    "id": "tech-582460898c",
+    "name": "宇守羅彈",
+    "reading": "うすらび",
+    "category": "術式技",
+    "users": [
+      "烏鷺亨子",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "空の面を破壊し、相手の表面を広範囲に砕くような衝撃を与える。",
+    "chapterIds": [
+      "ch-177",
+      "ch-180"
+    ],
+    "firstChapter": "ch-177",
+    "lastChapter": "ch-180",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "烏鷺亨子",
+        "characterId": "char-fe30ff0de9"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-5fff07b019",
+    "name": "完全顕現「リカ」",
+    "reading": null,
+    "category": "術式外部装置",
+    "users": [
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "指輪を介して乙骨とリカが接続し、最大五分間、リカの完全顕現・術式使用・呪力供給・呪具使用を可能にする。",
+    "chapterIds": [
+      "ch-178",
+      "ch-179",
+      "ch-180"
+    ],
+    "firstChapter": "ch-178",
+    "lastChapter": "ch-180",
+    "officialNameStatus": "manga-description",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-492818427b",
+    "name": "屠坐魔",
+    "reading": "とざま",
+    "category": "呪具",
+    "users": [
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "五条から虎杖へ貸与された短刀型の呪具。呪力を持たない状態でも呪霊へ攻撃できる。",
+    "chapterIds": [
+      "ch-004",
+      "ch-005",
+      "ch-006",
+      "ch-007"
+    ],
+    "firstChapter": "ch-004",
+    "lastChapter": "ch-007",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [
+      "src-manga-games-vol-01"
+    ],
+    "verification": "phase1-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-1cd41afe2a",
+    "name": "嵌合暗翳庭",
+    "reading": "かんごうあんえいてい",
+    "category": "領域展開",
+    "users": [
+      "伏黒恵"
+    ],
+    "aliases": [],
+    "description": "十種影法術を増幅し、影と式神を大量展開する未完成の領域。",
+    "chapterIds": [
+      "ch-058",
+      "ch-108",
+      "ch-109",
+      "ch-170",
+      "ch-171",
+      "ch-172"
+    ],
+    "firstChapter": "ch-058",
+    "lastChapter": "ch-172",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      }
+    ]
+  },
+  {
+    "id": "tech-7279b3b06c",
+    "name": "嵌合獣 顎吐",
+    "reading": "かんごうじゅう あぎと",
+    "category": "合成式神",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [
+      "顎吐"
+    ],
+    "description": "鵺を基礎に複数式神の能力を継承させた合成式神。治癒能力を持つ。",
+    "chapterIds": [
+      "ch-233",
+      "ch-234"
+    ],
+    "firstChapter": "ch-233",
+    "lastChapter": "ch-234",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-da5c953a34",
+    "name": "左腕を代償とする即席の縛り",
+    "reading": null,
+    "category": "縛り・編集用ラベル",
+    "users": [
+      "秤金次"
+    ],
+    "aliases": [],
+    "description": "鹿紫雲の水蒸気爆発を受けた際、左腕を切り捨て、腕を守る呪力を全身へ回して生存率を高めた即席の縛り。原作で技名はない。",
+    "chapterIds": [
+      "ch-190"
+    ],
+    "firstChapter": "ch-190",
+    "lastChapter": "ch-190",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-21",
+      "src-shueisha-vol-22",
+      "src-shueisha-vol-23",
+      "src-shueisha-vol-24"
+    ],
+    "verification": "phase10-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "秤金次",
+        "characterId": "char-dea43d7fc7"
+      }
+    ]
+  },
+  {
+    "id": "tech-d35d193e62",
+    "name": "幻獣琥珀",
+    "reading": "げんじゅうこはく",
+    "category": "生得術式",
+    "users": [
+      "鹿紫雲一"
+    ],
+    "aliases": [],
+    "description": "肉体を電気的現象へ作り変え、あらゆる現象を呪力で実現する一度限りの術式。使用後は肉体が崩壊する。",
+    "chapterIds": [
+      "ch-237",
+      "ch-238"
+    ],
+    "firstChapter": "ch-237",
+    "lastChapter": "ch-238",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "鹿紫雲一",
+        "characterId": "char-0e7004da56"
+      }
+    ]
+  },
+  {
+    "id": "tech-a0a8d9c6ff",
+    "name": "幾魂異性体",
+    "reading": "きこんいせいたい",
+    "category": "術式生成物",
+    "users": [
+      "真人"
+    ],
+    "aliases": [],
+    "description": "質の弱い魂を多数混ぜ、一撃だけ高出力を発揮させる改造人間。",
+    "chapterIds": [
+      "ch-129"
+    ],
+    "firstChapter": "ch-129",
+    "lastChapter": "ch-129",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      }
+    ]
+  },
+  {
+    "id": "tech-4298e6aa9b",
+    "name": "式神の軌跡を領域にする術式",
+    "reading": "しきがみのきせきをりょういきにするじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "ドゥルヴ・ラクダワラ",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "大型式神が通過した軌跡を領域として成立させ、侵入者を斬る。正式名称は不明。",
+    "chapterIds": [
+      "ch-068",
+      "ch-250"
+    ],
+    "firstChapter": "ch-068",
+    "lastChapter": "ch-250",
+    "officialNameStatus": "name-not-explicitly-stated-in-manga",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "ドゥルヴ・ラクダワラ",
+        "characterId": "char-6ede6f3587"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-1e8e6dda24",
+    "name": "彌虚葛籠",
+    "reading": "いやこつづら",
+    "category": "対領域技術",
+    "users": [
+      "鹿紫雲一",
+      "レジィ・スター",
+      "宿儺"
+    ],
+    "aliases": [],
+    "description": "古い形式の簡易領域。籠状の結界をまとい、領域へ付与された必中術式を中和する。",
+    "chapterIds": [
+      "ch-171",
+      "ch-187",
+      "ch-266"
+    ],
+    "firstChapter": "ch-171",
+    "lastChapter": "ch-266",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "鹿紫雲一",
+        "characterId": "char-0e7004da56"
+      },
+      {
+        "name": "レジィ・スター",
+        "characterId": "char-026d657efa"
+      },
+      {
+        "name": "宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-ae26dbd914",
+    "name": "御厨子",
+    "reading": "みづし",
+    "category": "生得術式",
+    "users": [
+      "両面宿儺",
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "対象に応じた斬撃を基本とし、条件を満たして炎も扱う宿儺の術式。虎杖にも刻まれる。",
+    "chapterIds": [
+      "ch-115",
+      "ch-267"
+    ],
+    "firstChapter": "ch-115",
+    "lastChapter": "ch-267",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      },
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-4b6127d8a9",
+    "name": "心身掌握",
+    "reading": "ハートキャッチ",
+    "category": "生得術式",
+    "users": [
+      "ラルゥ"
+    ],
+    "aliases": [],
+    "description": "巨大な仮想の手で対象をつかむ。傷ついた手は本体にも反映され、心をつかんで注意を強制する応用もある。",
+    "chapterIds": [
+      "ch-255",
+      "ch-256"
+    ],
+    "firstChapter": "ch-255",
+    "lastChapter": "ch-256",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "ラルゥ",
+        "characterId": "char-5c2dcdaab3"
+      }
+    ]
+  },
+  {
+    "id": "tech-cc23098baa",
+    "name": "投射呪法",
+    "reading": "とうしゃじゅほう",
+    "category": "生得術式",
+    "users": [
+      "禪院直毘人",
+      "禪院直哉"
+    ],
+    "aliases": [],
+    "description": "一秒を二十四分割した動きを事前に作り、触れた相手にも同じ規則を強制する。",
+    "chapterIds": [
+      "ch-106",
+      "ch-107",
+      "ch-111",
+      "ch-139",
+      "ch-140",
+      "ch-141",
+      "ch-142",
+      "ch-151",
+      "ch-191",
+      "ch-192",
+      "ch-193",
+      "ch-194",
+      "ch-197"
+    ],
+    "firstChapter": "ch-106",
+    "lastChapter": "ch-197",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院直毘人",
+        "characterId": "char-22abdd626c"
+      },
+      {
+        "name": "禪院直哉",
+        "characterId": "char-b3be077b48"
+      }
+    ]
+  },
+  {
+    "id": "tech-7f37ba28b4",
+    "name": "捌",
+    "reading": "はち",
+    "category": "術式技",
+    "users": [
+      "両面宿儺",
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "対象の呪力量や強度に応じて一太刀で卸す斬撃。基本的に接触を必要とする。",
+    "chapterIds": [
+      "ch-119",
+      "ch-215",
+      "ch-251"
+    ],
+    "firstChapter": "ch-119",
+    "lastChapter": "ch-251",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      },
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-73135cb5c7",
+    "name": "撥体",
+    "reading": "ばったい",
+    "category": "術式技",
+    "users": [
+      "真人"
+    ],
+    "aliases": [],
+    "description": "多重魂の拒絶反応を攻撃方向へ放出する。",
+    "chapterIds": [
+      "ch-121",
+      "ch-128"
+    ],
+    "firstChapter": "ch-121",
+    "lastChapter": "ch-128",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      }
+    ]
+  },
+  {
+    "id": "tech-a35b2bcd34",
+    "name": "改造人間",
+    "reading": "かいぞうにんげん",
+    "category": "術式生成物",
+    "users": [
+      "真人"
+    ],
+    "aliases": [],
+    "description": "無為転変によって魂と肉体を変形させられた人間。",
+    "chapterIds": [
+      "ch-020",
+      "ch-021",
+      "ch-022",
+      "ch-029"
+    ],
+    "firstChapter": "ch-020",
+    "lastChapter": "ch-029",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      }
+    ]
+  },
+  {
+    "id": "tech-2374b0f892",
+    "name": "星の怒り",
+    "reading": "ボンバイエ",
+    "category": "生得術式",
+    "users": [
+      "九十九由基"
+    ],
+    "aliases": [],
+    "description": "自分と式神・凰輪へ仮想の質量を付与する。一定範囲までは術者自身の速度を落とさない。",
+    "chapterIds": [
+      "ch-205",
+      "ch-206",
+      "ch-207",
+      "ch-208"
+    ],
+    "firstChapter": "ch-205",
+    "lastChapter": "ch-208",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "九十九由基",
+        "characterId": "char-1566dd973d"
+      }
+    ]
+  },
+  {
+    "id": "tech-f030266d16",
+    "name": "星間飛行",
+    "reading": "ラヴランデヴー",
+    "category": "生得術式",
+    "users": [
+      "星綺羅羅"
+    ],
+    "aliases": [],
+    "description": "南十字座の星を対象へ割り当て、定められた順序を無視した接近を拒む術式。",
+    "chapterIds": [
+      "ch-154",
+      "ch-155",
+      "ch-156"
+    ],
+    "firstChapter": "ch-154",
+    "lastChapter": "ch-156",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "星綺羅羅",
+        "characterId": "char-00f5cc93b4"
+      }
+    ]
+  },
+  {
+    "id": "tech-1e8b90a741",
+    "name": "時胞月宮殿",
+    "reading": "じほうげっきゅうでん",
+    "category": "領域展開",
+    "users": [
+      "禪院直哉"
+    ],
+    "aliases": [],
+    "description": "対象の動きを細胞単位で二十四分割し、規則違反した細胞を停止・損壊させる。",
+    "chapterIds": [
+      "ch-197",
+      "ch-198"
+    ],
+    "firstChapter": "ch-197",
+    "lastChapter": "ch-198",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院直哉",
+        "characterId": "char-b3be077b48"
+      }
+    ]
+  },
+  {
+    "id": "tech-ba7bef139c",
+    "name": "朶頤光海",
+    "reading": "だいこうかい",
+    "category": "領域展開",
+    "users": [
+      "花御"
+    ],
+    "aliases": [],
+    "description": "花御の領域展開名。漫画本編では発動前に中断され、名称は公式補助資料で示された。",
+    "chapterIds": [],
+    "firstChapter": null,
+    "lastChapter": null,
+    "officialNameStatus": "official-supplement-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "花御",
+        "characterId": "char-9148bf784c"
+      }
+    ]
+  },
+  {
+    "id": "tech-c8154fa79f",
+    "name": "朽",
+    "reading": "きゅう",
+    "category": "術式技",
+    "users": [
+      "壊相",
+      "血塗"
+    ],
+    "aliases": [],
+    "description": "蝕爛腐術の血を浴びた対象へ腐食を進行させる。",
+    "chapterIds": [
+      "ch-060",
+      "ch-061"
+    ],
+    "firstChapter": "ch-060",
+    "lastChapter": "ch-061",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "壊相",
+        "characterId": "char-6534bbe6c9"
+      },
+      {
+        "name": "血塗",
+        "characterId": "char-964e851215"
+      }
+    ]
+  },
+  {
+    "id": "tech-146ed91574",
+    "name": "来訪瑞獣",
+    "reading": "らいほうずいじゅう",
+    "category": "生得術式",
+    "users": [
+      "猪野琢真"
+    ],
+    "aliases": [],
+    "description": "顔を隠して霊媒となり、四種の瑞獣の能力を順番に降ろす。",
+    "chapterIds": [
+      "ch-095",
+      "ch-097"
+    ],
+    "firstChapter": "ch-095",
+    "lastChapter": "ch-097",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "猪野琢真",
+        "characterId": "char-cf2d32d5b9"
+      }
+    ]
+  },
+  {
+    "id": "tech-9754429d12",
+    "name": "植物を操る術式",
+    "reading": "しょくぶつをあやつるじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "花御"
+    ],
+    "aliases": [],
+    "description": "樹木、根、呪いの種子などを発生・操作する。正式な総称は作中で明示されない。",
+    "chapterIds": [
+      "ch-049",
+      "ch-084",
+      "ch-085"
+    ],
+    "firstChapter": "ch-049",
+    "lastChapter": "ch-085",
+    "officialNameStatus": "name-not-explicitly-stated-in-manga",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "花御",
+        "characterId": "char-9148bf784c"
+      }
+    ]
+  },
+  {
+    "id": "tech-0ed3695b85",
+    "name": "極ノ番「うずまき」",
+    "reading": "ごくのばん うずまき",
+    "category": "極ノ番",
+    "users": [
+      "夏油傑",
+      "羂索"
+    ],
+    "aliases": [
+      "うずまき"
+    ],
+    "description": "取り込んだ呪霊を一つに束ね、高密度の呪力として放出する。高位呪霊の術式抽出にも使える。",
+    "chapterIds": [
+      "zero-04",
+      "ch-134",
+      "ch-136",
+      "ch-207"
+    ],
+    "firstChapter": "zero-04",
+    "lastChapter": "ch-207",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "夏油傑",
+        "characterId": "char-b9d4880408"
+      },
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      }
+    ]
+  },
+  {
+    "id": "tech-bbdf7b1f2f",
+    "name": "極ノ番「隕」",
+    "reading": "ごくのばん いん",
+    "category": "極ノ番",
+    "users": [
+      "漏瑚"
+    ],
+    "aliases": [],
+    "description": "巨大な隕石状の火塊を作り、広範囲へ落下させる。",
+    "chapterIds": [
+      "ch-115",
+      "ch-133"
+    ],
+    "firstChapter": "ch-115",
+    "lastChapter": "ch-133",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "漏瑚",
+        "characterId": "char-a61fa295f1"
+      }
+    ]
+  },
+  {
+    "id": "tech-76bee748ec",
+    "name": "楽巌寺の音楽術式",
+    "reading": "がくがんじのおんがくじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "楽巌寺嘉伸"
+    ],
+    "aliases": [],
+    "description": "自らを増幅器としてエレキギターの旋律を呪力へ変え、音波として放つ。",
+    "chapterIds": [
+      "ch-052",
+      "ch-223"
+    ],
+    "firstChapter": "ch-052",
+    "lastChapter": "ch-223",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "楽巌寺嘉伸",
+        "characterId": "char-ac327bdd73"
+      }
+    ]
+  },
+  {
+    "id": "tech-59d1d0e465",
+    "name": "構築術式",
+    "reading": "こうちくじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "禪院真依",
+      "万"
+    ],
+    "aliases": [],
+    "description": "呪力から物質をゼロから作り出す。生成効率が極めて悪く、術者への負担が大きい。",
+    "chapterIds": [
+      "ch-042",
+      "ch-149",
+      "ch-218",
+      "ch-219"
+    ],
+    "firstChapter": "ch-042",
+    "lastChapter": "ch-219",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院真依",
+        "characterId": "char-5724ed462b"
+      },
+      {
+        "name": "万",
+        "characterId": "char-0d3bc6b0dd"
+      }
+    ]
+  },
+  {
+    "id": "tech-9fc56bc1ca",
+    "name": "模倣",
+    "reading": "コピー",
+    "category": "生得術式",
+    "users": [
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "他者の術式をリカへ保存し、条件を満たして使用する乙骨の術式。",
+    "chapterIds": [
+      "ch-178",
+      "ch-180",
+      "ch-249",
+      "ch-250",
+      "ch-251",
+      "ch-261",
+      "ch-267"
+    ],
+    "firstChapter": "ch-178",
+    "lastChapter": "ch-267",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-dc54ab0cd7",
+    "name": "死累累湧軍",
+    "reading": "しるるゆうぐん",
+    "category": "術式技",
+    "users": [
+      "陀艮"
+    ],
+    "aliases": [],
+    "description": "多種多数の海洋生物型式神を連続して出現させ、対象へ食らいつかせる。",
+    "chapterIds": [
+      "ch-108",
+      "ch-109",
+      "ch-110"
+    ],
+    "firstChapter": "ch-108",
+    "lastChapter": "ch-110",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "陀艮",
+        "characterId": "char-6674ce6baa"
+      }
+    ]
+  },
+  {
+    "id": "tech-8b33629c5d",
+    "name": "水と海洋生物の術式",
+    "reading": "みずとかいようせいぶつのじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "陀艮"
+    ],
+    "aliases": [],
+    "description": "水流と海洋生物型の式神を生み出す陀艮の術式。",
+    "chapterIds": [
+      "ch-107"
+    ],
+    "firstChapter": "ch-107",
+    "lastChapter": "ch-107",
+    "officialNameStatus": "name-not-explicitly-stated-in-manga",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "陀艮",
+        "characterId": "char-6674ce6baa"
+      }
+    ]
+  },
+  {
+    "id": "tech-7210756e15",
+    "name": "氷凝呪法",
+    "reading": "ひこりじゅほう",
+    "category": "生得術式",
+    "users": [
+      "裏梅"
+    ],
+    "aliases": [],
+    "description": "氷を生成・操作し、広範囲の対象を凍結する術式。",
+    "chapterIds": [
+      "ch-135",
+      "ch-200",
+      "ch-201",
+      "ch-215"
+    ],
+    "firstChapter": "ch-135",
+    "lastChapter": "ch-215",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "裏梅",
+        "characterId": "char-000313127b"
+      }
+    ]
+  },
+  {
+    "id": "tech-adeaa6dba7",
+    "name": "没収",
+    "reading": null,
+    "category": "領域効果",
+    "users": [
+      "日車寛見",
+      "ジャッジマン"
+    ],
+    "aliases": [],
+    "description": "誅伏賜死の有罪判決で科される刑罰。対象に術式がなければ呪力操作そのものを奪う。",
+    "chapterIds": [
+      "ch-165",
+      "ch-166"
+    ],
+    "firstChapter": "ch-165",
+    "lastChapter": "ch-166",
+    "officialNameStatus": "manga-term",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "日車寛見",
+        "characterId": "char-3062a0117e"
+      },
+      {
+        "name": "ジャッジマン",
+        "characterId": "char-ef294e92de"
+      }
+    ]
+  },
+  {
+    "id": "tech-7958b4020b",
+    "name": "液体金属",
+    "reading": null,
+    "category": "構築術式の応用",
+    "users": [
+      "万"
+    ],
+    "aliases": [],
+    "description": "呪力で操作を継続する液体金属。形状を自在に変えて攻防へ用いる。",
+    "chapterIds": [
+      "ch-218"
+    ],
+    "firstChapter": "ch-218",
+    "lastChapter": "ch-218",
+    "officialNameStatus": "manga-name",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "万",
+        "characterId": "char-0d3bc6b0dd"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-playful-cloud",
+    "name": "游雲",
+    "reading": null,
+    "category": "特級呪具",
+    "users": [
+      "禪院真希",
+      "伏黒甚爾"
+    ],
+    "aliases": [],
+    "description": "術式を持たず、使用者の純粋な身体能力を打撃力へ反映する三節棍型の特級呪具。",
+    "chapterIds": [
+      "ch-108",
+      "ch-109",
+      "ch-110"
+    ],
+    "firstChapter": "ch-108",
+    "lastChapter": "ch-110",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院真希",
+        "characterId": "char-24d736edff"
+      },
+      {
+        "name": "伏黒甚爾",
+        "characterId": "char-d5482ceba1"
+      }
+    ]
+  },
+  {
+    "id": "tech-df284f67ad",
+    "name": "満象",
+    "reading": "ばんしょう",
+    "category": "式神",
+    "users": [
+      "伏黒恵",
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "大量の水を放つ象型式神。重量そのものを攻撃へ利用することもできる。",
+    "chapterIds": [
+      "ch-044",
+      "ch-097",
+      "ch-168",
+      "ch-170",
+      "ch-171",
+      "ch-172",
+      "ch-218"
+    ],
+    "firstChapter": "ch-044",
+    "lastChapter": "ch-218",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      },
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase2-oridzuki",
+    "name": "澱月",
+    "reading": "おりづき",
+    "category": "式神",
+    "users": [
+      "吉野順平"
+    ],
+    "aliases": [],
+    "description": "真人によって術式を引き出された吉野順平が使うクラゲ型の式神。触手による攻撃と毒で相手を弱らせる。",
+    "chapterIds": [
+      "ch-025",
+      "ch-026"
+    ],
+    "firstChapter": "ch-025",
+    "lastChapter": "ch-026",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [
+      "src-shueisha-vol-03",
+      "src-shueisha-vol-04",
+      "src-manga-games-vol-03",
+      "src-manga-games-vol-04"
+    ],
+    "verification": "phase2-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "吉野順平",
+        "characterId": "char-236cc955ae"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase3-drumming-beat",
+    "name": "激震掌（ドラミングビート）",
+    "reading": "げきしんしょう",
+    "category": "打撃技",
+    "users": [
+      "パンダ"
+    ],
+    "aliases": [],
+    "description": "ゴリラモードの打撃。防御の上からでも衝撃を内部へ通す。",
+    "chapterIds": [
+      "ch-039",
+      "ch-135",
+      "ch-184"
+    ],
+    "firstChapter": "ch-039",
+    "lastChapter": "ch-184",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase3-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "パンダ",
+        "characterId": "char-672d843799"
+      }
+    ]
+  },
+  {
+    "id": "tech-542b17dcab",
+    "name": "火山を操る術式",
+    "reading": "かざんをあやつるじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "漏瑚"
+    ],
+    "aliases": [],
+    "description": "火炎、溶岩、噴火を発生させる漏瑚の術式。正式な総称は作中で明示されない。",
+    "chapterIds": [
+      "ch-111",
+      "ch-112",
+      "ch-116"
+    ],
+    "firstChapter": "ch-111",
+    "lastChapter": "ch-116",
+    "officialNameStatus": "name-not-explicitly-stated-in-manga",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "漏瑚",
+        "characterId": "char-a61fa295f1"
+      }
+    ]
+  },
+  {
+    "id": "tech-ff727e6493",
+    "name": "火礫蟲",
+    "reading": "かれきちゅう",
+    "category": "式神",
+    "users": [
+      "漏瑚"
+    ],
+    "aliases": [],
+    "description": "羽音の後に爆発する虫型の式神。",
+    "chapterIds": [
+      "ch-014"
+    ],
+    "firstChapter": "ch-014",
+    "lastChapter": "ch-014",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "漏瑚",
+        "characterId": "char-a61fa295f1"
+      }
+    ]
+  },
+  {
+    "id": "tech-4235aca76a",
+    "name": "烏鷺亨子の術式（名称不明）",
+    "reading": null,
+    "category": "生得術式・編集用ラベル",
+    "users": [
+      "烏鷺亨子"
+    ],
+    "aliases": [],
+    "description": "空を面として捉え、つかんで歪めることで攻撃の軌道や空間を操作する。正式名称不明。",
+    "chapterIds": [
+      "ch-175",
+      "ch-176",
+      "ch-177",
+      "ch-180"
+    ],
+    "firstChapter": "ch-175",
+    "lastChapter": "ch-180",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "烏鷺亨子",
+        "characterId": "char-fe30ff0de9"
+      }
+    ]
+  },
+  {
+    "id": "tech-cf2f8dca4a",
+    "name": "無下限呪術",
+    "reading": "むかげんじゅじゅつ",
+    "category": "生得術式",
+    "users": [
+      "五条悟",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "収束する無限を現実へ持ち込み、距離や空間を操作する五条家相伝術式。",
+    "chapterIds": [
+      "ch-014",
+      "ch-015",
+      "ch-052",
+      "ch-065",
+      "ch-066",
+      "ch-067",
+      "ch-069",
+      "ch-070",
+      "ch-071",
+      "ch-074",
+      "ch-075",
+      "ch-076",
+      "ch-084",
+      "ch-085",
+      "ch-088",
+      "ch-221",
+      "ch-224",
+      "ch-261",
+      "ch-262"
+    ],
+    "firstChapter": "ch-014",
+    "lastChapter": "ch-262",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-71a2d65cad",
+    "name": "無為転変",
+    "reading": "むいてんぺん",
+    "category": "生得術式",
+    "users": [
+      "真人",
+      "羂索"
+    ],
+    "aliases": [],
+    "description": "魂へ触れて形を変え、肉体も魂の形に合わせて変形させる。",
+    "chapterIds": [
+      "ch-019",
+      "ch-020",
+      "ch-021",
+      "ch-022",
+      "ch-023",
+      "ch-024",
+      "ch-027",
+      "ch-028",
+      "ch-029",
+      "ch-030",
+      "ch-031",
+      "ch-079",
+      "ch-080",
+      "ch-081",
+      "ch-082",
+      "ch-089",
+      "ch-092",
+      "ch-120",
+      "ch-121",
+      "ch-122",
+      "ch-123",
+      "ch-124",
+      "ch-125",
+      "ch-126",
+      "ch-127",
+      "ch-128",
+      "ch-129",
+      "ch-130",
+      "ch-131",
+      "ch-136"
+    ],
+    "firstChapter": "ch-019",
+    "lastChapter": "ch-136",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      },
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      }
+    ]
+  },
+  {
+    "id": "tech-14f96ce777",
+    "name": "無量空処",
+    "reading": "むりょうくうしょ",
+    "category": "領域展開",
+    "users": [
+      "五条悟",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "無限回の知覚と情報を対象へ流し込み、思考と行動を停止させる領域。",
+    "chapterIds": [
+      "ch-015",
+      "ch-089",
+      "ch-133",
+      "ch-224",
+      "ch-225",
+      "ch-227",
+      "ch-228",
+      "ch-229",
+      "ch-230",
+      "ch-261",
+      "ch-262"
+    ],
+    "firstChapter": "ch-015",
+    "lastChapter": "ch-262",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-8b181ff845",
+    "name": "無限",
+    "reading": "むげん",
+    "category": "術式技",
+    "users": [
+      "五条悟",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "接近する物体との間へ無限の距離を作り、対象を到達不能にする無下限呪術の中立状態。",
+    "chapterIds": [
+      "ch-066",
+      "ch-069",
+      "ch-070",
+      "ch-071",
+      "ch-076",
+      "ch-233"
+    ],
+    "firstChapter": "ch-066",
+    "lastChapter": "ch-233",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase8-blazing-courage",
+    "name": "焦眉之赳",
+    "reading": null,
+    "category": "術式解放",
+    "users": [
+      "禪院扇"
+    ],
+    "aliases": [],
+    "description": "刀身から炎を立ち上らせる禪院扇の術式解放。真希の覚醒後に発動しようとする。",
+    "chapterIds": [
+      "ch-149"
+    ],
+    "firstChapter": "ch-149",
+    "lastChapter": "ch-149",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase8-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院扇",
+        "characterId": "char-265abd362c"
+      }
+    ]
+  },
+  {
+    "id": "tech-c03b9316e7",
+    "name": "焼き切れた術式の反転術式修復",
+    "reading": null,
+    "category": "反転術式応用",
+    "users": [
+      "五条悟",
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "領域展開後に焼き切れた術式が刻まれた脳領域を壊し、反転術式で再生して使用可能に戻す危険な方法。",
+    "chapterIds": [
+      "ch-226",
+      "ch-227"
+    ],
+    "firstChapter": "ch-226",
+    "lastChapter": "ch-227",
+    "officialNameStatus": "manga-description",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-c4bca862c9",
+    "name": "爛生刀",
+    "reading": "らんしょうとう",
+    "category": "呪具",
+    "users": [
+      "黒沐死"
+    ],
+    "aliases": [],
+    "description": "刃から対象の体内へ虫型呪霊を送り込み、内側から増殖させる呪具。",
+    "chapterIds": [
+      "ch-174",
+      "ch-175",
+      "ch-179"
+    ],
+    "firstChapter": "ch-174",
+    "lastChapter": "ch-179",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "黒沐死",
+        "characterId": "char-46cd8034d9"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-prison-realm",
+    "name": "獄門疆",
+    "reading": "ごくもんきょう",
+    "category": "特級呪物",
+    "users": [
+      "羂索"
+    ],
+    "aliases": [],
+    "description": "対象を有効範囲内へ脳内時間一分間留めることで封印する、生きた結界とされる特級呪物。",
+    "chapterIds": [
+      "ch-089",
+      "ch-090",
+      "ch-091",
+      "ch-093"
+    ],
+    "firstChapter": "ch-089",
+    "lastChapter": "ch-093",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      }
+    ]
+  },
+  {
+    "id": "tech-346182ab1b",
+    "name": "獬豸",
+    "reading": "かいち",
+    "category": "来訪瑞獣",
+    "users": [
+      "猪野琢真"
+    ],
+    "aliases": [],
+    "description": "螺旋状の角を飛ばして対象を追尾する瑞獣一番。",
+    "chapterIds": [
+      "ch-095"
+    ],
+    "firstChapter": "ch-095",
+    "lastChapter": "ch-095",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "猪野琢真",
+        "characterId": "char-cf2d32d5b9"
+      }
+    ]
+  },
+  {
+    "id": "tech-6c8be9e9eb",
+    "name": "玉犬",
+    "reading": "ぎょくけん",
+    "category": "式神",
+    "users": [
+      "伏黒恵"
+    ],
+    "aliases": [],
+    "description": "十種影法術で最初から使える一対の犬型式神。索敵と近接攻撃を担う。",
+    "chapterIds": [
+      "ch-001",
+      "ch-006",
+      "ch-007",
+      "ch-034",
+      "ch-036",
+      "ch-043",
+      "ch-154",
+      "ch-156",
+      "ch-210",
+      "ch-217",
+      "ch-271"
+    ],
+    "firstChapter": "ch-001",
+    "lastChapter": "ch-271",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      }
+    ]
+  },
+  {
+    "id": "tech-71d1706395",
+    "name": "玉犬「渾」",
+    "reading": "ぎょくけん こん",
+    "category": "式神",
+    "users": [
+      "伏黒恵"
+    ],
+    "aliases": [
+      "玉犬 渾",
+      "玉犬「渾」"
+    ],
+    "description": "破壊された白の玉犬の力を黒へ継承させた強化形態。",
+    "chapterIds": [
+      "ch-047",
+      "ch-057",
+      "ch-058",
+      "ch-094",
+      "ch-095",
+      "ch-163",
+      "ch-167",
+      "ch-172",
+      "ch-173"
+    ],
+    "firstChapter": "ch-047",
+    "lastChapter": "ch-173",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      }
+    ]
+  },
+  {
+    "id": "tech-3f2f2d1e05",
+    "name": "瓦落瓦落",
+    "reading": "がらがら",
+    "category": "拡張術式",
+    "users": [
+      "七海建人"
+    ],
+    "aliases": [],
+    "description": "破壊した対象へ呪力を込め、瓦礫そのものを攻撃へ利用する。",
+    "chapterIds": [
+      "ch-023"
+    ],
+    "firstChapter": "ch-023",
+    "lastChapter": "ch-023",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "七海建人",
+        "characterId": "char-6309a7e2f4"
+      }
+    ]
+  },
+  {
+    "id": "tech-5eb242be96",
+    "name": "百斂",
+    "reading": "びゃくれん",
+    "category": "術式技",
+    "users": [
+      "加茂憲紀",
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "血液を圧縮し、穿血や超新星などの前段階とする。",
+    "chapterIds": [
+      "ch-046",
+      "ch-089",
+      "ch-103",
+      "ch-104",
+      "ch-135",
+      "ch-139",
+      "ch-142",
+      "ch-194",
+      "ch-203",
+      "ch-204"
+    ],
+    "firstChapter": "ch-046",
+    "lastChapter": "ch-204",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "加茂憲紀",
+        "characterId": "char-830f121430"
+      },
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-6e8a713c5b",
+    "name": "直瀑",
+    "reading": "ちょくばく",
+    "category": "術式技",
+    "users": [
+      "裏梅"
+    ],
+    "aliases": [],
+    "description": "頭上へ氷塊を形成し、対象へ落下させる。",
+    "chapterIds": [
+      "ch-135"
+    ],
+    "firstChapter": "ch-135",
+    "lastChapter": "ch-135",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "裏梅",
+        "characterId": "char-000313127b"
+      }
+    ]
+  },
+  {
+    "id": "tech-a9deccca5f",
+    "name": "真球",
+    "reading": "しんきゅう",
+    "category": "術式技",
+    "users": [
+      "万"
+    ],
+    "aliases": [],
+    "description": "接触面積が存在しない完全な球を構築し、理論上無限の圧力を生む。",
+    "chapterIds": [
+      "ch-219"
+    ],
+    "firstChapter": "ch-219",
+    "lastChapter": "ch-219",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "万",
+        "characterId": "char-0d3bc6b0dd"
+      }
+    ]
+  },
+  {
+    "id": "tech-2e1d5d03db",
+    "name": "真贋相愛",
+    "reading": "しんがんそうあい",
+    "category": "領域展開",
+    "users": [
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "模倣術式を宿した刀が無数に存在し、一つの術式を必中効果へ指定できる領域。",
+    "chapterIds": [
+      "ch-249",
+      "ch-250",
+      "ch-251"
+    ],
+    "firstChapter": "ch-249",
+    "lastChapter": "ch-251",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-7310b2ccf2",
+    "name": "祈祷の歌",
+    "reading": "ハクナ・ラーナ",
+    "category": "生得術式",
+    "users": [
+      "ミゲル"
+    ],
+    "aliases": [],
+    "description": "肉体でビートを刻み、呪いを退けて自身を強化し、相手の能力を弱める。",
+    "chapterIds": [
+      "ch-255"
+    ],
+    "firstChapter": "ch-255",
+    "lastChapter": "ch-255",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "ミゲル",
+        "characterId": "char-6d1d442a9a"
+      }
+    ]
+  },
+  {
+    "id": "tech-160da18a4d",
+    "name": "神武解",
+    "reading": null,
+    "category": "呪具",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "万が死の間際に構築し、裏梅が宿儺へ渡した雷撃を放つ呪具。",
+    "chapterIds": [
+      "ch-237",
+      "ch-245"
+    ],
+    "firstChapter": "ch-237",
+    "lastChapter": "ch-245",
+    "officialNameStatus": "manga-name",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-99fb78ca51",
+    "name": "神風",
+    "reading": "バードストライク",
+    "category": "術式技",
+    "users": [
+      "冥冥"
+    ],
+    "aliases": [],
+    "description": "烏に命を捨てる縛りを課し、極端に高い呪力で体当たりさせる。",
+    "chapterIds": [
+      "ch-102"
+    ],
+    "firstChapter": "ch-102",
+    "lastChapter": "ch-102",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "冥冥",
+        "characterId": "char-07918bda3f"
+      }
+    ]
+  },
+  {
+    "id": "tech-c2ae5ed6dc",
+    "name": "究極メカ丸",
+    "reading": "アルティメットメカマル",
+    "category": "傀儡",
+    "users": [
+      "与幸吉"
+    ],
+    "aliases": [],
+    "description": "与幸吉が遠隔操作する戦闘用傀儡。広大な術式範囲と蓄積呪力を利用する。",
+    "chapterIds": [
+      "ch-038",
+      "ch-039"
+    ],
+    "firstChapter": "ch-038",
+    "lastChapter": "ch-039",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "与幸吉",
+        "characterId": "char-dad71c9f31"
+      }
+    ]
+  },
+  {
+    "id": "tech-a9666d4ecb",
+    "name": "空を操る術式",
+    "reading": "そらをあやつるじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "烏鷺亨子",
+      "乙骨憂太"
+    ],
+    "aliases": [
+      "空間操作",
+      "Sky Manipulation"
+    ],
+    "description": "空を面としてつかみ、歪めることで攻撃や軌道をそらす。",
+    "chapterIds": [
+      "ch-250"
+    ],
+    "firstChapter": "ch-250",
+    "lastChapter": "ch-250",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "烏鷺亨子",
+        "characterId": "char-fe30ff0de9"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-5d6a005065",
+    "name": "穿血",
+    "reading": "せんけつ",
+    "category": "術式技",
+    "users": [
+      "加茂憲紀",
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "圧縮した血液を指先から音速級で射出する赤血操術の奥義。",
+    "chapterIds": [
+      "ch-046",
+      "ch-101",
+      "ch-103",
+      "ch-104",
+      "ch-135",
+      "ch-136",
+      "ch-139",
+      "ch-192",
+      "ch-193",
+      "ch-194",
+      "ch-203",
+      "ch-207"
+    ],
+    "firstChapter": "ch-046",
+    "lastChapter": "ch-207",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "加茂憲紀",
+        "characterId": "char-830f121430"
+      },
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-4b0b9dc682",
+    "name": "竈「開」",
+    "reading": "カミノ フーガ",
+    "category": "術式技",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [
+      "竈",
+      "開",
+      "フーガ"
+    ],
+    "description": "御厨子の斬撃で切り刻んだ対象を燃料のように利用し、炎の矢を放つ技。",
+    "chapterIds": [
+      "ch-115",
+      "ch-116",
+      "ch-119",
+      "ch-259"
+    ],
+    "firstChapter": "ch-115",
+    "lastChapter": "ch-259",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-high-risk-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-ffcf652351",
+    "name": "竜",
+    "reading": "りゅう",
+    "category": "来訪瑞獣",
+    "users": [
+      "猪野琢真"
+    ],
+    "aliases": [],
+    "description": "巨大な竜を顕現させる瑞獣四番。宿儺にも警戒される。",
+    "chapterIds": [
+      "ch-148",
+      "ch-150"
+    ],
+    "firstChapter": "ch-148",
+    "lastChapter": "ch-150",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "猪野琢真",
+        "characterId": "char-cf2d32d5b9"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase8-dragon-bone",
+    "name": "竜骨",
+    "reading": null,
+    "category": "呪具",
+    "users": [
+      "禪院真希"
+    ],
+    "aliases": [],
+    "description": "組屋鞣造が製作した呪具。刀身へ蓄えた衝撃と呪力を任意に噴出できる。",
+    "chapterIds": [
+      "ch-148"
+    ],
+    "firstChapter": "ch-148",
+    "lastChapter": "ch-148",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase8-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院真希",
+        "characterId": "char-24d736edff"
+      }
+    ]
+  },
+  {
+    "id": "tech-e28246ff34",
+    "name": "簡易領域",
+    "reading": "かんいりょういき",
+    "category": "対領域技術",
+    "users": [
+      "日下部篤也",
+      "三輪霞",
+      "東堂葵",
+      "ほか"
+    ],
+    "aliases": [],
+    "description": "小規模な領域を展開し、領域の必中効果を中和するシン・陰流の技術。",
+    "chapterIds": [
+      "ch-035",
+      "ch-040",
+      "ch-073",
+      "ch-081",
+      "ch-082",
+      "ch-102",
+      "ch-130",
+      "ch-134",
+      "ch-195",
+      "ch-196",
+      "ch-206",
+      "ch-226",
+      "ch-254",
+      "ch-258",
+      "ch-269"
+    ],
+    "firstChapter": "ch-035",
+    "lastChapter": "ch-269",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "日下部篤也",
+        "characterId": "char-53c5711b23"
+      },
+      {
+        "name": "三輪霞",
+        "characterId": "char-ebd2a8efa8"
+      },
+      {
+        "name": "東堂葵",
+        "characterId": "char-d76df97dca"
+      },
+      {
+        "name": "ほか",
+        "characterId": null
+      }
+    ]
+  },
+  {
+    "id": "tech-932f1fb717",
+    "name": "簪",
+    "reading": "かんざし",
+    "category": "術式技",
+    "users": [
+      "釘崎野薔薇"
+    ],
+    "aliases": [],
+    "description": "打ち込んだ釘へ呪力を流し、任意のタイミングで爆発させる。",
+    "chapterIds": [
+      "ch-041",
+      "ch-061",
+      "ch-122",
+      "ch-123"
+    ],
+    "firstChapter": "ch-041",
+    "lastChapter": "ch-123",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "釘崎野薔薇",
+        "characterId": "char-5a0f7ded8d"
+      }
+    ]
+  },
+  {
+    "id": "tech-b9467c2180",
+    "name": "細胞単位の投射呪法",
+    "reading": null,
+    "category": "領域必中効果",
+    "users": [
+      "禪院直哉"
+    ],
+    "aliases": [],
+    "description": "時胞月宮殿の必中効果。対象の細胞一つ一つへ投射呪法を強制し、規則に反する動きを損傷へ変える。",
+    "chapterIds": [
+      "ch-198"
+    ],
+    "firstChapter": "ch-198",
+    "lastChapter": "ch-198",
+    "officialNameStatus": "manga-description",
+    "sourceRefs": [
+      "src-shueisha-vol-21",
+      "src-shueisha-vol-22",
+      "src-shueisha-vol-23",
+      "src-shueisha-vol-24"
+    ],
+    "verification": "phase10-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院直哉",
+        "characterId": "char-b3be077b48"
+      }
+    ]
+  },
+  {
+    "id": "tech-5491001e9b",
+    "name": "羽場の術式（名称不明）",
+    "reading": null,
+    "category": "生得術式・編集用ラベル",
+    "users": [
+      "羽場"
+    ],
+    "aliases": [],
+    "description": "髪をヘリコプターの回転翼のように変形させ、飛行と切断攻撃に用いる。正式名称不明。",
+    "chapterIds": [
+      "ch-161",
+      "ch-162"
+    ],
+    "firstChapter": "ch-161",
+    "lastChapter": "ch-162",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "羽場",
+        "characterId": "char-56bf974c92"
+      }
+    ]
+  },
+  {
+    "id": "tech-3f044a67dc",
+    "name": "羽生の術式（名称不明）",
+    "reading": null,
+    "category": "生得術式・編集用ラベル",
+    "users": [
+      "羽生"
+    ],
+    "aliases": [],
+    "description": "髪をジェット機の尾部のように変形させて飛行・突進する。原作で正式名称は提示されていない。",
+    "chapterIds": [
+      "ch-161"
+    ],
+    "firstChapter": "ch-161",
+    "lastChapter": "ch-161",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "羽生",
+        "characterId": "char-cb2d7aa2a7"
+      }
+    ]
+  },
+  {
+    "id": "tech-5c0ec253ee",
+    "name": "翅王",
+    "reading": "しおう",
+    "category": "術式技",
+    "users": [
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "背中に血液の翼を形成し、機動と血液射出を組み合わせる。",
+    "chapterIds": [
+      "ch-059",
+      "ch-060",
+      "ch-061",
+      "ch-204"
+    ],
+    "firstChapter": "ch-059",
+    "lastChapter": "ch-204",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-6246245c7a",
+    "name": "肉体を渡る術式",
+    "reading": "にくたいをわたるじゅつしき",
+    "category": "生得術式",
+    "users": [
+      "羂索",
+      "乙骨憂太"
+    ],
+    "aliases": [
+      "肉体乗っ取り"
+    ],
+    "description": "脳を入れ替えて他者の肉体を乗っ取り、その肉体の術式も利用する羂索の術式。",
+    "chapterIds": [
+      "ch-090",
+      "ch-091",
+      "ch-145",
+      "ch-261",
+      "ch-269"
+    ],
+    "firstChapter": "ch-090",
+    "lastChapter": "ch-269",
+    "officialNameStatus": "name-not-explicitly-stated-in-manga",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-f1d024fea2",
+    "name": "胎蔵遍野",
+    "reading": "たいぞうへんや",
+    "category": "領域展開",
+    "users": [
+      "羂索"
+    ],
+    "aliases": [],
+    "description": "結界を閉じず、巨大な柱状の構造を顕現させて重力系の必中攻撃を与える領域。",
+    "chapterIds": [
+      "ch-205",
+      "ch-206"
+    ],
+    "firstChapter": "ch-205",
+    "lastChapter": "ch-206",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      }
+    ]
+  },
+  {
+    "id": "tech-0be6deff32",
+    "name": "脱兎",
+    "reading": "だっと",
+    "category": "式神",
+    "users": [
+      "伏黒恵",
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "多数の兎を出し、視界妨害や囮に使う式神。",
+    "chapterIds": [
+      "ch-096",
+      "ch-097",
+      "ch-113",
+      "ch-156",
+      "ch-170",
+      "ch-218"
+    ],
+    "firstChapter": "ch-096",
+    "lastChapter": "ch-218",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      },
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-78b556c5e7",
+    "name": "自身の魂を呪物化する技術",
+    "reading": null,
+    "category": "呪物化技術",
+    "users": [
+      "両面宿儺",
+      "羂索"
+    ],
+    "aliases": [],
+    "description": "自身の魂を指などの呪物へ移し、他者へ受肉するための技術。宿儺は羂索が行った方法を一度見て再現した。",
+    "chapterIds": [
+      "ch-212",
+      "ch-213"
+    ],
+    "firstChapter": "ch-212",
+    "lastChapter": "ch-213",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-21",
+      "src-shueisha-vol-22",
+      "src-shueisha-vol-23",
+      "src-shueisha-vol-24"
+    ],
+    "verification": "phase10-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      },
+      {
+        "name": "羂索",
+        "characterId": "char-678a848346"
+      }
+    ]
+  },
+  {
+    "id": "tech-f0f06d52dc",
+    "name": "自閉円頓裹",
+    "reading": "じへいえんどんか",
+    "category": "領域展開",
+    "users": [
+      "真人"
+    ],
+    "aliases": [],
+    "description": "領域内の対象の魂へ無条件で触れ、無為転変を必中にする。",
+    "chapterIds": [
+      "ch-029",
+      "ch-030",
+      "ch-031",
+      "ch-081",
+      "ch-082",
+      "ch-129",
+      "ch-130"
+    ],
+    "firstChapter": "ch-029",
+    "lastChapter": "ch-130",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      }
+    ]
+  },
+  {
+    "id": "tech-2ac2471b12",
+    "name": "芻霊呪法",
+    "reading": "すうれいじゅほう",
+    "category": "生得術式",
+    "users": [
+      "釘崎野薔薇"
+    ],
+    "aliases": [],
+    "description": "金槌、釘、藁人形を媒介に、対象の一部やつながりを利用して遠隔攻撃する術式。",
+    "chapterIds": [
+      "ch-005",
+      "ch-007",
+      "ch-041",
+      "ch-057",
+      "ch-060",
+      "ch-061",
+      "ch-062",
+      "ch-122",
+      "ch-123"
+    ],
+    "firstChapter": "ch-005",
+    "lastChapter": "ch-123",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "釘崎野薔薇",
+        "characterId": "char-5a0f7ded8d"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase3-karibarai",
+    "name": "苅祓",
+    "reading": "かりばらい",
+    "category": "赤血操術の技",
+    "users": [
+      "加茂憲紀"
+    ],
+    "aliases": [],
+    "description": "血液を高速回転させ、刃のように対象へ放つ赤血操術の技。",
+    "chapterIds": [
+      "ch-045",
+      "ch-084"
+    ],
+    "firstChapter": "ch-045",
+    "lastChapter": "ch-084",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase3-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "加茂憲紀",
+        "characterId": "char-830f121430"
+      }
+    ]
+  },
+  {
+    "id": "tech-7341630eb6",
+    "name": "落花の情",
+    "reading": "らっかのじょう",
+    "category": "対領域技術",
+    "users": [
+      "禪院直毘人",
+      "五条悟"
+    ],
+    "aliases": [],
+    "description": "必中術式が触れた瞬間に呪力で迎撃し、攻撃を相殺する御三家の秘伝。",
+    "chapterIds": [
+      "ch-108",
+      "ch-148",
+      "ch-226"
+    ],
+    "firstChapter": "ch-108",
+    "lastChapter": "ch-226",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "禪院直毘人",
+        "characterId": "char-22abdd626c"
+      },
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      }
+    ]
+  },
+  {
+    "id": "tech-6af565fce4",
+    "name": "蓋棺鉄囲山",
+    "reading": "がいかんてっちせん",
+    "category": "領域展開",
+    "users": [
+      "漏瑚"
+    ],
+    "aliases": [],
+    "description": "火山内部のような灼熱環境を構築し、火山系術式を必中にする領域。",
+    "chapterIds": [
+      "ch-015"
+    ],
+    "firstChapter": "ch-015",
+    "lastChapter": "ch-015",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "漏瑚",
+        "characterId": "char-a61fa295f1"
+      }
+    ]
+  },
+  {
+    "id": "tech-81aaf10015",
+    "name": "蕩蘊平線",
+    "reading": "たううんへいせん",
+    "category": "領域展開",
+    "users": [
+      "陀艮"
+    ],
+    "aliases": [],
+    "description": "南国の海辺を思わせる領域。死累累湧軍を対象へ必中で発生させる。",
+    "chapterIds": [
+      "ch-107",
+      "ch-108",
+      "ch-109",
+      "ch-110"
+    ],
+    "firstChapter": "ch-107",
+    "lastChapter": "ch-110",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "陀艮",
+        "characterId": "char-6674ce6baa"
+      }
+    ]
+  },
+  {
+    "id": "tech-82b26de029",
+    "name": "虎杖の御厨子",
+    "reading": null,
+    "category": "生得術式",
+    "users": [
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "黒閃による覚醒後に発現した御厨子。宿儺と同じ術式だが時代と術者の違いにより表現が異なる。",
+    "chapterIds": [
+      "ch-257"
+    ],
+    "firstChapter": "ch-257",
+    "lastChapter": "ch-257",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-1aadb53ceb",
+    "name": "虎杖悠仁の領域",
+    "reading": "名称不明",
+    "category": "領域展開",
+    "users": [
+      "虎杖悠仁"
+    ],
+    "aliases": [
+      "虎杖の領域"
+    ],
+    "description": "虎杖が宿儺戦で初めて展開した領域。魂の境界を狙う解を必中効果とするが、名称は明示されない。",
+    "chapterIds": [
+      "ch-264",
+      "ch-265"
+    ],
+    "firstChapter": "ch-264",
+    "lastChapter": "ch-265",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-fb21434f98",
+    "name": "虚式「茈」",
+    "reading": "きょしき むらさき",
+    "category": "虚式",
+    "users": [
+      "五条悟",
+      "乙骨憂太"
+    ],
+    "aliases": [
+      "茈"
+    ],
+    "description": "蒼と赫を衝突させ、仮想の質量を押し出して進路上を破壊する。",
+    "chapterIds": [
+      "ch-052",
+      "ch-075",
+      "ch-076",
+      "ch-235",
+      "ch-263"
+    ],
+    "firstChapter": "ch-052",
+    "lastChapter": "ch-263",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-524f0b9364",
+    "name": "虫の鎧",
+    "reading": null,
+    "category": "構築術式の応用",
+    "users": [
+      "万"
+    ],
+    "aliases": [],
+    "description": "昆虫の外骨格を構築して速度・強度・機動力を高める鎧。",
+    "chapterIds": [
+      "ch-218"
+    ],
+    "firstChapter": "ch-218",
+    "lastChapter": "ch-218",
+    "officialNameStatus": "manga-name",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "万",
+        "characterId": "char-0d3bc6b0dd"
+      }
+    ]
+  },
+  {
+    "id": "tech-2440f07b9a",
+    "name": "蜘蛛の糸",
+    "reading": null,
+    "category": "術式拡張",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "捌を地面などへ網状に走らせ、接触面を細かく切断して崩す拡張技。第215話で虎杖と真希の足場を破壊した。",
+    "chapterIds": [
+      "ch-215"
+    ],
+    "firstChapter": "ch-215",
+    "lastChapter": "ch-215",
+    "officialNameStatus": "manga-name",
+    "sourceRefs": [
+      "src-shueisha-vol-21",
+      "src-shueisha-vol-22",
+      "src-shueisha-vol-23",
+      "src-shueisha-vol-24"
+    ],
+    "verification": "phase10-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-d9efa28175",
+    "name": "蝕爛腐術",
+    "reading": "しょくらんふじゅつ",
+    "category": "生得術式",
+    "users": [
+      "壊相",
+      "血塗"
+    ],
+    "aliases": [],
+    "description": "有毒の血を浴びせ、兄弟のどちらかが朽を発動すると対象を腐食させる術式。",
+    "chapterIds": [
+      "ch-057",
+      "ch-059",
+      "ch-060",
+      "ch-061",
+      "ch-062"
+    ],
+    "firstChapter": "ch-057",
+    "lastChapter": "ch-062",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "壊相",
+        "characterId": "char-6534bbe6c9"
+      },
+      {
+        "name": "血塗",
+        "characterId": "char-964e851215"
+      }
+    ]
+  },
+  {
+    "id": "tech-b18262c082",
+    "name": "蝦蟇",
+    "reading": "がま",
+    "category": "式神",
+    "users": [
+      "伏黒恵"
+    ],
+    "aliases": [],
+    "description": "舌で対象を拘束・救助する蛙型式神。",
+    "chapterIds": [
+      "ch-007",
+      "ch-017",
+      "ch-095",
+      "ch-097",
+      "ch-171"
+    ],
+    "firstChapter": "ch-007",
+    "lastChapter": "ch-171",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-blood-edge",
+    "name": "血刃",
+    "reading": null,
+    "category": "術式技",
+    "users": [
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "赤血操術で血液を高速回転させ、刃状に形成する近接攻撃。",
+    "chapterIds": [
+      "ch-103",
+      "ch-105"
+    ],
+    "firstChapter": "ch-103",
+    "lastChapter": "ch-105",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-blood-meteorite",
+    "name": "血星磊",
+    "reading": null,
+    "category": "術式技",
+    "users": [
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "凝固させた少量の血液を高速で射出する攻撃。",
+    "chapterIds": [
+      "ch-104",
+      "ch-105"
+    ],
+    "firstChapter": "ch-104",
+    "lastChapter": "ch-105",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-2326f083fd",
+    "name": "術式の消滅",
+    "reading": "じゅつしきのしょうめつ",
+    "category": "生得術式",
+    "users": [
+      "天使",
+      "来栖華"
+    ],
+    "aliases": [],
+    "description": "結界や呪物を含むあらゆる術式を消滅させる天使の術式。",
+    "chapterIds": [
+      "ch-145",
+      "ch-199",
+      "ch-210",
+      "ch-213",
+      "ch-221"
+    ],
+    "firstChapter": "ch-145",
+    "lastChapter": "ch-221",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "天使",
+        "characterId": "char-65e7fd1c87"
+      },
+      {
+        "name": "来栖華",
+        "characterId": "char-d8252d61d4"
+      }
+    ]
+  },
+  {
+    "id": "tech-6e6dd087e1",
+    "name": "術式反転「赫」",
+    "reading": "じゅつしきはんてん あか",
+    "category": "術式反転",
+    "users": [
+      "五条悟",
+      "乙骨憂太"
+    ],
+    "aliases": [
+      "赫"
+    ],
+    "description": "反転術式で生んだ正のエネルギーを無下限へ流し、強烈な反発力を発生させる。",
+    "chapterIds": [
+      "ch-014",
+      "ch-052",
+      "ch-069",
+      "ch-074",
+      "ch-076",
+      "ch-232",
+      "ch-235"
+    ],
+    "firstChapter": "ch-014",
+    "lastChapter": "ch-235",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-90aaa17cfe",
+    "name": "術式順転「蒼」",
+    "reading": "じゅつしきじゅんてん あお",
+    "category": "術式順転",
+    "users": [
+      "五条悟",
+      "乙骨憂太"
+    ],
+    "aliases": [
+      "蒼"
+    ],
+    "description": "負の数を現実へ発生させ、周囲を強制的に収束・吸引する。",
+    "chapterIds": [
+      "ch-052",
+      "ch-065",
+      "ch-069",
+      "ch-071",
+      "ch-076",
+      "ch-231",
+      "ch-232",
+      "ch-234",
+      "ch-235"
+    ],
+    "firstChapter": "ch-052",
+    "lastChapter": "ch-235",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-mechamaru-mode-absolute",
+    "name": "装甲傀儡 究極メカ丸 試作0号",
+    "reading": "そうこうくぐつ アルティメットメカまる しさくゼロごう",
+    "category": "傀儡",
+    "users": [
+      "与幸吉"
+    ],
+    "aliases": [],
+    "description": "与幸吉が天与呪縛によって蓄積した年月分の呪力を砲撃へ変換する巨大装甲傀儡。",
+    "chapterIds": [
+      "ch-080",
+      "ch-081",
+      "ch-082"
+    ],
+    "firstChapter": "ch-080",
+    "lastChapter": "ch-082",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "与幸吉",
+        "characterId": "char-dad71c9f31"
+      }
+    ]
+  },
+  {
+    "id": "tech-d2feb31d47",
+    "name": "解",
+    "reading": "かい",
+    "category": "術式技",
+    "users": [
+      "両面宿儺",
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "主に物体や任意の対象へ放つ斬撃。虎杖は魂の境界へ対象を限定して使う。",
+    "chapterIds": [
+      "ch-112",
+      "ch-115",
+      "ch-118",
+      "ch-119",
+      "ch-214",
+      "ch-216"
+    ],
+    "firstChapter": "ch-112",
+    "lastChapter": "ch-216",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      },
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-3bd924870c",
+    "name": "誅伏賜死",
+    "reading": "ちゅうぶくしし",
+    "category": "領域展開",
+    "users": [
+      "日車寛見"
+    ],
+    "aliases": [],
+    "description": "式神ジャッジマンが対象を起訴し、証拠と答弁に基づいて判決を下す非暴力型の領域。",
+    "chapterIds": [
+      "ch-164",
+      "ch-165",
+      "ch-166",
+      "ch-244",
+      "ch-245"
+    ],
+    "firstChapter": "ch-164",
+    "lastChapter": "ch-245",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "日車寛見",
+        "characterId": "char-3062a0117e"
+      }
+    ]
+  },
+  {
+    "id": "tech-5481fbccc6",
+    "name": "貫牛",
+    "reading": "かんぎゅう",
+    "category": "式神",
+    "users": [
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "直線移動が長いほど威力を増す牛型式神。",
+    "chapterIds": [
+      "ch-218"
+    ],
+    "firstChapter": "ch-218",
+    "lastChapter": "ch-218",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase3-aka-shibari",
+    "name": "赤縛",
+    "reading": "せきばく",
+    "category": "赤血操術の技",
+    "users": [
+      "加茂憲紀"
+    ],
+    "aliases": [],
+    "description": "血液を網・縄状に操って対象を拘束する赤血操術の技。",
+    "chapterIds": [
+      "ch-044",
+      "ch-192"
+    ],
+    "firstChapter": "ch-044",
+    "lastChapter": "ch-192",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase3-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "加茂憲紀",
+        "characterId": "char-830f121430"
+      }
+    ]
+  },
+  {
+    "id": "tech-a1213858c7",
+    "name": "赤血操術",
+    "reading": "せっけつそうじゅつ",
+    "category": "生得術式",
+    "users": [
+      "加茂憲紀",
+      "脹相",
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "自身の血液と血液が付着した物を自在に操作する加茂家相伝術式。",
+    "chapterIds": [
+      "ch-043",
+      "ch-044",
+      "ch-045",
+      "ch-046",
+      "ch-084",
+      "ch-088",
+      "ch-089",
+      "ch-101",
+      "ch-103",
+      "ch-104",
+      "ch-105",
+      "ch-135",
+      "ch-136",
+      "ch-139",
+      "ch-140",
+      "ch-141",
+      "ch-142",
+      "ch-191",
+      "ch-192",
+      "ch-193",
+      "ch-194",
+      "ch-203",
+      "ch-204",
+      "ch-246",
+      "ch-251",
+      "ch-259"
+    ],
+    "firstChapter": "ch-043",
+    "lastChapter": "ch-259",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "加茂憲紀",
+        "characterId": "char-830f121430"
+      },
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      },
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-e66786ca8f",
+    "name": "赤鱗躍動",
+    "reading": "せきりんやくどう",
+    "category": "術式技",
+    "users": [
+      "加茂憲紀",
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "血流や体温などを操作し、身体能力を大幅に引き上げる。",
+    "chapterIds": [
+      "ch-043",
+      "ch-103",
+      "ch-135",
+      "ch-141",
+      "ch-193"
+    ],
+    "firstChapter": "ch-043",
+    "lastChapter": "ch-193",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "加茂憲紀",
+        "characterId": "char-830f121430"
+      },
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-flowing-red-scale-stack",
+    "name": "赤鱗躍動・載",
+    "reading": null,
+    "category": "術式技",
+    "users": [
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "赤鱗躍動をさらに高出力で運用し、身体能力を強化する技。",
+    "chapterIds": [
+      "ch-104"
+    ],
+    "firstChapter": "ch-104",
+    "lastChapter": "ch-104",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-4b352da6cb",
+    "name": "超人",
+    "reading": "コメディアン",
+    "category": "生得術式",
+    "users": [
+      "髙羽史彦"
+    ],
+    "aliases": [],
+    "description": "髙羽が面白いと確信した想像を現実にする。本人は術式の仕組みを知らない。",
+    "chapterIds": [
+      "ch-169",
+      "ch-173",
+      "ch-239",
+      "ch-240",
+      "ch-241",
+      "ch-242",
+      "ch-243"
+    ],
+    "firstChapter": "ch-169",
+    "lastChapter": "ch-243",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "髙羽史彦",
+        "characterId": "char-02aa196fbb"
+      }
+    ]
+  },
+  {
+    "id": "tech-17ae81079b",
+    "name": "超新星",
+    "reading": "ちょうしんせい",
+    "category": "術式技",
+    "users": [
+      "脹相"
+    ],
+    "aliases": [],
+    "description": "圧縮した複数の血液塊を周囲へ散弾状に破裂させる脹相独自の技。",
+    "chapterIds": [
+      "ch-089",
+      "ch-103",
+      "ch-142",
+      "ch-204"
+    ],
+    "firstChapter": "ch-089",
+    "lastChapter": "ch-204",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "脹相",
+        "characterId": "char-851111b10d"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-pigeon-viola",
+    "name": "追尾弾～五重奏～",
+    "reading": "ビジョン ヴィオラ",
+    "category": "傀儡砲撃",
+    "users": [
+      "与幸吉"
+    ],
+    "aliases": [],
+    "description": "蓄積呪力五年分を用い、五つの追尾弾で対象を包囲して攻撃する。",
+    "chapterIds": [
+      "ch-081"
+    ],
+    "firstChapter": "ch-081",
+    "lastChapter": "ch-081",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "与幸吉",
+        "characterId": "char-dad71c9f31"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase6-sword-extermination",
+    "name": "退魔の剣",
+    "reading": null,
+    "category": "式神装備",
+    "users": [
+      "八握剣 異戒神将 魔虚羅"
+    ],
+    "aliases": [],
+    "description": "正のエネルギーをまとい、呪霊に対して特に高い効果を持つ魔虚羅の腕の剣。",
+    "chapterIds": [
+      "ch-118"
+    ],
+    "firstChapter": "ch-118",
+    "lastChapter": "ch-118",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase6-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "八握剣 異戒神将 魔虚羅",
+        "characterId": "char-9fccad3ed6"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase2-keiteiken",
+    "name": "逕庭拳",
+    "reading": "けいていけん",
+    "category": "呪力操作／打撃",
+    "users": [
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "虎杖の身体能力による打撃へ、遅れて呪力が到達して二段の衝撃を生む攻撃。本人が意図して編み出した術式ではない。",
+    "chapterIds": [
+      "ch-020",
+      "ch-026",
+      "ch-031",
+      "ch-036",
+      "ch-037",
+      "ch-062",
+      "ch-132"
+    ],
+    "firstChapter": "ch-020",
+    "lastChapter": "ch-132",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [
+      "src-shueisha-vol-03",
+      "src-shueisha-vol-04",
+      "src-manga-games-vol-03",
+      "src-manga-games-vol-04"
+    ],
+    "verification": "phase2-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-c657f1cc7e",
+    "name": "遍殺即霊体",
+    "reading": "へんせつそくれいたい",
+    "category": "変身",
+    "users": [
+      "真人"
+    ],
+    "aliases": [],
+    "description": "真人が魂の本質を把握して到達した戦闘形態。高い硬度と攻撃力を持つ。",
+    "chapterIds": [
+      "ch-130",
+      "ch-131",
+      "ch-132"
+    ],
+    "firstChapter": "ch-130",
+    "lastChapter": "ch-132",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "真人",
+        "characterId": "char-18d7c58412"
+      }
+    ]
+  },
+  {
+    "id": "tech-56316150ed",
+    "name": "邪去侮の梯子",
+    "reading": "やこぶのはしご",
+    "category": "術式技",
+    "users": [
+      "天使",
+      "来栖華",
+      "乙骨憂太"
+    ],
+    "aliases": [],
+    "description": "天空の光とともに術式消滅の光を対象へ浴びせ、受肉体と器の分離も狙う。",
+    "chapterIds": [
+      "ch-213",
+      "ch-214",
+      "ch-221",
+      "ch-251",
+      "ch-264"
+    ],
+    "firstChapter": "ch-213",
+    "lastChapter": "ch-264",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "天使",
+        "characterId": "char-65e7fd1c87"
+      },
+      {
+        "name": "来栖華",
+        "characterId": "char-d8252d61d4"
+      },
+      {
+        "name": "乙骨憂太",
+        "characterId": "char-c28763b98a"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase4-split-soul-katana",
+    "name": "釈魂刀",
+    "reading": "しゃくこんとう",
+    "category": "呪具",
+    "users": [
+      "伏黒甚爾"
+    ],
+    "aliases": [],
+    "description": "物質の硬度を無視して魂を斬る刀。能力を完全に引き出すには無機物の魂まで観測できる目が必要とされる。",
+    "chapterIds": [
+      "ch-071",
+      "ch-073",
+      "ch-149",
+      "ch-150",
+      "ch-192",
+      "ch-195",
+      "ch-197",
+      "ch-198",
+      "ch-252",
+      "ch-253"
+    ],
+    "firstChapter": "ch-071",
+    "lastChapter": "ch-253",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase4-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "伏黒甚爾",
+        "characterId": "char-d5482ceba1"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase7-kamai-dan",
+    "name": "鎌異断",
+    "reading": null,
+    "category": "術式技",
+    "users": [
+      "西宮桃"
+    ],
+    "aliases": [],
+    "description": "付喪操術で操る箒から呪力の風の刃を放つ攻撃。",
+    "chapterIds": [
+      "ch-135"
+    ],
+    "firstChapter": "ch-135",
+    "lastChapter": "ch-135",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-legacy-ju-txt"
+    ],
+    "verification": "phase7-crosscheck-pending-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "西宮桃",
+        "characterId": "char-484fd66a1e"
+      }
+    ]
+  },
+  {
+    "id": "tech-fbf15eb3e2",
+    "name": "降霊術",
+    "reading": "こうれいじゅつ",
+    "category": "生得術式",
+    "users": [
+      "オガミ婆"
+    ],
+    "aliases": [],
+    "description": "死者の肉体または魂の情報を別人へ降ろす。肉体情報だけを降ろすことで乗っ取りを避ける。",
+    "chapterIds": [
+      "ch-095",
+      "ch-096",
+      "ch-097",
+      "ch-098",
+      "ch-113"
+    ],
+    "firstChapter": "ch-095",
+    "lastChapter": "ch-113",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "オガミ婆",
+        "characterId": "char-2615d69152"
+      }
+    ]
+  },
+  {
+    "id": "tech-aee71097f5",
+    "name": "電気の呪力特性",
+    "reading": "でんきのじゅりょくとくせい",
+    "category": "呪力特性",
+    "users": [
+      "鹿紫雲一"
+    ],
+    "aliases": [],
+    "description": "呪力そのものが電気的性質を持ち、正負の電荷を分離して必中の放電を成立させる。",
+    "chapterIds": [
+      "ch-184",
+      "ch-185",
+      "ch-186",
+      "ch-188",
+      "ch-189",
+      "ch-190",
+      "ch-237"
+    ],
+    "firstChapter": "ch-184",
+    "lastChapter": "ch-237",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "鹿紫雲一",
+        "characterId": "char-0e7004da56"
+      }
+    ]
+  },
+  {
+    "id": "tech-025face7f0",
+    "name": "霊亀",
+    "reading": "れいき",
+    "category": "来訪瑞獣",
+    "users": [
+      "猪野琢真"
+    ],
+    "aliases": [],
+    "description": "呪力を水のようにまとい、防御と滑る移動へ用いる瑞獣二番。",
+    "chapterIds": [
+      "ch-095"
+    ],
+    "firstChapter": "ch-095",
+    "lastChapter": "ch-095",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "猪野琢真",
+        "characterId": "char-cf2d32d5b9"
+      }
+    ]
+  },
+  {
+    "id": "tech-c958121642",
+    "name": "霜凪",
+    "reading": "しもなぎ",
+    "category": "術式技",
+    "users": [
+      "裏梅"
+    ],
+    "aliases": [],
+    "description": "冷気を放って周囲を一度に凍結する。",
+    "chapterIds": [
+      "ch-135",
+      "ch-215"
+    ],
+    "firstChapter": "ch-135",
+    "lastChapter": "ch-215",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "裏梅",
+        "characterId": "char-000313127b"
+      }
+    ]
+  },
+  {
+    "id": "tech-34f2643025",
+    "name": "領域展延",
+    "reading": "りょういきてんえん",
+    "category": "対術式技術",
+    "users": [
+      "漏瑚",
+      "花御",
+      "宿儺"
+    ],
+    "aliases": [],
+    "description": "自分の周囲へ空の領域をまとい、触れた相手の術式を流し込んで中和する。",
+    "chapterIds": [
+      "ch-084",
+      "ch-085",
+      "ch-088",
+      "ch-224",
+      "ch-246"
+    ],
+    "firstChapter": "ch-084",
+    "lastChapter": "ch-246",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "漏瑚",
+        "characterId": "char-a61fa295f1"
+      },
+      {
+        "name": "花御",
+        "characterId": "char-9148bf784c"
+      },
+      {
+        "name": "宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-708d558bf8",
+    "name": "魂の境界を狙う解",
+    "reading": null,
+    "category": "術式対象変更",
+    "users": [
+      "虎杖悠仁"
+    ],
+    "aliases": [],
+    "description": "受肉体と器の魂の境界へ対象を限定し、宿儺を伏黒から剥離させるための解。",
+    "chapterIds": [
+      "ch-264",
+      "ch-266",
+      "ch-268"
+    ],
+    "firstChapter": "ch-264",
+    "lastChapter": "ch-268",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-25",
+      "src-shueisha-vol-26",
+      "src-shueisha-vol-27",
+      "src-shueisha-vol-28",
+      "src-shueisha-vol-29",
+      "src-shueisha-vol-30"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      }
+    ]
+  },
+  {
+    "id": "tech-996d48af99",
+    "name": "鵺",
+    "reading": "ぬえ",
+    "category": "式神",
+    "users": [
+      "伏黒恵",
+      "両面宿儺"
+    ],
+    "aliases": [],
+    "description": "翼と電撃を備える飛行型式神。宿儺は巨大化した鵺を使用する。",
+    "chapterIds": [
+      "ch-007",
+      "ch-009",
+      "ch-017",
+      "ch-035",
+      "ch-036",
+      "ch-044",
+      "ch-045",
+      "ch-046",
+      "ch-058",
+      "ch-094",
+      "ch-098",
+      "ch-161",
+      "ch-167",
+      "ch-168",
+      "ch-170",
+      "ch-213",
+      "ch-215"
+    ],
+    "firstChapter": "ch-007",
+    "lastChapter": "ch-215",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "伏黒恵",
+        "characterId": "char-3c1852867d"
+      },
+      {
+        "name": "両面宿儺",
+        "characterId": "char-2b8d365a39"
+      }
+    ]
+  },
+  {
+    "id": "tech-589e683ddd",
+    "name": "麒麟",
+    "reading": "きりん",
+    "category": "来訪瑞獣",
+    "users": [
+      "猪野琢真"
+    ],
+    "aliases": [],
+    "description": "脳内麻薬のような作用で痛覚を遮断する瑞獣三番。",
+    "chapterIds": [
+      "ch-257"
+    ],
+    "firstChapter": "ch-257",
+    "lastChapter": "ch-257",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "猪野琢真",
+        "characterId": "char-cf2d32d5b9"
+      }
+    ]
+  },
+  {
+    "id": "tech-05be7e32d8",
+    "name": "麗美の術式（名称不明）",
+    "reading": null,
+    "category": "生得術式・編集用ラベル",
+    "users": [
+      "麗美"
+    ],
+    "aliases": [],
+    "description": "髪を蠍の尾のように変形させて刺突する。原作で正式名称は提示されていない。",
+    "chapterIds": [
+      "ch-161",
+      "ch-162",
+      "ch-168"
+    ],
+    "firstChapter": "ch-161",
+    "lastChapter": "ch-168",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "麗美",
+        "characterId": "char-a5d1c4b82b"
+      }
+    ]
+  },
+  {
+    "id": "tech-511d655411",
+    "name": "黄櫨折の術式（名称不明）",
+    "reading": null,
+    "category": "生得術式・編集用ラベル",
+    "users": [
+      "黄櫨折"
+    ],
+    "aliases": [],
+    "description": "切り離した眼球や歯など自分の肉体の一部を爆発物として扱う。正式名称不明。",
+    "chapterIds": [
+      "ch-168",
+      "ch-169",
+      "ch-173"
+    ],
+    "firstChapter": "ch-168",
+    "lastChapter": "ch-173",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "黄櫨折",
+        "characterId": "char-27f5cf78ab"
+      }
+    ]
+  },
+  {
+    "id": "tech-ce37bd5b31",
+    "name": "黒沐死の術式（名称不明）",
+    "reading": null,
+    "category": "生得術式・編集用ラベル",
+    "users": [
+      "黒沐死"
+    ],
+    "aliases": [],
+    "description": "大量の蜚蠊を操り、群れや式神を攻撃へ用いる。原作で正式名称は提示されていない。",
+    "chapterIds": [
+      "ch-174",
+      "ch-175",
+      "ch-179"
+    ],
+    "firstChapter": "ch-174",
+    "lastChapter": "ch-179",
+    "officialNameStatus": "editorial-label",
+    "sourceRefs": [
+      "src-shueisha-vol-19",
+      "src-shueisha-vol-20",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "phase9-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "黒沐死",
+        "characterId": "char-46cd8034d9"
+      }
+    ]
+  },
+  {
+    "id": "tech-69d5ecb511",
+    "name": "黒閃",
+    "reading": "こくせん",
+    "category": "呪力現象",
+    "users": [
+      "虎杖悠仁",
+      "五条悟",
+      "宿儺",
+      "ほか"
+    ],
+    "aliases": [],
+    "description": "打撃と呪力の衝突が極小時間差で一致した際、空間が歪み威力が通常の二・五乗になる現象。",
+    "chapterIds": [
+      "ch-048",
+      "ch-049",
+      "ch-050",
+      "ch-061",
+      "ch-126",
+      "ch-127",
+      "ch-128",
+      "ch-130",
+      "ch-131",
+      "ch-132",
+      "ch-232",
+      "ch-234",
+      "ch-253",
+      "ch-256",
+      "ch-257"
+    ],
+    "firstChapter": "ch-048",
+    "lastChapter": "ch-257",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "虎杖悠仁",
+        "characterId": "char-baadf43d19"
+      },
+      {
+        "name": "五条悟",
+        "characterId": "char-17322e71e5"
+      },
+      {
+        "name": "宿儺",
+        "characterId": "char-2b8d365a39"
+      },
+      {
+        "name": "ほか",
+        "characterId": null
+      }
+    ]
+  },
+  {
+    "id": "tech-ab3bfa159a",
+    "name": "黒鳥操術",
+    "reading": "こくちょうそうじゅつ",
+    "category": "生得術式",
+    "users": [
+      "冥冥"
+    ],
+    "aliases": [],
+    "description": "烏を操り視覚を共有する術式。索敵、監視、攻撃に使用する。",
+    "chapterIds": [
+      "ch-086",
+      "ch-098",
+      "ch-102"
+    ],
+    "firstChapter": "ch-086",
+    "lastChapter": "ch-102",
+    "officialNameStatus": "candidate-official-name",
+    "sourceRefs": [
+      "src-official-character-vote-4",
+      "src-hellominju-manga-pages"
+    ],
+    "verification": "first-pass-crosscheck-pending",
+    "sourceScope": "manga-and-official-manga-supplements-only",
+    "userRefs": [
+      {
+        "name": "冥冥",
+        "characterId": "char-07918bda3f"
+      }
+    ]
+  },
+  {
+    "id": "tech-phase5-ino-ryu",
+    "name": "龍",
+    "reading": "りゅう",
+    "category": "来訪瑞獣",
+    "users": [
+      "猪野琢真"
+    ],
+    "aliases": [],
+    "description": "来訪瑞獣の四番。猪野が召喚を試みるが、甚爾に覆面を奪われて発動を阻止される。",
+    "chapterIds": [
+      "ch-097"
+    ],
+    "firstChapter": "ch-097",
+    "lastChapter": "ch-097",
+    "officialNameStatus": "manga-name-crosschecked",
+    "sourceRefs": [],
+    "verification": "phase5-crosschecked-secondary-not-primary-pages",
+    "sourceScope": "manga-only",
+    "userRefs": [
+      {
+        "name": "猪野琢真",
+        "characterId": "char-cf2d32d5b9"
+      }
+    ]
+  }
+]

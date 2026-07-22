@@ -1,0 +1,120 @@
+{
+  "id": "ch-050",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 6,
+  "number": 50,
+  "zero_number": null,
+  "label": "第50話",
+  "title_official": "予感",
+  "title_search_normalized": "予感",
+  "start_page": 131,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-06"
+  ],
+  "source_locator": "単行本6巻 目次 p.131",
+  "summary_short": "東堂は術式「不義遊戯」で位置を入れ替え、虎杖との攻撃を読ませない。花御は二人の連携に翻弄されながらも、さらに力を解放する。",
+  "summary_full": "幼い東堂は退屈するほど強く、九十九由基と出会って好みの女性を聞かれた過去を持つ。現在の東堂は花御の攻撃を瞬時に分析し、手を叩くことで呪力を持つ対象同士の位置を交換する不義遊戯を開示する。花御を自分の木の棘へ入れ替え、さらに虎杖との位置交換を連続させて判断を狂わせる。虎杖は黒閃を連続で放ち、七海が持つ連続四回の記録に並ぶ。東堂は拍手しても交換しないフェイントを混ぜ、虎杖の四発目を命中させる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Powerful, smart, and misunderstood, 葵 was bored with the world in his youth. However, thanks to people like 悠仁 , he would never be bored for long. Thanks to 葵's simple and effective 術式 , he and 悠仁 are able to gain the upper hand on 花御 .",
+    "summary_full_legacy": "葵 calculating his way to victory. Back in third grade, 葵 beat up a high schooler with a bad attitude. Although 葵 was bored by the scuffle, a woman accompanied by a curse watching nearby congratulates him and asks what kind of girls he liked. Despite his mundane life, 葵 always had the feeling he wouldn't be bored for long. In the present, 葵 announces he's going to release his 術式. He asks that 悠仁 believe in him and fight as hard as possible. Within just a second, 葵 reviews all of 花御's attacks and decides the outcome should be victory thanks to 悠仁's help. 葵 overpowers 花御 using his 術式. Immediately as the tandem of sorcerers begins their offense, 葵's foot is caught by a root and he's swung around. 花御 attacks 悠仁 while 葵 appears to pay dearly for his mistake, slammed into a spike. However, at the last moment, 葵 uses his 術式 to trade places with 花御. The 呪霊 gets pierced by his own spiked roots and realizes that 葵's 術式 is simple but troublesome. 葵 explains that his 術式: 不義遊戯 , which allows him to trade places with someone else. He divulges his technique to make it stronger, revealing that it's activated when he claps. 悠仁 is concerned but 葵 asks that they finish the fight before 花御 adjusts. By constantly trading places with 悠仁 , 葵 throws off 花御's judgment. With 葵's 術式, they're able to repeatedly strike 花御 to the point where he can't escape their onslaught. 悠仁 unleashes 黒閃 four times in a row! While 花御 is open, 悠仁 prepares to attack with another strike of 黒閃 . According to 七海 using 黒閃 isn't amazing because a sorcerer enters a zone similar to what athletes experience. This allows them to continuously use it because the thinking process revolving around jujutsu becomes like breathing. 七海 was able to use 黒閃 four times, which is a record. 葵 watches proudly, nearly brought to tears as 悠仁 unleashes three consecutive strikes using 黒閃. 花御 tries to avoid a fourth strike as 葵 approaches from the rear. 葵 claps and 花御 anticipates the switch. However, 葵 doesn't actually activate his technique and 悠仁 lands a fourth 黒閃.",
+    "characters_raw_text": "東堂葵 九十九由基 (回想) 虎杖悠仁 花御 七海建人",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 虎杖悠仁 & 東堂葵 vs. 花御",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 式神「凰輪」 (回想) 虎杖悠仁の術式 黒閃",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-6309a7e2f4",
+    "char-9148bf784c",
+    "char-a34bfbb398",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-69d5ecb511",
+    "tech-9754429d12",
+    "tech-a34bfbb398",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase3": [
+    "東堂と九十九由基の出会いが回想される",
+    "東堂が不義遊戯を開示する",
+    "虎杖が黒閃を四回連続で成功させる",
+    "花御が二人の連携に追い詰められる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-d76df97dca",
+    "char-1566dd973d",
+    "char-baadf43d19",
+    "char-9148bf784c",
+    "char-6309a7e2f4"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-4688b07b42",
+      "relation": "used-and-disclosed"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "four-consecutive"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-4688b07b42",
+    "tech-69d5ecb511"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-69d5ecb511",
+    "term-2a5525400d"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-06",
+    "src-manga-games-vol-06",
+    "src-official-character-vote-4"
+  ]
+}

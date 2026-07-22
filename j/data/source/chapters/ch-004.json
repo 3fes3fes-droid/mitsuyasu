@@ -1,0 +1,101 @@
+{
+  "id": "ch-004",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 1,
+  "number": 4,
+  "zero_number": null,
+  "label": "第4話",
+  "title_official": "鉄骨娘",
+  "title_search_normalized": "鉄骨娘",
+  "start_page": 111,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-01"
+  ],
+  "source_locator": "単行本1巻 目次 p.111",
+  "summary_short": "虎杖と伏黒は三人目の一年生・釘崎野薔薇と合流する。五条は虎杖と釘崎の適性を見るため、墓地近くの廃ビルにいる呪霊の祓除を命じる。",
+  "summary_full": "虎杖と伏黒は原宿で、地方から上京した三人目の一年生・釘崎野薔薇と合流する。互いの第一印象は悪いが、五条は東京見物を期待する虎杖と釘崎を六本木の廃ビルへ連れていく。呪霊を認識できることと、実際に命を懸けて祓えることは別だとして、五条は二人の精神的な適性を試す。虎杖には呪力がなくても呪霊を傷つけられる呪具・屠坐魔を渡し、釘崎と建物内へ入らせる。伏黒は自分も参加しようとするが、直前の負傷が治っていないため待機となる。建物内で二人は別れて捜索し、虎杖は呪霊と遭遇する一方、釘崎は取り残された少年を発見する。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 and 恵 are introduced to 釘崎野薔薇 , the third first-year at 東京 呪術高専. In order to gauge 悠仁 and 野薔薇's abilities, 五条 sensei sends them to exorcise 呪霊 inside an abandoned building near a cemetery.",
+    "summary_full_legacy": "悠仁 encounters a curse inside the abandoned building. 悠仁 eats ice cream and waits with 恵 at Harajuku Station. He points out how strange it is for a class to have only three students. 恵 explains that this is due to the rarity of jujutsu sorcerers . 五条 sensei meets up with his students, pleased to see 悠仁 has received his new uniform. Meanwhile, 野薔薇 tries to score a modeling gig to no avail. She feels interrupted by 悠仁 and 恵, and harshly judges both of them. 五条 sensei hypes up 悠仁 and 野薔薇 with a promise for a tour of 東京. However, he takes them to an abandoned house near a cemetery that has attracted a curse. 悟 sends in 悠仁 and 野薔薇 to exorcise the spirit as a field test to gauge their abilities. He tells 悠仁 not to use 宿儺 's power and forces 恵 to remain behind. The point of the trial is to focus on testing 野薔薇's capabilities. 野薔薇 is put to the test! Once inside, 野薔薇 forces 悠仁 to split up and he's suddenly attacked by a curse. He manages to slice the curse using the 屠坐魔 knife given to him by 五条 sensei. Using his gifted physical talents, 悠仁 is able to easily best the curse. 悟 already knows that 悠仁 is a little crazy. He's a normal teenager who doesn't hesitate to slay curses. Today he wants to see how crazy 野薔薇 can get. 野薔薇 encounters a mannequin possessed by a curse. She uses her tools and attacks, only to discover that curses in the city like 東京 are much more powerful than ones from her hometown on the countryside.",
+    "characters_raw_text": "虎杖悠仁 伏黒恵 五条悟 釘崎野薔薇 宿儺 (言及のみ)",
+    "locations_raw_text": "東京都・原宿／六本木",
+    "battles_events_raw_text": "虎杖悠仁 & 釘崎野薔薇 vs. 呪霊 (開始)",
+    "techniques_raw_text": "呪具 屠坐魔",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-8914e5bc1a"
+  ],
+  "key_events_verified_phase1": [
+    "虎杖たちが釘崎と合流する",
+    "五条が虎杖と釘崎を六本木の廃ビルへ送る",
+    "虎杖が呪具・屠坐魔を受け取る",
+    "釘崎が建物内で少年を発見する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-17322e71e5",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-492818427b",
+      "relation": "equipped"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-492818427b"
+  ],
+  "term_ids_verified_phase1": [
+    "term-ed19637c63",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-01",
+    "src-manga-games-vol-01"
+  ]
+}

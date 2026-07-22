@@ -1,0 +1,142 @@
+{
+  "id": "ch-216",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 216,
+  "zero_number": null,
+  "label": "第216話",
+  "title_official": "浴①",
+  "title_search_normalized": "浴1",
+  "start_page": 153,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "bath-return",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.153",
+  "summary_short": "宿儺は伏黒の魂を沈めるため、裏梅が用意した「浴」を行う。さらに伏黒自身の手で姉の肉体を殺させるため、万が待つ仙台結界へ向かう。",
+  "summary_full": "宿儺は伏黒の魂を沈めるため、裏梅が用意した「浴」を行う。さらに伏黒自身の手で姉の肉体を殺させるため、万が待つ仙台結界へ向かう。浴は本来、家宝を呪具化して守る儀式であり、裏梅は禪院家の懲罰房にいた呪霊を凍結・解体して再現した。宿儺は石流龍を斬殺し、万の待つ場所へ進む。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "羂索 and 裏梅 discuss the conclusion of the 死滅回游 as well as the ancient ritual known as the 浴 . 宿儺 uses the bath to submerge 恵's soul in darkness and then seeks out his sister to drown it completely.",
+    "summary_full_legacy": "Despite what he told 脹相 , 羂索 can't merge humanity with 天元 without ending the 死滅回游 . In order to establish the 死滅回游, 羂索 took on the 縛り to \" end what was permanent \". 裏梅 doesn't care about how 羂索 plans on doing so and tells him to simply do it. However, 羂索 is interested in the 浴, which 宿儺 is currently submerged in. It is traditionally a ritual used to protect family heirlooms by turning them into 呪具 . It required soaking in a solution of 呪力 formed from crushing and straining venomous creatures through a process known as kodoku. 宿儺 after using the 浴 to submerge 恵's soul. 羂索 is interested that 裏梅 was able to reconstruct this ritual using 呪霊 in the 禪院 clan's disciplinary pit. Normally 呪霊 would disappear after they're destroyed but 裏梅 pinned them down and froze their cores before slicing them apart and filtering them. 宿儺 is using the bath to be closer to evil, which submerges 恵's soul into submission. 宿儺 emerges from the bath and 羂索 asks if he's going to keep his face as 恵's. 宿儺 explains that he believes 恵's overall appearance is more fit for combatting sorcerers in this situation. 宿儺 looks at a cut on his finger and asks his コガネ for the location of 伏黒津美紀 . 宿儺 travels to the 仙台結界. 恵's コガネ reveals that 万 is in Sendai and 裏梅 asks why she would be there when players are no longer confined to the colonies . Exasperated, 羂索 condescendingly explains that she is probably there because it is close to her hometown. He finds it interesting that 宿儺 would go out of his way to fight her but the King of Curses clarifies it is to kill 津美紀 and completely drown 恵's soul. 羂索 uses a giant fish-like curse that swims through the air to transport 宿儺 to Sendai in exchange for 恵's points. To encounter again after a millenia! 烏鷺亨子 and 石流龍 immediately notice 宿儺's arrival in the colony due to his massive 呪力. As a former member of the Sun and Moon Squad that was decimated by the King of Curses, 烏鷺 knows this feeling too well. 龍 can't resist an opportunity this sweet and confronts 宿儺 directly. 宿儺 walks closely up to 龍 and asks if he's going to run or not. 龍 goes to throw a punch and 宿儺 cuts him across the torso with his technique . 宿儺 is amused, laughing and admitting that he meant to cut 龍 in three. He mockingly apologizes for taking 龍 too lightly and promises not to hold back again. 龍 tries to gain some distance to fire off his グラニテブラスト , but 宿儺 completely blitzes him and slices his head into three. Afterward, 宿儺 meets 万 in the stadium where 憂太 defeated ドゥルヴ Lakdawalla just days earlier. 万 comments on how 宿儺 is in a different body now and 宿儺 replies that he likes his new appearance more.",
+    "characters_raw_text": "宿儺 羂索 裏梅 脹相 (言及のみ) 石流龍 烏鷺亨子 万 伏黒恵 (言及のみ)",
+    "locations_raw_text": "Disciplinary Pit 仙台結界",
+    "battles_events_raw_text": "死滅回游 宿儺 vs. 石流龍 宿儺 vs. 石流龍",
+    "techniques_raw_text": "石流龍の術式 グラニテブラスト 宿儺の術式 御廚子 解 捌／解 捌 浴",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "bath",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-4a29b3de7b",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-8a6e43878f",
+    "char-fe30ff0de9"
+  ],
+  "technique_ids_candidate": [
+    "tech-536c06630d",
+    "tech-7f37ba28b4",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-65867f280c",
+    "term-8ae4844630"
+  ],
+  "key_events_verified_phase11": [
+    "宿儺は伏黒の魂を沈めるため、裏梅が用意した「浴」を行う。",
+    "さらに伏黒自身の手で姉の肉体を殺させるため、万が待つ仙台結界へ向かう。",
+    "浴は本来、家宝を呪具化して守る儀式であり、裏梅は禪院家の懲罰房にいた呪霊を凍結・解体して再現した。",
+    "宿儺は石流龍を斬殺し、万の待つ場所へ進む。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-4a29b3de7b",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-8a6e43878f",
+    "char-fe30ff0de9"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-4a29b3de7b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-8a6e43878f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-fe30ff0de9",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-d2feb31d47",
+    "tech-536c06630d"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-d2feb31d47",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-536c06630d",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-8ae4844630",
+    "term-3da4cfdc55",
+    "term-65867f280c"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

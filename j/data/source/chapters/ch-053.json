@@ -1,0 +1,195 @@
+{
+  "id": "ch-053",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 53,
+  "zero_number": null,
+  "label": "第53話",
+  "title_official": "完遂",
+  "title_search_normalized": "完遂",
+  "start_page": 7,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.7",
+  "summary_short": "襲撃後、呪霊側は奪取した呪物を用いる次の計画を確認する。高専側は被害を整理し交流会中止を検討するが、学生たちは別競技での続行を望む。",
+  "summary_full": "重面が潜む場所へ重傷の花御と真人が合流する。真人は宿儺の指六本と、呪胎九相図の一番から三番を奪ったと報告する。羂索は事前に、高専へ納められた指へ真人の呪力を付けて保管場所を特定し、五条を帳へ引き付ける作戦を組んでいた。高専側は職員の犠牲と呪物盗難を確認し、捕らえた組屋から情報を得ようとするが成果はない。交流会の続行が検討され、五条は学生たちの意思を聞くよう求める。呪霊側は10月31日の渋谷で五条を封印する計画を進める。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the aftermath of the fights between sorcerers and 呪霊 , both sides regroup. The evildoers plan on continuing with their schedule while the sorcerers of 呪術高専 try to pick up the pieces. At first, they seem to think to cancel the Goodwill Event is the best course of action. However, they may have one last chance to settle the score between the students.",
+    "summary_full_legacy": "真人 stops the 呪詛師 from getting any ideas. Somewhere deep in a swamp away from 呪術高専, the 重面春太 regrets being unable to do anything on the mission. However, he adds that compared to himself, 花御 is working too hard. In terrible shape with half his body missing, 花御 collapses. The 呪詛師 draws his sword but 真人 puts the human back in his place and confirms he was able to steal two sets of special grade cursed objects that were sealed away. He was able to steal the six 宿儺の指 as well as 呪胎九相図 Wombs No. 1-3. 花御 admits that 真人 was right about curses embracing their killing intent. 傑 helped plan the mission ahead of time by plotting a way through 天元の 結界. By placing 真人's 呪力 on one of the fingers 呪術高専 took, it was simple to find the vault. They also planned on using the 帳 as a distraction so 真人 could steal the items without being noticed by 五条 . 花御 was originally going to kill students alongside the distraction but Pseudo-夏油 felt there was a landmine among them for 宿儺. With this mission, the evildoers put in place the first stages of their plan to seal 五条悟 away on October 31st in 渋谷. \" I'll surpass you! \" In the present following the end of the mission, 真人 helps 花御 back to his feet and heads back to their hideout. 花御 admits that it's difficult for curses to quell their killing intent, satisfying 真人, who says 花御 is sounding more like a 呪霊. At 東京 呪術高専, 伊地知 reads off the list of casualties and confirms that 真人 was involved. They also confirm the cursed objects were taken by him. Unfortunately, 鞣造 doesn't provide any useful information as a captive under interrogation, only saying that he was tricked by a monk. 五条 believes they were able to sneak past 天元の barrier using plants since it was designed to hide the school rather than protect it. With everything that has occurred, the Principals decide it might be best to cancel the Goodwill Event. However, 五条 claims its not for them to decide. The Goodwill Event will be decided... by a game of Baseball! Meanwhile, in the healing ward, 悠仁 and 野薔薇 visit 恵 while he eats. 野薔薇 asks what's going on with 悠仁 and 葵 but the latter claims he wasn't exactly himself. 悠仁 expresses that he's glad 恵 was able to recover since he was out of 呪力, allowing 硝子 to remove the Cursed Bud. 恵 realizes that 悠仁 has gotten stronger and claims he'll surpass him. Impressed, 葵 suddenly appears and claims that he expects such from his brother's friends. 悠仁 runs away from 葵, unable to explain their bond now that his mindset has returned to normal. In the following days, the Goodwill Event is reorganized into a baseball game between the two schools.",
+    "characters_raw_text": "重面春太 花御 真人 宿儺 (回想) 漏瑚 Pseudo-夏油 吉野凪 (回想) 伏黒恵 五条悟 組屋鞣造 冥冥 伊地知潔高 夜蛾正道 庵歌姫 楽巌寺嘉伸 裏梅 虎杖悠仁 釘崎野薔薇 東堂葵 三輪霞 禪院真希",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会",
+    "techniques_raw_text": "呪詛師 呪力 呪物 呪霊",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-678a848346",
+    "char-6c8cc9b546",
+    "char-833a399363",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-ac327bdd73",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-c0e690427b",
+    "char-d76df97dca",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-5b5abca89c"
+  ],
+  "key_events_verified_phase3": [
+    "真人が宿儺の指六本と呪胎九相図一～三番を奪ったと報告する",
+    "襲撃が呪物奪取の陽動だったと判明する",
+    "高専が被害と盗難を確認する",
+    "呪霊側が渋谷で五条を封印する計画を進める"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-833a399363",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-6c8cc9b546",
+    "char-9148bf784c",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-a61fa295f1",
+    "char-678a848346",
+    "char-3c1852867d",
+    "char-17322e71e5",
+    "char-833a399363",
+    "char-07918bda3f",
+    "char-b4d661547b",
+    "char-58278d1ec5",
+    "char-3de3b8af11",
+    "char-ac327bdd73",
+    "char-000313127b",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-d76df97dca",
+    "char-ebd2a8efa8",
+    "char-24d736edff"
+  ],
+  "technique_appearances_verified_phase3": [],
+  "technique_ids_verified_phase3": [],
+  "term_ids_verified_phase3": [
+    "term-5b5abca89c",
+    "term-0a4956ab6c",
+    "term-a0ce00ef9e",
+    "term-c5958133bc",
+    "term-f9e3abf542"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

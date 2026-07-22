@@ -1,0 +1,113 @@
+{
+  "id": "ch-196",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 196,
+  "zero_number": null,
+  "label": "第196話",
+  "title_official": "桜島結界⑥",
+  "title_search_normalized": "桜島結界6",
+  "start_page": 107,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.107",
+  "summary_short": "自分に足りないものを知ろうとする真希は、三代の簡易領域内で相撲を取る。千回を超える取組の中で思考の拘束を解き、甚爾との違いをつかむ。",
+  "summary_full": "真希は三代の土俵へ入り、相撲を通して自分の思考を縛っていたものを解く。領域内では外の時間がほとんど進まず、二人は千回を超える取組を重ねる。三代は相手と正面から組み合うことで全てを感じ取るよう促し、真希は空気の温度や密度、周囲が生み出す面の変化まで知覚する。甚爾と同じ肉体を持ちながら彼に届かなかった理由を理解し、自由な感覚を獲得する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "六十四 三代 finally finds someone to wrestle with when 真希 agrees to a match in order to clear her mind. 真希 can't focus because she can't achieve the level of strength she desires and for the first time, needs to rely on someone else to progress. 三代 shows 真希 the path to freedom the only way he knows how, through sumo.",
+    "summary_full_legacy": "三代 challenges 真希 to sumo matches inside his simple domain. 真希 is too tense and 六十四 三代 can tell that it's dulling her edge. He invites her to sumo wrestle him and she accepts, surprising Noritoshi. 三代's simple domain is a pure sumo bout where the challenged must agree to the match in order to bypass any need for binding vows . Noritoshi doesn't understand what 真希 is thinking but she explains that she's been thinking too much. 真希 needs to clear her head and walks into 三代's simple domain while asking herself what it is that she isn't seeing. In their first sumo match, 三代 tosses 真希 aside despite her aggression. 三代 expresses his love for sumo and admits 真希 could easily defeat him in a head-on fight. He wants to know why she isn't at her best and asks why she can't focus. 真希 doesn't have anyone she'd call a teacher because she thinks 悟 and Atsuya are imbeciles. It never occurred to her to rely on others to make herself stronger. 真希 tells 三代 that she can't understand what 大道 meant about seeing everything and 三代 tells her that he can only explain it to her through sumo. 三代 explains to 真希 what she isn't seeing. 三代 tells 真希 that she's been entangled and caught up with everyone and everything around her. Sumo wrestling is about grappling and getting entangled with an opponent, but people have to develop outside the ring before they enter the bout. Every experience leading up to the moment of entering the ring of a wrestling match flows naturally into the combatants. 三代 compares the sensation they feel to smelling light or seeing sound. This sensation is the ability to sense everything around you and your opponent. At that moment everything including the competition falls away and becomes meaningless in the grand scheme of expressing oneself. 三代 reveals that the sensation 大道 was describing is true freedom and now 真希 must experience it for herself through sumo wrestling. After numerous bouts of sumo, the domain dissipates and 真希 rejoins the fray. Everyone witnesses looks on as something has clearly changed within 真希. With a smile on her face, 真希 proudly proclaims that she's at her best.",
+    "characters_raw_text": "六十四 三代 禪院真希 加茂憲紀 禪院直哉 鋼 大道",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉",
+    "techniques_raw_text": "六十四 三代 術式 簡易領域",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-69335b05c3",
+    "char-830f121430",
+    "char-aabfd74fce",
+    "char-b3be077b48"
+  ],
+  "technique_ids_candidate": [
+    "tech-d2feb31d47",
+    "tech-e28246ff34"
+  ],
+  "term_ids_candidate": [
+    "term-e28246ff34"
+  ],
+  "key_events_verified_phase10": [
+    "真希が三代の簡易領域へ同意して入る",
+    "真希と三代が千回を超える相撲を取る",
+    "真希が周囲全体を感じ取る感覚を得る",
+    "真希が甚爾との差を埋める"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "awakens-further"
+    },
+    {
+      "character_id": "char-69335b05c3",
+      "presence": "mentor-through-sumo"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "comparison"
+    },
+    {
+      "character_id": "char-aabfd74fce",
+      "presence": "fighting-outside"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "fighting-outside"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-69335b05c3",
+    "char-d5482ceba1",
+    "char-aabfd74fce",
+    "char-b3be077b48"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "training-used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-e28246ff34"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-03b8fbd157",
+    "term-bfcc1b065d",
+    "term-phase4-zero-cursed-energy",
+    "term-965bdc282e"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

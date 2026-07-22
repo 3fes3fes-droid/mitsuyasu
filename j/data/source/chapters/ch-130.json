@@ -1,0 +1,159 @@
+{
+  "id": "ch-130",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 15,
+  "number": 130,
+  "zero_number": null,
+  "label": "第130話",
+  "title_official": "渋谷事変㊼",
+  "title_search_normalized": "渋谷事変47",
+  "start_page": 111,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-15"
+  ],
+  "source_locator": "単行本15巻 目次 p.111",
+  "summary_short": "東堂は片手を失いながらも虎杖を援護する。真人は黒閃を経て魂の本質をつかみ、遍殺即霊体へ変貌して虎杖との決着に臨む。",
+  "summary_full": "真人の0.2秒の領域に対し、東堂は九十九から学んだ簡易領域を展開し、虎杖も真人を倒そうと即座に動く。しかし真人は領域と術式をほぼ同時に発動し、東堂の左手を変形させる。東堂は自ら左手を切断するが、真人の黒閃を腹部に受け、呪力を集中して致命傷を免れる。真人の術式が回復して再び触れようとした瞬間、東堂は真人の手と残った手を打ち合わせて不義遊戯を発動し、入れ替わった虎杖が黒閃を命中させる。真人はその経験から魂の本質をつかみ、遍殺即霊体へ変貌する。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真人 's incredibly fast 領域展開 of just 0.2 seconds nearly takes 東堂葵 out of the fight permanently. However, the top-knot gorilla is as stubborn as ever and uses his last contribution to the battle to put 悠仁 in a position to finish it. With everything that's transpired during his struggle with the jujutsu sorcerers , 真人 finally discovers the true essence of his soul and takes on a deadly new form.",
+    "summary_full_legacy": "\" He'll be dead before you can switch with him so just shut up and watch. \" 真人 activates his all-or-nothing 領域展開 of 0.2 seconds, taking his both opponents off guard. 東堂 acts quickly and activates 簡易領域 , which he learned from 九十九由基 . Even faster is 悠仁 who's already running toward 真人 in an attempt to exorcise him before 無為転変 can activate. However, 真人 is the fastest of all three. The two-step process of realizing one's innate domain and the activation of their 術式 are combined into one by 真人, who is awakened through 黒閃 . Without his hand, 東堂 is left vulnerable to 真人's 黒閃. As a result of activating his 領域展開, 真人 enters 宿儺 's innate domain for a moment. He asks 宿儺 if this is a safe space and inquires about his agreement with 悠仁. The King of Curses remains silent but 真人 revokes his questioning tone in order to challenge 宿儺. 真人 arrogantly claims 悠仁 will be dead before 宿儺 can switch consciousnesses with him and tells the King of Curses to shut up and watch. As 自閉円頓裹 ends, 東堂's left hand begins to transfigure. 悠仁 turns around to check on his fighting partner and 真人 knocks him to the ground while his back is turned. 東堂 quickly severs his own hand but this leaves him vulnerable to the approaching special grade 呪霊 . 東堂葵 uses 真人's hand to activate 不義遊戯 one last time. After activating 領域展開, the user's innate technique becomes difficult to control. 真人 became aware of this fact after escaping 里桜高校 . He instead attacks 東堂 with a strong punch enhanced by 黒閃 to the stomach that sends the top-knot gorilla reeling. The grade 1 sorcerer survives the heavy blow. 東堂 instinctively concentrated all his 呪力 to defend the blow and minimize the damage, surprising the 真人. The 呪霊 becomes able to activate 無為転変 again and plans to kill 東堂 with the next hit. 真人's focus is suddenly interrupted when 東堂's necklace falls to the ground and knocks open a small picture frame containing photos of 悠仁 and Takada. 真人 discovers the true essence of his soul. While his opponent is distracted, 東堂 uses 真人's hand to clap and activate 不義遊戯 . 東堂 instantly switches places with 悠仁, who strikes 真人 in the face with another 黒閃. 東堂 collapses and looks at his remaining hand while expressing luckily to be alive. Ready to finish the fight alone, 悠仁 looks back at 東堂 and thanks him for all his help. Heavily injured, 真人 creates a 撥体 to hold 悠仁 off. 真人 admits the top-knot gorilla was a problem for him till the very end. Despite his depleting condition, 真人 believes he's found the true essence of his soul from the previous exchange. 悠仁 defeats the 撥体 and 真人 evolves into his final stage of being, emerging from his cocoon in sense. 真人 activates 無為転変: 遍殺即霊体 ! Feeling reborn in his new form, 真人 asks 悠仁 to wish him a happy birthday.",
+    "characters_raw_text": "東堂葵 真人 虎杖悠仁 九十九由基 (言及のみ) 宿儺 五条悟 (回想) Nobuko Takada (Photograph)",
+    "locations_raw_text": "渋谷",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 東堂葵 vs. 真人 虎杖悠仁 & 東堂葵 vs. 真人",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 真人の術式 黒閃 領域展開：自閉円頓裹 無為転変 遍殺即霊体／多重魂／幾魂異性体 遍殺即霊体／多重魂／幾魂異性体 虎杖悠仁の術式 黒閃",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-0bca269a4a",
+    "char-1566dd973d",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-4b0b9dc682",
+    "tech-69d5ecb511",
+    "tech-71a2d65cad",
+    "tech-a0a8d9c6ff",
+    "tech-c657f1cc7e",
+    "tech-f0f06d52dc",
+    "tech-f81d55ad09"
+  ],
+  "term_ids_candidate": [
+    "term-69d5ecb511",
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase7": [
+    "東堂が簡易領域で自閉円頓裹へ対抗する",
+    "無為転変で東堂の左手が変形し自ら切断する",
+    "真人が東堂へ黒閃を当てる",
+    "東堂が真人の手を使って不義遊戯を発動する",
+    "虎杖が真人へ黒閃を当てる",
+    "真人が遍殺即霊体へ変貌する"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "left-hand-severed-severely-injured"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "transforms"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "mentioned-as-teacher"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-innate-domain"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-0bca269a4a",
+      "presence": "photograph"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-d76df97dca",
+    "char-18d7c58412",
+    "char-baadf43d19",
+    "char-1566dd973d",
+    "char-2b8d365a39",
+    "char-17322e71e5",
+    "char-0bca269a4a"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-f0f06d52dc",
+      "relation": "used-0.2-seconds"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "used-by-todo"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used-on-todo"
+    },
+    {
+      "technique_id": "tech-4688b07b42",
+      "relation": "last-successful-activation-with-mahito-hand"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "used-by-yuji-and-mahito"
+    },
+    {
+      "technique_id": "tech-c657f1cc7e",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-f0f06d52dc",
+    "tech-e28246ff34",
+    "tech-71a2d65cad",
+    "tech-4688b07b42",
+    "tech-69d5ecb511",
+    "tech-c657f1cc7e"
+  ],
+  "term_ids_verified_phase7": [
+    "term-e6a70dfe56",
+    "term-e28246ff34",
+    "term-54c44682c5",
+    "term-65867f280c",
+    "term-69d5ecb511"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-15",
+    "src-manga-games-vol-15",
+    "src-legacy-ju-txt"
+  ]
+}

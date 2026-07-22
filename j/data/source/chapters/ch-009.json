@@ -1,0 +1,115 @@
+{
+  "id": "ch-009",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 9,
+  "zero_number": null,
+  "label": "第9話",
+  "title_official": "呪胎戴天―肆―",
+  "title_search_normalized": "呪胎戴天―肆―",
+  "start_page": 27,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.27",
+  "summary_short": "伏黒は虎杖の肉体を支配する宿儺と対峙し、自分が不平等に人を助ける理由を語る。伏黒の言葉を受けた虎杖は肉体を取り戻すが、心臓を失ったまま死亡する。",
+  "summary_full": "宿儺は虎杖の肉体を支配したまま伏黒を襲う。伏黒は鵺や大蛇を召喚して抵抗するが、宿儺は式神を破壊し、圧倒的な速度と力で追い詰める。一方で宿儺は伏黒の術式と、死の危険を前にしても出し切らない姿勢に関心を示す。伏黒は姉・津美紀との過去を思い返し、自分は善人が不平等に救われるよう、助ける相手を自分の意思で選ぶのだと整理する。奥の手を使う覚悟を決めた伏黒へ、内側で言葉を聞いていた虎杖が応える。虎杖は肉体を奪い返し、伏黒に助けられたことへの感謝を伝えるが、心臓を失った肉体は耐えられず、その場で死亡する。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 faces off with 宿儺 , who's now in full control of 悠仁 's body and literally holds his fate in his hand. Determined to rescue 悠仁, 恵 searches deep within for the reason why he fights and why he saved 悠仁 in the first place.",
+    "summary_full_legacy": "恵 takes on 宿儺! Facing 宿儺 alone, 恵 reminds himself that the only thing in life that's fair is that it's unfair for everyone. 恵 believes 悠仁 will return no matter what. 宿儺 isn't so sure, pointing out how 悠仁 was mulling over his insecurities before 恵 set off the signal. 恵 helps 悠仁 regain control but he falls dead as a result. 恵 decides that his only option is to try to wear down 宿儺 until he needs the heart back into his body. He's determined to do so and stakes his life on the line. He fights alongside his 式神 , but proves to be no match for 宿儺. 宿儺's physical strength and agility are completely out of 恵's league. He asks why 恵 didn't leave 悠仁 behind when he had the chance. 恵 knew a girl named 津美紀 , who's life was unfair. To help more good people receive fairness, 恵 proclaims he will save people unfairly. Because he isn't a hero, he's a jujutsu sorcerer . Instead of using his ultimate ability , 恵 simply admits he never regretted saving 悠仁. 悠仁 takes back control of his body and tells 恵 to live a long life before falling over dead.",
+    "characters_raw_text": "伏黒恵 宿儺 虎杖悠仁 伏黒津美紀 (想像)",
+    "locations_raw_text": "少年院／第2宿舎",
+    "battles_events_raw_text": "伏黒恵 vs. 宿儺",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 大蛇 鵺 大蛇 鵺",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-0f2e6e85bf",
+    "char-2abcf48f04",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-996d48af99",
+    "char-b18262c082",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2abcf48f04",
+    "tech-7c3237f986",
+    "tech-996d48af99"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase1": [
+    "宿儺が伏黒の式神を破壊する",
+    "伏黒が津美紀との過去と救命の信条を思い返す",
+    "伏黒が奥の手を使おうとする",
+    "虎杖が主導権を奪い返して死亡する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "flashback"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-3c1852867d",
+    "char-2b8d365a39",
+    "char-baadf43d19",
+    "char-0f2e6e85bf"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-2abcf48f04",
+      "relation": "used-and-destroyed"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-2abcf48f04"
+  ],
+  "term_ids_verified_phase1": [
+    "term-cba4367139",
+    "term-252cb4a664"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

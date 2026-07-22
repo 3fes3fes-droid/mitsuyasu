@@ -1,0 +1,158 @@
+{
+  "id": "ch-262",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 29,
+  "number": 262,
+  "zero_number": null,
+  "label": "第262話",
+  "title_official": "人外魔境新宿決戦㉞",
+  "title_search_normalized": "人外魔境新宿決戦34",
+  "start_page": 150,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-29"
+  ],
+  "source_locator": "単行本29巻 目次 p.150",
+  "summary_short": "五条の肉体を使う乙骨は宿儺と領域を展開し合い、三分以内の決着を狙う。六眼と無下限呪術の扱いに苦戦しながら、宿儺との接近戦を続ける。",
+  "summary_full": "五条の肉体を使う乙骨は宿儺と領域を展開し合い、三分以内の決着を狙う。六眼と無下限呪術の扱いに苦戦しながら、宿儺との接近戦を続ける。乙骨は六眼を持つ五条の肉体でも無下限の精密操作に苦戦する。五条の記憶と修行を頼りに小型領域を再現し、宿儺の領域を三分間耐える。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The King of Curses and the Prodigy of the Modern Era battle in their altered forms. This inhuman showdown will be decided in three minutes.",
+    "summary_full_legacy": "憂太 re-creates 五条's miniature barrier to combat 宿儺's domain. 憂太 and 宿儺 simultaneously expand their domains , forming a barrier no larger than a sports ball directly in front of 悠仁 and 東堂 . The shrunken 無量空処 represents 五条悟 ’s countermeasure to 伏魔御廚子 , as its compact form was previously capable of withstanding external slashing attacks against its barrier for up to three minutes. 憂太 is able to replicate this feat through replacement training with 五条, which significantly improved his barrier techniques, and he confidently resolves to defeat the exhausted 宿儺 within the same time limit as his teacher. In response, 宿儺 counters the strategy by compressing 伏魔御廚子’s effective range to match the outer shell of 無量空処, eliminating the domain’s original 99-second time limit. With both domains now restricted to a three-minute window, 憂太 aims to damage 宿儺 enough to prevent him from maintaining his domain, while 宿儺 plans to shatter 無量空処, expand his domain’s range, and annihilate the remaining sorcerers outside. 里香 watches over 憂太's body. 憂太 attempts to activate 術式 術式順転「蒼」 , but 宿儺 immediately closes the distance and engages him in hand-to-hand combat . 憂太 is caught off guard when 宿儺 is able to make physical contact through 無限 , suffering several direct blows before realizing that 宿儺 is using domain amplification while his domain is expanded. 宿儺 confirms that the sorcerers lack knowledge of the exchanges that occurred within the domains during his battle with 五条, as 冥冥 ’s crows were unable to observe them. Meanwhile, a fully manifested 里香 mournfully cradles 憂太’s original, lifeless body outside the domain. 憂太 struggles to adjust fighting in 五条's body. As the fight continues, 憂太 manages to create distance and realizes that he is limited to using 無下限呪術 , as 里香 did not follow him into 五条’s body. He also deduces that 宿儺 cannot perform the world-cutting slash with only his right hands, leaving domain amplification as 宿儺’s primary method of bypassing 無限. Despite holding a theoretical advantage, 憂太 struggles to land clean hits. Even with replacement training, he finds it difficult to adjust to 五条’s elongated limbs and innate technique. He understands first hand why the 無下限呪術 can't be used without the 六眼 and questions what 五条 had to put himself through to become the strongest. After 憂太 misfires Blue, 宿儺 mocks him for wasting precious time and strikes him away. 棘 helps 憂太 using a voice recording to stun 宿儺 with cursed speech. Having learned of 憂太’s 模倣 technique and its conditions from 羂索 , 宿儺 correctly infers that 無下限呪術 is the only technique 憂太 can use in his current state. Recognizing 憂太’s intention to end the fight before 模倣’s duration expires, 宿儺 becomes wary of 虚式「茈」 . As 憂太 recalls 五条’s lessons on 呪力 control from his borrowed memories, he begins the incantation and forms the hand signs for 虚式「茈」. 宿儺 intercepts him, grabbing 憂太’s arms to disrupt the technique and relentlessly attacking, denying him any opening to complete the chant. Anticipating 宿儺’s heightened vigilance against 無下限呪術, 憂太 instead uses Blue to draw a voice recorder into the domain. The device plays 狗巻棘 ’s voice, issuing a 呪言 command for 宿儺 to stop moving, paralyzing the King of Curses. As 棘 coughs up a large amount of blood, 宿儺 realizes that the command originated from the actual user whose technique 憂太 copied. With 宿儺 immobilized, 憂太 completes the empowered incantation for 虚式「茈」 and prepares to fire it.",
+    "characters_raw_text": "乙骨憂太 宿儺 東堂葵 虎杖悠仁 五条悟 (回想) 里香 羂索 (言及のみ) 禪院真希 (回想) パンダ (回想) 狗巻棘",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "宿儺の術式 Domain 領域展延 領域展開：伏魔御廚子 狗巻棘の術式 呪言 乙骨憂太の術式 領域展開：無量空処 無下限呪術 術式 術式順転「蒼」 虚式「茈」 術式 術式順転「蒼」 虚式「茈」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-672d843799",
+    "char-678a848346",
+    "char-a61d6ef891",
+    "char-ba2d62b596",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-fd5a754a56"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-1baac5a3fc",
+    "tech-34f2643025",
+    "tech-4b0b9dc682",
+    "tech-6246245c7a",
+    "tech-90aaa17cfe",
+    "tech-cf2f8dca4a",
+    "tech-deb6545546",
+    "tech-fb21434f98"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "五条の肉体を使う乙骨は宿儺と領域を展開し合い、三分以内の決着を狙う。",
+    "六眼と無下限呪術の扱いに苦戦しながら、宿儺との接近戦を続ける。",
+    "乙骨は六眼を持つ五条の肉体でも無下限の精密操作に苦戦する。",
+    "五条の記憶と修行を頼りに小型領域を再現し、宿儺の領域を三分間耐える。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-672d843799",
+    "char-678a848346",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-fd5a754a56"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-fd5a754a56",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-14f96ce777",
+    "tech-af5ae87255",
+    "tech-cf2f8dca4a",
+    "tech-1baac5a3fc"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-af5ae87255",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-1baac5a3fc",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-29",
+    "src-manga-games-vol-29",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

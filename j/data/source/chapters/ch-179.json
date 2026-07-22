@@ -1,0 +1,141 @@
+{
+  "id": "ch-179",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 20,
+  "number": 179,
+  "zero_number": null,
+  "label": "第179話",
+  "title_official": "仙台結界⑥",
+  "title_search_normalized": "仙台結界6",
+  "start_page": 147,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-20"
+  ],
+  "source_locator": "単行本20巻 目次 p.147",
+  "summary_short": "三者の領域は外部から侵入した黒沐死によって崩壊する。混乱の中で烏鷺が重傷を負い、乙骨と石流が残って決着を争う。",
+  "summary_full": "乙骨・烏鷺・石流の領域は、三者の結界条件が干渉したうえ、外部にいたリカと、黒沐死が単為生殖で残した個体が侵入したことで崩壊する。術式が焼き切れた烏鷺は黒沐死の爛生刀を受け、さらに乙骨と石流の攻撃で片腕を失う。乙骨は黒沐死の新個体へ再び正のエネルギーを流して祓う。烏鷺が戦闘不能となり、残る乙骨と石流が正面から決着を争う。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The 仙台結界 's most elite players release three Domain 領域展開s all at once! As their three-way battle approaches its climax, 龍 and 烏鷺 try to get an advantage on 憂太 . However, an unexpected intruder enters the barrier and throws the situation into even more chaos.",
+    "summary_full_legacy": "A modern-day black demon skitters back into the battle. Overlapping domains cancel out each other's sure-hit function. Without that advantage, 龍 and 烏鷺 need to stop 憂太 from taking the initiative by keeping 里香 out of the barrier. 烏鷺 thinks about how 里香 may intrude later while 龍 focuses on forming his domain quickly. 龍 had already knocked 里香 over twenty meters away so it was unlikely she would reach the barrier in time. The last vestiges of Orimoto's will inside 里香 couldn't accept being unable to protect 憂太 and her strength ratchets up a notch. The three unstable domains break apart. Suddenly, 黒沐死 reappears and infiltrates the barrier while its cockroaches occupy 里香. Before going dormant, 黒沐死 reproduced via parthenogenesis. After 憂太 exorcised the parent, the country's 呪力 of fear was transferred to the offspring. Kuorurushi the player indeed perished, but 黒沐死 the 呪霊 is still completely active. Three overlapping domains are more complex than two and the conditions imbued within their barriers complicate things even further. With the addition of an unexpected intruder, the barriers are comprised and crumble apart. 龍 takes out 烏鷺 and 黒沐死. 憂太 notices that 烏鷺 is totally focused on 黒沐死, to who she is at a disadvantage against. 憂太 takes the opportunity to kick 烏鷺 while she's distracted, knocking her toward 黒沐死. The 呪霊 rushes her with the 爛生刀 and 烏鷺 tries to respond by activating her 術式 . However, cursed techniques are difficult to use immediately after using 領域展開. 烏鷺's ability to manipulate space burns away in her hand, leaving her open to 黒沐死's assault. The cockroach curse slashes 烏鷺's left arm and insect-like curses spawn from the wound, severing her limb completely. 里香 acts quickly by devouring 烏鷺's arm, impressing 龍. He notes that 憂太 is thorough and that it's unlikely 烏鷺 can regenerate her entire arm even if she uses 反転術式 . The table is set for 憂太 and 龍's final clash! Irate over the loss of her arm, 烏鷺 angrily calls out to the Fujiwara descendant. 龍 tells her to stop because she and 黒沐死 aren't invited to his table. 龍's 術式 is called 呪力放出 and he's the only sorcerer capable of outputting the same amount of power regardless if his technique is active or not. He blasts 烏鷺 and 黒沐死 with グラニテブラスト , incapacitating 烏鷺. 黒沐死's body is partially destroyed, making it simple for 憂太 to exorcise it with positive energy. Excited for his dessert, 龍 fixes his hair and welcomes 憂太 to the table. He charges his 呪力 and takes aim while 憂太's 術式 has yet to replenish. With 憂太 and 里香 working together to counter 龍's next move, the table is set for their final battle.",
+    "characters_raw_text": "烏鷺亨子 乙骨憂太 石流龍 里香 折本里香 (言及のみ) 黒沐死",
+    "locations_raw_text": "仙台結界 仙台市 仙台市",
+    "battles_events_raw_text": "死滅回游 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍",
+    "techniques_raw_text": "呪具 爛生刀 黒沐死の術式 Cockroach Manipulation (名称不明) 石流龍の術式 呪力放出／グラニテブラスト 領域展開 グラニテブラスト 烏鷺亨子の術式 Sky Manipulation (名称不明) 領域展開 乙骨憂太の術式 領域展開 里香",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sendai",
+  "character_ids_candidate": [
+    "char-46cd8034d9",
+    "char-4a29b3de7b",
+    "char-ba2d62b596",
+    "char-c28763b98a",
+    "char-fd5a754a56",
+    "char-fe30ff0de9"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-536c06630d",
+    "tech-5607df824a",
+    "tech-a9666d4ecb",
+    "tech-c4bca862c9"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase9": [
+    "三者の領域展開が崩壊する",
+    "黒沐死の単為生殖個体が戦場へ侵入する",
+    "烏鷺が爛生刀を受け片腕を失う",
+    "乙骨が黒沐死の新個体を祓う",
+    "乙骨と石流の一対一になる"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-fd5a754a56",
+      "presence": "enters-domain-area"
+    },
+    {
+      "character_id": "char-4a29b3de7b",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-fe30ff0de9",
+      "presence": "severely-injured"
+    },
+    {
+      "character_id": "char-46cd8034d9",
+      "presence": "offspring-destroyed"
+    },
+    {
+      "character_id": "char-ba2d62b596",
+      "presence": "will-mentioned"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-c28763b98a",
+    "char-fd5a754a56",
+    "char-4a29b3de7b",
+    "char-fe30ff0de9",
+    "char-46cd8034d9",
+    "char-ba2d62b596"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-c4bca862c9",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-ce37bd5b31",
+      "relation": "offspring-appears"
+    },
+    {
+      "technique_id": "tech-536c06630d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "positive-output-used"
+    },
+    {
+      "technique_id": "tech-5fff07b019",
+      "relation": "connection-continues"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-c4bca862c9",
+    "tech-ce37bd5b31",
+    "tech-536c06630d",
+    "tech-cf5d1ac726",
+    "tech-5fff07b019"
+  ],
+  "term_ids_verified_phase9": [
+    "term-3efd4cb8d8",
+    "term-96346336c2",
+    "term-e6a70dfe56",
+    "term-54c44682c5",
+    "term-phase6-positive-energy"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-20",
+    "src-manga-games-vol-20",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}
