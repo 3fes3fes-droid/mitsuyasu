@@ -1,0 +1,141 @@
+{
+  "id": "ch-109",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 13,
+  "number": 109,
+  "zero_number": null,
+  "label": "第109話",
+  "title_official": "渋谷事変㉗",
+  "title_search_normalized": "渋谷事変27",
+  "start_page": 51,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-13"
+  ],
+  "source_locator": "単行本13巻 目次 p.51",
+  "summary_short": "伏黒は陀艮の領域と押し合い、必中効果を消して仲間の脱出口を作る。脱出直前、その穴から降霊された伏黒甚爾が侵入する。",
+  "summary_full": "伏黒の嵌合暗翳庭によって陀艮の必中は無効化され、真希は游雲で陀艮へ有効打を与える。伏黒が領域を維持する間、七海は彼を守り、直毘人も片腕を失いながら戦線へ復帰する。伏黒は海面に脱出口を作り、全員を領域外へ逃がそうとするが、陀艮が察知して接近。穴から外へ出る直前、降霊された甚爾が逆に領域内へ侵入する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 comes to the rescue of his fellow jujutsu sorcerers by infiltrating 陀艮's 領域展開 with his own. The sorcerers are able to mount a counterattack against the curse without the domain's automatic hit active. However, their escape takes an unexpected turn when someone else follows 恵 inside.",
+    "summary_full_legacy": "Still in the fight, 七海 protects 恵. A twister of 恵's liquid shadows erupts from the ocean of the 蕩蘊平線 . Momentarily floating above the tornado of shadows, 恵 looks outward over the coastal area and notices 陀艮. He immediately recognizes that the octopus-like curse is the master of the domain. 陀艮 believes 恵 is foolish for entering the domain voluntarily and prepares to attack him. 真希 quickly attacks 陀艮 with the special grade cursed tool : 游雲 , striking away a chunk of the 呪霊's arm with the first hit. 陀艮 is surprised that he was actually injured and 真希 follows up with another blow that sends 陀艮 skidding across the ocean water. He recovers from the attacks and recognizes that his guaranteed hit has been nullified because of 恵. Locked in a domain tug-of-war, 陀艮 decides its best to crush 恵 before doing anything else. The 呪霊 spawns fish 式神 from his body and sends them swimming through the water at his adversary. 七海 jumps across the 蝦蟇s manifested from 恵's 嵌合暗翳庭 and slices apart the fish. 恵 is surprised to see him and the 七海 asks about 悠仁 and 猪野. 恵 informs him of their status and 七海 focuses on protecting 恵 so he can concentrate on maintaining the domain. The jujutsu sorcerers attempt to flee the domain. 陀艮 is shocked 七海 managed to withstand 死累累湧軍 for about a minute. Suddenly, 直毘人 appears behind him and attacks with blinding speed. 陀艮 ducks under the attack and is equally surprised the old man survived as well. 真希 comes up to attack behind the curse and 陀艮 defends by spawning two large eel-like 式神 to repel the sorcerers. 直毘人 traps the one attacking him in a frame and crushes it with a powerful stomp. 真希 defends herself as well and they both stand on both sides of 陀艮. 直毘人 tells 陀艮 that all his attack did was get one arm. He adds that even if it was seventy-one years old, it will still cost the curse dearly. They would all bear witness to the bare flesh of the one who is free. 七海 continues defending 恵 but the young sorcerer is reaching his limit. 恵 reveals that he's actually trying to open a hole in the domain's barrier rather than engaging in a domain battle. The octopus-curse likely can't cast 領域展開 twice in the same day so if the jujutsu sorcerers can escape they can win. 七海 makes sure 恵 doesn't plan on staying behind and the student clarifies that he has no intention of throwing his life away. 七海 calls out to the Zenins and tells them to assemble in a roundabout way. They put their trust in 七海's words and rush toward him immediately. 陀艮 is confused for a moment but he quickly figures out his adversaries' plan. He panics and rushes to stop them. 七海 believes it's too late as a hole appears in the ground below 恵 that leads outside the barrier. Everyone assembles in time to escape, but something unexpected happens. Before the sorcerers can exit the domain, 伏黒甚爾 suddenly enters through the hole and they're all forced to bear witness to the flesh of the one who is free and all his overwhelming intensity.",
+    "characters_raw_text": "伏黒恵 陀艮 禪院真希 七海建人 禪院直毘人 伏黒甚爾",
+    "locations_raw_text": "渋谷 渋谷駅 (内部 陀艮の領域) 渋谷駅 (内部 陀艮の領域)",
+    "battles_events_raw_text": "The 渋谷事変 呪術師s vs. 陀艮 (終了) 呪術師s vs. 陀艮 (終了)",
+    "techniques_raw_text": "呪具 游雲 陀艮の術式 領域展開：蕩蘊平線／死累累湧軍 (言及のみ) 死累累湧軍 (言及のみ) 伏黒恵の術式 領域展開：嵌合暗翳庭 十種影法術 術式 蝦蟇 七海建人の術式 十劃呪法 禪院直毘人の術式 投射呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-6309a7e2f4",
+    "char-6674ce6baa",
+    "char-b18262c082",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-1cd41afe2a",
+    "tech-4b0b9dc682",
+    "tech-7c3237f986",
+    "tech-81aaf10015",
+    "tech-8b33629c5d",
+    "tech-b18262c082",
+    "tech-cc23098baa",
+    "tech-dc54ab0cd7",
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_candidate": [
+    "term-d97934afcd"
+  ],
+  "key_events_verified_phase6": [
+    "伏黒が領域を維持し陀艮の必中を無効化する",
+    "七海が伏黒を守る",
+    "真希が游雲で陀艮へ攻撃する",
+    "伏黒が領域の脱出口を作る",
+    "甚爾が領域へ侵入する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "appearance-one-arm-lost"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "enters-domain"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-3c1852867d",
+    "char-6674ce6baa",
+    "char-6309a7e2f4",
+    "char-24d736edff",
+    "char-22abdd626c",
+    "char-d5482ceba1"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-1cd41afe2a",
+      "relation": "maintained"
+    },
+    {
+      "technique_id": "tech-81aaf10015",
+      "relation": "contested"
+    },
+    {
+      "technique_id": "tech-phase6-playful-cloud",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-dc54ab0cd7",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-1cd41afe2a",
+    "tech-81aaf10015",
+    "tech-phase6-playful-cloud",
+    "tech-dc54ab0cd7"
+  ],
+  "term_ids_verified_phase6": [
+    "term-phase6-domain-clash",
+    "term-d97934afcd",
+    "term-bf1b3beaca"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-13",
+    "src-manga-games-vol-13",
+    "src-legacy-ju-txt"
+  ]
+}

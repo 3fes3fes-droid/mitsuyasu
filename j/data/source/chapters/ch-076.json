@@ -1,0 +1,157 @@
+{
+  "id": "ch-076",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 76,
+  "zero_number": null,
+  "label": "第76話",
+  "title_official": "玉折",
+  "title_search_normalized": "玉折",
+  "start_page": 107,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.107",
+  "summary_short": "星漿体事件後、五条は術式を自動化して単独で「最強」へ近づく。一方の夏油は呪霊を取り込む苦痛と非術師への疑念を抱え、孤立していく。",
+  "summary_full": "星漿体事件から約一年後、五条は無限の対象選別を自動化し、反転術式で脳を常時回復させることで術式を維持できるようになっていた。「赫」と「茈」も安定し、一人で任務を完結できる最強へ近づく。一方、夏油は単独任務が増え、祓った呪霊を取り込むたびに吐瀉物を処理した雑巾のような味を耐え続ける。理子の死を喜んだ盤星教信者の姿も心に残り、非術師を守る信念が揺らぐ。明るい後輩の灰原雄と入れ替わるように、特級術師・九十九由基が夏油を訪ねる。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the aftermath of their failed escort, 悟 and 傑 question what the importance is of being a sorcerer . A year later, 悟 improves his abilities even further and becomes known as the strongest. At the same time, 傑 begins to fall into self isolation, constantly questioning his morals when it comes to non-sorcerers.",
+    "summary_full_legacy": "悟 recovers 天内理子's body. 傑 makes his way to the 家 of the Star and is surprised to find 甚爾 's inventory curse injured on the ground. He goes inside to find 悟 holding 理子 's covered corpse, surrounded by the worshippers applauding her death. Shocked by how much 悟 has changed, 傑 even questions if he's the same person. 悟 asks if 傑 feels like killing all the non-sorcerers around them because in his current state of mind he doesn't think he'd feel anything. 傑 replies that it's pointless since the one's in charge fled. Now that the sorcerers are still involved the 時の器の会 can't talk themselves out of this situation anymore. As a group with problems to begin with, the 盤星教 will disband with time. 悟 questions if there even needs to be a reason but 傑 assures him there does, especially for jujutsu sorcerers. \"Monkeys...\" One year later in August 2007, 悟 demonstrates to 傑 and 硝子 his ability to automatically activate and utilize the infinity. He now possesses an automatic targeting option for jujutsu that can distinguish between mass speed, shape, and intensity of fused energy all in order to ascertain the danger of any approaching object. Now 悟 can almost always have the 無下限呪術 active with minimal resources. Normally doing so would fry his brain, but using a reversed 術式 at the same time keeps him fresh. \"What kind of girls do you like?\" As 悟 tells them about his other improvements, 傑 can't help but notice that 悟 alone became \"the strongest\". Now that he can handle any mission on his own, 傑 will be going on more assignments alone as well. With last years frequent disasters, curses spawned all over Japan making it a busy summer for sorcerers. The endless cycle of exorcism and consumption using his curse spirit manipulation was beginning to weigh on 傑. He's beginning to lose his way due to the hideous evil of humanity. He wants to follow through with his duty as a sorcerer, but 傑 can't help but think of all those followers of the star as monkeys. After 傑 takes a shower he waits around in a room alone to think until 灰原雄 comes to give him some company. He tells him about his far away mission the next day and they discuss souvenirs until 傑 decides to ask 灰原 if he's okay with being a sorcerer. 灰原 replies that he's not the type to think about tough questions but giving his all toward something he can help with provides a great feeling for him. 傑 agrees and suddenly they're both confronted by a woman , asking what kind of girls they're into.",
+    "characters_raw_text": "夏油傑 五条悟 天内理子 家入硝子 灰原雄 九十九由基",
+    "locations_raw_text": "盤星教／東京 呪術高専",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "夏油傑の術式 呪霊操術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-17322e71e5",
+    "char-63e2590b87",
+    "char-b2b454d6e2",
+    "char-b9d4880408",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-e3eff1da1c",
+    "term-cf5652fdbe",
+    "term-ad8bd57883",
+    "term-6f0611c4ff"
+  ],
+  "key_events_verified_phase4": [
+    "五条が無限の常時自動化を実現する",
+    "五条が単独で最強へ近づく",
+    "夏油の孤立と思想の揺らぎが深まる",
+    "九十九由基が高専へ来る"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b2b454d6e2",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-mentioned"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-b9d4880408",
+    "char-17322e71e5",
+    "char-63e2590b87",
+    "char-d4a4bc45c6",
+    "char-b2b454d6e2",
+    "char-6309a7e2f4",
+    "char-1566dd973d"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "automated"
+    },
+    {
+      "technique_id": "tech-8b181ff845",
+      "relation": "automated"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "continuous-brain-healing"
+    },
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "mastered"
+    },
+    {
+      "technique_id": "tech-6e6dd087e1",
+      "relation": "mastered"
+    },
+    {
+      "technique_id": "tech-fb21434f98",
+      "relation": "mastered"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "burden-explained"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-cf2f8dca4a",
+    "tech-8b181ff845",
+    "tech-cf5d1ac726",
+    "tech-90aaa17cfe",
+    "tech-6e6dd087e1",
+    "tech-fb21434f98",
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase4": [
+    "term-phase4-limitless-automation",
+    "term-cf5d1ac726",
+    "term-cf5652fdbe",
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

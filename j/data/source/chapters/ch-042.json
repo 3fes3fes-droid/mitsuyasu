@@ -1,0 +1,130 @@
+{
+  "id": "ch-042",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 42,
+  "zero_number": null,
+  "label": "第42話",
+  "title_official": "京都姉妹校交流会―団体戦⑨―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦9―",
+  "start_page": 151,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.151",
+  "summary_short": "真希と真依が直接対決する。禪院家を出た真希への恨みを吐露する真依に対し、真希は圧倒的な武器術と身体能力で勝利する。",
+  "summary_full": "真希は真依の銃撃を武器で払い、接近戦で圧倒する。真依は一日一発が限界の構築術式で七発目の弾丸を作り、不意を突くが、真希は素手で弾を受け止めて勝利する。回想では、幼い真希が呪霊から真依を守り、やがて禪院家を出て当主になると宣言したことで、直毘人が残された真依にも試練を課した経緯が示される。真依は術師になりたかったのではなく、双子で一緒に落ちこぼれていたかったと泣き、真希は自分を嫌いになりたくなかったと答える。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The sisters collide and 真依 is forced to realize that 真希 has something she doesn't. She resents 真希 for leaving the 禪院家 and feels the pressure of living up to be better than her. Despite 真依's best efforts, 真希 shows her little sister the difference in their strength.",
+    "summary_full_legacy": "真希 helping 真依 run away from a curse during their childhood. Just prior to the start of the Goodwill Event, 野薔薇 asked 悠仁 what he thought about 真希. He was afraid of answering but 野薔薇 means as a jujutsu sorcerer. Despite not knowing much about jujutsu, 悠仁 could tell she's a tough fighter just by her poise. 野薔薇 revealed that she was only grade 4 due to her family but they could help get her noticed during the event if they do well in the Team Event. 真希 overheard them and recalls this at the start of her fight with 真依. 真希 is skilled enough to slash apart 真依's bullets and cuts off her footing with just a sword. 真依 attempts to fend her off by shooting but 真希 evades and kicks 真依 aside. This reminds 真依 that her sister has something that she was born with, something that 真依 does not. 真依 reveals her 術式: 構築術式! In their childhood, 真希 would help 真依 ignore curses that appeared around their home. 真依 was jealous of how carefree 真希 could be, and this eventually lead to 真希 leaving the family altogether. Their old man, 禪院直毘人 threatened to make 真依's life harder but 真希 demanded she stays out of this matter. 真依 overheard this and called her sister a liar for leaving. After deflecting 真依's sixth bullet, 真希 believes her opponents revolver is empty. However, 真依 despises her sister so she never shared the details of her 術式: 構築術式 . This allows 真希 to construct one bullet a day using mass amounts of 呪力 that puts a strain on her body. This allows 真依 to take her sister off guard, but 真希's reflexes are fast enough to catch the bullet. 真希 eliminates her sister. 真依 believes that 真希 has something she doesn't. Perhaps a reverse form of メカ丸's Heavenly Restriction . 真希 was supposed to be born with a 術式 but she traded them for superhuman physical abilities. This was shunned on by the 禪院家, but it's an ability that 真依 does not have. Defeated, 真依 recalls her sister promising that she would never leave. She asks why 真希 wouldn't live out life as a peasant with her instead of leaving her behind. 真依 never wanted to be a sorcerer and felt like she had to because 真希 went to chase her dreams. Desperate for answers, 真依 asks why 真希 didn't fall down the hole with her. 真希 responds that she would never have been able to live with herself and leaves her sister behind. Before being officially eliminated, 真依 cries while calling her sister a liar and claims she hates her.",
+    "characters_raw_text": "釘崎野薔薇 (回想) 虎杖悠仁 (回想) パンダ (回想) 禪院真希 伏黒恵 (回想) 狗巻棘 禪院真依 禪院直毘人 (回想)",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 禪院真希 vs. 禪院真依 (開始・終了) 呪霊討伐競争 禪院真希 vs. 禪院真依 (開始・終了) 禪院真希 vs. 禪院真依 (開始・終了)",
+    "techniques_raw_text": "禪院真依の術式 構築術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-59d1d0e465"
+  ],
+  "term_ids_candidate": [
+    "term-f74654d902",
+    "term-a927605750"
+  ],
+  "key_events_verified_phase3": [
+    "真依が構築術式で七発目の弾丸を作る",
+    "真希が弾丸を素手で受け止めて勝利する",
+    "双子が禪院家で受けた扱いが描かれる",
+    "真依が真希に置いていかれた本心を明かす"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-5a0f7ded8d",
+    "char-baadf43d19",
+    "char-672d843799",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-a61d6ef891",
+    "char-5724ed462b",
+    "char-22abdd626c"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-59d1d0e465",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-59d1d0e465"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-f74654d902",
+    "term-bfcc1b065d",
+    "term-ad8bd57883"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

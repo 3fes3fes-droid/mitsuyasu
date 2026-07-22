@@ -1,0 +1,170 @@
+{
+  "id": "ch-249",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 28,
+  "number": 249,
+  "zero_number": null,
+  "label": "第249話",
+  "title_official": "人外魔境新宿決戦㉑",
+  "title_search_normalized": "人外魔境新宿決戦21",
+  "start_page": 71,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-28"
+  ],
+  "source_locator": "単行本28巻 目次 p.71",
+  "summary_short": "乙骨は髙羽との連携で羂索を奇襲し、死滅回游の権限が宿儺へ移されたことを知る。新宿で領域展開「真贋相愛」を発動し、虎杖とともに宿儺へ挑む。",
+  "summary_full": "乙骨は髙羽との連携で羂索を奇襲し、死滅回游の権限が宿儺へ移されたことを知る。新宿で領域展開「真贋相愛」を発動し、虎杖とともに宿儺へ挑む。乙骨は羂索の首を斬った後、暴走した呪霊をリカと処理して新宿へ急行していた。真贋相愛を展開し、天使の術式を必中に設定したまま宿儺を領域へ閉じ込める。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The surprise attack on 羂索 was successful but his failsafe remains firmly a threat in the hands of 宿儺 . 憂太 takes responsibility for the precarious situation by going all out with 悠仁 and 里香 at his side to bring this showdown to a decisive end.",
+    "summary_full_legacy": "As 羂索 declared that his will shall be inherited, 憂太 noticed the 呪詛師 's headless body beginning to shake vigorously. He realized too late that 羂索's death caused him to lose control over 呪霊操術 , thus releasing all of his absorbed 呪霊 . The swarm of curses burst out of the forest and rushed onto a bridge but 里香 intercepted the stampede of curses. Vagabond 呪霊 rampage after 羂索's death. Meanwhile in the forest, a writhing black mass attached to 羂索's still functioning head lifts him above the tree line. As a failsafe, 羂索 requested コガネ add a rule to the 死滅回游 that gave 伏黒恵 the authority to activate the Great Merger between the people of Japan and 天元 . As コガネ accepted and added the rule, 羂索 revealed that as part of his backup plan, he had 宿儺 undergo the ritual of succession beforehand, and all he needed to do was overwrite the originator of the merging ritual using the 死滅回游 as a basis. 憂太 noticed a fetus-like 天元 inside an orb in the black mass, which quickly bursted out of the orb and flew to 宿儺 at high speed. In response, 憂太 leapt at 羂索's head and stabbed his katana through his brain. With a smile, 羂索 admitted that while he did not have a thousand years worth of fun, he was glad that he got to fool around with 高羽史彦 in the end. His final words are to warn 憂太 that it was his turn to have fun, promising it will be amusing. 憂太 and 里香 attack 宿儺. In the present, 憂太 stares down at 宿儺 and notices that his 反転術式 output is recovering, meaning he will regain his ability to expand his domain soon. Blaming himself for 日車寛見 's death and the failure of the plan, 憂太 tries to convince himself that 里香 was needed to deal with the released 呪霊. To open the clash, 里香 uses her body to obstruct 宿儺's vision and 憂太 thrusts his katana at 宿儺 through it. 宿儺 dodges the sword and grabs it, with 憂太 noticing that he is surrounding his hand with miniature chainsaw-like slashes to avoid directly touching the blade. \"領域展開：真贋相愛.\" 憂太 lets go of the katana, and 里香 attacks 宿儺 at the same time. Fending off the 呪霊 with two of his hands, 宿儺 is left open to a gut punch from 憂太, causing the mouth on his stomach to wince. Repossessing his sword, 憂太 engages in a few physical exchanges with 宿儺 as 里香 assists him. Admitting that he is only making excuses for himself, 憂太 resolves to make up for his faults by finishing off 宿儺 and activates his 領域展開：真贋相愛 . 悠仁 ready to fight alongside 憂太 within his domain. Reacting to 憂太's 領域展開, 宿儺 immediately uses 彌虚葛籠 , neutralizing the domain's sure-hit effect. 憂太 quickly grabs one of the katanas created by his domain and swings at 宿儺. 宿儺 blocks the slash, but notes a crack forming around the blade as 憂太 uses 宇守羅彈 . The technique shatters space like thin-ice and the impact sends 宿儺 flying back.. As the katana shatters into nothingness, 宿儺 recovers and realizes what the sorcerers' backup plan is. Using 恵's memories, he knows that 憂太's innate technique is 模倣 , and he surmises the domain's sure-hit effect is likely the 天使 's 術式 術式消滅 . Their plan is to handicap 宿儺 by forcing him to constantly neutralize the sure-hit effect using 彌虚葛籠, thus occupying half of his arms and mouths to form the hand signs and chant the incantations. At the same, 憂太 will attack him with his copied cursed techniques alongside 虎杖悠仁 , who is also present within the domain. 悠仁 will tear 宿儺 from 恵's body with his soul-seizing punches. As the two jujutsu high students and 里香 face down 宿儺, he sarcastically congratulates 悠仁 for finally having a significant role to play.",
+    "characters_raw_text": "乙骨憂太 羂索 (回想) 里香 高羽史彦 (回想) 天元 (回想) 宿儺 日車寛見 (言及のみ) 禪院真希 (言及のみ) 伏黒恵 (言及のみ) 天使 (言及のみ) 虎杖悠仁",
+    "locations_raw_text": "岩手県・御所湖結界 東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "羂索の術式 呪霊操術 宿儺の術式 彌虚葛籠 御廚子 乙骨憂太の術式 模倣 Sky Manipulation* 宇守羅彈 領域展開：真贋相愛 里香 宇守羅彈",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-02aa196fbb",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-3c1852867d",
+    "char-65e7fd1c87",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-8a6e43878f",
+    "char-ba2d62b596",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-fd5a754a56"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-1e8e6dda24",
+    "tech-2326f083fd",
+    "tech-2e1d5d03db",
+    "tech-4b0b9dc682",
+    "tech-582460898c",
+    "tech-9fc56bc1ca",
+    "tech-a9666d4ecb"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56",
+    "term-bb89ef15f2"
+  ],
+  "key_events_verified_phase11": [
+    "乙骨は髙羽との連携で羂索を奇襲し、死滅回游の権限が宿儺へ移されたことを知る。",
+    "新宿で領域展開「真贋相愛」を発動し、虎杖とともに宿儺へ挑む。",
+    "乙骨は羂索の首を斬った後、暴走した呪霊をリカと処理して新宿へ急行していた。",
+    "真贋相愛を展開し、天使の術式を必中に設定したまま宿儺を領域へ閉じ込める。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-02aa196fbb",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-3c1852867d",
+    "char-65e7fd1c87",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-8a6e43878f",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-fd5a754a56"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-8a6e43878f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-fd5a754a56",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-2e1d5d03db",
+    "tech-9fc56bc1ca",
+    "tech-fd5a754a56"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-2e1d5d03db",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-9fc56bc1ca",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-fd5a754a56",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-bb89ef15f2",
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-28",
+    "src-manga-games-vol-28",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

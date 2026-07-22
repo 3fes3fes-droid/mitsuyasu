@@ -1,0 +1,193 @@
+{
+  "id": "ch-270",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 30,
+  "number": 270,
+  "zero_number": null,
+  "label": "第270話",
+  "title_official": "夢の終わり",
+  "title_search_normalized": "夢の終わり",
+  "start_page": 129,
+  "official_group_id": null,
+  "db_section_draft_id": "ending",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-30"
+  ],
+  "source_locator": "単行本30巻 目次 p.129",
+  "summary_short": "生き残った術師たちは戦後の日常へ戻り、それぞれの課題と向き合う。伏黒は津美紀の墓を訪れ、虎杖たちは高専で新たな任務を受ける。",
+  "summary_full": "生き残った術師たちは戦後の日常へ戻り、それぞれの課題と向き合う。伏黒は津美紀の墓を訪れ、虎杖たちは高専で新たな任務を受ける。伏黒は津美紀の墓へ報告し、来栖の好意と向き合う。日車や髙羽を含む生存者の近況、死滅回游後も残る天元の結界、呪術界の再建が示される。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The jujutsu sorcerers and their allies pick up the pieces after the raid in 新宿 and move forward toward an uncertain future.",
+    "summary_full_legacy": "At 津美紀 's grave, 恵 thanks 硝子 for preparing his sister's body.  硝子 is happy that she was able to make 津美紀 look good for in the next life, before expressing her regret for not handling 夏油 's body and disbelief in the afterlife. As they leave the cemetery, 恵 receives a phone call and leaves while 硝子 stays behind, who looks at her cigarette before throwing it in the trash. At the Holy Mountain of Hida, 楽巌寺 explains that 宿儺 's remains which were stripped from 恵 had 天元 's absorbed vestiges. By placing them in the Holy Mountain, 天元の barriers in Japan can be maintained for a while. 歌姫 , who is with 明 , proposes that they think of countermeasures and contingencies soon, though the Kyoto 呪術高専 principal tells her that there is no need to rush, placing his trust in the younger generation. Elsewhere, Noritoshi returns to Japan with his mother and her family. Meanwhile, 真希 gives 大道 a katana cursed tool , causing the man to burst into tears. 真希 explains to him and 三代 that the 死滅回游 has lost its purpose, and the sorcerers plan to have 悠仁 and 華 strip cursed objects from the incarnated players and recover players abducted by the American military. 真希 subtly tells the two incarnated men to hide in 東京 since the capital is still declared off-limits and has a gathering of 呪霊 . While 大道 is glad that he could practice his blade, 三代 is discontent since he finds wrestling with curses boring. As they go their separate ways, 大道 asks 真希 to fight him when his time comes, to which she agrees. In a small apartment somewhere else, シャルル ベルナール starts drawing his manga while the Shueisha employee he injured supervises him. The two discuss printed manga, with シャルル admitting that he is not as good at drawing as he thought. He then gets angry when his supervisor demands that he hurry before the print shops close. In a cafe elsewhere, 高羽 tells his new comedy partner that they should limit their dirty jokes to potty jokes rather than sex jokes. His partner considers them the same, much to 高羽's frustration. As they leave, his partner mentions how 高羽's comment on rehearsing can be interpreted as a sexual innuendo. Returning to Sendai , 甘井 reunites with the student he and his group bullied and apologizes for his actions. When he looks up, the young man has ran away, causing 甘井 to reflect that he needs to improve his own behavior. Meanwhile, 日車 returns to his office and meets with his former associates. Shimizu comments that no charges were pressed on 日車 for his murders, leading him to believe that 呪術総監部 applied pressure since they wanted him to work as a sorcerer. As the lawyer representing the surviving families of those he killed, Shimizu declares she will request a retrial and prosecute 日車, which he looks forward to. At 東京 呪術高専 , the 天使 comments that 宿儺's deception against 華 during their battle means that 恵's memories of 華 were restored. Nonetheless, 華 remains embarrassed when she encounters 恵 in a hallway. Remembering the damage 宿儺 did and feeling responsible, 恵 swears to be 華's right arm henceforth, causing the girl to misinterpret his words as a marriage proposal. Flustered, 恵 stutters out that he has a mission so they will have to talk later. According to 伊地知 's report, two weeks ago, a woman returns to her apartment and finds her fiancée's eyes to be abnormally large, leading to the first-years' mission. Meeting the victim, the first-years find that the man appears to be completely normal. His fiancée wonders if she is the one who's cursed, leading 野薔薇 to examine her. Meanwhile, 悠仁 and 恵 speculate on the nature of the culprit, with 恵 believing it to be the work of a 呪詛師 , specifically an awakened player of the 死滅回游. 悠仁 believes they can make short work of the 呪詛師.",
+    "characters_raw_text": "家入硝子 伏黒恵 夏油傑 (言及のみ) 天元 (言及のみ) 宿儺 (言及のみ) 庵歌姫 新田明 楽巌寺嘉伸 加茂憲紀 禪院真希 六十四 三代 鋼 大道 シャルル ベルナール 高羽史彦 凛 甘井 日車寛見 天使 来栖華 伊地知潔高 釘崎野薔薇 虎杖悠仁",
+    "locations_raw_text": "Holy Mountain of Hida 東京 東京 呪術高専 Sendai 仙台市 東京 呪術高専 仙台市",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "epilogue-main",
+  "character_ids_candidate": [
+    "char-02aa196fbb",
+    "char-0cb661851e",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-4e5593708e",
+    "char-4ff7a5b46e",
+    "char-5a0f7ded8d",
+    "char-65e7fd1c87",
+    "char-69335b05c3",
+    "char-6eab17a5a8",
+    "char-830f121430",
+    "char-aabfd74fce",
+    "char-ac327bdd73",
+    "char-b4d661547b",
+    "char-b9d4880408",
+    "char-baadf43d19",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase11": [
+    "生き残った術師たちは戦後の日常へ戻り、それぞれの課題と向き合う。",
+    "伏黒は津美紀の墓を訪れ、虎杖たちは高専で新たな任務を受ける。",
+    "伏黒は津美紀の墓へ報告し、来栖の好意と向き合う。",
+    "日車や髙羽を含む生存者の近況、死滅回游後も残る天元の結界、呪術界の再建が示される。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-02aa196fbb",
+    "char-0cb661851e",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-4e5593708e",
+    "char-4ff7a5b46e",
+    "char-5a0f7ded8d",
+    "char-65e7fd1c87",
+    "char-69335b05c3",
+    "char-6eab17a5a8",
+    "char-830f121430",
+    "char-aabfd74fce",
+    "char-ac327bdd73",
+    "char-b4d661547b",
+    "char-b9d4880408",
+    "char-baadf43d19",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-4e5593708e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-4ff7a5b46e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-69335b05c3",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-aabfd74fce",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [],
+  "technique_appearances_verified_phase11": [],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-30",
+    "src-manga-games-vol-30",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

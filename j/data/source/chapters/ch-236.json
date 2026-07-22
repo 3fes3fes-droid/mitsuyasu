@@ -1,0 +1,175 @@
+{
+  "id": "ch-236",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 26,
+  "number": 236,
+  "zero_number": null,
+  "label": "第236話",
+  "title_official": "南へ",
+  "title_search_normalized": "南へ",
+  "start_page": 167,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-26"
+  ],
+  "source_locator": "単行本26巻 目次 p.167",
+  "summary_short": "五条は死後の心象で夏油たちと再会し、宿儺との戦いを振り返る。現実では、宿儺が魔虚羅の適応を手本に空間ごと断つ斬撃を放ち、五条の身体を両断していた。",
+  "summary_full": "五条は死後の心象で夏油たちと再会し、宿儺との戦いを振り返る。現実では、宿儺が魔虚羅の適応を手本に空間ごと断つ斬撃を放ち、五条の身体を両断していた。死後の心象で五条は夏油・七海らと語り、最強である孤独と宿儺戦への満足を振り返る。宿儺は魔虚羅の適応を模倣し、世界を対象にした斬撃で五条を両断したと説明する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 reunites with those fallen as the battle of the strongest comes to a devastating conclusion.",
+    "summary_full_legacy": "五条悟 has fallen to 宿儺 and his soul/mind arrives in a limbo fantasy of sorts set in an airport. His late best friend, 夏油傑 , is the first to greet him. 五条 satisfied with giving his all against 宿儺. They both appear as they did as students of 東京 呪術高専 . 五条 ignores 傑's greeting and sulks about dying, proclaiming that he hopes this is some kind of dream. He's annoyed about not telling 恵 about his father until he remembers he asked 硝子 to handle it. 傑 asks about the fight with 宿儺 and 五条 admits he was incredibly powerful. He even claims it wouldn't have been close even if 宿儺 didn't have the 十種影法術 術式 . Despite the admiration for 宿儺's strength, 五条 feels sorry for the King of Curses. He understands the isolation that comes with unrivaled strength. All of 五条's power, skill, intellect, and effort weren't enough to beat the King of Curses, but he still enjoyed the fight. He believes it's unfortunate that 宿儺 couldn't go all out and find that same satisfaction. 五条's only true regret was not having 傑 there at the end to slap him on the back. \"I pray that this all isn't just my imagination.\" 五条 is glad he died against a stronger opponent instead of in a dishonorable fashion. 七海 and 灰原 appear and tease 五条 about the samurai-like sentiment. 七海 tells 五条 that they couldn't leave everything to him because he always acted out of self-satisfaction. Even so, 七海 admits it was a fitting end for his friend. 五条 asks 七海 about his death and he responds with something 冥冥 once told him. When 七海 asked her where he should live, 冥冥 told him to go north if he wanted to become someone new and to go south if he wished to return to who he was before. He decided to go south due to an attachment to the past and finds it ironic that he died for the future. The death of 五条悟. 夜蛾 is in the airport as well. 五条 teases him about his saying that a sorcerer never dies without regret. Feeling as if he is a clear exception, 五条 and his allies laugh as he says he hopes this fantasy isn't a dream after all. The God of Lightning head toward near-certain death! Back in reality, 五条's body has been brutally bisected by a 解 that targets the world. 宿儺 explains how 魔虚羅 's adaptation works and how it adapted further to the 無限 . 宿儺 used this as a model for himself to achieve the near-impossible task of expanding his 術式 to target the world itself. That cut everything in that space regardless of the 無限, killing 五条. Rather than boast in victory, 宿儺 admits that 五条悟 was a magnificent opponent who he'll never forget. With 五条's death, the next sorcerer steps up to face the King of Curses without wasting any time. 宿儺 senses them approaching and expresses that he's feeling elated and doesn't want to be interrupted. What's coming is the God of Lightning, 鹿紫雲一 , dashing toward near-certain death.",
+    "characters_raw_text": "夏油傑 五条悟 狗巻棘 (想像) 秤金次 (想像) 灰原雄 七海建人 夜蛾正道 伏黒甚爾 (カメオ登場) 美里 黒井 (カメオ登場) 天内理子 (カメオ登場) 宿儺 虎杖悠仁 禪院真希 乙骨憂太 鹿紫雲一",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺 (終了)",
+    "techniques_raw_text": "五条悟の術式 無下限呪術 無限 (言及のみ) 無限 (言及のみ) 宿儺の術式 御廚子 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 (言及のみ) 八握剣異戒神将 魔虚羅 魔虚羅 (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-526551b91f",
+    "char-58278d1ec5",
+    "char-6309a7e2f4",
+    "char-63e2590b87",
+    "char-9fccad3ed6",
+    "char-a61d6ef891",
+    "char-b2b454d6e2",
+    "char-b9d4880408",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d5482ceba1",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-7c3237f986",
+    "tech-8b181ff845",
+    "tech-9761156f3b",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "五条は死後の心象で夏油たちと再会し、宿儺との戦いを振り返る。",
+    "現実では、宿儺が魔虚羅の適応を手本に空間ごと断つ斬撃を放ち、五条の身体を両断していた。",
+    "死後の心象で五条は夏油・七海らと語り、最強である孤独と宿儺戦への満足を振り返る。",
+    "宿儺は魔虚羅の適応を模倣し、世界を対象にした斬撃で五条を両断したと説明する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-526551b91f",
+    "char-58278d1ec5",
+    "char-6309a7e2f4",
+    "char-63e2590b87",
+    "char-9fccad3ed6",
+    "char-a61d6ef891",
+    "char-b2b454d6e2",
+    "char-b9d4880408",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d5482ceba1",
+    "char-dea43d7fc7"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-526551b91f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-b2b454d6e2",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-ab33983457"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-ab33983457",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-5aa1fd50d5"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-26",
+    "src-manga-games-vol-26",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

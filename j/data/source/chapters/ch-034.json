@@ -1,0 +1,170 @@
+{
+  "id": "ch-034",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 34,
+  "zero_number": null,
+  "label": "第34話",
+  "title_official": "京都姉妹校交流会―団体戦①―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦1―",
+  "start_page": 175,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.175",
+  "summary_short": "団体戦開始直後、東堂が単独で東京校へ突進する。虎杖が足止め役として対峙するが、東堂の高い戦闘能力に圧倒される。",
+  "summary_full": "交流会一日目の団体戦が始まる。東京校は玉犬で呪霊を探索し、東堂が正面から突っ込んでくる展開を予測して虎杖を足止め役に残す。東堂は東京校全員へ戦いを挑むが、虎杖の飛び膝で他の生徒は予定どおり分散する。虎杖は常人離れした身体能力で食らいつくものの、呪力を込めた東堂の打撃に圧倒される。東堂は立ち上がった虎杖へ、好きな女性のタイプを尋ねる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The 京都姉妹校交流会 begins and 東堂葵 makes a mad dash for the 東京 Team. 悠仁 steps up to face him alone but not even his brute strength is enough to overcome 葵's insane combat prowess.",
+    "summary_full_legacy": "Start!! One minute before the Goodwill Event begins, 五条 introduces 歌姫 over the loudspeaker and allows her to speak. However, 五条 pranks 歌姫 as time runs out and the event begins, cutting her off the microphone. Just before she's cut, 歌姫 yells at 五条 to respect his elders, confusing the student's listening on the field. The Team Battle begins as both teams begins on opposite sides of the area. パンダ believes the grade 2 curse is somewhere in the middle but will likely move. As 恵 uses 玉犬 to track nearby curses, the team follows close behind while 真希 instructs them to split into separate squads at the designated time. At that point they'll also be relying on 恵. 葵 charges straight for his 東京 rivals. The 東京 Team is confronted by a spider-like curse that 真希 prepares to take out, but 恵 warns her to stop. 葵 comes crashing through the trees, demanding the entire 東京 Team come at him all at once. However, 悠仁 immediately delivers a powerful lead flying knee directly to 葵's face, allowing the others to split up. 真希 admits that the team made a good choice leaving 葵 to 悠仁. During the meeting, 真希 predicted that 葵 would come charging straight for his rivals. 悠仁 was tasked with holding off 葵 even if he lost, but he promised that if he's going to fight than he's going to win. \" 虎杖... what kind of girls do you like? \" 葵 is impressed with 悠仁 's speed and prepares his counterattack by focusing 呪力 into his fist. The spider curse intercepts 葵, only to be blown into pieces. This softens 葵's punch, but the impact still sends 悠仁 crashing into a tree behind him. Before 悠仁 can recover, 葵 pummels him until it appears that the first-year is defeated. He prepares to chase the others until he realizes that 悠仁 has managed to get up. 悠仁 tells 葵 not to make him any dumber and the third year replies his favorite pop idol loves dumb guys. 葵 learns 悠仁's name and decides to ask him one question: what type of girl he likes.",
+    "characters_raw_text": "加茂憲紀 東堂葵 西宮桃 禪院真依 三輪霞 与幸吉 (メカ丸として) 五条悟 庵歌姫 伏黒恵 虎杖悠仁 狗巻棘 パンダ 禪院真希 釘崎野薔薇",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 (開始) 虎杖悠仁 vs. 東堂葵 (開始) 呪霊討伐競争 (開始) 虎杖悠仁 vs. 東堂葵 (開始) 虎杖悠仁 vs. 東堂葵 (開始)",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 玉犬",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-830f121430",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "京都姉妹校交流会の団体戦が開始する",
+    "東堂が東京校へ単独で突撃する",
+    "虎杖が東堂の足止めを担当する",
+    "東堂が虎杖へ女性の好みを尋ねる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-as-mechamaru"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-830f121430",
+    "char-d76df97dca",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-ebd2a8efa8",
+    "char-dad71c9f31",
+    "char-17322e71e5",
+    "char-3de3b8af11",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-a61d6ef891",
+    "char-672d843799",
+    "char-24d736edff",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6c8be9e9eb",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-7c3237f986",
+    "tech-6c8be9e9eb"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-phase3-team-battle",
+    "term-cba4367139",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "ch-061",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 61,
+  "zero_number": null,
+  "label": "第61話",
+  "title_official": "起首雷同―漆―",
+  "title_search_normalized": "起首雷同―漆―",
+  "start_page": 173,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.173",
+  "summary_short": "釘崎は自分も毒に侵される危険を受け入れ、共鳴りで壊相と血塗を追い詰める。虎杖と釘崎はそれぞれ黒閃を発生させ、九相図兄弟へ決定的な打撃を与える。",
+  "summary_full": "釘崎の共鳴りは、自身に付着した兄弟の血と朽を強い縁として壊相・血塗の双方へ届く。毒に耐性を持つ虎杖は痛みを押して血塗を攻め、釘崎は共鳴りを重ねて壊相の妨害を止める。壊相は朽を解除し、翅王で反撃するが、二人の集中は痛みによって研ぎ澄まされる。虎杖と釘崎はそれぞれ黒閃を発生させ、壊相の腕と血塗へ致命傷を与える。釘崎は血塗の顔に打ち込んだ釘を簪で爆発させ、血塗を殺す。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "野薔薇 proves how crazy she can be in the world's most dangerous game of chicken. She backs the 呪胎九相図 into a corner, allowing both her and 悠仁 to tap into the power bestowed by sparks of black.",
+    "summary_full_legacy": "野薔薇 immobilizing 壊相 and 血塗 in a dangerous game of chicken. After skewering her own arm using a nail, 野薔薇 taunts her enemies despite her injuries. She claims she knows they don't like pain and suggests they deactivate their 蝕爛腐術 術式 . 壊相 is worried about the implications of a counter technique like this but ultimately decides 野薔薇 will lose a prolonged game of chicken. 芻霊呪法 術式 : 共鳴り applies 呪力 to cause damage to an opponent's targeted body part. The technique's effectiveness depends on a variety of factors, but 野薔薇 is closely connected to both brothers thanks to the 朽 effect on her body. 壊相 doesn't believe the sorcerers will be able to move due to the pain and poison from 朽. However, 悠仁 is immune to poison thanks to 宿儺 and begins charging his fist with 呪力 . 野薔薇 uses a second round of resonance to keep the curses immobilized, allowing 悠仁 to ignore the pain and pummel 血塗 with blazing fists of fury. Worried, 壊相 calls out his brothers name, prompting 野薔薇 to activate 共鳴り once again, stopping him from interfering. 黒閃!! 悠仁 and 野薔薇 switch positions and opponents, forcing 壊相 to consider deactivating the technique before 野薔薇 can finish 血塗 off. Initially 壊相 believes they'll succumb to 朽 before 悠仁 can kill him, but he notices 血塗 in rough shape and instinctively deactivates 朽. He switches to activating 極ノ番「翅王」 and tries to hit 野薔薇 from behind before she finishes off his little brother. However, 野薔薇's focus is sharpened by the pain left over from the decomposition and 悠仁 stands before 壊相, ready to strike him down before Wing King can reach 野薔薇. Unbeknownst to 壊相, 悠仁 is the center where 呪力 coalesces and the man chosen by the sparks of black. 野薔薇 and 悠仁 both unleash 黒閃 on their targets, dealing incredibly high damage to both brothers, crippling 血塗 and destroying 壊相's left arm completely. 野薔薇 finishes off 血塗. 壊相 doesn't understand how his arm was blown off despite his jujutsu protection and pleads for 血塗 not to die. The younger brother lashes out and tries to kill 野薔薇, but the Girl of Steel finishes him off by activating 芻霊呪法 術式: 簪 . This detonates the nail placed in 血塗's face, violently exorcising him as a giant spike of 呪力 explodes from the nail and pierces his head. 野薔薇 tells 血塗 he doesn't have to worry about his big brother because 壊相 will join him soon enough.",
+    "characters_raw_text": "釘崎野薔薇 壊相 血塗 虎杖悠仁 吉野順平 (回想)",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": "虎杖悠仁 & 釘崎野薔薇 vs. 壊相 & 血塗",
+    "techniques_raw_text": "壊相の術式 蝕爛腐術 術式 朽／極ノ番「翅王」 朽／極ノ番「翅王」 血塗の術式 蝕爛腐術 術式 朽 朽 釘崎野薔薇の術式 黒閃 芻霊呪法 術式 共鳴り／簪 共鳴り／簪 虎杖悠仁の術式 黒閃",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-236cc955ae",
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-5c0ec253ee",
+    "tech-69d5ecb511",
+    "tech-932f1fb717",
+    "tech-c8154fa79f",
+    "tech-d9180946ec",
+    "tech-d9efa28175"
+  ],
+  "term_ids_candidate": [
+    "term-69d5ecb511"
+  ],
+  "key_events_verified_phase3": [
+    "釘崎が共鳴りで兄弟を拘束する",
+    "壊相が朽を解除する",
+    "虎杖と釘崎が同時に黒閃を発生させる",
+    "釘崎が簪で血塗を殺す"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-baadf43d19",
+    "char-236cc955ae"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-d9efa28175",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-c8154fa79f",
+      "relation": "deactivated"
+    },
+    {
+      "technique_id": "tech-5c0ec253ee",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-932f1fb717",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "used-by-two"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-d9efa28175",
+    "tech-c8154fa79f",
+    "tech-5c0ec253ee",
+    "tech-2ac2471b12",
+    "tech-d9180946ec",
+    "tech-932f1fb717",
+    "tech-69d5ecb511"
+  ],
+  "term_ids_verified_phase3": [
+    "term-c5958133bc",
+    "term-3f0111dca8",
+    "term-69d5ecb511"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

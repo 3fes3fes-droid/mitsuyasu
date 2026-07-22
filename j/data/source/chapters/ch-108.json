@@ -1,0 +1,139 @@
+{
+  "id": "ch-108",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 13,
+  "number": 108,
+  "zero_number": null,
+  "label": "第108話",
+  "title_official": "渋谷事変㉖",
+  "title_search_normalized": "渋谷事変26",
+  "start_page": 31,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-13"
+  ],
+  "source_locator": "単行本13巻 目次 p.31",
+  "summary_short": "陀艮の領域内で、七海・直毘人・真希は無数の式神による必中攻撃を受ける。そこへ伏黒が嵌合暗翳庭を展開し、領域へ穴を開ける。",
+  "summary_full": "蕩蘊平線の中で、陀艮は標的へ命中するまで姿を持たない式神を無限に出す「死累累湧軍」を発動する。直毘人は御三家秘伝の落花の情で必中を迎撃するが、七海とともに式神の集中攻撃を受ける。残された真希も追い詰められたところへ伏黒が嵌合暗翳庭を展開して領域へ侵入し、必中効果を消す。伏黒は影から特級呪具・游雲を真希へ渡す。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Locked inside the 蕩蘊平線 domain, the jujutsu sorcerers fight for their lives against 陀艮 's endless swarm of man-eating fish 式神 . 真希 , 七海 , and even special grade 1 sorcerer 直毘人 are at the mercy of the domain's can't miss attacks. Just when their struggle becomes hopeless, help arrives with a domain of their own!",
+    "summary_full_legacy": "The sorcerers find themselves at the mercy of 陀艮's auto-hit 式神. 陀艮 traps 七海, 直毘人, and 真希 inside his 領域展開：蕩蘊平線. 内部 the coastal domain, 七海 and 真希 are both suddenly bitten by piranha 式神. The domain's guaranteed hit creates fish 式神 that don't exist until they hit the target. 直毘人 is easily able to counter the domain's can't miss attack with his 秘伝「落花の情」 . It's an anti-domain technique passed down by the 御三家 . Instead of the user expanding their own domain like 簡易領域 , 落花の情 counter-attacks with 呪力 the moment a domain's guaranteed hit makes contact. 陀艮 figured that the head of the 禪院家 had some kind of trick up his sleeve considering his skill level. He decides to focus seventy percent of his power on Noabito and the other thirty percent on 七海. Unleashing 術式 解「死累累湧軍」 , 陀艮 calls upon a swarm of 式神 to attack his foes. Knowing the 式神 will instantly eat them alive, he warns 真希 to attack without hesitation. His warning is interrupted when the 式神 abruptly appears to devour him first. Only 真希 remains after 七海 and 直毘人 appear to be devoured. 直毘人 resists the wave of 式神 using Fallen Blossom Emotion, but he still recognizes this situation does not favor him. He notices the force of the 式神 isn't slowing down at all and wonders about the technique connected to the domain. His thoughts are abruptly stopped when 陀艮 hides in the stream of 式神 and punches 直毘人 high into the air. The 式神 were blocking 直毘人's view and they continue to attack while he's in the air. 陀艮 reveals 死累累湧軍 is an endless stream of 式神 as more and more appear to devour 直毘人. 恵 breaks into 陀艮's domain in order to rescue the others. The only remaining sorcerer is also bitten by a few 式神, leaving her unable to move or fight back. 陀艮 turns to 真希 and says she's the weakest here. He quickly gets behind 真希 and kicks her hard into the forest area on the beach. Despite the heavy hit, 真希 survives and tells the octopus to finish her in one hit if he's going to insult her strength. 真希 wishes she had met up with 恵 first and 陀艮 threatens to give her the same fate as the other two if she's going to resist. Suddenly, 領域展開：嵌合暗翳庭 is activated. A geyser of liquid shadow erupts from the ocean near the beach, getting 陀艮 and 真希's attention instantly. 恵 appears from the geyser right on time and calls out to 真希. He extends his shadow out to her, allowing 真希 to pick up the special grade cursed tool , 游雲 . Grateful for the help, 真希 tells 恵 that he really is a cocky brat.",
+    "characters_raw_text": "陀艮 禪院直毘人 禪院真希 七海建人 伏黒恵",
+    "locations_raw_text": "渋谷 渋谷駅 (内部 陀艮の領域) 渋谷駅 (内部 陀艮の領域)",
+    "battles_events_raw_text": "The 渋谷事変 呪術師s vs. 陀艮 呪術師s vs. 陀艮",
+    "techniques_raw_text": "陀艮の術式 領域展開：蕩蘊平線 術式 解「死累累湧軍」 伏黒恵の術式 領域展開：嵌合暗翳庭 禪院直毘人の術式 秘伝「落花の情」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-6309a7e2f4",
+    "char-6674ce6baa"
+  ],
+  "technique_ids_candidate": [
+    "tech-1cd41afe2a",
+    "tech-4b0b9dc682",
+    "tech-7341630eb6",
+    "tech-81aaf10015",
+    "tech-8b33629c5d",
+    "tech-d2feb31d47",
+    "tech-dc54ab0cd7"
+  ],
+  "term_ids_candidate": [
+    "term-cba4367139"
+  ],
+  "key_events_verified_phase6": [
+    "陀艮が死累累湧軍を発動する",
+    "直毘人が落花の情で必中攻撃を迎撃する",
+    "伏黒が嵌合暗翳庭で蕩蘊平線へ侵入する",
+    "領域の押し合いで陀艮の必中効果が消える",
+    "真希が游雲を受け取る"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-6674ce6baa",
+    "char-22abdd626c",
+    "char-6309a7e2f4",
+    "char-24d736edff",
+    "char-3c1852867d"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-81aaf10015",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-dc54ab0cd7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-7341630eb6",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1cd41afe2a",
+      "relation": "activated"
+    },
+    {
+      "technique_id": "tech-phase6-playful-cloud",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-81aaf10015",
+    "tech-dc54ab0cd7",
+    "tech-7341630eb6",
+    "tech-1cd41afe2a",
+    "tech-phase6-playful-cloud"
+  ],
+  "term_ids_verified_phase6": [
+    "term-e6a70dfe56",
+    "term-d97934afcd",
+    "term-phase6-domain-clash",
+    "term-6f7fa8f5d1",
+    "term-bf1b3beaca"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-13",
+    "src-manga-games-vol-13",
+    "src-legacy-ju-txt"
+  ]
+}

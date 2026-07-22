@@ -1,0 +1,143 @@
+{
+  "id": "ch-096",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 11,
+  "number": 96,
+  "zero_number": null,
+  "label": "第96話",
+  "title_official": "渋谷事変⑭",
+  "title_search_normalized": "渋谷事変14",
+  "start_page": 151,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-11"
+  ],
+  "source_locator": "単行本11巻 目次 p.151",
+  "summary_short": "粟坂は六眼の誕生によって呪詛師が自由に活動できなくなった過去を恨み、五条封印を望む。虎杖と伏黒は正面から攻撃を重ね、術式の性質を探る。",
+  "summary_full": "粟坂とオガミ婆は、五条悟が生まれる前には呪詛師として自由に人を害していた。六眼を持つ五条の誕生で呪術界の力の均衡が変わり、幼い五条にすら見抜かれた二人は表立って活動できなくなったため、封印を歓迎していた。現在の戦闘で伏黒は、粟坂の「あべこべ」が攻撃の強弱を反転する一方、無限ではなく上限と下限があると推理する。虎杖と攻撃の強さを調整して攻略を試みる間、屋上ではオガミ婆が孫へ伏黒甚爾の肉体情報を降ろす。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the recent past, cursed users used to be free to curse whomever they pleased. However, that all changed when a boy with the 六眼 was born into the 五条 Clan . 粟坂二良 resents having his freedom stolen away, and fights the 呪術高専 students to ensure 五条's freedom is taken as well.",
+    "summary_full_legacy": "五条悟 was born in 1989 and his presence changed everything. Around that time, オガミ and 粟坂 could commit as many heinous murders as they saw fit. \" We were... free. \" オガミ killed a man's daughter, used her séance technique to take the young girl's form, and then used the appearance to trick the man and stab him in the back of the neck. 粟坂 cruelly ripped the faces off his victims and tortured them to understand the human body. Both of them were free to live selfishly and could make as much money as they wanted for cursing people. A bounty was put on the child born with the 六眼 sometime after his birth. 粟坂 and オガミ attempted to collect, but they never came close. Even a young 悟 was easily able to pick them out of a crowd and intimidate them with his gaze. Afterward, the young 五条 just walked away thought to himself that the weaklings shouldn't dare look at him. 粟坂 continues fighting to trample on the weak. This small action was enough to stop 粟坂 and オガミ from living as they wished. With his presence in the world, the balance of the jujutsu community was completely altered. The curse users were stripped of their freedom and that feeling of dissatisfaction has stuck with 粟坂 and オガミ ever since. In the present day, 粟坂 continues fighting with 悠仁 and 恵 on the Metropolitan Expressway . 粟坂 uses his lust for revenge on 五条 to fuel his anger in the battle and beats back the two first-years. This surprises the students as they don't understand how he's nullifying all their damage. 恵 finally figures out their opponent's 術式 恵 figures it might be related to his innate technique and decides to yell out a bold-faced lie. He says 五条悟 is in 渋谷 and 粟坂 obviously knows that isn't true. 悠仁 is confused, but this helps 恵 confirm the 呪詛師's technique isn't something like damage nullification that could counter 五条 sensei's 無下限呪術 technique. 粟坂 claims that he's ready to finish their battle and 恵 responds by unleashing his new 脱兎 式神 . It creates a wave of countless small rabbits that are supposed to serve as a distraction. However, 粟坂 has a strange reaction to them, as he's hit harder by one than he should be. This gets 恵's attention and he immediately takes 悠仁, revealing that he's figured out their enemy's 術式 .",
+    "characters_raw_text": "五条悟 オガミ 粟坂二良 伏黒恵 虎杖悠仁",
+    "locations_raw_text": "渋谷 渋谷 Tower 首都高速3号渋谷線 渋谷 Tower 首都高速3号渋谷線",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 伏黒恵 vs. 粟坂二良 虎杖悠仁 & 伏黒恵 vs. 粟坂二良",
+    "techniques_raw_text": "粟坂二良の術式 あべこべ 伏黒恵の術式 十種影法術 術式 脱兎 脱兎 オガミの術式 降霊術 術式 六眼 (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-0be6deff32",
+    "char-17322e71e5",
+    "char-2615d69152",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-c33b96dce8",
+    "char-d31c75a751"
+  ],
+  "technique_ids_candidate": [
+    "tech-0be6deff32",
+    "tech-1baac5a3fc",
+    "tech-7c3237f986",
+    "tech-a88b067dfe",
+    "tech-fbf15eb3e2"
+  ],
+  "term_ids_candidate": [
+    "term-041be91538",
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase5": [
+    "五条の誕生が呪術界の均衡を変えた過去が示される",
+    "伏黒があべこべに上限と下限があると推理する",
+    "オガミ婆が孫へ伏黒甚爾の肉体情報を降ろす"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "recollection-as-child"
+    },
+    {
+      "character_id": "char-2615d69152",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-d31c75a751",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c33b96dce8",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-17322e71e5",
+    "char-2615d69152",
+    "char-d31c75a751",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-c33b96dce8"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-a88b067dfe",
+      "relation": "analyzed"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-0be6deff32",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-fbf15eb3e2",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1baac5a3fc",
+      "relation": "recollection"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-a88b067dfe",
+    "tech-7c3237f986",
+    "tech-0be6deff32",
+    "tech-fbf15eb3e2",
+    "tech-1baac5a3fc"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-041be91538",
+    "term-phase5-six-eyes",
+    "term-65867f280c",
+    "term-phase5-body"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-11",
+    "src-manga-games-vol-11",
+    "src-official-character-vote-4"
+  ]
+}

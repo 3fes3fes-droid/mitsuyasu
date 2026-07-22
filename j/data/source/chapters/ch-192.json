@@ -1,0 +1,122 @@
+{
+  "id": "ch-192",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 192,
+  "zero_number": null,
+  "label": "第192話",
+  "title_official": "桜島結界②",
+  "title_search_normalized": "桜島結界2",
+  "start_page": 27,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.27",
+  "summary_short": "禪院直哉は呪力で殺されなかったため怨霊として復活していた。真希と加茂が連携して攻撃するが、直哉は蛹のような姿からさらに進化する。",
+  "summary_full": "呪霊となった直哉は真希を狙い、空中を高速で移動する。真希が釈魂刀で傷を与え、加茂は赤縛や穿血で援護するが、直哉は体内へ空気を取り込み、噴射で加速する構造へ変化していく。二人は連携して一度拘束するものの、直哉は蛹のような外殻を破り、より人型に近い姿へ変態する。術師としての投射呪法と呪霊の肉体が結び付き、速度と耐久力がさらに増す。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "禪院直哉 wasn't slain using jujutsu , allowing him to be reborn a vengeful curse that is as grotesque as it is powerful. 真希 and 加茂 work together to take down their demented foe, but their efforts only force his evolution.",
+    "summary_full_legacy": "直哉 tries to get his revenge on 真希. Before the 京都姉妹校交流会 , when 楽巌寺嘉伸 was scheming with Noritoshi to kill 悠仁 , the Principal asked Noritoshi what he needed to remember when killing an enemy sorcerer. Noritoshi replied that the enemy must be killed with jujutsu to prevent their transformation into a curse after death. Currently, 真希 is pinned down by 直哉, who has returned as a vengeful 呪霊. She believes he turned into a curse because she killed him with her fists and not 呪力 . However, 直哉 reveals that 真希's mother was the one who took his life, surprising 真希. He adds that he's come to Sakurajima to kill her and taunts her for fighting halfheartedly. Noritoshi's arrows suddenly rain down on 直哉, forcing him away from 真希. 直哉 says he hates 赤血操術 and 真希 asks if her ally used his intuition to aim. Unlike 真希, 直哉's location is easy to sense, allowing Noritoshi to snipe him with arrows from a remote location. Noritoshi uses 穿血 on the cursed womb. 直哉 sees the next round of arrows as they're remotely guided through the trees and says they're too slow. 真希 catches 直哉 off guard and throws the curse into the arrows. The blood on the arrows stuns 直哉, allowing 真希 to slash him across his body. As 直哉 bleeds profusely, Noritoshi wonders if 真希 finished him off. 直哉 confirms that 呪霊 feel pain and says that he regrets hurting so many. He immediately reveals he didn't mean a word of that statement as his body implodes and begins metamorphosing. 直哉's evolution!! 真希 and Noritoshi realize 直哉 is a cursed womb and has taken a cocoon-like shape in an attempt to evolve. 真希 tells Noritoshi to shoot the cursed womb because it has floated too high for her to reach. Noritoshi takes out a blood pack and uses convergence on the blood before firing 穿血 directly through the cursed womb. Noritoshi scores a direct hit and 直哉 appears to scream out in pain as his cocoon begins to disappear. Relieved, Noritoshi thinks about how difficult it would've been to deal with 直哉 had he gotten faster. However, the smoke and dust dissipate, revealing 直哉's final form survived the attack. 直哉 is much small now with a more humanoid shape and a face like a skull. 真希 feels 直哉's murderous intent and warns Noritoshi but the evolved curse's move too fast for Noritoshi. 直哉 sends Noritoshi flying with a lightning-fast punch, destroying several trees along the way. 直哉 claims that Noritoshi was trash and was completely clueless about his place.",
+    "characters_raw_text": "楽巌寺嘉伸 (回想) 加茂憲紀 禪院直哉 禪院真希",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希 & 加茂憲紀 vs. 禪院直哉 禪院真希 & 加茂憲紀 vs. 禪院直哉",
+    "techniques_raw_text": "呪具 釈魂刀 加茂憲紀 術式 赤血操術 百斂 穿血 百斂 穿血",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-830f121430",
+    "char-ac327bdd73",
+    "char-b3be077b48"
+  ],
+  "technique_ids_candidate": [
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase10": [
+    "真希と加茂が呪霊直哉と交戦する",
+    "真希が釈魂刀で直哉を斬る",
+    "加茂が赤縛と穿血で直哉を拘束する",
+    "直哉が人型へ変態する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "evolves-as-curse"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-830f121430",
+    "char-b3be077b48"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-aka-shibari",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-phase4-split-soul-katana",
+    "tech-a1213858c7",
+    "tech-phase3-aka-shibari",
+    "tech-5d6a005065",
+    "tech-cc23098baa"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-811629f74a",
+    "term-8914e5bc1a",
+    "term-c6defb1c13"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

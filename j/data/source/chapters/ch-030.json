@@ -1,0 +1,119 @@
+{
+  "id": "ch-030",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 30,
+  "zero_number": null,
+  "label": "第30話",
+  "title_official": "我儘",
+  "title_search_normalized": "我儘",
+  "start_page": 91,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.91",
+  "summary_short": "真人の領域に閉じ込められた七海は、証券会社員だった過去と、呪術師へ戻る契機になったパン屋での出来事を回想する。自分の選択に納得し、死を覚悟する。",
+  "summary_full": "真人は領域展開・自閉円頓裹を発動し、七海だけを結界内へ取り込む。領域内では真人の術式が必中となり、相手へ触れるという無為転変の条件が事実上なくなる。死を覚悟した七海は、高専卒業後に呪術師を辞めて証券会社で働いていた時期を回想する。金を持つ者の資産を増やす仕事に意味を見いだせなかった七海は、パン屋の店員に取り憑いた小さな呪いを祓い、心から感謝されたことで、自分が必要とされる呪術師へ戻ることを選んだ。現実へ戻った七海の領域へ、虎杖が外部から壁を破って侵入する。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Facing certain death at the hands of 真人 's 領域展開 , 七海 recalls his past after he left 呪術高専. He was a personal banker who looked after rich people's money, and never truly helped anyone. Only after doing a small service to a young girl using his powers did 七海 realize his place in the world. With that gratitude lifting any uncertainty from his soul to this day, 七海 is ready to die with no regrets...",
+    "summary_full_legacy": "内部 真人's 領域展開, 七海 is literally in the palm of his opponent's hand. 虎杖悠仁 is standing on the outside, 七海 is trapped with 真人 inside a giant black sphere. 内部, 七海 knows he's stuck inside 真人's Domain. He surmises that 真人's 術式 has a condition where he must touch someone while in his base form. However, inside 真人's Domain, 七海 is literally in the palm of his opponent's hand. After graduating from 呪術高専, 七海 initially quit because he thought the notion of accepting your comrade's sacrifice was moronic. The girl from the bakery shows 七海 true gratitude. Back when this happened, 七海 would visit the bakery for his favorite bread where he was friendly with the young lady behind the counter. He notices a small curse on her shoulders and decided it was harmless enough and not worth risking exposing himself. At work, 七海 was unhappy with his co-workers only concern with money over all else. Four years after leaving 呪術高専, all 七海 focused on was money as well. \" I told you... there wouldn't be a second time. \" While visiting the bakery again, he learned the girl has had trouble sleeping just like him, due to the weight on her shoulders. 七海 was never the type to be concerned about his place in the world, but he did feel his line of work didn't help anyone. The bakery helped people, and so 七海 decided to exorcise the curse bothering the girl. He told her to see a doctor if anything else were to happen and she thanks him emphatically. Afterwards, 七海 called 五条悟 and decided to return to 呪術高専. Thanks to the girl, 七海 now know true gratitude. The fight against 真人 concludes! Back in the present, 真人 thanks 七海 for helping him realize his new powers. 七海 tells 真人 to keep his appreciation, as he's already received enough for his lifetime. 七海 removes his sunglasses and accepts his fate, but 悠仁 suddenly bursts into the Domain. Entering a Domain is fairly easy compared to getting out of one. Anyone inside is trapped and at the mercy of the caster. However, in this case, 悠仁 is an exception. While entering the Domain, 真人 automatically attempts to touch 悠仁's soul, angering 宿儺 . 宿儺 reminds 真人 that there wouldn't be a second warning and slices two deep gashes into 真人's torso, destroying the Domain. A being like 宿儺 couldn't care less if 真人 or 七海 survived this encounter. 宿儺 truly only cares for himself, with the only exception being an interest in 恵. With his Domain shattered and his body severely injured, 真人 falls to his knees.",
+    "characters_raw_text": "虎杖悠仁 七海建人 真人 五条悟 (声のみ) 宿儺 伏黒恵 (回想)",
+    "locations_raw_text": "川崎市 里桜高校 里桜高校",
+    "battles_events_raw_text": "虎杖悠仁 & 七海建人 vs. 真人 (終了)",
+    "techniques_raw_text": "真人の術式 領域展開：自閉円頓裹",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-6309a7e2f4",
+    "char-baadf43d19",
+    "char-cc7cd6ccbf",
+    "char-f87a321c6f"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-f0f06d52dc"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase2": [
+    "七海が自閉円頓裹に閉じ込められる",
+    "七海が会社員時代と呪術師へ戻った経緯を回想する",
+    "虎杖が領域へ侵入する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-and-flashback"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-f87a321c6f",
+      "presence": "flashback"
+    },
+    {
+      "character_id": "char-cc7cd6ccbf",
+      "presence": "flashback"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-18d7c58412",
+    "char-6309a7e2f4",
+    "char-baadf43d19",
+    "char-f87a321c6f",
+    "char-cc7cd6ccbf"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-f0f06d52dc",
+      "relation": "active"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "sure-hit-effect"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-f0f06d52dc",
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase2": [
+    "term-e6a70dfe56",
+    "term-d97934afcd",
+    "term-65867f280c",
+    "term-e3eff1da1c"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

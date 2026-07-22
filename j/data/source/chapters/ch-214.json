@@ -1,0 +1,113 @@
+{
+  "id": "ch-214",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 214,
+  "zero_number": null,
+  "label": "第214話",
+  "title_official": "呪胎戴天-陸-",
+  "title_search_normalized": "呪胎戴天―陸―",
+  "start_page": 111,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.111",
+  "summary_short": "宿儺は伏黒の姿と言葉を利用して来栖華を欺き、接近した彼女へ致命傷を与える。虎杖は宿儺への怒りで立ち上がり、異常な身体能力で反撃する。",
+  "summary_full": "邪去侮の梯子で焼かれた宿儺は伏黒の姿へ寄せ、「もう大丈夫だ」と来栖を欺く。天使は警告するが、伏黒を想う来栖は術式を解いて接近し、宿儺に右腕を食いちぎられて高所から落とされる。虎杖は瓦礫の下から立ち上がり、来栖を傷つけ、伏黒を奪った宿儺へ激怒する。宿儺の斬撃を受けても前進し、異常な身体強度と跳躍で宿儺へ反撃する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "宿儺 impersonates 恵 to lure 華 in only to reveal his true nature and take her out. Once again, 悠仁 is made painfully aware of the curse that is 宿儺 and channels his rage in an attempt to bring him down.",
+    "summary_full_legacy": "\"SUKUNAAA!!\" Having successfully lured her into a trap, 宿儺 rips off 華's right arm and wing. He calls her a foolish human through and through and then ruthlessly throws her over the side of the building, where she appears to fall to her death. Having recovered from the strike 宿儺 hit him with, 悠仁 watches in cold horror as this transpires. 宿儺 notices a loud noise and walks over to the building's edge, where he meets 悠仁's gaze. The noise was from 悠仁's landing when he lept to the rooftop of another building on his way up. 宿儺 expresses his disinterest, but 悠仁 suddenly closes the distance between them in a single leap. 悠仁 marching forward through 宿儺's slashes. The two sorcerers grab onto each other as 悠仁 loudly screams 宿儺's name in anger. Their clash destroys the building, and 宿儺 falls down to ground level. Immediately after landing, 宿儺 is hit with a large piece of the building sent from 悠仁. He's confused by 悠仁's astounding level of physical strength. 悠仁 tries to put pressure on 宿儺, but he avoids the onslaught and knocks him back. 宿儺 figures 羂索 did something twisted involving another time period. 恵 fights back from within!! 悠仁 tries to engage again while angrily asking why 宿儺 and others like him can't simply live a normal life instead of spreading misery. 宿儺 cuts 悠仁 with his innate technique to keep him back and argues that weaklings have no right to happiness and should spend their lives ready to accept their suffering. Poised to fight with even more intensity, 悠仁 asks 宿儺 if he can accept his misery. As 悠仁 walks towards 宿儺, he's cut numerous times by his opponent's slashes but continues to march forward. All the cuts are shallow, confusing 宿儺. He questions how 悠仁 can be so tough as the young man marches forward until he lands a right hook to 宿儺's jaw. 宿儺 figures out that this isn't a result of 悠仁's toughness but his own low 呪力 output. Irritated by this occurrence, 宿儺 curses 恵 for resisting from within.",
+    "characters_raw_text": "来栖華 宿儺 虎杖悠仁 羂索 (言及のみ)",
+    "locations_raw_text": "東京第1結界",
+    "battles_events_raw_text": "死滅回游 虎杖悠仁, 禪院真希 & 来栖華 vs. 宿儺 虎杖悠仁, 禪院真希 & 来栖華 vs. 宿儺",
+    "techniques_raw_text": "宿儺の術式 御廚子 解 解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "meguna",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-678a848346",
+    "char-baadf43d19",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "宿儺が伏黒のふりをして来栖を欺く",
+    "来栖が術式を解除して宿儺へ近付く",
+    "宿儺が来栖へ重傷を負わせる",
+    "虎杖が宿儺へ単独で反撃する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "deceives-and-attacks"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "severely-injured"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "warns-hana"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "fights-sukuna"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-used-as-deception"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-2b8d365a39",
+    "char-d8252d61d4",
+    "char-65e7fd1c87",
+    "char-baadf43d19",
+    "char-3c1852867d"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-56316150ed",
+      "relation": "cancelled"
+    },
+    {
+      "technique_id": "tech-d2feb31d47",
+      "relation": "used-against-yuji"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-56316150ed",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_verified_phase10": [
+    "term-f314ce3b7a",
+    "term-f7be87831e",
+    "term-6de7063fc5",
+    "term-65867f280c"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

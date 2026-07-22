@@ -1,0 +1,41 @@
+[
+  {
+    "id": "supp-vol00-extra-pages",
+    "volume": 0,
+    "label_official": "EXTRA PAGES",
+    "start_page": 205,
+    "verification": "official-metadata",
+    "content_verification": "not-started",
+    "source_refs": [
+      "src-shueisha-vol-00"
+    ],
+    "source_locator": "単行本0巻 目次 p.205",
+    "note": "内容は原作単行本確認前のため未登録。"
+  },
+  {
+    "id": "supp-vol30-epilogue",
+    "volume": 30,
+    "label_official": "エピローグ",
+    "start_page": 170,
+    "verification": "official-metadata",
+    "content_verification": "not-started",
+    "source_refs": [
+      "src-shueisha-vol-30"
+    ],
+    "source_locator": "単行本30巻 目次 p.170",
+    "note": "目次上の存在と開始ページのみ確定。内容・人物別区分は原作単行本照合待ち。"
+  },
+  {
+    "id": "supp-vol30-extra-pages",
+    "volume": 30,
+    "label_official": "EXTRA PAGES",
+    "start_page": 199,
+    "verification": "official-metadata",
+    "content_verification": "not-started",
+    "source_refs": [
+      "src-shueisha-vol-30"
+    ],
+    "source_locator": "単行本30巻 目次 p.199",
+    "note": "内容は原作単行本確認前のため未登録。"
+  }
+]

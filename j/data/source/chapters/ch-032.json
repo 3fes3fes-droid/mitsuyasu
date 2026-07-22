@@ -1,0 +1,196 @@
+{
+  "id": "ch-032",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 32,
+  "zero_number": null,
+  "label": "第32話",
+  "title_official": "反省",
+  "title_search_normalized": "反省",
+  "start_page": 133,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.133",
+  "summary_short": "真人は仲間と合流し、宿儺を復活させるための次の計画を進める。交流会を控えた東京校では、五条と虎杖が生存を皆に知らせる登場方法を企てる。",
+  "summary_full": "真人は山中の温泉で漏瑚・羂索と合流し、宿儺を味方へ引き入れるため、高専が集める指を後で奪う計画を確認する。東京校では虎杖が交流会へ復帰する。五条と虎杖は生存を派手に発表しようとするが、伏黒と釘崎は驚きと怒りで反応できず、京都校側にもほぼ無視される。乙骨が前年の交流会で圧倒したことや、京都校の顔ぶれも紹介され、楽巌寺は虎杖の生存に動揺する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the aftermath of 真人 's battle with 悠仁 and 七海 , he returns to his allies and forges a new plot to revive 宿儺 . Meanwhile, jujutsu students from 東京 and Kyoto prepare for the Goodwill Event. 悟 and 悠仁 make a plan to surprise everyone that goes horribly wrong.",
+    "summary_full_legacy": "真人 and 漏瑚 relaxing in the mountains. Deep in the mountains at a natural hot spring, 漏瑚 enjoys smoking his pipe until a naked 真人 jumps into one of the pools of hot water and splashes him. 夏油 notices 真人's lack of 呪力 and the latter explains his run-in with a new toy and 宿儺 's vessel . 真人 admits to 漏瑚 that he understands the value of 宿儺 to their cause and both of them confirm they're willing to bring him back no matter what. 夏油 plans on using 呪術高専 to gather all the fingers so that their group can steal them. The Kyoto Team. 五条 meets with 七海 in the staff room at the school. 七海 says that 悠仁 could use some lightening up after the \"tough mission\" they were sent on. It was worse than 五条 had intended and 七海 decided not to tell 悠仁 about the finger at the 吉野 house. 悠仁 arrives and is very excited to return to school. 五条 tells 悠仁 they should surprise everyone and they both get excited to put together a plan. 七海 looks on believing that 悠仁 being alive would be more than enough for a surprise. 恵 and 野薔薇 are less than happily surprised by 悠仁's return. At the 東京 campus, 野薔薇 arrives with her luggage because she believes they're all headed to Kyoto. However, 真希, 恵, パンダ and 棘 are all empty-handed. パンダ explains the 京都姉妹校交流会 is a competition with Kyoto in 東京. 野薔薇 gets mad at the second-years for winning but 真希 explains that 乙骨憂太 was the only one who competed and apparently dominated the competition. The Kyoto students arrive and 葵 is disappointed not to see 憂太. 野薔薇 ask them to hand over souvenirs, confusing 葵. 桃 is afraid and メカ丸 tells her to relax since the 東京 Team has a handicap with two first-years. Noritoshi tells his teammates not to underestimate 恵 since he's a 禪院, suggesting he's more fit to head the family than 真依 or 真希. 五条 taunts Principal 楽巌寺 about 悠仁's fate. 歌姫 arrives and tells the students to stops squabbling. She's disappointed to see that 五条 is late and he arrives right on cue. He gives out souvenirs to the Kyoto Team and presents 悠仁's return to the 東京 Team. However, 恵 and 野薔薇 are so shocked that they appear unhappy to see him. The Kyoto Team is only interested in the souvenirs 五条 gave them, completely spoiling 悠仁's surprise. Principal 楽巌寺 is horrified to see 悠仁, which 五条 taunts him about. At the same time, 野薔薇 demands for 悠仁 say something in defense of himself. She's a bit flustered and 悠仁 apologizes for not telling them he was alive sooner.",
+    "characters_raw_text": "漏瑚 真人 Pseudo-夏油 宿儺 (言及のみ) 七海建人 五条悟 虎杖悠仁 釘崎野薔薇 伏黒恵 パンダ 乙骨憂太 (言及のみ) 禪院真希 狗巻棘 東堂葵 与幸吉 (メカ丸として) 禪院真依 加茂憲紀 西宮桃 三輪霞 庵歌姫 楽巌寺嘉伸",
+    "locations_raw_text": "東京都立呪術高等専門学校",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪力 呪物",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-672d843799",
+    "char-678a848346",
+    "char-830f121430",
+    "char-a61d6ef891",
+    "char-a61fa295f1",
+    "char-ac327bdd73",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "真人が漏瑚・羂索と合流する",
+    "呪霊側が高専から宿儺の指を奪う計画を確認する",
+    "京都校が東京校へ到着する",
+    "虎杖の生存が東京校と楽巌寺へ公表される"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-as-mechamaru"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-a61fa295f1",
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-2b8d365a39",
+    "char-6309a7e2f4",
+    "char-17322e71e5",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-3c1852867d",
+    "char-672d843799",
+    "char-c28763b98a",
+    "char-24d736edff",
+    "char-a61d6ef891",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-5724ed462b",
+    "char-830f121430",
+    "char-484fd66a1e",
+    "char-ebd2a8efa8",
+    "char-3de3b8af11",
+    "char-ac327bdd73"
+  ],
+  "technique_appearances_verified_phase3": [],
+  "technique_ids_verified_phase3": [],
+  "term_ids_verified_phase3": [
+    "term-252cb4a664",
+    "term-5b5abca89c",
+    "term-a0ce00ef9e",
+    "term-549dd18f32"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

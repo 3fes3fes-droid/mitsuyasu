@@ -1,0 +1,142 @@
+{
+  "id": "ch-204",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 204,
+  "zero_number": null,
+  "label": "第204話",
+  "title_official": "血と油③",
+  "title_search_normalized": "血と油3",
+  "start_page": 87,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.87",
+  "summary_short": "脹相は壊相と血塗を思い、兄として再び立ち上がる。赤血操術を応用した新たな攻撃を連発し、羂索に隠している術式を使わせようとする。",
+  "summary_full": "脹相は壊相と血塗の姿を背負い、赤血操術を拡張した攻撃で羂索へ再挑戦する。血液を刃や高速弾へ変え、超新星を混ぜて呪霊の防御を突破する。羂索はなお余裕を見せるが、脹相の目的は勝利ではなく、九十九が戦う前に羂索の未公開術式を使わせることだった。追い詰められた羂索は周囲へ重力を発生させ、夏油の呪霊操術とは別に保持する術式の存在を示す。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "脹相 receives a helpful push to continue his battle with 羂索 . With reignited vigor and inspiration from his siblings, 脹相 displays a new array of abilities and the determination to fulfill his role as a big brother.",
+    "summary_full_legacy": "脹相's younger brothers push him to keep fighting. Imaginary constructs of 脹相's younger brothers push him forward and spur him back into action. With each of his younger brothers encouraging him, 脹相 yells out that he's got this and fires another 穿血 at their father. As he ducks underneath the blood beam, 羂索 states that 穿血's initial release is its top speed and doesn't need to be feared otherwise. 脹相 swipes the beam across the ground and tears it apart. 羂索 avoids the destruction and backs off just as three more blood beams suddenly appear to his rear. 脹相 using all his might to push 羂索. 羂索 recognizes 脹相's new attack as an imitation of 壊相 's Wing King technique. He rides atop flying 呪霊 and avoids the beams. 脹相 closes the distance and the two fighters exchange blows at close range. 脹相 fires more blood beams from the Wings on his back while they're clashing. 羂索 backflips and uses curses to protect him from the beams. The disappearing 呪霊 also serve as a smokescreen for 羂索, allowing him to land a surprise attack using curses to charge through the smoke. 脹相 destroys them using his blood while 羂索 retreats to relax on a tree. \"I may be an only child but good work, big brother!!\" 脹相's father tells him that using Wing King is pointless because it's slower than 穿血 and the poison won't affect him. The eldest brother replies that he must fight with grace like 壊相 as he prepares his next move. He adds that he must fight freely like 血塗 , separating his hand from his left arm using a long stream of blood to keep them connected. 脹相 grabs 羂索 from a distance and swings his father around before driving his head into the ground with a powerful right hook, completing his combo by stating he must fight with power like 悠仁 . A 呪霊 protects 羂索's face from any damage and with contemptible disinterest, asks if 脹相 is finished. 脹相 replies with taunts of his own and activates Wing King again, forcing 羂索 to retreat from under him. The 呪詛師 repeats that it's useless but 脹相 uses Wing King's tracking ability as a canal for transporting compressed blood. 脹相 sends several beads of compressed blood at 羂索, even taking the veteran 呪詛師 by surprise. 脹相 activates 超新星 from all directions but 羂索 is somehow left unscathed. At first, 脹相 believes he might of misfired, but he quickly realizes that 羂索 used a 術式 other than 呪霊操術 to achieve this. Thrilled with 脹相's performance, 由基 enters the barrier and despite being an only child, says good work, big brother.",
+    "characters_raw_text": "脹相 壊相 (想像) 虎杖悠仁 (想像) 血塗 (想像) 羂索 九十九由基",
+    "locations_raw_text": "薨星宮",
+    "battles_events_raw_text": "九十九由基 & 脹相 vs. 羂索",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂 穿血 超新星／翅王 (Imitation) 百斂 穿血 超新星／翅王 (Imitation) 羂索の術式 反重力機構 ( 術式 術式反転 ) 呪霊操術 (夏油傑として)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-6534bbe6c9",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-17ae81079b",
+    "tech-1bc0d9ec7b",
+    "tech-5c0ec253ee",
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7",
+    "tech-d3451c7bbb"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase10": [
+    "脹相が兄弟の力を思い再起する",
+    "脹相が赤血操術の多様な攻撃を連発する",
+    "脹相が羂索へ未公開術式を使わせる",
+    "羂索が重力の作用を発動する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-851111b10d",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "reveals-gravity"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "imagined-support"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "imagined-support"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "preparing"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-851111b10d",
+    "char-678a848346",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-1566dd973d"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-17ae81079b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5c0ec253ee",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d3451c7bbb",
+      "relation": "gravity-effect-revealed"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-17ae81079b",
+    "tech-5c0ec253ee",
+    "tech-1bc0d9ec7b",
+    "tech-d3451c7bbb"
+  ],
+  "term_ids_verified_phase10": [
+    "term-58cf854ee7",
+    "term-c5958133bc",
+    "term-ad8bd57883"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

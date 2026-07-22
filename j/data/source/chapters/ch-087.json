@@ -1,0 +1,111 @@
+{
+  "id": "ch-087",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 87,
+  "zero_number": null,
+  "label": "第87話",
+  "title_official": "渋谷事変⑤",
+  "title_search_normalized": "渋谷事変5",
+  "start_page": 149,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.149",
+  "summary_short": "虎杖は蝗害への恐怖から生まれた呪霊・蝗GUYを倒し、帳の基点を破壊する。真人は改造人間を乗せた電車で渋谷駅地下へ向かう。",
+  "summary_full": "蝗害への恐怖から生まれた蝗GUYは、四本の腕と強い跳躍力を生かして虎杖へ接近戦を挑む。知性が高いと自称するものの、虎杖は動きと攻撃の意図を読み、基礎能力と打撃技術の差で圧倒する。蝗GUYは腕の数を優位と考えるが、虎杖の連撃を受けて祓われる。虎杖は呪符を巻いた杭を破壊し、術師を阻んでいた帳を解除。一方、真人は大量の改造人間を積んだ地下鉄へ乗り、五条が戦う渋谷駅地下ホームへ向かう。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 finds a grasshopper curse guarding the curtain on B2F of 明治神宮前駅 . He engages the manifested hatred of mankind toward the Grasshopper Plague and showcases the difference in their raw skill. Meanwhile, 真人 continues his schemes down below and slips away before the 冥冥 Team can reach him.",
+    "summary_full_legacy": "悠仁 displays the vast difference in raw skill. Mankind fears, resents, and curses the Grasshopper Plague, resulting in the 呪霊 悠仁 is fighting. 蝗GUY lunges at 悠仁 with his jumping power and tries to chomp down on him with his jaws. 悠仁 avoids the attacks while assessing his strengths, recognizing his ability to communicate makes him a more powerful curse. He gets beside and tries to punch him but 悠仁 contorts his body and continues to avoid getting hit. 悠仁 recognizes that the curse wants to use his four arms and his bite to fight directly without any sneaky attacks. The smart grasshopper asks if 悠仁 is smart and the student reveals to him that smart people don't generally ever brag about being smart. This genuinely shocks 蝗GUY, who covers his mouth from the surprise. 蝗GUY attempts a sneak attack. They engage in close quarters and trade blows with one another. The grasshopper believes he has the advantage in a numbers battle because he has two more arms. However, 悠仁 easily overpowers and batters his opponent with far superior skill. 蝗GUY attempts to shoot black mucus at 悠仁 so he ducks under and prepares to deliver an uppercut. Grasshoppers have expandable abdomens to lay eggs deep in the ground, so the curse attempts to strike 悠仁 with the extended hard tip while he's low. 真人 gets on the next train to 渋谷. 悠仁 is too fast and knocks the appendage aside before separating it completely with a chop. There is no amount of sneaky attacks that can fill the gap in skill between the two. 悠仁 can't forgive the curse for eating people and exorcises him immediately before breaking the stake and undoing the curse. Meanwhile, 冥冥 kills the transfigured humans on B4F and rescues the civilians there. 憂憂 notifies her that the curtain has been dispelled and 冥冥 decides they should stay and wait to regroup with 悠仁 before heading down to B5F. Below them, 真人 prepares to board the train from Harajuku to 渋谷駅. He notices that 蝗GUY was defeated and admits it must have taken a skilled sorcerer to do so. 真人 expresses his disappointment, having desired to fight as well. He knows what he must do and sticks to the plan, understanding that he has a job to do.",
+    "characters_raw_text": "蝗GUY 虎杖悠仁 憂憂 冥冥 真人",
+    "locations_raw_text": "渋谷 明治神宮前駅 明治神宮前駅",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 vs. 蝗GUY (終了) 虎杖悠仁 vs. 蝗GUY (終了)",
+    "techniques_raw_text": "呪物 嘱託式の帳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-18d7c58412",
+    "char-848db5733c",
+    "char-baadf43d19",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-a35b2bcd34"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-f9e3abf542"
+  ],
+  "key_events_verified_phase5": [
+    "虎杖が蝗GUYを祓う",
+    "虎杖が嘱託式の帳の基点を破壊する",
+    "真人が改造人間を積んだ列車で渋谷駅へ向かう"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-848db5733c",
+      "presence": "appearance-and-destroyed"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-848db5733c",
+    "char-baadf43d19",
+    "char-e41848a08f",
+    "char-07918bda3f",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-phase5-commissioned-curtain",
+      "relation": "anchor-destroyed"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-phase5-commissioned-curtain"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-phase5-commissioned-curtain",
+    "term-phase5-transfigured-human",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

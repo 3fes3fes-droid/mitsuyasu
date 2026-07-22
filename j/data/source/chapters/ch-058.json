@@ -1,0 +1,135 @@
+{
+  "id": "ch-058",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 58,
+  "zero_number": null,
+  "label": "第58話",
+  "title_official": "起首雷同―肆―",
+  "title_search_normalized": "起首雷同―肆―",
+  "start_page": 111,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.111",
+  "summary_short": "伏黒は少年院で逃げた指の呪霊と再戦する。五条の助言を思い出して自分の限界を捨て、不完全な領域展開「嵌合暗翳庭」を発動する。",
+  "summary_full": "八十八橋の指の呪霊は少年院で遭遇した個体より強く、伏黒の呪具を一撃で砕き、式神を出す隙も与えない。伏黒は以前、急成長する虎杖に焦り、五条へ稽古を頼んだ時の言葉を思い出す。五条は、伏黒が仲間のために自分を捨てることと、勝つために命を懸けることを混同していると指摘していた。奥の手による相打ちを選ばず、自分が限界を超えた姿を想像した伏黒は、不完全な領域展開・嵌合暗翳庭を発動する。影と式神の複製で翻弄し、玉犬「渾」に背後から祓わせる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 's growth is tested against an enemy he once ran away from before. Inspired by recent words of wisdom from 五条 sensei, 恵 abandons his restraints and allows his true power to run wild.",
+    "summary_full_legacy": "This curse proves much stronger than the one from the Detention Center. The 宿儺 fingers that possess an immense presence, are hiding, or have been absorbed by cursed sprits are all resonating. This particular finger was hidden and activated when 悠仁 consumed another finger. This special grade curse looks the same as the detention center but its far more powerful, able to shatter 恵's cursed tool with a single blast of 呪力. The curse uses its extreme speed to out maneuver 恵 but 玉犬: 渾 is fast enough to grab 恵 out of the way. He plans on summoning 鵺 but the curse blitzes pass 恵 before he can summon his 式神. Recently, 恵 asked 五条 to train him due the pressure of 悠仁's growth. 五条 actually believes that 恵's skill and potential are higher than 悠仁's and just the mental aspect is holding him back. 五条 suggests that 恵 doesn't know how to bring out his best. Irritated, 恵 asks if his teacher doesn't believe he's doing his best but 五条 corrects him. 五条 believes 恵 doesn't know how to try his best. \"No matter how many allies you have around you.. you'll always die alone!\" 恵 sacrificed himself in the baseball game to allow 野薔薇 to advance while people like 悠仁 are always swinging for the fences. While baseball is a team sport being a jujutsu sorcerer is an individual job. 五条 states that no matter how many allies a sorcerer has around them they will always die alone. 恵 is only trying to judge and match those around him rather than picturing a stronger future version of himself. 恵 believes he has an ace up his sleeve where he'd be able to sacrifice himself but 五条 emphasizes the difference between dying then winning and dying victoriously. He encourages his student to give it his all because its okay to be selfish. 恵 stops playing it safe and allows his crazy imagination flow. Unconscious, 恵 awakens from this dream of recollection where he was training with 五条. 玉犬 was dispelled while 恵 was hit and he's badly injured. He begins to decide to sacrifice himself using this ace, but recalls 宿儺 suggesting 恵 is wasting his potential. Rather than go through with sacrificing himself, 恵 decides to picture a future version of himself that has surpassed his limits. A jujutsu sorcerer's growth never comes easy, but with a firm base, high skill and free flowing imagination, they can change due to even the slightest of events. Impassioned and crazed, 恵 activates 領域展開：嵌合暗翳庭 ! 恵 goes beyond his limits and activates 領域展開! The Domain is incomplete, but its still able to flood the floor with 恵's shadow spawning darker versions of 恵's 式神. 恵 pushes his limits and freely imagines himself stronger than he ever believed before. He uses the abilities granted to him by the Domain in new ways by thinking bigger. The curse appears, blasts away the Domain with a powerful explosion of 呪力 and it believes it has won. However, 恵 and 玉犬: 渾 appear from its shadow and exorcise it from behind. 玉犬's claws were capable of harming 花御 , so this curse was no match. Victorious, 恵's crazed expression fades into exhaustion.",
+    "characters_raw_text": "伏黒恵 五条悟 (回想) 宿儺 (回想) 花御 (回想)",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": "伏黒恵 vs. Finger Bearer",
+    "techniques_raw_text": "伏黒恵の術式 領域展開 嵌合暗翳庭 十種影法術 術式 玉犬: 渾 鵺 嵌合暗翳庭 玉犬: 渾 鵺",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5d693ebac2",
+    "char-71d1706395",
+    "char-8236095713",
+    "char-9148bf784c",
+    "char-996d48af99"
+  ],
+  "technique_ids_candidate": [
+    "tech-1cd41afe2a",
+    "tech-4b0b9dc682",
+    "tech-6c8be9e9eb",
+    "tech-71d1706395",
+    "tech-7c3237f986",
+    "tech-996d48af99"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase3": [
+    "伏黒が指の呪霊に圧倒される",
+    "五条の助言を回想する",
+    "伏黒が不完全な嵌合暗翳庭を発動する",
+    "玉犬「渾」が指の呪霊を祓う"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-phase3-finger-bearer-bridge",
+      "presence": "appearance-and-death"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-3c1852867d",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-9148bf784c",
+    "char-phase3-finger-bearer-bridge"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-1cd41afe2a",
+      "relation": "first-use-incomplete"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71d1706395",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "attempted"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-1cd41afe2a",
+    "tech-7c3237f986",
+    "tech-71d1706395",
+    "tech-996d48af99"
+  ],
+  "term_ids_verified_phase3": [
+    "term-e6a70dfe56",
+    "term-cba4367139",
+    "term-a0ce00ef9e",
+    "term-7037f2a1bd"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

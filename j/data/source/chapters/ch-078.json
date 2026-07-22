@@ -1,0 +1,130 @@
+{
+  "id": "ch-078",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 78,
+  "zero_number": null,
+  "label": "第78話",
+  "title_official": "玉折―参―",
+  "title_search_normalized": "玉折―参―",
+  "start_page": 149,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.149",
+  "summary_short": "村で迫害されていた術師の少女二人を見た夏油は、住民を殺して呪詛師となる。五条は新宿で夏油と対峙するが殺せず、二人は決別する。",
+  "summary_full": "夏油は少女二人を迫害していた村人112名を殺害し、実の両親も殺して呪詛師となる。夜蛾から報告を受けた五条は信じられず、新宿で家入硝子を介して夏油と再会する。夏油は非術師を「猿」と呼び、術師だけの世界を作るため皆殺しにすると宣言する。五条はその場で夏油を殺す力を持ちながら手を下せず、二人は決別する。その後、夏油は盤星教「時の器の会」を訪れ、園田茂を殺害して組織を掌握し、美々子・菜々子や呪詛師たちを自らの家族として集め始める。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "傑 has made his decision to reject non-sorcerers. Shortly after his turn to darkness, 傑 is confronted by his best friend where they are forced to part ways for good.",
+    "summary_full_legacy": "悟 learns what his best friend has become. 夜蛾 sensei is tasked with giving 悟 the horrible news surrounding 傑. Neither of them can make sense of what happening with their misguided ally, making 悟 panic for the first time. Meanwhile in 新宿, 硝子 is confronted by 傑 while she's smoking. They have a conversation about the allegations against 傑 with a friendly tone but 硝子 is quick to contact 悟. Shortly after, 悟 finds 傑 walking through the crowd and demands an explanation. Just as he told 硝子, he wants to build a world without curses and and non-sorcerers. Not even 傑's parents were spared, making 悟 question 傑's morals. 傑 believes there is meaning in all their deaths. 悟 claims that his goal is pointless but 傑 believes his friend could do it by himself so its not impossible. If they could switch places, the impossible could become possible. 傑 decides to leave after confirming this is the life he has chosen. 悟 tracks down 傑. 傑 says that 悟 should kill him if he wants since there is meaning is that too. As 傑 walks away with the crowd, 悟 begins to aim his 虚式「茈」 at him. However, 悟 ends up being unable to kill his best friend, allowing 傑 to get away. He meets up with 夜蛾 later and reveals he was unable to take 傑 out. Even though 悟 is the strongest, he's realized that he can only save those prepared to be saved. \" I don't like monkeys. That's the truth I chose. \" At the building that once served as the 時の器の会本部, 傑 comes before a new congregation made up of the remnants of the 盤星教 and like minded people. 傑 wishes to talk them all over, serving as a priest who can free people of their curses. This way he can collect money and curses at the same time. There are numerous voices of opposition, so 傑 makes an example out of Sonoda by brutally smashing him on stage. The next time he addresses the crowd he isn't friendly. Instead he demands all the \"monkeys\" to obey him. Elsewhere, 悟 finds a young 伏黒恵 . The young 恵 questions the strange man and asks why he's looking at him strangely. 悟 appears annoyed because 恵 looks exactly like 甚爾 .",
+    "characters_raw_text": "五条悟 夜蛾正道 家入硝子 夏油傑 孔時雨 美々子 菜々子 Shigeru Sonoda 伏黒恵",
+    "locations_raw_text": "東京 呪術高専 時の器の会本部",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "五条悟の術式 虚式「茈」 (未発動)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-1a74b17cf8",
+    "char-22da946917",
+    "char-3c1852867d",
+    "char-58278d1ec5",
+    "char-b9d4880408",
+    "char-d4a4bc45c6",
+    "char-da4ca46be3",
+    "char-f575a0a3ee"
+  ],
+  "technique_ids_candidate": [
+    "tech-fb21434f98"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c",
+    "term-041be91538"
+  ],
+  "key_events_verified_phase4": [
+    "夏油が村人112名と両親を殺害して呪詛師になる",
+    "五条と夏油が新宿で決別する",
+    "夏油が盤星教を掌握する"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22da946917",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-da4ca46be3",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-1a74b17cf8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-f575a0a3ee",
+      "presence": "appearance-and-death"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-17322e71e5",
+    "char-58278d1ec5",
+    "char-d4a4bc45c6",
+    "char-b9d4880408",
+    "char-22da946917",
+    "char-da4ca46be3",
+    "char-1a74b17cf8",
+    "char-f575a0a3ee"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used-or-associated"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase4": [
+    "term-041be91538",
+    "term-cf5652fdbe",
+    "term-phase4-star-religious-group",
+    "term-phase4-time-vessel-association"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

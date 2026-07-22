@@ -1,0 +1,137 @@
+{
+  "id": "ch-132",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 15,
+  "number": 132,
+  "zero_number": null,
+  "label": "第132話",
+  "title_official": "渋谷事変㊾",
+  "title_search_normalized": "渋谷事変49",
+  "start_page": 153,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-15"
+  ],
+  "source_locator": "単行本15巻 目次 p.153",
+  "summary_short": "虎杖は東堂の最後の陽動を利用して黒閃を決め、真人を完全に追い詰める。逃げる真人の前に、夏油の肉体を操る術師が現れる。",
+  "summary_full": "真人は遍殺即霊体を一部解除して弱点を装い、虎杖の攻撃を誘って反撃しようとする。虎杖は脹相戦以後に制御できるようになった逕庭拳の二段目で真人の狙いを外す。片手を失った東堂は拍手そのものが魂の喝采だと告げ、術式が使えない状態で発動を装う。真人が入れ替えに備えて振り向いた隙に、虎杖は最大呪力の黒閃を命中させる。虎杖は自分も真人と同じく役割を遂行する存在だと認め、逃げる真人を追い詰めるが、羂索が現れる。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 's and 真人 's rivalry comes to a dramatic close when the jujutsu sorcerer lands a fight-ending 黒閃 ! However, the victory is short-lived as an even greater threat takes center stage for the end of the 渋谷事変 .",
+    "summary_full_legacy": "真人 gives 悠仁 a target to hit. There is not a single user of jujutsu who can conjure the sparks of black at will. However, 悠仁's fighting ability is so incredible he would make anyone watching believe he's capable of unleashing 黒閃 at will. 真人 knows he's vulnerable to being hit by another one of 悠仁's 黒閃 attacks, meaning going in recklessly will only lead to his end. Believing he has a countermeasure in mind, 真人 partially deactivates 遍殺即霊体 on the left side of his body. The special grade believes 悠仁 will aim at his sweet spot and that will the chance to counter and decapitate him. 悠仁 indeed strikes 真人's left side, appearing to take the bait. Just as 真人 goes for the kill, a second impact throws off the trajectory of his counter strike. Since his fight with 脹相 , 悠仁 has been able to control 逕庭拳 at will. 悠仁 ducks under 真人's missed attack and prepares to deal the final blow. The 呪霊 reinforces his left side with 遍殺即霊体 and tries to hit his opponent first. Suddenly, 東堂's voice echoes throughout the battlefield, interrupting 真人's momentum. 東堂 stands above the crater his best friend is dueling 真人 inside of. 東堂 tells the 呪霊 that an arm is simply a decoration and the act of applause is an acclamation of the soul. 悠仁 puts an end to his long struggle against 真人. The grade 1 sorcerer uses his amputated arm to imitate clapping with his remaining hand. Trying to anticipate the switch, 真人 quickly turns around and attacks. He ends up hitting nothing and realizes that he's been fooled by 東堂 one last time. 東堂 apologizes and claims that 不義遊戯 is already dead. 悠仁 takes advantage of his ally's clever thinking and strikes 真人 with a 黒閃 imbued with his maximum 呪力 . 夏油 suddenly appears to console his defeated ally. The impact from 悠仁's blow is so fierce it coats his opponent in a streak of 呪力 that blasts the 呪霊 out of the crater. 真人 is heavily injured and depleted of 呪力, forced out of 遍殺即霊体. Additionally, the special grade is out of transfigured humans. As desperation sets in for 真人 for the first time in his existence, 悠仁 stands over him. Just as the curse proclaimed earlier in their fight, 悠仁 admits that he is 真人. 悠仁 no longer requires a reason to kill 真人 and will exorcise curses no matter what form they take. Fully aware he's nothing but a cog in the struggle between the two sides, 悠仁 is content to play his role as a jujutsu sorcerer against the threat of 呪霊. 真人 desperately tries to flee as 悠仁 chases him from behind like a wolf chasing a rabbit through the snow. Before 悠仁 can finish off 真人 for good, an even more powerful predator arrives. Pseudo-夏油 suddenly appears before 真人, standing over him and looking down on his fellow special grade. While 悠仁 and 真人 are both surprised by his sudden appearance, 夏油 asks if he should save the curse.",
+    "characters_raw_text": "虎杖悠仁 真人 七海建人 (回想) 脹相 (回想) 東堂葵 Pseudo-夏油",
+    "locations_raw_text": "渋谷",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 東堂葵 vs. 真人 (終了) 虎杖悠仁 & 東堂葵 vs. 真人 (終了)",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 (False Activation) 真人の術式 無為転変 遍殺即霊体 遍殺即霊体 虎杖悠仁の術式 黒閃 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-6309a7e2f4",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-69d5ecb511",
+    "tech-71a2d65cad",
+    "tech-c657f1cc7e"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c",
+    "term-69d5ecb511"
+  ],
+  "key_events_verified_phase7": [
+    "真人が遍殺即霊体の部分解除で虎杖を誘う",
+    "虎杖が制御した逕庭拳で真人の反撃を外す",
+    "東堂が不義遊戯の発動を偽装する",
+    "虎杖が最大呪力の黒閃で真人を破る",
+    "羂索が真人の前へ現れる"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "defeated-fleeing"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance-severely-injured"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-as-suguru-geto"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-baadf43d19",
+    "char-18d7c58412",
+    "char-d76df97dca",
+    "char-678a848346",
+    "char-6309a7e2f4",
+    "char-851111b10d"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-c657f1cc7e",
+      "relation": "partially-released"
+    },
+    {
+      "technique_id": "tech-phase2-keiteiken",
+      "relation": "controlled-use"
+    },
+    {
+      "technique_id": "tech-4688b07b42",
+      "relation": "false-activation-only"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "used-by-yuji"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-c657f1cc7e",
+    "tech-phase2-keiteiken",
+    "tech-4688b07b42",
+    "tech-69d5ecb511"
+  ],
+  "term_ids_verified_phase7": [
+    "term-69d5ecb511",
+    "term-65867f280c",
+    "term-e3eff1da1c",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-15",
+    "src-manga-games-vol-15",
+    "src-legacy-ju-txt"
+  ]
+}

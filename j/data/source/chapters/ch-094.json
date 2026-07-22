@@ -1,0 +1,150 @@
+{
+  "id": "ch-094",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 11,
+  "number": 94,
+  "zero_number": null,
+  "label": "第94話",
+  "title_official": "渋谷事変⑫",
+  "title_search_normalized": "渋谷事変12",
+  "start_page": 111,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-11"
+  ],
+  "source_locator": "単行本11巻 目次 p.111",
+  "summary_short": "七海は虎杖・伏黒・猪野に、術師を阻む帳の解除を任せる。三人は帳の基点が渋谷Cタワー屋上にあると見抜き、呪詛師たちとの戦闘を始める。",
+  "summary_full": "虎杖・伏黒・猪野は術師を拒む帳へ攻撃するが、強度が高く破れない。明治神宮前駅の例から、術者が帳の外に出て基点を人目につく場所へ置くことで、発見される危険と引き換えに結界強度を上げていると推測する。三人は渋谷Cタワー屋上の基点を発見し、鵺で急襲。基点を守るのは粟坂二良、オガミ婆、孫の三人だった。猪野が屋上に残ってオガミ婆たちを引き受け、虎杖と伏黒は粟坂を首都高速へ落として二対一の戦闘へ入る。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "七海 leaves dispelling the curtain blocking out sorcerers to 猪野 , 悠仁 , and 恵 . They deduce the enemies guarding the commissioned curtains are in the most obvious spot in 渋谷 . The jujutsu sorcerers engage the curse users on the roof of 渋谷 Tower , beginning a battle for the curtain !",
+    "summary_full_legacy": "粟坂 and the curse users pick the most open spot in 渋谷. 悠仁 tries to break through the curtain preventing sorcerers from entering with a powerful right straight punch. The attack is ineffective and the barrier doesn't even budge. 猪野 is impressed with 悠仁's striking power, comparing it to 七海, but this just means that the curtain is incredibly sturdy. As 玉犬: 渾 kills transfigured humans in the background to save civilians, 恵 suggests they try and find a weak point in the curtain. 猪野 argues there's no point since they can't get inside. He believes the curtain caster is within the curtain but 悠仁 explains how the curtains worked at 明治神宮前駅. By staying outside the curtain the risk of being seen increases and in return the curtain's strength does as well. Going by this logic, 恵 surmises that the curtain's protectors are probably somewhere extremely obvious. 悠仁 and 猪野 riding on top of 鵺 to reach 渋谷 Tower. At 10:01 P.M. on top of 渋谷 Tower, old man 粟坂二良 looks down on the city and asks if this is the most obvious spot to strengthen the curtain. オガミ 's grandson thinks so and says sorcerers will be intercepted by the 改造人間 inside if they come. However, they're both taken off guard when 鵺 suddenly appears flying above them. 猪野 and 悠仁 are riding on 鵺 and the latter has a wire attached to the 式神 , one he got from 真希 . 鵺 goes in one direction and 悠仁 goes in the other, using the wire to wrap up all of the curse users at once. オガミ's grandson helps her get out of harm's way but 粟坂 is swept clean off the building. As he falls off the building, 粟坂 wonders if the jujutsu sorcerers figured out how commissioned curtains work. 悠仁 and 恵 ready to finish 粟坂 quickly. Before ascending 渋谷 Tower, 悠仁 showed 猪野 the remains of the commissioned curtain he broke at 明治神宮前駅. There is a barrier technique already imbued in the 呪物, allowing anyone to activate it after charging it with 呪力 . 猪野 is able to break one sticking out of the roof of 渋谷 Tower, but 粟坂 took two of the three stakes when he was hit by the wire. The curtain remains so this means 粟坂 still has the required 呪物. 悠仁 further wraps him in wire and drags 粟坂 downward at a faster velocity. 悠仁 snaps the wire and dives inside the building while yelling for 恵 to deactivate 鵺, dropping 粟坂 over forty stories. 猪野 remains at the top of the tower, facing off with オガミ and her Grandson. 猪野 says that it's time for him to start paving his path to becoming a grade 1 jujutsu sorcerer and passionately lowers his mask over his face. 悠仁 finds 恵 on the street and they find 粟坂's body, but it's far too clean for falling forty-one stories. 恵 flares up his 呪力 and demands the old man get up. 粟坂 stops playing dead and smiles at his opponents, claiming kids these days have no respect for the elderly. 恵 reminds 悠仁 they don't have time to waste and 悠仁 agrees.",
+    "characters_raw_text": "虎杖悠仁 猪野琢真 伏黒恵 粟坂二良 オガミ 禪院真希 (回想) 冥冥 (回想)",
+    "locations_raw_text": "渋谷 渋谷 Tower 首都高速3号渋谷線 渋谷 Tower 首都高速3号渋谷線",
+    "battles_events_raw_text": "The 渋谷事変",
+    "techniques_raw_text": "呪物 嘱託式の帳 粟坂二良の術式 あべこべ 伏黒恵の術式 十種影法術 術式 玉犬: 渾 鵺 玉犬: 渾 鵺",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-24d736edff",
+    "char-2615d69152",
+    "char-3c1852867d",
+    "char-996d48af99",
+    "char-baadf43d19",
+    "char-cf2d32d5b9",
+    "char-d31c75a751"
+  ],
+  "technique_ids_candidate": [
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-a88b067dfe",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c",
+    "term-041be91538",
+    "term-f9e3abf542"
+  ],
+  "key_events_verified_phase5": [
+    "帳の基点が渋谷Cタワー屋上にあると判明する",
+    "虎杖・伏黒・猪野が鵺で屋上へ急襲する",
+    "猪野とオガミ婆側、虎杖・伏黒と粟坂に戦闘が分かれる"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d31c75a751",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2615d69152",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c33b96dce8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-baadf43d19",
+    "char-cf2d32d5b9",
+    "char-3c1852867d",
+    "char-d31c75a751",
+    "char-2615d69152",
+    "char-c33b96dce8",
+    "char-24d736edff",
+    "char-07918bda3f"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-phase5-commissioned-curtain",
+      "relation": "anchor-identified"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used-for-flight"
+    },
+    {
+      "technique_id": "tech-71d1706395",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-phase5-commissioned-curtain",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-71d1706395"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-f9e3abf542",
+    "term-phase5-commissioned-curtain",
+    "term-041be91538",
+    "term-cba4367139"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-11",
+    "src-manga-games-vol-11",
+    "src-official-character-vote-4"
+  ]
+}

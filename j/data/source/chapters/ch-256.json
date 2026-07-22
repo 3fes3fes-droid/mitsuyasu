@@ -1,0 +1,140 @@
+{
+  "id": "ch-256",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 29,
+  "number": 256,
+  "zero_number": null,
+  "label": "第256話",
+  "title_official": "人外魔境新宿決戦㉘",
+  "title_search_normalized": "人外魔境新宿決戦28",
+  "start_page": 27,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-29"
+  ],
+  "source_locator": "単行本29巻 目次 p.27",
+  "summary_short": "宿儺は黒閃で出力回復へ近づくが、虎杖も連続して黒閃を決める。ラルゥの援護を受けた虎杖は覚醒し、宿儺へ畳みかける。",
+  "summary_full": "宿儺は黒閃で出力回復へ近づくが、虎杖も連続して黒閃を決める。ラルゥの援護を受けた虎杖は覚醒し、宿儺へ畳みかける。宿儺は黒閃を重ねて反転術式回復へ近づくが、虎杖も黒閃を連発する。ラルゥが宿儺の注意を奪い、虎杖は潜在能力を解放する連続打撃へ入る。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The secret to using 黒閃 is a phenomenon unknown even to 五条悟 ! The sorcerers fight to defeat 宿儺 , whom the sparks of black have blessed, before he regains his 反転術式 output. 悠仁 leads the charge and proves that even the rays of hope shine black!",
+    "summary_full_legacy": "宿儺 unleashes a flurry of 黒閃. In a past interview, 五条悟 explains that despite possessing the 六眼 , he cannot use 黒閃 at will. He states that the spatial distortion required for 黒閃 depends on numerous variables beyond timing, including the balance of 呪力, the opponent, the user’s physical and mental condition, and even environmental factors such as temperature and humidity. 五条 ultimately concludes that landing a 黒閃 is largely a matter of chance. While 七海建人 had achieved a higher number of consecutive 黒閃, 五条 notes that he himself landed more 黒閃 overall, unaware that this record would eventually be surpassed by 悠仁. In the present, 宿儺 lands his second 黒閃 on ラルゥ , causing the remaining four jujutsu sorcerers to immediately recognize the danger. 脹相 and 虎杖悠仁 realize that, as 五条 once did, 宿儺 could restore his 反転術式 output by chaining 黒閃 and urgently continue their assault. Despite their combined efforts, none of their attacks connect. 禪院真希 joins the fight and clashes directly with 宿儺, with both combatants demonstrating overwhelming physical prowess by using the air itself as footing to battle midair. Fully entering the zone, 宿儺 unleashes his third 黒閃 on 真希, punching her through a window before following up with 解 slashes whose output is further amplified. \"黒閃 releases 悠仁's potential...\" 脹相 counters by using 超新星 , detonating several blood orbs behind 宿儺 and filling the area with debris. Slashes emerge from within the cloud toward 脹相, but 宿儺 suddenly appears behind him, seizing and hurling him into a wall. 脹相 barely manages to defend himself by forming armor from his blood before 宿儺 strikes him with his fourth 黒閃. 悠仁 intervenes by punching 宿儺 away, giving 脹相 the opportunity to pass 悠仁 a compressed blood orb. \"...Amidst a shower of black sparks. 虎杖悠仁 has awakened!\" Elsewhere, ミゲル prepares to withdraw with ラルゥ, but ラルゥ refuses to retreat, insisting that he can still contribute to the battle. Meanwhile, 悠仁 and 宿儺 continue fighting at close range. 宿儺 throws 悠仁 to the ground, but 悠仁 abruptly claps his hands together and points them toward 宿儺’s face. Recognizing the stance, 宿儺 narrowly dodges the incoming 穿血 , which grazes his chin. 宿儺 retaliates by slashing 悠仁’s shoulder, and the two momentarily disengage. 悠仁 then prepares a punch, which 宿儺 senses will trigger a 黒閃, prompting him to brace for impact. At that moment, 宿儺’s attention abruptly shifts toward another presence in the distance. ラルゥ reveals that he has activated his 術式, Cutie Honey , which allows him to “grab” and redirect a target’s attention. With 宿儺 momentarily distracted and exposed, 悠仁 lands a decisive 黒閃 against the King of Curses. As black lightning erupts from his fist, 悠仁’s latent potential surges forth, marking his awakening amid a cascade of black sparks.",
+    "characters_raw_text": "五条悟 (回想) 七海建人 (言及のみ) 宿儺 禪院真希 ミゲル Oduol 虎杖悠仁 脹相 ラルゥ 真人 (言及のみ)",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "脹相の術式 赤血操術 穿血 超新星 穿血 超新星 呪具 釈魂刀 ラルゥ's 術式 心身掌握 Cutie Honey Cutie Honey 宿儺の術式 黒閃 御廚子 解 解 虎杖悠仁の術式 黒閃 赤血操術 穿血",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-5c2dcdaab3",
+    "char-6309a7e2f4",
+    "char-6d1d442a9a",
+    "char-851111b10d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-17ae81079b",
+    "tech-4b6127d8a9",
+    "tech-5d6a005065",
+    "tech-69d5ecb511",
+    "tech-a1213858c7",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-69d5ecb511"
+  ],
+  "key_events_verified_phase11": [
+    "宿儺は黒閃で出力回復へ近づくが、虎杖も連続して黒閃を決める。",
+    "ラルゥの援護を受けた虎杖は覚醒し、宿儺へ畳みかける。",
+    "宿儺は黒閃を重ねて反転術式回復へ近づくが、虎杖も黒閃を連発する。",
+    "ラルゥが宿儺の注意を奪い、虎杖は潜在能力を解放する連続打撃へ入る。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-5c2dcdaab3",
+    "char-6309a7e2f4",
+    "char-6d1d442a9a",
+    "char-851111b10d",
+    "char-baadf43d19"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-5c2dcdaab3",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6d1d442a9a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-69d5ecb511",
+    "tech-4b6127d8a9"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-4b6127d8a9",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-29",
+    "src-manga-games-vol-29",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "ch-086",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 86,
+  "zero_number": null,
+  "label": "第86話",
+  "title_official": "渋谷事変④",
+  "title_search_normalized": "渋谷事変4",
+  "start_page": 129,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.129",
+  "summary_short": "術師の侵入を妨げる別の帳を解くため、冥冥班は明治神宮前駅へ向かう。被害を抑えるため分かれた虎杖は、帳を守る呪霊と遭遇する。",
+  "summary_full": "明治神宮前駅を偵察した冥冥は、一般人を閉じ込める帳とは別に、術師を地下5階へ入れない帳が存在すると確認する。帳の術者または基点は地下1階から2階付近、改造人間は地下4階で一般人を地下へ追い込んでいた。冥冥と憂憂は改造人間の処理へ向かい、虎杖は帳の解除を担当して単独で地下2階へ進む。そこで虎杖は、呪符を巻いた杭を守る知性あるバッタ型呪霊・蝗GUYと遭遇する。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "With another curtain keeping other sorcerers from entering the lower levels of 渋谷, Team 冥冥 heads into Meiji-Jinguemae Station to find the barrier's caster. 冥冥 and 悠仁 decide to split up to reduce casualties and the jujutsu student comes face to face with a very \"smart\" 呪霊 .",
+    "summary_full_legacy": "冥冥's crows scout out the inside of 明治神宮前駅. 冥冥 manipulates crows with her 術式 and orders them to scout out 明治神宮前駅. She can share vision with them and sends multiple crows inside to search the inside before her team moves in. 悠仁 is anxious to move in but 憂憂 explains that his sister needs to concentrate. 冥冥 finishes up and asks 悠仁 if he would like to exorcise a bunch of weak curses or a strong one. She knows he would like the latter and explains the situation to him. There are five basement floors in the station and the curtain is above BF1. Transfigured humans are attacking civilians in B4F and forcing them down to B5F on the 副都心線 ホーム. The curtain is prohibiting sorcerers from entering B5F and some of 冥冥's crows were taken out between B1F and B2F. The curtain's caster will be there as it's an ideal position considering the barrier's conditions and the enemy's plan to keep civilians from escaping to higher floors. 悠仁 asks if 真人 is down at B5F, the main point of separation but 冥冥 isn't sure, although she says it's very likely considering the transfigured humans inside. 悠仁 finds the curse guarding the curtain. 冥冥 doesn't want to split up with but they need to if they're going to save anyone on B4F. 冥冥 will enter through exit seven on the opposite side of the station and heads down to rescue the civilians. At the same time, she tasks 悠仁 with entering here at exit 2 and finding the curtain's caster. Their best-case scenario is when they regroup the curtain will be lifted and they'll have figured out the enemy's objective in B5F. 悠仁 assures 冥冥 that will be the case because he's done with losing. 悠仁 demands the grasshopper curse and all of it's race stop belittling humans. At 9:03 pm, in B2F of Meiji-Jingueme Station, 悠仁 discovered a grasshopper curse devouring a deceased man's head. 悠仁 is revolted by the scene and the curse, who claims himself to be smart, recognizes 悠仁 is a jujutsu sorcerer because he's smart. 悠仁 asks about the \"patch face curse\" and the grasshopper reveals that 真人 is down below. 五条 told 悠仁 before that barrier techniques can be difficult even for strong sorcerers with innate techniques . 悠仁 doubts the grasshopper can do both like 五条 and realizes the curse appears to be guarding a mysterious stake sticking out of the ground. He realizes the grasshopper claimed he needed to \"protect\" the curtain and decides that the thing sticking out of the ground is his target. 蝗GUY tells 悠仁 that transfigured humans don't taste as good as normal ones and that he knows this because he's smart. Annoyed, 悠仁 kicks the curse into the wall, cracking the surface from the impact. He quickly follows up with a right straight punch to the grasshopper's torso and states that curses need to stop looking down on humans. The grasshopper says 悠仁 isn't smart and those who aren't smart die. He asks what kind of curse 悠仁 thinks he is and 悠仁 is able to pick up on the obvious answer. This makes 蝗GUY realize that 悠仁 is actually smart.",
+    "characters_raw_text": "冥冥 虎杖悠仁 憂憂 真人 蝗GUY 五条悟 (回想)",
+    "locations_raw_text": "渋谷 明治神宮前駅 明治神宮前駅",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 vs. 蝗GUY (開始) 虎杖悠仁 vs. 蝗GUY (開始)",
+    "techniques_raw_text": "呪物 嘱託式の帳 冥冥の術式 黒鳥操術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-848db5733c",
+    "char-baadf43d19",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-ab3bfa159a",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-e3eff1da1c",
+    "term-f9e3abf542"
+  ],
+  "key_events_verified_phase5": [
+    "冥冥班が二種類の帳の構造を確認する",
+    "虎杖が帳の基点破壊へ向かう",
+    "虎杖が蝗GUYと遭遇する"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-848db5733c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-07918bda3f",
+    "char-baadf43d19",
+    "char-e41848a08f",
+    "char-18d7c58412",
+    "char-848db5733c",
+    "char-17322e71e5"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-ab3bfa159a",
+      "relation": "used-for-reconnaissance"
+    },
+    {
+      "technique_id": "tech-phase5-commissioned-curtain",
+      "relation": "located"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-ab3bfa159a",
+    "tech-phase5-commissioned-curtain"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-f9e3abf542",
+    "term-phase5-commissioned-curtain",
+    "term-phase5-transfigured-human",
+    "term-c74cac6805"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

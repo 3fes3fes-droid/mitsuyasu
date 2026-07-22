@@ -1,0 +1,139 @@
+{
+  "id": "ch-223",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 223,
+  "zero_number": null,
+  "label": "第223話",
+  "title_official": "人外魔境新宿決戦①",
+  "title_search_normalized": "人外魔境新宿決戦1",
+  "start_page": 107,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.107",
+  "summary_short": "五条は伊地知の結界、歌姫の術式、楽巌寺の演奏を利用して出力200％の虚式「茈」を放つ。宿儺がこれを受け止め、最強同士の戦いが始まる。",
+  "summary_full": "五条は伊地知の結界、歌姫の術式、楽巌寺の演奏を利用して出力200％の虚式「茈」を放つ。宿儺がこれを受け止め、最強同士の戦いが始まる。五条は補助術式と結界で気配を隠し、開幕から200％の茈を宿儺へ直撃させる。宿儺は片腕を失いながら再生し、五条はどちらが挑戦者かを示すよう挑発する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The strongest sorcerer in history and the strongest sorcerer of today clash in 新宿! The first move determines which of the two is the challenger .",
+    "summary_full_legacy": "五条 and his allies prepare to fire the first shot. In the ruined remnants of 渋谷 , 五条悟 and 伊地知潔高 ascend a skyscraper from the inside and discuss 五条's time in 獄門疆 . 五条 compares his experience inside the 呪物 to a fast work week that went by quickly but was extremely exhausting. 五条 asks what happened to the people who were on B5F in 渋谷駅 after the incident . 伊地知 tells him that the 呪霊 released by 羂索 avoided his residuals on that floor and all the survivors were rehabilitated and able to return to their normal lives without lasting effects from 無量空処 . The duo eventually reach the rooftop where they meet up with 歌姫 and 楽巌寺 , who have completed preparations for a particular ritual. \"I must live up to his words. Either that or die trying!\" Meanwhile, in 新宿, 宿儺 awaits atop another skyscraper with 裏梅 . They ask 宿儺 where the duel is supposed to take place as it was never specified. 宿儺 is confident that the setting for the battlefield will become clear. On cue, 宿儺 notices 五条's massive 呪力 in the distance. 200% 虚式「茈」!! Before December 24th, 楽巌寺 spoke with 五条 about 夜蛾正道 's death. 楽巌寺 expected 五条 to be upset, but instead, he accepted responsibility for getting sealed. 五条 noticed that 楽巌寺 never told the higher-ups about パンダ 's secret and insisted that he's changed as a person. The old members of 呪術総監部 have been slain and 五条 believes things would be better with 楽巌寺 in charge. 五条 informed 伊地知 of his role before the mission as well. 伊地知 didn't understand why he was chosen until 五条 revealed to his friend that he trusted him more than anyone else. 伊地知 lays out several talismans and creates a barrier around 五条, passionately attempting to live up to the strongest sorcerer 's faith in him. The strongest sorcerer in history vs. The strongest sorcerer of today. 歌姫's innate technique , 単独禁区 , amplifies the total 呪力 capacity and output of any sorcerer of her choosing within its range. 楽巌寺 plays music alongside 歌姫's incantations, hand signs, and dances to elevate her technique into a ritual. This boosts its potency to a hundred and twenty percent while 五条 also uses incantations and hand signs to boost his technique. 五条 reaches two hundred percent and fires a 虚式「茈」 that rips through numerous streets from 渋谷 to 新宿 directly at 宿儺. Due to 伊地知's barrier, 宿儺 misreads 五条's first move and doesn't notice his opponent's immense output until the last moment. 宿儺 tries to block it but the skyscraper crumbles from the force of the attack and both of his reinforced arms are destroyed. The King of Curses descends to street level and regenerates with 反転術式 . 五条 warps over to him and sets the stage for a clash between the strongest sorcerer in history and the strongest sorcerer of today. Having successfully drawn first blood, 五条 taunts 宿儺 by calling him the challenger.",
+    "characters_raw_text": "伊地知潔高 五条悟 庵歌姫 楽巌寺嘉伸 裏梅 宿儺 夜蛾正道 (Mentioned in Flashback) パンダ (回想)",
+    "locations_raw_text": "東京 渋谷 新宿 渋谷 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺 (開始)",
+    "techniques_raw_text": "五条悟の術式 無下限呪術 虚式「茈」 虚式「茈」 庵歌姫の術式 単独禁区",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3de3b8af11",
+    "char-58278d1ec5",
+    "char-672d843799",
+    "char-ac327bdd73",
+    "char-b4d661547b"
+  ],
+  "technique_ids_candidate": [
+    "tech-6dcae0cbae",
+    "tech-76bee748ec",
+    "tech-cf2f8dca4a",
+    "tech-fb21434f98"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "五条は伊地知の結界、歌姫の術式、楽巌寺の演奏を利用して出力200％の虚式「茈」を放つ。",
+    "宿儺がこれを受け止め、最強同士の戦いが始まる。",
+    "五条は補助術式と結界で気配を隠し、開幕から200％の茈を宿儺へ直撃させる。",
+    "宿儺は片腕を失いながら再生し、五条はどちらが挑戦者かを示すよう挑発する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3de3b8af11",
+    "char-58278d1ec5",
+    "char-672d843799",
+    "char-ac327bdd73",
+    "char-b4d661547b"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-6dcae0cbae",
+    "tech-76bee748ec",
+    "tech-3ffbd11089"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-6dcae0cbae",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-76bee748ec",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-3ffbd11089",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-40e6a89fc4"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

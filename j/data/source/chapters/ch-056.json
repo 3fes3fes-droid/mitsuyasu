@@ -1,0 +1,126 @@
+{
+  "id": "ch-056",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 56,
+  "zero_number": null,
+  "label": "第56話",
+  "title_official": "起首雷同―弐―",
+  "title_search_normalized": "起首雷同―弐―",
+  "start_page": 67,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.67",
+  "summary_short": "事件の被害条件から伏黒の姉・津美紀も呪いの対象になり得ると判明する。伏黒は単独で調査を続けようとするが、虎杖と釘崎も同行する。",
+  "summary_full": "被害者は八十八橋の下で奇妙な体験をした後、数年を経て同じ形式で殺されていた。伏黒は当時橋へ行った津美紀も対象になり得ると知り、虎杖と釘崎を帰して自分だけで解決しようとする。しかし二人は伏黒の態度から事情を察し、新田から場所を聞いて追いかける。伏黒は自分が守りたい人を選ぶ考えと、善人である津美紀が呪われた理不尽を抱えている。三人は夜の八十八橋へ戻り、川をまたぐ結界へ入り込む。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 learns that his sister may in fact be target of the curse that has taken four victims lives so far. As the mission's danger begins to ramp up, 恵 decides to go investigate alone. However, his two friends stand by to help him clear this case. Once they finally track down the curse, another threat adds more chaos to the uncanny investigation.",
+    "summary_full_legacy": "恵 finds out 津美紀 has been to 八十八橋 as well. After incarnating one of the 呪胎九相図 Wombs using a human vessel, 真人 apologizes for immediately asking the newly manifested 呪霊 to run some errands for him. At the same time, the jujutsu first-year students investigate the bridge but don't even find a trace of the curse. 野薔薇 suggests maybe they need to start over but 悠仁 doesn't want to waste anymore time. There is a 100% death rate in this instance and they can't allow this curse to claim anymore victims. 明 suggests it perhaps has something to do with the act of jumping down but they tested that already. One of the punks from earlier in the investigation arrives to talk to 恵 on his bike. His older sister, an old classmate of 恵's, comes as well. She too went to the bridge at night and now when she arrives home at night the automatic doors are wide open. She can feel something is there and she felt the need to tell 恵 because his sister 津美紀 went with her that night. The Jujutsu first-year students infiltrate the curse's Domain. 恵 tries to play it off until the Fujinuma siblings leave. 悠仁 notices how shaken 恵 actually is and asks to check on his sister. Instead, 恵 calls 伊地知 and tries to request backup, However, 伊地知 can't spare the sorcerers and suggests they retreat if the threat is larger than expected. 恵 knows he can't afford to wait and hangs up. He tells his peers that the mission is more dangerous now and tells them to go home while he goes back to the school. A new threat enters the fray. In reality, 恵 doesn't want to put his friends in danger and goes back to the bridge to investigate himself. He recalls 明 mentioning the test of mettle was below the bridge, so jumping makes no different. If the curse is within a barrier, someone the only way to encounter it would be by clearing certain conditions. It's impossible to have a Domain with a sustainable expanded 術式, which means the curse's Domain is similar to the one at the Detention Center so there is no need for a 帳. 悠仁 and 野薔薇 suddenly appear behind 恵, disappointed that he never shares anything about himself. He was so lost in thought that he didn't even notice them. They tell 恵 that he doesn't need to share everything, but he can trust them since they're friends. He explains that 津美紀 is stuck in a suspended state of sleep and that the 呪霊 could kill her, so he needs to exorcise it now. He tries to add that the mission is more dangerous now but his friends don't care about that, making 恵 smile. To cross through the barrier, they must move at night, from below, and over the small river. The act of doing so also has significant meaning in jujutsu. The three first-years cross over into the curses' Domain where they confront the 呪霊 inside. However, the 呪霊 from the 呪胎九相図 appears as well. Both sides are confused, but 悠仁 steps up to face the new threat while 恵 and 野薔薇 deal with the curse in the Domain.",
+    "characters_raw_text": "真人 血塗 伏黒恵 虎杖悠仁 釘崎野薔薇 新田明 伏黒津美紀 (回想) 伊地知潔高 Pseudo-夏油",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪物／呪胎: 呪胎九相図 呪胎: 呪胎九相図",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-0cb661851e",
+    "char-0f2e6e85bf",
+    "char-18d7c58412",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-678a848346",
+    "char-964e851215",
+    "char-b4d661547b",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-c91391b066"
+  ],
+  "key_events_verified_phase3": [
+    "津美紀も八十八橋の呪いの対象候補と判明する",
+    "伏黒が単独で解決しようとする",
+    "虎杖と釘崎が伏黒へ同行する",
+    "三人が八十八橋の結界へ入る"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-18d7c58412",
+    "char-964e851215",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-0cb661851e",
+    "char-0f2e6e85bf",
+    "char-b4d661547b",
+    "char-678a848346"
+  ],
+  "technique_appearances_verified_phase3": [],
+  "technique_ids_verified_phase3": [],
+  "term_ids_verified_phase3": [
+    "term-c5958133bc",
+    "term-f9e3abf542",
+    "term-5a7fcb32e8",
+    "term-a927605750"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

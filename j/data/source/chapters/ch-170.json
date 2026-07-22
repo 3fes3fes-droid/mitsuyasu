@@ -1,0 +1,127 @@
+{
+  "id": "ch-170",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 19,
+  "number": 170,
+  "zero_number": null,
+  "label": "第170話",
+  "title_official": "東京第１結界⑩",
+  "title_search_normalized": "東京第1結界10",
+  "start_page": 169,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-19"
+  ],
+  "source_locator": "単行本19巻 目次 p.169",
+  "summary_short": "レジィは契約書の内容を実体化する術式「再契象」で車両や物資を呼び出す。伏黒は式神と地形を使い、レジィを体育館へ誘い込む。",
+  "summary_full": "レジィの術式「再契象」は、領収書や契約書に記された契約内容を実体化する。レジィは包丁、網、車両、宿泊や温泉の効用まで再現し、消耗を回復しながら伏黒を追う。伏黒は脱兎、鵺、満象を使って距離と視界を操作し、体育館へ誘導する。レジィは伏黒が領域を使えないと読むが、伏黒は閉鎖空間を利用し、未完成の領域展開を選ぶ。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 gets レジィ one-on-one and is able to fight him earnestly. However, レジィ pecks away at him with varying degrees of small attacks. 恵 is forced to unleash a big move to counter and turn the battle in his favor.",
+    "summary_full_legacy": "レジィ tries to ensnare 恵 and his rabbits. While running through the streets evading attack, レジィ comments on being surprised his opponent has a 式神 like 恵's 満象 . 満象 attempts to spray レジィ with a torrent of water but the rival player is able to avoid it. 恵 leaps from a building above レジィ accompanied by his 脱兎 式神. レジィ throws a receipt and transforms it into a net that ensnares the rabbits. 恵 narrow avoids the net and jumps onto a chain linked to two poles to break his fall. レジィ activates his innate 術式 , 再契象 , and transforms several receipts into kitchen knives. The knives fly toward 恵 as projectiles but he's able to deflect them with a blade of his own. Some rabbits are pierced by the knives, allowing レジィ to surmise that, unlike the other 式神, they can reappear regardless of how many are destroyed. レジィ knows 恵 has figured out his 術式, which has the ability to manifest what's written on receipts. 恵 lures レジィ to a gymnasium. レジィ burns a receipt with his technique to re-create the contract and endows himself with a two nights stay at a five-star Japanese inn. He's now as refreshed as he would be after relaxing there in the hot springs for two nights. In contrast, 恵 is worn down from the ambush on top of having used several 式神. 恵 always employs multiple 式神 at once, but he typically summons 満象 alone because it burns through 呪力 . レジィ figures that 恵 can't re-conjure his 式神 after their injured, and without the flexible 玉犬: 渾 , he's limited in his options. レジィ adds that both of them lack big finishing moves and will need to peck away at each other over time to achieve victory. In 恵's condition, doing so in this manner should be impossible. . レジィ's replenished stamina and assault tactics get the best of 恵. 恵 allows 鵺 to carry him away and claims that he'll run away in that case. レジィ quickly summons drones equipped with cameras to follow his opponent and monitors him using a cellphone as a receiver. He also summons a moped to pursue his adversary and tracks 恵's position to a gymnasium. レジィ questions whether 恵 really fled or if he's trying to lure the fight inside. He could burn the building down but レジィ doesn't want another drawn-out chase. 内部 the gym, 恵 is glad to see the area is as spacious as he'd hoped. レジィ appears on the balcony above him and asks what his opponent is plotting. 恵 says レジィ is likely planning something as well and the latter claims that it's hard to tell because sorcerers are nothing but con artists. レジィ surprise attacks 恵 with re-created trucks. Suddenly, two trucks crash through the wall of the building and drive straight at 恵. Surprised, the 呪術高専 student acts quickly and is able to slip under the pursuing vehicles safely. He's annoyed that レジィ misled him by claiming he didn't have any \"big moves.\" Two potted plants are re-created above 恵 out of his line of sight and fall on top of his head, busting him open. レジィ follows up bly slicing up 恵's back and left arm with a small knife. 恵 gets cut several times and tries to retreat, but レジィ throws a daikon carrot at him. Distracted by the unorthodox projectile, 恵 is taken off guard when the daikon breaks apart and reveals a kitchen knife inside. The knife stabs into 恵's elbow and then レジィ front kicks him into the face. \" I never said I don't have any big moves. \" 恵 is knocked to the floor and slides across the gym, thoroughly overpowered. レジィ explains that things he re-creates behave like 式神. Knives and such can't normally fly through the air but レジィ can get them to do so with a simple command. レジィ doesn't take 恵 to be very cooperative but he asks for his points anyway in exchange for a quick death. 恵 responds by stating that barrier techniques are difficult for him and he can't make an artificial environment over a real one of a different size. However, 恵 can use the gym as a perfect space for his domain. As planned, 恵 casts his 領域展開 , 嵌合暗翳庭 , and forcibly encloses the barrier around the gym to trap レジィ inside. レジィ didn't think 恵 was a sorcerer capable of using 領域展開 and is taken by surprise. Having successfully turned the tables, 恵 states he never said he didn't have any big moves.",
+    "characters_raw_text": "伏黒恵 レジィ・スター",
+    "locations_raw_text": "東京第1結界／池袋",
+    "battles_events_raw_text": "死滅回游 伏黒恵 vs. レジィ・スター (開始) 伏黒恵 vs. レジィ・スター (開始)",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 満象 鵺 脱兎 領域展開：嵌合暗翳庭 満象 鵺 脱兎 レジィ・スターの術式 再契象",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo1",
+  "character_ids_candidate": [
+    "char-026d657efa",
+    "char-0be6deff32",
+    "char-3c1852867d",
+    "char-996d48af99",
+    "char-df284f67ad"
+  ],
+  "technique_ids_candidate": [
+    "tech-0be6deff32",
+    "tech-1cd41afe2a",
+    "tech-4b0b9dc682",
+    "tech-4b7f0d29f5",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-df284f67ad"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-cba4367139"
+  ],
+  "key_events_verified_phase9": [
+    "再契象の仕組みが明らかになる",
+    "レジィが契約内容を実体化して攻撃・回復する",
+    "伏黒が複数の式神でレジィを体育館へ誘導する",
+    "伏黒が領域展開の準備をする"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-026d657efa",
+      "presence": "technique-revealed"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-3c1852867d",
+    "char-026d657efa"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-4b7f0d29f5",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-df284f67ad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-0be6deff32",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1cd41afe2a",
+      "relation": "prepared"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-4b7f0d29f5",
+    "tech-7c3237f986",
+    "tech-df284f67ad",
+    "tech-996d48af99",
+    "tech-0be6deff32",
+    "tech-1cd41afe2a"
+  ],
+  "term_ids_verified_phase9": [
+    "term-152790e31d",
+    "term-e6a70dfe56",
+    "term-cba4367139"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-19",
+    "src-manga-games-vol-19",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

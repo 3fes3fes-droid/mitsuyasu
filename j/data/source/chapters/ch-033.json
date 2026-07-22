@@ -1,0 +1,182 @@
+{
+  "id": "ch-033",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 33,
+  "zero_number": null,
+  "label": "第33話",
+  "title_official": "京都姉妹校交流会―団体戦⓪―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦0―",
+  "start_page": 155,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.155",
+  "summary_short": "京都校との交流会が始まる。東京校は復帰した虎杖を戦力に組み込み、京都校側は楽巌寺の指示により虎杖を事故に見せかけて殺す方針を共有する。",
+  "summary_full": "夜蛾から団体戦「呪霊討伐競争」の規則が説明され、東京校は虎杖を含めた戦力を整理する。狗巻が呪言の暴発を避けるため具材名だけで話すこと、虎杖が屠坐魔を壊したことも共有される。京都校では楽巌寺が、宿儺の器である虎杖を事故に見せかけて殺すよう指示し、加茂が全員攻撃を提案するが東堂は従わない。五条は歌姫へ高専内部の内通者調査を依頼する。伏黒は虎杖の変化を察し、互いに負けないと確認する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Both sides meet in preparation for the Goodwill Event . While the 東京 Team figures out how to incorporate 悠仁 into the squad, the Kyoto Team plans on killing him! Meanwhile, 悟 meets with 歌姫 to discuss a possible mole within 呪術高専.",
+    "summary_full_legacy": "東京 Team meeting. While punishing 五条 using an armbar-like wrestling hold, Principal 夜蛾 explains the rules of this year's annual 京都姉妹校交流会. The first event is the Team Battle 呪霊討伐競争, where the 東京 and Kyoto teams students will compete against each other to exorcise a grade 2 spirit and all other lower grade 呪霊 within the enclosed area. At the 東京 Team meeting, 野薔薇 punishes 悠仁 for not telling his friends he survived. パンダ and 棘 defend 悠仁, confusing the first year due to their unique characteristics. パンダ and 恵 both explain to 悠仁 that 棘 talks funny because he limits his vocabulary to avoid cursing people accidentally. Immediately after, 真希 demands 屠坐魔 back from 悠仁. However, 悠仁 broke 屠坐魔 in his fight with a 呪霊. Nervous, he decides to lie and say 五条 sensei still has it, leaving 真希 to be annoyed. \"If it comes down to a brawl without 呪力... 虎杖 would win.\" The second-years ask 悠仁 about his abilities to they can plan accordingly. 恵 reveals that if the competition comes down to a brawl without 呪力, 虎杖 would win, surprising 真希 and the boys. 真希 knows that 恵 has fought 葵 before, meaning his word is legit. At the Kyoto Team meeting, Principal 楽巌寺 demands that his students kill 宿儺's vessel. He instructs them to do so using 呪力 so he won't be able to resurrect. 葵 is disinterested in the meeting and decides to leave but Noritoshi tells him to stop. However, 葵 tells everyone they have crappy taste in women and he doesn't care about their schemes. He leaves after warning everyone including the Principal that he'll kill them if they try telling him what to do. \" We will all attack 虎杖悠仁 !\" 桃, 真依, and 霞 plan on using 東堂 to go after the 東京 Team but Noritoshi demands that the entire team attack 悠仁 in full force. 桃 suggests that's a bad idea if 棘 is with 悠仁, as his cursed speech can take them all out at once. Noritoshi has a plan to counter 棘 and 真依 demands to take on 真希 and 野薔薇, prompting Noritoshi to comment that she's acting like 葵. The 東京 Team ready for the event to commence. Meanwhile, 五条 meets with 歌姫 to discuss a possible traitor at 呪術高専. He asks 歌姫 to investigate the Kyoto campus and when she asks how he's sure she isn't the mole, 五条 claims it's because she's too weak. This causes 歌姫 to become angry with 五条 and throws her cup of tea at him. After the team meetings, 恵 meets up with 悠仁 to talk to him. He can tell that 悠仁's been through something, seeing right through his happy demeanor. 悠仁 admits that something happened, referring to 順平 's death, but claims that it's okay because he doesn't want to lose anymore. 恵 agrees that he doesn't want to lose either. 野薔薇 adds that 恵 got beat up recently and that she'll clean up the other team. 真希 tells her to knock it off, which パンダ and 棘 agree with. Inspired to win, 悠仁 tells the team to go out and win, but 真希 doesn't appreciate him trying to take charge.",
+    "characters_raw_text": "虎杖悠仁 伏黒恵 釘崎野薔薇 禪院真希 パンダ 狗巻棘 夜蛾正道 五条悟 楽巌寺嘉伸 庵歌姫 与幸吉 (メカ丸として) 加茂憲紀 西宮桃 禪院真依 三輪霞 東堂葵 吉野順平 (回想)",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 (開始)",
+    "techniques_raw_text": "呪言 呪霊 呪具",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-236cc955ae",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-830f121430",
+    "char-a61d6ef891",
+    "char-ac327bdd73",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-deb6545546"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "交流会団体戦の規則が説明される",
+    "京都校へ虎杖暗殺の指示が出る",
+    "五条が歌姫へ内通者調査を依頼する",
+    "伏黒が虎杖の精神的変化を察する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-as-mechamaru"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-24d736edff",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-58278d1ec5",
+    "char-17322e71e5",
+    "char-ac327bdd73",
+    "char-3de3b8af11",
+    "char-dad71c9f31",
+    "char-830f121430",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-ebd2a8efa8",
+    "char-d76df97dca",
+    "char-236cc955ae"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-deb6545546",
+      "relation": "explained"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-deb6545546"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-phase3-team-battle",
+    "term-ed19637c63",
+    "term-252cb4a664",
+    "term-a927605750"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

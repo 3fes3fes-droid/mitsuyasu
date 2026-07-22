@@ -1,0 +1,135 @@
+{
+  "id": "ch-265",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 30,
+  "number": 265,
+  "zero_number": null,
+  "label": "第265話",
+  "title_official": "あの日",
+  "title_search_normalized": "あの日",
+  "start_page": 27,
+  "official_group_id": null,
+  "db_section_draft_id": "ending",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-30"
+  ],
+  "source_locator": "単行本30巻 目次 p.27",
+  "summary_short": "虎杖の領域内で、虎杖と宿儺は虎杖の故郷や記憶を巡る。虎杖は人の価値は役割ではなく、生きた痕跡そのものにあると語り、伏黒を解放すれば命を助けると宿儺へ提案する。",
+  "summary_full": "虎杖の領域内で、虎杖と宿儺は虎杖の故郷や記憶を巡る。虎杖は人の価値は役割ではなく、生きた痕跡そのものにあると語り、伏黒を解放すれば命を助けると宿儺へ提案する。領域内で虎杖は仙台の思い出や祖父との記憶を宿儺に見せる。人間の価値を役割や正しい死に限定してきた自分を改め、宿儺にも伏黒解放と生存の選択を示す。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Before their ultimate showdown 悠仁 tries to appeal to any humanity the King of Curses might have left. 悠仁 takes 宿儺 on a trip down memory lane inside his domain !?",
+    "summary_full_legacy": "悠仁 shows 宿儺 around his hometown. While exiting the train station alongside 悠仁, 宿儺 explains that during intense battles between sorcerers , a rare phenomenon can occur in which both parties share an imaginary landscape. He theorizes that this space is born from 呪力 , which itself originates from human emotion, allowing opponents to form a strange connection at the height of combat. However, 宿儺 senses something unusual about his current surroundings and questions whether this space is instead 悠仁’s domain . 悠仁 admits he is unsure but asks 宿儺 to humor him, as he simply wants to talk. Leaving the station, 悠仁 points out a familiar statue and explains that although he was born in 仙台市 , he lived in the town until he was around six or seven years old due to his grandfather, 虎杖倭助 ’s work. He only recently returned, nearly ten years later, to attend the funeral of one of his grandfather’s friends and was surprised by how much the town had deteriorated. 悠仁 quietly wonders whether that friend would have attended his grandfather’s funeral had their deaths occurred in reverse order. 宿儺 walks with 悠仁, listening without comment. 宿儺 realizes 悠仁 is trying to be merciful. At a nearby park, 悠仁 reminisces about playing there as a child. Passing by flowers, 悠仁 identifies them as morning glories , only for 宿儺 to curtly correct him—they are hydrangeas . 悠仁 reflects that he only began paying attention to such details after moving to Sendai and idly questions who determines what gets planted in public spaces. When 悠仁 asks how 宿儺 knows the flower’s name, 宿儺 replies that he learned it from 伏黒恵 ’s memories. 悠仁 assumes 宿儺 must also know the area from his own memories, but 宿儺 denies ever looking through them. The two then catch crayfish in the park pond, with 宿儺 catching a larger American one while 悠仁 insists his smaller catch is rarer because its Japanese. As they pass a department store, 悠仁 notes how it forced smaller local shops out of business, though he personally appreciated it for the movie theater on the top floor. They travel beyond the town to a more rural area and visit a farm where 倭助 once took 悠仁. After observing the horses and reminiscing about the ice cream sold there, the two try archery. 宿儺 proves exceptionally skilled, citing experience from the 平安時代. 悠仁 continues speaking about winters in the town, including a childhood memory in which he mistook snow chains on a car for Santa Claus’s bells. \"I'll tear you asunder boy. And then, before your severed head I'll kill all those humans you prize so much!\" Growing irritated with 悠仁’s nostalgic monologue, 宿儺 abruptly demands to know his true intentions. 悠仁 responds by explaining that he has come to a new understanding of life. He once believed that life’s purpose was to understand and fulfill one’s role before dying. Now, however, he believes that a person’s value lies in the small fragments of memories they leave behind in others, not in their societal role or image. With this realization, 悠仁 concludes that the manner of a person’s death matters less to him than the attitude of those who treat life as disposable. He cannot forgive individuals who view human beings as tools born to serve predetermined roles, an ideology that 宿儺 embodies. 悠仁 hoped that by showing 宿儺 the ordinary life of someone he deems worthless, he might provoke some change, but 宿儺 remains unmoved. 悠仁 laments his inability to reach him. 宿儺 dismisses 悠仁 as cowardly but then suddenly recognizes 悠仁’s underlying intent. Realizing that 悠仁 is attempting to pity him and extend mercy, 宿儺 confronts him directly. 悠仁 confirms this and warns 宿儺 that he will kill him if he refuses to free 恵 and return to his own body. Enraged by the implication of pity, 宿儺 vows to slaughter everyone 悠仁 cares about before his eyes.",
+    "characters_raw_text": "宿儺 虎杖悠仁 伏黒恵 (言及のみ) 虎杖倭助 (回想) 吉野順平 (想像) 七海建人 (想像) 釘崎野薔薇 (想像) 脹相 (想像) 五条悟 (想像) 真人 (想像)",
+    "locations_raw_text": "岩手県北上市／イオンシネマ (想像) Funabajido Park (想像) 岩手県道14号 (想像) Kinhaba Park (想像) 北上川河川敷 (想像) 北上駅 (想像) 男山 (想像) Sango Bridge (想像) 岩手県雫石町／小岩井農場 (想像) イオンシネマ (想像) Funabajido Park (想像) 岩手県道14号 (想像) Kinhaba Park (想像) 北上川河川敷 (想像) 北上駅 (想像) 男山 (想像) Sango Bridge (想像) 小岩井農場 (想像)",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "finale",
+  "character_ids_candidate": [
+    "char-0ee50b4740",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-851111b10d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-1aadb53ceb",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "虎杖の領域内で、虎杖と宿儺は虎杖の故郷や記憶を巡る。",
+    "虎杖は人の価値は役割ではなく、生きた痕跡そのものにあると語り、伏黒を解放すれば命を助けると宿儺へ提案する。",
+    "領域内で虎杖は仙台の思い出や祖父との記憶を宿儺に見せる。",
+    "人間の価値を役割や正しい死に限定してきた自分を改め、宿儺にも伏黒解放と生存の選択を示す。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-0ee50b4740",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-851111b10d",
+    "char-baadf43d19"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-0ee50b4740",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-1aadb53ceb"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-1aadb53ceb",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-30",
+    "src-manga-games-vol-30",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

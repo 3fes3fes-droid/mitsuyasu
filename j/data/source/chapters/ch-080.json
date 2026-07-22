@@ -1,0 +1,127 @@
+{
+  "id": "ch-080",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 80,
+  "zero_number": null,
+  "label": "第80話",
+  "title_official": "宵祭り",
+  "title_search_normalized": "宵祭り",
+  "start_page": 7,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "evening-festival",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.7",
+  "summary_short": "真人が健康な肉体を与えるという縛りを果たした後、与幸吉は情報を漏らした真人と羂索から逃れるため戦う。巨大な究極メカ丸を起動し、五条へ渋谷の計画を知らせようとする。",
+  "summary_full": "無為転変によって健康な肉体を得た与幸吉は、真人と羂索との縛りが果たされた直後に反撃を開始する。大量のメカ丸を囮に地下施設を崩し、湖から「装甲傀儡 究極メカ丸 試作0号」を起動。羂索が帳で逃走と通信を封じる中、幸吉は天与呪縛で肉体を奪われていた17年5か月6日分の呪力を使い、真人を祓って五条へ10月31日の渋谷計画を伝えようとする。大祓砲と二重大祓砲を浴びせ、真人を湖ごと吹き飛ばす。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Following a long-standing agreement gone wrong, 幸吉 and 真人 finally come to blows. 夏油 makes sure he doesn't escape, so 幸吉's only chance is to use メカ丸 's best abilities to exorcise 真人 and warn 五条悟 of their plans for him on October 31st in 渋谷 .",
+    "summary_full_legacy": "真人 crushes all the Mechamarus in one blow. 与幸吉 calls an army of Mechamarus to his side as his confrontation with 夏油 and 真人 escalates. 夏油 offers his help but 真人 firmly states that 幸吉 is his toy. He enlarges his arm and smashes the wave of Mechamarus aside. 幸吉 disappears in the confusion and 真人 figures he ran away without any reason to kill them. Bored, 真人 claims he's not very in the mood for hunting. Suddenly, the underground lair collapses, forcing 真人 to quickly escape outdoors. 真人 looks at the giant lake with an excited smile as 究極メカ丸 装甲傀儡 究極メカ丸・絶対形態 appears and is ready to fight. He's impressed 幸吉 was building something like this during his time as a shut-in. 幸吉 is piloting this giant 呪骸 from within its head doing final check-ups on the operating system. 究極メカ丸 装甲傀儡 究極メカ丸・絶対形態! The jujutsu sorcerer notices a curtain forming around the area and figures 夏油 is the caster. The only way for 幸吉 to get out of this is to escape the curtain and reach 五条悟. However, the only way to do so would be to deal with 真人 first. 幸吉 understands that he's not likely to escape but places his bet on there's still being a chance. He doesn't plan on holding back and will use all seventeen years, five minutes, and six days' worth of 呪力 he's accumulated to win. He starts off with an entire year worth of 呪力 and blasts 真人 with Ultra Cannon . The special grade knows these types of attacks won't be effective enough on his body and dives into the water. Using a two-year charge of 呪力, 幸吉 blasts the entire lake with Miracle Cannon ! Despite 装甲傀儡 究極メカ丸・絶対形態's best efforts, 真人 leaps from the water ready to strike. 幸吉 believes he's overlooking メカ丸's offense, so now it's time to put his secret plan into action.",
+    "characters_raw_text": "Pseudo-夏油 真人 与幸吉 三輪霞 (回想)",
+    "locations_raw_text": "不明な森林",
+    "battles_events_raw_text": "与幸吉 vs. 真人 (開始)",
+    "techniques_raw_text": "与幸吉の術式 傀儡操術／極ノ番 メカ丸 装甲傀儡 究極メカ丸・絶対形態 Miracle Cannon Ultra Cannon Miracle Cannon Ultra Cannon 真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "evening-festival",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad",
+    "tech-870eff819a",
+    "tech-c2ae5ed6dc"
+  ],
+  "term_ids_candidate": [
+    "term-40e6a89fc4"
+  ],
+  "key_events_verified_phase5": [
+    "与幸吉が装甲傀儡 究極メカ丸 試作0号を起動する",
+    "17年5か月6日分の蓄積呪力で真人へ砲撃する",
+    "羂索の帳により逃走と通信を阻まれる"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-as-suguru-geto"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-678a848346",
+    "char-18d7c58412",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase5-mechamaru-mode-absolute",
+      "relation": "activated"
+    },
+    {
+      "technique_id": "tech-phase5-ultra-cannon",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase5-miracle-cannon",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "combat-use"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-870eff819a",
+    "tech-phase5-mechamaru-mode-absolute",
+    "tech-phase5-ultra-cannon",
+    "tech-phase5-miracle-cannon",
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase5": [
+    "term-bfcc1b065d",
+    "term-40e6a89fc4",
+    "term-252cb4a664",
+    "term-f9e3abf542",
+    "term-33c0eaca30"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

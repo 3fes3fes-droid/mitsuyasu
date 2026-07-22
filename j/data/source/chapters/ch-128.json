@@ -1,0 +1,163 @@
+{
+  "id": "ch-128",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 15,
+  "number": 128,
+  "zero_number": null,
+  "label": "第128話",
+  "title_official": "渋谷事変㊺",
+  "title_search_normalized": "渋谷事変45",
+  "start_page": 71,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-15"
+  ],
+  "source_locator": "単行本15巻 目次 p.71",
+  "summary_short": "京都校の面々が渋谷へ向かう中、三輪はメカ丸が残した最後の言葉を聞く。虎杖と東堂は連携して真人を攻め、戦いは最終局面へ入る。",
+  "summary_full": "渋谷へ向かう列車内で、三輪はメカ丸が残した通信端末から最後の言葉を聞く。与幸吉は京都校の仲間を事件から遠ざけた理由と三輪への思いを明かし、幸せになってほしいと告げて通信を終える。一方、虎杖と東堂は不義遊戯を軸に真人を追い込み、東堂も黒閃を発生させる。三者の潜在能力が極限まで引き出される中、真人は多重魂と撥体で広範囲を覆う攻撃を作り、連携を崩そうとする。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The Kyoto jujutsu sorcerers head to 渋谷 as the curtain closes on the incident. 幸吉 left his last communication device with 霞 in order to deliver his confession and final goodbyes. Meanwhile, 悠仁 , 東堂 , and 真人 go beyond their limits as their battle reaches its next stage,",
+    "summary_full_legacy": "メカ丸's farewell to 霞. On a train to 渋谷, 三輪霞 holds one of メカ丸 's communication devices in her hands. She's disappointed as 幸吉's voice informs her that the 渋谷事変 will be settled any moment now. He tells her to turn back because it's too late but 霞 ignores him and asks why he only allowed 東堂 and 新 to go to 渋谷. 幸吉 doctored the records so everyone else from the group including 歌姫 would be away from 渋谷 on October 31. 霞 asks if she's useless and weak since he didn't trust her and everyone to go. 幸吉 argues that he's the weak one and admits he's made mistakes that he couldn't even go through with. He confesses there was someone he loved and he believed they would be fine regardless of the state of the world as long as they were together. 幸吉 wanted this to be the case even if that girl didn't want protection from him. The other Kyoto sorcerers on their way to 渋谷. With his time running out, 幸吉 says his final goodbyes to 霞 as she cries over losing him. 幸吉 asks 霞 to find her happiness and adds that as long as she does that, his wish will have come true. For a moment, 幸吉 appears sitting next to 霞 in the reflection of the window as he says goodbye. His image disappears as she looks up into the window, symbolizing that he's gone for good. The other members who were left out of the incident can hear 霞 crying from a different car on the train. 真依 asks 歌姫 about メカ丸's betrayal but 歌姫 doesn't believe it matters since 幸吉 was killed. 加茂 is disappointed Mechmaru expected so little from them but 桃 is simply enraged that he made her cute junior cry. \"All three have brought out 120% of their potential!! \" Meanwhile, in 渋谷駅, the battle between 真人 and the jujutsu sorcerers rages on. With his fighting spirit reignited, 悠仁 fights effectively alongside 東堂 to keep 真人 on the defensive. 真人 knows 東堂's soul is at full strength and one transfiguration might not be enough to kill him. 悠仁's soul is in a much less stable state but 真人 isn't exactly in great shape either. He feels at less than half his full strength after having his double destroyed and being hit with 黒閃 after 悠仁's rush of attacks. All of that started with 野薔薇, making 真人 admit that despite being a nobody to him, 野薔薇 left her mark on this battle. 真人 plans to deal with 東堂's switching first and tries to use a transfigured human to distract 悠仁. However, 真人 is surprised when 東堂 uses 不義遊戯 to swap places with the transfigured human. This allows him to get behind 真人 and force the curse to destroy his own weapon at the same time. 東堂 thinks about feeling like he's being left behind now that 真人 can use 黒閃 as well. 悠仁 refused to get left behind and used the technique during the Goodwell Event. 東堂 refuses to let 悠仁 feel alone and unleashes the sparks of black himself. By delivering a picture-perfect high kick, 東堂 hits 真人 with 黒閃! The fight against 真人 reaches the next level. 真人's arm is broken by 東堂's 黒閃 but he doesn't believe 東堂 will be able to hurt him like that. Even so, the special grade recognizes that all three fighters have reached one hundred and twenty percent of their potential. 真人 voluntarily vomits up several miniature transfigured humans and combines them using 多重魂 . 真人 immediately activates Body Repel , creating multiple transfigured snake-like heads that attempt to chomp hiss adversaries with their giant teeth. Body Repel breaks through the underground of 渋谷 into the streets above. 悠仁 and 東堂 are forced to move and evade the attacks in the air. The latter recognizes that 真人 is countering 不義遊戯 by attacking from all directions. He admits its time for them to reach the next level of the battle and 真人 adds that it's their last chance to curse each other.",
+    "characters_raw_text": "三輪霞 与幸吉 (代理) 禪院真依 加茂憲紀 西宮桃 庵歌姫 虎杖悠仁 真人 東堂葵 釘崎野薔薇 (回想)",
+    "locations_raw_text": "渋谷 渋谷駅 渋谷駅",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 東堂葵 vs. 真人 虎杖悠仁 & 東堂葵 vs. 真人",
+    "techniques_raw_text": "東堂葵の術式 黒閃 不義遊戯 真人の術式 無為転変 多重魂「撥体」 多重魂「撥体」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-3de3b8af11",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-830f121430",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-69d5ecb511",
+    "tech-71a2d65cad",
+    "tech-73135cb5c7",
+    "tech-f81d55ad09"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase7": [
+    "与幸吉の最後の通信が三輪へ届く",
+    "与幸吉が三輪へ別れと願いを伝える",
+    "東堂が真人へ黒閃を当てる",
+    "真人が多重魂と撥体で広範囲攻撃を行う"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "final-recorded-message"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-ebd2a8efa8",
+    "char-dad71c9f31",
+    "char-5724ed462b",
+    "char-830f121430",
+    "char-484fd66a1e",
+    "char-3de3b8af11",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-18d7c58412",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-4688b07b42",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "used-by-todo"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-f81d55ad09",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-73135cb5c7",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-4688b07b42",
+    "tech-69d5ecb511",
+    "tech-71a2d65cad",
+    "tech-f81d55ad09",
+    "tech-73135cb5c7"
+  ],
+  "term_ids_verified_phase7": [
+    "term-69d5ecb511",
+    "term-phase5-transfigured-human",
+    "term-65867f280c",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-15",
+    "src-manga-games-vol-15",
+    "src-legacy-ju-txt"
+  ]
+}

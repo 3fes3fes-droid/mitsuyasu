@@ -1,0 +1,167 @@
+{
+  "id": "ch-091",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 11,
+  "number": 91,
+  "zero_number": null,
+  "label": "第91話",
+  "title_official": "渋谷事変⑨",
+  "title_search_normalized": "渋谷事変9",
+  "start_page": 51,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-11"
+  ],
+  "source_locator": "単行本11巻 目次 p.51",
+  "summary_short": "羂索たちは五条の封印を成立させる。死後に残したメカ丸の小型端末が冥冥班へ事態を伝え、虎杖は他の術師へ五条封印を知らせに走る。",
+  "summary_full": "羂索は頭部を開き、脳を入れ替えて他人の肉体を渡り歩く存在であることを五条へ示す。五条が夏油の肉体へ呼び掛けると、右腕が羂索自身の首を絞めるように動き、肉体と魂の関係に例外があることを示す。獄門疆は五条の封印を完了するが、五条の情報処理を受けてその場から動かせないほど重くなる。同時に、与幸吉が死前に残した小型傀儡が虎杖と冥冥の前で作動し、五条封印と敵の配置を通知。虎杖は術師たちへ事態を知らせるため地上へ走る。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Pseudo-夏油 and his allies see their plan through to the end and seal 五条悟 at last. メカ丸 delivers the bad news to the 冥冥 Team and asks 悠仁 to spread the word. They must act quickly and rescue 五条 before the entire world as they know it is upended.",
+    "summary_full_legacy": "Seal complete! On the 副都心線 ホーム between Harajuku and Dogenzaka, the circular puppet communication device on 悠仁's ear speaks to him in 与幸吉's voice. 悠仁's quick to take it off and attempts to break it but 幸吉 quickly reveals that 五条悟 has been sealed. At the Hikarie building, 夏油 tells 悟 good night and 悟 asks his friend 傑 to wake up. He can't believe would allow himself to get used like that and a semblance of his being makes his body's arm grab the imposter's throat. Pseudo-夏油 is impressed and tells 真人 his theory about the body and soul being separate must be incorrect. 真人 argues that since their cursed techniques are so different they exist in different worlds. The 冥冥 Team heads on the task メカ丸 assigned to them. 悟 tells them to get this over with and Pseudo-夏油 agrees, closing the gate and sealing 五条悟 at last. 獄門疆 only allows for one occupant at a time but the seal is officially complete. Meanwhile, 冥冥 doesn't believe 幸吉 but he can only provide information surrounding his death as proof. 与幸吉 was killed by 真人 on October 19th and this puppet is simply a contingency plan. There are only three of these puppets in separate locations and one was given to 冥冥's Team because they're the least likely to be moles. 幸吉 warns them that there is a 呪詛師 coming down the Fukushotin ホーム to attack them. They're stronger than the grasshopper curse , likely around semi-grade 1 . 冥冥 wants to ignore them and reach 五条 but 幸吉 advises them to focus on taking down the four barriers that have appeared around 渋谷. There's another curtain preventing sorcerers from reaching 五条 father along the tracks. All the teams on standby have likely been caught inside a curtain and are unable to use cellphones. This goes for the managers as well, so 幸吉 tells 悠仁 to head back to 明治神宮前駅 and then back above ground to spread the word about 五条 being sealed. 悟 leaves the rest up to his allies. 五条's rescue must be a collaborative effort if it's to succeed. 幸吉 asks 冥冥 to defeat the 呪詛師 and clear the path for 悠仁. 冥冥 agrees but she inquires about his bank account. 幸吉 understands the jujutsu world and human society will be upended if 五条 disappears. He asks them to put their life on the line. There was a time 幸吉 would have been fine with everything being upended, but not anymore. 冥冥 notes that their enemies have arrived and the 呪詛師 蛯名仁次 appears with his 式神 on a chain. 悠仁 says he'll follow 冥冥's lead and she agrees. Back at the 渋谷ヒカリエ, 脹相 and 漏瑚 also awaken from their state of stasis effects of 無量空処 . Suddenly, 獄門疆 drops to the ground out of 夏油's hand as if it was extremely heavy. 内部, 悟 sits in a distant realm surrounded by skeletons and notices that time doesn't pass. He admits he messed up but he believes everything will be fine because he has faith in his allies.",
+    "characters_raw_text": "与幸吉 (傀儡) 虎杖悠仁 冥冥 憂憂 Pseudo-夏油 五条悟 真人 蛯名仁次 漏瑚 脹相 伏黒恵 釘崎野薔薇",
+    "locations_raw_text": "渋谷 渋谷駅 副都心線 明治神宮前駅ホーム 副都心線 ホーム 渋谷駅 副都心線 明治神宮前駅ホーム 副都心線 ホーム 副都心線 ホーム 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変",
+    "techniques_raw_text": "呪物 獄門疆",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-27e18811b4",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-dad71c9f31",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase5": [
+    "羂索が肉体を渡る術式を示す",
+    "夏油の肉体が羂索の首を絞める反応を見せる",
+    "五条の封印が完了する",
+    "死後の小型メカ丸が虎杖と冥冥へ情報を伝える"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "posthumous-puppet-activation"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-as-suguru-geto"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "sealed"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "body-reaction"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-27e18811b4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-dad71c9f31",
+    "char-baadf43d19",
+    "char-07918bda3f",
+    "char-e41848a08f",
+    "char-678a848346",
+    "char-17322e71e5",
+    "char-b9d4880408",
+    "char-18d7c58412",
+    "char-27e18811b4",
+    "char-a61fa295f1",
+    "char-851111b10d",
+    "char-3c1852867d",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-phase5-prison-realm",
+      "relation": "sealing-completed"
+    },
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "posthumous-puppet-activation"
+    },
+    {
+      "technique_id": "tech-6246245c7a",
+      "relation": "explained"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-phase5-prison-realm",
+    "tech-870eff819a",
+    "tech-6246245c7a"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-6e7e2b846e",
+    "term-phase5-body",
+    "term-65867f280c",
+    "term-f9e3abf542"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-11",
+    "src-manga-games-vol-11",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ch-103",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 103,
+  "zero_number": null,
+  "label": "第103話",
+  "title_official": "渋谷事変㉑",
+  "title_search_normalized": "渋谷事変21",
+  "start_page": 111,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.111",
+  "summary_short": "脹相は赤血操術の多彩な技で虎杖を圧倒する。虎杖が敗色を濃くする中、残存していたメカ丸の端末が作戦を提示する。",
+  "summary_full": "脹相は百斂から放つ穿血、超新星、血刃、赤鱗躍動を連続して使い、虎杖の接近戦にも対応する。虎杖は穿血の発射時点を誘導して回避し、身体能力を生かして距離を詰めるが、超新星で背中を負傷し、強化された脹相に再び押し戻される。虎杖が相手の強さを認めたところで、沈黙していたメカ丸の通信端末が作戦を伝える。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 has made it inside 渋谷駅 , but 脹相 proves to be more than a match for the 呪術高専 student. 脹相 uses every move in his arsenal to take revenge on his younger brothers, pushing 悠仁 closer to the edge of defeat. Just as 悠仁 realizes how tough his opponent is, a familiar voice calls out to help.",
+    "summary_full_legacy": "悠仁 manages to avoid the incredible speed of 脹相's 穿血. In the heat of battle against 悠仁, 脹相 uses 赤血操術 to control the blood outside his body and condenses it using 百斂 . The blood beam 穿血 is too fast even for 悠仁, with his chances of avoiding it only being fifty percent. 悠仁 decides to dictate the timing of his opponent's attack by jumping off the ground. This successfully baits 脹相, who willingly fires 穿血 again at 悠仁's head just before he hits the ground. However, 悠仁 drops his upper body weight all the way down close to the ground at the very moment his feet touch it, avoiding the blood beam with blinding speed. 悠仁 immediately rushes toward 脹相 and attempts to close the distance between them. 脹相 hits 悠仁 with 超新星! 脹相 commends 悠仁 and bends the beam down to try and hit him. 穿血 isn't as fast after the initial shot, so 悠仁 is able to dodge it and engages 脹相 at close range. He wants to turn the exchange into a fistfight but there a floating balls of condensed blood still floating around 悠仁. 脹相 activates 超新星 , detonating all of the condensed blood in every direction like a buckshot, severely injuring 悠仁's back. The 呪胎九相図 follows up by using 血刃 to stab 悠仁's foot with a dagger made of blood. What 脹相 doesn't expect is when 悠仁 fights back with his stabbed foot and kicks him away. メカ丸 returns to help 悠仁 out of a tough spot. 悠仁 uses his athletic ability to flip around 脹相's guard and land a heavy axe kick. 悠仁 realizes there aren't any more orbs for the blood beam and focuses on stopping him from making more. He's caught off guard when 脹相 assumes the stance for shooting 穿血. 悠仁 stops running toward his opponent, falling for 脹相's feint. 脹相 takes the offensive, casting 赤鱗躍動 on himself and delivering several successive blows to 悠仁.  After smashing him against a wall, 脹相 uses 百斂 and 穿血 again to try and finish him off. However, 悠仁 survives and 脹相 admits he rushed it. The blood wasn't condensed enough and didn't fully pierce 悠仁's gut. Still heavily injured, 悠仁 recognizes that 脹相 is too strong for him. Just when the disadvantage begins to become obvious, メカ丸 suddenly starts speaking again. through the communication device. Surprising the injured student with his voice, メカ丸 asks 悠仁 what's going on.",
+    "characters_raw_text": "脹相 虎杖悠仁 与幸吉 (代理)",
+    "locations_raw_text": "渋谷 渋谷駅 渋谷駅",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 vs. 脹相 虎杖悠仁 vs. 脹相",
+    "techniques_raw_text": "脹相の術式 赤血操術 血刃 百斂／赤鱗躍動 穿血 超新星 血刃 百斂／赤鱗躍動 穿血 超新星",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-dad71c9f31"
+  ],
+  "technique_ids_candidate": [
+    "tech-17ae81079b",
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase6": [
+    "脹相が赤血操術の複数の技で虎杖を圧倒する",
+    "虎杖が穿血の発射を誘導して回避する",
+    "超新星で虎杖が負傷する",
+    "メカ丸の通信端末が再起動する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "proxy-device"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-baadf43d19",
+    "char-851111b10d",
+    "char-dad71c9f31"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-17ae81079b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase6-blood-edge",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e66786ca8f",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-5d6a005065",
+    "tech-17ae81079b",
+    "tech-phase6-blood-edge",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_verified_phase6": [
+    "term-c5958133bc",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

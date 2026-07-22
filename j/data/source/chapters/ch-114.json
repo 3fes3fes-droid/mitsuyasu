@@ -1,0 +1,156 @@
+{
+  "id": "ch-114",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 13,
+  "number": 114,
+  "zero_number": null,
+  "label": "第114話",
+  "title_official": "渋谷事変㉜",
+  "title_search_normalized": "渋谷事変32",
+  "start_page": 153,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-13"
+  ],
+  "source_locator": "単行本13巻 目次 p.153",
+  "summary_short": "伏黒は甚爾との戦いを終えた直後、重面の奇襲を受ける。日下部とパンダも呪詛師と遭遇する中、宿儺と漏瑚の戦いが渋谷全体を巻き込む。",
+  "summary_full": "甚爾との戦いで消耗した伏黒は、真希たちのもとへ戻ろうとしたところを重面春太に背後から斬られる。一方、日下部は特級呪霊との戦闘を避けるため意図的に道に迷い、パンダとともに夏油一派の祢木利久・菅田真奈美らと遭遇する。双方が戦いを始めようとした瞬間、宿儺と漏瑚の戦闘による爆発が建物を吹き飛ばす。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "After fighting several battles in a row, 恵 doesn't even have a moment to himself as another 呪詛師 attacks him. Meanwhile, 日下部 and パンダ also run into a pair of curse users. However, a grand battle between two special grades takes precedence over all the chaos.",
+    "summary_full_legacy": "恵 is hit with a sneak attack from behind. 恵 kneels down and examines the body of his deceased opponent. He notices that his face changed back into オガミ 's grandson and admits he was lucky that this man decided to commit suicide. 恵 thinks about what 直毘人 said about \"甚爾\" and what his opponent said about rejecting the \"Zenins.\" However, 恵 is still injured from the fight and decides he needs to go see 家入硝子 as soon as possible. That's his initial thought, but then 恵 reminds himself that he needs to check on 真希 and her team first. Suddenly, 恵 is slashed from behind by the 呪詛師 重面春太 . 重面's nose and teeth are still broken from his fight with 七海 , but he's alive and moving. He's excited to be back attacking people who can't defend themselves, admitting he's better suited for that type of combat. ラルゥ breaks up a fight between 夏油傑's family. Meanwhile, the 日下部 Team wanders aimlessly around 渋谷 . By 11:01 P.M. they're in front of 渋谷ストリーム checking out random buildings. パンダ implores his teacher to hurry and find 悟 and would go by himself but he's unsure of where 副都心線 B5F is. 狗巻棘 confirmed he relocated all the civilians somewhere safe and that 五条悟 has been sealed. パンダ believes they need to hurry but 日下部 keeps coming up with excuses to keep パンダ's urgency at bay. 日下部 doesn't want to die fighting special grades so he wants to keep buying time. The number of people thinning out might lead パンダ to B5F despite his horrible sense of direction. The platform is literally around the corner from where they are but 日下部 is determined to waste more time pretending to be lost after entering the Shin-Minami entrance. パンダ could end up going by himself but 日下部 doesn't want to be alone in 渋谷 either. 日下部 relishes in the opportunity to fight non-special grades. The 日下部 Team is interrupted by the appearance of two curse users: Manami Suda and Toshihisa Negi . They're two former commanders of 夏油傑 and three of their foot soldiers are behind 日下部 and パンダ as well. Negi tells them to give up because he doesn't want to kill other sorcerers. In contrast, 日下部 relishes the opportunity to fight other sorcerers because it can buy him more time. He asks for the 呪詛師's motivations and says to take as much time as they want. Manami reveals that they've inherited 夏油傑's will. She and Negi intend on helping Pseudo-夏油 despite 美々子 and 菜々子 's misgivings. The remains of 傑's \"family\" had a falling out because the two girls wanted to kill Pseudo 夏油 while Negi and Manami wanted to help him. ラルゥ broke up the fight and believed neither side was wrong. They all agreed to go their separate ways but ラルゥ reminded them that the day will come when this family will break bread again. \" Is that all you got cursed spirt!! \" At the conclusion of Manami's story, she asks if 日下部 surrenders. 日下部 is disappointed the story finished quickly. He's still happy the situation is too good to pass up. Not intimidated by curse users of this level, Kuakabe wants to take advantage of the situation and stay away from any real danger. 日下部 activates 新陰流 Style: Evening Moon Sword Drawing. Negi takes that as this adversary's answer and begins to active a technique of his own. Their fight is abruptly interrupted by an explosion that detonates an entire building behind Negi, surprising all the sorcerers. This is the result of a battle between 宿儺 and 漏瑚 . The former pummels 漏瑚 through the air and dominates their fight. As the latter falls injured with blood spilling from his mouth, 宿儺 asks if that's all he's got.",
+    "characters_raw_text": "伏黒恵 オガミ's grandson 伏黒甚爾 (回想) 禪院直毘人 (回想) パンダ 日下部篤也 Toshihisa Negi Manami Suda 菜々子 (回想) 美々子 (回想) ラルゥ (回想) 漏瑚 宿儺",
+    "locations_raw_text": "渋谷 外 渋谷駅 Near 渋谷ストリーム 外 渋谷駅 Near 渋谷ストリーム",
+    "battles_events_raw_text": "The 渋谷事変 宿儺 vs. 漏瑚 (開始) 宿儺 vs. 漏瑚 (開始)",
+    "techniques_raw_text": "日下部篤也の術式 新陰流 Style: Evening Mood Sword Drawing 呪具 重面春太's Hand-Sword",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-1a74b17cf8",
+    "char-22abdd626c",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-53c5711b23",
+    "char-5c2dcdaab3",
+    "char-672d843799",
+    "char-a61fa295f1",
+    "char-d5482ceba1",
+    "char-da4ca46be3",
+    "char-e5bfc97a26",
+    "char-f65b4fe4b0"
+  ],
+  "technique_ids_candidate": [
+    "tech-542b17dcab"
+  ],
+  "term_ids_candidate": [
+    "term-041be91538"
+  ],
+  "key_events_verified_phase6": [
+    "重面が伏黒を奇襲する",
+    "日下部が危険な戦場を避けて時間を稼ぐ",
+    "日下部班が夏油一派と遭遇する",
+    "宿儺と漏瑚の戦闘が周囲を巻き込む"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "ambushed-severely-injured"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e5bfc97a26",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-f65b4fe4b0",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5c2dcdaab3",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-da4ca46be3",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-1a74b17cf8",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-3c1852867d",
+    "char-6c8cc9b546",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-e5bfc97a26",
+    "char-f65b4fe4b0",
+    "char-5c2dcdaab3",
+    "char-b9d4880408",
+    "char-da4ca46be3",
+    "char-1a74b17cf8",
+    "char-2b8d365a39",
+    "char-a61fa295f1"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-0ec3138e2c",
+      "relation": "passive-use"
+    },
+    {
+      "technique_id": "tech-phase6-evening-moon",
+      "relation": "prepared"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-0ec3138e2c",
+    "tech-phase6-evening-moon"
+  ],
+  "term_ids_verified_phase6": [
+    "term-041be91538",
+    "term-phase5-special-grade-curse"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-13",
+    "src-manga-games-vol-13",
+    "src-legacy-ju-txt"
+  ]
+}

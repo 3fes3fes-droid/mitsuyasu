@@ -1,0 +1,124 @@
+{
+  "id": "ch-210",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 210,
+  "zero_number": null,
+  "label": "第210話",
+  "title_official": "未知への供物②",
+  "title_search_normalized": "未知への供物2",
+  "start_page": 27,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.27",
+  "summary_short": "虎杖たちは外国軍が呪霊に襲われている事実を知り、救出をめぐって天使と意見を違える。来栖華は幼少期に伏黒の玉犬に救われた経験から、彼のように人を助けたいと語る。",
+  "summary_full": "虎杖たちは兵士を制圧し、彼らも羂索に利用された被害者だと知る。結界内では呪霊が兵士を殺しており、伏黒は救出へ向かうべきだと判断するが、天使は同化の慣らしが既に足りている可能性を指摘する。来栖華は幼い頃、呪霊に育てられていたところを伏黒の玉犬に救われた過去を語る。伏黒本人は覚えていないが、来栖は彼のように人を救う存在になることを自分の使命としてきた。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 and company learn the gruesome truth behind the military's invasion of the colonies. 悠仁 and the 天使 disagree about how to intervene, with the latter wanting to stay out of it. However, 華 aspires to be like 恵, who unbeknownst to him, rescued her in the past and inspired her to help others.",
+    "summary_full_legacy": "\"We all knew that thing wasn't our mother.\" Several years ago in a dark, broken-down abandoned house, three girls were trapped by a 呪霊 . The curse watched over them, fed them inedible meals, and left them in filthy conditions. The girls played along but they all knew that thing wasn't their mother In the present day, 悠仁, 恵, 華, and Fumihiko have easily dispatched the soldiers and are now interrogating their local guide. They learn about the plan to turn 呪力 into a renewable resource. Fumihiko comically chastizes the soldier for being a traitor and 華 comments that she's surprised the idea never came up in Japan. 恵 explains that jujutsu headquarters are far too prideful to popularize sorcery. The soldier agrees because Japan is a place that emphasizes self-responsibility. 悠仁 volunteers to stop the massacre. 恵 figures out that the prospect of alternative energy was simply bait to lead the military into the colonies to be slaughtered by 呪霊. 天使 adds that doing so will fill the colonies with 呪力 and complete the pre-merger with 天元 . With this revelation, 恵 wonders if the rules were used to intentionally complicate 死滅回游 in order to hide 羂索's true intentions. This is similar to what レジィ・スター predicted would happen. 華 commits to saving people, just as 恵 once saved her. 悠仁 suggests they save the soldiers and 恵 agrees as they need to prevent the merger. However, the 天使 refuses to drag 華 into unnecessary fighting and reveals the 東京 colony already has enough 呪力. 悠仁 isn't worried about the merger and simply wants to save the lives of the soldiers. He states that he'll act regardless of their help and says he never trusted \" any of you \". 華 asks who 悠仁 was talking to and responds by telling him how rude his comment was. Meanwhile, a 呪霊 is fishing by using soldiers as bait on its hook. It lowers them down into a pit of fish-like curses that bite at the hook, only to be fed to other hungry curses behind the fisherman. The next soldier to be put on the hook is shaken by this horrific sight and doesn't want to die this way. Soldiers are always prepared to die but they never expected this. Fortunately, a light shines down on the soldier and 来栖華 comes to his rescue. 悠仁 and 恵 move through the streets to save lives as well. 恵 asks him what his \" any of you \" comment was all about. He knows Yuuji was directing it at the 天使 and Sukuuna. 悠仁's fear of 華 replacing 野薔薇. 華 was among the girls who were trapped in the abandoned house with the 呪霊. Everyone knew that it wasn't their mother but anyone who spoke up would disappear. She was there for over a year until she followed a dog out, one with a fluffy white tail. This hound was none other than 恵's 玉犬 . 恵 and 華 were only around five or six at the time and he was with 五条. She knew they would meet again, believing it was fate. 華 still believes it was fate to this day and she decides to save people so she can become someone worthy of standing by 恵's side. 恵 tells 悠仁 that normally he'd be more considerate of 華's feelings. 悠仁 admits ever since meeting 華, he's been afraid of her replacing 野薔薇 in their hearts. 恵 tells him not to be foolish and 悠仁 says he will apologize later. 華 descends in front of the two boys and asks 悠仁 if there is anything he wants to say to her. (Fumihiko steals the final panel.)",
+    "characters_raw_text": "来栖華 伏黒恵 虎杖悠仁 高羽史彦 宿儺 (言及のみ) 五条悟 (回想) 釘崎野薔薇 (想像)",
+    "locations_raw_text": "東京第1結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-02aa196fbb",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-65e7fd1c87",
+    "char-baadf43d19",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [
+    "tech-6c8be9e9eb"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a"
+  ],
+  "key_events_verified_phase10": [
+    "虎杖たちが外国兵を制圧する",
+    "伏黒が兵士の救出を提案する",
+    "来栖が幼少期に伏黒の玉犬に救われた過去を語る",
+    "来栖が伏黒を救済の基準にしてきたと明かす"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-and-past-rescuer"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "past-and-central"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "advises"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "memory"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-d8252d61d4",
+    "char-65e7fd1c87",
+    "char-02aa196fbb",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-6c8be9e9eb",
+      "relation": "past-use"
+    },
+    {
+      "technique_id": "tech-2326f083fd",
+      "relation": "available"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-6c8be9e9eb",
+    "tech-2326f083fd"
+  ],
+  "term_ids_verified_phase10": [
+    "term-adb9e5012c",
+    "term-f98498c1ef",
+    "term-6de7063fc5",
+    "term-bb89ef15f2"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

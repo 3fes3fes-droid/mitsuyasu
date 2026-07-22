@@ -1,0 +1,191 @@
+{
+  "id": "ch-268",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 30,
+  "number": 268,
+  "zero_number": null,
+  "label": "第268話",
+  "title_official": "決着",
+  "title_search_normalized": "決着",
+  "start_page": 89,
+  "official_group_id": null,
+  "db_section_draft_id": "ending",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-30"
+  ],
+  "source_locator": "単行本30巻 目次 p.89",
+  "summary_short": "釘崎の共鳴りで術式を妨害された宿儺を、虎杖が伏黒の身体から引き剥がす。宿儺は虎杖の救済を拒んで消滅し、裏梅も宿儺の敗北を認めて自らの肉体を崩す。",
+  "summary_full": "釘崎の共鳴りで術式を妨害された宿儺を、虎杖が伏黒の身体から引き剥がす。宿儺は虎杖の救済を拒んで消滅し、裏梅も宿儺の敗北を認めて自らの肉体を崩す。虎杖の黒閃と魂への解で宿儺は伏黒から剥がされ、残滓の姿となる。虎杖は再び生きる道を提案するが宿儺は拒否して消滅し、裏梅も敗北を認めて崩壊する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "At long last, 宿儺 falls. In the aftermath, 裏梅 concedes defeat and 恵 finally reunites with his allies. Despite the triumph, there are still trials and tribulations for the jujutsu sorcerers overcome.",
+    "summary_full_legacy": "内部 of 恵's mind, 宿儺 berates the sorcerer for his wrongs, such as killing his own sister and saving 悠仁 who would later kill several other people. Blaming 恵 for these crimes, 宿儺 states that he would never be able to live a normal life, and demands him to give up and let himself be used by the King of Curses. 恵 realizes that 宿儺 is desperate and afraid of dying, as the resonance between 宿儺の指 would prevent the last finger from carrying 宿儺's soul when 悠仁 tears him away from 恵, which would cause the other nineteen to disappear. As 宿儺's visage withers away, 恵 states that he doesn't intend to live a normal life going forward, as he wants to try living for someone else's sake instead of his own. The barrier for 悠仁's domain shatters apart as the sorcerer punches 恵's body out of 宿儺. The grotesque remains of 宿儺 desperately try to grab onto 恵, but fall short and begin to erode away. Panting, 宿儺 looks up and finds 悠仁 staring down at him, the latter once again offering him the option to repossess his body. Kneeling down and holding 宿儺 in his hands, 悠仁 admits that 宿儺 is himself. Everyone is born into the world bearing curses, but whether one became a monster or not because of it was up to luck. 悠仁 believes he was lucky to have his grandfather guide him, and offers 宿儺 the chance to live with him again instead of cursing him. 宿儺 adamantly refuses, saying 悠仁's name for the first time and telling the boy to not underestimate him, as he is a curse . The little of what remained of the King of Curses then disintegrates into nothing. Elsewhere in 新宿 , 裏梅 and 秤 both notice 宿儺's demise. Accepting defeat, 裏梅 claims that the sorcerers only won because of 宿儺's weakness from being incarnated 呪物 , not their own strength; they were simply lucky for being born a thousand years later. 秤 takes the comment as a compliment, causing 裏梅 to smirk as the ice around their neck melts, decapitating them. Some time later, 恵 wakes up in bed. After getting dressed, he walks out and finds 悠仁 and 野薔薇 preparing to surprise him. With the surprise foiled, the three begin to catch up. Taking out two letters, 悠仁 explains that he was given these by 硝子 , who received them from 五条 . Now that the three of them are together again, he wants them to open the letters. Opening her letter, 野薔薇 expresses her distaste at its contents, which was information on where her mother was and what she was doing. Completely uninterested in the subject, 野薔薇 crumples the letter. Looking at his letter, 恵 begins to laugh, prompting 悠仁 and 野薔薇 to look at it as well, much to their shock. In the letter, 五条 nonchalantly informs 恵 that he killed his father . Noticing the time, 野薔薇 tells the boys they need to meet with 真希 and the others. 恵 assumes it was so he could apologize to and thank everyone who fought against 宿儺, but 野薔薇 states it was for another matter. 悠仁 explains that everyone needed to be present in order to save 憂太 . As the 呪術高専 sorcerers enter a corridor, the three first-years hear someone cursing 憂太's name, much to 恵's confusion.",
+    "characters_raw_text": "宿儺 伏黒恵 伏黒津美紀 (言及のみ) 虎杖悠仁 虎杖倭助 (想像) 裏梅 秤金次 釘崎野薔薇 家入硝子 (言及のみ) 五条悟 (言及のみ) 伏黒甚爾 (言及のみ) 乙骨憂太 (言及のみ) 狗巻棘 禪院真希 パンダ 三輪霞 西宮桃 日下部篤也",
+    "locations_raw_text": "東京 新宿 東京 呪術高専 新宿 東京 呪術高専",
+    "battles_events_raw_text": "呪術師s vs. 宿儺 (終了) 秤金次 vs. 裏梅 (終了)",
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "finale",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-0ee50b4740",
+    "char-0f2e6e85bf",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-484fd66a1e",
+    "char-53c5711b23",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d5482ceba1",
+    "char-dea43d7fc7",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-d9180946ec"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "釘崎の共鳴りで術式を妨害された宿儺を、虎杖が伏黒の身体から引き剥がす。",
+    "宿儺は虎杖の救済を拒んで消滅し、裏梅も宿儺の敗北を認めて自らの肉体を崩す。",
+    "虎杖の黒閃と魂への解で宿儺は伏黒から剥がされ、残滓の姿となる。",
+    "虎杖は再び生きる道を提案するが宿儺は拒否して消滅し、裏梅も敗北を認めて崩壊する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-0ee50b4740",
+    "char-0f2e6e85bf",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-484fd66a1e",
+    "char-53c5711b23",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d5482ceba1",
+    "char-dea43d7fc7",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0ee50b4740",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-d9180946ec",
+    "tech-708d558bf8"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-708d558bf8",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-776e9a8f91"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-30",
+    "src-manga-games-vol-30",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

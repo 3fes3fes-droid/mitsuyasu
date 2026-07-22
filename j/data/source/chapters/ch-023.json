@@ -1,0 +1,125 @@
+{
+  "id": "ch-023",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 23,
+  "zero_number": null,
+  "label": "第23話",
+  "title_official": "幼魚と逆罰―伍―",
+  "title_search_normalized": "幼魚と逆罰―伍―",
+  "start_page": 127,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.127",
+  "summary_short": "真人は魂を変形させる能力で七海を追い詰めるが、七海は時間外労働に入り呪力を増幅させて反撃する。虎杖は順平から映画館事件の事情を聞き出そうとする。",
+  "summary_full": "真人は七海の脇腹へ触れ、無為転変で魂を変形させようとする。七海は無意識に呪力で魂を守り即死を免れるが、同じ攻撃を繰り返し受ければ危険だと判断する。定時を過ぎると、勤務時間中の呪力を抑える縛りが解除され、七海は「時間外労働」として出力を上げる。十劃呪法の拡張術式・瓦落瓦落で地下道の壁と天井を崩し、真人を瓦礫へ埋めて撤退する。真人は戦闘を通して自分の術式と魂への理解を深める。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The battle between 七海建人 and 真人 reaches its climax. Just when 真人 believes he's won, the former salaryman gets serious when he begins working overtime. Meanwhile, 悠仁 begins questioning 順平 about the キネマシネマ incident.",
+    "summary_full_legacy": "真人 uses disfigured ex-human puppets against 七海. Earlier in 七海's bout with 真人, 七海 is able to avoid 真人 as he transforms small ex-humans into disfigured monsters to attack. 七海 notices of the being crying out for help and recalls 硝子 telling him not to hesitate against them. 真人 apologizes and explains sometimes the disfiguration doesn't kill the victim immediately. 七海 claims this doesn't bother him as he keeps work and emotions separate but 真人 laughs at that response. 真人 states that he can see 七海's soul wavering and asks what rank he is. 七海 reveals he's grade 1 and 真人 claims his strength is perfect for experimentation. 真人 rushes past 七海's guard and touches his right abdomen, instantly injuring it. 真人 injures 七海's soul. 真人 claims the only reason 七海 isn't a mindless puppet is because he's subconsciously guarding his soul with 呪力 . 真人 also claims he increased his own speed by reshaping his soul and transforming his legs into horse-like hooves. With only two or three more strikes to his soul, 真人 states 七海 will no longer be human. 七海 ignores 真人's taunt and notices the time. The ex-businessman realizes he's working overtime now and takes off his tie. 真人 takes notice of his opponent's rising 呪力 as 七海 wraps his necktie around his fist. 七海 starts working overtime. 真人 surmises that 七海 restricts his energy based on time. The jujutsu sorcerer begins divulging how his 術式 works and runs toward the wall. 真人 chases him but 七海 knows that he can't fight this curse until he runs out of energy. Instead, 七海 must end the fight in one blow. Using 十劃呪法 : 瓦落瓦落 , 七海 punches the wall of the sewers, exposing a weak point that shatters the environment around him and 真人. 真人 prepares to dodge but 七海 takes him off guard and cuts off one of his legs. He tells 真人 they'll meet again should they both survive and leaves. As 真人 listens, a piece of the roof above him falls to crush him. 悠仁 and 順平 bond over movies. Meanwhile, 悠仁 waits with 順平 at his school. 伊地知潔高 is out chasing the second fly head that escaped so 悠仁 can't reach him. 真人 warned 順平 beforehand to be wary of students wearing a spiral pin. He told him that they're called jujutsu sorcerers but he also added to befriend them if possible. 悠仁 decides to be outright and asks 順平 if he saw anything weird at the movie theater where his peers died. 順平 knows he meant 真人, but doesn't tell him and instead lies. 悠仁 asks if 順平 can stay anyway and they talk about the movie he went to see. 悠仁 happened to see the same movie as him while training and they appear to bond over it. In the distance, Pseudo-夏油 watches, pleased that someone from their side was able to befriend 宿儺 's vessel.",
+    "characters_raw_text": "真人 七海建人 家入硝子 (カメオ登場) 虎杖悠仁 吉野順平 伊地知潔高 Pseudo-夏油",
+    "locations_raw_text": "Unspecific River 川崎市 真人's Underground Lair 真人's Underground Lair",
+    "battles_events_raw_text": "七海建人 vs. 真人 (終了)",
+    "techniques_raw_text": "七海建人の術式 十劃呪法 瓦落瓦落 瓦落瓦落 真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-0429ab4dc0",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-6309a7e2f4",
+    "char-678a848346",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [
+    "tech-3f2f2d1e05",
+    "tech-71a2d65cad",
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase2": [
+    "七海が無為転変を受けながら生存する",
+    "縛りの解除により七海が時間外労働へ移行する",
+    "瓦落瓦落で地下道を崩して七海が撤退する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-6309a7e2f4",
+    "char-18d7c58412",
+    "char-baadf43d19",
+    "char-236cc955ae",
+    "char-b4d661547b"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-3f2f2d1e05",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-e69f8fd37d",
+    "tech-71a2d65cad",
+    "tech-3f2f2d1e05"
+  ],
+  "term_ids_verified_phase2": [
+    "term-65867f280c",
+    "term-40e6a89fc4",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03",
+    "src-official-character-vote-4"
+  ]
+}

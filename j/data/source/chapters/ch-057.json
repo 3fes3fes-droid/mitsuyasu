@@ -1,0 +1,133 @@
+{
+  "id": "ch-057",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 57,
+  "zero_number": null,
+  "label": "第57話",
+  "title_official": "起首雷同―参―",
+  "title_search_normalized": "起首雷同―参―",
+  "start_page": 91,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.91",
+  "summary_short": "三人は八十八橋の結界で分断され、虎杖は毒血を使う呪霊、伏黒と釘崎は橋の呪いと戦う。事件が宿儺の指と結び付いていることも明らかになる。",
+  "summary_full": "結界内では橋の下へ続く出入口が次々に現れ、伏黒と釘崎が呪いの本体を探す。虎杖は外部から入ってきた血塗と戦う。別の受肉体・壊相が結界へ手を伸ばして釘崎を外へ引き出し、血塗も兄を追うため外へ出る。伏黒は残った呪霊を玉犬「渾」で祓うが、結界は消えない。宿儺の受肉を契機に、それまで隠れていた指が活性化したと気づいた直後、少年院の個体に似た、別の指の特級呪霊が伏黒の前へ現れる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The first-years split up to take on the different enemies. 悠仁 battles a grotesque curse with the ability to spit poisonous blood while 恵 and 野薔薇 play a game of cursed whack-a-mole. Once again things are shaken up as the case begins to connect to 宿儺の指.",
+    "summary_full_legacy": "悠仁 faces off with the newcomer. The 呪胎九相図 Womb spits acidic blood at 悠仁 but he's able to avoid it. He kicks the curse away and ponders the blood it spat out at him. The curse is surprised by how strong 悠仁 is. At the same time, 野薔薇 tries to use 芻霊呪法 術式 : 共鳴り on the spots where the other curse is popping in and out of. Many of them explode but the curse itself is able to avoid being hit by rapidly appearing in different spots. 野薔薇 claims they should play it like whack-a-mole and 恵 agrees that she should keep trying to crush the exists. In exchange for its 術式's wide range, the main body doesn't seem to be able to retaliate. 恵 originally believed the curse would be stronger due to the number of victims, but in reality the effected area and the barrier hiding the Domain appear to be draining on the curse's main body. In that case, the curse 悠仁 is fighting against might be the real threat. 野薔薇 and 恵 fight to exorcise the curse. Suddenly, another 呪霊 reaches into the Domain and pulls 野薔薇 out. 恵 yells out to her and tries to rescue his friend, but she tells him not to worry as she's dragged out. The curse 悠仁 is facing off against notices his \"older brother\" and leaves the Domain as well. 恵 tells 悠仁 to chase after it outside the barrier to save 野薔薇. 野薔薇 is taken back outside into the forest by a new fighter. She forces him to back off with her hammer and notices that she can't tell if he's a 呪霊 or 呪詛師. The strange man has a unique appearance and reveals that he and his brother's errand doesn't include killing sorcerers. 野薔薇 doesn't know what he means by errand, but he believes they're both here for the same reason. Another 呪霊 containing 宿儺の指 appears. 恵 continues to fight against the tunneling curse, claiming its surprises are too simple. It avoids 恵's sword but gets slashes apart by 玉犬: 渾 . The curse is exorcised and all the exists disappear, giving 恵 a moment to rest. However, a new tunnel appears and 恵 notices the Domain isn't gone yet either. 恵 realizes that the first cursed death in this case was in June, the same time 宿儺 incarnated. A special grade curse, just like the one in the detention center appears before 恵. It carries the 宿儺 finger that the 呪胎九相図 Wombs are looking for.",
+    "characters_raw_text": "血塗 虎杖悠仁 釘崎野薔薇 伏黒恵 壊相 Finger Bearer",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": "伏黒恵 vs. 八十八橋 Curse",
+    "techniques_raw_text": "血塗の術式 蝕爛腐術 術式 伏黒恵の術式 十種影法術 術式 玉犬: 渾 玉犬: 渾 釘崎野薔薇の術式 芻霊呪法 術式 共鳴り",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986",
+    "tech-d9180946ec",
+    "tech-d9efa28175"
+  ],
+  "term_ids_candidate": [
+    "term-c91391b066",
+    "term-8914e5bc1a"
+  ],
+  "key_events_verified_phase3": [
+    "結界内で三人が分断される",
+    "壊相が釘崎を結界外へ引き出す",
+    "伏黒が橋の呪霊を祓う",
+    "八十八橋の指の呪霊が出現する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-964e851215",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-phase3-finger-bearer-bridge",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-964e851215",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-3c1852867d",
+    "char-6534bbe6c9",
+    "char-phase3-finger-bearer-bridge"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-d9efa28175",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71d1706395",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-d9efa28175",
+    "tech-71d1706395",
+    "tech-2ac2471b12"
+  ],
+  "term_ids_verified_phase3": [
+    "term-c5958133bc",
+    "term-3f0111dca8",
+    "term-5a7fcb32e8",
+    "term-a0ce00ef9e",
+    "term-7037f2a1bd"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

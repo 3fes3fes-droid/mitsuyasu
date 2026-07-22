@@ -1,0 +1,119 @@
+{
+  "id": "ch-186",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 186,
+  "zero_number": null,
+  "label": "第186話",
+  "title_official": "東京第２結界⑤",
+  "title_search_normalized": "東京第2結界5",
+  "start_page": 111,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.111",
+  "summary_short": "大当たりによって一定時間、無制限の呪力と自動反転術式を得た秤が鹿紫雲へ挑む。実質的な不死身となった秤と、必中の電撃を操る鹿紫雲が激突する。",
+  "summary_full": "大当たりを引いた秤は、膨大な呪力をまとって鹿紫雲へ突進する。鹿紫雲の放電で腕を失っても瞬時に再生し、肉体が自動で反転術式を行っていることが判明する。大当たり中の4分11秒、秤は無制限の呪力によって実質的な不死身となる。制限時間が切れると同時に術式と呪力が回復するため、秤は再び坐殺博徒を展開し、次の大当たりへ賭ける。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Amped up from hitting the jackpot, 秤金次 takes on 鹿紫雲一 ! Even 鹿紫雲 is fascinated fighting against 秤 as one of 五条悟 's star pupils showcases his true power.",
+    "summary_full_legacy": "秤 vs. 鹿紫雲! Supercharged with an incredible volume of 呪力 , 秤 rushes in to rescue パンダ from 鹿紫雲. He delivers a right hook so powerful that it disarms 鹿紫雲 of his staff and sends the sorcerer crashing through several freight containers. 秤 doesn't give 鹿紫雲 any time to recover, closing the distance and throwing a flying dropkick his opponent narrowly avoids. While still in mid-air, 秤 swings his legs in an attempt to land a hit. 鹿紫雲 narrowly avoids the kick, with his opponent's barely grazing his nose. 秤's physical power is so overwhelming that his kick dents another shipping container and knocks it over. 秤 is electrified by the 呪力 protecting 鹿紫雲 but he barely feels a tingle. 鹿紫雲 is impressed that his opponent can ignore the electrification with pure 呪力 output and asks his name. 秤 introduces himself while 鹿紫雲 is fascinated by the mysterious music surrounding his opponent. 鹿紫雲 also introduces himself and 秤 realizes that this is the player with the one hundred points that he's been looking for. He asks if he can use those points if he's victorious and 鹿紫雲 agrees and asks to know more about 宿儺 if he's the victor. 鹿紫雲 hits 秤 with lightning. 秤 is suddenly distracted by a large influx of 呪力 received as a bonus from hitting his domain's jackpot. 鹿紫雲 uses the opportunity to barrage his opponent with several hits but becomes displeased as 秤 isn't resisting. As he begins to tell 秤 not to disappoint him, the 呪術高専 student interrupts him with an abrupt right hook to the jaw that sends 鹿紫雲 flying. After posing, 秤 follows up with a flying knee which prompts 鹿紫雲 to admit his opponent isn't bad. 鹿紫雲 regains his balance and grabs onto the leg 秤 kneed him with and counterattacks with a spinning elbow. 秤 withstands the attack and forces 鹿紫雲 to release his grip by smashing the ground beneath their feet. 秤 counterattacks despite losing his arm. Having charged up enough electricity, 鹿紫雲 backs off and discharges the same lightning attack that defeated パンダ. 秤 is able to avoid a direct hit to his head but his arm is blown off by the attack. Confident that his opponent won't be able to recover in time, 鹿紫雲 rushes in to finish him off. However, 秤 surprisingly counters with a kick and follows up with a punch from the same arm that was supposedly just severed. Shocked, 鹿紫雲 blocks the attack and assumes 秤 used 反転術式 to quickly heal himself. As long as 秤 keeps hitting the jackpot, he can open his domain over and over. 秤 never learned to use 反転術式 but the unlimited 呪力 coursing through his body as a result of hitting the jackpot automatically heals his body with it. In other words, 秤 is effectively unkillable for four minutes and eleven seconds after hitting the jackpot (the duration of the Private Pure Love Train theme song \"Admiring You\"). This time limit comes to an end and 鹿紫雲 notices the music has stopped and his opponent's 呪力 has receded. However, during the round, 秤's 術式 and 呪力 are replenished, allowing him to cast 領域展開 immediately. As long as 秤 continues to hit the jackpot, he can use his domain over and over.",
+    "characters_raw_text": "秤金次 鹿紫雲一 宿儺 (言及のみ)",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游 秤金次 vs. 鹿紫雲一 (開始) 秤金次 vs. 鹿紫雲一 (開始)",
+    "techniques_raw_text": "秤金次の術式 領域展開：坐殺博徒／反転術式 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-0e7004da56",
+    "char-2b8d365a39",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-4b0b9dc682",
+    "tech-aee71097f5",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-ad8bd57883",
+    "term-cf5d1ac726"
+  ],
+  "key_events_verified_phase10": [
+    "秤と鹿紫雲の戦闘が始まる",
+    "鹿紫雲の放電で秤の腕が破壊される",
+    "秤の自動反転術式で腕が再生する",
+    "4分11秒の終了直後に秤が再度領域を展開する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "rescued"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-dea43d7fc7",
+    "char-0e7004da56",
+    "char-672d843799"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-955be682d2",
+      "relation": "active"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "automatic"
+    },
+    {
+      "technique_id": "tech-aee71097f5",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-39d2b30b48",
+      "relation": "reopened"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-955be682d2",
+    "tech-cf5d1ac726",
+    "tech-aee71097f5",
+    "tech-39d2b30b48"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-1c3b13971d",
+    "term-8485d1a225",
+    "term-54c44682c5"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

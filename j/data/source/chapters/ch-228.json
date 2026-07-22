@@ -1,0 +1,198 @@
+{
+  "id": "ch-228",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 26,
+  "number": 228,
+  "zero_number": null,
+  "label": "第228話",
+  "title_official": "人外魔境新宿決戦⑥",
+  "title_search_normalized": "人外魔境新宿決戦6",
+  "start_page": 7,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-26"
+  ],
+  "source_locator": "単行本26巻 目次 p.7",
+  "summary_short": "五条は小さく圧縮した領域で伏魔御厨子へ対抗し、三分以内に宿儺へ致命傷を与えようとする。観戦する術師たちは宿儺の狙いを測りかねる。",
+  "summary_full": "五条は小さく圧縮した領域で伏魔御厨子へ対抗し、三分以内に宿儺へ致命傷を与えようとする。観戦する術師たちは宿儺の狙いを測りかねる。五条は獄門疆での経験を応用し、領域を小さな球へ圧縮する。三分間だけ伏魔御廚子へ耐え、その間に宿儺へ領域維持不能となる損傷を与える狙いだった。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 and 宿儺 's battle continues to stagger all those observing the showdown. After finally gaining an advantage, 悟 can't help but wonder what 宿儺 is scheming.",
+    "summary_full_legacy": "五条's allies watching the fight discuss his shrunken barrier . 日下部 comments that it should be impossible, a recurring theme throughout this clash between the strongest sorcerers . 真希 argues that the outward appearance of a domain's barrier never matches the size of the actual domain, which is part of the reason they're so difficult to escape. 日下部 counters his student's argument by explaining that a concrete image is crucial to casting a barrier. The image of shutting the caster and their opponent inside a space where they could normally never fit would normally prevent the barrier from forming. 脹相 points out that 五条 spent time inside 獄門疆 and 日下部 realizes that experience is what is allowing 五条 to accomplish this feat. \"宿儺 destroyed 五条's domain from the outside...\" However, 日下部 is still confused how 五条 is changing the conditions of the barrier every time he casts it. Ordinarily, it takes sorcerers practice and time to hit on the perfect blend of parameters in order to establish their domain's barrier. 秤 and 日車 are exceptions because their domain expansions came by default with their innate techniques . Regardless, the conditions of a barrier is not usually something that can be changed on a whim. \"...And 五条 damaged 宿儺 enough that he couldn't maintain his domain!!\" 五条's miniature barrier holds out against 宿儺's slashes from the outside this time. 宿儺 adjusts his offense by decreasing the effective range of 伏魔御廚子 to increase the strength of his slashes. 天使 believes that they'll reach a stalemate if the barrier breaks again but 日下部 adds that 五条 will gradually lose ground until he's defeated. The barrier once again shatters, but this time, 伏魔御廚子 collapses as well. 秤 stands up in excitement as he realized what's going on. Simultaneously, 宿儺 destroyed 五条's barrier from the outside and 五条 damaged 宿儺 to the point where he could no longer maintain his domain. 冥冥 accurately tracked that 五条's miniature domain held out for exactly three minutes. Both fighters should have their innate techniques exhausted from 領域展開, which gives 真希 the impression that 五条 has the advantage. However, the 天使 reveals that 五条 made the mistake of displaying this feat to 宿儺. The King of Curses has such precise mastery over jujutsu that he was able to divide his soul into a cursed objects after using 羂索 to achieve this the first time one thousand years ago. Now that he's seen 五条 repair his innate technique with 反転術式 , it's likely 宿儺 can do the same. 五条 holds a clear advantage fighting outside the domains. 宿儺 flees to the top of a bridge to create distance but 五条 levitates below it and throws several powerful strikes through the bottom of the platform. 宿儺 avoids the attacks but 五条 emerges from one of the holes he creates and uses Blue to close the distance. He knocks 宿儺 back with a quick strike and despite having the upper hand, 五条 is concerned. He wonders why 宿儺 hasn't attempted to use either of his innate techniques outside the domain. Additionally, when 五条 expanded his domain the second time and flipped the internal and external conditions, 宿儺 chose a risky maneuver instead of breaking the barrier apart from the inside. Fighting with only domain amplification against the 無下限呪術 gives 五条 a major advantage. In the three minutes inside the miniature barrier, 五条 had the upper hand and yet 宿儺 never attempted to use the 十種影法術 術式 , more specifically, 魔虚羅 . Mysteriously, 魔虚羅's wheel turns while it's somewhere shrouded in darkness. At the same time, 五条 suffers from a sudden nose bleed.",
+    "characters_raw_text": "日下部篤也 冥冥 憂憂 禪院真希 脹相 三輪霞 秤金次 日車寛見 猪野琢真 乙骨憂太 来栖華 宿儺 五条悟 虎杖悠仁 鹿紫雲一 星綺羅羅 家入硝子",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 領域展開：無量空処 無下限呪術 宿儺の術式 Domain 領域展延 領域展開：伏魔御廚子 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 (言及のみ) 八握剣異戒神将 魔虚羅 魔虚羅 (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-34f2643025",
+    "tech-4b0b9dc682",
+    "tech-7c3237f986",
+    "tech-9761156f3b",
+    "tech-ae26dbd914",
+    "tech-af5ae87255",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase11": [
+    "五条は小さく圧縮した領域で伏魔御厨子へ対抗し、三分以内に宿儺へ致命傷を与えようとする。",
+    "観戦する術師たちは宿儺の狙いを測りかねる。",
+    "五条は獄門疆での経験を応用し、領域を小さな球へ圧縮する。",
+    "三分間だけ伏魔御廚子へ耐え、その間に宿儺へ領域維持不能となる損傷を与える狙いだった。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-14f96ce777",
+    "tech-af5ae87255"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-af5ae87255",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-26",
+    "src-manga-games-vol-26",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ch-064",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 8,
+  "number": 64,
+  "zero_number": null,
+  "label": "第64話",
+  "title_official": "そういうこと",
+  "title_search_normalized": "そういうこと",
+  "start_page": 49,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-08"
+  ],
+  "source_locator": "単行本8巻 目次 p.49",
+  "summary_short": "東堂と冥冥は、虎杖・伏黒・釘崎・真希・パンダを一級術師へ推薦する。釘崎は虎杖の中学時代の同級生・小沢優子から、虎杖への恋心について相談を受ける。",
+  "summary_full": "東堂と冥冥は卓球をしながら、一級推薦後は推薦者以外の一級術師との同行任務、準一級認定、単独任務の査定を経る手順を確認する。東堂は虎杖と同行できないと知って落ち込む。東京では釘崎が、虎杖の中学時代の同級生・小沢優子から恋の相談を受ける。体型が変わった小沢を虎杖はすぐに見分け、中学時代に所作がきれいだと好意的に語っていたことが回想される。小沢は今の自分も外見で人を判断していると気づき、気持ちを伝えずに別れる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "東堂葵 and 冥冥 put in recommendations to promote the 東京 呪術高専 first and second years to grade 1 sorcerers . Meanwhile, 野薔薇 encounters a young girl named Yuko and learns about her relationship with 悠仁 .",
+    "summary_full_legacy": "After recommending the other students for grade 1, 葵 and 冥冥 enjoy a game of ping pong. Anyone who receives recommendations from two or more grade 1 sorcerers will accompany another grade 1 sorcerers on several missions. Based on the outcome of those assignments, the recommended sorcerer will be deemed a semi-grade 1 rank and receive another mission to complete independently. The results of this mission affect the decision to grant or deny grade 1 status. While playing ping pong with 冥冥, 葵 shares that he believes 悠仁 will accept the recommendation and go on missions to increase the likelihood of running into 宿儺 fingers. 葵 serves and asks 冥冥 what this might mean. She returns and replies that it means everything but 葵 scores and claims he and 悠仁 will work on missions together. However, 冥冥 reveals to him that the one who accompanies the sorcerer on their missions can't be the same person who put in the recommendation. This crushes 葵, allowing 冥冥 to finish the game and leave. \"It's like that?\" In 東京, 伊地知 takes 恵 back home while 悠仁 goes off to see a movie and 野薔薇 goes into town for designer clothing. In town, 野薔薇 runs into a girl named 小沢優子. She shows 野薔薇 a picture of her from Junior High graduation. Yuko was much heavier set then and the picture also shows her standing next to 悠仁. On that day, Yuko mustered up enough courage to ask him for a picture and essentially admits she has a crush on 悠仁 to 野薔薇. 野薔薇 calls 伊地知 and asks for him to drop off 恵. She wants to know what he'll have to say and denies any inklings of feelings toward 悠仁 herself. 恵 arrives annoyed to be at the restaurant and 野薔薇 is quick to explain the situation. Interested, 恵 sits down with them and shares he doubts 悠仁 has a girlfriend based on how he moved from Sendai and the posters of girls in his room. Yuko asks what kind of girls 悠仁 is into and 恵 remembers him mentioning something about tall girls. 悠仁 recognizes Yuko. Excited, 野薔薇 and Yuko believe she fits into that criteria and they call 悠仁 to the diner. He arrives quickly, surprising them. Yuko doesn't expect him to recognize her but he instantly does. Yuko recalls overhearing him talk with other boys about how the girl he liked the most was her. Even though she was considered to be fat, 悠仁 appreciated how elegantly she carried herself. Yuko appreciated that 悠仁 saw something in her that she didn't even notice within herself. However, now she feels like she's just being shallow like everyone other than 悠仁 who judged her. So they leave without telling 悠仁 the truth, but 野薔薇 got her info. Apparently, the idea of 悠仁 getting in a relationship before 野薔薇 annoys her either way.",
+    "characters_raw_text": "東堂葵 冥冥 釘崎野薔薇 小沢優子 伏黒恵 虎杖悠仁",
+    "locations_raw_text": "東京 名称不明の飲食店 名称不明の飲食店",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-9469499a06",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase3": [
+    "一級術師の推薦・査定手順が説明される",
+    "釘崎が小沢優子から相談を受ける",
+    "虎杖が外見の変わった小沢を即座に見分ける",
+    "小沢が告白せずに別れる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9469499a06",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-and-recollection"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-d76df97dca",
+    "char-07918bda3f",
+    "char-5a0f7ded8d",
+    "char-9469499a06",
+    "char-3c1852867d",
+    "char-baadf43d19"
+  ],
+  "technique_appearances_verified_phase3": [],
+  "technique_ids_verified_phase3": [],
+  "term_ids_verified_phase3": [
+    "term-phase3-grade1-recommendation",
+    "term-67566a7224"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-08",
+    "src-manga-games-vol-08",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "ch-166",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 19,
+  "number": 166,
+  "zero_number": null,
+  "label": "第166話",
+  "title_official": "東京第１結界⑥",
+  "title_search_normalized": "東京第1結界6",
+  "start_page": 87,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-19"
+  ],
+  "source_locator": "単行本19巻 目次 p.87",
+  "summary_short": "二度目の裁判で虎杖は渋谷の大量殺人を自分の罪として認め、死刑判決を受ける。日車は証拠から真犯人が宿儺だと悟り、虎杖の罪悪感に気づく。",
+  "summary_full": "再審でジャッジマンが持ち出したのは、渋谷で宿儺が起こした大量殺人だった。虎杖は宿儺の犯行と弁明せず、自分が殺したと認める。有罪・没収・死刑が言い渡され、日車の木槌は一撃で対象を殺す処刑人の剣へ変化する。戦いながら証拠を見直した日車は、真犯人が宿儺であり、虎杖が強い罪悪感から虚偽の自白をしたと理解する。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Guilty by self-admission, 悠仁 is sentenced to death by ジャッジマン . 日車 tries to carry out the sentence but seeing someone else being falsely prosecuted makes him recall his roots.",
+    "summary_full_legacy": "ジャッジマン sentences 悠仁 to death. While 日車 was still in law school, he was approached by an associate he called Mr. Yoshizawa. 日車 thought it was going to be about a proposal he submitted but Yokizawa actually wanted to try and convince 日車 to become a judge. In the present, ジャッジマン gives 悠仁 the 死刑 on top of 没収. This transforms 日車's gavel into the 処刑人の剣, capable of killing its target with one cut. 日車 believes empathizing with people means understanding all their weaknesses. He can't help but perceive that fragility as ugly. Including 悠仁, everyone is weak and ugly to 日車 regardless of their aspirations to be better. He doesn't think there is anything more to people and compares it to shining a light in the darkness that will lead to more emptiness. 日車 decides not to judge a man he knows is innocent. 悠仁 tries to keep 日車 away by launching several theater chairs at his opponent. He also throws his 呪術高専 jacket to distract 日車 and gets behind him. When 日車 notices, 悠仁 throws his hoodie and manages to block 日車's sight for a moment. He throws a sweeping kick but 日車 is able to jump above it. 悠仁 throws an uppercut from below at the same 日車 slashes the 処刑人の剣 down at him. In the past conversation with Mr. Yokizawa, 日車 refused to become a judge because he felt like he wasn't ambitious enough. He's always believed people are weak and ugly but he used to value this because it's something very unique to humans. 日車 is reminded of this memory because 悠仁 confessed to a crime he didn't commit. The information submitted as evidence inside 日車's domain is shared with him even before he opens it. The evidence in the retrial was about 宿儺 and 日車 knows that 悠仁 wasn't the one who committed that crime. He just can't understand why 悠仁 would confess to something he didn't do. \" Didn't it feel awful? \" 日車 willingly deactivates the 処刑人の剣 and allows 悠仁's uppercut to land. He's sent crashing into the seats, confusing 悠仁. Before he even bothers to get up from the hit, 日車 states that the absence of reason or control signifies non-components. He adds that 宿儺 was in possession of the body and since 悠仁 didn't surrender control willingly, he is innocent. 悠仁 doesn't see it that way and he still claims responsibility for it, believing all that death only occurred because he's too weak. 日車 understands and 悠仁 asks him why he deactivated his 術式 . 日車 gets up and replies that he remembered why he got into law in the first place. Additionally, there are still other weak people out there who need help, so 日車 decides to let 悠仁 use his points. 日車 invites 悠仁 to sit down after he's gotten his clothes back on. He asks 悠仁 if he's ever killed anyone of his own volition. 悠仁 somberly responds that he has. Thinking back to how he murdered the prosecutor and judge from 大江圭太 's trial, 日車 asks 悠仁 if he felt awful about it as well.",
+    "characters_raw_text": "日車寛見 Mr. Yoshizawa (回想) 虎杖悠仁 宿儺 (回想) Judge (回想) Prosecutor (回想)",
+    "locations_raw_text": "東京第1結界／池袋",
+    "battles_events_raw_text": "死滅回游 虎杖悠仁 vs. 日車寛見 (終了) 虎杖悠仁 vs. 日車寛見 (終了)",
+    "techniques_raw_text": "日車寛見の術式 領域展開：誅伏賜死／式神 ジャッジマン",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo1",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-baadf43d19",
+    "char-ef294e92de"
+  ],
+  "technique_ids_candidate": [
+    "tech-3bd924870c",
+    "tech-4b0b9dc682",
+    "tech-ef294e92de"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase9": [
+    "渋谷の大量殺人が再審の対象になる",
+    "虎杖が自ら罪を認める",
+    "虎杖へ死刑と没収が科される",
+    "日車が証拠から宿儺を真犯人と認識する"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "sentenced-to-death"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "recognizes-false-confession"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "actual-culprit-recalled"
+    },
+    {
+      "character_id": "char-0be085fe01",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-baadf43d19",
+    "char-3062a0117e",
+    "char-2b8d365a39",
+    "char-0be085fe01"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-3bd924870c",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-ef294e92de",
+      "relation": "death-verdict"
+    },
+    {
+      "technique_id": "tech-adeaa6dba7",
+      "relation": "continued"
+    },
+    {
+      "technique_id": "tech-e1903ce05c",
+      "relation": "manifested"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-3bd924870c",
+    "tech-ef294e92de",
+    "tech-adeaa6dba7",
+    "tech-e1903ce05c"
+  ],
+  "term_ids_verified_phase9": [
+    "term-152790e31d",
+    "term-33c0eaca30",
+    "term-60e959b66f",
+    "term-01e0c1e52e"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-19",
+    "src-manga-games-vol-19",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

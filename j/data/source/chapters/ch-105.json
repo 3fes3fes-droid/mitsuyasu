@@ -1,0 +1,124 @@
+{
+  "id": "ch-105",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 105,
+  "zero_number": null,
+  "label": "第105話",
+  "title_official": "渋谷事変㉓",
+  "title_search_normalized": "渋谷事変23",
+  "start_page": 151,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.151",
+  "summary_short": "重傷の虎杖は自分の生存を捨ててでも脹相を止めようと最後の攻撃に賭ける。脹相は戦術を読み切り、虎杖の肝臓を貫いて勝利する。",
+  "summary_full": "肝臓を貫かれた虎杖は死への恐怖を呪力へ変え、自分が死んでも脹相を止める覚悟で接近戦を続ける。脹相も血栓の危険を承知で腕や胴体の血を硬化させ、虎杖の攻撃を読んで防御する。虎杖は扉を使った奇襲まで仕掛けるが、脹相は左手への攻撃を誘い、肩と腹へ決定打を与えて勝利する。とどめを刺そうとした脹相の脳内に、存在しない記憶が生まれる。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "脹相 severely injures his brothers' killer and brings him to the edge of defeat. Refusing to lose, 悠仁 decides to forget about his own life in order to stop 脹相. Exhausted, heavily injured, and at the climax of their duel, both 悠仁 and 脹相 put it all on the line to win.",
+    "summary_full_legacy": "脹相 fires a hardened 血星磊 clean through 悠仁's liver. 悠仁 takes control of his fear and converts it into 呪力. 悠仁 is taken off guard because he thought 脹相 was out of projectiles thanks to メカ丸's water trick. 悠仁 immediately recognizes he's been hit in an internal organ and considers the thought of losing and dying. However, he stomps on the ground and regains his focus. 悠仁 converts his fear into 呪力 and clears his mind of all distractions. 悠仁 knows his role, he must do his best to help save 五条 sensei even if it costs him his life. He doesn't have to be the one to save him and 悠仁 is ready to die if that's what it takes to bring down 脹相. At the same time, 脹相 laments about much damage he's taken. 悠仁 has only landed three significant strikes, yet 脹相 is moderately injured. He knows using another surprise attack with 血星磊 won't work. Generally, 赤血操術 isn't used to harden blood. 血刃 creates a blade by rotating the user's blood into a cutting shape. 脹相 improvises and hardens his entire fist and much of his forearm using the blood inside his body. He's at risk of spontaneously developing thrombosis, but 脹相 determines that 悠仁 is a more severe threat. 悠仁 stays in the fight. 悠仁 and 脹相 exchange blows once again and 悠仁 is able to predict his opponent's moves at close range. He avoids a punch and a sweeping kick before hiding behind a bathroom door and locking it. This confuses 脹相, but 悠仁 suddenly bursts through the door and dropkicks him in the face. 脹相 narrowly blocks with his hardened hand but 悠仁 locks his legs around his opponent's head and throws him with a flying scissor legs takedown. While 脹相 is staggered, 悠仁 closes the distance and flashes his right hand. He believes 脹相 thinks his left arm is useless after suffering a direct hit from the first 穿血. 脹相 takes revenge for his brothers. 悠仁 flashes his right hand as a decoy appears to land a hard left blow to the body. However, something doesn't feel right to 悠仁 and 脹相 abruptly cracks his collarbone with a violent hammer fist to the shoulder. This leaves a giant dent where 悠仁's shoulder should be, leaving him vulnerable to 脹相's next attack. The 呪胎九相図 finishes the fight with a crushing blow to 悠仁's stomach that sends him across the room and crashing into the wall. 脹相 lifts his robe and reveals that he hardened the part of his body 悠仁 attacked. 悠仁 falls unconscious still barely breathing. 脹相 wants to finish him off and tells the jujutsu sorcerer to asks for his brother's forgiveness on the other side. However, something suddenly stops 脹相. At that moment, a memory was born inside 脹相's brain. A memory of a past event that never happened.",
+    "characters_raw_text": "虎杖悠仁 脹相 伏黒恵 (言及のみ) 釘崎野薔薇 (言及のみ) 七海建人 (言及のみ) 五条悟 (想像)",
+    "locations_raw_text": "渋谷 渋谷駅 渋谷駅",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 vs. 脹相 (終了) 虎杖悠仁 vs. 脹相 (終了)",
+    "techniques_raw_text": "脹相の術式 赤血操術 血刃 (言及のみ) 血星磊 赤鱗躍動・載 血刃 (言及のみ) 血星磊 赤鱗躍動・載",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-851111b10d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-a1213858c7",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase6": [
+    "虎杖が死を覚悟して脹相へ挑む",
+    "脹相が体内の血を硬化して防御する",
+    "脹相が虎杖を戦闘不能にする",
+    "脹相の脳内に存在しない記憶が生まれる"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "defeated-severely-injured"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "imagined"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-baadf43d19",
+    "char-851111b10d",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-17322e71e5"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase6-blood-meteorite",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase6-blood-edge",
+      "relation": "explained"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-a1213858c7",
+    "tech-phase6-blood-meteorite",
+    "tech-phase6-blood-edge"
+  ],
+  "term_ids_verified_phase6": [
+    "term-252cb4a664",
+    "term-c5958133bc"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "ch-047",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 6,
+  "number": 47,
+  "zero_number": null,
+  "label": "第47話",
+  "title_official": "呪具",
+  "title_search_normalized": "呪具",
+  "start_page": 69,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-06"
+  ],
+  "source_locator": "単行本6巻 目次 p.69",
+  "summary_short": "真希と伏黒は連携して花御へ攻撃するが、伏黒は呪いの種を植え付けられ術式を封じられる。二人が窮地に陥ったところへ虎杖と東堂が現れる。",
+  "summary_full": "真希は游雲の純粋な威力で花御の防御を崩し、伏黒は白の力を受け継いだ玉犬「渾」で追撃する。二人は武器を交換しながら連携するが、花御は相手の呪力を吸って成長する種子を伏黒へ植え付ける。術式を使うほど危険になるため式神が消え、真希も木の槍で負傷する。伏黒はなお術式を使って助けようとするが、真希が交代を指示する。直後、虎杖と東堂が戦場へ入り、二人を救出して花御との戦いを引き継ぐ。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真希 joins the battle and fights against the special grade 呪霊 , 花御 , with the special grade cursed tool : 游雲 ! 恵 backs her up but 花御 has tricks of his own to counter them. Before the situation becomes any dire, an unexpected duo comes to the rescue.",
+    "summary_full_legacy": "Special Grade cursed tool: 游雲! Cursed tools are weapons in which curses dwell, and they are ranked on the same scale as jujutsu sorcerers and 呪霊. Before the Goodwill Event, 真希 gave 恵 an especially strong cursed tool worth at least five hundred million yen. The higher the rank of a cursed tool, the higher the advantage in battle. 真希 wields the special grade cursed tool: 游雲. With a single strike, 真希 breaks through 花御's guard and strikes the branch on his face. The impact sends 花御 flying away from the building they were fighting on. 花御 is able to quickly recover and regain his footing in the forest away from the building. As he heals his arm, 花御 admits that 真希's attack wasn't bad. 恵's black hound gains the abilities of its fallen brother. From the shadows of the forest, 恵 summons 玉犬: 渾 ! When the white 玉犬 was killed, it's energy was left behind and inherited by the other, allowing it to take a much more powerful form. It's speed takes 花御 off guard and it's easily able to slash away at 花御's defensive arm with its claws. 真希 rushes 花御 from the rear but he's able to block her attack before it strikes the branch in his eye socket. However, he's surprised to see she's attacking with 恵's sword and is struck from behind by 恵 wielding 游雲. The jujutsu sorcerer duo quickly trade weapons and simultaneously strike 花御. Their attack is successful and cuts away at 花御's weak point, but 恵's torso is infected by a Cursed Sprout. 悠仁 and 葵 join the fight!! 真希 's arm is stabbed by a wooden spear but 花御 admits her reaction time is what stopped it from piercing her heart. 花御 claims jujutsu sorcerers are full of openings when their allies are hurt. Due to the Cursed Sprout, 恵's 玉犬: 渾 dispels as well. 真依 attempts to strike down 花御 but he avoids it. 花御 admits 真希 has good attacks but adds that she isn't as sharp as before due to her wounds. He strikes her aside and wraps her with a branch emerging from the water where he stands. As 花御 lifts 真希 up by her neck while she barely defends, 恵 prepares to use jujutsu no matter what to save 真希. However, 真希 tells 恵 to stop because its time to tag out. 花御 is nearly crushed by a new presence but he manages to avoid two new jujutsu sorcerers that rescue 真希 and force 花御 back. Ready to fight, its none other than 虎杖悠仁 and 東堂葵 !",
+    "characters_raw_text": "禪院真希 花御 伏黒恵 東堂葵 虎杖悠仁",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 伏黒恵 & 禪院真希 vs. 花御 (終了)",
+    "techniques_raw_text": "呪具 游雲 伏黒恵の術式 十種影法術 術式 玉犬: 渾 玉犬: 渾",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-3ed1d78924",
+    "char-71d1706395",
+    "char-9148bf784c",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-07d7ee8f6e",
+    "tech-6c8be9e9eb",
+    "tech-71d1706395",
+    "tech-7c3237f986",
+    "tech-9754429d12"
+  ],
+  "term_ids_candidate": [
+    "term-c91391b066",
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase3": [
+    "真希が游雲で花御を攻撃する",
+    "玉犬「渾」が花御へ有効打を与える",
+    "伏黒が呪いの種子を植え付けられる",
+    "虎杖と東堂が花御戦へ参入する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-24d736edff",
+    "char-9148bf784c",
+    "char-3c1852867d",
+    "char-d76df97dca",
+    "char-baadf43d19"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-71d1706395",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-07d7ee8f6e",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-71d1706395",
+    "tech-07d7ee8f6e"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-bf1b3beaca",
+    "term-64abcd060b",
+    "term-cba4367139"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-06",
+    "src-manga-games-vol-06",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "ch-218",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 218,
+  "zero_number": null,
+  "label": "第218話",
+  "title_official": "浴③",
+  "title_search_normalized": "浴3",
+  "start_page": 7,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "bath-return",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.7",
+  "summary_short": "万は構築術式で昆虫の外殻を再現し、液体金属と組み合わせて戦う。宿儺は御厨子を使わず、伏黒の十種影法術だけで応戦する。",
+  "summary_full": "万は構築術式で昆虫の外殻を再現し、液体金属と組み合わせて戦う。宿儺は御厨子を使わず、伏黒の十種影法術だけで応戦する。万は呪力効率の悪い構築術式を補うため、昆虫の外骨格と液体金属を戦闘様式にした。宿儺は円鹿・貫牛・脱兎・満象を独自の運用で連携させる。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Clad in an insect carapace, 万 expresses her determination to teach 宿儺 about love with a fight to the death. 宿儺 rejects her, refusing to use his 御廚子 , and instead responds with the full force of the 十種影法術 術式 .",
+    "summary_full_legacy": "万's insect armor challenges 宿儺. 万 was a veteran sorcerer of the 平安時代 who only lacked behind her peers in one aspect: inefficiency in utiliizing 呪力 . 構築術式 consumes vast amounts of 呪力. This forced 万 to come up wiith weapons and armor that used her resources most efficiently. She heard rumors of insects that could cross the sea and saw the efficiency in their relatively great strength and speed. This convinced 万 that an insect's carapace was the pinnacle of her 構築術式 technique. She could still wield liquid metal to fight at mid-range as long as she continues to channel 呪力 into it. 万 used this fighting style to best the Five Empty Generals, an elite unit of the Toh that stood on equal ground with 烏鷺亨子 's Sun, Moon, and Stars Squad. Empowered by her insect armor, 万 uses her speed to blitz 宿儺 and land several punches that send him flying back. 万 circles around behind 宿儺 while he's reeling but he quickly regains his footing and summons 玉犬 in an unstable form again. 万 destroys the shadow and swings around the side of 宿儺 in one motion. She kicks 宿儺 across the stadium into a wall and taunts him, asking him if he's so sure about not using his 御廚子 . 宿儺 poised to counterattack with the true might of the 十種影法術 術式. 万 chases 宿儺 and begs him to cut her open and witness her love. She attempts to skewer him with liquid metal shaped into a web of numerous spikes that strike all sides within the corridor. 宿儺 summons 円鹿 , using its 反転術式 to heal himself and dispel the liquid metal. Then he summons 貫牛 , which rams horns-first into the insect-clad warrior. Earlier in the fight, 宿儺 summoned 玉犬 with an unstable form in order to expand the range of the 十種影法術 術式 while also preventing complete destruction. This came at the cost of the independence and attack power from the 式神, but 宿儺's immense 呪力 capacity and output made up for it. 円鹿 and 貫牛, however, are fully stable, making them the true embodiment of the technique. 宿儺's arsenal of 式神 overpower 万's constructions. 万 pushes 貫牛 back but it immediately recovers and comes rushing at her again. It rams into 万 again, breaking the armor plating over her eye. She realizes that it can only attack in a straight line but the trade-off is it gains more power the further it charges from. 宿儺 uses 脱兎 to surround 万 and she demands him to stop hiding. 宿儺 leaps high into the air and then drops 満象 on her from above, asking if his opponent will be able to withstand it. The impact nearly destroys the stadium and completely annihilates 万's insect armor. 宿儺 mocks 万, askiing if this performance is all her love amounts to. She rejects his comment and proclaims that she'll be the one to teach 宿儺 about love because she understands the loneliness that comes with being the strongest. 宿儺 smirks as if he already knows what she's alluding to but 万 refuses to believe it. As passionate as ever despite her wounds, 万 demands she be the one to show him what real love is. She activates her technique and promises to construct her heart, the true manifestation of her love.",
+    "characters_raw_text": "宿儺 万 烏鷺亨子 (言及のみ)",
+    "locations_raw_text": "仙台結界",
+    "battles_events_raw_text": "死滅回游 宿儺 vs. 万 宿儺 vs. 万",
+    "techniques_raw_text": "宿儺の術式 十種影法術 術式 (恵経由) 玉犬 円鹿 貫牛 満象 脱兎 玉犬 円鹿 貫牛 満象 脱兎 万の術式 構築術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "bath",
+  "character_ids_candidate": [
+    "char-05a7ab0dcd",
+    "char-0be6deff32",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-5481fbccc6",
+    "char-df284f67ad",
+    "char-fe30ff0de9"
+  ],
+  "technique_ids_candidate": [
+    "tech-05a7ab0dcd",
+    "tech-0be6deff32",
+    "tech-5481fbccc6",
+    "tech-59d1d0e465",
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986",
+    "tech-ae26dbd914",
+    "tech-df284f67ad"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "万は構築術式で昆虫の外殻を再現し、液体金属と組み合わせて戦う。",
+    "宿儺は御厨子を使わず、伏黒の十種影法術だけで応戦する。",
+    "万は呪力効率の悪い構築術式を補うため、昆虫の外骨格と液体金属を戦闘様式にした。",
+    "宿儺は円鹿・貫牛・脱兎・満象を独自の運用で連携させる。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-05a7ab0dcd",
+    "char-0be6deff32",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-5481fbccc6",
+    "char-df284f67ad",
+    "char-fe30ff0de9"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-05a7ab0dcd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0be6deff32",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-5481fbccc6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-df284f67ad",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-fe30ff0de9",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-59d1d0e465",
+    "tech-524f0b9364",
+    "tech-7958b4020b",
+    "tech-05a7ab0dcd",
+    "tech-5481fbccc6",
+    "tech-0be6deff32",
+    "tech-df284f67ad"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-59d1d0e465",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-524f0b9364",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-7958b4020b",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-05a7ab0dcd",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-5481fbccc6",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-0be6deff32",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-df284f67ad",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

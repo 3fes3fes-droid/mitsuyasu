@@ -1,0 +1,151 @@
+{
+  "id": "ch-079",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 79,
+  "zero_number": null,
+  "label": "第79話",
+  "title_official": "これからの話",
+  "title_search_normalized": "これからの話",
+  "start_page": 169,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.169",
+  "summary_short": "五条は幼い伏黒恵に父と禪院家の事情を伝え、自分が将来を支えると約束する。2018年へ戻り、高専内通者が究極メカ丸こと与幸吉だと判明する。",
+  "summary_full": "五条は、力だけで他人を救うことはできず、本人にも救われる意思が必要だと考えるようになる。幼い伏黒恵を訪ね、父・甚爾と禪院家への売却話を伝える。恵が津美紀の生活を気に掛けていると知り、五条が高専側から二人を支える道を作る。時代は2018年10月へ戻る。歌姫は内通者候補として与幸吉を特定し、虎杖・伏黒・釘崎と京都校の部屋を調べるが本人はいない。別の場所で、真人は縛りに従って幸吉の天与呪縛の肉体を無為転変で治療し、幸吉は羂索と真人を相手に戦う準備へ入る。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 meets first grade 伏黒恵 and explains his situation with the 禪院家. 悟 promises to take care of everything for the kid and lays the seeds for what would become a prospering mentor-student relationship eleven years later. Back in the present year of 2018, the mole of 呪術高専 is uncovered as the calendar approaches October 31st in 渋谷.",
+    "summary_full_legacy": "悟 tells 恵 that he'll handle everything regarding 禪院 clan. 悟 finds and speaks with 甚爾 's son, a young 伏黒恵. He tells 恵 that his father is from the 禪院家 which he left to have his son. The 禪院 clan loves people blessed with a 術式. 恵 is approaching the age where his technique will manifest, which makes it the perfect time to sell him to the Zenins. This was 甚爾's trump card against them, which is unfortunate for 恵. The first grader replies that he doesn't care about his father and 津美紀 's mother hasn't returned in a while either. He believes they used the \"divorce money\" to run off and live happily together without them. 悟 asks 恵 if he wants to go to the 禪院 family but the boy is only worried about what happens to 津美紀. 悟 taunts him about it just to get a rise out 恵. When the youngster gives him a fierce scowl for insisting there's no way 津美紀 would be happy, 悟 is satisfied. He promises to take care of things for 恵 and asks him to get strong. メカ丸 aka 与幸吉 is confirmed to be 呪術高専's mole. Eleven years later in the present on October 19, 2018, 五条 sensei wakes up from his dream of all these past events in his life. He awakens to his three students, including 恵 looking at him. 五条 smirks at his long time protégé, proud of how he's grown since then, confusing 恵. Shortly afterward, 五条 informs them about the 呪術高専's mole and sends them to meet up with 歌姫 . She tells them that there are two moles, one of which is one of the Jujutsu Higher-Ups. Since they can't do anything about that presently, their main target is whoever is feeding information to that higher-up. 真人's 無為転変 restores 幸吉's body in exchange for the information he's been feeding them. 野薔薇 asks if the mole is someone from Kyoto, surprising 悠仁 . As 歌姫 prepares to reveal to them who it is, elsewhere, 霞 meets with メカ丸. She tells him that their notebooks are due today and he replies that he's going to sleep for the day. Back at メカ丸's alleged hideout, 歌姫 informs the 東京 first years that it has to be him by the process of elimination. Using 傀儡操術 to steal information wouldn't be difficult for someone like メカ丸. At the same time, 与幸吉 prepares for his visitors. However, 悠仁 busts down the door to a fake hideout, confirming to them that he's the mole. At his actual hideout, 幸吉 meets with 真人 and Pseudo-夏油 . He berates them for taking so along but 夏油 assures him that they would never break their 縛り . 幸吉 argues they did break the 縛り by injuring people from Kyoto but 真人 claims that was 花御 's doing. He demands he hurry and heal him, annoying 真人. However, 夏油 very explicitly explains that they cannot risk breaking a 縛り with another person. 真人 begrudgingly uses 無為転変 to heal 幸吉, giving him a healthy body for the first time. 真人 says he should be more enthusiastic but 幸吉 is saving that for after they settle their business. With no more words left that need to be exchanged, 幸吉 and 真人 face off.",
+    "characters_raw_text": "五条悟 伏黒恵 釘崎野薔薇 虎杖悠仁 庵歌姫 三輪霞 与幸吉 Pseudo-夏油 真人",
+    "locations_raw_text": "東京 呪術高専 与幸吉の隠れ家",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "与幸吉の術式 傀儡操術 真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-5a0f7ded8d",
+    "char-678a848346",
+    "char-baadf43d19",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad",
+    "tech-870eff819a",
+    "tech-c2ae5ed6dc"
+  ],
+  "term_ids_candidate": [
+    "term-f74654d902"
+  ],
+  "key_events_verified_phase4": [
+    "五条が幼い恵と津美紀を支援する",
+    "高専内通者として与幸吉が特定される",
+    "真人が縛りに従い幸吉の肉体を治療する"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-in-past-and-present"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "appearance-or-mentioned"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "mentioned-or-recollection"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-0f2e6e85bf",
+    "char-d5482ceba1",
+    "char-3de3b8af11",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-dad71c9f31",
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-ebd2a8efa8"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "user-revealed-as-mole"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used-to-heal"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-870eff819a",
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase4": [
+    "term-phase4-mole",
+    "term-bfcc1b065d",
+    "term-40e6a89fc4",
+    "term-041be91538"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

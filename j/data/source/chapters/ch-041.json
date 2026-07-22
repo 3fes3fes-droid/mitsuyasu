@@ -1,0 +1,131 @@
+{
+  "id": "ch-041",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 41,
+  "zero_number": null,
+  "label": "第41話",
+  "title_official": "京都姉妹校交流会―団体戦⑧―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦8―",
+  "start_page": 131,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.131",
+  "summary_short": "釘崎は境遇を理由に真依の振る舞いを正当化する西宮へ反論し、追い詰める。しかし真依の狙撃で戦闘不能となり、真希が妹との対決に臨む。",
+  "summary_full": "西宮は禪院家で真依が受けてきた差別と、女性術師に美しさまで要求される呪術界の価値観を釘崎へ説く。釘崎は不遇だから他人へ悪意を向けてよいわけではなく、自分は真依が嫌いで真希が好きだと反論する。外した釘を簪で爆発させて木を倒し、箒の毛へ共鳴りを使って西宮を地上へ落とすが、勝利直前に真依のゴム弾を頭部へ受けて脱落する。真依の前には三輪を破った真希が現れ、姉妹の直接対決が始まる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "野薔薇 rejects 桃 's notions about excusing 真依 for her behavior solely based on her family's actions. Just as the 東京 first-year turns the tides in her favor, 真依 steps in to eliminate her. Shortly after, 真希 arrives to avenge her protégé.",
+    "summary_full_legacy": "野薔薇 rejects 桃's notions about boys vs. girls in the jujutsu world. Despite getting knocked back several times by gusts of wind from 桃's broom, 野薔薇 continues to get up. 桃 notices that she's gotten used to fighting and 野薔薇 knows this is because of her training with パンダ. 桃 sums up her struggles to be nervous about 棘 appearing, making him a threat no matter where he is. 桃 goes on to tell 野薔薇 that perfection wasn't enough for the 禪院 family when it came to 真依. 野薔薇 attempts to hit her opponent with nails but misses, forced to listen to 桃's lecture as she dodges. Within the jujutsu community, it is said that you're not a sorcerer then you're not worthy to live. 真希 and 真依 had to endure that sexist attitude their entire life. 桃 believes someone who looks at a curse like 悠仁 as an ally could never understand. 真依's bullet saves 桃 from 野薔薇. This upsets 野薔薇, who claims that people don't get to be terrible people just because they're misfortunate. In the same vein, just because someone is fortunate doesn't mean they deserve to be ridiculed. Regardless of 真依's upbringing, 野薔薇 doesn't like her but she does like 真希. 桃 has never even stopped to consider the person that 悠仁 is. 野薔薇 states that life isn't simply a job and activates 芻霊呪法 術式 : 簪 ! The technique causes 野薔薇's nails to explode with 呪力, breaking the trees they got lodged in. This is why 野薔薇 continued to fire nails at 桃 despite missing. 桃 is able to avoid the debris from the tree, but this gives 野薔薇 a chance to reach her opponent. The third-year kicks 野薔薇 away before she reaches her, but 野薔薇 grabs one of the bristles from 桃's broom. 野薔薇 has had enough with 桃's boys vs. girls nonsense and emphatically activates 芻霊呪法 術式: 共鳴り ! \" Why don't you call me big sis... little sis. \" 共鳴り causes 桃 to lose control of her broom, forcing her into 野薔薇's range. Using a squeaky hammer pummels 桃's face but just before 野薔薇 secures a victory, she's shot in the temple by a rubber bullet from 真依 . 真依 immediately calls 桃 to confirm that メカ丸 is likely out of the competition. She asks 桃 to return to the skies and is immediately confronted by 真希 , who left 霞 behind. 真希 claims 真依 should've asked 桃 for backup but 真依 wants to fight one-on-one. The 東京 禪院 sister politely asks that her younger sister call her \"big sis\".",
+    "characters_raw_text": "西宮桃 釘崎野薔薇 加茂憲紀 禪院真依 狗巻棘 禪院真希",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 釘崎野薔薇 vs. 西宮桃 (終了) 呪霊討伐競争 釘崎野薔薇 vs. 西宮桃 (終了) 釘崎野薔薇 vs. 西宮桃 (終了)",
+    "techniques_raw_text": "西宮桃の術式 付喪操術 釘崎野薔薇の術式 芻霊呪法 術式 共鳴り 共鳴り／簪 簪",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-830f121430",
+    "char-a61d6ef891"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-932f1fb717",
+    "tech-d9180946ec"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "釘崎が西宮の価値観へ反論する",
+    "釘崎が簪と共鳴りで西宮を落とす",
+    "真依が釘崎をゴム弾で戦闘不能にする",
+    "真希と真依の姉妹対決が始まる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-484fd66a1e",
+    "char-5a0f7ded8d",
+    "char-830f121430",
+    "char-5724ed462b",
+    "char-a61d6ef891",
+    "char-24d736edff"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-phase3-tsukumoso",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-932f1fb717",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-phase3-tsukumoso",
+    "tech-2ac2471b12",
+    "tech-932f1fb717",
+    "tech-d9180946ec"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-f74654d902",
+    "term-ad8bd57883"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

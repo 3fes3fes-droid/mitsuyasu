@@ -1,0 +1,187 @@
+{
+  "id": "ch-229",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 26,
+  "number": 229,
+  "zero_number": null,
+  "label": "第229話",
+  "title_official": "人外魔境新宿決戦⑦",
+  "title_search_normalized": "人外魔境新宿決戦7",
+  "start_page": 27,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-26"
+  ],
+  "source_locator": "単行本26巻 目次 p.27",
+  "summary_short": "五条は領域展開の速度差で宿儺へ無量空処を命中させる。しかし宿儺は伏黒の魂へ適応を肩代わりさせ、魔虚羅を召喚して無量空処を破壊する。",
+  "summary_full": "五条は領域展開の速度差で宿儺へ無量空処を命中させる。しかし宿儺は伏黒の魂へ適応を肩代わりさせ、魔虚羅を召喚して無量空処を破壊する。五度目の領域展開で五条がわずかに先行し、無量空処が宿儺へ命中する。宿儺は伏黒の魂に適応過程を肩代わりさせ、魔虚羅で領域を破壊する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 finally gains the advantage after a series of domain clashes. His allies continue to watch, now hopeful that victory is at hand. However, even after being bathed in 悟's 無量空処 , 宿儺 still has a trump card in the 十種影法術 術式 .",
+    "summary_full_legacy": "\"If he can destroy 伏魔御廚子 in three minutes or less... 五条 wins.\" Despite the momentum shift in the battle, 憂太 notices 五条's nosebleed and is still slightly concerned for his sensei. In contrast, 五条 is completely unphased as he wipes the blood away from his nose and once again expands his domain at the same time as 宿儺. The simultaneous expansion of the domains confirms the 天使の theory that 宿儺 can restore his exhausted innate technique with 反転術式 after seeing 五条 do it. 華 comments on whether or not 宿儺 was always capable and then someone else jokes about the sheer amount of times the group has said \"術式\" during the fight. Anxious, 日下部 says that 五条 needs to destroy 宿儺's domain within three minutes but 硝子 argues against his pessimistic tone. She points out that 無量空処 only needs a second to incapacitate 宿儺 and confidently states that as long as 五条 damages 宿儺 enough within three minutes, he will win. 五条 proves to be the stronger fighter when sure-hit effects aren't involved. 五条 ramps up his 呪力 reinforcement and the two strongest sorcerers clash inside the domains. They break each other's domains at the same time and everyone comments on how close the fight is. 三輪 emphasizes that this result likely means that 五条 is the superior fighter within the domains and 悠仁 is confident his sensei can achieve victory. 五条 sends 宿儺 flying back with a strong left hook and then immediately expands his domain. 宿儺 opens his domain as well but 憂太 and 日車 both notice that it was just slightly after 五条. The difference is less than 0.01 seconds but 無量空処 hits and staggers 宿儺 for just a moment. 五条 seizes the opportunity and crushes 宿儺's heart with a powerful thrust straight into his chest. 魔虚羅 rescues 宿儺 from 無量空処. 五条 and 宿儺 continue fighting within the domain but 伏魔御廚子 collapses after two minutes and forty seconds. 無量空処 wins the domain clash and 宿儺 is completely caught within the 無下限呪術 and stunned in place. Not satisfied with crushing his opponent's heart, 五条 plans on destroying his lungs and liver as well to bring 宿儺 closer to death than 悠仁 was at the detention center. As 五条 rushes to finish the fight, 魔虚羅 is suddenly summoned within the domain to protect 宿儺. Surprised, 五条 doesn't understand the timing of this summoning when 魔虚羅 hasn't even had time to adapt. 五条 attempts to destroy the 式神 in one shot using 術式 術式反転「赫」 . However, 魔虚羅 stabs the 退魔の剣 into the ground and shatters the domain completely. Even more shocked than before, 五条 doesn't understand how 魔虚羅 has already managed to adapt to 無量空処.",
+    "characters_raw_text": "五条悟 乙骨憂太 宿儺 虎杖悠仁 来栖華 日下部篤也 家入硝子 冥冥 憂憂 脹相 三輪霞 日車寛見 禪院真希 鹿紫雲一 秤金次",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 領域展開：無量空処 無下限呪術 術式 術式反転「赫」 (発動寸前) 術式 術式反転「赫」 (発動寸前) 宿儺の術式 領域展開：伏魔御廚子 反転術式 術式 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 八握剣異戒神将 魔虚羅 魔虚羅",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-4b0b9dc682",
+    "tech-6e6dd087e1",
+    "tech-7c3237f986",
+    "tech-9761156f3b",
+    "tech-cf2f8dca4a",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56",
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase11": [
+    "五条は領域展開の速度差で宿儺へ無量空処を命中させる。",
+    "しかし宿儺は伏黒の魂へ適応を肩代わりさせ、魔虚羅を召喚して無量空処を破壊する。",
+    "五度目の領域展開で五条がわずかに先行し、無量空処が宿儺へ命中する。",
+    "宿儺は伏黒の魂に適応過程を肩代わりさせ、魔虚羅で領域を破壊する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-14f96ce777",
+    "tech-9761156f3b"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-9761156f3b",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-65867f280c",
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-26",
+    "src-manga-games-vol-26",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

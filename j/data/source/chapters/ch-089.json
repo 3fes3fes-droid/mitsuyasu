@@ -1,0 +1,149 @@
+{
+  "id": "ch-089",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 11,
+  "number": 89,
+  "zero_number": null,
+  "label": "第89話",
+  "title_official": "渋谷事変⑦",
+  "title_search_normalized": "渋谷事変7",
+  "start_page": 7,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-11"
+  ],
+  "source_locator": "単行本11巻 目次 p.7",
+  "summary_short": "真人は約千体の改造人間を一般人の中へ放つ。五条は被害を抑えるため0.2秒だけ無量空処を展開し、停止した改造人間を短時間で殲滅する。",
+  "summary_full": "真人は列車から大量の改造人間を放ち、上階からも一般人を地下5階へ落として五条の処理能力を飽和させる。真人と脹相は術式を重ね、漏瑚も一般人を盾に動く。五条は呪霊だけを領域へ入れる選別は不可能と判断し、一般人が後遺症なく耐えられると推測した0.2秒だけ領域展開「無量空処」を発動する。全員の動きを止めた後、領域を解いて299秒で約千体の改造人間を殲滅。その直後、足元に置かれていた獄門疆が開門する。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "A thousand transfigured humans are unleashed upon the 副都心線 ホーム . They attack alongside the special grade 呪霊 and slaughter the civilians before 悟 's eyes. Pushed to the limit on how many lives he's willing to sacrifice, the strongest jujutsu sorcerer is forced to make a decision.",
+    "summary_full_legacy": "Even more civilians are dumped down into the 副都心線 ホーム. Civilians run away in fear as 改造人間 rush from the train, indiscriminately attacking everyone in sight. 悟 watches in horror and doesn't believe whittling down the number of humans is to his opponent's advantage. 真人 rides through the air on a snake like transfigured human directly at 悟 and attempts to punch him. The 無限 blocks it, entertaining 真人 who's heard of this ability before. 悟 recognizes 真人 as the patch-face curse 悠仁 and 七海 told him about. 悟 forces 真人 back but a grin remains on the curses face. He wags his finger and shares something he finds gross about humans: that there's so many of them. The roots that were blocking the atrium between B4F and B5F disappear and hundreds of humans fall through, shocking 悟. There must be more curses or curse users upstairs dumping everyone they can down to the 副都心線 ホーム. The rising casualties bring 悟 closer to his breaking point. 脹相 and 真人 activate their respective innate techniques simultaneously, attacking the crowd with 超新星 and Body Repel respectively. All the humans in the immediate area around 悟 are slaughtered, much to his displeasure. 漏瑚 attacks from above and 悟 is able to grab his arm, but the curse is quick to sever it, and runs away. 真人 recognizes that 五条 is different from 悠仁 in that he's willing to make certain sacrifices to ensure the greater good. However, now that the number of casualties is rising rapidly and even more humans are being put at risk, even 悟's willingness to sacrifice is reaching its limit. 漏瑚 believes the sorcerer's only option is to use 領域展開 , but 無量空処 would likely kill every person there. In theory, he could save everyone outside in one move but he's unwilling to kill humans himself. The curses plan to make him agonize and concentrate on countermeasures, however, they're shocked when 悟 suddenly decides to activate his 領域展開. In 299 seconds, approximately one thousand 改造人間 are slain by the strongest jujutsu sorcerer alive. 五条悟's all-or-nothing 領域展開 of 0.2 seconds casts 無量空処 on the 副都心線 ホーム. The time was an educated guess that assumed non-sorcerers could only stay within the domain for that long without suffering permanent damage. In that time, half a year's worth of info flooded into everyone's brains, immobilizing them. At this level, the special grade curses could awaken at any moment. Taking that into consideration, 悟 focuses on killing all of the transfigured humans. In just under three hundred seconds, approximately one thousand 改造人間 were annihilated after the deactivation of the domain by the hands of the strongest jujutsu sorcerer. Immediately after, 悟 notices a sealed box next to him too late. With the stage set for their plan to succeed, 夏油 actives 獄門疆.",
+    "characters_raw_text": "五条悟 真人 脹相 漏瑚 Pseudo-夏油",
+    "locations_raw_text": "渋谷 渋谷駅 副都心線 ホーム 渋谷駅 副都心線 ホーム 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変 五条悟 vs. 真人's Group 五条悟 vs. 真人's Group",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂／超新星 百斂／超新星 真人の術式 無為転変 多重魂「撥体」 多重魂「撥体」 五条悟の術式 領域展開：無量空処",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-a61fa295f1"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-17ae81079b",
+    "tech-4b0b9dc682",
+    "tech-5eb242be96",
+    "tech-71a2d65cad",
+    "tech-73135cb5c7",
+    "tech-a1213858c7",
+    "tech-a35b2bcd34",
+    "tech-f81d55ad09"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase5": [
+    "真人が大量の改造人間を放つ",
+    "五条が0.2秒の無量空処を展開する",
+    "五条が299秒で約千体の改造人間を殲滅する",
+    "獄門疆が開門する"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-851111b10d",
+    "char-a61fa295f1",
+    "char-678a848346"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used-on-mass-scale"
+    },
+    {
+      "technique_id": "tech-phase5-polymorphic-soul-isomer",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-17ae81079b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-for-0.2-seconds"
+    },
+    {
+      "technique_id": "tech-phase5-prison-realm",
+      "relation": "opened-at-end"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-71a2d65cad",
+    "tech-phase5-polymorphic-soul-isomer",
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-17ae81079b",
+    "tech-14f96ce777",
+    "tech-phase5-prison-realm"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-phase5-transfigured-human",
+    "term-e6a70dfe56",
+    "term-6e7e2b846e",
+    "term-phase5-prison-realm-condition",
+    "term-phase5-special-grade-curse"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-11",
+    "src-manga-games-vol-11",
+    "src-official-character-vote-4"
+  ]
+}

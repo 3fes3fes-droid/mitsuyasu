@@ -1,0 +1,120 @@
+{
+  "id": "ch-176",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 20,
+  "number": 176,
+  "zero_number": null,
+  "label": "第176話",
+  "title_official": "仙台結界③",
+  "title_search_normalized": "仙台結界3",
+  "start_page": 87,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-20"
+  ],
+  "source_locator": "単行本20巻 目次 p.87",
+  "summary_short": "空を面として操る烏鷺亨子が乙骨を襲い、戦う理由を問いかける。乙骨は藤氏と関わりを持つ烏鷺の過去を探りながら応戦する。",
+  "summary_full": "烏鷺亨子は空を面としてつかみ、乙骨の腕や周囲の空間を歪める。乙骨は攻撃そのものでは身体が破壊されない性質を見抜き、烏鷺へ戦う理由を尋ねる。烏鷺はかつて藤氏直属の暗殺部隊を率いながら、身代わりとして処刑された過去をにじませ、乙骨を藤原氏の者と思い込んで怒りを向ける。二人の接近戦へ、遠方から石流龍の高出力の呪力砲が撃ち込まれる。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "By eliminating ドゥルヴ Lakdawalla and 黒沐死 , 憂太 has completely shattered the deadlock in the 仙台結界 . 烏鷺亨子 makes her move and unleashes a technique that controls the sky. While analyzing her attacks, 憂太 also tries to understand why someone as strong as Takako would engage in such a desperate battle.",
+    "summary_full_legacy": "烏鷺 warps the shape of 憂太's arm. 憂太 is blown back by a large blastwave created by 烏鷺's 術式 . He minimizes the damage and wonders how exactly she caused so much destruction. 烏鷺 follows up her attack with a punch that 憂太 is able to avoid and counter with a punch of his own. 烏鷺 warps the space around 憂太's arm and distorts its shape. 憂太 is surprised and confused by his distorted appendage as 烏鷺 knocks him back with another attack. His arm returns to normal without any damage, leading 憂太 to assume 烏鷺's 術式 manipulates space without actually crushing anything within it, similar to how a lens creates distortion. 烏鷺 discloses her ability and reveals her 術式 treats the sky as a surface. To give an example, 烏鷺 physically grabs an open space, making it tangible and pulling it in front of her as if it was a cloth. Both her attacks on 憂太 bypassed his defenses and sent him flying. He figures that there must be some trick to her ability if surfaces are able to accomplish that. 烏鷺 waits for her opponent to attack so she can counter with her technique, but instead, 憂太 asks her a question. \"How can you be so desperate for your own sake?\" 憂太 knows 烏鷺 wouldn't complain if she were to be killed and asks why she's seeking out conflict. He understands that powerless people get desperate but this doesn't apply to 烏鷺 because she is a strong fighter who can take points whenever she desires. 烏鷺 explains that she doesn't take regaining a new body lightly because incarnated sorcerers have essentially returned from the underworld. She feels like someone without regret wouldn't have joined the 死滅回游 in the first place. As the first step in her new life, 烏鷺 is prioritizing points and that's why she's attacking. Still confused, 憂太 asks if 烏鷺 has a lover or companions she's fighting for. He simply can't understand why someone would spend time killing people thousands of years later even if they have regrets. 烏鷺 gets more and more irritated as 憂太 continues talking and she's set off when he asks how she could be so desperate for her own selfish gain. Irate, 烏鷺 asks if Yutas is a descendant of the Fujiwara clan and claims someone of his blood wouldn't ever understand her. グラニテブラスト! 龍 interrupts the conversation by using グラニテブラスト to fire a massive wave of 呪力 at both players. Attacking from atop a nearby rooftop, 龍 claims 憂太 and 烏鷺's flirting is making him hungry for battle. 憂太 survived the impact and is surprised by the broadness of 龍's attack range. Meanwhile, 烏鷺 decides theirs no reason to let 龍 go now that the colony's deadlock is broken. 憂太 and 烏鷺 simultaneously decide it's time to take 龍 out. 憂太 brings the fight to 龍. 憂太 dashes straight toward 龍, exciting the long-ranged fighter, who responds with a volley of 呪力 beams. 憂太 is narrowly able to avoid the initial barrage using his agility but a second wave of attacks appears to take him off guard. 龍 appears to score a direct hit and wonders if 憂太 will disappoint him. However, the smoke clears and 龍 notices that 憂太 is gone. Suddenly, 憂太 makes it to the roof to confront 龍 directly, forcing him to realize 憂太 used the hole 里香 made in the bridge to avoid the beams and get out of sight. Having successfully closed the distance between them, 憂太 attacks the 龍 directly. He declares it's time to bring the fight into close range while 龍 manages to block his strike. Amused by 憂太's display of skill, 龍 asks if fighting up close will satisfy his hunger.",
+    "characters_raw_text": "烏鷺亨子 乙骨憂太 石流龍 黒沐死 (言及のみ) ドゥルヴ Lakdawalla (言及のみ)",
+    "locations_raw_text": "仙台結界 仙台市 仙台市",
+    "battles_events_raw_text": "死滅回游 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍",
+    "techniques_raw_text": "石流龍の術式 呪力放出／グラニテブラスト 烏鷺亨子の術式 Sky Manipulation (名称不明)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sendai",
+  "character_ids_candidate": [
+    "char-46cd8034d9",
+    "char-4a29b3de7b",
+    "char-6ede6f3587",
+    "char-c28763b98a",
+    "char-fe30ff0de9"
+  ],
+  "technique_ids_candidate": [
+    "tech-536c06630d",
+    "tech-5607df824a",
+    "tech-a9666d4ecb"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase9": [
+    "烏鷺の空間操作の性質が示される",
+    "烏鷺が藤氏に裏切られた過去を語る",
+    "乙骨と烏鷺が接近戦を行う",
+    "石流が遠距離から攻撃へ介入する"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-fe30ff0de9",
+      "presence": "past-and-fighting"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-4a29b3de7b",
+      "presence": "intervenes"
+    },
+    {
+      "character_id": "char-6ede6f3587",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-46cd8034d9",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-fe30ff0de9",
+    "char-c28763b98a",
+    "char-4a29b3de7b",
+    "char-6ede6f3587",
+    "char-46cd8034d9"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-4235aca76a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-f3ecd34833",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-536c06630d",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-4235aca76a",
+    "tech-f3ecd34833",
+    "tech-536c06630d"
+  ],
+  "term_ids_verified_phase9": [
+    "term-3efd4cb8d8",
+    "term-phase7-incarnated-sorcerer",
+    "term-252cb4a664"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-20",
+    "src-manga-games-vol-20",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

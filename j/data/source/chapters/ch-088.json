@@ -1,0 +1,146 @@
+{
+  "id": "ch-088",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 88,
+  "zero_number": null,
+  "label": "第88話",
+  "title_official": "渋谷事変⑥",
+  "title_search_normalized": "渋谷事変6",
+  "start_page": 169,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.169",
+  "summary_short": "花御を失った漏瑚と脹相は五条を止めきれず、戦況はなお五条優勢で進む。そこへ大量の改造人間を乗せた電車が到着する。",
+  "summary_full": "花御を失った漏瑚は、一般人の群れに紛れて領域展延による攻撃と離脱を繰り返し、脹相にも援護を求める。脹相の血の攻撃は無限に止められ、五条は射程や立ち位置を見極めながら漏瑚を追う。一般人も徐々に呪霊の位置を避け始め、五条が動ける空間が広がる。五条が多少の犠牲を覚悟して漏瑚を捕らえようとした時、改造人間を満載した地下鉄がホームへ到着し、真人が戦場へ加わる。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Following 花御 's demise, 漏瑚 struggles to buy more time while 脹相 hardly helps. It's still too easy for 五条悟 . Meanwhile, the 冥冥 Team learns there is a train headed for 渋谷 filled with a surprise just for him.",
+    "summary_full_legacy": "悟 searching through the crowd hunting for 漏瑚. Frantically huffing for air as he runs away from the strongest jujutsu sorcerer , 漏瑚 stumbles through the crowded 副都心線 ホーム . 悟 follows close behind with an extremely dark and menacing presence 脹相 quietly tries to hide in the chaos among the crowd of civilians while his ally is in a panic. 漏瑚 tries to push people in 悟's way and strike from behind, but the 無限 is able to stop the person in mid-air and as well as 漏瑚's punch. 漏瑚 doesn't want to allow 花御's death to be in vain, he runs away and plans on buying time with hit-and-run attacks with 領域展延 . He yells out in a panic, demanding 脹相 do something before he's next to die. 脹相 nonchalantly shoots three blood arrows from a good distance down the platform. The 無限 stops them and 悟 makes note of 脹相's location but chooses to ignore him because his technique's range is likely reaching its limit. The 冥冥 Team regroups and arrives at B5F too late. Non-sorcerers who can't see curses are starting to avoid 悟 and if their numbers keep dwindling 悟 will get a chance to spot 漏瑚. Deactivating the 無下限呪術 to lure the curses out and strengthening it to exorcise them up close are both hands 悟 has already played. It would be unfortunate if they launch another large-scale attack. 悟 can't save everyone, but he promises to exorcise the curses and avenge them in return. Still worrying, 漏瑚 believes that twenty minutes should already have passed. Down the 副都心線 ホーム, Pseudo-夏油 waits with 陀艮 and states they need to get the great 五条 on edge more before they make a move. Meanwhile, at 明治神宮前駅 B4F, the 冥冥 Team regroups and heads down toward B5F on the 副都心線 ホーム. On the way down, 冥冥 commends 悠仁 and states his strength is on par with a grade 1 sorcerer. He's the first she's known since 日下部篤也 to be this skilled without an innate technique . 悠仁 replies by revealing that it wasn't 真人 on B2F and it wouldn't have been as easy. Carrying his sister's battle axe, 憂憂 sternly tells 悠仁 to graciously accepts his sister's compliment. 真人 brings a train full of transfigured humans to 五条悟. They reach B5F and find a civilian down there but his head transfigures and he dies. 真人 was here but he already left, frustrating 悠仁. Before the man died, he mentioned everyone was on the train. This makes 悠仁 realize that it's headed straight for where 五条 is. Back at 渋谷ヒカリエ ShinQs, 悟 is surprised to see the train arriving. Some of the civilians attempt to get on and flee, but it's stuffed with transfigured humans that start attacking as soon as they're let loose. 悟 watches in horror while 真人 hops out of the train to greet 漏瑚. 真人 says they should keep a few humans around and hunt them in the forest on weekends. 漏瑚 wants to burn down the forest but 真人 mentions 花御 would be upset. 漏瑚 reveals that 花御 is dead, surprising 真人.",
+    "characters_raw_text": "漏瑚 五条悟 脹相 Pseudo-夏油 陀艮 憂憂 冥冥 虎杖悠仁 真人",
+    "locations_raw_text": "渋谷 明治神宮前駅 副都心線 ホーム 渋谷駅 副都心線 明治神宮前駅ホーム 副都心線 ホーム 渋谷駅 副都心線 ホーム 副都心線 ホーム 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変 五条悟 vs. 真人's Group 五条悟 vs. 真人's Group",
+    "techniques_raw_text": "脹相の術式 赤血操術 漏瑚の術式 領域展延 五条悟の術式 無下限呪術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-6674ce6baa",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-34f2643025",
+    "tech-a1213858c7",
+    "tech-a35b2bcd34",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase5": [
+    "漏瑚と脹相が五条を足止めする",
+    "一般人の動きによってホームに空間が生まれる",
+    "真人と大量の改造人間を乗せた列車が到着する"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-a61fa295f1",
+    "char-17322e71e5",
+    "char-851111b10d",
+    "char-678a848346",
+    "char-6674ce6baa",
+    "char-e41848a08f",
+    "char-07918bda3f",
+    "char-baadf43d19",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-34f2643025",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-34f2643025",
+    "tech-cf2f8dca4a",
+    "tech-a1213858c7"
+  ],
+  "term_ids_verified_phase5": [
+    "term-33c0eaca30",
+    "term-34f2643025",
+    "term-phase5-transfigured-human",
+    "term-phase5-special-grade-curse"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

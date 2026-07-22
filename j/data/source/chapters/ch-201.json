@@ -1,0 +1,118 @@
+{
+  "id": "ch-201",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 201,
+  "zero_number": null,
+  "label": "第201話",
+  "title_official": "直接会談②",
+  "title_search_normalized": "直接会談2",
+  "start_page": 27,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.27",
+  "summary_short": "羂索は米国政府に術師を拉致して研究する軍事作戦を提案する。呪術の脅威を示すため、裏梅とともに兵士たちを圧倒して作戦参加を決断させる。",
+  "summary_full": "羂索は米国政府へ、術師を研究対象として捕獲すれば呪力を新エネルギーにできると迫る。人道面を懸念する大統領に対し、サイラスは他国に先を越される危険を強調する。軍人ギャリーは一個中隊で十分だと侮るが、羂索と裏梅はホワイトハウスの警備部隊を相手に呪術の実力を実演する。巨大な呪霊と裏梅の氷で兵士は容易に制圧され、八百人規模の投入が必要だと認めさせる。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "羂索 seeks to convince the United States government that 呪力 is the next alternative resource and to mount an operation to abduct jujutsu sorcerers . In order to get the military to deploy the requisite amount of firepower, 羂索 holds a test where he can display the true might of jujutsu for the uninitiated.",
+    "summary_full_legacy": "羂索 displays the might of jujutsu to the U.S. government. The President asks 羂索 if he wants him to use his authority to order the abduction of Japanese citizens. Cyrus Veil tries to convince the President by claiming one sorcerer could produce enough energy to last a lifetime, adding there is an unknown difference in a sorcerer's brain that allows their abilities to defy modern science. Cyrus says they must obtain research samples but the President expresses his disapproval of human experimentation. Cyrus claims other countries will act on this information and target Japanese people. Under the guise of protection, Cyrus asks the President to lock down information about jujutsu and utilize it before any other nation intervenes. The President is also reminded that 羂索 could go elsewhere if they refuse, unaware that he already has. 羂索 tells everyone that sorcerers are a rare minority and his proposal will present a unique opportunity where many of them will be gathered in one place. In order to protect Japanese citizens, the President feels as if he has no other choice and asks Lieutenant General Garry K. Johnson what scale operation would be required. Garry first clarifies that 五条悟 is an anomaly and then arrogantly claims one company will be able to capture five dozen sorcerers. He believes that sorcerers are green and can be overcome with muscles and bullets, which is the American way. 悠仁 and company on a collision course with the invading military. 羂索 advises them to deploy a battalion of at least eight hundred men but Garry belittles him for being cowardly. 裏梅 suggests they put it to the test by pitting 羂索 against the security on-site at the White 家. This includes fifteen members of the secret service and thirty men from the finest covert paramilitary division of the CIA. For this test, 羂索, who begins in the West Wing, must get past the military forces and reach the East Wing where Garry and the President are waiting. The President thinks this entire exercise is going overboard but Garry claims they must show their strength in full. Suddenly, a soldier crashes into the ground outside the building. Garry goes outside and uses the glasses provided by 羂索 to see a giant elephant-like 呪霊 dispatching all of his soldiers. 羂索 effortlessly makes his way to the President, dropping all of the soldier's dog tags before him and asking him to begin talks regarding hunting sorcerers.",
+    "characters_raw_text": "Garry K. Johnson 羂索 裏梅 Cyrus Veil President of the United States Director of National Intelligence 五条悟 (言及のみ) 高羽史彦 虎杖悠仁 伏黒恵 来栖華",
+    "locations_raw_text": "ホワイトハウス／東京第1結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": "呪具 眼鏡 羂索 術式 呪霊操術 ガネーシャ ガネーシャ",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-02aa196fbb",
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-678a848346",
+    "char-baadf43d19",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase10": [
+    "米国政府が術師捕獲作戦を検討する",
+    "ギャリーが術師の戦力を過小評価する",
+    "羂索と裏梅が警備部隊を制圧する",
+    "米国が大規模部隊の投入を決断する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "demonstrates-jujutsu"
+    },
+    {
+      "character_id": "char-000313127b",
+      "presence": "demonstrates-jujutsu"
+    },
+    {
+      "character_id": "char-9e8435ee20",
+      "presence": "authorizes-operation"
+    },
+    {
+      "character_id": "char-b7f2a3f42f",
+      "presence": "presses-plan"
+    },
+    {
+      "character_id": "char-e853296f46",
+      "presence": "military-commander"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-678a848346",
+    "char-000313127b",
+    "char-9e8435ee20",
+    "char-b7f2a3f42f",
+    "char-e853296f46"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-7210756e15",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-1bc0d9ec7b",
+    "tech-7210756e15"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c063667868",
+    "term-adb9e5012c",
+    "term-8914e5bc1a",
+    "term-252cb4a664"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

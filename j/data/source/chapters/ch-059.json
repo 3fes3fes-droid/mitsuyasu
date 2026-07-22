@@ -1,0 +1,144 @@
+{
+  "id": "ch-059",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 59,
+  "zero_number": null,
+  "label": "第59話",
+  "title_official": "起首雷同―伍―",
+  "title_search_normalized": "起首雷同―伍―",
+  "start_page": 133,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.133",
+  "summary_short": "伏黒は指の呪霊を倒して宿儺の指を回収するが、力を使い果たして倒れる。虎杖と釘崎は、受肉した呪胎九相図の壊相・血塗と対峙する。",
+  "summary_full": "領域を解いた伏黒は宿儺の指を回収するが、負傷と消耗で倒れる。宿儺は指を通じて伏黒の成長を見て満足する。伏黒は中学時代、他者の尊厳を踏みにじる不良を一人で倒していたこと、善人である津美紀の考えを「気持ち悪い」と拒んでいたことを回想する。五条から父が禪院家へ自分を売ろうとしていたと聞かされた過去も重なり、眠る津美紀へ謝る。外では釘崎が壊相を追い、虎杖と血塗も合流する。壊相は背中を見られた怒りから蝕爛腐術・翅王を発動する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 's victory comes at the cost of the rest of his stamina. Delirious, he recalls his time in middle school with 津美紀 , and apologizes for not appreciating her kindness sooner. Meanwhile, 悠仁 and 野薔薇 begin their battle against the brothers born from the 呪胎九相図 Womb .",
+    "summary_full_legacy": "恵 was known for bullying the bullies back in Junior High. Bloody and exhausted from the battle as the Domain fades away, 恵 looks around for his allies as he holds 宿儺 's finger. 宿儺 can see what happened through the finger and he's very impressed with the results. 恵 vomits and collapses shortly after. He recalls his time in middle school putting punks in their place. He told them that the basis for human interaction is never crossing any line that violates someone else's dignity. The punks don't even know why 恵 beat them up as he sits on a giant pile of their beaten bodies. Old man Takeda comes to break it up as 恵 walks away and passes a group of students who were bullied. They quickly realize the bullies have been beaten up but 津美紀 isn't happy that 恵 keeps picking fights. She hits him with a milk carton that accidentally opens and spills on his head after he makes a comment that good people are gross. 野薔薇 takes on the 呪胎九相図 Womb. When 恵 was in first grade, his father and 津美紀's mom got married and separated immediately. 五条 visited him and explained that he was sold to the 禪院 clan but he would receive support from 呪術高専 in exchange for working as a sorcerer. Naturally, 恵 resented the white haired man and jujutsu sorcerers. Drenched in milk, 恵 walks away from his guilty sister. She's joined by her friends who ask her to go the bridge with them. Shortly after 恵 became a third-year, 津美紀 was cursed and still sleeps to this day. 津美紀 was a kind girl who chose to care about 恵 despite his downfalls. Back in current time under the bridge, 恵 apologizes and asks his sister to wake up. However, her sleeping curse is a matter separate from the 八十八橋 curse. Shortly after, 恵 falls asleep from exhaustion. Death by Wasp! 野薔薇 and the 壊相 both notice the Domain has disappears and figures that whoever defeated the Finger Bearer must be injured. 壊相 rushes to the finger but 野薔薇 tries to stop him. He moves backwards to avoid the pursuing girl his back and threatens to kill her if she does. Suddenly, 血塗 appears behind 壊相 with 悠仁 in chase, meaning they can both see the grotesque face on his back. Upset, 壊相 threatens to kill 悠仁, but 野薔薇 acts quickly and cracks him in the back of the head with her hammer. 野薔薇 asks why he's dressed so strangely and he claims his back gets stuffy otherwise. She also notices that the strange smell in the area is emanating from 壊相's back. He activates his 蝕爛腐術 術式 , 極ノ番「翅王」 , allowing him to sprout wasp-like wings made of black blood.",
+    "characters_raw_text": "伏黒恵 宿儺 Takeda (回想) 伏黒津美紀 (回想) 五条悟 (回想) 釘崎野薔薇 壊相 虎杖悠仁 血塗",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": "虎杖悠仁 & 釘崎野薔薇 vs. 壊相 & 血塗 (開始)",
+    "techniques_raw_text": "壊相の術式 蝕爛腐術 術式 極ノ番「翅王」 極ノ番「翅王」 釘崎野薔薇の術式 芻霊呪法 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-0f2e6e85bf",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-5d693ebac2",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-5c0ec253ee",
+    "tech-d9efa28175"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-c5958133bc",
+    "term-3f0111dca8"
+  ],
+  "key_events_verified_phase3": [
+    "伏黒が宿儺の指を回収して倒れる",
+    "伏黒と津美紀の過去が描かれる",
+    "壊相・血塗と虎杖・釘崎が合流する",
+    "壊相が翅王を発動する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ed98ec9440",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-3c1852867d",
+    "char-2b8d365a39",
+    "char-ed98ec9440",
+    "char-0f2e6e85bf",
+    "char-17322e71e5",
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-baadf43d19",
+    "char-964e851215"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-d9efa28175",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5c0ec253ee",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-d9efa28175",
+    "tech-5c0ec253ee"
+  ],
+  "term_ids_verified_phase3": [
+    "term-c5958133bc",
+    "term-3f0111dca8",
+    "term-a0ce00ef9e",
+    "term-cba4367139"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

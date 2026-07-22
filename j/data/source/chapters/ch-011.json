@@ -1,0 +1,131 @@
+{
+  "id": "ch-011",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 11,
+  "zero_number": null,
+  "label": "第11話",
+  "title_official": "ある夢想",
+  "title_search_normalized": "ある夢想",
+  "start_page": 67,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.67",
+  "summary_short": "宿儺の生得領域で虎杖は蘇生を条件とする契約を迫られる。現実では五条が伊地知に呪術界を変える構想を語り、敵側は五条封印と宿儺取り込みの計画を固める。",
+  "summary_full": "宿儺の生得領域で目を覚ました虎杖は、自分たちはまだ完全には死んでいないと知らされる。宿儺は心臓を治して蘇生する代わりに、『契闊』と唱えたとき一分間だけ肉体を明け渡すこと、この契約を虎杖が忘れることを要求し、その一分間は誰も殺さず傷つけないと条件を加える。虎杖が拒否すると、勝負に勝った側の条件を採用することになり、宿儺は瞬時に虎杖を倒して縛りを成立させる。現実では五条が、上層部を力で排除するのではなく、乙骨や秤を含む強い仲間を育てて呪術界を変える構想を伊地知へ語る。家入が解剖を始めようとした直前に虎杖は蘇生し、五条は生存を伏せて交流会まで鍛える。一方、敵側は五条を獄門疆で封印する計画を進める。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Trapped inside 宿儺 's Innate Domain, 悠仁 is forced to make a troublesome deal. While watching over his body, 悟 explains his dreams and hopes for changing the jujutsu world. Meanwhile, a plot is put in motion to deal with 悟 in the coming battles.",
+    "summary_full_legacy": "悠仁 fights 宿儺 for control! 内部 悠仁's consciousness, he faces off with 宿儺. The King of Curses demands appreciation for fixing 悠仁's arm. The young man refuses, seeing how 宿儺 is the reason he's dead. 悠仁 wonders if this place is hell and tries to attack 宿儺. 宿儺 avoids the projectile and engages with 悠仁. The boy's effort are fruitless inside 宿儺's inner domain. 宿儺 tries to negotiate a deal to revive 悠仁. His terms are that 悠仁 switches with him whenever he cants \"Enchain\" and says he must forget about this agreement. 五条 sensei hinges the future on his students. 宿儺 tries to explain that all jujutsu depends on a 縛り. However, 悠仁 refuses and punches 宿儺 away. Annoyed, 両面宿儺 gets 悠仁 to agree to a fight to the death and instantly severs his head. Meanwhile, in the real world, 悟 tells 伊地知潔高 about his dream. 悟 believes the higher-ups are the scum of the jujutsu world. Despite being a teacher, 悟 knows his talents are better used elsewhere and admits he's not the teaching type. If 五条 wishes to rebuild the jujutsu world, he needs to foster strong allies. He believes all the students will be strong jujutsu sorcerers one day, especially the upperclassman: 秤 and 乙骨 . 悠仁 returns to the land of the living. Doctor 家入硝子 prepares to dissect 悠仁's body when he suddenly reawakens from death. 悟 welcomes back his young protégé and asks for 硝子 to keep him listed as deceased in the report. He doesn't want him targeted again by the higher-ups and plans to train 悠仁 to be ready for the Kyoto Goodwill Event. 悟 adds that he won't keep 悠仁 in hiding forever because he doesn't want to deny him the best years of his life. Meanwhile, 夏油 continues telling 漏瑚 about their greatest threat; 五条悟. 傑 says they cannot defeat him even if they work together. He suggests they trap him using a special grade 呪物 such as the 獄門疆 .",
+    "characters_raw_text": "五条悟 伊地知潔高 虎杖悠仁 宿儺 伏黒恵 パンダ 釘崎野薔薇 狗巻棘 禪院真希 秤金次 (想像) 乙骨憂太 (想像) 家入硝子 Pseudo-夏油 漏瑚",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "特級呪物: 獄門疆",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-678a848346",
+    "char-a61d6ef891",
+    "char-a61fa295f1",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-ea9fe4b536"
+  ],
+  "key_events_verified_phase1": [
+    "宿儺が蘇生と引き換えの縛りを提示する",
+    "虎杖が宿儺との勝負に敗れ契約が成立する",
+    "虎杖が蘇生し生存を秘匿される",
+    "五条が強い仲間を育て呪術界を変える構想を語る",
+    "敵側が獄門疆による五条封印を計画する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-in-geto-body"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "mention"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "mention"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-baadf43d19",
+    "char-2b8d365a39",
+    "char-17322e71e5",
+    "char-b4d661547b",
+    "char-d4a4bc45c6",
+    "char-678a848346",
+    "char-a61fa295f1",
+    "char-c28763b98a",
+    "char-dea43d7fc7"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-ea9fe4b536",
+    "term-40e6a89fc4",
+    "term-6e7e2b846e",
+    "term-9ff83181a2"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

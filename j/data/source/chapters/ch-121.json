@@ -1,0 +1,120 @@
+{
+  "id": "ch-121",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 121,
+  "zero_number": null,
+  "label": "第121話",
+  "title_official": "渋谷事変㊴",
+  "title_search_normalized": "渋谷事変39",
+  "start_page": 109,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.109",
+  "summary_short": "七海は虎杖に後を託して真人に殺される。激昂した虎杖は真人へ襲いかかるが、真人は七海の死を利用して虎杖の心を折ろうとする。",
+  "summary_full": "七海の死を目の前で受けた虎杖は、真人への怒りを抱えながらも感情に流されず戦おうとする。真人は改造人間を組み合わせる多重魂と撥体で攻撃し、人命を弄ぶ自分と、人を救おうとして呪霊を殺す虎杖は同じだと挑発する。虎杖は七海の教えを思い出して呪力を整え、躰道を応用した卍蹴りで真人の意表を突き、二人の再戦は本格的な近接戦へ移る。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The rivalry based in hatred between 悠仁 and 真人 has reached a fever pitch once again. 悠仁 has someone else dear to him taken away by 真人. When fighting out of rage and anger fails as it did last time, 悠仁 realizes he must remain calm as 七海 would and prove he is a true jujutsu sorcerer .",
+    "summary_full_legacy": "真人 sends a transfigured human at 悠仁. 悠仁 rushes 真人, ready to take revenge for his fallen mentor. 真人 calmly flicks a small transfigured human at 悠仁 and transforms it into one that can protrude spikes from its head. 悠仁 avoids the spike attacks but 真人 uses the transfigured human to get behind 悠仁 and prepare his 多重魂 technique. 多重魂 allows 真人 to combine two or more souls. He follows up by unleashing Body Repel , a reaction due to the soul's rejection of the fusion. By utilizing this effect for his own advantage and increasing the soul's energy, 真人 can generate an overwhelming output of combined transfigured humans. \" Boo! \" 真人 unleashes a long transfigured monster that attempts to bite 悠仁 with its giant mouth. 悠仁 successfully grips its teeth and stops the attack, but 真人 appears from inside its mouth and lands a violent right straight that smashes his opponent's face. 悠仁 grimaces more than usual because his face was split open by the attack. 真人 transfigured his hand to include a blunt square-shaped weapon right above his knuckles. 真人 claims he would've cracked 悠仁's skull had he put a little more back into it. 悠仁 asks how 真人 can toy so aimlessly with people's lives and the 呪霊 just laughs at him. 真人 doesn't look for a reason and he isn't remorseful in the slightest. The best answer 真人 can give him is a demonstration. He creates 順平's face with one hand and stabs it with the other, claiming 悠仁 and him are the same, shocking the student. 真人 believes until 悠仁 accepts this fact, he'll never win. \" You are me. \" 悠仁 tells 真人 he talks too much and that he'll ensure that these are his dying words. He removes the blood from his face, stopping the bleeding and revealing a large scar. 七海's voice reminds 悠仁 that he must remain calm as his mentor would. He takes his fighting stance, allowing 呪力 to flow calmly from his hands as he's determined to prove that he is a jujutsu sorcerer! Taido Martial Arts: Manji Kick! 真人 matches 悠仁 by concentrating 呪力 into his own fists while contemplating his strategy. 無為転変 doesn't work on 悠仁 so 真人 decides maintaining his body's toughness is likely what 悠仁 believes is best for him. Instead, 真人 won't change his soul's shape at all while maintaining maximum strength with pure 呪力 reinforcement. He plans to stab through 悠仁's heart in one attack, but when his fist pierces through the air, 悠仁 suddenly disappears from his sight. 悠仁 is a master of hand-to-hand combat, particularly Taido Martial Arts . Knee Release is an ancient fighting technique that eliminates starting movement. 悠仁 not only releases his knees, but his hips, and shoulders as well to guide him quickly to his opponent's feet. Using the momentum from getting to this lower position, 悠仁 strikes 真人 in the face with Manji Kick ! 悠仁 follows up by front kicking 真人 back but the curse quickly transforms his arm into a spiked vine to force 悠仁 back. Impressed, 真人 admits that 悠仁's technique wasn't bad and announces it's time to move onto round two.",
+    "characters_raw_text": "真人 虎杖悠仁 七海建人 (回想) 宿儺 (回想)",
+    "locations_raw_text": "渋谷 渋谷駅 渋谷駅",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "真人の術式 無為転変 多重魂「撥体」 多重魂「撥体」 虎杖悠仁の術式 躰道「卍蹴り」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-6309a7e2f4",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad",
+    "tech-73135cb5c7",
+    "tech-f81d55ad09"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase7": [
+    "真人が多重魂と撥体で改造人間を攻撃へ利用する",
+    "真人が虎杖と自分は同じだと主張する",
+    "虎杖が感情を制御して戦闘へ集中する",
+    "虎杖が卍蹴りを使用する"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-baadf43d19",
+    "char-18d7c58412",
+    "char-6309a7e2f4",
+    "char-2b8d365a39"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-f81d55ad09",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-73135cb5c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase7-manji-kick",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-71a2d65cad",
+    "tech-f81d55ad09",
+    "tech-73135cb5c7",
+    "tech-phase7-manji-kick"
+  ],
+  "term_ids_verified_phase7": [
+    "term-phase5-transfigured-human",
+    "term-65867f280c",
+    "term-phase5-body",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "zero-02",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 0,
+  "number": null,
+  "zero_number": 2,
+  "label": "第2話",
+  "title_official": "黒く黒く",
+  "title_search_normalized": "黒く黒く",
+  "start_page": 59,
+  "official_group_id": null,
+  "db_section_draft_id": "zero",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-00"
+  ],
+  "source_locator": "単行本0巻 目次 p.59",
+  "summary_short": "乙骨は刀を介して呪力を制御する訓練を始め、狗巻棘との任務へ向かう。狗巻が呪言の反動を負いながら人を守る姿を知り、仲間として信頼を深める。",
+  "summary_full": "里香を完全に顕現させた件を上層部から追及された五条は、乙骨を処刑させず管理と訓練を続ける姿勢を示す。乙骨は刀へ呪力を込める訓練を始め、二級術師として単独任務も行う狗巻棘の補助に入る。商店街で当初の想定より強い呪霊と二重の帳に閉じ込められ、呪言の反動で狗巻が負傷するが、乙骨は刀へ呪力を通して前衛を担い、狗巻が止めを刺す隙を作る。任務を通じて、言葉を制限しながら他人を気遣う狗巻の人柄を理解し、二人の信頼が生まれる。事件の背後では特級呪詛師・夏油傑が乙骨を観察しており、里香を巡る動きが始まる。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "events_raw": [
+      "上層部が里香の顕現を問題視する",
+      "五条が乙骨へ刀を用いた呪力訓練を課す",
+      "乙骨と狗巻が任務に赴く",
+      "夏油傑の動向が示される"
+    ],
+    "characters_raw": [
+      "乙骨憂太",
+      "祈本里香",
+      "五条悟",
+      "狗巻棘",
+      "禪院真希",
+      "パンダ",
+      "伊地知潔高",
+      "夏油傑"
+    ],
+    "locations_raw": [
+      "東京都立呪術高等専門学校",
+      "任務先"
+    ],
+    "techniques_or_terms_raw": [
+      "呪力操作",
+      "呪言",
+      "刀",
+      "特級過呪怨霊"
+    ],
+    "source_refs": [
+      "src-fandom-chapter-zero-02",
+      "src-shueisha-vol-00"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "zero",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-b9d4880408",
+    "char-ba2d62b596",
+    "char-c28763b98a",
+    "char-fd5a754a56"
+  ],
+  "technique_ids_candidate": [
+    "tech-deb6545546"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase1": [
+    "五条が乙骨の処刑延期を守る姿勢を示す",
+    "乙骨が刀へ呪力を込める訓練を始める",
+    "乙骨と狗巻が想定外の準一級相当呪霊を祓う",
+    "夏油が乙骨を観察していたことが判明する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ba2d62b596",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-17322e71e5",
+    "char-c28763b98a",
+    "char-24d736edff",
+    "char-a61d6ef891",
+    "char-672d843799",
+    "char-ba2d62b596",
+    "char-b4d661547b",
+    "char-b9d4880408"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-deb6545546",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-deb6545546"
+  ],
+  "term_ids_verified_phase1": [
+    "term-252cb4a664",
+    "term-f9e3abf542",
+    "term-3f92b6bb78",
+    "term-67566a7224",
+    "term-041be91538"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-00",
+    "src-fandom-chapter-zero-02"
+  ]
+}

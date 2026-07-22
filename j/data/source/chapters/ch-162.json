@@ -1,0 +1,123 @@
+{
+  "id": "ch-162",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 19,
+  "number": 162,
+  "zero_number": null,
+  "label": "第162話",
+  "title_official": "東京第１結界②",
+  "title_search_normalized": "東京第1結界2",
+  "start_page": 7,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-19"
+  ],
+  "source_locator": "単行本19巻 目次 p.7",
+  "summary_short": "虎杖は飛行する羽場と羽生を倒し、知人を名乗る甘井凛と合流する。伏黒は麗美から日車の居場所を聞き出そうとする。",
+  "summary_full": "虎杖は羽場の回転翼を正面から受け止め、頭部への打撃で撃破する。羽生も既に戦闘不能となり、二人に使われていた甘井凛が虎杖へ接触する。甘井は仙台で虎杖を見たことがあると明かし、日車の居場所を知るとして案内を申し出る。一方の伏黒は、麗美を信用し切らないまま彼女の案内で移動を始め、レジィ・スターのいる場所へ誘導される。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 defeats the rookie hunters who attacked him upon entering the colony and reunites with someone from his hometown. Regardless of being separated, 悠仁 and 恵 work finding on 日車寛見 . They both manage to gather information on 日車's location from other players, but one of them is being deceived.",
+    "summary_full_legacy": "悠仁 takes on 羽場! 悠仁 begins his fight with 羽生 's partner 羽場 by tossing a stone charged with 呪力 at him. 羽場 destroys it with his fast-rotating propeller and 悠仁 uses the opening to close the distance. He runs across the roof of the building and leaps high into the air, allowing him to grab onto 羽場's leg. 悠仁 uses his strength to pull 羽場 down and drags him down the side of a building. As he crashes and breaks apart the outside of the high-rise building, 羽場 is forced to recognize his opponent's superhuman physical abilities. 羽場 gets loose and tries counterattacking so 悠仁 decides to retreat. 悠仁 realizes that 羽場 isn't taking advantage of the high ground and only attacks with his propeller. He leads him indoors where 羽場 is confident his propellers can shred everything in sight, including steel rods. 羽場 spins toward his opponent headfirst like a drill, attempting to slice apart everything in his path. 悠仁 believes that 羽生 was easily defeated because her hair-based 術式 left the rest of her body unguarded by 呪力. Whether it's reinforced or not, the head remains a vital spot. As long as he can hit it without touching the propellers, he is confident he can bust 羽場 open. \"My propeller can even cut through steel rods!\" . As his adversary rotates a high speed toward him, slashing the corridor to pieces, 悠仁 punches 羽場 directly in the top of his head. 羽場 is stopped in his tracks and bleeds heavily from his head. Despite his rotator and propeller breaking in addition to his head trauma, 羽場 remains standing. 悠仁 is mostly uninjured but his knuckles are cut from the impact. 羽場 overconfidently assumes 悠仁 broke his hand and calls him the loser of this fight. 悠仁 immediately finishes 羽場 with a kick and shakes off the damage, claiming his hand isn't broken. 羽場 is unconscious but 悠仁 realizes he still needs to ask about 日車. He's unsure of how to best interrogate someone in fighting situations. 凛 suddenly appears behind 悠仁 and gets his attention. He says he knows about 日車 and asks if 悠仁 remembers him. 悠仁 doesn't recall even though he's usually pretty good at remembering faces. 凛 notices 悠仁 is suspicious and reveals that he really only knows him as the Tiger of West Junior High. 悠仁 is embarrassed by that nickname and realizes that 凛 is from his hometown of Sendai . 凛 and 麗美 reveal 日車's location, but one of them is being dishonest. Meanwhile, 恵 behind walks 麗美 in the street and asks her if she's not a sorcerer from the past. She confirms she's from the modern-day, prompting 恵 to question her reason for fighting. 麗美 explains that non-sorcerers got to leave the colony but players who began inside the colony have been experiencing the 死滅回游 for twelve days already. She's not participating in the game to win, most people are just trying to survive. After over a week in the game, even people from the modern-day have stopped pondering reasons to fight and have gone into battle mode. 麗美 claims she's seen players go mad with power and thinking in terms of time periods is pointless. 恵 realizes that past sorcerers must've influenced modern sorcerers to engage in the conflict and this means he accidentally mislead 悠仁. A mysterious man lies in wait for his underling to bring him a new victim. 恵 tells 麗美 to stop walking and to reveal where she's taking him. 麗美 refuses because 恵 could simply eliminate her after he gets this information. 恵 argues he could lose 日車's location if 麗美 dies but she says that it's his job as her knight to prevent that. At the same time, 凛 leads 悠仁 toward 日車 as well. 悠仁 asks why he's helping since he was with the two flying sorcerers but 凛 reveals he was being forced to work for them and would've been eliminated soon anyway. 凛 introduces himself and 悠仁 asks exactly where 日車 is. 凛 and 麗美 both reveal Higiruma's location simultaneously, to 悠仁 and 恵 respectively. However, they state two different locations. 凛 claims 日車 is in 池袋 while 麗美 says he's in 新宿. 悠仁 and 恵 both hope that the other is headed to their destination. One of them is being misled and taken to a mysterious man hoarding receipt papers. He's getting impatient and wonders when his lackey is going to bring his next target.",
+    "characters_raw_text": "虎杖悠仁 羽場 羽生 (回想) 凛 甘井 麗美 伏黒恵 レジィ・スター",
+    "locations_raw_text": "東京第1結界",
+    "battles_events_raw_text": "死滅回游 虎杖悠仁 vs. 羽場 & 羽生 (終了) 仙台市 (言及のみ) 虎杖悠仁 vs. 羽場 & 羽生 (終了)",
+    "techniques_raw_text": "Cursed 術式 羽場's Helicopter-Hair 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo1",
+  "character_ids_candidate": [
+    "char-026d657efa",
+    "char-3c1852867d",
+    "char-4ff7a5b46e",
+    "char-56bf974c92",
+    "char-a5d1c4b82b",
+    "char-baadf43d19",
+    "char-cb2d7aa2a7"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase9": [
+    "虎杖が羽場を撃破する",
+    "甘井が虎杖と仙台で接点があったと明かす",
+    "甘井が日車への案内役になる",
+    "伏黒が麗美の案内でレジィの拠点へ向かう"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-56bf974c92",
+      "presence": "defeated"
+    },
+    {
+      "character_id": "char-cb2d7aa2a7",
+      "presence": "defeated"
+    },
+    {
+      "character_id": "char-4ff7a5b46e",
+      "presence": "joins-as-guide"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a5d1c4b82b",
+      "presence": "guiding"
+    },
+    {
+      "character_id": "char-026d657efa",
+      "presence": "revealed"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-baadf43d19",
+    "char-56bf974c92",
+    "char-cb2d7aa2a7",
+    "char-4ff7a5b46e",
+    "char-3c1852867d",
+    "char-a5d1c4b82b",
+    "char-026d657efa"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-5491001e9b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-05be7e32d8",
+      "relation": "shown"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-5491001e9b",
+    "tech-05be7e32d8"
+  ],
+  "term_ids_verified_phase9": [
+    "term-152790e31d",
+    "term-49963d44ff",
+    "term-bb89ef15f2"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-19",
+    "src-manga-games-vol-19",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

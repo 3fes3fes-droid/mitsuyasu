@@ -1,0 +1,118 @@
+{
+  "id": "ch-195",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 195,
+  "zero_number": null,
+  "label": "第195話",
+  "title_official": "桜島結界⑤",
+  "title_search_normalized": "桜島結界5",
+  "start_page": 87,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.87",
+  "summary_short": "刀を求める大道鋼と、相撲を求める三代六十四が結界へ乱入する。真希は釈魂刀を大道へ預け、目の見えない剣士が物の魂を捉える境地を目撃する。",
+  "summary_full": "大道鋼は真希の刀を借り、呪力を持たないにもかかわらず、直哉を含む「物の魂」を捉えて斬る。釈魂刀は使い手が物の魂を観測できて初めて本来の性能を発揮するため、大道の斬撃は直哉へ深手を与える。真希は自分が見えていなかったものを大道の剣から学ぶ。一方、三代六十四は相撲を取る相手を求め、簡易領域を土俵として展開し、真希へ取組を申し込む。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Just as things look dire for Noritoshi , a swordsman with no katana and a sumo enthusiast with no one to wrestle jump into the fray. They are two incarnations without an outlet for their passions because Japanese culture has left them in the past. In order to break the deadlock with 直哉 , 真希 hands over her weapon and puts her faith in the peerless swordsman's unmatched abilities.",
+    "summary_full_legacy": "三代's passion left behind with time. On November 2nd in Kagoshima, 鋼 大道 , who had only been incarnated for a short time, struggled to understand what happened to katanas' place in society. He couldn't find any real swords and ran around like a crazy person yelling \"katana!!!\". Meanwhile, in Miyazaki, 六十四 三代 couldn't find anyone willing to sumo wrestle with him. He saw a match on television and decided to head to 東京 where it took place, but ended up going the wrong way into the 桜島結界. In the present, 大道 and 三代 have suddenly joined Noritoshi's fight against 直哉. Noritosho asks who they are but 直哉 doesn't care and attacks him. 真希 protects Noritoshi and rejoins his side but he notices she hasn't fully recovered. He goes to tell her to flee but 大道 interrupts him by yelling\"katana!!!\". \"Sheer lethality.\" Unable to make headway against Noaya thus far, 真希 decides to change up the fight by bringing 大道 into it. She throws her katana to him and soon as 大道 takes hold of the cursed tool , everyone nearby is overwhelmed by a fear-inducing sensation. They're not stricken by 呪力, instead, they can feel 大道's sheer lethality with a blade. 大道 damages 直哉. 大道 starts by slashing forward and only scratches 直哉, who narrowly avoids the attack. Irritated, 大道 realizes he's wielding a demonic sword and tells it to obey his commands. 真希 tries to warn 大道 about an incoming attack from 直哉 but he easily avoids it. 大道 asks 真希 if they're facing some kind of evil spirit and she's confused about how he can fight 直哉 without being able to see him. 大道 states that he can see everything else, which makes it the same as being able to see him. 大道 bisects 直哉 with a single slash, surprising 真希. 大道 asks why 真希 didn't do that in the first place and she struggles to understand what she isn't seeing. She wants to know the difference between herself and the monster she met in 渋谷. Suddenly, a sumo wrestling ring is created behind 真希 using 三代's simple domain. He chants \"hakkeyoi\" and signals for 真希 to sumo with him.",
+    "characters_raw_text": "鋼 大道 六十四 三代 加茂憲紀 禪院直哉 禪院真希 伏黒甚爾 (想像)",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希 & 加茂憲紀 vs. 禪院直哉 (終了) 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉 (開始) 禪院真希 & 加茂憲紀 vs. 禪院直哉 (終了) 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉 (開始)",
+    "techniques_raw_text": "呪具 釈魂刀 六十四 三代 術式 簡易領域",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-69335b05c3",
+    "char-830f121430",
+    "char-aabfd74fce",
+    "char-b3be077b48",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-e28246ff34"
+  ],
+  "term_ids_candidate": [
+    "term-65867f280c",
+    "term-fe317d92dc"
+  ],
+  "key_events_verified_phase10": [
+    "大道鋼が真希から釈魂刀を借りる",
+    "大道が物の魂を捉えて直哉を斬る",
+    "真希が自分に欠けていた感覚へ気付く",
+    "三代が相撲用の簡易領域を展開する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-aabfd74fce",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "observing"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "injured"
+    },
+    {
+      "character_id": "char-69335b05c3",
+      "presence": "domain-user"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "injured"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-aabfd74fce",
+    "char-24d736edff",
+    "char-b3be077b48",
+    "char-69335b05c3",
+    "char-830f121430"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "true-performance-shown"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "sumo-domain-used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-phase4-split-soul-katana",
+    "tech-e28246ff34"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-965bdc282e",
+    "term-03b8fbd157",
+    "term-3f0111dca8"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

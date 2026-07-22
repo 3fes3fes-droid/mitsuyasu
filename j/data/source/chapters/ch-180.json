@@ -1,0 +1,134 @@
+{
+  "id": "ch-180",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 20,
+  "number": 180,
+  "zero_number": null,
+  "label": "第180話",
+  "title_official": "仙台結界⑦",
+  "title_search_normalized": "仙台結界7",
+  "start_page": 167,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-20"
+  ],
+  "source_locator": "単行本20巻 目次 p.167",
+  "summary_short": "乙骨と石流は最大出力の攻撃をぶつけ合う。乙骨は烏鷺の術式を模倣して石流の攻撃を返し、仙台結界の戦いを制する。",
+  "summary_full": "乙骨と石流は互いの最大出力をぶつけ合う。乙骨の呪力砲は石流よりわずかに低いが、乙骨は石流の四百年に及ぶ飢えを受け止め、正面から撃ち合う。完全顕現の五分間が終わってリカの出力が落ちる中、乙骨は模倣した烏鷺の空間操作でグラニテブラストの軌道を反らし、接近して宇守羅彈を放つ。最後は石流自身の攻撃を返して倒し、仙台結界の主要な戦いを制する。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "It's come down to 憂太 and 龍 as the last two elite players standing in 仙台結界 . 龍 has waited four hundred years to satisfy his insatiable hunger and although 憂太 doesn't see much meaning in fighting, he happily agrees to indulge his opponent. Their cursed energies clash in an epic exchange that brings 龍 ever closer to the sweet dessert that he's longed for.",
+    "summary_full_legacy": "憂太 indulges 龍's 400 years of hunger and thirst. 憂太 can only unleash a directed beam of 呪力 while 里香 is completely manifested. Even at full power, 憂太's blasts are slightly weaker than 龍's. In order to win the exchange, 憂太 intends on rapidly building 呪力 and firing first before 龍 reaches maximum power. However, 龍's eyes express over four hundred years of hunger and his gaze pleads with 憂太 to use his full power. Although 憂太 would never find true meaning in conflict, 龍's gaze melted his heart. 憂太 agrees to go all out just this once and both sorcerers unleash their 呪力. The blasts collide in a 呪力 beam struggle, but 憂太's is quickly overpowered. 憂太 copies 烏鷺's 術式. 憂太 and 里香 are seemingly hit and 龍 immediately expresses how much fun the clash was for him. The gleeful sorcerer is surprised when he suddenly feels his opponent's 呪力 rising and asks for another beam struggle. 里香 fires a blast of 呪力 while 憂太 rushes forward toward 龍. 憂太 jumped at the same time the last blast hit, launching him forward at high speed. 里香 is able to shoot completely on her own but 龍 blocks the beam the beam with his bare hand, claiming he can do whatever 憂太 can. He takes aim at 憂太 and expects to finish it with his next attack, believing his opponent can't heal quickly due to the 呪力 he expended on top of using 領域展開 . However, unbeknownst to 龍, 憂太's 術式 has already replenished. He uses 烏鷺亨子 's ability to warp space and redirects 龍's グラニテブラスト into the air. Shocked, 龍 realizes that 憂太 can copy cursed techniques and tries to surmise what condition he must fulfill to do so. He recalls 里香 devouring 烏鷺's arm and figures that must've been when he satisfied the condition. 憂太 capitalizes and scores a direct hit to 龍's chest with 烏鷺's 宇守羅彈 move. 里香 follows up with a downward punch that's so hard it causes 龍 to bleed profusely from his head. \"This is... my dessert!!!\" Five minutes have passed since 憂太 donned his ring, causing the connection between he and 里香 to end. 龍 takes advantage by hitting 里香 with his full power, an attack that was too much for her to handle even while fully manifested. 里香 reaches her limit and disappears from the battle, but 憂太 continues to fight on his own. 龍 is excited that there's even more to their battle even after clashing at full power. He happily declares that this last exchange is the dessert he's been longing for. \"Thank you, my stomach's now full!!!\" 憂太 surprises 龍 by grabbing him with both hands and pushing their weight down so hard that it cracks the ground beneath their feet. After effectively immobilizing them both, 憂太 claims that the fight is over, confusing 龍. While 龍's looking down at the cracked ground, his グラニテブラスト from earlier rains down on him and strikes the unsuspecting sorcerer. Knocked to the ground and defeated, 龍 quickly realizes that he was just hit by his own beam. 憂太 redirected it back down using 烏鷺's technique at the same time 里香 hit 龍. Despite his defeat, 龍 is satisfied with the high level battle he participated in and thanks 憂太 now that his stomach is finally full.",
+    "characters_raw_text": "折本里香 (表紙のみ) 乙骨憂太 里香 石流龍 烏鷺亨子 (言及のみ)",
+    "locations_raw_text": "仙台結界 仙台市 仙台市",
+    "battles_events_raw_text": "死滅回游 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍 (終了) 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍 (終了)",
+    "techniques_raw_text": "石流龍の術式 呪力放出／グラニテブラスト 乙骨憂太の術式 模倣 里香 Sky Manipulation (名称不明) Sky Manipulation (名称不明)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sendai",
+  "character_ids_candidate": [
+    "char-4a29b3de7b",
+    "char-ba2d62b596",
+    "char-c28763b98a",
+    "char-fd5a754a56",
+    "char-fe30ff0de9"
+  ],
+  "technique_ids_candidate": [
+    "tech-536c06630d",
+    "tech-5607df824a",
+    "tech-9fc56bc1ca",
+    "tech-a9666d4ecb"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase9": [
+    "乙骨と石流が最大出力の呪力砲を撃ち合う",
+    "リカの完全顕現の五分間が終了する",
+    "乙骨が烏鷺の術式を模倣して攻撃を反らす",
+    "乙骨が宇守羅彈を使用する",
+    "石流が敗北する"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "victor"
+    },
+    {
+      "character_id": "char-fd5a754a56",
+      "presence": "five-minute-limit-ends"
+    },
+    {
+      "character_id": "char-4a29b3de7b",
+      "presence": "defeated"
+    },
+    {
+      "character_id": "char-fe30ff0de9",
+      "presence": "technique-copied"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-c28763b98a",
+    "char-fd5a754a56",
+    "char-4a29b3de7b",
+    "char-fe30ff0de9"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-536c06630d",
+      "relation": "used-and-reflected"
+    },
+    {
+      "technique_id": "tech-f3ecd34833",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5fff07b019",
+      "relation": "time-limit-ends"
+    },
+    {
+      "technique_id": "tech-9fc56bc1ca",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-4235aca76a",
+      "relation": "copied-and-used"
+    },
+    {
+      "technique_id": "tech-582460898c",
+      "relation": "copied-and-used"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-536c06630d",
+    "tech-f3ecd34833",
+    "tech-5fff07b019",
+    "tech-9fc56bc1ca",
+    "tech-4235aca76a",
+    "tech-582460898c"
+  ],
+  "term_ids_verified_phase9": [
+    "term-3efd4cb8d8",
+    "term-81cd96e9ac",
+    "term-c6defb1c13"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-20",
+    "src-manga-games-vol-20",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

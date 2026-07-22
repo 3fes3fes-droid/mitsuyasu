@@ -1,0 +1,7130 @@
+{
+  "summary": {
+    "counts": {
+      "chapters": 275,
+      "characters": 189,
+      "techniques": 179,
+      "terms": 173,
+      "supplements": 4,
+      "sources": 83
+    },
+    "summary_lengths": {
+      "minimum": 120,
+      "median": 172,
+      "maximum": 309,
+      "under_180": 164
+    },
+    "primary_page_direct_checked_chapters": 0,
+    "status_counts": {
+      "unknown": 34,
+      "alive": 52,
+      "dead": 51,
+      "active": 12,
+      "inactive-but-occasionally-moves": 1,
+      "destroyed": 16,
+      "alive-or-unknown": 4,
+      "alive-restored": 1,
+      "alive-freed": 1,
+      "fictional": 7,
+      "captured-by-kenjaku": 1,
+      "alive-severely-injured": 2,
+      "absorbed-and-technique-extracted": 1,
+      "released": 1,
+      "vengeful-curse-exorcised": 1,
+      "alive-complete-heavenly-restriction": 1,
+      "alive-execution-faked": 1,
+      "alive-returned": 1,
+      "reproduced-after-destruction": 1
+    },
+    "verification_counts": {
+      "chapters": {
+        "phase1-crosschecked-secondary-not-primary-pages": 22,
+        "phase2-crosschecked-secondary-not-primary-pages": 13,
+        "phase3-crosschecked-secondary-not-primary-pages": 33,
+        "phase4-crosschecked-secondary-not-primary-pages": 15,
+        "phase5-crosschecked-secondary-not-primary-pages": 18,
+        "phase6-crosschecked-secondary-not-primary-pages": 23,
+        "phase7-crosschecked-secondary-not-primary-pages": 16,
+        "phase8-crosschecked-secondary-not-primary-pages": 22,
+        "phase9-crosschecked-secondary-not-primary-pages": 22,
+        "phase10-crosschecked-secondary-not-primary-pages": 35,
+        "phase11-crosschecked-secondary-not-primary-pages": 56
+      },
+      "characters": {
+        "first-pass-crosscheck-pending": 178,
+        "phase11-crosschecked-secondary-not-primary-pages": 4,
+        "phase2-crosschecked-secondary-not-primary-pages": 5,
+        "phase3-crosschecked-secondary-not-primary-pages": 2
+      },
+      "techniques": {
+        "phase11-crosschecked-secondary-not-primary-pages": 8,
+        "first-pass-crosscheck-pending": 120,
+        "phase3-crosschecked-secondary-not-primary-pages": 5,
+        "phase6-crosscheck-pending-primary-pages": 8,
+        "phase9-crosschecked-secondary-not-primary-pages": 10,
+        "phase4-crosschecked-secondary-not-primary-pages": 4,
+        "phase5-crosschecked-secondary-not-primary-pages": 8,
+        "phase7-crosscheck-pending-primary-pages": 4,
+        "phase8-crosscheck-pending-primary-pages": 3,
+        "phase10-crosschecked-secondary-not-primary-pages": 5,
+        "phase1-crosschecked-secondary-not-primary-pages": 1,
+        "phase2-crosschecked-secondary-not-primary-pages": 2,
+        "first-pass-high-risk-crosscheck-pending": 1
+      },
+      "terms": {
+        "phase6-crosscheck-pending-primary-pages": 6,
+        "first-pass-crosscheck-pending": 84,
+        "phase5-crosschecked-secondary-not-primary-pages": 7,
+        "phase10-crosschecked-secondary-not-primary-pages": 24,
+        "phase11-crosschecked-secondary-not-primary-pages": 10,
+        "phase3-crosschecked-secondary-not-primary-pages": 3,
+        "phase9-crosschecked-secondary-not-primary-pages": 12,
+        "phase1-crosschecked-secondary-not-primary-pages": 5,
+        "phase7-crosscheck-pending-primary-pages": 6,
+        "phase8-crosscheck-pending-primary-pages": 9,
+        "phase4-crosschecked-secondary-not-primary-pages": 7
+      }
+    },
+    "issue_counts": {
+      "summary_under_180": 164,
+      "first_pass_pending": 383,
+      "thin_profile": 43,
+      "missing_sources": 192,
+      "thin_description": 8,
+      "missing_chapters": 17,
+      "thin_definition": 1,
+      "reverse_index_mismatch": 70
+    },
+    "priority_counts": {
+      "medium": 303,
+      "high": 575
+    },
+    "total_queue_items": 878
+  },
+  "issues": [
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-022",
+      "name": "第22話 幼魚と逆罰―肆―",
+      "detail": "169字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-024",
+      "name": "第24話 幼魚と逆罰―陸―",
+      "detail": "177字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-025",
+      "name": "第25話 固陋蠢愚",
+      "detail": "179字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-027",
+      "name": "第27話 もしも",
+      "detail": "152字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-028",
+      "name": "第28話 殺してやる",
+      "detail": "173字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-032",
+      "name": "第32話 反省",
+      "detail": "170字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-034",
+      "name": "第34話 京都姉妹校交流会―団体戦①―",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-035",
+      "name": "第35話 京都姉妹校交流会―団体戦②―",
+      "detail": "172字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-036",
+      "name": "第36話 京都姉妹校交流会―団体戦③―",
+      "detail": "179字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-037",
+      "name": "第37話 京都姉妹校交流会―団体戦④―",
+      "detail": "176字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-038",
+      "name": "第38話 京都姉妹校交流会―団体戦⑤―",
+      "detail": "170字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-043",
+      "name": "第43話 京都姉妹校交流会―団体戦⑩―",
+      "detail": "179字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-045",
+      "name": "第45話 賢者",
+      "detail": "178字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-048",
+      "name": "第48話 黒閃",
+      "detail": "179字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-068",
+      "name": "第68話 懐玉―肆―",
+      "detail": "164字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-072",
+      "name": "第72話 懐玉―捌―",
+      "detail": "174字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-086",
+      "name": "第86話 渋谷事変④",
+      "detail": "179字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-088",
+      "name": "第88話 渋谷事変⑥",
+      "detail": "176字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-098",
+      "name": "第98話 渋谷事変⑯",
+      "detail": "144字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-099",
+      "name": "第99話 渋谷事変⑰",
+      "detail": "126字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-100",
+      "name": "第100話 渋谷事変⑱",
+      "detail": "149字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-101",
+      "name": "第101話 渋谷事変⑲",
+      "detail": "142字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-102",
+      "name": "第102話 渋谷事変⑳",
+      "detail": "148字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-103",
+      "name": "第103話 渋谷事変㉑",
+      "detail": "147字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-104",
+      "name": "第104話 渋谷事変㉒",
+      "detail": "148字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-105",
+      "name": "第105話 渋谷事変㉓",
+      "detail": "161字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-106",
+      "name": "第106話 渋谷事変㉔",
+      "detail": "158字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-107",
+      "name": "第107話 渋谷事変㉕",
+      "detail": "141字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-108",
+      "name": "第108話 渋谷事変㉖",
+      "detail": "155字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-109",
+      "name": "第109話 渋谷事変㉗",
+      "detail": "149字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-110",
+      "name": "第110話 渋谷事変㉘",
+      "detail": "136字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-111",
+      "name": "第111話 渋谷事変㉙",
+      "detail": "159字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-112",
+      "name": "第112話 渋谷事変㉚",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-113",
+      "name": "第113話 渋谷事変㉛",
+      "detail": "164字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-114",
+      "name": "第114話 渋谷事変㉜",
+      "detail": "145字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-115",
+      "name": "第115話 渋谷事変㉝",
+      "detail": "152字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-116",
+      "name": "第116話 渋谷事変㉞",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-117",
+      "name": "第117話 渋谷事変㉟",
+      "detail": "168字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-118",
+      "name": "第118話 渋谷事変㊱",
+      "detail": "175字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-121",
+      "name": "第121話 渋谷事変㊴",
+      "detail": "159字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-122",
+      "name": "第122話 渋谷事変㊵",
+      "detail": "159字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-123",
+      "name": "第123話 渋谷事変㊶",
+      "detail": "165字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-124",
+      "name": "第124話 渋谷事変㊷",
+      "detail": "166字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-126",
+      "name": "第126話 渋谷事変㊸",
+      "detail": "176字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-127",
+      "name": "第127話 渋谷事変㊹",
+      "detail": "168字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-128",
+      "name": "第128話 渋谷事変㊺",
+      "detail": "177字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-129",
+      "name": "第129話 渋谷事変㊻",
+      "detail": "174字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-131",
+      "name": "第131話 渋谷事変㊽",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-133",
+      "name": "第133話 渋谷事変㊿",
+      "detail": "179字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-135",
+      "name": "第135話 渋谷事変(52)",
+      "detail": "178字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-137",
+      "name": "第137話 堅白",
+      "detail": "179字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-139",
+      "name": "第139話 狩人",
+      "detail": "159字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-140",
+      "name": "第140話 執行",
+      "detail": "173字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-141",
+      "name": "第141話 うしろのしょうめん",
+      "detail": "172字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-157",
+      "name": "第157話 部品",
+      "detail": "176字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-159",
+      "name": "第159話 裁き",
+      "detail": "163字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-160",
+      "name": "第160話 結界",
+      "detail": "161字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-161",
+      "name": "第161話 東京第１結界①",
+      "detail": "142字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-162",
+      "name": "第162話 東京第１結界②",
+      "detail": "156字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-163",
+      "name": "第163話 東京第１結界③",
+      "detail": "149字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-164",
+      "name": "第164話 東京第１結界④",
+      "detail": "155字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-165",
+      "name": "第165話 東京第１結界⑤",
+      "detail": "150字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-166",
+      "name": "第166話 東京第１結界⑥",
+      "detail": "151字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-167",
+      "name": "第167話 東京第１結界⑦",
+      "detail": "166字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-168",
+      "name": "第168話 東京第１結界⑧",
+      "detail": "157字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-169",
+      "name": "第169話 東京第１結界⑨",
+      "detail": "161字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-170",
+      "name": "第170話 東京第１結界⑩",
+      "detail": "153字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-171",
+      "name": "第171話 東京第１結界⑪",
+      "detail": "169字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-172",
+      "name": "第172話 東京第１結界⑫",
+      "detail": "160字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-173",
+      "name": "第173話 東京第１結界⑬",
+      "detail": "171字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-175",
+      "name": "第175話 仙台結界②",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-176",
+      "name": "第176話 仙台結界③",
+      "detail": "163字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-177",
+      "name": "第177話 仙台結界④",
+      "detail": "162字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-178",
+      "name": "第178話 仙台結界⑤",
+      "detail": "161字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-179",
+      "name": "第179話 仙台結界⑥",
+      "detail": "160字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-180",
+      "name": "第180話 仙台結界⑦",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-181",
+      "name": "第181話 東京第２結界①",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-182",
+      "name": "第182話 東京第２結界②",
+      "detail": "171字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-183",
+      "name": "第183話 東京第２結界③",
+      "detail": "166字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-184",
+      "name": "第184話 東京第２結界④",
+      "detail": "153字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-185",
+      "name": "第185話 バイバイ",
+      "detail": "157字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-186",
+      "name": "第186話 東京第２結界⑤",
+      "detail": "158字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-187",
+      "name": "第187話 東京第２結界⑥",
+      "detail": "170字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-188",
+      "name": "第188話 東京第２結界⑦",
+      "detail": "171字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-189",
+      "name": "第189話 東京第２結界⑧",
+      "detail": "158字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-190",
+      "name": "第190話 東京第２結界⑨",
+      "detail": "168字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-191",
+      "name": "第191話 桜島結界①",
+      "detail": "161字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-192",
+      "name": "第192話 桜島結界②",
+      "detail": "164字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-193",
+      "name": "第193話 桜島結界③",
+      "detail": "159字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-194",
+      "name": "第194話 桜島結界④",
+      "detail": "170字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-195",
+      "name": "第195話 桜島結界⑤",
+      "detail": "164字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-196",
+      "name": "第196話 桜島結界⑥",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-197",
+      "name": "第197話 桜島結界⑦",
+      "detail": "156字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-198",
+      "name": "第198話 桜島結界⑧",
+      "detail": "158字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-199",
+      "name": "第199話 仇名",
+      "detail": "167字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-200",
+      "name": "第200話 直接会談①",
+      "detail": "176字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-201",
+      "name": "第201話 直接会談②",
+      "detail": "172字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-202",
+      "name": "第202話 血と油①",
+      "detail": "165字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-203",
+      "name": "第203話 血と油②",
+      "detail": "154字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-204",
+      "name": "第204話 血と油③",
+      "detail": "164字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-205",
+      "name": "第205話 星と油①",
+      "detail": "176字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-206",
+      "name": "第206話 星と油②",
+      "detail": "178字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-207",
+      "name": "第207話 星と油③",
+      "detail": "166字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-209",
+      "name": "第209話 未知への供物①",
+      "detail": "172字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-210",
+      "name": "第210話 未知への供物②",
+      "detail": "175字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-213",
+      "name": "第213話 呪胎戴天-伍-",
+      "detail": "172字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-214",
+      "name": "第214話 呪胎戴天-陸-",
+      "detail": "156字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-215",
+      "name": "第215話 呪胎戴天-漆-",
+      "detail": "176字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-216",
+      "name": "第216話 浴①",
+      "detail": "133字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-217",
+      "name": "第217話 浴②",
+      "detail": "148字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-218",
+      "name": "第218話 浴③",
+      "detail": "124字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-219",
+      "name": "第219話 浴④",
+      "detail": "123字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-220",
+      "name": "第220話 自浄自縛",
+      "detail": "141字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-221",
+      "name": "第221話 得喪",
+      "detail": "132字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-222",
+      "name": "第222話 予兆",
+      "detail": "122字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-223",
+      "name": "第223話 人外魔境新宿決戦①",
+      "detail": "139字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-224",
+      "name": "第224話 人外魔境新宿決戦②",
+      "detail": "138字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-225",
+      "name": "第225話 人外魔境新宿決戦③",
+      "detail": "128字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-226",
+      "name": "第226話 人外魔境新宿決戦④",
+      "detail": "135字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-227",
+      "name": "第227話 人外魔境新宿決戦⑤",
+      "detail": "128字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-228",
+      "name": "第228話 人外魔境新宿決戦⑥",
+      "detail": "134字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-229",
+      "name": "第229話 人外魔境新宿決戦⑦",
+      "detail": "130字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-230",
+      "name": "第230話 人外魔境新宿決戦⑧",
+      "detail": "139字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-231",
+      "name": "第231話 人外魔境新宿決戦⑨",
+      "detail": "120字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-232",
+      "name": "第232話 人外魔境新宿決戦⑩",
+      "detail": "131字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-233",
+      "name": "第233話 人外魔境新宿決戦⑪",
+      "detail": "141字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-234",
+      "name": "第234話 人外魔境新宿決戦⑫",
+      "detail": "138字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-235",
+      "name": "第235話 人外魔境新宿決戦⑬",
+      "detail": "133字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-236",
+      "name": "第236話 南へ",
+      "detail": "151字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-237",
+      "name": "第237話 人外魔境新宿決戦⑭",
+      "detail": "127字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-238",
+      "name": "第238話 人外魔境新宿決戦⑮",
+      "detail": "141字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-239",
+      "name": "第239話 バカサバイバー!!",
+      "detail": "128字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-240",
+      "name": "第240話 生き残れ!!",
+      "detail": "129字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-241",
+      "name": "第241話 勝ち残れ!!",
+      "detail": "132字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-242",
+      "name": "第242話 舞い上がれ!!",
+      "detail": "145字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-243",
+      "name": "第243話 さんざめけ!!",
+      "detail": "141字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-244",
+      "name": "第244話 人外魔境新宿決戦⑯",
+      "detail": "122字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-245",
+      "name": "第245話 人外魔境新宿決戦⑰",
+      "detail": "138字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-246",
+      "name": "第246話 人外魔境新宿決戦⑱",
+      "detail": "133字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-247",
+      "name": "第247話 人外魔境新宿決戦⑲",
+      "detail": "133字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-248",
+      "name": "第248話 人外魔境新宿決戦⑳",
+      "detail": "143字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-249",
+      "name": "第249話 人外魔境新宿決戦㉑",
+      "detail": "141字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-250",
+      "name": "第250話 人外魔境新宿決戦㉒",
+      "detail": "150字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-251",
+      "name": "第251話 人外魔境新宿決戦㉓",
+      "detail": "126字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-252",
+      "name": "第252話 人外魔境新宿決戦㉔",
+      "detail": "137字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-253",
+      "name": "第253話 人外魔境新宿決戦㉕",
+      "detail": "129字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-254",
+      "name": "第254話 人外魔境新宿決戦㉖",
+      "detail": "121字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-255",
+      "name": "第255話 人外魔境新宿決戦㉗",
+      "detail": "134字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-256",
+      "name": "第256話 人外魔境新宿決戦㉘",
+      "detail": "121字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-257",
+      "name": "第257話 人外魔境新宿決戦㉙",
+      "detail": "174字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-258",
+      "name": "第258話 人外魔境新宿決戦㉚",
+      "detail": "156字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-259",
+      "name": "第259話 人外魔境新宿決戦㉛",
+      "detail": "130字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-260",
+      "name": "第260話 人外魔境新宿決戦㉜",
+      "detail": "135字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-261",
+      "name": "第261話 人外魔境新宿決戦㉝",
+      "detail": "130字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-262",
+      "name": "第262話 人外魔境新宿決戦㉞",
+      "detail": "128字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-263",
+      "name": "第263話 人外魔境新宿決戦㉟",
+      "detail": "147字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-264",
+      "name": "第264話 人外魔境新宿決戦㊱",
+      "detail": "133字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-265",
+      "name": "第265話 あの日",
+      "detail": "151字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-266",
+      "name": "第266話 人外魔境新宿決戦㊲",
+      "detail": "127字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-267",
+      "name": "第267話 人外魔境新宿決戦㊳",
+      "detail": "160字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-268",
+      "name": "第268話 決着",
+      "detail": "143字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-269",
+      "name": "第269話 検討",
+      "detail": "149字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-270",
+      "name": "第270話 夢の終わり",
+      "detail": "127字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "medium",
+      "code": "summary_under_180",
+      "entity_type": "chapter",
+      "entity_id": "ch-271",
+      "name": "第271話 これから",
+      "detail": "161字。初期方針の300～600字より短い。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-656fe03d94",
+      "name": "つばさ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-daba6cb53e",
+      "name": "ふみ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9e8435ee20",
+      "name": "アメリカ大統領",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-1896d42b18",
+      "name": "アルバイト",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-2615d69152",
+      "name": "オガミ婆",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-c33b96dce8",
+      "name": "オガミ婆の孫",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-3a20306988",
+      "name": "キャシィ",
+      "detail": "紹介文が18字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3a20306988",
+      "name": "キャシィ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-e853296f46",
+      "name": "ギャリー・K・ジョンソン",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6e5f124638",
+      "name": "ケンさん",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-8a6e43878f",
+      "name": "コガネ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-e9f6f29ccf",
+      "name": "コークン",
+      "detail": "紹介文が22字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-e9f6f29ccf",
+      "name": "コークン",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b7f2a3f42f",
+      "name": "サイラス・ヴェイル",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-4e5593708e",
+      "name": "シャルル・ベルナール",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ef294e92de",
+      "name": "ジャッジマン",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3b9f5b73d3",
+      "name": "ジョン☆ボビ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-b035a7658c",
+      "name": "タケル",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b035a7658c",
+      "name": "タケル",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-6cd94bbcdf",
+      "name": "ツカモト",
+      "detail": "紹介文が21字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6cd94bbcdf",
+      "name": "ツカモト",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6ede6f3587",
+      "name": "ドゥルヴ・ラクダワラ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-d72adf2be9",
+      "name": "バイエル",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d72adf2be9",
+      "name": "バイエル",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-dcb6ddb293",
+      "name": "バカA",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-672d843799",
+      "name": "パンダ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-f5b0193f9b",
+      "name": "パンダのお兄ちゃん",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b05e05011d",
+      "name": "パンダのお姉ちゃん",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-f87a321c6f",
+      "name": "パン屋の店員",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-224a241de8",
+      "name": "フルダテ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6d1d442a9a",
+      "name": "ミゲル",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5c2dcdaab3",
+      "name": "ラルゥ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-fd5a754a56",
+      "name": "リカ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-026d657efa",
+      "name": "レジィ・スター",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-08c7bc0ea9",
+      "name": "ロール髪お嬢様",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-cc7cd6ccbf",
+      "name": "七海の元上司",
+      "detail": "紹介文が14字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-cc7cd6ccbf",
+      "name": "七海の元上司",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6309a7e2f4",
+      "name": "七海建人",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0d3bc6b0dd",
+      "name": "万",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-69335b05c3",
+      "name": "三代六十四",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ebd2a8efa8",
+      "name": "三輪霞",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3ed1d78924",
+      "name": "不知井底",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-dad71c9f31",
+      "name": "与幸吉",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-2b8d365a39",
+      "name": "両面宿儺",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-056bc02c9c",
+      "name": "乙骨の孫（少女）",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-3dec7ed6f8",
+      "name": "乙骨の孫（少年）",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-c28763b98a",
+      "name": "乙骨憂太",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-1566dd973d",
+      "name": "九十九由基",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-17322e71e5",
+      "name": "五条悟",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6bce2a211a",
+      "name": "井口たけし",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b4d661547b",
+      "name": "伊地知潔高",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3c1852867d",
+      "name": "伏黒恵",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-383f9ce538",
+      "name": "伏黒恵の母",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0f2e6e85bf",
+      "name": "伏黒津美紀",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d5482ceba1",
+      "name": "伏黒甚爾",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-19d387e1e3",
+      "name": "佐々木せつこ",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9fccad3ed6",
+      "name": "八握剣 異戒神将 魔虚羅",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-05a7ab0dcd",
+      "name": "円鹿",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-07918bda3f",
+      "name": "冥冥",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-a34bfbb398",
+      "name": "凰輪",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d218cffa84",
+      "name": "分身術者",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "character",
+      "entity_id": "char-phase3-kamo-noritoshi-ancestor",
+      "name": "加茂憲倫",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-830f121430",
+      "name": "加茂憲紀",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-9bdffe1087",
+      "name": "加藤空",
+      "detail": "紹介文が16字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9bdffe1087",
+      "name": "加藤空",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-c9bc52aaf1",
+      "name": "化身玉藻前",
+      "detail": "紹介文が21字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-c9bc52aaf1",
+      "name": "化身玉藻前",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-71f5d39336",
+      "name": "口裂け女",
+      "detail": "紹介文が21字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-71f5d39336",
+      "name": "口裂け女",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-0be085fe01",
+      "name": "吉沢",
+      "detail": "紹介文が24字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0be085fe01",
+      "name": "吉沢",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-c0e690427b",
+      "name": "吉野凪",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-236cc955ae",
+      "name": "吉野順平",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d7b7b23267",
+      "name": "四乃",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-f575a0a3ee",
+      "name": "園田茂",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6534bbe6c9",
+      "name": "壊相",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b9d4880408",
+      "name": "夏油傑",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-58278d1ec5",
+      "name": "夜蛾正道",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-b0c4caf31c",
+      "name": "大和広",
+      "detail": "紹介文が22字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b0c4caf31c",
+      "name": "大和広",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-f87eb0c109",
+      "name": "大江圭太",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-2abcf48f04",
+      "name": "大蛇",
+      "detail": "紹介文が20字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-2abcf48f04",
+      "name": "大蛇",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-aabfd74fce",
+      "name": "大道鋼",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-207d1e2959",
+      "name": "天ノ川小百合",
+      "detail": "紹介文が16字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-207d1e2959",
+      "name": "天ノ川小百合",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-65e7fd1c87",
+      "name": "天使",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6eab17a5a8",
+      "name": "天元",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-63e2590b87",
+      "name": "天内理子",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-ac5bfb99ac",
+      "name": "太助",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ac5bfb99ac",
+      "name": "太助",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-22da946917",
+      "name": "孔時雨",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d4a4bc45c6",
+      "name": "家入硝子",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9469499a06",
+      "name": "小沢優子",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-9d5781cc30",
+      "name": "山口夕輝",
+      "detail": "紹介文が16字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9d5781cc30",
+      "name": "山口夕輝",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-a6a1c5d1be",
+      "name": "山口紗夜花",
+      "detail": "紹介文が16字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-a6a1c5d1be",
+      "name": "山口紗夜花",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0ee8c4b0ae",
+      "name": "岡﨑正",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-05e0877f46",
+      "name": "島田治",
+      "detail": "紹介文が22字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-05e0877f46",
+      "name": "島田治",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-937c617c00",
+      "name": "嵌合獣・顎吐",
+      "detail": "紹介文が21字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-937c617c00",
+      "name": "嵌合獣・顎吐",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3de3b8af11",
+      "name": "庵歌姫",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b8fa3c89b0",
+      "name": "式神使い",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-2947dc1a21",
+      "name": "悪路王大獄",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-e41848a08f",
+      "name": "憂憂",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-e2fb64f147",
+      "name": "憲紀の母",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-ba1a693126",
+      "name": "憲紀の母の新しい夫",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ba1a693126",
+      "name": "憲紀の母の新しい夫",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-25dbde0cc7",
+      "name": "憲紀の異父弟",
+      "detail": "紹介文が19字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-25dbde0cc7",
+      "name": "憲紀の異父弟",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-1bbe626376",
+      "name": "斉藤さん（娘）",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-91ac59016d",
+      "name": "斉藤さん（母）",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9f27f7b399",
+      "name": "斎藤雨矢",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-63369aaf46",
+      "name": "新田新",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0cb661851e",
+      "name": "新田明",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-0839ba226c",
+      "name": "日下部の妹",
+      "detail": "紹介文が18字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0839ba226c",
+      "name": "日下部の妹",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-53c5711b23",
+      "name": "日下部篤也",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3062a0117e",
+      "name": "日車寛見",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-00f5cc93b4",
+      "name": "星綺羅羅",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-0fd233938d",
+      "name": "朝霧夢",
+      "detail": "紹介文が16字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0fd233938d",
+      "name": "朝霧夢",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d8252d61d4",
+      "name": "来栖華",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d76df97dca",
+      "name": "東堂葵",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-da4ca46be3",
+      "name": "枷場美々子",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-1a74b17cf8",
+      "name": "枷場菜々子",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5da68e2f6c",
+      "name": "格納型呪霊",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ac327bdd73",
+      "name": "楽巌寺嘉伸",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ed98ec9440",
+      "name": "武田",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9aa6c80b61",
+      "name": "池沢",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d321eb3a66",
+      "name": "沙織",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-87b2840742",
+      "name": "清水",
+      "detail": "紹介文が24字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-87b2840742",
+      "name": "清水",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-8e2aed473c",
+      "name": "清水涼香",
+      "detail": "紹介文が16字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-8e2aed473c",
+      "name": "清水涼香",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-df284f67ad",
+      "name": "満象",
+      "detail": "紹介文が22字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-df284f67ad",
+      "name": "満象",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-a61fa295f1",
+      "name": "漏瑚",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b2b454d6e2",
+      "name": "灰原雄",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-fe30ff0de9",
+      "name": "烏鷺亨子",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "character",
+      "entity_id": "char-phase3-finger-bearer-bridge",
+      "name": "特級呪霊（八十八橋）",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-5d693ebac2",
+      "name": "特級呪霊（少年院）",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5d693ebac2",
+      "name": "特級呪霊（少年院）",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-a61d6ef891",
+      "name": "狗巻棘",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-cf2d32d5b9",
+      "name": "猪野琢真",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-76c359aa1d",
+      "name": "玉犬 白",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-8236095713",
+      "name": "玉犬 黒",
+      "detail": "紹介文が18字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-8236095713",
+      "name": "玉犬 黒",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-71d1706395",
+      "name": "玉犬「渾」",
+      "detail": "紹介文が24字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-71d1706395",
+      "name": "玉犬「渾」",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-4ff7a5b46e",
+      "name": "甘井凛",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-8ba89c1a5f",
+      "name": "生徒会長",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-92d504ce2f",
+      "name": "疱瘡婆",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-18d7c58412",
+      "name": "真人",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3248ea0da4",
+      "name": "真希・真依の母",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-4a29b3de7b",
+      "name": "石流龍",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ba2d62b596",
+      "name": "祈本里香",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-e5bfc97a26",
+      "name": "祢木利久",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-15c6f148d3",
+      "name": "禪院信朗",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-265abd362c",
+      "name": "禪院扇",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-e3d79a21e6",
+      "name": "禪院甚壱",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b3be077b48",
+      "name": "禪院直哉",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-22abdd626c",
+      "name": "禪院直毘人",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5724ed462b",
+      "name": "禪院真依",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-24d736edff",
+      "name": "禪院真希",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-1ea67a363b",
+      "name": "禪院蘭太",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-cde7b13e78",
+      "name": "禪院長寿郎",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-cde7b13e78",
+      "name": "禪院長寿郎",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-dea43d7fc7",
+      "name": "秤金次",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-d31c75a751",
+      "name": "粟坂二良",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-833a399363",
+      "name": "組屋鞣造",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-678a848346",
+      "name": "羂索",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-56bf974c92",
+      "name": "羽場",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-cb2d7aa2a7",
+      "name": "羽生",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-0be6deff32",
+      "name": "脱兎",
+      "detail": "紹介文が21字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0be6deff32",
+      "name": "脱兎",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-851111b10d",
+      "name": "脹相",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-9148bf784c",
+      "name": "花御",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-f65b4fe4b0",
+      "name": "菅田真奈美",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-3e900c584c",
+      "name": "藤沼",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-3e900c584c",
+      "name": "藤沼",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5bc95bc9e0",
+      "name": "藤沼（姉）",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-851481d8c3",
+      "name": "虎杖仁",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0ee50b4740",
+      "name": "虎杖倭助",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-baadf43d19",
+      "name": "虎杖悠仁",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-ad3a5428f6",
+      "name": "虎杖香織",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-5ae093db78",
+      "name": "虹龍",
+      "detail": "紹介文が24字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5ae093db78",
+      "name": "虹龍",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-27e18811b4",
+      "name": "蛯名仁次",
+      "detail": "紹介文が22字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-27e18811b4",
+      "name": "蛯名仁次",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-848db5733c",
+      "name": "蝗GUY",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-b18262c082",
+      "name": "蝦蟇",
+      "detail": "紹介文が19字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-b18262c082",
+      "name": "蝦蟇",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-f479972eca",
+      "name": "蠅頭",
+      "detail": "紹介文が20字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-f479972eca",
+      "name": "蠅頭",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-964e851215",
+      "name": "血塗",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-000313127b",
+      "name": "裏梅",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-484fd66a1e",
+      "name": "西宮桃",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-5481fbccc6",
+      "name": "貫牛",
+      "detail": "紹介文が21字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5481fbccc6",
+      "name": "貫牛",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6c8cc9b546",
+      "name": "重面春太",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-1b63d8dcdc",
+      "name": "金森",
+      "detail": "紹介文が23字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-1b63d8dcdc",
+      "name": "金森",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-8e6f9fc580",
+      "name": "金田太一",
+      "detail": "紹介文が22字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-8e6f9fc580",
+      "name": "金田太一",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-486f7592ff",
+      "name": "釘崎の祖母",
+      "detail": "紹介文が18字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-5a0f7ded8d",
+      "name": "釘崎野薔薇",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-577ea0ec09",
+      "name": "針千鈞",
+      "detail": "紹介文が21字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-577ea0ec09",
+      "name": "針千鈞",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-6674ce6baa",
+      "name": "陀艮",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-66caf9e7ec",
+      "name": "陸上部顧問 高木",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-116e724a1e",
+      "name": "高木（弁護士）",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0bca269a4a",
+      "name": "高田ちゃん",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-02aa196fbb",
+      "name": "髙羽史彦",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_profile",
+      "entity_type": "character",
+      "entity_id": "char-996d48af99",
+      "name": "鵺",
+      "detail": "紹介文が18字。経歴・特徴として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-996d48af99",
+      "name": "鵺",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-0e7004da56",
+      "name": "鹿紫雲一",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-a5d1c4b82b",
+      "name": "麗美",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-27f5cf78ab",
+      "name": "黄櫨折",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-526551b91f",
+      "name": "黒井美里",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "character",
+      "entity_id": "char-46cd8034d9",
+      "name": "黒沐死",
+      "detail": "人物個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-42c5acf52c",
+      "name": "G戦杖",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a88b067dfe",
+      "name": "あべこべ",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-536c06630d",
+      "name": "グラニテブラスト",
+      "detail": "説明が17字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-536c06630d",
+      "name": "グラニテブラスト",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase3-gorilla-mode",
+      "name": "ゴリラモード",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-ef294e92de",
+      "name": "ジャッジマン",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-8f302c25a5",
+      "name": "ブラックホール化",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-fd5a754a56",
+      "name": "リカ",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase4-chain-thousand-miles",
+      "name": "万里ノ鎖",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-a83926de11",
+      "name": "三重疾苦",
+      "detail": "説明が17字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a83926de11",
+      "name": "三重疾苦",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-3ed1d78924",
+      "name": "不知井底",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-4688b07b42",
+      "name": "不義遊戯",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-d845dd244c",
+      "name": "不義遊戯 改",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-ab33983457",
+      "name": "世界を断つ斬撃",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-miracle-cannon",
+      "name": "二重大祓砲",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase3-tsukumoso",
+      "name": "付喪操術",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-af5ae87255",
+      "name": "伏魔御廚子",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-3a1afe6fc8",
+      "name": "供花",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-870eff819a",
+      "name": "傀儡操術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-9761156f3b",
+      "name": "八握剣異戒神将魔虚羅",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-1baac5a3fc",
+      "name": "六眼",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-d9180946ec",
+      "name": "共鳴り",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-05a7ab0dcd",
+      "name": "円鹿",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-4b7f0d29f5",
+      "name": "再契象",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-e1903ce05c",
+      "name": "処刑人の剣",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a34bfbb398",
+      "name": "凰輪",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase4-clone-unnamed",
+      "name": "分身を作る術式（名称不明）",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-e69f8fd37d",
+      "name": "十劃呪法",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-7c3237f986",
+      "name": "十種影法術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-6dcae0cbae",
+      "name": "単独禁区",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-cf5d1ac726",
+      "name": "反転術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-d3451c7bbb",
+      "name": "反重力機構",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-07d7ee8f6e",
+      "name": "呪いの種子",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-5607df824a",
+      "name": "呪力放出",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-deb6545546",
+      "name": "呪言",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-1bc0d9ec7b",
+      "name": "呪霊操術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-commissioned-curtain",
+      "name": "嘱託式の帳",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-39d2b30b48",
+      "name": "坐殺博徒",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-f81d55ad09",
+      "name": "多重魂",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-polymorphic-soul-isomer",
+      "name": "多重魂「撥体」",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-ultra-cannon",
+      "name": "大祓砲",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-2abcf48f04",
+      "name": "大蛇",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase4-inverted-spear",
+      "name": "天逆鉾",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-0ec3138e2c",
+      "name": "奇跡",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-582460898c",
+      "name": "宇守羅彈",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-1cd41afe2a",
+      "name": "嵌合暗翳庭",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-7279b3b06c",
+      "name": "嵌合獣 顎吐",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-d35d193e62",
+      "name": "幻獣琥珀",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a0a8d9c6ff",
+      "name": "幾魂異性体",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-4298e6aa9b",
+      "name": "式神の軌跡を領域にする術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-1e8e6dda24",
+      "name": "彌虚葛籠",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-ae26dbd914",
+      "name": "御厨子",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-4b6127d8a9",
+      "name": "心身掌握",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-cc23098baa",
+      "name": "投射呪法",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-7f37ba28b4",
+      "name": "捌",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-73135cb5c7",
+      "name": "撥体",
+      "detail": "説明が19字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-73135cb5c7",
+      "name": "撥体",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a35b2bcd34",
+      "name": "改造人間",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-2374b0f892",
+      "name": "星の怒り",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-f030266d16",
+      "name": "星間飛行",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-1e8b90a741",
+      "name": "時胞月宮殿",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "technique",
+      "entity_id": "tech-ba7bef139c",
+      "name": "朶頤光海",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-ba7bef139c",
+      "name": "朶頤光海",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-c8154fa79f",
+      "name": "朽",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-146ed91574",
+      "name": "来訪瑞獣",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-9754429d12",
+      "name": "植物を操る術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-0ed3695b85",
+      "name": "極ノ番「うずまき」",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-bbdf7b1f2f",
+      "name": "極ノ番「隕」",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-76bee748ec",
+      "name": "楽巌寺の音楽術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-59d1d0e465",
+      "name": "構築術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-9fc56bc1ca",
+      "name": "模倣",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-dc54ab0cd7",
+      "name": "死累累湧軍",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-8b33629c5d",
+      "name": "水と海洋生物の術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-7210756e15",
+      "name": "氷凝呪法",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-df284f67ad",
+      "name": "満象",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase3-drumming-beat",
+      "name": "激震掌（ドラミングビート）",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-542b17dcab",
+      "name": "火山を操る術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-ff727e6493",
+      "name": "火礫蟲",
+      "detail": "説明が15字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-ff727e6493",
+      "name": "火礫蟲",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-cf2f8dca4a",
+      "name": "無下限呪術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-71a2d65cad",
+      "name": "無為転変",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-14f96ce777",
+      "name": "無量空処",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-8b181ff845",
+      "name": "無限",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-c4bca862c9",
+      "name": "爛生刀",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-prison-realm",
+      "name": "獄門疆",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-346182ab1b",
+      "name": "獬豸",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-6c8be9e9eb",
+      "name": "玉犬",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-71d1706395",
+      "name": "玉犬「渾」",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-3f2f2d1e05",
+      "name": "瓦落瓦落",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-5eb242be96",
+      "name": "百斂",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-6e8a713c5b",
+      "name": "直瀑",
+      "detail": "説明が19字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-6e8a713c5b",
+      "name": "直瀑",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a9deccca5f",
+      "name": "真球",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-2e1d5d03db",
+      "name": "真贋相愛",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-7310b2ccf2",
+      "name": "祈祷の歌",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-99fb78ca51",
+      "name": "神風",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-c2ae5ed6dc",
+      "name": "究極メカ丸",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a9666d4ecb",
+      "name": "空を操る術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-5d6a005065",
+      "name": "穿血",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-4b0b9dc682",
+      "name": "竈「開」",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-ffcf652351",
+      "name": "竜",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-e28246ff34",
+      "name": "簡易領域",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-932f1fb717",
+      "name": "簪",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-5c0ec253ee",
+      "name": "翅王",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-6246245c7a",
+      "name": "肉体を渡る術式",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-f1d024fea2",
+      "name": "胎蔵遍野",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-0be6deff32",
+      "name": "脱兎",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-f0f06d52dc",
+      "name": "自閉円頓裹",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-2ac2471b12",
+      "name": "芻霊呪法",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase3-karibarai",
+      "name": "苅祓",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-7341630eb6",
+      "name": "落花の情",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-6af565fce4",
+      "name": "蓋棺鉄囲山",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-81aaf10015",
+      "name": "蕩蘊平線",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-1aadb53ceb",
+      "name": "虎杖悠仁の領域",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-fb21434f98",
+      "name": "虚式「茈」",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-d9efa28175",
+      "name": "蝕爛腐術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-b18262c082",
+      "name": "蝦蟇",
+      "detail": "説明が17字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-b18262c082",
+      "name": "蝦蟇",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-2326f083fd",
+      "name": "術式の消滅",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-6e6dd087e1",
+      "name": "術式反転「赫」",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-90aaa17cfe",
+      "name": "術式順転「蒼」",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-mechamaru-mode-absolute",
+      "name": "装甲傀儡 究極メカ丸 試作0号",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-d2feb31d47",
+      "name": "解",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-3bd924870c",
+      "name": "誅伏賜死",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-5481fbccc6",
+      "name": "貫牛",
+      "detail": "説明が19字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-5481fbccc6",
+      "name": "貫牛",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase3-aka-shibari",
+      "name": "赤縛",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-a1213858c7",
+      "name": "赤血操術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-e66786ca8f",
+      "name": "赤鱗躍動",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-4b352da6cb",
+      "name": "超人",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-17ae81079b",
+      "name": "超新星",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-pigeon-viola",
+      "name": "追尾弾～五重奏～",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-c657f1cc7e",
+      "name": "遍殺即霊体",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-56316150ed",
+      "name": "邪去侮の梯子",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase4-split-soul-katana",
+      "name": "釈魂刀",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-fbf15eb3e2",
+      "name": "降霊術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-aee71097f5",
+      "name": "電気の呪力特性",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-025face7f0",
+      "name": "霊亀",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_description",
+      "entity_type": "technique",
+      "entity_id": "tech-c958121642",
+      "name": "霜凪",
+      "detail": "説明が17字。条件・制限・効果として不足。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-c958121642",
+      "name": "霜凪",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-34f2643025",
+      "name": "領域展延",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-996d48af99",
+      "name": "鵺",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-589e683ddd",
+      "name": "麒麟",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-69d5ecb511",
+      "name": "黒閃",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "technique",
+      "entity_id": "tech-ab3bfa159a",
+      "name": "黒鳥操術",
+      "detail": "技・術式個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "technique",
+      "entity_id": "tech-phase5-ino-ryu",
+      "name": "龍",
+      "detail": "出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase6-adaptation",
+      "name": "あらゆる事象への適応",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-8a6e43878f",
+      "name": "コガネ",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-8a6e43878f",
+      "name": "コガネ",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase5-new-shadow-style",
+      "name": "シン・陰流",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f6f3d2df55",
+      "name": "パンダの三つの核",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-38f3fd22bf",
+      "name": "パンダ活動停止",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-38f3fd22bf",
+      "name": "パンダ活動停止",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-b91ee9e36d",
+      "name": "フィジカルギフテッド",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-b91ee9e36d",
+      "name": "フィジカルギフテッド",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-b91ee9e36d",
+      "name": "フィジカルギフテッド",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-399736afa9",
+      "name": "ブラックホール",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase3-grade1-recommendation",
+      "name": "一級術師推薦",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-96346336c2",
+      "name": "三者同時の領域展開",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-5aa1fd50d5",
+      "name": "世界を断つ斬撃の成立",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-a0ce00ef9e",
+      "name": "両面宿儺の指",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-a0ce00ef9e",
+      "name": "両面宿儺の指",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-08541db692",
+      "name": "五条家",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-08541db692",
+      "name": "五条家",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-549dd18f32",
+      "name": "京都姉妹校交流会",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-02e77960ce",
+      "name": "京都府立呪術高等専門学校",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-02e77960ce",
+      "name": "京都府立呪術高等専門学校",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-02e77960ce",
+      "name": "京都府立呪術高等専門学校",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-3efd4cb8d8",
+      "name": "仙台結界",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-1f164a840a",
+      "name": "仙台結界の四つ巴",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-78481f5abd",
+      "name": "仮想怨霊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-78481f5abd",
+      "name": "仮想怨霊",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-78481f5abd",
+      "name": "仮想怨霊",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-41c52a18d0",
+      "name": "仮想質量",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f314ce3b7a",
+      "name": "伏黒恵への受肉",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-61f2f5fc0d",
+      "name": "元星漿体",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-7efec3f5a3",
+      "name": "入れ替え修行",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-7efec3f5a3",
+      "name": "入れ替え修行",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase5-six-eyes",
+      "name": "六眼",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-3777b71218",
+      "name": "加茂家",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-3777b71218",
+      "name": "加茂家",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase7-thousand-year-vows",
+      "name": "千年前の術師との縛り",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-southern-cross",
+      "name": "南十字座の星順",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-cf5d1ac726",
+      "name": "反転術式",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-cf5d1ac726",
+      "name": "反転術式",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-3f0111dca8",
+      "name": "受肉",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-3f0111dca8",
+      "name": "受肉",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase7-incarnated-sorcerer",
+      "name": "受肉型の術師",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-6de7063fc5",
+      "name": "受肉術師と器の抑圧",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c91391b066",
+      "name": "呪い",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-c91391b066",
+      "name": "呪い",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-ed19637c63",
+      "name": "呪具",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-ed19637c63",
+      "name": "呪具",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-252cb4a664",
+      "name": "呪力",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-252cb4a664",
+      "name": "呪力",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase7-break-from-cursed-energy",
+      "name": "呪力からの脱却",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase7-cursed-energy-optimization",
+      "name": "呪力の最適化",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-8485d1a225",
+      "name": "呪力の電荷",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase4-zero-cursed-energy",
+      "name": "呪力ゼロ",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-cd15f7853a",
+      "name": "呪力ゼロと領域の対象外",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c6defb1c13",
+      "name": "呪力出力",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-c6defb1c13",
+      "name": "呪力出力",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c8634f0e2d",
+      "name": "呪力効率",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-c8634f0e2d",
+      "name": "呪力効率",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-c8634f0e2d",
+      "name": "呪力効率",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-799b9a99e3",
+      "name": "呪力特性",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-799b9a99e3",
+      "name": "呪力特性",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-799b9a99e3",
+      "name": "呪力特性",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-9f7b077da4",
+      "name": "呪力総量",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-9f7b077da4",
+      "name": "呪力総量",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-9f7b077da4",
+      "name": "呪力総量",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c063667868",
+      "name": "呪力資源化計画",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-5b5abca89c",
+      "name": "呪物",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-5b5abca89c",
+      "name": "呪物",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f57cd720b8",
+      "name": "呪縛",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-d321a3c48f",
+      "name": "呪胎",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c5958133bc",
+      "name": "呪胎九相図",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-c5958133bc",
+      "name": "呪胎九相図",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-twins-jujutsu",
+      "name": "呪術における双子",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-32f18a66ec",
+      "name": "呪術総監部",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-32f18a66ec",
+      "name": "呪術総監部",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-jujutsu-regulations",
+      "name": "呪術規定",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-3f92b6bb78",
+      "name": "呪術高専",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-3f92b6bb78",
+      "name": "呪術高専",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "thin_definition",
+      "entity_type": "term",
+      "entity_id": "term-041be91538",
+      "name": "呪詛師",
+      "detail": "定義が17字。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-041be91538",
+      "name": "呪詛師",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-041be91538",
+      "name": "呪詛師",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase4-group-q",
+      "name": "呪詛師集団Q",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-8914e5bc1a",
+      "name": "呪霊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-8914e5bc1a",
+      "name": "呪霊",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase3-team-battle",
+      "name": "呪霊討伐競争",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-37f8736467",
+      "name": "呪骸",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-37f8736467",
+      "name": "呪骸",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase5-commissioned-curtain",
+      "name": "嘱託式の帳",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-a927605750",
+      "name": "器",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-a927605750",
+      "name": "器",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-1c3b13971d",
+      "name": "坐殺博徒の4分11秒",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c3a59e1049",
+      "name": "堕天",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-adb9e5012c",
+      "name": "外国軍侵入",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-bfcc1b065d",
+      "name": "天与呪縛",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-bfcc1b065d",
+      "name": "天与呪縛",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-dad5591883",
+      "name": "天元と人類の同化",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-87e5231adf",
+      "name": "天元の同化",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-87e5231adf",
+      "name": "天元の同化",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-5fdd542215",
+      "name": "天逆鉾",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-5fdd542215",
+      "name": "天逆鉾",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-76365024bd",
+      "name": "契闊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-6024d040a4",
+      "name": "完全受肉",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-autonomous-corpse",
+      "name": "完全自立型人工知能呪骸",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-81cd96e9ac",
+      "name": "完全顕現の五分間",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-776e9a8f91",
+      "name": "宿儺の消滅",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-e0d5d36e22",
+      "name": "宿儺最後の指",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c195cec023",
+      "name": "対領域技術",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f9e3abf542",
+      "name": "帳",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-f9e3abf542",
+      "name": "帳",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-cba4367139",
+      "name": "式神",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-cba4367139",
+      "name": "式神",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-1e8e6dda24",
+      "name": "彌虚葛籠",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-1e8e6dda24",
+      "name": "彌虚葛籠",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-1e8e6dda24",
+      "name": "彌虚葛籠",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-ed29e09cb0",
+      "name": "影",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-6d3234fdfd",
+      "name": "得点",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-6d3234fdfd",
+      "name": "得点",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-6f7fa8f5d1",
+      "name": "御三家",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-6f7fa8f5d1",
+      "name": "御三家",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-d97934afcd",
+      "name": "必中効果",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-d97934afcd",
+      "name": "必中効果",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-2afcb02ac1",
+      "name": "必中必殺型領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-2afcb02ac1",
+      "name": "必中必殺型領域",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-2afcb02ac1",
+      "name": "必中必殺型領域",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c3dbb4af08",
+      "name": "怨霊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-43b38a9747",
+      "name": "懐玉・玉折",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-43b38a9747",
+      "name": "懐玉・玉折",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-43b38a9747",
+      "name": "懐玉・玉折",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-905b4f71f8",
+      "name": "拡張術式",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-905b4f71f8",
+      "name": "拡張術式",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-905b4f71f8",
+      "name": "拡張術式",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase5-transfigured-human",
+      "name": "改造人間",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-9227db2dd2",
+      "name": "新陰流当主の縛り",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c71851990e",
+      "name": "旧式領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-c71851990e",
+      "name": "旧式領域",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-c71851990e",
+      "name": "旧式領域",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-6f0611c4ff",
+      "name": "星漿体",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-6f0611c4ff",
+      "name": "星漿体",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase4-time-vessel-association",
+      "name": "時の器の会",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-152790e31d",
+      "name": "東京第1結界",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-5c353791e3",
+      "name": "東京第2結界",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c2a46f1804",
+      "name": "東京都立呪術高等専門学校",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-c2a46f1804",
+      "name": "東京都立呪術高等専門学校",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c2f186c626",
+      "name": "桜島結界",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-907c704f71",
+      "name": "極ノ番",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-907c704f71",
+      "name": "極ノ番",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase6-positive-energy",
+      "name": "正のエネルギー",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-60e959b66f",
+      "name": "死刑",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-bb89ef15f2",
+      "name": "死滅回游",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-bb89ef15f2",
+      "name": "死滅回游",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f98498c1ef",
+      "name": "死滅回游の慣らし",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-50ea4b9d52",
+      "name": "死滅回游終了条件の追加",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-poison",
+      "name": "毒",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-7a45f4dbe5",
+      "name": "没収と呪具",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-49963d44ff",
+      "name": "泳者",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-49963d44ff",
+      "name": "泳者",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-8ae4844630",
+      "name": "浴",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-8ae4844630",
+      "name": "浴",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-3da4cfdc55",
+      "name": "浴による魂の沈下",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-33c0eaca30",
+      "name": "渋谷事変",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-33c0eaca30",
+      "name": "渋谷事変",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-64abcd060b",
+      "name": "游雲",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-64abcd060b",
+      "name": "游雲",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-hei",
+      "name": "炳",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-965bdc282e",
+      "name": "物の魂",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-58511e940d",
+      "name": "特別一級術師",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-58511e940d",
+      "name": "特別一級術師",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-58511e940d",
+      "name": "特別一級術師",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-7037f2a1bd",
+      "name": "特級",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-7037f2a1bd",
+      "name": "特級",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-bf1b3beaca",
+      "name": "特級呪具",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-bf1b3beaca",
+      "name": "特級呪具",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-0a4956ab6c",
+      "name": "特級呪物",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-0a4956ab6c",
+      "name": "特級呪物",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase5-special-grade-curse",
+      "name": "特級呪霊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase6-special-disease-curse",
+      "name": "特級特定疾病呪霊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-6e7e2b846e",
+      "name": "獄門疆",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-6e7e2b846e",
+      "name": "獄門疆",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f9dde75323",
+      "name": "獄門疆「裏」",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-f9dde75323",
+      "name": "獄門疆「裏」",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase5-prison-realm-condition",
+      "name": "獄門疆の封印条件",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-cabc80296a",
+      "name": "生得術式",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-cabc80296a",
+      "name": "生得術式",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-ea9fe4b536",
+      "name": "生得領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-ea9fe4b536",
+      "name": "生得領域",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-e6db99e6ff",
+      "name": "百鬼夜行",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-e6db99e6ff",
+      "name": "百鬼夜行",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase4-star-religious-group",
+      "name": "盤星教",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-03b8fbd157",
+      "name": "相撲の簡易領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f74654d902",
+      "name": "禪院家",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-f74654d902",
+      "name": "禪院家",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-cursed-warehouse",
+      "name": "禪院家の忌庫",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-9ff83181a2",
+      "name": "秘匿死刑",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-2408e781f0",
+      "name": "空性結界",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-2408e781f0",
+      "name": "空性結界",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase3-abrupt-mutated-corpse",
+      "name": "突然変異呪骸",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-67566a7224",
+      "name": "等級",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-67566a7224",
+      "name": "等級",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-e28246ff34",
+      "name": "簡易領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-e28246ff34",
+      "name": "簡易領域",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase6-open-barrier-domain",
+      "name": "結界を閉じない領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-3c7a37c125",
+      "name": "結界侵入時の無作為転送",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-5a7fcb32e8",
+      "name": "結界術",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-5a7fcb32e8",
+      "name": "結界術",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-59acaaffab",
+      "name": "結界（コロニー）",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-59acaaffab",
+      "name": "結界（コロニー）",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-79c25be05f",
+      "name": "総則",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-79c25be05f",
+      "name": "総則",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-7ef1b59819",
+      "name": "総則10（得点移動）",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c38a86467e",
+      "name": "総則11（身代わりと離脱）",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-40e6a89fc4",
+      "name": "縛り",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-40e6a89fc4",
+      "name": "縛り",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-01e0c1e52e",
+      "name": "罪悪感",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase5-body",
+      "name": "肉体",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-7341630eb6",
+      "name": "落花の情",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-7341630eb6",
+      "name": "落花の情",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-58cf854ee7",
+      "name": "薨星宮",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-58cf854ee7",
+      "name": "薨星宮",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-1fd2866c44",
+      "name": "虎杖の血統・単行本訂正",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-e3eff1da1c",
+      "name": "術師",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-e3eff1da1c",
+      "name": "術師",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase4-sorcerer-killer",
+      "name": "術師殺し",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-ad8bd57883",
+      "name": "術式",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-ad8bd57883",
+      "name": "術式",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase4-limitless-automation",
+      "name": "術式の常時自動化",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-54c44682c5",
+      "name": "術式の焼き切れ",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-54c44682c5",
+      "name": "術式の焼き切れ",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-2a5525400d",
+      "name": "術式の開示",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-2a5525400d",
+      "name": "術式の開示",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-278ed5da66",
+      "name": "術式剥奪",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-278ed5da66",
+      "name": "術式剥奪",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-dbce7f28c0",
+      "name": "術式反転",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-dbce7f28c0",
+      "name": "術式反転",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-dbce7f28c0",
+      "name": "術式反転",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase7-technique-extraction",
+      "name": "術式抽出（うずまき）",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-f7be87831e",
+      "name": "術式消滅",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-8ecf601679",
+      "name": "術式順転",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-8ecf601679",
+      "name": "術式順転",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-8ecf601679",
+      "name": "術式順転",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-c74cac6805",
+      "name": "補助監督",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-c74cac6805",
+      "name": "補助監督",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase7-awakened-sorcerer",
+      "name": "覚醒型の術師",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-2e3682fd6a",
+      "name": "解呪",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-punishment-room",
+      "name": "訓練・懲罰部屋",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase6-taming-ritual",
+      "name": "調伏の儀",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase8-kukuru",
+      "name": "躯倶留隊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-3c3554872b",
+      "name": "逕庭拳",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-3c3554872b",
+      "name": "逕庭拳",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-e70d29a871",
+      "name": "過呪怨霊",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-e70d29a871",
+      "name": "過呪怨霊",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-fe317d92dc",
+      "name": "釈魂刀",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-fe317d92dc",
+      "name": "釈魂刀",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-5cb906769f",
+      "name": "閉じない領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "missing_chapters",
+      "entity_type": "term",
+      "entity_id": "term-5cb906769f",
+      "name": "閉じない領域",
+      "detail": "関連話がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-5cb906769f",
+      "name": "閉じない領域",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-e2187cdee5",
+      "name": "非必殺型領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-cf5652fdbe",
+      "name": "非術師",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-cf5652fdbe",
+      "name": "非術師",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-811629f74a",
+      "name": "非術式死による怨霊化",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-8caa008608",
+      "name": "領域",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase6-domain-clash",
+      "name": "領域の押し合い",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-34f2643025",
+      "name": "領域展延",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-34f2643025",
+      "name": "領域展延",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-e6a70dfe56",
+      "name": "領域展開",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-e6a70dfe56",
+      "name": "領域展開",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-phase4-mole",
+      "name": "高専内通者",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-65867f280c",
+      "name": "魂",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-65867f280c",
+      "name": "魂",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-bb7659490f",
+      "name": "魂の境界",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-bb7659490f",
+      "name": "魂の境界",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-fd9bed17d6",
+      "name": "黒縄",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-fd9bed17d6",
+      "name": "黒縄",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "high",
+      "code": "missing_sources",
+      "entity_type": "term",
+      "entity_id": "term-69d5ecb511",
+      "name": "黒閃",
+      "detail": "直接の出典参照がない。"
+    },
+    {
+      "priority": "high",
+      "code": "first_pass_pending",
+      "entity_type": "term",
+      "entity_id": "term-69d5ecb511",
+      "name": "黒閃",
+      "detail": "用語個別の再精査前。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-656fe03d94",
+      "name": "つばさ",
+      "detail": "ch-019: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-1896d42b18",
+      "name": "アルバイト",
+      "detail": "ch-010: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-6e5f124638",
+      "name": "ケンさん",
+      "detail": "ch-146: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-6cd94bbcdf",
+      "name": "ツカモト",
+      "detail": "ch-013: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-dcb6ddb293",
+      "name": "バカA",
+      "detail": "ch-055: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-3ed1d78924",
+      "name": "不知井底",
+      "detail": "ch-017: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-3ed1d78924",
+      "name": "不知井底",
+      "detail": "ch-043: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-3ed1d78924",
+      "name": "不知井底",
+      "detail": "ch-044: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-3ed1d78924",
+      "name": "不知井底",
+      "detail": "ch-047: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-383f9ce538",
+      "name": "伏黒恵の母",
+      "detail": "ch-075: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-9bdffe1087",
+      "name": "加藤空",
+      "detail": "ch-183: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-c9bc52aaf1",
+      "name": "化身玉藻前",
+      "detail": "zero-04: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-207d1e2959",
+      "name": "天ノ川小百合",
+      "detail": "ch-183: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-ac5bfb99ac",
+      "name": "太助",
+      "detail": "ch-068: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-9d5781cc30",
+      "name": "山口夕輝",
+      "detail": "ch-183: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-a6a1c5d1be",
+      "name": "山口紗夜花",
+      "detail": "ch-183: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-ba1a693126",
+      "name": "憲紀の母の新しい夫",
+      "detail": "ch-191: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-25dbde0cc7",
+      "name": "憲紀の異父弟",
+      "detail": "ch-191: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-1bbe626376",
+      "name": "斉藤さん（娘）",
+      "detail": "zero-03: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-91ac59016d",
+      "name": "斉藤さん（母）",
+      "detail": "zero-03: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-9f27f7b399",
+      "name": "斎藤雨矢",
+      "detail": "ch-183: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-0fd233938d",
+      "name": "朝霧夢",
+      "detail": "ch-183: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-9aa6c80b61",
+      "name": "池沢",
+      "detail": "ch-181: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-8e2aed473c",
+      "name": "清水涼香",
+      "detail": "ch-183: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-76c359aa1d",
+      "name": "玉犬 白",
+      "detail": "ch-001: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-76c359aa1d",
+      "name": "玉犬 白",
+      "detail": "ch-006: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-8236095713",
+      "name": "玉犬 黒",
+      "detail": "ch-001: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-8236095713",
+      "name": "玉犬 黒",
+      "detail": "ch-006: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-8236095713",
+      "name": "玉犬 黒",
+      "detail": "ch-058: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-71d1706395",
+      "name": "玉犬「渾」",
+      "detail": "ch-047: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-71d1706395",
+      "name": "玉犬「渾」",
+      "detail": "ch-058: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-71d1706395",
+      "name": "玉犬「渾」",
+      "detail": "ch-173: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-3e900c584c",
+      "name": "藤沼",
+      "detail": "ch-055: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-5bc95bc9e0",
+      "name": "藤沼（姉）",
+      "detail": "ch-055: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "character",
+      "entity_id": "char-1b63d8dcdc",
+      "name": "金森",
+      "detail": "zero-03: 人物側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-d845dd244c",
+      "name": "不義遊戯 改",
+      "detail": "ch-260: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-d845dd244c",
+      "name": "不義遊戯 改",
+      "detail": "ch-263: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-d845dd244c",
+      "name": "不義遊戯 改",
+      "detail": "ch-264: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-5607df824a",
+      "name": "呪力放出",
+      "detail": "ch-176: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-5607df824a",
+      "name": "呪力放出",
+      "detail": "ch-177: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-5607df824a",
+      "name": "呪力放出",
+      "detail": "ch-178: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-5607df824a",
+      "name": "呪力放出",
+      "detail": "ch-179: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-5607df824a",
+      "name": "呪力放出",
+      "detail": "ch-180: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-ffcf652351",
+      "name": "竜",
+      "detail": "ch-148: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-ffcf652351",
+      "name": "竜",
+      "detail": "ch-150: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "technique",
+      "entity_id": "tech-589e683ddd",
+      "name": "麒麟",
+      "detail": "ch-257: 技側にあるが各話側にない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-010",
+      "name": "雨後",
+      "detail": "技 呪言 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-013",
+      "name": "映画鑑賞",
+      "detail": "技 火山を操る術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-138",
+      "name": "禪院家",
+      "detail": "技 竈「開」 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-144",
+      "name": "あの場所",
+      "detail": "技 六眼 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-144",
+      "name": "あの場所",
+      "detail": "技 反転術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-153",
+      "name": "賭け試合",
+      "detail": "技 竈「開」 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-220",
+      "name": "自浄自縛",
+      "detail": "技 解 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-222",
+      "name": "予兆",
+      "detail": "技 無限 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-222",
+      "name": "予兆",
+      "detail": "技 無下限呪術 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-217",
+      "name": "浴②",
+      "detail": "用語 魂 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-218",
+      "name": "浴③",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-231",
+      "name": "人外魔境新宿決戦⑨",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-233",
+      "name": "人外魔境新宿決戦⑪",
+      "detail": "用語 式神 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-240",
+      "name": "生き残れ!!",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-241",
+      "name": "勝ち残れ!!",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-242",
+      "name": "舞い上がれ!!",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-243",
+      "name": "さんざめけ!!",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-247",
+      "name": "人外魔境新宿決戦⑲",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-247",
+      "name": "人外魔境新宿決戦⑲",
+      "detail": "用語 反転術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-254",
+      "name": "人外魔境新宿決戦㉖",
+      "detail": "用語 簡易領域 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-255",
+      "name": "人外魔境新宿決戦㉗",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-256",
+      "name": "人外魔境新宿決戦㉘",
+      "detail": "用語 黒閃 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-263",
+      "name": "人外魔境新宿決戦㉟",
+      "detail": "用語 術式 側にこの話がない。"
+    },
+    {
+      "priority": "medium",
+      "code": "reverse_index_mismatch",
+      "entity_type": "chapter",
+      "entity_id": "ch-270",
+      "name": "夢の終わり",
+      "detail": "用語 術師 側にこの話がない。"
+    }
+  ]
+}

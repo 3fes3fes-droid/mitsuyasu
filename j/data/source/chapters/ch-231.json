@@ -1,0 +1,196 @@
+{
+  "id": "ch-231",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 26,
+  "number": 231,
+  "zero_number": null,
+  "label": "第231話",
+  "title_official": "人外魔境新宿決戦⑨",
+  "title_search_normalized": "人外魔境新宿決戦9",
+  "start_page": 67,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-26"
+  ],
+  "source_locator": "単行本26巻 目次 p.67",
+  "summary_short": "宿儺は魔虚羅の適応を利用して無限へ対抗する。五条は魔虚羅が完全に適応する前に宿儺を倒すため、術式を駆使した接近戦へ移る。",
+  "summary_full": "宿儺は魔虚羅の適応を利用して無限へ対抗する。五条は魔虚羅が完全に適応する前に宿儺を倒すため、術式を駆使した接近戦へ移る。宿儺は魔虚羅の輪を自ら背負い、五条の術式攻撃を受けるたび適応を進める。五条は適応完了前に宿儺を倒すため蒼を中心に攻める。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The absurdity of 五条悟 and 宿儺 's clash reaches a point where the onlookers have no idea what will happen next. 宿儺 uses 魔虚羅 's adaptation to deal with the 無限 . Undeterred, 五条 plans on winning before 宿儺 can fully adapt. Thus, the countdown to the climax of their battle begins!",
+    "summary_full_legacy": "To emphasize his coming point, 日下部 asks who among those watching the fight has taken a serious punch from 五条. 悠仁 and パンダ have tried to hit 五条 but weren't successful. 憂太 and 秤 have taken punches that applied the 無下限呪術 . 日下部 reveals that 五条's punches are not only reinforced with 呪力 , but he also uses Blue to absorb the surrounding space as the blow lands. 秤 describes the feeling of being hit by it like a counterpunch that lands even after preparing for the hit. 綺羅羅 asks 憂太 and 秤 how much it hurts and both admit it made them vomit. 七海 telling 悠仁 that 五条 can’t be rivaled. In the past, 七海 emphasized to 悠仁 that it's pointless to compare oneself to 五条 because he simply can't be rivaled. Critical hits that 七海 worked hard to achieve were like simple jabs for 五条. 日下部's point is that from this moment on in the fight, he has no idea what 五条 will come up with next. After landing a powerful right hook, 五条 drags 宿儺 across the side of a building. He throws 宿儺 away and tries to trap him in debris using Blue. 宿儺 quickly breaks out and 五条 follows up with a flying kick. 宿儺 ducks under it but 五条 has already created a field of attraction above them that forces 宿儺's head towards 五条's follow-up axe-kick. 宿儺 cleverly avoids the kick by flipping forward and using Blue's attraction to lift the back of his lower body. He activates domain amplification , turning Mahoragas's wheel black as he tries to deliver a spinning axe kick of his own. However, 五条 disappears and creates four clones to confuse his opponent. \"I have no idea what 五条 is going to do next.\" 宿儺 quickly sees through 五条's trick and finds the real body. He delivers a punch 五条 is unable to fully block and he's sent flying back. 五条 recovers on top of a traffic light and 魔虚羅's wheel suddenly spins. This concerns those watching because they're unsure if this means that 宿儺 has already adapted. 五条 notes that 宿儺 can still use amplification but not expansion due to the damage affecting the part of his brain responsible for casting barriers. 宿儺 surmises that 五条 is only using Lapse so he can't also adapt to 術式反転. The traffic light turns green and the two fighters clash on cue. 五条 uses Blue to force the traffic light towards 宿儺 but he grabs it and throws it back only for it to be halted by the 無限. 五条 knows three spins of 魔虚羅's wheel will adapt it to his 無限. 宿儺 hasn't brought 魔虚羅 back out and it took five domain clashes to adapt to 無量空処 . 冥冥 , 秤, and 日下部 surmise that it takes multiple spins of 魔虚羅's wheel to adapt to any application of the 無下限呪術. 五条 knows it will take exactly more three spins of the wheel for 魔虚羅 to adapt to the 無限, surprising those watching. 宿儺 claims they have a countdown until 五条 loses his smirk but this comment only makes his smile bigger. 五条 is confident that he'll kill 宿儺 before he even hits three spins. This comment makes 華 question if 五条 has forgotten about saving 恵. 悠仁 agrees that he might have and 鹿紫雲 says it's fine if he does, to which 悠仁 and 華 immediately disagree.",
+    "characters_raw_text": "日下部篤也 禪院真希 パンダ 狗巻棘 虎杖悠仁 乙骨憂太 星綺羅羅 秤金次 七海建人 (回想) 猪野琢真 宿儺 五条悟 日車寛見 冥冥 来栖華 脹相 鹿紫雲一",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 領域展開：無量空処 (言及のみ) 無下限呪術 術式 術式順転「蒼」 術式 術式順転「蒼」 宿儺の術式 領域展延 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 八握剣異戒神将 魔虚羅 魔虚羅",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-6309a7e2f4",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d8252d61d4",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-34f2643025",
+    "tech-4b0b9dc682",
+    "tech-7c3237f986",
+    "tech-8b181ff845",
+    "tech-90aaa17cfe",
+    "tech-9761156f3b",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "宿儺は魔虚羅の適応を利用して無限へ対抗する。",
+    "五条は魔虚羅が完全に適応する前に宿儺を倒すため、術式を駆使した接近戦へ移る。",
+    "宿儺は魔虚羅の輪を自ら背負い、五条の術式攻撃を受けるたび適応を進める。",
+    "五条は適応完了前に宿儺を倒すため蒼を中心に攻める。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-6309a7e2f4",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d8252d61d4",
+    "char-dea43d7fc7"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-90aaa17cfe",
+    "tech-9761156f3b"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-9761156f3b",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-26",
+    "src-manga-games-vol-26",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

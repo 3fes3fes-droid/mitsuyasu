@@ -1,0 +1,171 @@
+{
+  "id": "ch-200",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 200,
+  "zero_number": null,
+  "label": "第200話",
+  "title_official": "直接会談①",
+  "title_search_normalized": "直接会談1",
+  "start_page": 7,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.7",
+  "summary_short": "宿儺は天使が探す「堕天」が自分であると虎杖へ明かす。結界へ外国軍が侵入した背景として、羂索が各国政府へ呪力を新資源として売り込んだ経緯が示される。",
+  "summary_full": "宿儺が堕天だと知った虎杖は、天使に悟られないよう身振りで伏黒へ伝える。虎杖は津美紀を救い五条を解放した後なら、自分ごと宿儺を消してよいと考える。そこへ多数の新規泳者が各結界へ一斉侵入する。背景では、羂索が米国政府に呪術と呪力を公開し、与幸吉の傀儡を応用した映像で五条らの力を示していた。羂索は術師を次世代エネルギーの研究資源として拉致するよう提案する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "宿儺 reveals that he is the 天使の target, the one they call the 堕天. Before 悠仁 and 恵 can properly discuss this revelation, something astonishing suddenly occurs within the colony. This development has major implications for the 死滅回游 and it comes as a direct result of several meetings that took place over nine months, between 羂索 and the various governments of the world.",
+    "summary_full_legacy": "悠仁 non-verbally communicates to 恵 that 宿儺 is the 天使の target. 宿儺 reveals to 悠仁 that he is the 堕天 and 恵 snaps his friend's mind back into reality by calling his name. 恵 asks 悠仁 what's wrong and the latter lies and says he isn't feeling good so he can switch spots with 華 . 悠仁 uses charades to try and communicate 宿儺's revelation to 恵 but he has trouble understanding 悠仁's non-verbal attempts to get the message across. After realizing that 悠仁 wanted to prevent the 天使 from noticing and not 華, 恵 quickly realizes that 悠仁 must be her target. 悠仁 figures the 天使 must have a way of eliminating 宿儺 without hope of return and assumes the King of Curses is underestimating him. 悠仁 will gladly give his life after they save 津美紀 to get rid of 宿儺 and ensure 五条悟 's return. 恵 acknowledges that their plan has hit another wall with the 天使の request and his main issue is that he knows 悠仁 will have no problem dying for the cause. 悠仁 and 恵's thoughts are interrupted by a sudden comment from the 天使. She says that many new players are entering the colony and コガネ displays over eight hundred of them entering one after the other. 羂索 revealing the existence of jujutsu to U.S. government officials. A couple months ago, in September, 羂索 met with various governments across the world. He revealed the truth about jujutsu and proposed 呪力 as an alternative energy source. 羂索 proposes the President order the abduction of jujutsu sorcerers. During a more recent meeting with the United States government, he even provided glasses that allowed the non-sorcerers to see 呪霊 and summoned some using 呪霊操術 to serve as examples. Cyrus Veil of the U.S. Office of Energy and Environment backed 羂索's claims. Cyrus implored the President to start looking into 呪力 and stated that they must seize the opportunity or risk falling behind in the race for newly sustainable energy. Using technology taken from 与幸吉 's surveillance, 羂索 showed the government representatives footage of recent jujutsu-related incidents. Cyrus followed up by explaining how 呪力 could become the cleanest energy in history but the President was still entirely unsure despite Cyrus continuing to apply pressure. 羂索 added that 東京 will cease to function in November and many sorcerers will be gathered in one place. The 呪詛師 asks what the President will do and the dismayed government official is taken back by the idea of him giving an order to abduct sorcerers.",
+    "characters_raw_text": "宿儺 虎杖悠仁 伏黒恵 来栖華 高羽史彦 羂索 裏梅 Cyrus Veil World Government Officials 与幸吉 (回想) 東堂葵 (回想) 七海建人 (回想) 五条悟 (回想)",
+    "locations_raw_text": "東京第1結界／ホワイトハウス",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": "呪具 眼鏡 羂索 術式 呪霊操術 与幸吉 術式 傀儡操術 (言及のみ) 裏梅 術式 氷凝呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-02aa196fbb",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-6309a7e2f4",
+    "char-65e7fd1c87",
+    "char-678a848346",
+    "char-8a6e43878f",
+    "char-9e8435ee20",
+    "char-b7f2a3f42f",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-d8252d61d4",
+    "char-dad71c9f31",
+    "char-e853296f46"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-7210756e15",
+    "tech-870eff819a"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase10": [
+    "虎杖が宿儺＝堕天を伏黒へ伝える",
+    "虎杖が宿儺ごと死ぬ覚悟を持つ",
+    "多数の外国兵が泳者として結界へ侵入する",
+    "羂索が米国政府へ呪力資源化を提案する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "central"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "understands-message"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "nearby"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "fallen"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "meeting-us-government"
+    },
+    {
+      "character_id": "char-000313127b",
+      "presence": "assisting"
+    },
+    {
+      "character_id": "char-9e8435ee20",
+      "presence": "meeting"
+    },
+    {
+      "character_id": "char-b7f2a3f42f",
+      "presence": "advocates-energy-use"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "surveillance-footage-source"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "shown-in-footage"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-d8252d61d4",
+    "char-65e7fd1c87",
+    "char-02aa196fbb",
+    "char-2b8d365a39",
+    "char-678a848346",
+    "char-000313127b",
+    "char-9e8435ee20",
+    "char-b7f2a3f42f",
+    "char-dad71c9f31",
+    "char-17322e71e5"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "footage-technology"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "demonstration"
+    },
+    {
+      "technique_id": "tech-7210756e15",
+      "relation": "demonstration-support"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-870eff819a",
+    "tech-1bc0d9ec7b",
+    "tech-7210756e15"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c3a59e1049",
+    "term-adb9e5012c",
+    "term-c063667868",
+    "term-bb89ef15f2",
+    "term-49963d44ff"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-hellominju-ch200",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

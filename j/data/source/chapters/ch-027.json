@@ -1,0 +1,113 @@
+{
+  "id": "ch-027",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 27,
+  "zero_number": null,
+  "label": "第27話",
+  "title_official": "もしも",
+  "title_search_normalized": "もしも",
+  "start_page": 27,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.27",
+  "summary_short": "真人は順平を無為転変で改造し、虎杖の目の前で死なせる。宿儺も虎杖の懇願を拒んで嘲笑し、虎杖は真人を必ず殺すと激怒する。",
+  "summary_full": "真人は虎杖を拘束し、順平の信頼を裏切って無為転変を施す。異形に変えられた順平を前に、虎杖は宿儺へ治療を懇願するが、宿儺は拒絶し、真人とともに虎杖の絶望を嘲笑う。順平は無理な変形に耐えられず虎杖の目の前で死亡する。救えなかった怒りと憎しみに呑まれた虎杖は、真人を殺すと宣言し、魂を直接捉える打撃を叩き込む。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "順平 could have been an ally to 悠仁 and a member of 呪術高専. That was not to be, as 真人 sacrifices 順平 in order to further his own agenda, making contact with 宿儺 . In response to the death of his friend, 悠仁 unleashes a dark rage he's never known before.",
+    "summary_full_legacy": "真人 betrays 順平's trust and mutates him. 悠仁 notices 真人 walking down the stairs closer to him and 順平. He hesitates, believing 真人 might be human before the 呪霊 reveals his nature and pins 悠仁 to the wall using a large deformed arm. He says it's nice to meet 宿儺's vessel and 順平 tries to get 真人 to stop. Angry with himself for hesitating, 悠仁 realizes that 真人 is exactly the curse that 七海 described. 悠仁 tries to plead with 順平 to run, but the latter stills believes he's friends with 真人. 順平 begins to say that 真人 isn't a bad person, but he recalls all the cruel experiments he did to other people and realizes 真人 was the enemy. 真人 puts his hand on 順平's shoulder and tells him directly in his ear that he should have been smarter than this. All those people 順平 looked down on for being imbeciles, 真人 states that he's just as stupid as they are. With twisted and sinister words, 真人 adds that this is the reason 順平 will die. 順平's mutated body attacks 悠仁 at 真人's command. Using 無為転変 , 真人 mutates 順平's body into a monster, horrifying 悠仁. Unable to control his actions, 順平 attacks and 真人 declares this to be the second round of their fight. 悠仁 begs 宿儺 to help 順平 but the King of Curses refuses. 宿儺 knows that 悠仁 has forgotten about their 縛り and decides to taunt him, confusing 真人. 真人 knows 宿儺 has the ability to heal 順平 using a 反転術式 , but questions if 悠仁 made a 縛り at all. 真人 and 宿儺 enjoy a laugh at 悠仁's expense. Either way, the conditions remain in 真人's favor. He decides to join 宿儺 in laughing at 悠仁 while he tries to stop his fallen friend. In a state of rage and despair, 悠仁 reminds himself that creatures like 宿儺 and 真人 will always be nothing but evil curses. 順平 suddenly asks 悠仁 why this had to happen and dies. 真人 admits he transfigured him aggressively, making a joke of his death. Fed up with 真人's existence, 悠仁 lands a powerful right punch that sends 真人 crashing into the stairs. 真人 quickly recovers and while he admits 悠仁's attack is interesting, he still believes it won't work. 悠仁's rage is unleashed. However, 真人's nose begins bleeding and he realizes that 悠仁's attack had an effect after all. This makes 真人 realize that due to the nature of his own soul sharing a body with 宿儺, 悠仁 has naturally learned how to perceive the contours of the soul. Before, 悠仁 never wanted to put himself in a situation to kill. In this moment however, 悠仁 is prepared to annihilate 真人 with all the power of his rage. 悠仁 states that he's going to kill 真人, and the 呪霊 corrects him, claiming that jujutsu sorcerers should say \"exorcise\".",
+    "characters_raw_text": "伏黒恵 吉野順平 虎杖悠仁 釘崎野薔薇 真人 宿儺",
+    "locations_raw_text": "川崎市 里桜高校 里桜高校",
+    "battles_events_raw_text": "虎杖悠仁 vs. 真人 (開始)",
+    "techniques_raw_text": "真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase2": [
+    "真人が順平を無為転変で改造する",
+    "宿儺が虎杖の懇願を拒絶する",
+    "順平が死亡する",
+    "虎杖が真人の殺害を誓う"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "imagined-possibility"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "imagined-possibility"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-baadf43d19",
+    "char-236cc955ae",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase2": [
+    "term-65867f280c",
+    "term-a927605750"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

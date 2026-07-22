@@ -1,0 +1,160 @@
+{
+  "id": "ch-018",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 18,
+  "zero_number": null,
+  "label": "第18話",
+  "title_official": "底辺",
+  "title_search_normalized": "底辺",
+  "start_page": 27,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.27",
+  "summary_short": "真希と真依は禪院家を出たことを巡って衝突する。釘崎は呪力を持たない真希が術師として戦う事情を知り、五条は京都校学長・楽巌寺に次世代の台頭を警告する。",
+  "summary_full": "真希は、自分に術式がないことを責める真依へ、呪力さえほとんど持たない自分たちは二人とも禪院家では底辺だと言い返す。倒れていた釘崎は隙を突いて真依を押さえ込むが、東堂が高田ちゃんの個別握手会へ向かうため騒動を切り上げる。釘崎は真希が呪力を持たず、呪具と身体能力で戦いながら禪院家を見返そうとしていると知り、素直に敬意を示す。五条は京都校学長・楽巌寺へ、上層部が虎杖を死なせようとした件を牽制するとともに、知性を持つ未登録特級呪霊と、乙骨・秤・東堂ら次世代の力が従来の特級という尺度を超えると警告する。一か月後、川崎の映画館で三人の高校生が異形の死体となり、真人を目撃した吉野順平と、調査に来た虎杖・七海の事件へつながる。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真依 and 真希 argue over which of them is lower class than the other, but 真希 believes they're both at the bottom. 東堂葵 breaks up the argument and leaves with 真依. 野薔薇 learns 真希 has no 呪力 and respects her for being a strong jujutsu sorcerer . Meanwhile, 悟 holds a personal meeting with the Principal of Kyoto 呪術高専 .",
+    "summary_full_legacy": "野薔薇 appears to be lying unconscious between the rival 禪院 sisters. 真希 claims they're both worthless because all 真依 can do is load objects with her 呪力. 真依 argues that having no 術式 is still superior compared to having no 呪力 at all. 真希 forgoes the argument and asks 野薔薇 if she can stand. 真依 claims she won't be able too, but 野薔薇 suddenly recovers and wrestles 真依 to the ground. 野薔薇 surprises 真依 and holds her down. They're interrupted when 葵 appears and tells 真依 that its time to leave. 葵 says he has to make it in time for the Tall Idol Takada 's meet in greet in 東京. Before they leave, 真依 reminds her rivals that they'll being going all out in the Kyoto Goodwill Event. Afterward, 野薔薇 asks 真希 if it's true that she doesn't have 呪力. 真希 confirms and claims she became a jujutsu sorcerer in order to prove her doubters wrong. 野薔薇 is impressed with 真希's answer, stating she as a lot of respect for 真希, and they leave to go see the nurse. 悟 meets with the Kyoto Principal. Meanwhile, at Kyoto 呪術高専, 夜蛾 is set to meet with Principal 楽巌寺嘉伸. However, 五条悟 arrives in his stead, eager to ask a few questions despite how rude his intrusion comes off. 悟 demands to know more about how the higher-ups at jujutsu fed 悠仁 to the wolves. He reveals that he was attacked by two special grade curses and reveals they were able to communicate with reasonable intelligence. 悟 believes the next generation of both jujutsu sorcerers and 呪霊 won't be limited to special grade. Before leaving, 悟 warns the old man that he's not the only one who's going to question the authority at 呪術高専, irritating Yoshinobu. One month later in September at キネマシネマ in 川崎市, three deformed bodies of high school students are found. Leaving the scene is 真人 , a 呪霊 acquainted with 夏油 and his group. He's spotted by a human and is surprised to be seen. At the same time, just outside the theater, 虎杖悠仁 arrives to investigate the crime.",
+    "characters_raw_text": "禪院真依 釘崎野薔薇 禪院真希 東堂葵 Nobuko Takada (言及のみ) 楽巌寺嘉伸 五条悟 三輪霞 漏瑚 (カメオ登場) 花御 (カメオ登場) Pseudo-夏油 (カメオ登場) 宿儺 (カメオ登場) 乙骨憂太 (カメオ登場) 真人 吉野順平 虎杖悠仁 七海建人",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "釘崎野薔薇 vs. 禪院真依 (終了)",
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-0bca269a4a",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-678a848346",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-ac327bdd73",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-e3eff1da1c",
+    "term-f74654d902"
+  ],
+  "key_events_verified_phase1": [
+    "真希と真依が禪院家での立場を巡って衝突する",
+    "釘崎が真希へ敬意を示す",
+    "五条が楽巌寺へ次世代の台頭を警告する",
+    "映画館の変死事件と真人・順平が登場する",
+    "虎杖と七海が事件の調査へ入る"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0bca269a4a",
+      "presence": "mention"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "mention"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "mention"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-5724ed462b",
+    "char-5a0f7ded8d",
+    "char-24d736edff",
+    "char-d76df97dca",
+    "char-0bca269a4a",
+    "char-ac327bdd73",
+    "char-17322e71e5",
+    "char-ebd2a8efa8",
+    "char-c28763b98a",
+    "char-dea43d7fc7",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-baadf43d19",
+    "char-6309a7e2f4"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-bfcc1b065d",
+    "term-549dd18f32",
+    "term-67566a7224"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03"
+  ]
+}

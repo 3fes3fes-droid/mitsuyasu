@@ -1,0 +1,140 @@
+{
+  "id": "ch-068",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 8,
+  "number": 68,
+  "zero_number": null,
+  "label": "第68話",
+  "title_official": "懐玉―肆―",
+  "title_search_normalized": "懐玉―肆―",
+  "start_page": 131,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-08"
+  ],
+  "source_locator": "単行本8巻 目次 p.131",
+  "summary_short": "理子に懸けられた賞金を狙い、複数の呪詛師が学校へ侵入する。五条と夏油は別れて理子を捜し、襲撃者を排除していく。",
+  "summary_full": "理子の学校へ懸賞金目当ての呪詛師が侵入する。甚爾は孔時雨と競馬場にいながら、暗殺者たちが五条を疲労させる状況を作る。夏油は校内で式神使いを捕らえ、式神の主を特定して制圧する。五条と黒井は別方向から理子を捜し、五条は礼拝堂へ向かう。理子の近くには袋で顔を隠した分身術者が接近しており、護衛任務は学校の日常を巻き込んだ戦闘へ変わる。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "With a 30 million yen bounty on 天内理子 's head, curse users invade her school in an attempt to collect the bounty. 伏黒甚爾 's scheme provides free labor for the 盤星教 while the 星漿体 Vessel 's guardians scramble to locate the girl and repel the intruders.",
+    "summary_full_legacy": "悟, 傑, and 黒井 rush to protect 理子 from the intruders. 甚爾 sits on the phone with 孔時雨 while eating at a dumpling stand. He learns that the sorcerers protecting the 星漿体 Vessel have not returned to 呪術高専. This is good for the 時の器の会 because now more than just total lunatics will go after the bounty. The representative points out that the thirty million paid to him was a service fee so if someone else kills the 星漿体 Vessel, 甚爾 may end up with nothing. The Sorcerer Killer isn't worried however, he knows the 五条 boy will take care of anyone who comes after them. 五条悟 is the first in a hundred years of the 五条家 to wield both the 六眼 and the 無下限呪術 術式. 甚爾's not even sure he could take out the 星漿体 Vessel with 悟 present. He plans on using curse users for the remaining thirty-nine hours of the mission to wear down 五条's group. It will be free labor since no one will be able to cash in on the bounty. The representative realizes that this makes the limit of two days turn out in their favor. Additionally, it makes it easier for them to gather curse users. 傑 splits off to confront the enemy. 甚爾 says that things are moving faster than he expected and he'll be moving out soon as well. He tells the rep to have that thirty million ready, but the man wants to talk about his cut, which disinterests 甚爾. At Renchoku Girls' Junior High , 悟 , 傑 , and 黒井 move to find 理子. She is at her music class which is either taking place in the music room or the chapel. 傑 plans on heading straight for the intruders while 悟 and 黒井 split up to find 理子. 悟 is irritated because he wanted to stay close to the girl. 黒井 apologizes, as 理子 didn't want to be seen with boys at a girls only school. A 式神 user comes for the bounty. 傑 splits off on his own, wondering who these curse users could be with. Without Q around, hired muscle for the 時の器の会 could be trouble. 傑 makes a turn down a hallway and encounters an old gentlemen who immediately covers his front and rear with 式神 . The 呪詛師 recognizes 傑's uniform and assumes their are multiple opponents. 傑 notices this and understands that his opponent knows what he's doing. His opponent analyzes him as well, recognizing the student's 術式 is some kind of curse manipulation . 傑 dispatches a 呪詛師 at close quarters. The old man keeps up conversation with 傑 while plotting to get in close range. 傑 tells him not to waste his time plotting and uses his giant worm-like curse to fill the entire hallway. 傑 believes he's won, but the 呪詛師 appears from the window behind him, using the blind spot his opponent created to his advantage. He gets within close range and believes he has the advantage. When 呪詛師 was a young student, he had a dog that he thinks of as his life flashes before his eyes. 傑 dominates the old man in close quarters and beats him senseless with ferocious succession of quick strikes. He recognized that the old man wanted to get in close and states that fighters who are presented with a single way to win are easy to manipulate. He questions the old man, asking if he's aligned with Q or the 時の器の会. 悟 and 黒井 continue to head toward 理子, who's currently in the chapel. Close by is the other 呪詛師 with the paper bag over his head. He wants to get eel tonight and eat a meal paid for in blood.",
+    "characters_raw_text": "伏黒甚爾 孔時雨 五条悟 美里 黒井 夏油傑 Old Man 呪詛師 天内理子 Bag Mask 呪詛師",
+    "locations_raw_text": "浜松市",
+    "battles_events_raw_text": "夏油傑 vs. 式神 呪詛師",
+    "techniques_raw_text": "Old Man 呪詛師's 術式 式神 夏油傑の術式 呪霊操術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-22da946917",
+    "char-526551b91f",
+    "char-63e2590b87",
+    "char-ac5bfb99ac",
+    "char-b8fa3c89b0",
+    "char-b9d4880408",
+    "char-d218cffa84",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_candidate": [
+    "term-041be91538"
+  ],
+  "key_events_verified_phase4": [
+    "懸賞金目当ての呪詛師が理子の学校へ侵入する",
+    "夏油が式神使いを制圧する",
+    "分身術者が理子へ接近する"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22da946917",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-526551b91f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b8fa3c89b0",
+      "presence": "appearance-and-defeated"
+    },
+    {
+      "character_id": "char-d218cffa84",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-d5482ceba1",
+    "char-22da946917",
+    "char-17322e71e5",
+    "char-b9d4880408",
+    "char-63e2590b87",
+    "char-526551b91f",
+    "char-b8fa3c89b0",
+    "char-d218cffa84"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-4298e6aa9b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase4-clone-unnamed",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-1bc0d9ec7b",
+    "tech-4298e6aa9b",
+    "tech-phase4-clone-unnamed"
+  ],
+  "term_ids_verified_phase4": [
+    "term-041be91538",
+    "term-phase4-star-religious-group",
+    "term-phase4-time-vessel-association",
+    "term-cba4367139",
+    "term-6f0611c4ff"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-08",
+    "src-manga-games-vol-08",
+    "src-official-character-vote-4"
+  ]
+}

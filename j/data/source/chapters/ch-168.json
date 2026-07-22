@@ -1,0 +1,151 @@
+{
+  "id": "ch-168",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 19,
+  "number": 168,
+  "zero_number": null,
+  "label": "第168話",
+  "title_official": "東京第１結界⑧",
+  "title_search_normalized": "東京第1結界8",
+  "start_page": 126,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-19"
+  ],
+  "source_locator": "単行本19巻 目次 p.126",
+  "summary_short": "伏黒はレジィ一派の攻撃を受け、麗美も自分が利用されていたと知る。日車が譲った得点によって、参加者間で得点を移せる新規則が追加される。",
+  "summary_full": "伏黒はレジィ、黄櫨、針、麗美の連携攻撃を受ける。黄櫨は切り離した肉体の一部を爆発させ、針は鉤爪で襲う。レジィは死滅回游の目的を泳者の呪力を利用した羂索の爆弾だと推測し、伏黒を仲間へ誘うが、津美紀を救う目的を優先する伏黒は拒否する。日車が追加した得点移動の総則が全泳者へ告知される中、伏黒は針を殺し、戦力を分断する。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 walks into an ambush of different cursed techniques from レジィ・スター and his group of sorcerers . After withstanding tons of punishment, 恵 gets his second wind once コガネ announces a certain new rule has been added to the 死滅回游 .",
+    "summary_full_legacy": "黄櫨折 attacks 恵 without any regard for 麗美. A detached eye is dropped through the air next to the open balcony 恵 is standing next to before suddenly exploding. This was caused by another player named 庵 黄櫨折 , one of レジィ's allies. レジィ warns 黄櫨折 about friendly fire and the now one-eyed sorcerer breaks off some of his teeth while asking if their target is dead. 恵 escapes the smoke created by the blast and immediately avoids an attack from 麗美. She tries to strike him with her scorpion-stinger-like hair but 恵 counters and throws her to the ground. 恵 aggressively asks her if she's had enough and 黄櫨折 swings down from the floor above and tosses his teeth at 恵 like projectiles. レジィ also throws receipts that transform into gas and splash all over 恵. In combination with the gasoline, 黄櫨折の explosives result in a massive blast that erupts through the top of the building. With no allies left, 麗美 continues to be a thorn in 恵's side. レジィ opens a door and comes out of the room he used to hide from the blast. He asks if they're finished but 黄櫨折 saw 恵 duck into another room to avoid damage too. レジィ commends 恵's tenacity but they're sure he's been at least worn down. 恵 gets a door that's fallen on him out of the way and tells 麗美 that レジィ's group will never protect her. The explosions could've easily killed her as collateral damage, proving 麗美 is completely disposable. 恵 tries to leave her behind but 麗美 stabs him in the back with her hair. She desperately begs 恵 to say that he likes her and that he will protect her. Disgusted, 恵 realizes that 麗美 is the type of person who cares more about words than deeds. 針千鈞 , the player 恵 tossed over the side of the building at the start of the scuffle, rejoins the fray. He compliments 恵 for getting the better of him before but notes that the student is in rough shape now. Hari also mentions it was a pain scaling the building and 恵 taunts him for not taking the stairs. 恵 knows four-on-one is a heavy disadvantage but he's determined to get their points no matter what. \" All you need to do is wave away any sparks that fly your way. \" Suddenly, コガネ announces that a new rule has been added to the 死滅回游. Rule Ten allows for players to transfer points between one another. Surprised and reinvigorated, 恵 smiles and immediately takes the fight to Hari while he's distracted. He summons 満象 and forces Hari out of the building. 恵 uses 鵺 to mount Hari in mid-air and then smashes his face with the hilt of his sword. Hari crashes to the ground heavily injured, cursing 恵 for hurting him. Before he can get up, 恵 slashes his face open with his sword and eliminates him. For a moment, 恵 questions what he's doing because they'll need more points in the future. He refocuses by reminding himself that 津美紀 won't have to participate in the killing now. He remembers to keep his head and to trust in his comrades instead of forcing himself to take his opponent's points. As コガネ rewards him with five points, 恵 reaffirms to himself that he just needs to deal with difficulties as they come. A comedic newcomer to the rescue. レジィ and 黄櫨折 descend to ground level where their opponent is using umbrellas. The former is especially embarrassed by Hari's lack of skill, having not even displayed his 術式. 恵 notices that 麗美 is out of the picture but he's still outnumbered and feeling the effects of the first explosion. He can't flee and using 領域展開 is also not an option because it's still incomplete. 黄櫨折 abruptly spits out one of his separated teeth at 恵 to use as another bomb, but someone steps in front of the blast to protect him. Everyone is surprised by the newcomer named 高羽史彦 . 高羽 states that two-on-one fights are unfair and calls レジィ and 黄櫨折 cowards. He adds that their attacks have done zero damage although the bleeding from his face and head make it clear he was in fact hurt, confusing 恵.",
+    "characters_raw_text": "伏黒恵 レジィ・スター 庵 黄櫨折 麗美 針千鈞 伏黒津美紀 (言及のみ) 高羽史彦",
+    "locations_raw_text": "東京第1結界／池袋",
+    "battles_events_raw_text": "死滅回游 伏黒恵 vs. レジィ・スター's Group 伏黒恵 vs. レジィ・スター's Group",
+    "techniques_raw_text": "Cursed 術式 庵 黄櫨折の Explosive Flesh 術式 針千鈞's Claw 術式 伏黒恵の術式 十種影法術 術式 満象 鵺 満象 鵺 レジィ・スターの術式 再契象／式神 コガネ",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo1",
+  "character_ids_candidate": [
+    "char-026d657efa",
+    "char-02aa196fbb",
+    "char-0f2e6e85bf",
+    "char-27f5cf78ab",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-577ea0ec09",
+    "char-8a6e43878f",
+    "char-996d48af99",
+    "char-a5d1c4b82b",
+    "char-df284f67ad"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b7f0d29f5",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-df284f67ad"
+  ],
+  "term_ids_candidate": [
+    "term-6d3234fdfd"
+  ],
+  "key_events_verified_phase9": [
+    "レジィ一派が伏黒を包囲する",
+    "レジィが死滅回游の目的について推測を語る",
+    "伏黒が共闘の誘いを拒否する",
+    "総則10が全泳者へ告知される",
+    "伏黒が針千鈞を殺す"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-026d657efa",
+      "presence": "negotiates-and-fights"
+    },
+    {
+      "character_id": "char-27f5cf78ab",
+      "presence": "attacks"
+    },
+    {
+      "character_id": "char-a5d1c4b82b",
+      "presence": "used-as-decoy"
+    },
+    {
+      "character_id": "char-577ea0ec09",
+      "presence": "killed"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "arrives"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-3c1852867d",
+    "char-026d657efa",
+    "char-27f5cf78ab",
+    "char-a5d1c4b82b",
+    "char-577ea0ec09",
+    "char-02aa196fbb"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-511d655411",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-05be7e32d8",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-df284f67ad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-4b7f0d29f5",
+      "relation": "revealed"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-511d655411",
+    "tech-05be7e32d8",
+    "tech-7c3237f986",
+    "tech-df284f67ad",
+    "tech-996d48af99",
+    "tech-4b7f0d29f5"
+  ],
+  "term_ids_verified_phase9": [
+    "term-7ef1b59819",
+    "term-152790e31d",
+    "term-bb89ef15f2",
+    "term-6d3234fdfd"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-19",
+    "src-manga-games-vol-19",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

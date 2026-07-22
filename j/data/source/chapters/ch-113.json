@@ -1,0 +1,116 @@
+{
+  "id": "ch-113",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 13,
+  "number": 113,
+  "zero_number": null,
+  "label": "第113話",
+  "title_official": "渋谷事変㉛",
+  "title_search_normalized": "渋谷事変31",
+  "start_page": 133,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-13"
+  ],
+  "source_locator": "単行本13巻 目次 p.133",
+  "summary_short": "甚爾は本能のまま伏黒を襲い、父子と知らない伏黒は必死に応戦する。名字が伏黒のままだと知った甚爾は安堵し、自ら命を絶って支配を終わらせる。",
+  "summary_full": "降霊された甚爾は本能のまま伏黒を攻撃し、伏黒は速度差を読みながら脱兎や影を使って致命傷を避ける。甚爾は息子だと認識しないまま戦うが、過去に恵を禪院家へ売る話を直毘人と交わした記憶がよみがえる。名前を尋ね、恵が「伏黒」と答えたことで禪院家へ行かなかったと悟ると、甚爾は安堵して自ら頭を刺し、宿主の肉体ごと死亡して暴走を終わらせる。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 has been separated from the others and forced to fight someone he has no chance of defeating. Unbeknownst to 恵, this adversary is his own father! As a vessel of carnage, 甚爾 instinctively attacks 恵. Before father and son are forced to kill one another, 甚爾 recalls an important memory of the past that restores some of his humanity and uses the chance to atone.",
+    "summary_full_legacy": "\" Vizualize winning... \" The streets of 渋谷 are much emptier than earlier in the incident thanks to 狗巻棘 's efforts. The civilians and the transfigured humans are gone, so 恵 can focus on the opponent in front of him. 恵 tries to visualize winning, but 甚爾 is far too much of a monster to even fathom defeating. 恵 activates 脱兎 but both fighters notice 宿儺's presence suddenly appearing in 渋谷. 恵 uses the torrent of rabbits as a distraction to create distance from his adversary. He also summons 蝦蟇 and asks himself why he just felt 宿儺. 甚爾 instinctively charges into the swarm of rabbits and nearly stabs 恵 with the sharpened 游雲. 恵 dives on the ground to avoid it, surprising 甚爾. 恵 uses all the tricks he has to avoid certain death. Running low on 呪力 , 恵's sole advantage is that 硝子 is stationed somewhere in 渋谷. She's in a tent at a toll gate on the Metropolitan Expressway being guarded by Principal 夜蛾 and his cursed corpses . 硝子 tells him to join the fight but 夜蛾 refuses, claiming that she's extremely crucial to the operation. So much so that the enemy would undoubtedly head straight to their position if they learned 硝子 was in 渋谷. 伊地知 and 猪野 would both have perished if not for her. 硝子 says that's only thanks to the Principal's quick thinking. They set up this station before 七海 contacted them, freeing him up to help with the mission. She states all this while smoking, confusing 夜蛾 who believes she quit a long time ago. 硝子 puts out the cigarette and reveals that she's just feeling nostalgic about her student days right now. \" Not 禪院 huh? Good for you. \" 甚爾 chases after 恵 and nearly stabs him from behind. 蝦蟇's tongue pulls 恵 down an alleyway to avoid the attack at the last second. 恵 understands that 甚爾 made short work of a special grade and his 式神 are no match for him. He needs to focus on sacrificing his body rather than his 式神 and decides it's best to limit any injuries to something 硝子 can handle quickly. As 甚爾 stands at the end of the alleyway, 恵 surmises that he has to predict his opponent's timing because of his speed and understands that any flaw in timing will surely result in death. 甚爾 suddenly blitzes 恵 and nearly stabs him again, but his foot is submerged inside 恵's shadow. This throws off the trajectory of 甚爾's attack, preventing a fatal injury. It ends up just being a flesh wound, allowing 恵 to grab his opponent. 恵's battle comes to an abrupt end. 恵 summons a sword from his shadows and attempts to stab 甚爾 with it while they're wrestling. However, 甚爾 disappears in an instant, avoiding it with incredible speed despite it being at point-blank range. 恵 believes that he's out of options and 甚爾 suddenly recalls a memory of his past. It was the time when 甚爾 agreed to meet with 直毘人 in order to sell 恵 to the 禪院家 . 甚爾 believed that 恵 would have potential and he could possibly make something of himself in the 禪院家. 甚爾 never fit in but he thought that would be the best way to take care of him in the long run. After not speaking a word since 恵 met him, 甚爾 suddenly asks 恵 what his name is. 恵 answers \"伏黒.\" Relieved that his son didn't go to the 禪院 clan, 甚爾 stabs himself in the head, killing his vessel in order to save his son from this mindless rampage. His body collapses, shocking 恵 with the outcome of it all.",
+    "characters_raw_text": "伏黒恵 伏黒甚爾 狗巻棘 (回想) 夜蛾正道 家入硝子 伊地知潔高 猪野琢真 禪院直毘人 (回想)",
+    "locations_raw_text": "渋谷 外 渋谷駅 首都高速3号線: 渋谷 線 渋谷 料金所 外 渋谷駅 首都高速3号線: 渋谷 線 渋谷 料金所 渋谷 料金所",
+    "battles_events_raw_text": "The 渋谷事変 伏黒恵 vs. 伏黒甚爾 伏黒恵 vs. 伏黒甚爾",
+    "techniques_raw_text": "呪具 游雲 伏黒恵の術式 十種影法術 術式 脱兎／蝦蟇 脱兎／蝦蟇",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-0be6deff32",
+    "char-22abdd626c",
+    "char-3c1852867d",
+    "char-58278d1ec5",
+    "char-a61d6ef891",
+    "char-b18262c082",
+    "char-b4d661547b",
+    "char-cf2d32d5b9",
+    "char-d4a4bc45c6",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-0be6deff32",
+    "tech-7c3237f986",
+    "tech-b18262c082"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase6": [
+    "伏黒と降霊された甚爾が戦う",
+    "伏黒が影と式神で甚爾の攻撃をしのぐ",
+    "甚爾が伏黒の姓を確認する",
+    "甚爾が自害して降霊の暴走を終わらせる"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "self-killed-incarnated-body"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-d5482ceba1",
+    "char-3c1852867d",
+    "char-22abdd626c"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-0be6deff32",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-fbf15eb3e2",
+      "relation": "terminated-by-host-death"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-7c3237f986",
+    "tech-0be6deff32",
+    "tech-fbf15eb3e2"
+  ],
+  "term_ids_verified_phase6": [
+    "term-bfcc1b065d",
+    "term-phase5-body",
+    "term-65867f280c",
+    "term-f74654d902"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-13",
+    "src-manga-games-vol-13",
+    "src-legacy-ju-txt"
+  ]
+}

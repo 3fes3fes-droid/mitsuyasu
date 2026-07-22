@@ -1,0 +1,119 @@
+{
+  "id": "ch-024",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 24,
+  "zero_number": null,
+  "label": "第24話",
+  "title_official": "幼魚と逆罰―陸―",
+  "title_search_normalized": "幼魚と逆罰―陸―",
+  "start_page": 149,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.149",
+  "summary_short": "虎杖は映画を通じて順平と親しくなり、順平の母・凪と食卓を囲む。七海と真人はそれぞれ先の戦闘で負った傷を癒し、次の動きに備える。",
+  "summary_full": "虎杖と順平は映画の趣味で意気投合し、順平の母・凪に招かれて吉野家で夕食を共にする。虎杖の率直さと凪の存在に触れ、順平は学校への復讐を思い直し始める。地下では瓦礫から生き延びた真人が羂索と合流し、七海との戦いで得た手応えを語る。七海は家入の治療を受け、真人を放置できないと警戒する。その夜、吉野家に置かれた両面宿儺の指へ呪霊が引き寄せられ、凪が殺害される。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 bonds with 順平 over movies and joins him for dinner with his mother . Meanwhile, both 七海建人 and 真人 recover from their encounter.",
+    "summary_full_legacy": "順平 and 悠仁 continue their conversation about movies. 順平 explains why he liked the second \"Earthworm Man\" movie and asks if 悠仁 likes movies as well. 悠仁 explains that his circumstances has him watching movies a lot recently but not in a theater. 真人 survives. 順平 believes movies are best watched in the theater and 悠仁 asks to go together in the future. Just as 順平 collects 悠仁's contact information, his mother arrives to bring him home. 順平's mother meets her son's new friend and invites him to dinner. Meanwhile underground, 真人 escapes the rubble trap created by 七海. He's pleased with 七海's tactics and 夏油 arrives to comment on the duel. 真人 tells Getro that he learned a lot about his own abilities. He's capable of maintaining his soul's shape even if he's crushed and says he can manipulate his 呪力 purely on will alone. 夏油 asks about 七海's fate but 真人 isn't sure what happened to him. 悠仁 joins 順平 and his mother for dinner. Above ground, 伊地知潔高 calls 悠仁 and is surprised to find out he's watching movies at 順平's house. Afraid that 七海 will scold him for messing up as a manager, 伊地知 rushes to pick up 悠仁. His worse fears come true as 七海 calls him, but the grade 1 sorcerer asks for assistance from Doctor 家入 to treat his injuries. 伊地知 replies that he'll come right after he picks up 悠仁, exposing himself on accident. 七海 yells for a moment before hanging up. He's more focused on the fact that the only reason he escaped the battle with 真人 alive is because he's a child. 順平's mother happens upon one of 宿儺の指. 七海 fears that 真人 will continue to enjoy as he grows in power. If he becomes as strong as 漏瑚 , the 呪霊 who fought 悟, 七海 fears they might not exorcise 真人 before it's too late. Back at 順平's house, 悠仁 bonds with 順平 and his mother. Despite 順平's mother behaving like a drunken fool, 悠仁 says she's a good person. He shares that he didn't know either of his parents but always had his grandfather. After 悠仁 takes the call from 伊地知, 順平 asks if he's a jujutsu sorcerer. 悠仁 admits he is and 順平 asks if he will ever have to kill anyone. 悠仁 would rather not kill anyone but he's not so naïve as to believe the choice to kill will never make its way to him. Even so, he fears the day he values life less than he does now, because it could affect how he feels about those important to him. That night after 悠仁 leaves, 順平 tells himself that he won't be able to kill because it will stain his soul. He thinks of his mother just as she awakens in the kitchen. She realizes that 悠仁 left and is perplexed by a finger sitting on her table. Unfortunately, this is one of 宿儺 's fingers and it draws a 呪霊 behind her.",
+    "characters_raw_text": "吉野順平 虎杖悠仁 吉野凪 真人 Pseudo-夏油 伊地知潔高 七海建人 家入硝子 (言及のみ) 漏瑚 (言及のみ)",
+    "locations_raw_text": "川崎市 吉野 家 吉野 家",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪物 呪霊 呪術師",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-6309a7e2f4",
+    "char-678a848346",
+    "char-a61fa295f1",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-c0e690427b",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase2": [
+    "虎杖が順平・凪と食卓を囲む",
+    "真人が羂索と合流する",
+    "宿儺の指に引き寄せられた呪霊に凪が殺害される"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c0e690427b",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-baadf43d19",
+    "char-236cc955ae",
+    "char-c0e690427b",
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-6309a7e2f4",
+    "char-d4a4bc45c6"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used-for-self-restoration"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase2": [
+    "term-5b5abca89c",
+    "term-a0ce00ef9e",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03",
+    "src-official-character-vote-4"
+  ]
+}

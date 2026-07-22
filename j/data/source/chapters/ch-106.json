@@ -1,0 +1,154 @@
+{
+  "id": "ch-106",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 106,
+  "zero_number": null,
+  "label": "第106話",
+  "title_official": "渋谷事変㉔",
+  "title_search_normalized": "渋谷事変24",
+  "start_page": 171,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.171",
+  "summary_short": "脹相が虎杖へとどめを刺そうとした瞬間、虎杖を弟として囲む存在しない記憶が流れ込み混乱する。一方、七海と禪院班は特級呪霊・陀艮と遭遇する。",
+  "summary_full": "脹相は壊相・血塗と残る九相図、そして虎杖が兄弟として食卓を囲む「存在しない記憶」を見て、とどめを刺せず混乱して立ち去る。枷場美々子と菜々子は意識を失った虎杖へ宿儺の指を飲ませる。同じ頃、七海・真希・直毘人は駅地下で呪胎状態の陀艮を発見。直毘人の投射呪法と連携攻撃で追い詰めるが、花御の死を悟った陀艮は成体へ変貌する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 has been defeated at the hands of 脹相 . However, before he can avenge his brothers, 脹相's mind is invaded by a memory of something that never happened. Meanwhile, 七海 joins up with the 禪院 Team and encounters 陀艮 in 渋谷駅 .",
+    "summary_full_legacy": "脹相 peaceful vision with 悠仁 as one of his brothers. Victorious, 脹相 tells 悠仁 to ask for 壊相 and 血塗 's forgiveness in the afterlife. 宿儺 watches from his innate domain disappointed with 悠仁's performance. He calls the jujutsu student worthless and can't believe he lost to such an inferior opponent. Suddenly, 脹相's head begins to throb and he stumbles away from 悠仁, abruptly stricken with a headache. At that moment, a memory was born inside 脹相's brain of a past event that never happened. 脹相 recalls eating peacefully at a picnic table with all his brothers, somehow also including 悠仁. They were both eating with 壊相 and 血塗 as well as the other six brothers still sealed in constraints as 呪胎: 呪胎九相図 . 悠仁 even passed him some food and called 脹相 \"big bro\". When the memory ends, 脹相 bends over forward and sweat drips profusely off of his face. He doesn't understand what's going on and asks himself why 悠仁 was apart of that recollection. As 脹相 stumbles away confused, 美々子 and 菜々子 appear to feed one of 宿儺の指 to the unconscious vessel. 七海 and the 禪院 Team find 陀艮 in 渋谷駅. At 10:20 P.M. on the Inokashira 線 of 渋谷駅, 七海 and the Zenins head toward B5F. 七海 informs them about 五条悟 's sealing and Pseudo-夏油 's involvement. 直毘人 mentions he wouldn't mind the decline of the 五条 Clan , prompting 真希 to tell him to leave if he's not going to help. The head of the 禪院家 believes 真希 is the one who should go home. 七海 actually agrees with 直毘人, having left 野薔薇 behind due to the danger of the mission. 真希 believes she's more useful than her drunken uncle. Irritated, 七海 asks 直毘人 if he's been drinking and the special grade 1 sorcerer claims he's done nothing of the sort. As they reach the lower floors of the station, 七海 thinks maybe he should have gone alone. 禪院直毘人 uses immense speed to overpower 陀艮 真希 notices something while they're running and 七海 sees it as well. The octopus-like curse 陀艮 is hiding behind one of the pillars in the open area. 七海 draws his sword and prepares to exorcise him when suddenly 直毘人 appears behind 陀艮. 直毘人 traps 陀艮 in a frame using his 術式 . While 陀艮 is immobilized inside the frame, 直毘人 lands a heavy right straight that sends the curse flying across the room and crashing into another pillar. 七海 and 真希 couldn't even see what happened it was so fast, with the former believing it was too fast even. The impact severely injures 陀艮, causing him to vomit up the skeletal remains of the numerous non-sorcerers he ate. Writhing in pain, 陀艮 calls out to his allies, including 花御 . 陀艮 suddenly realizes 花御 is dead, enraging him and forcing an evolution. 陀艮 leaves his petite skin behind and evolves into a much larger, muscular form. 直毘人 recognizes that the curse was so weak before because he was only a cursed womb .",
+    "characters_raw_text": "脹相 宿儺 虎杖悠仁 壊相 (回想) 血塗 (回想) 菜々子 美々子 禪院真希 七海建人 禪院直毘人 陀艮",
+    "locations_raw_text": "渋谷 渋谷駅 井の頭線改札 渋谷駅 井の頭線改札 井の頭線改札",
+    "battles_events_raw_text": "The 渋谷事変 呪術師s vs. 陀艮 (開始) 呪術師s vs. 陀艮 (開始)",
+    "techniques_raw_text": "禪院直毘人の術式 投射呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-1a74b17cf8",
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-6309a7e2f4",
+    "char-6534bbe6c9",
+    "char-6674ce6baa",
+    "char-851111b10d",
+    "char-964e851215",
+    "char-baadf43d19",
+    "char-da4ca46be3"
+  ],
+  "technique_ids_candidate": [
+    "tech-8b33629c5d",
+    "tech-cc23098baa"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase6": [
+    "脹相が虎杖を兄弟とする存在しない記憶を見る",
+    "脹相が虎杖へとどめを刺さず立ち去る",
+    "美々子と菜々子が虎杖へ宿儺の指を飲ませる",
+    "直毘人たちが陀艮と交戦する",
+    "陀艮が呪胎から成体へ変貌する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-confused"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "unconscious"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "imagined"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "imagined"
+    },
+    {
+      "character_id": "char-da4ca46be3",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-1a74b17cf8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "inside-innate-domain"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "transforms"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-da4ca46be3",
+    "char-1a74b17cf8",
+    "char-2b8d365a39",
+    "char-6309a7e2f4",
+    "char-24d736edff",
+    "char-22abdd626c",
+    "char-6674ce6baa"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-cc23098baa",
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_verified_phase6": [
+    "term-c5958133bc",
+    "term-d321a3c48f",
+    "term-a0ce00ef9e"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

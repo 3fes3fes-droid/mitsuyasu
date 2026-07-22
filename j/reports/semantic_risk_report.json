@@ -1,0 +1,23 @@
+{
+  "release_status": "first-pass-complete-crosscheck-pending",
+  "counts": {
+    "chapters": 275,
+    "characters_and_named_entities": 183,
+    "techniques": 121,
+    "terms": 84,
+    "arcs": 21
+  },
+  "known_pending": {
+    "detailed_chapter_summaries": 275,
+    "unknown_character_final_status": 34,
+    "characters_without_chapter_candidate": 0,
+    "editorial_technique_names": 5,
+    "verification_queue_rows": 133
+  },
+  "rules": [
+    "不明な生死を推測で確定しない",
+    "正式名称がない術式は編集名として表示",
+    "Fandom由来候補は完成根拠に昇格させない",
+    "アニメ・映画・ゲーム・小説・舞台・モジュロを登録しない"
+  ]
+}

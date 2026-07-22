@@ -1,0 +1,170 @@
+[
+  {
+    "id": "zero",
+    "name": "0巻／東京都立呪術高等専門学校",
+    "start": "zero-01",
+    "end": "zero-04",
+    "status": "manga-prequel",
+    "overview": "乙骨憂太と祈本里香、夏油傑による百鬼夜行を描く本編前日譚。"
+  },
+  {
+    "id": "cursed-womb",
+    "name": "呪胎戴天",
+    "start": 1,
+    "end": 18,
+    "status": "chapter-title-based",
+    "overview": "虎杖の受肉と高専入学、少年院での宿儺顕現、虎杖の復帰まで。"
+  },
+  {
+    "id": "junpei",
+    "name": "幼魚と逆罰",
+    "start": 19,
+    "end": 31,
+    "status": "chapter-title-based",
+    "overview": "真人と吉野順平を通じて、虎杖が人を殺す呪いと向き合う。"
+  },
+  {
+    "id": "exchange-event",
+    "name": "京都姉妹校交流会",
+    "start": 32,
+    "end": 54,
+    "status": "chapter-title-based",
+    "overview": "東京校と京都校の交流会。花御の襲撃と虎杖・東堂の共闘。"
+  },
+  {
+    "id": "origin-obedience",
+    "name": "起首雷同",
+    "start": 55,
+    "end": 64,
+    "status": "chapter-title-based",
+    "overview": "八十八橋の呪いと呪胎九相図・壊相、血塗との戦い。"
+  },
+  {
+    "id": "hidden-inventory",
+    "name": "懐玉・玉折",
+    "start": 65,
+    "end": 79,
+    "status": "chapter-title-based",
+    "overview": "五条と夏油の学生時代、星漿体護衛、夏油の離反。"
+  },
+  {
+    "id": "evening-festival",
+    "name": "宵祭り",
+    "start": 80,
+    "end": 82,
+    "status": "chapter-title-based",
+    "overview": "与幸吉と真人の決戦。渋谷事変直前の内通問題の決着。"
+  },
+  {
+    "id": "shibuya",
+    "name": "渋谷事変",
+    "start": 83,
+    "end": 136,
+    "status": "chapter-title-based",
+    "overview": "五条封印を狙う羂索側との大規模戦闘。多数の死と呪術界崩壊を招く。"
+  },
+  {
+    "id": "post-shibuya",
+    "name": "渋谷事変後／死滅回游準備",
+    "start": 137,
+    "end": 158,
+    "status": "database-editorial",
+    "overview": "乙骨の帰国、天元との接触、禪院家壊滅、秤の勧誘。"
+  },
+  {
+    "id": "tokyo1",
+    "name": "東京第1結界",
+    "start": 159,
+    "end": 173,
+    "status": "chapter-title-based",
+    "overview": "虎杖対日車、伏黒対レジィ。得点移動規則の追加。"
+  },
+  {
+    "id": "sendai",
+    "name": "仙台結界",
+    "start": 174,
+    "end": "ch-180",
+    "status": "chapter-title-based",
+    "overview": "乙骨が四つ巴の膠着を崩し、石流・烏鷺らと戦う。"
+  },
+  {
+    "id": "tokyo2",
+    "name": "東京第2結界",
+    "start": 181,
+    "end": 190,
+    "status": "chapter-title-based",
+    "overview": "秤対シャルル、パンダと秤対鹿紫雲。"
+  },
+  {
+    "id": "sakurajima",
+    "name": "桜島結界",
+    "start": 191,
+    "end": 199,
+    "status": "chapter-title-based",
+    "overview": "怨霊となった直哉との戦いを通じ、真希がさらに自由な境地へ至る。"
+  },
+  {
+    "id": "kenjaku-plan",
+    "name": "羂索の計画／天元争奪",
+    "start": 200,
+    "end": 210,
+    "status": "database-editorial",
+    "overview": "各国軍の投入と薨星宮での羂索対脹相・九十九。"
+  },
+  {
+    "id": "meguna",
+    "name": "津美紀救出失敗／宿儺受肉",
+    "start": 211,
+    "end": 215,
+    "status": "database-editorial",
+    "overview": "万の正体と、宿儺による伏黒への受肉。"
+  },
+  {
+    "id": "bath",
+    "name": "浴",
+    "start": 216,
+    "end": 221,
+    "status": "chapter-title-based",
+    "overview": "宿儺が伏黒の魂を沈め、万を殺す。五条が獄門疆から解放される。"
+  },
+  {
+    "id": "shinjuku-gojo",
+    "name": "人外魔境新宿決戦／五条対宿儺",
+    "start": 222,
+    "end": 238,
+    "status": "database-editorial",
+    "overview": "現代最強と史上最強の決戦。五条の死と鹿紫雲の挑戦。"
+  },
+  {
+    "id": "takaba-kenjaku",
+    "name": "バカサバイバー!!／髙羽対羂索",
+    "start": 239,
+    "end": 243,
+    "status": "chapter-title-based",
+    "overview": "髙羽が羂索を喜劇へ巻き込み、乙骨が奇襲する。"
+  },
+  {
+    "id": "shinjuku-raid",
+    "name": "人外魔境新宿決戦／対宿儺総力戦",
+    "start": 244,
+    "end": 264,
+    "status": "database-editorial",
+    "overview": "日車、乙骨、真希、日下部、ミゲル、東堂らが連続して宿儺へ挑む。"
+  },
+  {
+    "id": "finale",
+    "name": "決着",
+    "start": 265,
+    "end": 268,
+    "status": "chapter-title-based",
+    "overview": "虎杖の領域、伏黒と釘崎の復帰、宿儺の消滅。"
+  },
+  {
+    "id": "epilogue-main",
+    "name": "戦後／これから",
+    "start": 269,
+    "end": 271,
+    "status": "database-editorial",
+    "overview": "決戦の検討と呪術界の再編、虎杖たちの新たな任務。"
+  }
+]
