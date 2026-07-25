@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>FANZA</title>
+<style>
+:root {
+  --bg-color: #0a0a0a;
+  --card-bg: #181818;
+  --card-bg-hover: #222;
+  --text-color: #f1f1f1;
+  --text-dim: #aaa;
+  --accent: #ff4081;
+  --accent-2: #c8ff00;
+  --line: #222;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+               "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 14px;
+}
+button { font-family: inherit; }
+
+/* ===== ヘッダ ===== */
+#header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(10,10,10,0.95);
+  backdrop-filter: blur(10px);
+}
+#header h1 {
+  margin: 0; font-size: 20px; color: var(--accent);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+#header .meta {
+  color: var(--text-dim);
+  font-size: 12px;
+  white-space: nowrap;
+}
+#search {
+  flex: 1;
+  min-width: 100px;
+  background: #181818;
+  border: 1px solid var(--line);
+  color: var(--text-color);
+  padding: 8px 14px;
+  border-radius: 999px;
+  outline: none;
+  font-size: 13px;
+}
+#search:focus { border-color: var(--accent); }
+.btn {
+  background: #181818;
+  border: 1px solid var(--line);
+  color: var(--text-color);
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover { background: #ff5c95; color: #fff; }
+.btn .badge {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  font-size: 11px;
+  padding: 1px 7px;
+  line-height: 1.4;
+}
+.btn.primary .badge { background: #fff; color: var(--accent); }
+
+/* ===== グリッド (3列、可変) ===== */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  padding: 14px;
+}
+@media (max-width: 900px) {
+  #grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 540px) {
+  #grid { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  aspect-ratio: 16 / 11;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+}
+.card .thumb {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  background: #111;
+}
+.card .badge-corner {
+  position: absolute; top: 8px; left: 8px;
+  background: rgba(0,0,0,0.7);
+  color: var(--accent-2);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+}
+.card .badge-corner.no { color: var(--text-dim); }
+.card .play-overlay {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0;
+  background: rgba(0,0,0,0.35);
+  transition: opacity 0.15s ease;
+}
+.card:hover .play-overlay { opacity: 1; }
+.card .play-overlay svg {
+  width: 56px; height: 56px;
+  fill: #fff;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.6));
+}
+
+
+/* ===== 並び替えバー ===== */
+#sortbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border-bottom: 1px solid var(--line);
+  background: #0d0d0d;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+#sortbar .sort-label {
+  color: var(--text-dim);
+  font-size: 12px;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+#sortbar .btn {
+  padding: 6px 11px;
+  font-size: 12px;
+  flex: 0 0 auto;
+}
+#sortbar .btn.sort-active {
+  border-color: var(--accent);
+  color: #fff;
+  background: rgba(255, 64, 129, 0.25);
+}
+
+#status {
+  padding: 30px;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+/* ===== 全画面プレイヤー ===== */
+#player {
+  position: fixed; inset: 0;
+  background: #000;
+  z-index: 200;
+  display: none;
+  flex-direction: row;
+}
+#player.open { display: flex; }
+#player .video-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+#player video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #000;
+}
+#player .video-wrap .placeholder {
+  color: var(--text-dim);
+  text-align: center;
+  font-size: 14px;
+  padding: 24px;
+}
+#player .info {
+  width: 260px;
+  max-width: 28vw;
+  min-width: 220px;
+  height: 100vh;
+  background: #111;
+  border-left: 1px solid var(--line);
+  padding: 58px 14px 14px;
+  overflow-y: auto;
+}
+#player .info .meta-row {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 0 0 10px;
+  line-height: 1.55;
+}
+#player .info .meta-row b {
+  display: block;
+  color: var(--text-color);
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+#player .info .copy-id {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  background: #1d1d1d;
+  border: 1px solid var(--line);
+  color: var(--accent-2);
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: .04em;
+  user-select: none;
+  overflow-wrap: anywhere;
+}
+#player .info .copy-id:hover { border-color: var(--accent); color: var(--accent); }
+#player .info .copy-note {
+  display: inline-block;
+  min-height: 18px;
+  margin-left: 0;
+  margin-top: 6px;
+  color: var(--accent-2);
+  font-size: 12px;
+}
+
+.filter-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 100%;
+  background: #1d1d1d;
+  border: 1px solid var(--line);
+  color: var(--text-color);
+  padding: 5px 9px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.35;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.filter-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.filter-chip small {
+  color: var(--accent-2);
+  font-size: 11px;
+  white-space: nowrap;
+}
+#facet-clear,
+#facet-ng {
+  display: none;
+}
+#facet-ng {
+  border-color: rgba(255,64,129,.45);
+  color: var(--accent);
+}
+#player .info .actions {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#player .info .actions .btn {
+  width: 100%;
+  justify-content: flex-start;
+  white-space: normal;
+  text-align: left;
+}
+#player .close-btn {
+  position: absolute;
+  top: 16px; right: 16px;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+  display: flex; align-items: center; justify-content: center;
+}
+#player .close-btn:hover { background: rgba(0,0,0,0.85); }
+/* オーバーレイの次へボタン（通常時） */
+#player .next-btn {
+  position: absolute;
+  top: 16px; right: 66px;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: rgba(255,64,129,0.85);
+  border: 1px solid rgba(255,64,129,1);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  z-index: 10;
+  display: flex; align-items: center; gap: 6px;
+  white-space: nowrap;
+}
+#player .next-btn:hover { background: rgba(255,64,129,1); }
+/* サイドパネル内の次へボタン（iPad全画面対策） */
+#player-info .info-next-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  margin-bottom: 14px;
+}
+#player-info .info-next-btn:hover { background: #ff5c95; }
+@media (max-width: 900px) {
+  #player { flex-direction: column; }
+  #player .video-wrap { height: auto; flex: 1 1 auto; min-height: 0; }
+  #player .info {
+    width: 100%; max-width: none; min-width: 0;
+    height: auto; max-height: 30vh;
+    border-left: none; border-top: 1px solid var(--line);
+    padding: 12px 14px;
+  }
+}
+
+/* ===== モーダル (NG ワード) ===== */
+.modal-bg {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 300;
+  display: none;
+  align-items: center; justify-content: center;
+  padding: 20px;
+}
+.modal-bg.open { display: flex; }
+.modal {
+  background: #181818;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  display: flex; flex-direction: column;
+  overflow: hidden;
+}
+.modal header {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.modal header h3 { margin: 0; font-size: 16px; }
+.modal header button.x {
+  background: transparent; color: var(--text-dim);
+  border: none; font-size: 22px; cursor: pointer;
+  width: 32px; height: 32px; border-radius: 50%;
+}
+.modal header button.x:hover { background: #222; color: #fff; }
+.modal .body { padding: 16px 18px; overflow-y: auto; }
+.modal .add-row {
+  display: flex; gap: 8px; margin-bottom: 14px;
+}
+.modal .add-row input {
+  flex: 1;
+  background: #111;
+  border: 1px solid var(--line);
+  color: var(--text-color);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+.modal .add-row input:focus { border-color: var(--accent); }
+.ng-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.ng-list .tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #222;
+  border: 1px solid var(--line);
+  color: var(--text-color);
+  padding: 4px 6px 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+.ng-list .tag button {
+  background: #333;
+  border: none;
+  color: #fff;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.ng-list .tag button:hover { background: var(--accent); }
+.ng-list .empty { color: var(--text-dim); font-size: 12px; }
+.ng-toggle-row {
+  display: flex; align-items: center; gap: 10px;
+  background: #111;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+.ng-toggle-row:hover { border-color: var(--accent); }
+.ng-toggle-row input {
+  width: 18px; height: 18px;
+  accent-color: var(--accent);
+  flex: 0 0 auto;
+}
+.ng-toggle-row span { display: flex; flex-direction: column; gap: 2px; }
+.ng-toggle-row b { color: var(--text-color); font-size: 13px; }
+.ng-toggle-row small { color: var(--text-dim); font-size: 12px; line-height: 1.4; }
+#status .load-more-btn {
+  margin-top: 10px;
+  justify-content: center;
+}
+.modal footer {
+  padding: 10px 18px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>FANZA</h1>
+  <span class="meta" id="header-meta">loading...</span>
+  <input id="search" type="text" placeholder="検索: タイトル / 女優 / メーカー / ID">
+  <button class="btn" id="facet-clear" title="メーカー/出演者の一時フィルタを解除">絞り込み解除</button>
+  <button class="btn" id="facet-ng" title="現在のメーカー/出演者をNGワードへ追加">+ NG追加</button>
+  <button class="btn" id="ng-btn" title="NGワード">
+    🚫 NG <span class="badge" id="ng-badge">0</span>
+  </button>
+  <button class="btn" id="self-refresh-btn" title="このFANZAページだけをキャッシュ回避で再読み込みして、並びもランダム更新">
+    🔄 再読込
+  </button>
+</div>
+
+<div id="sortbar" aria-label="並び替え">
+  <span class="sort-label">並び替え</span>
+  <button class="btn" data-sort="random" title="毎回ランダムに並び替え">🎲 ランダム</button>
+  <button class="btn" data-sort="date_desc" title="配信日が新しい順">🆕 新着</button>
+  <button class="btn" data-sort="date_asc" title="配信日が古い順">📜 古い</button>
+  <button class="btn" data-sort="review_count_desc" title="レビュー件数が多い順">💬 レビュー多</button>
+  <button class="btn" data-sort="review_average_desc" title="平均評価が高い順">⭐ 評価高</button>
+  <button class="btn" data-sort="sample_desc" title="サンプル動画ありを先頭にする">▶ PVあり</button>
+    <button class="btn" data-sort="maker_asc" title="メーカー名順">🏢 メーカー</button>
+  <button class="btn" data-sort="actress_asc" title="先頭の出演者名順">👤 女優</button>
+  <button class="btn" data-sort="id_asc" title="ID順">🔤 ID</button>
+</div>
+
+<div id="grid"></div>
+<div id="status">読み込み中...</div>
+
+<!-- 全画面プレイヤー -->
+<div id="player">
+  <button class="close-btn" id="player-close" title="閉じる (ESC)">×</button>
+  <button class="next-btn" id="player-next" title="次へ (ランダム)">⏭ 次へ</button>
+  <div class="video-wrap" id="video-wrap"></div>
+  <div class="info" id="player-info"></div>
+</div>
+
+<!-- NG ワード モーダル -->
+<div class="modal-bg" id="ng-modal">
+  <div class="modal">
+    <header>
+      <h3>🚫 NGワード</h3>
+      <button class="x" id="ng-close">×</button>
+    </header>
+    <div class="body">
+      <label class="ng-toggle-row" for="ng-enabled">
+        <input id="ng-enabled" type="checkbox" checked>
+        <span>
+          <b>NGリストを有効にする</b>
+          <small>オフにすると登録ワードは残したまま、NG非表示だけ停止します</small>
+        </span>
+      </label>
+      <div class="add-row">
+        <input id="ng-input" type="text" placeholder="例: 女優名 / メーカー名 / タイトルの一部">
+        <button class="btn primary" id="ng-add">追加</button>
+      </div>
+      <div class="ng-list" id="ng-list"></div>
+    </div>
+    <footer>
+      <span>登録した単語が <b>タイトル / 女優 / メーカー / ID</b> に含まれる作品は非表示</span>
+      <span id="ng-saved-info"></span>
+    </footer>
+  </div>
+</div>
+
+<script>
+(() => {
+  const NG_KEY = "dmm_viewer_ng_words_v1";
+  const NG_ENABLED_KEY = "dmm_viewer_ng_enabled_v1";
+  const NG_FILE = "ng_words.json";
+  const PAGE_SIZE = 100;
+  const SORT_KEY = "dmm_viewer_sort_mode_v1";
+  const SORT_LABELS = {
+    random: "ランダム",
+    date_desc: "新着順",
+    date_asc: "古い順",
+    review_count_desc: "レビュー多い順",
+    review_average_desc: "評価高い順",
+    sample_desc: "PVあり優先",
+    maker_asc: "メーカー名順",
+    actress_asc: "女優名順",
+    id_asc: "ID順",
+  };
+  let works = [];
+  let ngWords = [];
+  let ngEnabled = true;
+  let sortMode = localStorage.getItem(SORT_KEY) || "random";
+  let currentFiltered = [];
+  let renderedCount = 0;
+  let currentWork = null;
+
+
+  /* ---------- f.json の項目差を吸収 ----------
+     f.py は thumbnail / mp4_url、古いHTMLは thumb_url / sample_mp4 を見るため、
+     ここで両方対応します。 */
+  function getThumbUrl(w) {
+    return w.thumb_url || w.thumbnail || w.thumbnail_large || "";
+  }
+
+  function getSampleUrl(w) {
+    return w.sample_mp4 || w.mp4_url || "";
+  }
+
+  function hasSampleMovie(w) {
+    return Boolean(getSampleUrl(w) || w.hls_url);
+  }
+
+  function getDateTime(w) {
+    const t = Date.parse(w.delivery_start_at || "");
+    return Number.isFinite(t) ? t : 0;
+  }
+
+  function getNum(v, fallback = -1) {
+    const n = Number(v);
+    return Number.isFinite(n) ? n : fallback;
+  }
+
+  function firstActress(w) {
+    return (w.actresses || []).find(Boolean) || "";
+  }
+
+  function compareText(a, b) {
+    return String(a || "").localeCompare(String(b || ""), "ja", {
+      numeric: true,
+      sensitivity: "base",
+    });
+  }
+
+  function originalIndex(w) {
+    return Number.isFinite(w.__originalIndex) ? w.__originalIndex : 0;
+  }
+
+  function assignRandomOrder() {
+    works.forEach((w, i) => {
+      if (!Number.isFinite(w.__originalIndex)) w.__originalIndex = i;
+      w.__rand = Math.random();
+    });
+  }
+
+  function applySort(list) {
+    const arr = list.slice();
+    const tie = (a, b) => originalIndex(a) - originalIndex(b);
+    switch (sortMode) {
+      case "date_desc":
+        arr.sort((a, b) => (getDateTime(b) - getDateTime(a)) || tie(a, b));
+        break;
+      case "date_asc":
+        arr.sort((a, b) => (getDateTime(a) - getDateTime(b)) || tie(a, b));
+        break;
+      case "review_count_desc":
+        arr.sort((a, b) => (getNum(b.review_count) - getNum(a.review_count)) || tie(a, b));
+        break;
+      case "review_average_desc":
+        arr.sort((a, b) => (getNum(b.review_average) - getNum(a.review_average)) || tie(a, b));
+        break;
+      case "sample_desc":
+        arr.sort((a, b) => (Number(hasSampleMovie(b)) - Number(hasSampleMovie(a))) || tie(a, b));
+        break;
+      case "maker_asc":
+        arr.sort((a, b) => compareText(a.maker, b.maker) || tie(a, b));
+        break;
+      case "actress_asc":
+        arr.sort((a, b) => compareText(firstActress(a), firstActress(b)) || tie(a, b));
+        break;
+      case "id_asc":
+        arr.sort((a, b) => compareText(a.id, b.id) || tie(a, b));
+        break;
+      case "random":
+      default:
+        sortMode = "random";
+        arr.sort((a, b) => (getNum(a.__rand, 0) - getNum(b.__rand, 0)) || tie(a, b));
+        break;
+    }
+    return arr;
+  }
+
+  function sortLabel() {
+    return SORT_LABELS[sortMode] || SORT_LABELS.random;
+  }
+
+  function sortSuffix() {
+    return ` / 並び: ${sortLabel()}`;
+  }
+
+  function updateSortButtons() {
+    document.querySelectorAll("#sortbar [data-sort]").forEach(btn => {
+      btn.classList.toggle("sort-active", btn.getAttribute("data-sort") === sortMode);
+    });
+  }
+
+  function setSortMode(mode) {
+    sortMode = SORT_LABELS[mode] ? mode : "random";
+    localStorage.setItem(SORT_KEY, sortMode);
+    if (sortMode === "random") assignRandomOrder();
+    resetAndRenderGrid();
+    updateSortButtons();
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }
+
+  /* ---------- NG ワード: 永続化 ----------
+     localStorage に保存しつつ、ng_words.json も都度ダウンロードできるよう
+     Blob URL を更新します(ブラウザのセキュリティ上、ローカルファイルへ
+     直接書き込みはできないため、最新版のダウンロードリンクを提供します)。
+  */
+  function loadNg() {
+    try {
+      const raw = localStorage.getItem(NG_KEY);
+      if (raw) ngWords = JSON.parse(raw) || [];
+    } catch (e) { ngWords = []; }
+
+    try {
+      const rawEnabled = localStorage.getItem(NG_ENABLED_KEY);
+      ngEnabled = rawEnabled === null ? true : rawEnabled !== "false";
+    } catch (e) { ngEnabled = true; }
+  }
+  function saveNg() {
+    localStorage.setItem(NG_KEY, JSON.stringify(ngWords));
+    renderNgList();
+    resetAndRenderGrid();
+    updateNgBadge();
+  }
+  function saveNgEnabled() {
+    localStorage.setItem(NG_ENABLED_KEY, ngEnabled ? "true" : "false");
+    renderNgList();
+    resetAndRenderGrid();
+    updateNgBadge();
+  }
+
+  /* 起動時に ng_words.json があれば読み込んでマージ。
+     これにより fetch_dmm.py と同じディレクトリに自前で
+     ng_words.json を置いた場合もそれを反映できる。 */
+  async function loadNgFile() {
+    try {
+      const r = await fetch(NG_FILE, { cache: "no-store" });
+      if (!r.ok) return;
+      const j = await r.json();
+      const list = Array.isArray(j) ? j : (j.words || []);
+      const set = new Set([...ngWords, ...list.filter(Boolean)]);
+      ngWords = Array.from(set);
+      localStorage.setItem(NG_KEY, JSON.stringify(ngWords));
+      if (!Array.isArray(j) && typeof j.enabled === "boolean" &&
+          localStorage.getItem(NG_ENABLED_KEY) === null) {
+        ngEnabled = j.enabled;
+        localStorage.setItem(NG_ENABLED_KEY, ngEnabled ? "true" : "false");
+      }
+    } catch (e) { /* ファイルがなければ無視 */ }
+  }
+
+  function updateNgBadge() {
+    const badge = document.getElementById("ng-badge");
+    const btn = document.getElementById("ng-btn");
+    badge.textContent = ngEnabled ? ngWords.length : "OFF";
+    btn.title = ngEnabled
+      ? `NGワード有効: ${ngWords.length}件`
+      : `NGワード無効: ${ngWords.length}件登録済み`;
+  }
+
+  function updateNgToggle() {
+    const checkbox = document.getElementById("ng-enabled");
+    if (checkbox) checkbox.checked = ngEnabled;
+  }
+
+  function renderNgList() {
+    updateNgToggle();
+
+    const list = document.getElementById("ng-list");
+    const savedInfo = document.getElementById("ng-saved-info");
+    list.innerHTML = "";
+    savedInfo.innerHTML = "";
+
+    if (ngWords.length === 0) {
+      list.innerHTML = '<span class="empty">登録なし</span>';
+      return;
+    }
+    ngWords.forEach((w, i) => {
+      const tag = document.createElement("span");
+      tag.className = "tag";
+      tag.innerHTML = `${escapeHtml(w)} <button title="削除">×</button>`;
+      tag.querySelector("button").onclick = () => {
+        ngWords.splice(i, 1);
+        saveNg();
+      };
+      list.appendChild(tag);
+    });
+    // ng_words.json のダウンロード補助情報
+    const blob = new Blob([JSON.stringify({ enabled: ngEnabled, words: ngWords }, null, 2)],
+                         { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    savedInfo.innerHTML =
+      `<a href="${url}" download="${NG_FILE}" style="color:var(--accent)">${NG_FILE} をダウンロード</a>`;
+  }
+
+  function isNgWork(w) {
+    if (!ngEnabled || ngWords.length === 0) return false;
+    const hay = [
+      w.title, w.maker, w.id,
+      ...(w.actresses || []),
+      w.label, w.series, w.director,
+    ].filter(Boolean).join("\n").toLowerCase();
+    return ngWords.some(ng => hay.includes(String(ng).toLowerCase()));
+  }
+
+  /* ---------- 検索 / 一時フィルタ ---------- */
+  let searchTerm = "";
+  let facetFilter = null; // { type: "maker" | "actress", value: string }
+
+  function normalizeKey(v) {
+    return String(v ?? "").trim().toLowerCase();
+  }
+
+  function facetTypeLabel(type) {
+    return type === "maker" ? "メーカー" : "出演者";
+  }
+
+  function countFacet(type, value) {
+    const key = normalizeKey(value);
+    if (!key) return 0;
+    return works.filter(w => {
+      if (type === "maker") return normalizeKey(w.maker) === key;
+      if (type === "actress") return (w.actresses || []).some(a => normalizeKey(a) === key);
+      return false;
+    }).length;
+  }
+
+  function matchFacet(w) {
+    if (!facetFilter) return true;
+    const key = normalizeKey(facetFilter.value);
+    if (!key) return true;
+    if (facetFilter.type === "maker") return normalizeKey(w.maker) === key;
+    if (facetFilter.type === "actress") return (w.actresses || []).some(a => normalizeKey(a) === key);
+    return true;
+  }
+
+  function facetLabel() {
+    if (!facetFilter) return "";
+    return ` / ${facetTypeLabel(facetFilter.type)}: ${facetFilter.value}`;
+  }
+
+  function updateFacetButtons() {
+    const clearBtn = document.getElementById("facet-clear");
+    const ngBtn = document.getElementById("facet-ng");
+    if (!clearBtn || !ngBtn) return;
+    if (!facetFilter) {
+      clearBtn.style.display = "none";
+      ngBtn.style.display = "none";
+      clearBtn.textContent = "絞り込み解除";
+      ngBtn.textContent = "+ NG追加";
+      return;
+    }
+    const label = facetTypeLabel(facetFilter.type);
+    clearBtn.style.display = "inline-flex";
+    ngBtn.style.display = "inline-flex";
+    clearBtn.textContent = `解除: ${label}`;
+    clearBtn.title = `${label}「${facetFilter.value}」の一時フィルタを解除`;
+    ngBtn.textContent = `+ NG: ${facetFilter.value}`;
+    ngBtn.title = `${label}「${facetFilter.value}」をNGワードへ追加`;
+  }
+
+  function setFacetFilter(type, value) {
+    const v = String(value ?? "").trim();
+    if (!v) return;
+    facetFilter = { type, value: v };
+    searchTerm = "";
+    const search = document.getElementById("search");
+    if (search) search.value = "";
+    closePlayer();
+    resetAndRenderGrid();
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }
+
+  function clearFacetFilter() {
+    facetFilter = null;
+    resetAndRenderGrid();
+  }
+
+  function addFacetToNg() {
+    if (!facetFilter) return;
+    const word = facetFilter.value;
+    if (word && !ngWords.includes(word)) {
+      ngWords.push(word);
+      localStorage.setItem(NG_KEY, JSON.stringify(ngWords));
+      facetFilter = null;
+      renderNgList();
+      resetAndRenderGrid();
+      updateNgBadge();
+      return;
+    }
+    facetFilter = null;
+    resetAndRenderGrid();
+  }
+
+  function matchSearch(w) {
+    if (!searchTerm) return true;
+    const q = searchTerm.toLowerCase();
+    const hay = [
+      w.title, w.maker, w.id,
+      ...(w.actresses || []),
+    ].filter(Boolean).join("\n").toLowerCase();
+    return hay.includes(q);
+  }
+
+  /* ---------- グリッド描画 ---------- */
+  function getFilteredWorks() {
+    return applySort(works.filter(w => !isNgWork(w) && matchFacet(w) && matchSearch(w)));
+  }
+
+  function resetAndRenderGrid() {
+    currentFiltered = getFilteredWorks();
+    renderedCount = 0;
+    updateFacetButtons();
+    renderGrid();
+  }
+
+  function renderGrid() {
+    const grid = document.getElementById("grid");
+    grid.innerHTML = "";
+
+    if (currentFiltered.length === 0 && works.length > 0) {
+      currentFiltered = getFilteredWorks();
+    }
+
+    document.getElementById("header-meta").textContent =
+      `${Math.min(PAGE_SIZE, currentFiltered.length)}表示 / ${currentFiltered.length}件` +
+      ` / 全${works.length}件` +
+      facetLabel() +
+      sortSuffix() +
+      (ngEnabled ? "" : " / NGオフ");
+
+    if (currentFiltered.length === 0) {
+      const status = document.getElementById("status");
+      status.style.display = "block";
+      status.textContent = works.length === 0
+        ? "f.json が読み込めません。"
+        : "該当する作品がありません";
+      return;
+    }
+
+    appendCards(0, Math.min(PAGE_SIZE, currentFiltered.length));
+    updateLoadStatus();
+  }
+
+  function appendCards(start, end) {
+    if (end <= start) return;
+    const grid = document.getElementById("grid");
+    const frag = document.createDocumentFragment();
+    currentFiltered.slice(start, end).forEach(w => {
+      frag.appendChild(createCard(w));
+    });
+    grid.appendChild(frag);
+    renderedCount = end;
+  }
+
+  function createCard(w) {
+    const card = document.createElement("div");
+    card.className = "card";
+    const img = document.createElement("img");
+    img.className = "thumb";
+    img.loading = "lazy";
+    img.alt = w.title || w.id;
+    img.src = getThumbUrl(w);
+    img.onerror = () => {
+      img.style.opacity = "0.3";
+      img.src =
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 11'><rect width='16' height='11' fill='%23222'/></svg>";
+    };
+    card.appendChild(img);
+
+    const badge = document.createElement("div");
+    badge.className = "badge-corner" + (hasSampleMovie(w) ? "" : " no");
+    badge.textContent = hasSampleMovie(w) ? "▶ SAMPLE" : "NO PV";
+    card.appendChild(badge);
+
+    const overlay = document.createElement("div");
+    overlay.className = "play-overlay";
+    overlay.innerHTML =
+      '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+    card.appendChild(overlay);
+
+    card.onclick = () => openPlayer(w);
+    return card;
+  }
+
+  function updateLoadStatus() {
+    const status = document.getElementById("status");
+    const total = currentFiltered.length;
+    document.getElementById("header-meta").textContent =
+      `${renderedCount}表示 / ${total}件` +
+      ` / 全${works.length}件` +
+      facetLabel() +
+      sortSuffix() +
+      (ngEnabled ? "" : " / NGオフ");
+
+    status.style.display = "block";
+    if (renderedCount < total) {
+      const next = Math.min(PAGE_SIZE, total - renderedCount);
+      status.innerHTML =
+        `表示中: ${renderedCount} / ${total} 件<br>` +
+        `<button class="btn load-more-btn" id="load-more">さらに${next}件表示</button>`;
+      document.getElementById("load-more").onclick = loadMore;
+    } else {
+      status.textContent = `全 ${total} 件を表示中`;
+    }
+  }
+
+  function loadMore() {
+    if (renderedCount >= currentFiltered.length) return;
+    const nextEnd = Math.min(renderedCount + PAGE_SIZE, currentFiltered.length);
+    appendCards(renderedCount, nextEnd);
+    updateLoadStatus();
+  }
+
+  function nearBottom() {
+    return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 900;
+  }
+
+  function loadMoreIfNeeded() {
+    if (document.getElementById("player").classList.contains("open")) return;
+    if (document.getElementById("ng-modal").classList.contains("open")) return;
+    if (nearBottom()) loadMore();
+  }
+
+  /* ---------- ランダム連続再生 ---------- */
+  function getWorksWithSample() {
+    const pool = currentFiltered.length > 0 ? currentFiltered : works;
+    return pool.filter(w => Boolean(getSampleUrl(w)));
+  }
+
+  function playNextRandom() {
+    const pool = getWorksWithSample();
+    if (pool.length === 0) return;
+    const candidates = currentWork
+      ? pool.filter(w => w !== currentWork)
+      : pool;
+    const next = (candidates.length > 0 ? candidates : pool)[
+      Math.floor(Math.random() * (candidates.length > 0 ? candidates.length : pool.length))
+    ];
+    openPlayer(next);
+  }
+
+  /* ---------- 全画面プレイヤー ---------- */
+  function openPlayer(w) {
+    currentWork = w;
+    const player = document.getElementById("player");
+    const wrap = document.getElementById("video-wrap");
+    const info = document.getElementById("player-info");
+
+    wrap.innerHTML = "";
+    const sampleUrl = getSampleUrl(w);
+    if (sampleUrl) {
+      const v = document.createElement("video");
+      v.src = sampleUrl;
+      v.controls = true;
+      v.autoplay = true;
+      v.playsInline = true;
+      v.setAttribute("playsinline", "");
+      v.setAttribute("webkit-playsinline", "");
+
+      // 通常再生終了 → 次へ
+      v.onended = () => playNextRandom();
+
+      // iPad Safari: ネイティブ全画面終了時に ended なら次へ
+      v.addEventListener("webkitendfullscreen", () => {
+        if (v.ended) playNextRandom();
+      });
+
+      wrap.appendChild(v);
+    } else {
+      const ph = document.createElement("div");
+      ph.className = "placeholder";
+      ph.innerHTML = "<p>サンプル動画がありません</p>";
+      wrap.appendChild(ph);
+    }
+
+    const date = w.delivery_start_at
+      ? new Date(w.delivery_start_at).toLocaleString("ja-JP",
+          { year: "numeric", month: "2-digit", day: "2-digit" })
+      : "-";
+    const actressChips = (w.actresses || []).map(a => {
+      const cnt = countFacet("actress", a);
+      return `<button type="button" class="filter-chip" data-filter-type="actress" data-filter-value="${escapeAttr(a)}" title="この出演者だけ表示">👤 ${escapeHtml(a)} <small>${cnt}件</small></button>`;
+    }).join("") || "-";
+    const makerChip = w.maker
+      ? `<button type="button" class="filter-chip" data-filter-type="maker" data-filter-value="${escapeAttr(w.maker)}" title="このメーカーだけ表示">🏢 ${escapeHtml(w.maker)} <small>${countFacet("maker", w.maker)}件</small></button>`
+      : "-";
+
+    // NG 追加用ボタン群
+    const ngButtons = [];
+    (w.actresses || []).forEach(a => {
+      ngButtons.push(`<button class="btn" data-ng="${escapeAttr(a)}">+ NGに追加: 👤 ${escapeHtml(a)}</button>`);
+    });
+    if (w.maker) ngButtons.push(`<button class="btn" data-ng="${escapeAttr(w.maker)}">+ NGに追加: 🏢 ${escapeHtml(w.maker)}</button>`);
+
+    info.innerHTML = `
+      <button class="info-next-btn" id="info-next-btn">⏭ 次の作品へ（ランダム）</button>
+      <div class="meta-row"><b>ID</b><span class="copy-id" id="copy-id" title="クリックでIDをコピー">${escapeHtml(w.id || "-")}</span><br><span class="copy-note" id="copy-note"></span></div>
+      <div class="meta-row"><b>女優</b><div class="filter-chip-row">${actressChips}</div></div>
+      <div class="meta-row"><b>メーカー</b><div class="filter-chip-row">${makerChip}</div></div>
+      <div class="meta-row"><b>配信日</b>${date}</div>
+      <div class="actions">${ngButtons.join("")}</div>`;
+
+    // info-next-btn
+    info.querySelector("#info-next-btn").onclick = () => playNextRandom();
+
+    const copyIdEl = info.querySelector("#copy-id");
+    if (copyIdEl) {
+      copyIdEl.onclick = async () => {
+        const ok = await copyText(w.id || "");
+        const note = info.querySelector("#copy-note");
+        if (note) note.textContent = ok ? "コピーしました" : "コピーできませんでした";
+        setTimeout(() => { if (note) note.textContent = ""; }, 1200);
+      };
+    }
+
+    info.querySelectorAll("[data-filter-type][data-filter-value]").forEach(b => {
+      b.onclick = () => {
+        setFacetFilter(b.getAttribute("data-filter-type"), b.getAttribute("data-filter-value"));
+      };
+    });
+
+    info.querySelectorAll("[data-ng]").forEach(b => {
+      b.onclick = () => {
+        const word = b.getAttribute("data-ng");
+        if (word && !ngWords.includes(word)) {
+          ngWords.push(word);
+          saveNg();
+          closePlayer();
+        }
+      };
+    });
+
+    player.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+  function closePlayer() {
+    const player = document.getElementById("player");
+    player.classList.remove("open");
+    document.getElementById("video-wrap").innerHTML = "";
+    document.body.style.overflow = "";
+    currentWork = null;
+  }
+
+  /* ---------- 自分だけ再読み込み ---------- */
+  function refreshSelfNoCache() {
+    const u = new URL(window.location.href);
+    u.searchParams.set("_refresh", Date.now().toString());
+    u.hash = "";
+    try {
+      window.parent?.postMessage({ type: "child-refresh-request", page: "fanza", href: u.href }, "*");
+    } catch (e) {}
+    window.location.replace(u.toString());
+  }
+
+  /* ---------- イベント ---------- */
+  document.getElementById("self-refresh-btn").onclick = refreshSelfNoCache;
+  document.getElementById("player-next").onclick = playNextRandom;
+  document.querySelectorAll("#sortbar [data-sort]").forEach(btn => {
+    btn.onclick = () => setSortMode(btn.getAttribute("data-sort"));
+  });
+  document.getElementById("facet-clear").onclick = clearFacetFilter;
+  document.getElementById("facet-ng").onclick = addFacetToNg;
+  document.getElementById("player-close").onclick = closePlayer;
+  document.getElementById("player").addEventListener("click", e => {
+    if (e.target.id === "player") closePlayer();
+  });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") {
+      if (document.getElementById("ng-modal").classList.contains("open")) {
+        closeNgModal();
+      } else {
+        closePlayer();
+      }
+    }
+
+    if (e.key === "PageDown") {
+      const tag = (e.target?.tagName || "").toLowerCase();
+      if (tag === "input" || tag === "textarea") return;
+      setTimeout(loadMoreIfNeeded, 0);
+    }
+  });
+
+  document.getElementById("search").addEventListener("input", e => {
+    searchTerm = e.target.value.trim();
+    if (searchTerm) facetFilter = null;
+    resetAndRenderGrid();
+  });
+
+  // NG モーダル
+  const openNg = () => {
+    document.getElementById("ng-modal").classList.add("open");
+    document.getElementById("ng-input").focus();
+  };
+  const closeNgModal = () =>
+    document.getElementById("ng-modal").classList.remove("open");
+  document.getElementById("ng-btn").onclick = openNg;
+  document.getElementById("ng-close").onclick = closeNgModal;
+  document.getElementById("ng-modal").addEventListener("click", e => {
+    if (e.target.id === "ng-modal") closeNgModal();
+  });
+  document.getElementById("ng-add").onclick = () => {
+    const inp = document.getElementById("ng-input");
+    const v = inp.value.trim();
+    if (v && !ngWords.includes(v)) {
+      ngWords.push(v);
+      saveNg();
+    }
+    inp.value = "";
+    inp.focus();
+  };
+  document.getElementById("ng-input").addEventListener("keydown", e => {
+    if (e.key === "Enter") document.getElementById("ng-add").click();
+  });
+  document.getElementById("ng-enabled").addEventListener("change", e => {
+    ngEnabled = e.target.checked;
+    saveNgEnabled();
+  });
+
+  window.addEventListener("scroll", loadMoreIfNeeded, { passive: true });
+
+  /* ---------- ユーティリティ ---------- */
+  function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  async function copyText(text) {
+    if (!text) return false;
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+    } catch (e) {}
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand("copy");
+      ta.remove();
+      return ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? "").replace(/[&<>"']/g, c => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    }[c]));
+  }
+  function escapeAttr(s) { return escapeHtml(s).replace(/`/g, "&#96;"); }
+
+  /* ---------- 起動 ---------- */
+  (async () => {
+    loadNg();
+    await loadNgFile();
+    updateNgBadge();
+    renderNgList();
+    try {
+      const r = await fetch("f.json", { cache: "no-store" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const j = await r.json();
+      works = j.works || [];
+      works.forEach((w, i) => { w.__originalIndex = i; });
+      assignRandomOrder();
+      if (!SORT_LABELS[sortMode]) sortMode = "random";
+      updateSortButtons();
+    } catch (e) {
+      document.getElementById("status").textContent =
+        "f.json の読み込みに失敗しました: " + e.message +
+        " (file:// で開いた場合は CORS エラーになります。 README の手順で ローカル HTTP サーバ経由で開いてください)";
+      return;
+    }
+    resetAndRenderGrid();
+  })();
+})();
+</script>
+</body>
+</html>
