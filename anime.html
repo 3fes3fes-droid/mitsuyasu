@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dアニメ</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+
+:root {
+  --bg: #0a0a0c;
+  --bg2: #111114;
+  --bg3: #18181d;
+  --bg4: #1f1f26;
+  --line: #1e1e26;
+  --line2: #2a2a36;
+  --text: #f0f0f5;
+  --text2: #9090a8;
+  --text3: #5a5a72;
+  --accent: #ff6a00;
+  --accent2: #ff9340;
+  --accent-glow: rgba(255,106,0,0.18);
+  --yt: #ff2d2d;
+  --wiki: #4a9eff;
+  --info: #00c8ff;
+  --tag-bg: rgba(255,106,0,0.10);
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Meiryo", "メイリオ", "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ===== スクロールバー ===== */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--line2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+
+/* ===== Header ===== */
+#header {
+  display: flex; align-items: center; gap: 14px;
+  padding: 10px 20px;
+  background: rgba(10,10,12,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 100;
+}
+#logo {
+  display: inline-flex; align-items: center; gap: 8px;
+  color: var(--accent); white-space: nowrap; text-decoration: none;
+  font-size: 18px; font-weight: 900; letter-spacing: -.02em;
+  text-shadow: 0 0 20px var(--accent-glow);
+}
+#logo img {
+  width: 30px; height: 30px; display: block; border-radius: 7px;
+}
+#logo:hover { color: var(--accent2); }
+
+#searchWrap {
+  flex: 1; max-width: 400px; position: relative;
+}
+#searchWrap::before {
+  content: "🔍"; position: absolute; left: 12px; top: 50%;
+  transform: translateY(-50%); font-size: 13px; pointer-events: none;
+  opacity: .4;
+}
+#search {
+  width: 100%; background: var(--bg3); color: var(--text);
+  border: 1px solid var(--line2); border-radius: 20px;
+  padding: 7px 14px 7px 34px; font-size: 13px; outline: none;
+  font-family: inherit;
+  transition: border-color .2s, box-shadow .2s;
+}
+#search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.hbtn {
+  background: var(--bg3); color: var(--text2);
+  border: 1px solid var(--line2); cursor: pointer;
+  padding: 7px 14px; border-radius: 20px; font-size: 12px;
+  font-family: inherit; transition: all .15s; white-space: nowrap;
+}
+.hbtn:hover { background: var(--bg4); color: var(--text); border-color: #444; }
+#clearPerson {
+  display: none;
+  background: var(--accent); color: #000; font-weight: 700;
+  border: none;
+}
+#clearPerson.show { display: inline-flex; align-items: center; gap: 5px; }
+#clearPerson:hover { background: var(--accent2); }
+
+/* ===== Bar ===== */
+#bar {
+  padding: 5px 20px; font-size: 11px; color: var(--text3);
+  border-bottom: 1px solid var(--line);
+  display: none; gap: 16px; flex-wrap: wrap; align-items: center;
+  min-height: 28px;
+}
+#bar.show { display: flex; }
+#personBadge {
+  display: none; align-items: center; gap: 8px;
+  background: var(--tag-bg); border: 1px solid var(--accent);
+  border-radius: 12px; padding: 2px 10px;
+  color: var(--accent); font-size: 11px; font-weight: 700;
+}
+#personBadge.show { display: flex; }
+#personBadge .person-links { display: flex; gap: 6px; margin-left: 4px; }
+#personBadge a {
+  font-size: 11px; padding: 1px 7px; border-radius: 8px;
+  text-decoration: none; font-weight: 700;
+  transition: opacity .15s;
+}
+#personBadge a:hover { opacity: .75; }
+.wiki-link { background: var(--wiki); color: #fff; }
+.yt-link { background: var(--yt); color: #fff; }
+
+/* ===== Row Tabs ===== */
+#rowTabs {
+  display: flex; gap: 5px; flex-wrap: wrap;
+  padding: 8px 20px; border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+#rowTabs button {
+  background: var(--bg3); color: var(--text2);
+  border: 1px solid var(--line2); border-radius: 14px;
+  cursor: pointer; padding: 4px 12px; font-size: 12px;
+  font-family: inherit; transition: all .15s;
+}
+#rowTabs button:hover { color: var(--text); border-color: #444; }
+#rowTabs button.is-active {
+  background: var(--accent); color: #000;
+  border-color: var(--accent); font-weight: 700;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* ===== Grid ===== */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; padding: 16px 20px;
+}
+@media (max-width: 1100px) { #grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 700px)  { #grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 450px)  { #grid { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--bg3); border-radius: 8px; overflow: hidden;
+  position: relative;
+  border: 1px solid var(--line);
+  transition: transform .15s, box-shadow .15s, border-color .15s;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.5), 0 0 0 1px var(--accent);
+  border-color: var(--accent);
+}
+.card .thumb {
+  display: block; aspect-ratio: 16/9; background: var(--bg2); overflow: hidden;
+  cursor: pointer;
+}
+.card .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+.card:hover .thumb img { transform: scale(1.04); }
+.card .ep-badge {
+  pointer-events: none;
+  position: absolute; top: 6px; right: 6px;
+  background: rgba(0,0,0,.82); color: #fff;
+  padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700;
+}
+.card .row-badge {
+  pointer-events: none;
+  position: absolute; top: 6px; left: 6px;
+  background: var(--accent); color: #000;
+  padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 900;
+}
+.card .info { padding: 8px 10px 10px; }
+.card .ctitle {
+  font-size: 13px; font-weight: 700; line-height: 1.4; color: var(--text);
+  margin: 0 0 4px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-decoration: none;
+}
+.card .ctitle:hover { color: var(--accent2); }
+.card .cmeta {
+  font-size: 11px; color: var(--text3);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* ===== Modal ===== */
+#modal {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.88);
+  backdrop-filter: blur(4px);
+  display: none; align-items: flex-start; justify-content: center;
+  z-index: 1000; overflow-y: auto;
+  padding: 16px;
+}
+#modal.show { display: flex; }
+
+.modal-box {
+  background: var(--bg2);
+  border-radius: 12px;
+  width: 100%;
+  max-width: calc(100vw - 32px);
+  border: 1px solid var(--line2);
+  box-shadow: 0 24px 60px rgba(0,0,0,.7);
+  overflow: hidden;
+}
+
+/* モーダルヘッダ */
+.modal-head {
+  position: sticky; top: 0; background: var(--bg2); z-index: 5;
+  padding: 14px 20px; border-bottom: 1px solid var(--line);
+  display: flex; gap: 12px; align-items: flex-start;
+}
+.modal-head .ttl-wrap { flex: 1; min-width: 0; }
+.modal-head h2 {
+  margin: 0 0 8px; font-size: 20px; font-weight: 900; color: var(--text);
+  line-height: 1.3;
+}
+.head-links { display: flex; gap: 8px; flex-wrap: wrap; }
+.head-links a {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 12px; border-radius: 14px;
+  font-size: 12px; font-weight: 700; text-decoration: none;
+  transition: opacity .15s, transform .1s;
+}
+.head-links a:hover { opacity: .8; transform: translateY(-1px); }
+.yt-btn  { background: var(--yt); color: #fff; }
+.wiki-btn { background: var(--wiki); color: #fff; }
+
+.close-btn {
+  background: var(--bg3); border: 1px solid var(--line2);
+  color: var(--text2); font-size: 18px;
+  cursor: pointer; line-height: 1; padding: 6px 10px; border-radius: 8px;
+  transition: all .15s; flex-shrink: 0;
+}
+.close-btn:hover { background: var(--bg4); color: var(--text); border-color: #555; }
+
+/* メタ行 */
+.modal-meta {
+  padding: 10px 20px 8px; font-size: 12px; color: var(--text2);
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+.tag {
+  background: var(--tag-bg); padding: 2px 9px; border-radius: 10px;
+  color: var(--accent2); font-weight: 700; font-size: 11px;
+  border: 1px solid rgba(255,106,0,.2);
+}
+
+/* あらすじ */
+.modal-syn {
+  padding: 12px 20px 14px; font-size: 13px; line-height: 1.8; color: #ccc;
+  border-bottom: 1px solid var(--line);
+}
+
+/* キャスト/スタッフ */
+.modal-cast {
+  padding: 10px 20px 14px; font-size: 12px; color: var(--text2);
+  border-bottom: 1px solid var(--line);
+}
+.modal-cast b { color: #aaa; margin-right: 6px; }
+.person-chip {
+  display: inline-block;
+  background: var(--bg3); border: 1px solid var(--line2);
+  border-radius: 10px; padding: 1px 9px; margin: 2px 3px;
+  font-size: 11px; color: var(--text2); cursor: pointer;
+  transition: all .15s;
+}
+.person-chip:hover {
+  background: var(--accent); color: #000;
+  border-color: var(--accent); font-weight: 700;
+}
+
+/* 各話セクション */
+.eps-wrap { padding: 14px 20px 24px; }
+.eps-wrap h3 {
+  margin: 0 0 14px; font-size: 13px; font-weight: 700;
+  color: var(--accent); letter-spacing: .06em; text-transform: uppercase;
+}
+
+/* 各話グリッド: 2列 */
+.eps-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+@media (max-width: 900px) { .eps-grid { grid-template-columns: 1fr; } }
+
+.ep-row {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 14px;
+  background: var(--bg3);
+  border-radius: 10px; padding: 14px;
+  border: 1px solid var(--line);
+  transition: border-color .15s;
+}
+.ep-row:hover { border-color: var(--line2); }
+@media (max-width: 600px) { .ep-row { grid-template-columns: 1fr; } }
+
+.ep-thumb {
+  aspect-ratio: 16/9; background: var(--bg2); border-radius: 6px; overflow: hidden;
+}
+.ep-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.ep-text { min-width: 0; display: flex; flex-direction: column; gap: 5px; }
+.ep-num { font-size: 13px; color: var(--accent); font-weight: 700; }
+.ep-title { font-size: 16px; font-weight: 700; color: var(--text); line-height: 1.4; }
+.ep-syn {
+  font-size: 14px; color: var(--text2); line-height: 1.7;
+  display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.ep-syn.empty { color: var(--text3); font-style: italic; }
+
+/* ===== Empty / Err ===== */
+#empty, #err { padding: 40px 20px; color: var(--text3); text-align: center; font-size: 13px; }
+#err { color: #ff8a8a; }
+
+/* ===== Toast ===== */
+#toast {
+  position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+  background: var(--bg3); color: var(--text);
+  border: 1px solid var(--line2);
+  padding: 8px 18px; border-radius: 20px;
+  font-size: 13px; opacity: 0; transition: opacity .25s;
+  pointer-events: none; z-index: 9999; white-space: nowrap;
+}
+#toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <a id="logo" href="https://animestore.docomo.ne.jp/animestore/tp/" target="_blank" rel="noopener" title="dアニメストアを開く">
+    <img src="https://www.google.com/s2/favicons?domain=animestore.docomo.ne.jp&sz=64" alt="dアニメストア">
+  </a>
+  <div id="searchWrap">
+    <input id="search" placeholder="作品名・キャスト・スタッフで検索…" type="search" autocomplete="off">
+  </div>
+  <button class="hbtn" onclick="reload()">↺ 再読込</button>
+  <button class="hbtn" id="clearPerson" onclick="clearPersonFilter()">
+    <span id="clearPersonName"></span> ✕
+  </button>
+</div>
+
+<div id="bar">
+  <div id="personBadge">
+    <span id="personBadgeName"></span>
+    <div class="person-links">
+      <a id="personWikiLink" class="wiki-link" href="#" target="_blank" rel="noopener">Wikipedia</a>
+      <a id="personYtLink" class="yt-link" href="#" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </div>
+</div>
+
+<div id="rowTabs"></div>
+<div id="grid"></div>
+<div id="empty" style="display:none">作品が見つかりません</div>
+<div id="err" style="display:none"></div>
+
+<div id="modal" onclick="onModalBgClick(event)">
+  <div class="modal-box" id="modalBox" onclick="event.stopPropagation()"></div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+/* ================================================================
+ * dアニメ
+ * ================================================================ */
+
+const STATE = {
+  data: null,
+  works: [],
+  filterRow: "ALL",
+  q: "",
+  personFilter: null,   // { name, type: "cast"|"staff" }
+};
+
+const ROW_ORDER = ["あ","か","さ","た","な","は","ま","や","ら","わ"];
+
+const $ = s => document.querySelector(s);
+
+function el(tag, attrs={}, children=[]){
+  const e = document.createElement(tag);
+  for (const [k,v] of Object.entries(attrs||{})){
+    if (k === "class") e.className = v;
+    else if (k === "html") e.innerHTML = v;
+    else if (k === "style" && typeof v === "object"){
+      Object.assign(e.style, v);
+    } else if (k.startsWith("on")) e.addEventListener(k.slice(2), v);
+    else if (v !== null && v !== undefined) e.setAttribute(k, v);
+  }
+  for (const c of [].concat(children)){
+    if (c == null) continue;
+    e.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  }
+  return e;
+}
+
+function toast(msg){
+  const t = $("#toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(t._tid);
+  t._tid = setTimeout(() => t.classList.remove("show"), 2200);
+}
+
+function ytSearchURL(q){
+  return "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
+}
+function wikiURL(name){
+  return "https://ja.wikipedia.org/wiki/" + encodeURIComponent(name);
+}
+
+/* ================================================================
+ * 人名フィルター
+ * ================================================================ */
+function filterByPerson(name){
+  STATE.personFilter = name;
+  $("#search").value = "";
+  STATE.q = "";
+
+  // バッジ更新
+  $("#personBadgeName").textContent = name;
+  $("#personBadge").classList.add("show");
+  $("#bar").classList.add("show");
+  $("#personWikiLink").href = wikiURL(name);
+  $("#personYtLink").href = ytSearchURL(name);
+
+  // ヘッダのクリアボタン
+  $("#clearPersonName").textContent = name;
+  $("#clearPerson").classList.add("show");
+
+  // 検索欄にフォーカス的な効果
+  $("#search").placeholder = name + " の出演作品を表示中";
+
+  render();
+}
+
+function clearPersonFilter(){
+  STATE.personFilter = null;
+  $("#personBadge").classList.remove("show");
+  $("#bar").classList.remove("show");
+  $("#clearPerson").classList.remove("show");
+  $("#search").placeholder = "作品名・キャスト・スタッフで検索…";
+  render();
+}
+
+/* ================================================================
+ * 行タブ
+ * ================================================================ */
+function buildRowTabs(){
+  const root = $("#rowTabs");
+  root.innerHTML = "";
+  root.appendChild(el("button", {
+    class: STATE.filterRow === "ALL" ? "is-active" : "",
+    onclick: () => { STATE.filterRow = "ALL"; render(); }
+  }, "ALL"));
+  for (const r of ROW_ORDER){
+    const cnt = ((STATE.data?.rows||{})[r]||[]).length;
+    if (!cnt) continue;
+    root.appendChild(el("button", {
+      class: STATE.filterRow === r ? "is-active" : "",
+      onclick: () => { STATE.filterRow = r; render(); }
+    }, `${r} (${cnt})`));
+  }
+}
+
+/* ================================================================
+ * グリッド
+ * ================================================================ */
+function render(){
+  buildRowTabs();
+  const grid = $("#grid");
+  grid.innerHTML = "";
+
+  const q = STATE.q.trim().toLowerCase();
+  let list = STATE.works;
+
+  if (STATE.filterRow !== "ALL"){
+    list = list.filter(w => w.row === STATE.filterRow);
+  }
+
+  if (STATE.personFilter){
+    const pf = normalizePersonKey(STATE.personFilter);
+    list = list.filter(w =>
+      normalizePersonKey(w.cast||"").includes(pf) ||
+      normalizePersonKey(w.staff||"").includes(pf)
+    );
+  }
+
+  if (q){
+    list = list.filter(w =>
+      (w.title||"").toLowerCase().includes(q) ||
+      (w.cast||"").toLowerCase().includes(q) ||
+      (w.staff||"").toLowerCase().includes(q) ||
+      (w.synopsis||"").toLowerCase().includes(q)
+    );
+  }
+
+  $("#empty").style.display = list.length ? "none" : "block";
+
+  for (const w of list){
+    const eps = w.episodes || [];
+    const card = el("div", {class:"card"}, [
+      el("div", {
+        class:"thumb", title:"詳細を開く", role:"button", tabindex:"0",
+        onclick: () => openModal(w),
+        onkeydown: e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(w); } }
+      }, [
+        w.thumb ? el("img", {src: w.thumb, alt: w.title, loading:"lazy",
+          onerror: function(){ this.style.display="none"; }}) : null
+      ]),
+      el("div", {class:"row-badge"}, w.row || "?"),
+      el("div", {class:"ep-badge"}, eps.length ? `全${eps.length}話`
+                                                : (w.episode_total ? `全${w.episode_total}話` : "—")),
+      el("div", {class:"info"}, [
+        el("a", {
+          class:"ctitle", title:"YouTubeで「" + (w.title || "") + "」を検索",
+          href: ytSearchURL(w.title || ""), target:"_blank", rel:"noopener"
+        }, w.title || "(無題)"),
+        el("div", {class:"cmeta"}, [
+          w.year ? w.year + "年" : "",
+          w.genres?.length ? " ・ " + w.genres.join(" / ") : ""
+        ].join(""))
+      ])
+    ]);
+    grid.appendChild(card);
+  }
+}
+
+/* ================================================================
+ * 人名チップのパース
+ * cast/staffの文字列から名前を抽出してクリッカブルにする
+ * ================================================================ */
+function normalizePersonKey(s){
+  return (s || "").toLowerCase().replace(/[\s　]+/g, "").trim();
+}
+
+function cleanupPersonName(name){
+  return (name || "")
+    .replace(/^[\s　]+|[\s　]+$/g, "")
+    .replace(/^(?:cv|CV|声優|出演|キャスト|スタッフ|監督|原作|脚本|音楽)\s*[：:]/, "")
+    .replace(/[（(][^）)]*(?:役|CV|cv|声|出演)[^）)]*[）)]/g, "")
+    .replace(/^(?:ほか|他|その他|協力|制作|製作)$/g, "")
+    .replace(/[\s　]+/g, " ")
+    .trim();
+}
+
+function splitPeopleText(text){
+  if (!text) return [];
+
+  // 重要: 氏名内のスペースは区切りにしない。
+  // ただし「役名：人名　役名：人名」「監督：人名　脚本：人名」のように、
+  // 次の「○○：」が始まる空白だけは区切りとして扱う。
+  let s = String(text)
+    .replace(/\r?\n/g, "、")
+    .replace(/[;；|｜]/g, "、")
+    .replace(/([、,，・\/／])\s+/g, "$1")
+    .replace(/\s+([、,，・\/／])/g, "$1");
+
+  s = s.replace(/([^\s　、,，・\/／])([\s　]+)(?=[^：:、,，・\/／\s　]{1,30}[：:])/g, "$1、");
+
+  const chunks = s.split(/[、,，・\/／]+/).map(v => v.trim()).filter(Boolean);
+  const names = [];
+  const seen = new Set();
+
+  for (const chunk of chunks){
+    // 「役名：声優名」「監督：名前」は最後のコロン以降だけを人名候補にする。
+    const parts = chunk.split(/[：:]/);
+    let candidate = parts.length >= 2 ? parts[parts.length - 1] : chunk;
+
+    // 「名前（キャラ名）」「名前(CV)」系の補助情報を軽く除去。
+    candidate = cleanupPersonName(candidate);
+    if (!candidate) continue;
+
+    // 明らかに人名ではなくラベルだけのものは出さない。
+    if (/^(?:キャスト|スタッフ|声の出演|出演者|制作スタッフ)$/.test(candidate)) continue;
+
+    const key = normalizePersonKey(candidate);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    names.push(candidate);
+  }
+  return names;
+}
+
+function parsePeopleToChips(text){
+  const names = splitPeopleText(text);
+  if (!names.length) return null;
+
+  const wrap = el("span");
+  for (let i = 0; i < names.length; i++){
+    if (i > 0) wrap.appendChild(document.createTextNode(" "));
+    const personName = names[i];
+    wrap.appendChild(el("span", {
+      class: "person-chip",
+      title: personName + " で絞り込む",
+      onclick: (e) => { e.stopPropagation(); filterByPerson(personName); closeModal(); }
+    }, personName));
+  }
+  return wrap;
+}
+
+/* ================================================================
+ * モーダル
+ * ================================================================ */
+function openModal(w){
+  const box = $("#modalBox");
+  box.innerHTML = "";
+
+  const ytIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>`;
+  const wikiIcon = `<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>`;
+
+  // ヘッダ
+  const header = el("div", {class:"modal-head"}, [
+    el("div", {class:"ttl-wrap"}, [
+      el("h2", {}, w.title || "(無題)"),
+      el("div", {class:"head-links"}, [
+        el("a", {
+          class:"yt-btn", href: ytSearchURL(w.title||""),
+          target:"_blank", rel:"noopener",
+          html: ytIcon + " YouTube"
+        }),
+        el("a", {
+          class:"wiki-btn", href: wikiURL(w.title||""),
+          target:"_blank", rel:"noopener",
+          html: wikiIcon + " Wikipedia"
+        }),
+      ])
+    ]),
+    el("button", {class:"close-btn", onclick: closeModal}, "✕"),
+  ]);
+  box.appendChild(header);
+
+  // メタタグ
+  const tags = [];
+  if (w.row) tags.push(el("span", {class:"tag"}, w.row + "行"));
+  if (w.year) tags.push(el("span", {}, w.year + "年"));
+  for (const g of (w.genres||[])) tags.push(el("span", {class:"tag"}, g));
+  tags.push(el("span", {}, "全 " + (w.episodes?.length || w.episode_total || 0) + " 話"));
+  box.appendChild(el("div", {class:"modal-meta"}, tags));
+
+  // あらすじ
+  if (w.synopsis){
+    box.appendChild(el("div", {class:"modal-syn"}, w.synopsis));
+  }
+
+  // キャスト/スタッフ（名前をクリッカブルチップに）
+  const castWrap = el("div", {class:"modal-cast"});
+  if (w.cast){
+    const row = el("div", {style:{marginBottom:"6px"}});
+    row.appendChild(el("b", {}, "キャスト: "));
+    const chips = parsePeopleToChips(w.cast);
+    if (chips) row.appendChild(chips);
+    castWrap.appendChild(row);
+  }
+  if (w.staff){
+    const row = el("div", {style:{marginBottom:"6px"}});
+    row.appendChild(el("b", {}, "スタッフ: "));
+    const chips = parsePeopleToChips(w.staff);
+    if (chips) row.appendChild(chips);
+    castWrap.appendChild(row);
+  }
+  if (w.copyright){
+    castWrap.appendChild(el("div", {style:{color:"#555", fontSize:"11px", marginTop:"4px"}}, w.copyright));
+  }
+  if (castWrap.children.length) box.appendChild(castWrap);
+
+  // 全話一覧（2列グリッド）
+  const epsWrap = el("div", {class:"eps-wrap"});
+  epsWrap.appendChild(el("h3", {}, "■ 全話一覧"));
+  const grid = el("div", {class:"eps-grid"});
+  const eps = w.episodes || [];
+  if (!eps.length){
+    grid.appendChild(el("div", {class:"ep-syn empty"}, "各話データなし"));
+  }
+  for (const e of eps){
+    grid.appendChild(el("div", {class:"ep-row"}, [
+      el("div", {class:"ep-thumb"}, [
+        e.thumb ? el("img", {src: e.thumb, loading:"lazy",
+          onerror: function(){ this.style.display="none"; }}) : null
+      ]),
+      el("div", {class:"ep-text"}, [
+        el("div", {class:"ep-num"}, e.number || ""),
+        el("div", {class:"ep-title"}, e.title || ""),
+        el("div", {class:"ep-syn" + (e.synopsis ? "" : " empty")},
+          e.synopsis || "(あらすじ未取得)")
+      ])
+    ]));
+  }
+  epsWrap.appendChild(grid);
+  box.appendChild(epsWrap);
+
+  $("#modal").classList.add("show");
+  document.body.style.overflow = "hidden";
+  box.scrollTop = 0;
+}
+
+function closeModal(){
+  $("#modal").classList.remove("show");
+  document.body.style.overflow = "";
+}
+function onModalBgClick(e){ if (e.target.id === "modal") closeModal(); }
+window.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+/* ================================================================
+ * データ読込
+ * ================================================================ */
+async function reload(){
+  $("#err").style.display = "none";
+  try{
+    const r = await fetch("anime.json?t=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const j = await r.json();
+    STATE.data = j;
+    const works = Object.values(j.works || {});
+    for (let i = works.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      [works[i], works[j]] = [works[j], works[i]];
+    }
+    STATE.works = works;
+    render();
+    toast("読み込み完了");
+  }catch(e){
+    $("#err").style.display = "block";
+    $("#err").textContent = "anime.json の読み込みに失敗: " + e
+      + "  (anime.html と同じ場所に anime.json を置いて python -m http.server 8000 で開いてください)";
+  }
+}
+
+/* ================================================================
+ * 入力
+ * ================================================================ */
+$("#search").addEventListener("input", e => {
+  STATE.q = e.target.value;
+  if (STATE.personFilter && e.target.value){
+    clearPersonFilter();
+  }
+  render();
+});
+
+reload();
+</script>
+</body>
+</html>
