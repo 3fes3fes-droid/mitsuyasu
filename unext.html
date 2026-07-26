@@ -238,6 +238,13 @@
 let _debounceTimer = null;
 let currentModalData = null;
 
+// GitHub Pages上で、このHTMLと同じフォルダにある unext.json を直接読む。
+// server.py や /api/unext は使用しない。
+const DATA_FILE_URL = new URL('./unext.json', window.location.href);
+const SEARCH_RESULT_LIMIT = 200;
+let _allItemsCache = null;
+let _dataLoadPromise = null;
+
 function render() {
   clearTimeout(_debounceTimer);
   _debounceTimer = setTimeout(fetchAndRender, 300);
@@ -247,6 +254,101 @@ function clearSearch() {
   document.getElementById('keyword').value = '';
   document.getElementById('genre_filter').value = '';
   fetchAndRender();
+}
+
+function normalizeText(value) {
+  if (Array.isArray(value)) return value.join(' ');
+  if (value === null || value === undefined) return '';
+  if (typeof value === 'object') return Object.values(value).join(' ');
+  return String(value);
+}
+
+function normalizeSearchText(value) {
+  return normalizeText(value).normalize('NFKC').toLocaleLowerCase('ja-JP');
+}
+
+function extractItemsFromJson(json) {
+  if (Array.isArray(json)) return json;
+
+  const candidates = [
+    json?.items,
+    json?.data,
+    json?.results,
+    json?.works,
+    json?.titles
+  ];
+  for (const candidate of candidates) {
+    if (Array.isArray(candidate)) return candidate;
+  }
+
+  throw new Error('unext.json の形式を判定できません（配列または items 配列が必要です）');
+}
+
+async function loadAllItems(forceReload = false) {
+  if (_allItemsCache && !forceReload) return _allItemsCache;
+  if (_dataLoadPromise && !forceReload) return _dataLoadPromise;
+
+  _dataLoadPromise = (async () => {
+    const response = await fetch(DATA_FILE_URL, { cache: 'no-cache' });
+    if (!response.ok) {
+      throw new Error(`unext.json を取得できません（HTTP ${response.status}）`);
+    }
+
+    const json = await response.json();
+    const sourceItems = extractItemsFromJson(json);
+
+    // 不正な値と重複を除外する。urlがなければ title + year をキーにする。
+    const seen = new Set();
+    const items = sourceItems.filter(item => {
+      if (!item || typeof item !== 'object') return false;
+      const key = item.url || `${item.title || ''}__${item.year || ''}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+    _allItemsCache = items;
+    return items;
+  })();
+
+  try {
+    return await _dataLoadPromise;
+  } catch (error) {
+    _allItemsCache = null;
+    throw error;
+  } finally {
+    _dataLoadPromise = null;
+  }
+}
+
+function getSortableYear(value) {
+  const match = normalizeText(value).match(/\d{4}/);
+  return match ? Number(match[0]) : -1;
+}
+
+function sortItems(items, sort) {
+  const sorted = items.slice();
+
+  if (sort === 'year_asc') {
+    sorted.sort((a, b) =>
+      getSortableYear(a.year) - getSortableYear(b.year) ||
+      normalizeText(a.title).localeCompare(normalizeText(b.title), 'ja')
+    );
+  } else if (sort === 'title') {
+    sorted.sort((a, b) =>
+      normalizeText(a.title).localeCompare(normalizeText(b.title), 'ja', {
+        numeric: true,
+        sensitivity: 'base'
+      })
+    );
+  } else {
+    sorted.sort((a, b) =>
+      getSortableYear(b.year) - getSortableYear(a.year) ||
+      normalizeText(a.title).localeCompare(normalizeText(b.title), 'ja')
+    );
+  }
+
+  return sorted;
 }
 
 async function fetchAndRender() {
@@ -260,38 +362,44 @@ async function fetchAndRender() {
   if (document.getElementById('chk_director').checked) fields.push('director');
   if (document.getElementById('chk_staff').checked)    fields.push('staff');
 
-  if (!kw && !genre) {
-    try {
-      const r = await fetch('/api/unext?limit=0');
-      const j = await r.json();
-      if (j.error) throw new Error(j.error);
-      document.getElementById('stats').textContent = `全 ${j.total} 件 ／ キーワードかジャンルを選ぶと一覧表示します`;
-    } catch(e) {
-      document.getElementById('stats').textContent = e.message.includes('unext.json') || e.message === 'Failed to fetch'
-        ? 'unext.json が見つかりません。先に unext_scraper.py を実行してください。'
-        : `エラー: ${e.message}`;
-    }
-    document.getElementById('grid').innerHTML = '';
-    return;
-  }
-
-  const params = new URLSearchParams({ sort, offset: 0, limit: 200 });
-  if (kw)    params.set('q',      kw);
-  if (genre) params.set('genre',  genre);
-  if (kw)    params.set('fields', fields.join(','));
-
-  document.getElementById('stats').textContent = '検索中...';
+  document.getElementById('stats').textContent = kw || genre ? '検索中...' : '読み込み中...';
 
   try {
-    const r = await fetch('/api/unext?' + params);
-    const j = await r.json();
-    if (j.error) throw new Error(j.error);
+    const allItems = await loadAllItems();
+
+    if (!kw && !genre) {
+      document.getElementById('stats').textContent =
+        `全 ${allItems.length} 件 ／ キーワードかジャンルを選ぶと一覧表示します`;
+      document.getElementById('grid').innerHTML = '';
+      return;
+    }
+
+    const normalizedKw = normalizeSearchText(kw);
+    let filtered = allItems.filter(item => {
+      if (genre && normalizeText(item.genre) !== genre) return false;
+      if (!normalizedKw) return true;
+      if (fields.length === 0) return false;
+
+      return fields.some(field =>
+        normalizeSearchText(item[field]).includes(normalizedKw)
+      );
+    });
+
+    filtered = sortItems(filtered, sort);
+
+    const total = filtered.length;
+    const visibleItems = filtered.slice(0, SEARCH_RESULT_LIMIT);
     const genreLabel = genre ? `【${genre}】` : '';
+
     document.getElementById('stats').textContent =
-      `${genreLabel} ${j.total} 件${j.has_more ? '（上限表示中）' : ''}`;
-    drawCards(j.items, kw);
+      `${genreLabel} ${total} 件${total > SEARCH_RESULT_LIMIT ? `（先頭 ${SEARCH_RESULT_LIMIT} 件を表示）` : ''}`;
+    drawCards(visibleItems, kw);
   } catch(e) {
-    document.getElementById('stats').textContent = `エラー: ${e.message}`;
+    const message = e instanceof Error ? e.message : String(e);
+    document.getElementById('stats').textContent =
+      message.includes('unext.json') || message.includes('Failed to fetch')
+        ? `エラー: ${message}。このHTMLと同じフォルダに unext.json を置き、GitHub Pages のURLから開いてください。`
+        : `エラー: ${message}`;
     document.getElementById('grid').innerHTML = '';
   }
 }
@@ -350,47 +458,6 @@ function drawCards(items, kw) {
 
 // --- ランダムピックアップ ---
 const RANDOM_PICK_COUNT = 100;
-const RANDOM_PAGE_LIMIT = 200;
-let _allItemsCache = null;
-
-async function loadAllItems(forceReload = false) {
-  if (_allItemsCache && !forceReload) return _allItemsCache;
-
-  const r0 = await fetch('/api/unext?limit=0');
-  const j0 = await r0.json();
-  if (j0.error) throw new Error(j0.error);
-
-  const total = j0.total || 0;
-  if (total === 0) { _allItemsCache = []; return _allItemsCache; }
-
-  const all = [];
-  for (let offset = 0; offset < total; offset += RANDOM_PAGE_LIMIT) {
-    const params = new URLSearchParams({
-      limit: RANDOM_PAGE_LIMIT,
-      offset: offset,
-      sort: 'year_desc'
-    });
-    const r = await fetch('/api/unext?' + params);
-    const j = await r.json();
-    if (j.error) throw new Error(j.error);
-
-    const items = j.items || [];
-    all.push(...items);
-
-    if (items.length === 0) break;
-    if (!j.has_more && offset + items.length >= total) break;
-  }
-
-  // 念のため重複を消す。urlがなければ title + year をキーにする。
-  const seen = new Set();
-  _allItemsCache = all.filter(item => {
-    const key = item.url || `${item.title || ''}__${item.year || ''}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-  return _allItemsCache;
-}
 
 function sampleRandom(arr, n) {
   const result = arr.slice();
@@ -410,14 +477,15 @@ async function showRandomItem() {
   try {
     const items = await loadAllItems();
     if (items.length === 0) {
-      body.innerHTML = '<div class="empty">unext.json が見つかりません。先に unext_scraper.py を実行してください。</div>';
+      body.innerHTML = '<div class="empty">unext.json に表示できる作品がありません。</div>';
       return;
     }
     const picked = sampleRandom(items, RANDOM_PICK_COUNT);
     body.innerHTML = '';
     picked.forEach(d => body.appendChild(buildCardElement(d, '')));
   } catch(e) {
-    body.innerHTML = `<div class="empty">エラー: ${e.message}</div>`;
+    const message = e instanceof Error ? e.message : String(e);
+    body.innerHTML = `<div class="empty">エラー: ${message}<br>このHTMLと同じフォルダに unext.json を置き、GitHub Pages のURLから開いてください。</div>`;
   } finally {
     btn.disabled = false;
   }
