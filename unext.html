@@ -37,14 +37,16 @@
     padding: 0.3rem 0.5rem; border-radius: 6px; font-size: 0.75rem;
   }
 
-  .btn-search, .btn-clear {
+  .btn-search, .btn-clear, .btn-random {
     background: #1e3a5f; border: 1px solid #4a9eff; color: #8fc4ff;
     border-radius: 6px; padding: 0.35rem 0.8rem; font-size: 0.75rem; cursor: pointer;
   }
-  .btn-search:hover, .btn-clear:hover { background: #2a4f7f; }
+  .btn-search:hover, .btn-clear:hover, .btn-random:hover { background: #2a4f7f; }
   .btn-clear { border-color: #3a4a66; color: #aab; background: #152038; }
+  .btn-random { border-color: #315780; background: #172b47; }
+  .btn-random:disabled { opacity: 0.55; cursor: wait; }
 
-  .stats { padding: 0.5rem 1.5rem; font-size: 0.75rem; color: #556; border-bottom: 1px solid #1a2535; }
+  .stats { padding: 0.5rem 1.5rem; font-size: 0.75rem; color: #73839a; border-bottom: 1px solid #1a2535; scroll-margin-top: 110px; }
 
   .grid {
     display: grid;
@@ -55,15 +57,14 @@
   }
 
   @media (max-width: 1200px) {
-    .grid, .random-pick-body { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   }
   @media (max-width: 900px) {
-    .grid, .random-pick-body { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
   @media (max-width: 600px) {
-    .grid, .random-pick-body { grid-template-columns: minmax(0, 1fr); }
+    .grid { grid-template-columns: minmax(0, 1fr); }
     .grid { padding: 10px; }
-    .random-pick { padding: 10px; }
   }
 
   .card {
@@ -187,23 +188,6 @@
   .empty { text-align: center; padding: 4rem; color: #445; }
   .highlight { background: rgba(74,158,255,0.25); border-radius: 2px; }
 
-  /* ランダムピックアップ */
-  .random-pick { padding: 1rem 1.5rem; border-bottom: 1px solid #1a2535; }
-  .random-pick-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem; }
-  .random-pick-label { font-size: 0.8rem; color: #4a9eff; letter-spacing: 0.04em; }
-  .btn-random {
-    background: #1e3a5f; border: 1px solid #4a9eff; color: #8fc4ff;
-    border-radius: 6px; padding: 6px 16px; font-size: 0.78rem; cursor: pointer;
-  }
-  .btn-random:hover { background: #2a4f7f; }
-  .btn-random:disabled { opacity: 0.5; cursor: default; }
-  .random-pick-body {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
-    width: 100%;
-  }
-  .random-pick-body .empty { grid-column: 1 / -1; text-align: center; padding: 1.5rem 0; font-size: 0.78rem; }
 
   /* モーダル */
   .overlay {
@@ -268,8 +252,8 @@
 <header>
   <img class="service-logo" src="https://www.unext.co.jp/logo/unext-type.svg" alt="">
   <div class="search-area">
-    <input type="text" id="keyword" placeholder="キーワード（空欄でもジャンル指定で一覧表示できます）" oninput="render()" onkeydown="if(event.key==='Enter') fetchAndRender()">
-    <select id="genre_filter" onchange="render()">
+    <input type="text" id="keyword" placeholder="キーワード検索" oninput="scheduleSearch()" onkeydown="if(event.key==='Enter') startSearch()">
+    <select id="genre_filter" onchange="scheduleSearch()">
       <option value="">ジャンル：すべて</option>
       <option value="バラエティ">バラエティ</option>
       <option value="ドラマ">ドラマ</option>
@@ -279,35 +263,26 @@
       <option value="スポーツ">スポーツ</option>
       <option value="音楽">音楽</option>
     </select>
-    <select id="sort" onchange="render()">
+    <select id="sort" onchange="handleSortChange()">
       <option value="year_desc">新しい順</option>
       <option value="year_asc">古い順</option>
       <option value="title">タイトル順</option>
     </select>
-    <button class="btn-search" onclick="fetchAndRender()">検索</button>
+    <button class="btn-search" onclick="startSearch()">検索</button>
     <button class="btn-clear" onclick="clearSearch()">クリア</button>
+    <button class="btn-random" id="randomBtn" onclick="showRandomItems(true)">🎲 ランダム</button>
   </div>
   <div class="filters">
     <span class="filter-label">検索対象：</span>
     <div class="check-group">
-      <label><input type="checkbox" id="chk_title" checked onchange="render()"> タイトル</label>
-      <label><input type="checkbox" id="chk_cast" checked onchange="render()"> 出演者</label>
-      <label><input type="checkbox" id="chk_story" checked onchange="render()"> あらすじ</label>
-      <label><input type="checkbox" id="chk_director" onchange="render()"> 監督</label>
-      <label><input type="checkbox" id="chk_staff" onchange="render()"> スタッフ</label>
+      <label><input type="checkbox" id="chk_title" checked onchange="scheduleSearch()"> タイトル</label>
+      <label><input type="checkbox" id="chk_cast" checked onchange="scheduleSearch()"> 出演者</label>
+      <label><input type="checkbox" id="chk_story" checked onchange="scheduleSearch()"> あらすじ</label>
+      <label><input type="checkbox" id="chk_director" onchange="scheduleSearch()"> 監督</label>
+      <label><input type="checkbox" id="chk_staff" onchange="scheduleSearch()"> スタッフ</label>
     </div>
   </div>
 </header>
-
-<div class="random-pick">
-  <div class="random-pick-header">
-    <span class="random-pick-label">ランダムピックアップ</span>
-    <button class="btn-random" id="randomBtn" onclick="showRandomItem()">🎲 ランダム表示</button>
-  </div>
-  <div class="random-pick-body" id="randomPickBody">
-    <div class="empty">読み込み中...</div>
-  </div>
-</div>
 
 <div class="stats" id="stats">読み込み中...</div>
 <div class="grid" id="grid"></div>
@@ -338,22 +313,20 @@ let _debounceTimer = null;
 let currentModalData = null;
 
 // GitHub Pages上で、このHTMLと同じフォルダにある unext.json を直接読む。
-// server.py や /api/unext は使用しない。
-const DATA_FILE_URL = new URL('./unext.json', window.location.href);
+// server.py と /api/unext は使用しない。
+const DATA_FILE_URL = new URL('./unext.json', document.baseURI);
 const SEARCH_RESULT_LIMIT = 200;
+const RANDOM_PICK_COUNT = 100;
+
+const VIEW_RANDOM = 'random';
+const VIEW_SEARCH = 'search';
+const VIEW_CAST = 'cast';
+
 let _allItemsCache = null;
 let _dataLoadPromise = null;
-
-function render() {
-  clearTimeout(_debounceTimer);
-  _debounceTimer = setTimeout(fetchAndRender, 300);
-}
-
-function clearSearch() {
-  document.getElementById('keyword').value = '';
-  document.getElementById('genre_filter').value = '';
-  fetchAndRender();
-}
+let currentViewMode = VIEW_RANDOM;
+let activeCastName = '';
+let currentRandomItems = [];
 
 function normalizeText(value) {
   if (Array.isArray(value)) return value.join(' ');
@@ -363,41 +336,54 @@ function normalizeText(value) {
 }
 
 function normalizeSearchText(value) {
-  return normalizeText(value).normalize('NFKC').toLocaleLowerCase('ja-JP');
+  return normalizeText(value).normalize('NFKC').toLocaleLowerCase('ja-JP').trim();
+}
+
+function escapeHTML(text) {
+  return String(text || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function escapeRegExp(text) {
+  return String(text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function highlight(text, keyword) {
+  const source = normalizeText(text);
+  const kw = normalizeText(keyword);
+  if (!kw) return escapeHTML(source);
+
+  const parts = source.split(new RegExp(`(${escapeRegExp(kw)})`, 'gi'));
+  return parts.map((part, index) =>
+    index % 2 === 1
+      ? `<span class="highlight">${escapeHTML(part)}</span>`
+      : escapeHTML(part)
+  ).join('');
 }
 
 function extractItemsFromJson(json) {
-  // 1. JSONのトップ階層がそのまま配列
   if (Array.isArray(json)) return json;
 
   if (!json || typeof json !== 'object') {
     throw new Error('unext.json のトップ階層が配列またはオブジェクトではありません');
   }
 
-  // 2. items / data などの中に配列がある形式
-  const candidates = [
-    json.items,
-    json.data,
-    json.results,
-    json.works,
-    json.titles
-  ];
-  for (const candidate of candidates) {
+  for (const candidate of [json.items, json.data, json.results, json.works, json.titles]) {
     if (Array.isArray(candidate)) return candidate;
   }
 
-  // 3. server.py が対応していた形式
-  //    { "作品ID": {作品データ}, "作品ID": {作品データ}, ... }
-  //    キーを捨て、各valueを作品一覧として扱う。
-  const values = Object.values(json);
-  if (values.length === 0) return [];
-
-  const objectValues = values.filter(
-    value => value && typeof value === 'object' && !Array.isArray(value)
+  // 実際のunext.json形式：{ "SID...": {作品データ}, ... }
+  const values = Object.values(json).filter(value =>
+    value && typeof value === 'object' && !Array.isArray(value)
   );
-  if (objectValues.length > 0) return objectValues;
 
-  throw new Error('unext.json 内に作品オブジェクトを見つけられません');
+  if (values.length > 0) return values;
+  if (Object.keys(json).length === 0) return [];
+  throw new Error('unext.json 内に作品データを見つけられません');
 }
 
 async function loadAllItems(forceReload = false) {
@@ -405,50 +391,36 @@ async function loadAllItems(forceReload = false) {
   if (_dataLoadPromise && !forceReload) return _dataLoadPromise;
 
   _dataLoadPromise = (async () => {
-    // 同じフォルダの unext.json を直接読む。
-    // 大容量ファイルなので通常のブラウザキャッシュを利用する。
-    const requestUrl = new URL(DATA_FILE_URL.href);
-    const response = await fetch(requestUrl);
+    const response = await fetch(DATA_FILE_URL);
     const responseText = await response.text();
 
     if (!response.ok) {
-      throw new Error(
-        `unext.json を取得できません（HTTP ${response.status}）\n取得先: ${DATA_FILE_URL.href}`
-      );
+      throw new Error(`unext.json を取得できません（HTTP ${response.status}）\n取得先: ${DATA_FILE_URL.href}`);
     }
 
     const trimmed = responseText.replace(/^\uFEFF/, '').trimStart();
     if (trimmed.startsWith('<')) {
-      throw new Error(
-        `unext.json の取得先からJSONではなくHTMLが返りました。\n` +
-        `取得先: ${DATA_FILE_URL.href}\n` +
-        `HTMLとJSONが同じGitHub Pages公開フォルダにあるか確認してください。`
-      );
+      throw new Error(`unext.json の取得先からJSONではなくHTMLが返りました。\n取得先: ${DATA_FILE_URL.href}`);
     }
 
     let json;
     try {
       json = JSON.parse(responseText);
-    } catch (parseError) {
-      throw new Error(
-        `unext.json のJSON解析に失敗しました: ${parseError.message}\n取得先: ${DATA_FILE_URL.href}`
-      );
+    } catch (error) {
+      throw new Error(`unext.json のJSON解析に失敗しました: ${error.message}\n取得先: ${DATA_FILE_URL.href}`);
     }
 
     const sourceItems = extractItemsFromJson(json);
-
-    // 不正な値と重複を除外する。urlがなければ title + year をキーにする。
     const seen = new Set();
-    const items = sourceItems.filter(item => {
+    _allItemsCache = sourceItems.filter(item => {
       if (!item || typeof item !== 'object') return false;
-      const key = item.url || `${item.title || ''}__${item.year || ''}`;
-      if (seen.has(key)) return false;
+      const key = normalizeText(item.id || item.url || `${item.title || ''}__${item.year || ''}`);
+      if (!key || seen.has(key)) return false;
       seen.add(key);
       return true;
     });
 
-    _allItemsCache = items;
-    return items;
+    return _allItemsCache;
   })();
 
   try {
@@ -491,99 +463,187 @@ function sortItems(items, sort) {
   return sorted;
 }
 
-async function fetchAndRender() {
-  const kw    = document.getElementById('keyword').value.trim();
-  const genre = document.getElementById('genre_filter').value;
-  const sort  = document.getElementById('sort').value;
-  const fields = [];
-  if (document.getElementById('chk_title').checked)    fields.push('title');
-  if (document.getElementById('chk_cast').checked)     fields.push('cast');
-  if (document.getElementById('chk_story').checked)    fields.push('story');
-  if (document.getElementById('chk_director').checked) fields.push('director');
-  if (document.getElementById('chk_staff').checked)    fields.push('staff');
+function genreMatches(itemGenre, selectedGenre) {
+  if (!selectedGenre) return true;
+  const genre = normalizeText(itemGenre);
 
-  document.getElementById('stats').textContent = kw || genre ? '検索中...' : '読み込み中...';
+  if (selectedGenre === '映画') {
+    return genre.includes('映画') || genre === '邦画' || genre === '洋画';
+  }
+  if (selectedGenre === 'ドラマ') {
+    return genre.includes('ドラマ');
+  }
+  return genre.includes(selectedGenre);
+}
+
+function sampleRandom(items, count) {
+  const result = items.slice();
+  const take = Math.min(count, result.length);
+  for (let i = 0; i < take; i++) {
+    const j = i + Math.floor(Math.random() * (result.length - i));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result.slice(0, take);
+}
+
+function getSelectedSearchFields() {
+  const fields = [];
+  if (document.getElementById('chk_title').checked) fields.push('title');
+  if (document.getElementById('chk_cast').checked) fields.push('cast');
+  if (document.getElementById('chk_story').checked) fields.push('story');
+  if (document.getElementById('chk_director').checked) fields.push('director');
+  if (document.getElementById('chk_staff').checked) fields.push('staff');
+  return fields;
+}
+
+function scheduleSearch() {
+  currentViewMode = VIEW_SEARCH;
+  activeCastName = '';
+  clearTimeout(_debounceTimer);
+  _debounceTimer = setTimeout(() => renderCurrentView(false), 300);
+}
+
+function startSearch() {
+  clearTimeout(_debounceTimer);
+  currentViewMode = VIEW_SEARCH;
+  activeCastName = '';
+  renderCurrentView(true);
+}
+
+function handleSortChange() {
+  if (currentViewMode === VIEW_RANDOM) return;
+  renderCurrentView(false);
+}
+
+function clearSearch() {
+  clearTimeout(_debounceTimer);
+  document.getElementById('keyword').value = '';
+  document.getElementById('genre_filter').value = '';
+  activeCastName = '';
+  showRandomItems(true);
+}
+
+async function showRandomItems(forceNew = false) {
+  clearTimeout(_debounceTimer);
+  currentViewMode = VIEW_RANDOM;
+  activeCastName = '';
+  document.getElementById('keyword').value = '';
+  document.getElementById('genre_filter').value = '';
+
+  const button = document.getElementById('randomBtn');
+  button.disabled = true;
+  document.getElementById('stats').textContent = 'ランダム作品を読み込み中...';
 
   try {
     const allItems = await loadAllItems();
-
-    if (!kw && !genre) {
-      document.getElementById('stats').textContent =
-        `全 ${allItems.length} 件 ／ キーワードかジャンルを選ぶと一覧表示します`;
-      document.getElementById('grid').innerHTML = '';
-      return;
+    if (forceNew || currentRandomItems.length === 0) {
+      currentRandomItems = sampleRandom(allItems, RANDOM_PICK_COUNT);
     }
-
-    const normalizedKw = normalizeSearchText(kw);
-    let filtered = allItems.filter(item => {
-      if (genre && normalizeText(item.genre) !== genre) return false;
-      if (!normalizedKw) return true;
-      if (fields.length === 0) return false;
-
-      return fields.some(field =>
-        normalizeSearchText(item[field]).includes(normalizedKw)
-      );
-    });
-
-    filtered = sortItems(filtered, sort);
-
-    const total = filtered.length;
-    const visibleItems = filtered.slice(0, SEARCH_RESULT_LIMIT);
-    const genreLabel = genre ? `【${genre}】` : '';
-
+    drawCards(currentRandomItems, '');
     document.getElementById('stats').textContent =
-      `${genreLabel} ${total} 件${total > SEARCH_RESULT_LIMIT ? `（先頭 ${SEARCH_RESULT_LIMIT} 件を表示）` : ''}`;
-    drawCards(visibleItems, kw);
-  } catch(e) {
-    const message = e instanceof Error ? e.message : String(e);
-    document.getElementById('stats').textContent =
-      message.includes('unext.json') || message.includes('Failed to fetch')
-        ? `エラー: ${message}。このHTMLと同じフォルダに unext.json を置き、GitHub Pages のURLから開いてください。`
-        : `エラー: ${message}`;
-    document.getElementById('grid').innerHTML = '';
+      `ランダム ${currentRandomItems.length} 件 ／ 全 ${allItems.length} 件`;
+  } catch (error) {
+    showLoadError(error);
+  } finally {
+    button.disabled = false;
   }
 }
 
-function highlight(text, kw) {
-  if (!kw || !text) return text || '';
-  const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return String(text).replace(new RegExp(escaped, 'gi'), m => `<span class="highlight">${m}</span>`);
+async function renderCurrentView(scrollToResults = false) {
+  if (currentViewMode === VIEW_RANDOM) {
+    await showRandomItems(false);
+    if (scrollToResults) scrollResultsIntoView();
+    return;
+  }
+
+  const keyword = document.getElementById('keyword').value.trim();
+  const genre = document.getElementById('genre_filter').value;
+  const sort = document.getElementById('sort').value;
+  const stats = document.getElementById('stats');
+  stats.textContent = '検索中...';
+
+  try {
+    const allItems = await loadAllItems();
+    let filtered;
+    let label;
+    let highlightKeyword = keyword;
+
+    if (currentViewMode === VIEW_CAST && activeCastName) {
+      const target = normalizeSearchText(activeCastName);
+      filtered = allItems.filter(item =>
+        Array.isArray(item.cast) && item.cast.some(name => normalizeSearchText(name) === target)
+      );
+      label = `出演者「${activeCastName}」`;
+      highlightKeyword = activeCastName;
+    } else {
+      const normalizedKeyword = normalizeSearchText(keyword);
+      const fields = getSelectedSearchFields();
+
+      filtered = allItems.filter(item => {
+        if (!genreMatches(item.genre, genre)) return false;
+        if (!normalizedKeyword) return true;
+        if (fields.length === 0) return false;
+        return fields.some(field => normalizeSearchText(item[field]).includes(normalizedKeyword));
+      });
+
+      label = [genre ? `【${genre}】` : '', keyword ? `「${keyword}」` : ''].filter(Boolean).join(' ');
+    }
+
+    filtered = sortItems(filtered, sort);
+    const total = filtered.length;
+    const visibleItems = filtered.slice(0, SEARCH_RESULT_LIMIT);
+    drawCards(visibleItems, highlightKeyword);
+
+    stats.textContent =
+      `${label ? label + ' ' : ''}${total} 件` +
+      (total > SEARCH_RESULT_LIMIT ? `（先頭 ${SEARCH_RESULT_LIMIT} 件を表示）` : '');
+
+    if (scrollToResults) scrollResultsIntoView();
+  } catch (error) {
+    showLoadError(error);
+  }
 }
 
-function buildCardElement(d, kw) {
+function scrollResultsIntoView() {
+  document.getElementById('stats').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function showLoadError(error) {
+  const message = error instanceof Error ? error.message : String(error);
+  document.getElementById('stats').textContent =
+    `エラー: ${message}。このHTMLと同じフォルダに unext.json を置き、GitHub PagesのURLから開いてください。`;
+  document.getElementById('grid').innerHTML = '';
+}
+
+function buildCardElement(item, highlightKeyword) {
   const card = document.createElement('article');
   card.className = 'card';
 
-  const title = normalizeText(d.title) || 'タイトル不明';
-  const unextUrl = normalizeText(d.url);
-  const youtubeUrl =
-    `https://www.youtube.com/results?search_query=${encodeURIComponent(title)}`;
+  const title = normalizeText(item.title) || 'タイトル不明';
+  const unextUrl = normalizeText(item.url);
+  const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(title)}`;
 
-  // サムネイルだけU-NEXTへ移動する。
+  // サムネイルだけU-NEXTを開く。
   const thumbLink = document.createElement('a');
   thumbLink.className = 'thumb-link';
   thumbLink.href = unextUrl || '#';
   thumbLink.target = '_blank';
   thumbLink.rel = 'noopener';
   thumbLink.title = 'U-NEXTで開く';
+  if (!unextUrl) thumbLink.addEventListener('click', event => event.preventDefault());
 
-  if (!unextUrl) {
-    thumbLink.addEventListener('click', event => event.preventDefault());
-  }
-
-  if (d.thumbnail) {
-    const img = document.createElement('img');
-    img.src = d.thumbnail;
-    img.alt = title;
-    img.loading = 'lazy';
-    img.addEventListener('error', () => {
-      thumbLink.replaceChildren();
+  if (item.thumbnail) {
+    const image = document.createElement('img');
+    image.src = item.thumbnail;
+    image.alt = title;
+    image.loading = 'lazy';
+    image.addEventListener('error', () => {
       const noImage = document.createElement('div');
       noImage.className = 'no-img';
       noImage.textContent = 'NO IMAGE';
-      thumbLink.appendChild(noImage);
+      thumbLink.replaceChildren(noImage);
     });
-    thumbLink.appendChild(img);
+    thumbLink.appendChild(image);
   } else {
     const noImage = document.createElement('div');
     noImage.className = 'no-img';
@@ -591,45 +651,45 @@ function buildCardElement(d, kw) {
     thumbLink.appendChild(noImage);
   }
 
-  if (d.genre) {
+  if (item.genre) {
     const badge = document.createElement('span');
     badge.className = 'genre-badge';
-    badge.textContent = d.genre;
+    badge.textContent = item.genre;
     thumbLink.appendChild(badge);
   }
 
   const body = document.createElement('div');
   body.className = 'card-body';
 
-  // タイトルだけYouTube検索へ移動する。
+  // タイトルだけYouTube検索を開く。
   const titleLink = document.createElement('a');
   titleLink.className = 'title-link';
   titleLink.href = youtubeUrl;
   titleLink.target = '_blank';
   titleLink.rel = 'noopener';
   titleLink.title = `YouTubeで「${title}」を検索`;
-  titleLink.innerHTML = highlight(title, kw);
+  titleLink.innerHTML = highlight(title, highlightKeyword);
   body.appendChild(titleLink);
 
   const year = document.createElement('div');
   year.className = 'card-year';
-  year.innerHTML = `${highlight(d.year, kw)}${d.country ? `　${escapeHTML(d.country)}` : ''}`;
+  year.innerHTML = `${highlight(item.year, highlightKeyword)}${item.country ? `　${escapeHTML(item.country)}` : ''}`;
   body.appendChild(year);
 
-  const castList = Array.isArray(d.cast) ? d.cast.filter(Boolean) : [];
+  const castList = Array.isArray(item.cast) ? item.cast.filter(Boolean) : [];
   if (castList.length > 0) {
     const castBox = document.createElement('div');
     castBox.className = 'card-cast';
 
     castList.forEach((rawName, index) => {
       const name = normalizeText(rawName);
-      const castButton = document.createElement('button');
-      castButton.type = 'button';
-      castButton.className = 'cast-name';
-      castButton.innerHTML = highlight(name, kw);
-      castButton.title = `${name}で絞り込む`;
-      castButton.addEventListener('click', event => searchCast(event, name));
-      castBox.appendChild(castButton);
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'cast-name';
+      button.innerHTML = highlight(name, highlightKeyword);
+      button.title = `${name}の出演作品に絞り込む`;
+      button.addEventListener('click', event => searchCast(event, name));
+      castBox.appendChild(button);
 
       if (index < castList.length - 1) {
         const separator = document.createElement('span');
@@ -644,7 +704,6 @@ function buildCardElement(d, kw) {
 
   const detailWrap = document.createElement('div');
   detailWrap.className = 'detail-wrap';
-
   const detailButton = document.createElement('button');
   detailButton.type = 'button';
   detailButton.className = 'btn-detail';
@@ -652,8 +711,8 @@ function buildCardElement(d, kw) {
   detailButton.addEventListener('click', () => {
     openModal({
       title,
-      year: normalizeText(d.year),
-      director: Array.isArray(d.director) ? d.director.join(' / ') : normalizeText(d.director)
+      year: normalizeText(item.year),
+      director: Array.isArray(item.director) ? item.director.join(' / ') : normalizeText(item.director)
     });
   });
   detailWrap.appendChild(detailButton);
@@ -664,63 +723,31 @@ function buildCardElement(d, kw) {
   return card;
 }
 
-function drawCards(items, kw) {
+function drawCards(items, highlightKeyword) {
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
+
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty">該当する作品が見つかりません</div>';
     return;
   }
-  items.forEach(d => grid.appendChild(buildCardElement(d, kw)));
+
+  const fragment = document.createDocumentFragment();
+  items.forEach(item => fragment.appendChild(buildCardElement(item, highlightKeyword)));
+  grid.appendChild(fragment);
 }
 
-// --- ランダムピックアップ ---
-const RANDOM_PICK_COUNT = 100;
+function searchCast(event, name) {
+  event.preventDefault();
+  event.stopPropagation();
 
-function sampleRandom(arr, n) {
-  const result = arr.slice();
-  const len = result.length;
-  const count = Math.min(n, len);
-  for (let i = 0; i < count; i++) {
-    const j = i + Math.floor(Math.random() * (len - i));
-    [result[i], result[j]] = [result[j], result[i]];
-  }
-  return result.slice(0, count);
-}
-
-async function showRandomItem() {
-  const body = document.getElementById('randomPickBody');
-  const btn  = document.getElementById('randomBtn');
-  btn.disabled = true;
-  try {
-    const items = await loadAllItems();
-    if (items.length === 0) {
-      body.innerHTML = '<div class="empty">unext.json に表示できる作品がありません。</div>';
-      return;
-    }
-    const picked = sampleRandom(items, RANDOM_PICK_COUNT);
-    body.innerHTML = '';
-    picked.forEach(d => body.appendChild(buildCardElement(d, '')));
-  } catch(e) {
-    const message = e instanceof Error ? e.message : String(e);
-    body.innerHTML = `<div class="empty">エラー: ${message}<br>このHTMLと同じフォルダに unext.json を置き、GitHub Pages のURLから開いてください。</div>`;
-  } finally {
-    btn.disabled = false;
-  }
-}
-
-function searchCast(e, name) {
-  if (e) {
-    e.preventDefault();
-    e.stopPropagation();
-  }
-
-  const keyword = document.getElementById('keyword');
-  const castCheckbox = document.getElementById('chk_cast');
-
-  keyword.value = name;
-  castCheckbox.checked = true;
-  fetchAndRender();
+  clearTimeout(_debounceTimer);
+  currentViewMode = VIEW_CAST;
+  activeCastName = name;
+  document.getElementById('keyword').value = name;
+  document.getElementById('genre_filter').value = '';
+  document.getElementById('chk_cast').checked = true;
+  renderCurrentView(true);
 }
 
 // --- モーダル ---
@@ -744,15 +771,6 @@ function closeModal() {
 document.getElementById('overlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
-
-function escapeHTML(text) {
-  return String(text || '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
 
 function makeGeminiPrompt(data) {
   return `映画「${data.title}」(${data.year}年)について以下の形式で答えよ。
@@ -874,8 +892,9 @@ async function fetchWiki(title) {
   }
 }
 
-fetchAndRender();
-showRandomItem();
+
+
+showRandomItems(true);
 </script>
 </body>
 </html>
