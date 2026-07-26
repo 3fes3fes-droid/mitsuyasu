@@ -268,20 +268,37 @@ function normalizeSearchText(value) {
 }
 
 function extractItemsFromJson(json) {
+  // 1. JSONのトップ階層がそのまま配列
   if (Array.isArray(json)) return json;
 
+  if (!json || typeof json !== 'object') {
+    throw new Error('unext.json のトップ階層が配列またはオブジェクトではありません');
+  }
+
+  // 2. items / data などの中に配列がある形式
   const candidates = [
-    json?.items,
-    json?.data,
-    json?.results,
-    json?.works,
-    json?.titles
+    json.items,
+    json.data,
+    json.results,
+    json.works,
+    json.titles
   ];
   for (const candidate of candidates) {
     if (Array.isArray(candidate)) return candidate;
   }
 
-  throw new Error('unext.json の形式を判定できません（配列または items 配列が必要です）');
+  // 3. server.py が対応していた形式
+  //    { "作品ID": {作品データ}, "作品ID": {作品データ}, ... }
+  //    キーを捨て、各valueを作品一覧として扱う。
+  const values = Object.values(json);
+  if (values.length === 0) return [];
+
+  const objectValues = values.filter(
+    value => value && typeof value === 'object' && !Array.isArray(value)
+  );
+  if (objectValues.length > 0) return objectValues;
+
+  throw new Error('unext.json 内に作品オブジェクトを見つけられません');
 }
 
 async function loadAllItems(forceReload = false) {
@@ -289,12 +306,36 @@ async function loadAllItems(forceReload = false) {
   if (_dataLoadPromise && !forceReload) return _dataLoadPromise;
 
   _dataLoadPromise = (async () => {
-    const response = await fetch(DATA_FILE_URL, { cache: 'no-cache' });
+    // 同じフォルダの unext.json を直接読む。
+    // 大容量ファイルなので通常のブラウザキャッシュを利用する。
+    const requestUrl = new URL(DATA_FILE_URL.href);
+    const response = await fetch(requestUrl);
+    const responseText = await response.text();
+
     if (!response.ok) {
-      throw new Error(`unext.json を取得できません（HTTP ${response.status}）`);
+      throw new Error(
+        `unext.json を取得できません（HTTP ${response.status}）\n取得先: ${DATA_FILE_URL.href}`
+      );
     }
 
-    const json = await response.json();
+    const trimmed = responseText.replace(/^\uFEFF/, '').trimStart();
+    if (trimmed.startsWith('<')) {
+      throw new Error(
+        `unext.json の取得先からJSONではなくHTMLが返りました。\n` +
+        `取得先: ${DATA_FILE_URL.href}\n` +
+        `HTMLとJSONが同じGitHub Pages公開フォルダにあるか確認してください。`
+      );
+    }
+
+    let json;
+    try {
+      json = JSON.parse(responseText);
+    } catch (parseError) {
+      throw new Error(
+        `unext.json のJSON解析に失敗しました: ${parseError.message}\n取得先: ${DATA_FILE_URL.href}`
+      );
+    }
+
     const sourceItems = extractItemsFromJson(json);
 
     // 不正な値と重複を除外する。urlがなければ title + year をキーにする。
