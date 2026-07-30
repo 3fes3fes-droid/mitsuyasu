@@ -1,0 +1,322 @@
+{
+  "summary": {
+    "status": "PASS",
+    "volumeCount": 31,
+    "officialSynopsisCount": 31,
+    "chapterAssignmentCount": 275,
+    "supplementAssignmentCount": 4,
+    "errors": []
+  },
+  "volumes": [
+    {
+      "id": "vol-00",
+      "label": "0巻",
+      "chapterCount": 4,
+      "chapterRange": "0巻 第1話～0巻 第4話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-00",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881672881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-01",
+      "label": "1巻",
+      "chapterCount": 7,
+      "chapterRange": "第1話～第7話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-01",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881516881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-02",
+      "label": "2巻",
+      "chapterCount": 9,
+      "chapterRange": "第8話～第16話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-02",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881608881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-03",
+      "label": "3巻",
+      "chapterCount": 9,
+      "chapterRange": "第17話～第25話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-03",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881666881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-04",
+      "label": "4巻",
+      "chapterCount": 9,
+      "chapterRange": "第26話～第34話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-04",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881756881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-05",
+      "label": "5巻",
+      "chapterCount": 9,
+      "chapterRange": "第35話～第43話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-05",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881828881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-06",
+      "label": "6巻",
+      "chapterCount": 9,
+      "chapterRange": "第44話～第52話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-06",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881876881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-07",
+      "label": "7巻",
+      "chapterCount": 9,
+      "chapterRange": "第53話～第61話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-07",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882076881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-08",
+      "label": "8巻",
+      "chapterCount": 9,
+      "chapterRange": "第62話～第70話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-08",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882168881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-09",
+      "label": "9巻",
+      "chapterCount": 9,
+      "chapterRange": "第71話～第79話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-09",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882218881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-10",
+      "label": "10巻",
+      "chapterCount": 9,
+      "chapterRange": "第80話～第88話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-10",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882274881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-11",
+      "label": "11巻",
+      "chapterCount": 9,
+      "chapterRange": "第89話～第97話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-11",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882296881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-12",
+      "label": "12巻",
+      "chapterCount": 9,
+      "chapterRange": "第98話～第106話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-12",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882381881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-13",
+      "label": "13巻",
+      "chapterCount": 9,
+      "chapterRange": "第107話～第115話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-13",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882429881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-14",
+      "label": "14巻",
+      "chapterCount": 9,
+      "chapterRange": "第116話～第124話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-14",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882534881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-15",
+      "label": "15巻",
+      "chapterCount": 9,
+      "chapterRange": "第125話～第133話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-15",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882581881516315501",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-16",
+      "label": "16巻",
+      "chapterCount": 9,
+      "chapterRange": "第134話～第142話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-16",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000014389100",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-17",
+      "label": "17巻",
+      "chapterCount": 10,
+      "chapterRange": "第143話～第152話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-17",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000016958600",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-18",
+      "label": "18巻",
+      "chapterCount": 9,
+      "chapterRange": "第153話～第161話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-18",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000018964300",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-19",
+      "label": "19巻",
+      "chapterCount": 10,
+      "chapterRange": "第162話～第171話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-19",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000020243200",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-20",
+      "label": "20巻",
+      "chapterCount": 9,
+      "chapterRange": "第172話～第180話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-20",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000022829800",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-21",
+      "label": "21巻",
+      "chapterCount": 10,
+      "chapterRange": "第181話～第190話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-21",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000025474800",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-22",
+      "label": "22巻",
+      "chapterCount": 9,
+      "chapterRange": "第191話～第199話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-22",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000026971600",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-23",
+      "label": "23巻",
+      "chapterCount": 9,
+      "chapterRange": "第200話～第208話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-23",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000029203700",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-24",
+      "label": "24巻",
+      "chapterCount": 9,
+      "chapterRange": "第209話～第217話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-24",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000031663000",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-25",
+      "label": "25巻",
+      "chapterCount": 10,
+      "chapterRange": "第218話～第227話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-25",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000033935700",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-26",
+      "label": "26巻",
+      "chapterCount": 9,
+      "chapterRange": "第228話～第236話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-26",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000040371400",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-27",
+      "label": "27巻",
+      "chapterCount": 9,
+      "chapterRange": "第237話～第245話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-27",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000048680300",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-28",
+      "label": "28巻",
+      "chapterCount": 9,
+      "chapterRange": "第246話～第254話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-28",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000052758200",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-29",
+      "label": "29巻",
+      "chapterCount": 9,
+      "chapterRange": "第255話～第263話",
+      "supplementCount": 0,
+      "synopsisSourceRef": "src-shueisha-vol-29",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000055592900",
+      "verification": "official-volume-synopsis-paraphrased"
+    },
+    {
+      "id": "vol-30",
+      "label": "30巻",
+      "chapterCount": 8,
+      "chapterRange": "第264話～第271話",
+      "supplementCount": 4,
+      "synopsisSourceRef": "src-shueisha-vol-30",
+      "synopsisSourceUrl": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000055593000",
+      "verification": "official-volume-synopsis-paraphrased"
+    }
+  ]
+}

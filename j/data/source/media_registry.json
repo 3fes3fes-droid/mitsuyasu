@@ -1,0 +1,4362 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "scope": "official-manga-only",
+    "hotlinking": "URLs are referenced; images are not copied into this package.",
+    "unverifiedRule": "Do not infer or fabricate missing image URLs. Display pending state.",
+    "performanceRule": "Only the currently selected external image is requested by the browser."
+  },
+  "sources": {
+    "comicsList": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+    "characterPoll": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/",
+    "jumpPlusMainSeed": "https://shonenjumpplus.com/episode/10834108156650001170",
+    "jumpPlusZeroSeed": "https://shonenjumpplus.com/episode/10834108156631749950",
+    "jumpPlusMainRss": "https://shonenjumpplus.com/rss/series/10834108156650001163"
+  },
+  "volumes": [
+    {
+      "id": "vol-00",
+      "number": 0,
+      "label": "0巻",
+      "title": "呪術廻戦 0 東京都立呪術高等専門学校",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu000.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-01",
+      "number": 1,
+      "label": "1巻",
+      "title": "呪術廻戦 1",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu001.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-02",
+      "number": 2,
+      "label": "2巻",
+      "title": "呪術廻戦 2",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu002.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-03",
+      "number": 3,
+      "label": "3巻",
+      "title": "呪術廻戦 3",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu003.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-04",
+      "number": 4,
+      "label": "4巻",
+      "title": "呪術廻戦 4",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu004.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-05",
+      "number": 5,
+      "label": "5巻",
+      "title": "呪術廻戦 5",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu005.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-06",
+      "number": 6,
+      "label": "6巻",
+      "title": "呪術廻戦 6",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu006.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-07",
+      "number": 7,
+      "label": "7巻",
+      "title": "呪術廻戦 7",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu007.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-08",
+      "number": 8,
+      "label": "8巻",
+      "title": "呪術廻戦 8",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu008.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-09",
+      "number": 9,
+      "label": "9巻",
+      "title": "呪術廻戦 9",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu009.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-10",
+      "number": 10,
+      "label": "10巻",
+      "title": "呪術廻戦 10",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu010.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-11",
+      "number": 11,
+      "label": "11巻",
+      "title": "呪術廻戦 11",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu011.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-12",
+      "number": 12,
+      "label": "12巻",
+      "title": "呪術廻戦 12",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu012.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-13",
+      "number": 13,
+      "label": "13巻",
+      "title": "呪術廻戦 13",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu013.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-14",
+      "number": 14,
+      "label": "14巻",
+      "title": "呪術廻戦 14",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu014.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-15",
+      "number": 15,
+      "label": "15巻",
+      "title": "呪術廻戦 15",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu015.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-16",
+      "number": 16,
+      "label": "16巻",
+      "title": "呪術廻戦 16",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu016.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-17",
+      "number": 17,
+      "label": "17巻",
+      "title": "呪術廻戦 17",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu017.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-18",
+      "number": 18,
+      "label": "18巻",
+      "title": "呪術廻戦 18",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu018.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-19",
+      "number": 19,
+      "label": "19巻",
+      "title": "呪術廻戦 19",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu019.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-20",
+      "number": 20,
+      "label": "20巻",
+      "title": "呪術廻戦 20",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu020.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-21",
+      "number": 21,
+      "label": "21巻",
+      "title": "呪術廻戦 21",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu021.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-22",
+      "number": 22,
+      "label": "22巻",
+      "title": "呪術廻戦 22",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu022.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-23",
+      "number": 23,
+      "label": "23巻",
+      "title": "呪術廻戦 23",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu023.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-24",
+      "number": 24,
+      "label": "24巻",
+      "title": "呪術廻戦 24",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu024.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-25",
+      "number": 25,
+      "label": "25巻",
+      "title": "呪術廻戦 25",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu025.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-26",
+      "number": 26,
+      "label": "26巻",
+      "title": "呪術廻戦 26",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu026.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-27",
+      "number": 27,
+      "label": "27巻",
+      "title": "呪術廻戦 27",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu027.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-28",
+      "number": 28,
+      "label": "28巻",
+      "title": "呪術廻戦 28",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu028.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-29",
+      "number": 29,
+      "label": "29巻",
+      "title": "呪術廻戦 29",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu029.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    },
+    {
+      "id": "vol-30",
+      "number": 30,
+      "label": "30巻",
+      "title": "呪術廻戦 30",
+      "imageUrl": "https://www.shonenjump.com/j/comics/_comicimage/jujutsu030.jpg",
+      "pageUrl": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+      "sourceRef": "src-official-comics-list",
+      "verification": "official-page-direct-link"
+    }
+  ],
+  "officialCharacterImages": [
+    {
+      "pollOrder": 1,
+      "officialLabel": "虎杖悠仁",
+      "iconNumber": 1,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon001.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-baadf43d19",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 2,
+      "officialLabel": "伏黒恵",
+      "iconNumber": 2,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon002.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3c1852867d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 3,
+      "officialLabel": "釘崎野薔薇",
+      "iconNumber": 3,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon003.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-5a0f7ded8d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 4,
+      "officialLabel": "禪院真希",
+      "iconNumber": 4,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon004.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-24d736edff",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 5,
+      "officialLabel": "狗巻棘",
+      "iconNumber": 5,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon005.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-a61d6ef891",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 6,
+      "officialLabel": "パンダ",
+      "iconNumber": 6,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon006.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-672d843799",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 7,
+      "officialLabel": "乙骨憂太",
+      "iconNumber": 7,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon007.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-c28763b98a",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 8,
+      "officialLabel": "秤金次",
+      "iconNumber": 8,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon008.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-dea43d7fc7",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 9,
+      "officialLabel": "星綺羅羅",
+      "iconNumber": 133,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon133.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-00f5cc93b4",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 10,
+      "officialLabel": "夜蛾正道",
+      "iconNumber": 9,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon009.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-58278d1ec5",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 11,
+      "officialLabel": "五条悟",
+      "iconNumber": 10,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon010.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-17322e71e5",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 12,
+      "officialLabel": "日下部篤也",
+      "iconNumber": 11,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon011.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-53c5711b23",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 13,
+      "officialLabel": "伊地知潔高",
+      "iconNumber": 12,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon012.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b4d661547b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 14,
+      "officialLabel": "家入硝子",
+      "iconNumber": 13,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon013.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d4a4bc45c6",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 15,
+      "officialLabel": "新田明",
+      "iconNumber": 14,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon014.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0cb661851e",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 16,
+      "officialLabel": "東堂葵",
+      "iconNumber": 15,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon015.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d76df97dca",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 17,
+      "officialLabel": "加茂憲紀",
+      "iconNumber": 16,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon016.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-830f121430",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 18,
+      "officialLabel": "西宮桃",
+      "iconNumber": 17,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon017.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-484fd66a1e",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 19,
+      "officialLabel": "禪院真依",
+      "iconNumber": 18,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon018.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-5724ed462b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 20,
+      "officialLabel": "与幸吉/究極メカ丸",
+      "iconNumber": 19,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon019.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-dad71c9f31",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 21,
+      "officialLabel": "三輪霞",
+      "iconNumber": 20,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon020.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-ebd2a8efa8",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 22,
+      "officialLabel": "新田新",
+      "iconNumber": 21,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon021.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-63369aaf46",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 23,
+      "officialLabel": "楽巌寺嘉伸",
+      "iconNumber": 22,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon022.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-ac327bdd73",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 24,
+      "officialLabel": "庵歌姫",
+      "iconNumber": 23,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon023.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3de3b8af11",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 25,
+      "officialLabel": "七海建人",
+      "iconNumber": 24,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon024.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6309a7e2f4",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 26,
+      "officialLabel": "猪野琢真",
+      "iconNumber": 25,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon025.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-cf2d32d5b9",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 27,
+      "officialLabel": "冥冥",
+      "iconNumber": 26,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon026.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-07918bda3f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 28,
+      "officialLabel": "憂憂",
+      "iconNumber": 27,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon027.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-e41848a08f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 29,
+      "officialLabel": "灰原雄",
+      "iconNumber": 28,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon028.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b2b454d6e2",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 30,
+      "officialLabel": "九十九由基",
+      "iconNumber": 29,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon029.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-1566dd973d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 31,
+      "officialLabel": "禪院直毘人",
+      "iconNumber": 30,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon030.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-22abdd626c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 32,
+      "officialLabel": "禪院直哉",
+      "iconNumber": 31,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon031.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b3be077b48",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 33,
+      "officialLabel": "禪院扇",
+      "iconNumber": 32,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon032.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-265abd362c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 34,
+      "officialLabel": "禪院甚壱",
+      "iconNumber": 33,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon033.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-e3d79a21e6",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 35,
+      "officialLabel": "禪院信朗",
+      "iconNumber": 132,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon132.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-15c6f148d3",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 36,
+      "officialLabel": "天元",
+      "iconNumber": 125,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon125.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6eab17a5a8",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 37,
+      "officialLabel": "来栖華",
+      "iconNumber": 127,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon127.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d8252d61d4",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 38,
+      "officialLabel": "髙羽史彦",
+      "iconNumber": 128,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon128.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-02aa196fbb",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 39,
+      "officialLabel": "禪院長寿郎",
+      "iconNumber": 134,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon134.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-cde7b13e78",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 40,
+      "officialLabel": "禪院蘭太",
+      "iconNumber": 131,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon131.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-1ea67a363b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 41,
+      "officialLabel": "鹿紫雲一",
+      "iconNumber": 135,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon135.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0e7004da56",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 42,
+      "officialLabel": "日車寛見",
+      "iconNumber": 136,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon136.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3062a0117e",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 43,
+      "officialLabel": "甘井凛",
+      "iconNumber": 137,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon137.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-4ff7a5b46e",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 44,
+      "officialLabel": "羽生",
+      "iconNumber": 138,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon138.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-cb2d7aa2a7",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 45,
+      "officialLabel": "羽場",
+      "iconNumber": 139,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon139.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-56bf974c92",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 46,
+      "officialLabel": "麗美",
+      "iconNumber": 140,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon140.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-a5d1c4b82b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 47,
+      "officialLabel": "レジィ・スター",
+      "iconNumber": 141,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon141.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-026d657efa",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 48,
+      "officialLabel": "黄櫨折",
+      "iconNumber": 142,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon142.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-27f5cf78ab",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 49,
+      "officialLabel": "針千鈞",
+      "iconNumber": 143,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon143.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-577ea0ec09",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 50,
+      "officialLabel": "ドルゥヴ・ラクダワラ",
+      "iconNumber": 144,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon144.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6ede6f3587",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 51,
+      "officialLabel": "石流龍",
+      "iconNumber": 145,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon145.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-4a29b3de7b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 52,
+      "officialLabel": "烏鷺亨子",
+      "iconNumber": 146,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon146.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-fe30ff0de9",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 53,
+      "officialLabel": "シャルル・ベルナール",
+      "iconNumber": 147,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon147.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-4e5593708e",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 54,
+      "officialLabel": "三代六十四",
+      "iconNumber": 148,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon148.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-69335b05c3",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 55,
+      "officialLabel": "大道鋼",
+      "iconNumber": 172,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon172.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-aabfd74fce",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 56,
+      "officialLabel": "万",
+      "iconNumber": 180,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon180.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0d3bc6b0dd",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 57,
+      "officialLabel": "夏油傑",
+      "iconNumber": 34,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon034.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b9d4880408",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 58,
+      "officialLabel": "吉野順平",
+      "iconNumber": 36,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon036.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-236cc955ae",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 59,
+      "officialLabel": "枷場菜々子",
+      "iconNumber": 38,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon038.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-1a74b17cf8",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 60,
+      "officialLabel": "枷場美々子",
+      "iconNumber": 39,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon039.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-da4ca46be3",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 61,
+      "officialLabel": "ミゲル",
+      "iconNumber": 37,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon037.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6d1d442a9a",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 62,
+      "officialLabel": "菅田真奈美",
+      "iconNumber": 40,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon040.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-f65b4fe4b0",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 63,
+      "officialLabel": "ラルゥ",
+      "iconNumber": 41,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon041.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-5c2dcdaab3",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 64,
+      "officialLabel": "祢木利久",
+      "iconNumber": 42,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon042.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-e5bfc97a26",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 65,
+      "officialLabel": "組屋鞣造",
+      "iconNumber": 43,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon043.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-833a399363",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 66,
+      "officialLabel": "重面春太",
+      "iconNumber": 44,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon044.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6c8cc9b546",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 67,
+      "officialLabel": "裏梅",
+      "iconNumber": 45,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon045.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-000313127b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 68,
+      "officialLabel": "伏黒甚爾",
+      "iconNumber": 46,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon046.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d5482ceba1",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 69,
+      "officialLabel": "孔時雨",
+      "iconNumber": 47,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon047.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-22da946917",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 70,
+      "officialLabel": "分身術者",
+      "iconNumber": 48,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon048.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d218cffa84",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 71,
+      "officialLabel": "式神使い",
+      "iconNumber": 49,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon049.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b8fa3c89b0",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 72,
+      "officialLabel": "蛯名仁次",
+      "iconNumber": 50,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon050.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-27e18811b4",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 73,
+      "officialLabel": "粟坂二良",
+      "iconNumber": 51,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon051.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d31c75a751",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 74,
+      "officialLabel": "オガミ婆",
+      "iconNumber": 52,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon052.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-2615d69152",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 75,
+      "officialLabel": "オガミ婆の孫",
+      "iconNumber": 53,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon053.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-c33b96dce8",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 76,
+      "officialLabel": "羂索",
+      "iconNumber": 35,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon035.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-678a848346",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 77,
+      "officialLabel": "コークン",
+      "iconNumber": 55,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon055.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-e9f6f29ccf",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 78,
+      "officialLabel": "バイエル",
+      "iconNumber": 56,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon056.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d72adf2be9",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 79,
+      "officialLabel": "天内理子",
+      "iconNumber": 57,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon057.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-63e2590b87",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 80,
+      "officialLabel": "黒井美里",
+      "iconNumber": 58,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon058.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-526551b91f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 81,
+      "officialLabel": "両面宿儺",
+      "iconNumber": 59,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon059.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-2b8d365a39",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 82,
+      "officialLabel": "天使",
+      "iconNumber": 150,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon150.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-65e7fd1c87",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 83,
+      "officialLabel": "漏瑚",
+      "iconNumber": 60,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon060.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-a61fa295f1",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 84,
+      "officialLabel": "花御",
+      "iconNumber": 61,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon061.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9148bf784c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 85,
+      "officialLabel": "陀艮",
+      "iconNumber": 62,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon062.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6674ce6baa",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 86,
+      "officialLabel": "真人",
+      "iconNumber": 63,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon063.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-18d7c58412",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 87,
+      "officialLabel": "特級呪霊",
+      "iconNumber": 64,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon064.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": null,
+      "assignmentStatus": "not-present-in-db"
+    },
+    {
+      "pollOrder": 88,
+      "officialLabel": "蠅頭",
+      "iconNumber": 65,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon065.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-f479972eca",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 89,
+      "officialLabel": "祈本里香",
+      "iconNumber": 66,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon066.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-ba2d62b596",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 90,
+      "officialLabel": "化身玉藻前",
+      "iconNumber": 67,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon067.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-c9bc52aaf1",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 91,
+      "officialLabel": "格納型呪霊",
+      "iconNumber": 68,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon068.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-5da68e2f6c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 92,
+      "officialLabel": "虹龍",
+      "iconNumber": 69,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon069.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-5ae093db78",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 93,
+      "officialLabel": "口裂け女",
+      "iconNumber": 70,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon070.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-71f5d39336",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 94,
+      "officialLabel": "蝗GUY",
+      "iconNumber": 71,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon071.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-848db5733c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 95,
+      "officialLabel": "疱瘡神／疱瘡婆",
+      "iconNumber": 72,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon072.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-92d504ce2f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 96,
+      "officialLabel": "黒沐死",
+      "iconNumber": 149,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon149.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-46cd8034d9",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 97,
+      "officialLabel": "脹相",
+      "iconNumber": 73,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon073.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-851111b10d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 98,
+      "officialLabel": "壊相",
+      "iconNumber": 74,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon074.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6534bbe6c9",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 99,
+      "officialLabel": "血塗",
+      "iconNumber": 75,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon075.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-964e851215",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 100,
+      "officialLabel": "鵺",
+      "iconNumber": 76,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon076.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-996d48af99",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 101,
+      "officialLabel": "玉犬 白",
+      "iconNumber": 77,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon077.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-76c359aa1d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 102,
+      "officialLabel": "玉犬 黒",
+      "iconNumber": 78,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon078.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-8236095713",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 103,
+      "officialLabel": "玉犬 渾",
+      "iconNumber": 79,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon079.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-71d1706395",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 104,
+      "officialLabel": "蝦蟇",
+      "iconNumber": 80,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon080.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b18262c082",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 105,
+      "officialLabel": "大蛇",
+      "iconNumber": 81,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon081.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-2abcf48f04",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 106,
+      "officialLabel": "満象",
+      "iconNumber": 82,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon082.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-df284f67ad",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 107,
+      "officialLabel": "脱兎",
+      "iconNumber": 83,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon083.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0be6deff32",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 108,
+      "officialLabel": "円鹿",
+      "iconNumber": 183,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon183.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-05a7ab0dcd",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 109,
+      "officialLabel": "貫牛",
+      "iconNumber": 184,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon184.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-5481fbccc6",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 110,
+      "officialLabel": "八握剣 異戒神将 魔虚羅",
+      "iconNumber": 84,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon084.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9fccad3ed6",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 111,
+      "officialLabel": "不知井底",
+      "iconNumber": 185,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon185.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3ed1d78924",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 112,
+      "officialLabel": "コガネ",
+      "iconNumber": 151,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon151.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-8a6e43878f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 113,
+      "officialLabel": "ジャッジマン",
+      "iconNumber": 179,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon179.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-ef294e92de",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 114,
+      "officialLabel": "凰輪",
+      "iconNumber": 152,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon152.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-a34bfbb398",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 115,
+      "officialLabel": "ツカモト",
+      "iconNumber": 85,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon085.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6cd94bbcdf",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 116,
+      "officialLabel": "キャシィ",
+      "iconNumber": 86,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon086.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3a20306988",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 117,
+      "officialLabel": "タケル",
+      "iconNumber": 130,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon130.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b035a7658c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 118,
+      "officialLabel": "佐々木せつこ",
+      "iconNumber": 87,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon087.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-19d387e1e3",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 119,
+      "officialLabel": "井口たけし",
+      "iconNumber": 88,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon088.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6bce2a211a",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 120,
+      "officialLabel": "生徒会長",
+      "iconNumber": 89,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon089.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-8ba89c1a5f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 121,
+      "officialLabel": "陸上部顧問 高木",
+      "iconNumber": 90,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon090.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-66caf9e7ec",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 122,
+      "officialLabel": "虎杖倭助",
+      "iconNumber": 91,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon091.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0ee50b4740",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 123,
+      "officialLabel": "沙織",
+      "iconNumber": 92,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon092.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d321eb3a66",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 124,
+      "officialLabel": "岡﨑正",
+      "iconNumber": 93,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon093.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0ee8c4b0ae",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 125,
+      "officialLabel": "伏黒津美紀",
+      "iconNumber": 94,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon094.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0f2e6e85bf",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 126,
+      "officialLabel": "アルバイト",
+      "iconNumber": 95,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon095.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-1896d42b18",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 127,
+      "officialLabel": "芥見下々",
+      "iconNumber": 96,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon096.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": null,
+      "assignmentStatus": "not-present-in-db"
+    },
+    {
+      "pollOrder": 128,
+      "officialLabel": "芥見母",
+      "iconNumber": 97,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon097.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": null,
+      "assignmentStatus": "not-present-in-db"
+    },
+    {
+      "pollOrder": 129,
+      "officialLabel": "高田ちゃん",
+      "iconNumber": 98,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon098.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0bca269a4a",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 130,
+      "officialLabel": "伊藤翔太",
+      "iconNumber": 99,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon099.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-83967cd8ae",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 131,
+      "officialLabel": "佐山",
+      "iconNumber": 100,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon100.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-1751414065",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 132,
+      "officialLabel": "西村",
+      "iconNumber": 102,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon102.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0af61a454d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 133,
+      "officialLabel": "本田",
+      "iconNumber": 101,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon101.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-dda1b15cf5",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 134,
+      "officialLabel": "つばさ",
+      "iconNumber": 103,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon103.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-656fe03d94",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 135,
+      "officialLabel": "外村先生",
+      "iconNumber": 104,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon104.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0429ab4dc0",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 136,
+      "officialLabel": "吉野凪",
+      "iconNumber": 105,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon105.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-c0e690427b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 137,
+      "officialLabel": "パン屋の店員",
+      "iconNumber": 106,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon106.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-f87a321c6f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 138,
+      "officialLabel": "七海の元上司",
+      "iconNumber": 107,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon107.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-cc7cd6ccbf",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 139,
+      "officialLabel": "金森",
+      "iconNumber": 108,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon108.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-1b63d8dcdc",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 140,
+      "officialLabel": "斉藤さん(母)",
+      "iconNumber": 109,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon109.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-91ac59016d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 141,
+      "officialLabel": "斉藤さん(娘)",
+      "iconNumber": 110,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon110.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-1bbe626376",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 142,
+      "officialLabel": "金田太一",
+      "iconNumber": 112,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon112.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-8e6f9fc580",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 143,
+      "officialLabel": "島田治",
+      "iconNumber": 113,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon113.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-05e0877f46",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 144,
+      "officialLabel": "大和広",
+      "iconNumber": 114,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon114.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b0c4caf31c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 145,
+      "officialLabel": "バカA",
+      "iconNumber": 115,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon115.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-dcb6ddb293",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 146,
+      "officialLabel": "藤沼",
+      "iconNumber": 116,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon116.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3e900c584c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 147,
+      "officialLabel": "藤沼(姉)",
+      "iconNumber": 117,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon117.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-5bc95bc9e0",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 148,
+      "officialLabel": "武田",
+      "iconNumber": 118,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon118.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-ed98ec9440",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 149,
+      "officialLabel": "太助",
+      "iconNumber": 119,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon119.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-ac5bfb99ac",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 150,
+      "officialLabel": "園田茂",
+      "iconNumber": 120,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon120.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-f575a0a3ee",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 151,
+      "officialLabel": "小沢優子",
+      "iconNumber": 121,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon121.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9469499a06",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 152,
+      "officialLabel": "伏黒恵の母",
+      "iconNumber": 122,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon122.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-383f9ce538",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 153,
+      "officialLabel": "ふみ",
+      "iconNumber": 123,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon123.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-daba6cb53e",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 154,
+      "officialLabel": "フルダテ",
+      "iconNumber": 124,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon124.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-224a241de8",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 155,
+      "officialLabel": "虎杖仁",
+      "iconNumber": 126,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon126.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-851481d8c3",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 156,
+      "officialLabel": "ケンさん",
+      "iconNumber": 129,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon129.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-6e5f124638",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 157,
+      "officialLabel": "日下部の妹",
+      "iconNumber": 154,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon154.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0839ba226c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 158,
+      "officialLabel": "真希、真依の母",
+      "iconNumber": 155,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon155.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3248ea0da4",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 159,
+      "officialLabel": "ジョン☆ボビ",
+      "iconNumber": 156,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon156.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-3b9f5b73d3",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 160,
+      "officialLabel": "大江圭太",
+      "iconNumber": 157,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon157.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-f87eb0c109",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 161,
+      "officialLabel": "清水",
+      "iconNumber": 158,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon158.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-87b2840742",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 162,
+      "officialLabel": "高木",
+      "iconNumber": 159,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon159.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-116e724a1e",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 163,
+      "officialLabel": "吉沢",
+      "iconNumber": 160,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon160.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0be085fe01",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 164,
+      "officialLabel": "池沢",
+      "iconNumber": 161,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon161.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9aa6c80b61",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 165,
+      "officialLabel": "パンダのお兄ちゃん",
+      "iconNumber": 162,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon162.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-f5b0193f9b",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 166,
+      "officialLabel": "パンダのお姉ちゃん",
+      "iconNumber": 163,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon163.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b05e05011d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 167,
+      "officialLabel": "斎藤雨矢",
+      "iconNumber": 164,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon164.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9f27f7b399",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 168,
+      "officialLabel": "天ノ川小百合",
+      "iconNumber": 165,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon165.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-207d1e2959",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 169,
+      "officialLabel": "朝霧夢",
+      "iconNumber": 166,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon166.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-0fd233938d",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 170,
+      "officialLabel": "加藤空",
+      "iconNumber": 167,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon167.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9bdffe1087",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 171,
+      "officialLabel": "清水涼香",
+      "iconNumber": 168,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon168.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-8e2aed473c",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 172,
+      "officialLabel": "山口紗夜花",
+      "iconNumber": 169,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon169.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-a6a1c5d1be",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 173,
+      "officialLabel": "山口夕輝",
+      "iconNumber": 170,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon170.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9d5781cc30",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 174,
+      "officialLabel": "四乃",
+      "iconNumber": 171,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon171.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-d7b7b23267",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 175,
+      "officialLabel": "憲紀の母",
+      "iconNumber": 173,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon173.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-e2fb64f147",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 176,
+      "officialLabel": "憲紀の母の新しい旦那",
+      "iconNumber": 175,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon175.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-ba1a693126",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 177,
+      "officialLabel": "憲紀の母の新しい旦那との子",
+      "iconNumber": 174,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon174.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-25dbde0cc7",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 178,
+      "officialLabel": "サイラス・ヴェイル",
+      "iconNumber": 176,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon176.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-b7f2a3f42f",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 179,
+      "officialLabel": "大統領",
+      "iconNumber": 177,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon177.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-9e8435ee20",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 180,
+      "officialLabel": "ギャリー・K・ジョンソン",
+      "iconNumber": 178,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon178.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-e853296f46",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 181,
+      "officialLabel": "嵌合獣・顎吐",
+      "iconNumber": 186,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon186.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-937c617c00",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 182,
+      "officialLabel": "ロール髪お嬢様",
+      "iconNumber": 181,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon181.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-08c7bc0ea9",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    },
+    {
+      "pollOrder": 183,
+      "officialLabel": "悪路王大獄",
+      "iconNumber": 187,
+      "imageUrl": "https://www.shonenjump.com/j/vote_jujutsu_kaisen/_image/icon187.png",
+      "sourceRef": "src-official-character-vote-4",
+      "verification": "official-page-direct-link",
+      "characterId": "char-2947dc1a21",
+      "assignmentStatus": "exact-name-or-reviewed-alias"
+    }
+  ],
+  "chapterThumbnails": [
+    {
+      "chapterId": "zero-01",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "zero-02",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "zero-03",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "zero-04",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-001",
+      "imageUrl": "https://cdn-scissors.gigaviewer.com/image/scale/24f19aea335e5a6b082b2e0b8d2456b35453e2a9/enlarge=0;height=450;no_unsharpmask=1;quality=90;version=1;width=320/https%3A%2F%2Fcdn-ak-img.shonenjumpplus.com%2Fpublic%2Fepisode-thumbnail%2F10834108156650001170-b90ba64de969d2b88d6728e1f270330d%3F1711562458",
+      "episodeUrl": "https://shonenjumpplus.com/episode/10834108156650001170",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "official-page-direct-link",
+      "note": "少年ジャンプ＋の第1話ページに対応する公式サムネイル。"
+    },
+    {
+      "chapterId": "ch-002",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-003",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-004",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-005",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-006",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-007",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-008",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-009",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-010",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-011",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-012",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-013",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-014",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-015",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-016",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-017",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-018",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-019",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-020",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-021",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-022",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-023",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-024",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-025",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-026",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-027",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-028",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-029",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-030",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-031",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-032",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-033",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-034",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-035",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-036",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-037",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-038",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-039",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-040",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-041",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-042",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-043",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-044",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-045",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-046",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-047",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-048",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-049",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-050",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-051",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-052",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-053",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-054",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-055",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-056",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-057",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-058",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-059",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-060",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-061",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-062",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-063",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-064",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-065",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-066",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-067",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-068",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-069",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-070",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-071",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-072",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-073",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-074",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-075",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-076",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-077",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-078",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-079",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-080",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-081",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-082",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-083",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-084",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-085",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-086",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-087",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-088",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-089",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-090",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-091",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-092",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-093",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-094",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-095",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-096",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-097",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-098",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-099",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-100",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-101",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-102",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-103",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-104",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-105",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-106",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-107",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-108",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-109",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-110",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-111",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-112",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-113",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-114",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-115",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-116",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-117",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-118",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-119",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-120",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-121",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-122",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-123",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-124",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-125",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-126",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-127",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-128",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-129",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-130",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-131",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-132",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-133",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-134",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-135",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-136",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-137",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-138",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-139",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-140",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-141",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-142",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-143",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-144",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-145",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-146",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-147",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-148",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-149",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-150",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-151",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-152",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-153",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-154",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-155",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-156",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-157",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-158",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-159",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-160",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-161",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-162",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-163",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-164",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-165",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-166",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-167",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-168",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-169",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-170",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-171",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-172",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-173",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-174",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-175",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-176",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-177",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-178",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-179",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-180",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-181",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-182",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-183",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-184",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-185",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-186",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-187",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-188",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-189",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-190",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-191",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-192",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-193",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-194",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-195",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-196",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-197",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-198",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-199",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-200",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-201",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-202",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-203",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-204",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-205",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-206",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-207",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-208",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-209",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-210",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-211",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-212",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-213",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-214",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-215",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-216",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-217",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-218",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-219",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-220",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-221",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-222",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-223",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-224",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-225",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-226",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-227",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-228",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-229",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-230",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-231",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-232",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-233",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-234",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-235",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-236",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-237",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-238",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-239",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-240",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-241",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-242",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-243",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-244",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-245",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-246",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-247",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-248",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-249",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-250",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-251",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-252",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-253",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-254",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-255",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-256",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-257",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-258",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-259",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-260",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-261",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-262",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-263",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-264",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-265",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-266",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-267",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-268",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-269",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-270",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    },
+    {
+      "chapterId": "ch-271",
+      "imageUrl": "",
+      "episodeUrl": "",
+      "sourceRef": "src-jumpplus-episode-thumbnails",
+      "verification": "pending-official-page-collection",
+      "note": "公式エピソードページとの対応を未収集。推測URLは使用しない。"
+    }
+  ]
+}

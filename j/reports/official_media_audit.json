@@ -1,0 +1,80 @@
+{
+  "buildVersion": "site-v8-source-crosschecked-lines",
+  "volumeImages": {
+    "registered": 31,
+    "verified": 31
+  },
+  "officialPollImages": {
+    "registered": 183,
+    "assignedToDbCharacters": 180,
+    "unassignedOfficialLabels": [
+      "特級呪霊",
+      "芥見下々",
+      "芥見母"
+    ],
+    "unusedIconNumbersBetween1And187": [
+      54,
+      111,
+      153,
+      182
+    ],
+    "reviewedNonExactAssignments": [
+      {
+        "pollOrder": 20,
+        "officialLabel": "与幸吉/究極メカ丸",
+        "dbCharacterName": "与幸吉",
+        "dbCharacterId": "char-dad71c9f31",
+        "reason": "exact-name-or-reviewed-alias"
+      },
+      {
+        "pollOrder": 50,
+        "officialLabel": "ドルゥヴ・ラクダワラ",
+        "dbCharacterName": "ドゥルヴ・ラクダワラ",
+        "dbCharacterId": "char-6ede6f3587",
+        "reason": "exact-name-or-reviewed-alias"
+      },
+      {
+        "pollOrder": 95,
+        "officialLabel": "疱瘡神／疱瘡婆",
+        "dbCharacterName": "疱瘡婆",
+        "dbCharacterId": "char-92d504ce2f",
+        "reason": "exact-name-or-reviewed-alias"
+      }
+    ]
+  },
+  "dbCharacterImages": {
+    "total": 189,
+    "assigned": 180,
+    "pendingCharacterNames": [
+      "リカ",
+      "乙骨の孫（少女）",
+      "乙骨の孫（少年）",
+      "加茂憲倫",
+      "特級呪霊（八十八橋）",
+      "特級呪霊（少年院）",
+      "虎杖香織",
+      "釘崎の母",
+      "釘崎の祖母"
+    ]
+  },
+  "chapterThumbnails": {
+    "total": 275,
+    "verified": 1,
+    "pending": 274,
+    "verifiedChapterIds": [
+      "ch-001"
+    ]
+  },
+  "performance": {
+    "catalogBytes": 339906,
+    "catalogVolumesBytes": 69475,
+    "maxDetailChunkBytes": 101204,
+    "imageLoading": "selected-item-only"
+  },
+  "policy": {
+    "scope": "official-manga-only",
+    "hotlinking": "URLs are referenced; images are not copied into this package.",
+    "unverifiedRule": "Do not infer or fabricate missing image URLs. Display pending state.",
+    "performanceRule": "Only the currently selected external image is requested by the browser."
+  }
+}

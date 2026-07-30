@@ -1,0 +1,72 @@
+{
+  "buildVersion": "site-v8-source-crosschecked-lines",
+  "scope": "static-site-compact-record-browser-source-crosschecked-manga-lines-deep-chapter-highlights-volume-content-and-official-media",
+  "counts": {
+    "chapters": 275,
+    "characters": 189,
+    "techniques": 179,
+    "terms": 173,
+    "supplements": 4,
+    "sources": 92,
+    "volumes": 31,
+    "detailChunks": 54
+  },
+  "chapterHighlights": {
+    "detailedEvents": 2109,
+    "dialogueSummaries": 1221,
+    "crosscheckedLines": 972,
+    "chaptersWithCrosscheckedLines": 128,
+    "popularLineGists": 62,
+    "highlightKeywords": 2738,
+    "chaptersWithDialogueSummary": 275
+  },
+  "officialMedia": {
+    "volumeCovers": {"registered": 31, "total": 31},
+    "pollImages": {"registered": 183, "assignedToDbCharacters": 180, "dbCharacters": 189},
+    "chapterThumbnails": {"verified": 1, "total": 275, "pending": 274}
+  },
+  "volumeContent": {
+    "officialSynopsisBased": {"complete": 31, "total": 31},
+    "chapterAssignments": {"complete": 275, "total": 275},
+    "supplementAssignments": {"complete": 4, "total": 4}
+  },
+  "tests": {
+    "buildSite": "PASS",
+    "validateSite": "PASS; warnings=0",
+    "officialMediaAudit": "PASS",
+    "volumeContentAudit": "PASS; volumes=31; chapters=275; supplements=4",
+    "officialImageParserFixtures": "PASS",
+    "coreMediaDomRenderingShuffleAndFontSettings": "PASS",
+    "compactUiJsdomTraversal": "PASS; 8 content pages, font tuner, source-crosschecked lines, compact folds, tabs, list selection and aggregate counts",
+    "dataQualityAudit": "COMPLETED; queue=878",
+    "localHttp": "PASS; 1 entry file, 8 content pages and 2 generated catalogs returned HTTP 200",
+    "browserScreenshotAutomation": "NOT RUN; Playwright Chromium executable is not installed in this environment"
+  },
+  "performance": {
+    "catalogBytes": 339906,
+    "catalogVolumesBytes": 69475,
+    "maxDetailChunkBytes": 101204,
+    "externalImageLoading": "selected-item-only"
+  },
+  "ui": {
+    "desktopLayout": "two-pane-list-detail",
+    "listRowHeightPx": 43,
+    "recordTabs": true,
+    "chapterHighlightTab": true,
+    "chapterHighlightColumns": 3,
+    "crosscheckedLineInitialLimit": 6,
+    "fontTunerControls": 10,
+    "officialImageMaxWidthPx": 320,
+    "officialImageMaxHeightPx": 408,
+    "recordPagesTested": 6,
+    "aggregatePagesTested": 2
+  },
+  "sourceResearch": {
+    "discoveredChapterArticleUrls": 521,
+    "chaptersWithTwoOrMoreSourceFamilies": 225,
+    "failedPagesRecorded": 35,
+    "animeOpinionPredictionExcluded": true,
+    "speakerAttributionWithheldUntilPrimaryCheck": true
+  },
+  "accuracyBoundary": "All 31 volume synopses are original summaries based on official Shueisha volume descriptions, and all 275 chapter assignments are structurally complete. The 972 short strings require identical normalized wording across at least two independent manga article families, but are not primary-text verified and therefore carry no speaker attribution. Manga page-by-page verification remains 0/275. Only ch-001 has a verified thumbnail URL; the other 274 remain explicitly pending and are not fabricated."
+}

@@ -1539,5 +1539,166 @@
       "plot detail verification"
     ],
     "exclusion_note": "漫画単行本の収録情報のみ使用。"
+  },
+  {
+    "id": "src-shindo-chapter-recaps",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "シンドーログ 呪術廻戦 各話記事",
+    "publisher": "シンドーログ",
+    "url": "https://eiga-manga.com/entry/jujutsu135",
+    "usable_for": [
+      "short manga dialogue string crosscheck",
+      "chapter event crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "official confirmation",
+      "predictions or opinions"
+    ],
+    "exclusion_note": "原作漫画の作中事実と短い発言候補だけを抽出し、予想・感想・映像版情報は除外。別系統の記事と同一文言を確認できた場合だけ短文照合へ使用する。"
+  },
+  {
+    "id": "src-animenb-manga-recaps",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-extract",
+    "title": "アース 呪術廻戦 原作各話まとめ",
+    "publisher": "アース",
+    "url": "https://animenb.com/jujutukaisen-latest-story/",
+    "usable_for": [
+      "short manga dialogue string crosscheck",
+      "chapter event crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "official confirmation",
+      "predictions or opinions"
+    ],
+    "exclusion_note": "原作各話の事実部分だけを抽出。アニメ、予想、考察、感想はすべて除外し、別系統の記事と一致した短文だけを採用する。"
+  },
+  {
+    "id": "src-idononaka-manga-recaps",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "井戸の中 呪術廻戦 各話記事",
+    "publisher": "井戸の中",
+    "url": "https://idononaka.com/page/1",
+    "usable_for": [
+      "short manga dialogue string crosscheck",
+      "chapter event crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "official confirmation",
+      "predictions or opinions"
+    ],
+    "exclusion_note": "原作漫画の作中事実と短い発言候補だけを抽出し、予想・感想・映像版情報は除外。別系統の記事と一致した短文だけを採用する。"
+  },
+  {
+    "id": "src-neet-life-manga-recaps",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "neet-life-blog 呪術廻戦 原作記事",
+    "publisher": "neet-life-blog",
+    "url": "https://neet-life-blog.com/category/%E6%BC%AB%E7%94%BB%E3%80%81%E3%82%A2%E3%83%8B%E3%83%A1/%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6/page/1",
+    "usable_for": [
+      "short manga dialogue string crosscheck",
+      "chapter event crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "official confirmation",
+      "predictions or opinions"
+    ],
+    "exclusion_note": "カテゴリ内から原作漫画の記事だけを選別。アニメ、予想、考察、感想は除外し、別系統の記事と一致した短文だけを採用する。"
+  },
+  {
+    "id": "src-manga5000-manga-recaps",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "Manga5000 呪術廻戦 原作各話記事",
+    "publisher": "Manga5000",
+    "url": "https://manga5000.com/%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6/jujutukaisen-1/",
+    "usable_for": [
+      "short manga dialogue string crosscheck",
+      "chapter event crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "official confirmation",
+      "predictions or opinions"
+    ],
+    "exclusion_note": "原作漫画の各話記事だけを使用。感想や推測は除外し、別系統の記事と一致した短文だけを採用する。"
+  },
+  {
+    "id": "src-morn-life-manga-recaps",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "morn.life 呪術廻戦 原作各話記事",
+    "publisher": "morn.life",
+    "url": "https://morn.life/2019/10/11/jujutsukaisen-2/",
+    "usable_for": [
+      "short manga dialogue string crosscheck",
+      "chapter event crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "official confirmation",
+      "predictions or opinions"
+    ],
+    "exclusion_note": "原作漫画の各話記事だけを使用。感想や推測は除外し、別系統の記事と一致した短文だけを採用する。"
+  },
+  {
+    "id": "src-official-comics-list",
+    "type": "official-publisher",
+    "media_scope": "manga-official-images",
+    "title": "『呪術廻戦』コミックス一覧｜少年ジャンプ公式サイト",
+    "publisher": "集英社",
+    "url": "https://www.shonenjump.com/j/rensai/_list/jujutsu/",
+    "usable_for": [
+      "official comic cover image link",
+      "volume number",
+      "official volume description"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "unshown character or technique facts"
+    ]
+  },
+  {
+    "id": "src-jumpplus-episode-thumbnails",
+    "type": "official-publisher",
+    "media_scope": "manga-official-images",
+    "title": "『呪術廻戦』公式エピソードページ｜少年ジャンプ＋",
+    "publisher": "集英社",
+    "url": "https://shonenjumpplus.com/episode/10834108156650001170",
+    "usable_for": [
+      "official episode page link",
+      "official episode thumbnail link",
+      "official chapter title"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary beyond the displayed official synopsis",
+      "unshown character or technique facts"
+    ]
+  },
+  {
+    "id": "src-ciatr-quotes-2026",
+    "type": "secondary-japanese-manga-feature",
+    "media_scope": "manga-popular-lines",
+    "title": "『呪術廻戦』名言ランキングTOP60！",
+    "publisher": "ciatr",
+    "url": "https://ciatr.jp/topics/317377",
+    "usable_for": [
+      "publicly discussed line discovery",
+      "speaker and manga chapter crosscheck",
+      "popular phrase search labels"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty",
+      "official popularity ranking"
+    ],
+    "exclusion_note": "漫画の巻数・話数が明記された項目だけを照合に使用。長台詞は転載せず、短い検索ラベルと独自の要旨に変換する。アニメ話数は採用しない。"
   }
 ]

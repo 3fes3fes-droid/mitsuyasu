@@ -1,3 +1,4 @@
+[
 {
   "file": "chapters.html",
   "input_ms": [
@@ -37,7 +38,7 @@
   "final_buttons": 275,
   "nodes": 886,
   "errs": []
-}
+},
 {
   "file": "characters.html",
   "input_ms": [
@@ -77,7 +78,7 @@
   "final_buttons": 189,
   "nodes": 650,
   "errs": []
-}
+},
 {
   "file": "techniques.html",
   "input_ms": [
@@ -117,7 +118,7 @@
   "final_buttons": 179,
   "nodes": 627,
   "errs": []
-}
+},
 {
   "file": "terms.html",
   "input_ms": [
@@ -158,3 +159,4 @@
   "nodes": 626,
   "errs": []
 }
+]

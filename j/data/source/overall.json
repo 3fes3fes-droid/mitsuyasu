@@ -1,5 +1,5 @@
 {
-  "title": "呪術廻戦 原作漫画データベース 第一稿＋精査Phase 1",
+  "title": "呪術廻戦 原作漫画データベース 第一稿＋漫画記事横断照合",
   "scope": {
     "included": [
       "漫画0巻全4話",
@@ -45,11 +45,11 @@
   ],
   "data_counts": {
     "chapters": 275,
-    "characters_and_named_entities": 183,
-    "techniques": 122,
-    "terms": 89,
+    "characters_and_named_entities": 189,
+    "techniques": 179,
+    "terms": 173,
     "arcs": 21
   },
-  "verification": "first-pass-complete-phase1-crosschecked",
-  "completion_note": "全275話の第一稿に加え、0巻4話＋本編第1〜18話の詳細あらすじ・主要出来事・人物・術式・用語を漫画限定資料で突合。原作ページ直接照合は最終工程として未完。"
+  "verification": "first-pass-complete-secondary-manga-crosschecked",
+  "completion_note": "全275話の第一稿と発言・判断・言動要旨を収録。本編225／271話で漫画記事を2系統以上確保し、128話では短い作中発言の同一文言を照合済み。アニメ・予想・感想は採用していない。原作ページの直接監査は未完。"
 }
