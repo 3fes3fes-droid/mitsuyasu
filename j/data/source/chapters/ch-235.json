@@ -1,0 +1,153 @@
+{
+  "id": "ch-235",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 26,
+  "number": 235,
+  "zero_number": null,
+  "label": "第235話",
+  "title_official": "人外魔境新宿決戦⑬",
+  "title_search_normalized": "人外魔境新宿決戦13",
+  "start_page": 147,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-26"
+  ],
+  "source_locator": "単行本26巻 目次 p.147",
+  "summary_short": "五条は蒼と赫を新宿上空で衝突させ、無制限の虚式「茈」を炸裂させる。魔虚羅は消滅し、宿儺は重傷を負い、観戦者たちは五条の勝利を確信する。",
+  "summary_full": "五条は蒼と赫を新宿上空で衝突させ、無制限の虚式「茈」を炸裂させる。魔虚羅は消滅し、宿儺は重傷を負い、観戦者たちは五条の勝利を確信する。黒閃で出力を取り戻した五条は右腕を再生し、残存する蒼へ赫を衝突させる。無制限の茈は魔虚羅を消滅させ、宿儺を戦闘不能寸前まで追い込む。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The climax of the battle of the strongest! 五条悟's voltage ramps up and the King of Curses is uneasy for the first time in a millennium. The fight will ultimately be decided if Unlimited Hollow carves its way through 新宿 again.",
+    "summary_full_legacy": "五条 unleashes more successive 黒閃. As a result of a second 黒閃 , 五条's 反転術式 output returns and he experiences a rush of exhilaration as his arm is restored. Meanwhile, 宿儺 feels uneasy for the first time in a thousand years as the advantage slips away from him. 五条 hits 魔虚羅 away with another 黒閃 and then engages 宿儺 in hand-to-hand combat . He throws 宿儺 into 魔虚羅 with 五条 following up with another 黒閃, sending both of them crashing through a building as 五条 then begins reciting an incantation. Every sorcerer produces a spark of 呪力 when they activate a 術式 with 五条 being no exception. 宿儺 can tell by the chant and the spark of 呪力 that 五条 will unleash 術式 術式反転「赫」 . He plans on using 魔虚羅 to block the attack and adapt but 五条 fires Red in the air instead. 宿儺 quickly realizes 五条's strategy and orders 魔虚羅 to stop him. The orb of 術式 術式順転「蒼」 that destroyed 顎吐 is still floating in the air. 宿儺 wants 魔虚羅 to destroy Blue but 五条 uses the field of attraction to boost his speed and intercept the 式神 . The attraction doesn't affect 魔虚羅 because of its adaptation, which has backfired in this case. 五条 delivers an uppercut on 魔虚羅 and 宿儺 shoots an imitation 穿血 at Red to force it to explode. \"虚式「茈」\" 五条 hits 宿儺 but it's after he's already released and shot 穿血. 宿儺 believes that it's too late and smiles in victory but 五条 follows up by quickly reciting the incantation for Blue to boost its output. This increases Blue's field of attraction, redirecting and absorbing the stream of water away into it and away from Red. \nWhile all three fighters in the sky, 五条 chants the incantation for 虚式「茈」 as his opponents can only look on. In the monitoring room with 五条's allies, 憂太 apologizes to 日下部 . Even with his strength, 憂太 realizes 五条 wouldn't have been able to pull this off if he had been there to hold him back. 'The strongest' carves his name into the battlefield of 新宿! An imaginary mass rushes forth and decimates a large stretch of 新宿. 魔虚羅 and its wheel are completely disintegrated as well. 宿儺 narrowly survives the attack but he's heavily injured, hardly able to stand, and missing his left hand. 五条 was hit by the explosion as well but suffered far less damage, which he assumes is because it was his own 呪力. This is the first time 五条 has gotten caught in his own attack and commends himself for the improvised remote activation of 虚式「茈」. Confident victory is at hand, 日下部 comments that it's 五条 who has regained his output against a heavily injured 宿儺. 悠仁 asks for affirmation just to be sure and 日下部 optimistically reaffirms that 五条 has won.",
+    "characters_raw_text": "五条悟 宿儺 日下部篤也 三輪霞 乙骨憂太 虎杖悠仁",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 黒閃 無下限呪術 術式 術式順転「蒼」 術式 術式反転「赫」 虚式「茈」／反転術式 術式 術式 術式順転「蒼」 術式 術式反転「赫」 虚式「茈」 宿儺の術式 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 嵌合獣 顎吐 顎吐 満象 (未顕現) 穿血 (Imitation) 八握剣異戒神将 魔虚羅 魔虚羅 嵌合獣 顎吐 顎吐 満象 (未顕現) 穿血 (Imitation) 穿血 (Imitation)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-937c617c00",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-df284f67ad",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-5d6a005065",
+    "tech-69d5ecb511",
+    "tech-6e6dd087e1",
+    "tech-7279b3b06c",
+    "tech-7c3237f986",
+    "tech-90aaa17cfe",
+    "tech-9761156f3b",
+    "tech-cf2f8dca4a",
+    "tech-cf5d1ac726",
+    "tech-df284f67ad",
+    "tech-fb21434f98"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "五条は蒼と赫を新宿上空で衝突させ、無制限の虚式「茈」を炸裂させる。",
+    "魔虚羅は消滅し、宿儺は重傷を負い、観戦者たちは五条の勝利を確信する。",
+    "黒閃で出力を取り戻した五条は右腕を再生し、残存する蒼へ赫を衝突させる。",
+    "無制限の茈は魔虚羅を消滅させ、宿儺を戦闘不能寸前まで追い込む。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-937c617c00",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-df284f67ad",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-937c617c00",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-df284f67ad",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-90aaa17cfe",
+    "tech-6e6dd087e1",
+    "tech-fb21434f98",
+    "tech-cf5d1ac726"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-6e6dd087e1",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-fb21434f98",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-26",
+    "src-manga-games-vol-26",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

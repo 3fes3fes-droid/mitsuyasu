@@ -1,0 +1,100 @@
+{
+  "id": "ch-182",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 182,
+  "zero_number": null,
+  "label": "第182話",
+  "title_official": "東京第２結界②",
+  "title_search_normalized": "東京第2結界2",
+  "start_page": 31,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.31",
+  "summary_short": "死滅回游によって創作の場を失ったシャルルは、自分を憎ませて戦う理由を与えてほしいと秤へ求める。秤は挑発に応じ、シャルルとの戦闘を始める。",
+  "summary_full": "シャルルはペン型の呪具「G戦杖」で秤を攻撃し、血をペン先へ取り込むことで相手の未来を漫画のコマとして読む。最初は一秒先、血が増えるほどさらに先を視認できるが、確認には視線が必要だった。秤は死角から連打して弱点を突き、絶望を口実に他者へ暴力を向けるシャルルの心を完全に折ると宣言する。未来視が二秒へ伸びる中、秤は領域展開「坐殺博徒」を発動する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The aspiring mangaka, シャルル ベルナール , has fallen into despair because his reality has been overtaken by the 死滅回游 . Now he wishes to draw 秤金次 's blood as well as manga. In order to stop シャルル from seeking selfish reasons to lash out, 秤 fights to break his spirit completely.",
+    "summary_full_legacy": "シャルル attacks 秤 with G戦杖. Ready to fight 秤 over his rude comments, シャルル conjures a cursed tool called G戦杖 , a pen-shaped spear connected to his innate technique . シャルル' attack bursts through their pod of the ferris wheel, forcing 秤 outside on top of the attraction where the assault continues. シャルル thrusts his spear at 秤's head several times while quoting a \"poem\" from a creator he admires. 秤 avoids the strikes and jumps off the ferris wheel onto a building below where シャルル follows. He's annoyed because シャルル is actually quoting a creator's comment from Katsura Hoshino, which 秤 does not consider a poem. シャルル continues by explaining that mangaka enter a fictitious space in their minds where anything is possible because reality isn't satisfying. シャルル believes his reality has been overtaken by jujutsu and has lost his motivation as both a manga reader and creator as a result. He asks 秤 what that feeling is called and the 呪術高専 student replies with boredom. As his fighting spirit rises, シャルル suggests that feeling is actually called despair. シャルル peering into 秤's future. Fueled by his sorrow, シャルル strikes hard with his G戦杖 and scratches 秤's cheek open, drawing a bit of blood onto the pen's tip. 秤 asks if it's okay for a mangaka to use their drawing pen for violence but シャルル argues using a reference from Captain Tsubasa. The blood fills the pen's condition for シャルル' 術式 and marks 秤 with a glowing square. 秤 inquires about the square as he throws a flying kick but シャルル is able to avoid it and immediately counterattacks, surprising the former. 秤 is hit off the building but he maintains his balance as he's knocked back several meters from the blow. 秤 analyzes the way シャルル moved and quickly realizes it has to be more than a simple reflex. \" I'll attack from your blind spots and press you hard! \" シャルル taunts 秤 for finally removing his hands from his pockets and explains that the glowing square is actually a manga panel that lets the user see their opponent's next move. At present, シャルル can only see one second in advance but as the pen tip fills with more ofHakari's blood, the former will be able to see further into the future. 秤 dashes straight at シャルル to confirm this ability for himself and nearly lands a powerful right hook the latter admits would've taken him out if not for the effect of G戦杖. シャルル counters and hits 秤 across the head with the blunt end of his spear, affirming for him that シャルル really can see the future. 領域展開：坐殺博徒. However, 秤 is unimpressed and immediately disappears from シャルル' line of sight. He punches シャルル in the back and states that his opponent still needs to confirm with his eyes in order to see the future. To counter, 秤 attacks シャルル repeatedly from his blindspots without letting up and the latter takes note of 秤's rough 呪力 . シャルル tries to adjust by targeting his own blindspot but 秤 anticipates this and catches the weapon before striking again. Before シャルル can turn around and recover, 秤 blitzes him and reveals he can't go easy because he knows the despairing mangaka would just selfishly attack someone else. 秤 believes he will need to utterly break シャルル and hits him with another powerful punch. When 秤 gets behind him again and シャルル is able to recover and strike his blindspot, slightly cutting 秤's forehead. Irate, シャルル claims that the vessel containing his heart is broken and is now only capable of spilling out in a gush of emotion. He adds that he can see two seconds into 秤's future and will be waiting in his blind spot. Confused as to why 秤 isn't intimidated, シャルル asks his opponent why he's posing in this situation. 秤 uses both his hands to form the proper hand sign to cast his 領域展開 , 坐殺博徒 . Due to his domain's guaranteed effect, its rules are instantly transmitted to シャルル' brain.",
+    "characters_raw_text": "シャルル ベルナール 秤金次",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游 秤金次 vs. シャルル ベルナール (開始) 秤金次 vs. シャルル ベルナール (開始)",
+    "techniques_raw_text": "シャルル ベルナールの術式 G戦杖 秤金次の術式 領域展開：坐殺博徒",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-4e5593708e",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-42c5acf52c",
+    "tech-4b0b9dc682"
+  ],
+  "term_ids_candidate": [
+    "term-bb89ef15f2"
+  ],
+  "key_events_verified_phase10": [
+    "シャルルがG戦杖で秤の血を得る",
+    "シャルルが未来を漫画のコマとして視認する",
+    "秤が未来視の死角を突いて攻める",
+    "秤が坐殺博徒を発動する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-4e5593708e",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "fighting"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-4e5593708e",
+    "char-dea43d7fc7"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-42c5acf52c",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-39d2b30b48",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-42c5acf52c",
+    "tech-39d2b30b48"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-bb89ef15f2",
+    "term-e6a70dfe56",
+    "term-d97934afcd"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

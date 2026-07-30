@@ -1,0 +1,124 @@
+{
+  "id": "ch-177",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 20,
+  "number": 177,
+  "zero_number": null,
+  "label": "第177話",
+  "title_official": "仙台結界④",
+  "title_search_normalized": "仙台結界4",
+  "start_page": 107,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-20"
+  ],
+  "source_locator": "単行本20巻 目次 p.107",
+  "summary_short": "石流龍が遠距離から高出力の呪力砲を放ち、乙骨と烏鷺の戦いへ割って入る。仙台結界の戦いは三者の激突となる。",
+  "summary_full": "乙骨は石流の呪力砲をかわし、遠距離戦を避けて一気に接近する。石流は前世で強敵や伴侶に恵まれても満たされなかったと語り、戦いを食事の最後のデザートに例える。乙骨と石流が高出力の攻防を続ける中、烏鷺も空間を歪めて介入し、拡張術式「宇守羅彈」を乙骨へ叩き込む。三者が互いを狙う戦いとなり、乙骨は隠していた全力を使う必要に迫られる。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Not only does 憂太 have to contend with 烏鷺亨子 , but now 石流龍 is imposing his will as well. 龍 didn't have any regrets in his first life but he was never able to completely satisfy an insatiable hunger that still lingers with him to this day. With an extraordinary fighter in front of him, 龍 wants to see if 憂太 can be the dessert he's been longing for.",
+    "summary_full_legacy": "\"I'm unsatisfied because I ain't full!\" Responding to 憂太's comment about bringing the fight into close range, 龍 asks if someone should tell a child in front of a feast to calm down and eat slowly. 憂太 suggests someone should do that and 龍 actually agrees and admits that was a bad example. 龍 lights a cigarette and says he didn't have any major regrets in his first life where he fought worthy opponents and met a good woman. Even so, 龍 still suffers from a vague thirst and no one understands him because he's still unsatisfied. He says that cigarettes have a sweet aftertaste but his life has never had that kind of dessert. 憂太 listens calmly to 龍's words until he mentions dessert, then he can tell his opponent is about to go on the offensive. 憂太 trying to overpower 龍 at close range. 龍 attacks and 憂太 responds with punches of his own, giving them both a chance to feel each other out. 憂太 notes that 龍 has explosive 呪力 output combined with precise and quick movements. Even with 憂太's advanced toughness, a direct hit from 龍 would cause major damage. After exchanging several blows and parrying one another, both fighters turn to land a spinning attack. However, 龍 clashes his back against 憂太's and expels 呪力, sending the latter flying. Most people don't understand why 龍 is unsatisfied but he believes 憂太 knows why. The reason is simply that 龍 hasn't eaten his fill yet and he needs dessert to subside his insatiable hunger. 憂太 crashes through the top of a building but manages to regain his balance. 龍 quickly follows up with his グラニテブラスト attack but 憂太 is able to deflect it with his bare hands. Then 憂太 quickly closes the distance and tries to crush his opponent with a fierce right hook. However, 龍 counters with another beam of 呪力 that 憂太 is unable to fully overpower. 龍 asks if 憂太 is his dessert and repels his assault.- 烏鷺 attacks 憂太 from behind after he's hit by 龍. 烏鷺 takes advantage of 憂太's unfavorable positioning in mid-air and targets him with her 術式 . She doesn't hit the person with her technique, but she strikes the surface of the sky instead. 烏鷺 breaks the surface like thin ice and hits her opponent with that shattering impact. The advanced application of this technique is honed in 烏鷺's extension technique, 宇守羅彈 , which she uses to send 憂太 crashing down into a building. \"Come 里香, give me everything .\" Irritated by the interference, 龍 shoots a wave of 呪力 at 烏鷺 and tells her that she's in the way. 烏鷺 tells 龍 to silence himself and uses her technique to reflect the 呪力 beam right back at him. 龍 is knocked back by his own attack for the first time in his life and admits it packs quite a punch. An injured 憂太 manages to return to the battlefield, amusing 烏鷺, who claims she's going to toy with him. 龍 notices that 憂太 is constantly using 反転術式 to heal himself and using up all of his near-bottomless 呪力. He compares 憂太 to a cake shop, believing that it's always disappointing when the store closes regardless of how fancy or delicious the pastries are. Let down by his opponent's receding strength, 龍 assumes that 憂太 must not be the dessert he's been longing for. 憂太 knows that 龍 doesn't target civilians but he wouldn't care about making them collateral damage. 烏鷺's point total suggests she doesn't target civilians either. 憂太 wanted to put more distance between the fighting and the stadium where the civilians are just in case, but that isn't likely to happen. Instead, 憂太 decides to use his full power and puts on his ring. He calls upon 里香 and asks her to give him everything.",
+    "characters_raw_text": "石流龍 乙骨憂太 烏鷺亨子 黒沐死 (言及のみ) 里香 (言及のみ)",
+    "locations_raw_text": "仙台結界 仙台市 仙台市",
+    "battles_events_raw_text": "死滅回游 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍 乙骨憂太 vs. 烏鷺亨子 vs. 石流龍",
+    "techniques_raw_text": "石流龍の術式 呪力放出／グラニテブラスト 烏鷺亨子の術式 Sky Manipulation (名称不明) 宇守羅彈 宇守羅彈",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sendai",
+  "character_ids_candidate": [
+    "char-46cd8034d9",
+    "char-4a29b3de7b",
+    "char-ba2d62b596",
+    "char-c28763b98a",
+    "char-fd5a754a56",
+    "char-fe30ff0de9"
+  ],
+  "technique_ids_candidate": [
+    "tech-536c06630d",
+    "tech-5607df824a",
+    "tech-582460898c",
+    "tech-a9666d4ecb"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase9": [
+    "乙骨が石流へ接近して戦う",
+    "石流が戦いへの飢えを語る",
+    "烏鷺が宇守羅彈で介入する",
+    "乙骨が全力使用を決断する"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-4a29b3de7b",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-fe30ff0de9",
+      "presence": "intervenes"
+    },
+    {
+      "character_id": "char-fd5a754a56",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-c28763b98a",
+    "char-4a29b3de7b",
+    "char-fe30ff0de9",
+    "char-fd5a754a56"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-f3ecd34833",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-536c06630d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-4235aca76a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-582460898c",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-f3ecd34833",
+    "tech-536c06630d",
+    "tech-4235aca76a",
+    "tech-582460898c"
+  ],
+  "term_ids_verified_phase9": [
+    "term-3efd4cb8d8",
+    "term-c6defb1c13",
+    "term-phase7-incarnated-sorcerer"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-20",
+    "src-manga-games-vol-20",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

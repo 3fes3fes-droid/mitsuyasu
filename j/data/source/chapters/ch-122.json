@@ -1,0 +1,128 @@
+{
+  "id": "ch-122",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 122,
+  "zero_number": null,
+  "label": "第122話",
+  "title_official": "渋谷事変㊵",
+  "title_search_normalized": "渋谷事変40",
+  "start_page": 129,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.129",
+  "summary_short": "真人は分身体を作り、本体で虎杖、分身体で釘崎と同時に戦う。魂へ直接触れられない分身体を相手に、釘崎は攻勢へ転じる。",
+  "summary_full": "真人は駅構内で虎杖を改造人間と変形した肉体で翻弄し、途中で本体と分身体に分かれる。本体は虎杖との戦いを続け、分身体は地上へ向かって釘崎と遭遇する。釘崎は真人が虎杖の因縁の相手だと知り、芻霊呪法と簪を使って応戦する。分身体は自分の形を変えられる一方、他人の魂を変形させる力を持たず、釘崎を殺して虎杖の心を折ることを狙う。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 and 真人 's clash in 渋谷駅 continues. Unbeknownst to 悠仁, 真人 split himself into two entities earlier and the other 真人 is fighting 野薔薇 elsewhere in 渋谷 . 真人 plans to use her to break his rival's spirit for good.",
+    "summary_full_legacy": "悠仁 chasing 真人 through the station. 真人 and 悠仁 continue fighting in 渋谷駅. The 呪霊 attempts to slash 悠仁 at the Dogenzaka Ticket Gate but the latter jumps over the attack. After missing, 真人 runs through the station and uses delayed transfiguration to catch 悠仁 off guard. 悠仁 avoids it again and 真人 follows up with a punching attack from a large, enhanced, extra arm wrapped around his torso. 悠仁 catches the attack and 真人 immediately recognizes the danger this presents. 真人 attacks from inside an innocent civilian to sucker punch 悠仁. 悠仁 counterattacks but 真人 dismembers his own arm, transfiguring it with legs so they can both escape. 真人 runs through the ticket gates and merges back with the severed arm once they're at a safe distance. 悠仁 takes note that 真人 has unlocked a few new tricks since the last time they came to blows. 真人 knows attacking directly is a big risk for him so he decides to stick to using transfigured humans. However, reducing risk isn't the only reason for this strategy. 真人 runs to a different area in the station and disappears from 悠仁's sight. The young student gets spotted by two civilians who warn him it's too dangerous to be lurking around. 真人 splits into two selves. 悠仁 believes 真人 ran upstairs and tries to tell the two non-sorcerers to hide. Suddenly, 真人's arm appears from inside one of their mouths and punches 悠仁. The special grade climbs out of the man as if he was shedding his skin and transforms the other civilian into a sword, angering 悠仁. 真人 tells his adversary to work on his imagination, hoping to crush his spirit. In order to achieve that end, 真人 has one more trick to play as well. 野薔薇 fights the other 真人. Nearly two hours ago on 渋谷駅 B4F, 陀艮 consumed numerous civilians. This was around the time 真人, 脹相 , and 漏瑚 began their hunt for 悠仁. In order to find 悠仁 first, 真人 split into two of himself and blocked off his competition. Presently, 真人's other self encounters 野薔薇 in an alleyway. She recognizes him from past reports from 悠仁. 真人 takes it as a compliment that he's famous but 野薔薇 claims he's only known for being a coward and fleeing. Amused, 真人 decides to kill her, and 野薔薇 fights because she doesn't have anything to show for the incident so far. She tries to remember what it was like to unleash 黒閃 , attempting to tap into the core of 呪力 . In a short exchange, 野薔薇 manages to get the better of 真人 using clever explosions of her pins and the environment around them. He admits that she isn't bad but doesn't believe her attacks can actually harm him. The 呪霊 understands that 野薔薇 is an ally of 悠仁 and plans to bring her corpse to him and destroy his soul.",
+    "characters_raw_text": "真人 虎杖悠仁 脹相 (回想) 漏瑚 (回想) 陀艮 (回想) 釘崎野薔薇",
+    "locations_raw_text": "渋谷 渋谷駅 道玄坂改札／道玄坂小路 渋谷駅 道玄坂改札／道玄坂小路",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 釘崎野薔薇 vs. 真人 虎杖悠仁 & 釘崎野薔薇 vs. 真人",
+    "techniques_raw_text": "真人の術式 無為転変 野薔薇 Kugisakis 術式 芻霊呪法 術式 簪 簪",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-5a0f7ded8d",
+    "char-6674ce6baa",
+    "char-851111b10d",
+    "char-a61fa295f1",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-71a2d65cad",
+    "tech-932f1fb717"
+  ],
+  "term_ids_candidate": [
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase7": [
+    "真人が本体と分身体に分かれる",
+    "本体が虎杖との戦闘を継続する",
+    "真人の分身体が釘崎と遭遇する",
+    "釘崎が簪で分身体を攻撃する"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance-main-and-double"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-18d7c58412",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-851111b10d",
+    "char-a61fa295f1",
+    "char-6674ce6baa"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "self-transfiguration-and-division"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-932f1fb717",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-71a2d65cad",
+    "tech-2ac2471b12",
+    "tech-932f1fb717"
+  ],
+  "term_ids_verified_phase7": [
+    "term-phase5-transfigured-human",
+    "term-65867f280c",
+    "term-phase5-body"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

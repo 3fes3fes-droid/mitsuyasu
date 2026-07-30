@@ -1,0 +1,141 @@
+{
+  "id": "ch-207",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 207,
+  "zero_number": null,
+  "label": "第207話",
+  "title_official": "星と油③",
+  "title_search_normalized": "星と油3",
+  "start_page": 147,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.147",
+  "summary_short": "脹相が再び参戦し、術式の回復前に羂索を追い詰めようとする。九十九との連携で羂索の頭部を開かせ、重力を操る別の術式を暴く。",
+  "summary_full": "脹相は凰輪に拘束された羂索の頭部へ穿血を放ち、九十九と挟撃する。羂索は頭蓋の一部を回転させて直撃を逸らし、術式が回復すると重力で脹相と凰輪を押さえ込む。九十九は反転術式で回復し、重力の範囲と持続時間を読みながら接近するが、羂索は小型の極ノ番「うずまき」を連射する。第一射で防御を上げさせ、第二射で九十九の腹部を貫き、致命傷を与える。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "脹相 rejoins the battle as 九十九由基 struggle against 羂索 becomes increasing desperate. Together they hope to corner 羂索 before his cursed techniques replenish but the 呪詛師 refuses to go down without a fight.",
+    "summary_full_legacy": "脹相 ready to commit patricide. Continuing the conversation between 脹相 and 由基 prior to 羂索's arrival, 脹相 stated that he didn't care if he died so long as 羂索 did as well, for the sake of his family including 悠仁 . 由基 asked 脹相 to listen to 天元 's plan for dealing with 羂索's domain first. Even so, 脹相 still suggested he go first because 羂索 wouldn't open his domain if he knew another fighter was lying in wait. 脹相 knew that if 羂索 defeated him once, he would write him off and treat the fight as a one-on-one battle. Just as he intended, 脹相 ambushes 羂索 and takes him by surprise. 凰輪 squeezes itself around 羂索's waist and adds weight to prevent him from moving. With his target unable to move, 脹相 aims his compressed blood at point-blank range directly in front of his father's forehead. Poised to end 羂索 once and for all, 脹相 calls out to his brothers and says it's time to commit patricide, promptly firing 穿血 . 羂索 miraculously survives by allowing the blood beam to hit the top half of his head, which is switched on. This section spins around and has the same effect as slipping a punch in boxing. 羂索's head is injured from the attack but he brushes it off and reattaches his head. 由基 and 脹相 team up against 羂索. 由基 commends the 呪詛師 for surviving  脹相's assault and attacks him with a powerful kick. She believes 脹相 would've ended the fight if 星の怒り wasn't weakened by her injuries and provided the proper amount of weight to 凰輪. Even so, 由基 is confident 羂索 only pulled off such a desperate maneuver because he's cornered. 羂索's cursed techniques replenish. 由基 and 脹相 fight through their injuries and attack 羂索 together. They're able to overwhelm him but can't deal significant enough damage to end the fight. 脹相 knows 由基 needs to heal her injuries in order for her 術式 to power up and fights 羂索 on his own while she does so. 由基 uses 反転術式 to heal her mangled body but this weakens 星の怒り's effect on 凰輪の hold. 羂索 slips out of 凰輪の grasp and gets some distance. Unwilling to let go of the momentum, 由基 grabs 凰輪 by the bill and swings its body around like a whip, destroying the environment with her attacks. 羂索 uses a miniature うずまき to blast a hole through 由基. 由基 and 脹相 manage to pincer 羂索 from two sides but he suddenly activates his gravity manipulation technique. This sends 凰輪 and 脹相 crashing into the ground, revealing that 羂索 has replenished his cursed techniques. 脹相 laments and 凰輪 moves again a few seconds later, only to be forced back to the ground by gravity. 由基 ordered her 式神 to do this purposely while she observed. She deduces that 羂索 can only manipulate gravity a few meters around himself for about six seconds. Armed with 凰輪, 由基 attacks 羂索 in that interval, crushing any 呪霊 he tries to use to buy time. 由基 delivers several hard blows in quick succession as she tries to seize the moment and put an end to her opponent. However, 羂索 surprises her with a miniature 極ノ番: うずまき that blasts her upper body. He wasn't using 呪霊 to buy time for gravity, he used them to build up うずまき and take 由基 by surprise. While 由基 shields her face with her arms from the initial blast, 羂索 targets her lower body with a second mini-うずまき. He's figured out that 由基's durability doesn't increase as a result of her technique and fires a blast of 呪力 clean through 由基's lower torso, dealing her a fatal injury as 脹相 cries out for her.",
+    "characters_raw_text": "脹相 虎杖悠仁 (言及のみ) 九十九由基 天元 羂索",
+    "locations_raw_text": "薨星宮",
+    "battles_events_raw_text": "九十九由基 & 脹相 vs. 羂索",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂 穿血 百斂 穿血 羂索の術式 反重力機構 ( 術式 術式反転 ) 呪霊操術 (夏油傑として) 極ノ番: うずまき 極ノ番: うずまき 式神「凰輪」 九十九由基の術式 反転術式 術式 星の怒り",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-a34bfbb398",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-0ed3695b85",
+    "tech-1bc0d9ec7b",
+    "tech-2374b0f892",
+    "tech-4b0b9dc682",
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7",
+    "tech-a34bfbb398",
+    "tech-cf5d1ac726",
+    "tech-d3451c7bbb"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase10": [
+    "脹相が羂索の頭部へ穿血を放つ",
+    "九十九と脹相が羂索を挟撃する",
+    "羂索が重力の制限を隠しながら反撃する",
+    "羂索が小型うずまきで九十九へ致命傷を与える"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-851111b10d",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "fatally-injured"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "counterattacks"
+    },
+    {
+      "character_id": "char-a34bfbb398",
+      "presence": "restrained-by-gravity"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-851111b10d",
+    "char-1566dd973d",
+    "char-678a848346",
+    "char-a34bfbb398"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "used-by-yuki"
+    },
+    {
+      "technique_id": "tech-d3451c7bbb",
+      "relation": "gravity-used"
+    },
+    {
+      "technique_id": "tech-0ed3695b85",
+      "relation": "miniature-used"
+    },
+    {
+      "technique_id": "tech-2374b0f892",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a34bfbb398",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-5d6a005065",
+    "tech-cf5d1ac726",
+    "tech-d3451c7bbb",
+    "tech-0ed3695b85",
+    "tech-2374b0f892",
+    "tech-a34bfbb398"
+  ],
+  "term_ids_verified_phase10": [
+    "term-58cf854ee7",
+    "term-54c44682c5",
+    "term-cf5d1ac726",
+    "term-c6defb1c13"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "ch-263",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 29,
+  "number": 263,
+  "zero_number": null,
+  "label": "第263話",
+  "title_official": "人外魔境新宿決戦㉟",
+  "title_search_normalized": "人外魔境新宿決戦35",
+  "start_page": 173,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-29"
+  ],
+  "source_locator": "単行本29巻 目次 p.173",
+  "summary_short": "乙骨は録音した狗巻の呪言で宿儺を止め、虚式「茈」を命中させる。しかし領域崩壊後に羂索の術式が停止し、乙骨も動けなくなる一方、東堂と虎杖が攻撃を再開する。",
+  "summary_full": "乙骨は録音した狗巻の呪言で宿儺を止め、虚式「茈」を命中させる。しかし領域崩壊後に羂索の術式が停止し、乙骨も動けなくなる一方、東堂と虎杖が攻撃を再開する。狗巻の録音呪言で宿儺を止め、乙骨は不完全ながら茈を命中させる。領域崩壊後、羂索の術式停止で乙骨の身体も動かなくなるが、虎杖と東堂が攻勢を継ぐ。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "乙骨憂太 and 宿儺 's clash comes to an abrupt end after their domains collapse and their techniques burn out. However, at the eleventh hour, the sorcerers still have a trump card to play.",
+    "summary_full_legacy": "憂太 reaches his limit inside 五条's body. The miniature domain’s barrier shatters, signaling the end of 憂太’s clash with 宿儺. Emerging first from the smoke is 宿儺, his face severely injured and bloodied. He remarks that although 虚式「茈」 struck him directly, 憂太’s inexperience with the technique caused him to destroy his own domain’s barrier in the process. Moments later, 悠仁 , 東堂 , and 憂太 emerge from the smoke and pursue him. 東堂 instructs 憂太 to unleash as many 虚式「茈」 as possible once he regains his 術式, promising to use 不義遊戯 to reposition himself and 悠仁 out of harm’s way. Before he can continue the fight, however, 憂太 suddenly collapses. The copied brain-transplant technique burns out due to the strain of 領域展開 , ending before its intended five-minute duration. 憂太 realizes that without 里香 by his side, he no longer has access to 模倣 . He further deduces that 羂索 must have possessed a method that allowed him to function freely after deploying a domain, knowledge 憂太 did not acquire when copying the technique. At his limit, 憂太 resolves to at least maintain the fragments of his shattered barrier to assist 悠仁 and 東堂. 東堂 uses the fragments of 憂太's barrier as targets for 悠仁 to swap with. With 東堂 momentarily distracted by 憂太’s fall, 宿儺 lands a devastating 黒閃 on him, shattering his vibraslap. 悠仁 charges in, appearing behind 宿儺 as 東堂 strikes with what remains of the broken instrument, declaring that he is not finished. As 悠仁 attacks, 宿儺 realizes that 東堂 is swapping positions not only between combatants but also with the floating barrier fragments, each shard a mass of 呪力 eligible as a 不義遊戯 target. 悠仁 strikes the barrier between 宿儺 and 恵's souls with 解. Using the fragments as anchors, 悠仁 rapidly teleports around 宿儺 and eventually manages to touch him. Calling out to 恵 , 悠仁 activates 解 , targeting the boundary between 宿儺’s and 恵’s souls. 宿儺 recognizes that 悠仁 has made a 縛り restricting 解’s target in exchange for greater effectiveness against souls. He concludes that repeated strikes would jeopardize his control over 恵’s body. As a result of his soul being struck, 宿儺 regurgitates several of the ingested fingers , only to crush and reconsume them to reinforce his hold. 宿儺 leaps onto a nearby wall, but 悠仁 collapses it with 捌 , forcing him downward. As 宿儺 falls, 悠仁 attempts another strike, only for 宿儺 to evade midair and counterattack, slamming 悠仁 into a wall. Confident that victory hinges on preventing 悠仁 from landing further blows, 宿儺 presses his advantage. Meanwhile, 東堂 considers whether a spare vibraslap would be recognized as his left hand for 不義遊戯. Doubting it would, he continues using the broken instrument. After striking it once with no apparent effect, he hits it again, shattering it completely. In that instant, 来栖華 appears above 宿儺, suspended midair with a radiant trumpet. Through a 縛り, 東堂 has expanded his technique’s range to bring her into position. At the eleventh hour, the sorcerers play their trump card!! Earlier, after recovering with the assistance of 家入硝子 and 乙骨憂太 , 華 questioned what would become of 恵. Although her primary role had been to unseal 五条悟 , 憂太 requested her aid in their final effort against 宿儺. He clarified that she would not need to participate directly in combat only to deliver the finishing blow with 邪去侮の梯子 , a last-resort attack intended to separate 宿儺’s and 恵’s souls. 憂太 had previously explained that the true strength of 模倣 lies in diminishing an opponent’s awareness of the original technique’s user. Enemies often focus on the number and variety of techniques he possesses, rather than anticipating intervention from their true owners. Those familiar with 模倣’s conditions are particularly misled by the misconception that 憂太 steals techniques outright. In the present, 宿儺 turns in shock as 華 unleashes 邪去侮の梯子 at maximum 呪力 output, engulfing him in divine light.",
+    "characters_raw_text": "宿儺 乙骨憂太 東堂葵 虎杖悠仁 羂索 (言及のみ) 伏黒恵 (言及のみ) 来栖華 家入硝子 (回想)",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 来栖華の術式 術式 邪去侮の梯子 宿儺の術式 黒閃 虎杖悠仁の術式 御廚子 解 捌／解 捌",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-678a848346",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d76df97dca",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-4b0b9dc682",
+    "tech-56316150ed",
+    "tech-6246245c7a",
+    "tech-69d5ecb511",
+    "tech-7f37ba28b4",
+    "tech-d2feb31d47",
+    "tech-d845dd244c",
+    "tech-deb6545546",
+    "tech-fb21434f98"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "乙骨は録音した狗巻の呪言で宿儺を止め、虚式「茈」を命中させる。",
+    "しかし領域崩壊後に羂索の術式が停止し、乙骨も動けなくなる一方、東堂と虎杖が攻撃を再開する。",
+    "狗巻の録音呪言で宿儺を止め、乙骨は不完全ながら茈を命中させる。",
+    "領域崩壊後、羂索の術式停止で乙骨の身体も動かなくなるが、虎杖と東堂が攻勢を継ぐ。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-678a848346",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d76df97dca",
+    "char-d8252d61d4"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-deb6545546",
+    "tech-fb21434f98",
+    "tech-214d93f273"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-deb6545546",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-fb21434f98",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-214d93f273",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-29",
+    "src-manga-games-vol-29",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

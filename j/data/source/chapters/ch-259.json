@@ -1,0 +1,155 @@
+{
+  "id": "ch-259",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 29,
+  "number": 259,
+  "zero_number": null,
+  "label": "第259話",
+  "title_official": "人外魔境新宿決戦㉛",
+  "title_search_normalized": "人外魔境新宿決戦31",
+  "start_page": 87,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-29"
+  ],
+  "source_locator": "単行本29巻 目次 p.87",
+  "summary_short": "宿儺は領域内で「竈」を発動し、炎で戦場を焼き尽くす。脹相は血の壁で虎杖を守って命を落とし、虎杖は兄との別れを経て再び立ち上がる。",
+  "summary_full": "宿儺は領域内で「竈」を発動し、炎で戦場を焼き尽くす。脹相は血の壁で虎杖を守って命を落とし、虎杖は兄との別れを経て再び立ち上がる。領域内の粉塵を利用した竈の熱で戦場が爆発し、脹相は血の防壁で虎杖を完全に覆う。脹相は兄として謝罪と感謝を伝え、虎杖を守って死亡する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "宿儺 's flames of certain death roar forth and engulf the battlefield. 悠仁 is caught in the midst of the furnace but 脹相 gives everything to protect him. Following a tragic sacrifice, 悠仁 resonates with yet another brother to open a path to victory!",
+    "summary_full_legacy": "The secret art that destroyed 魔虚羅 devastates 新宿! While training in 赤血操術 , 悠仁 asks 脹相 how to perform 百斂 . 脹相 struggles to clearly explain the concept, which frustrates 悠仁. 加茂憲紀 intervenes and provides a concise explanation of both 赤血操術 and 百斂 using simple, easily understood analogies. Irritated that 悠仁 responds better to 加茂's instruction, 脹相 attempts to teach his younger brother 超新星 , but 加茂 rejects the idea, stating that 悠仁 does not have enough time to master advanced techniques and should focus on the basics. In the present, it is revealed that through a 縛り and modifications to the domain 's barrier conditions, 宿儺's 竈 can trigger massive thermobaric explosions throughout his domain, serving as an ultimate technique intended to annihilate all living beings within it. As 宿儺 releases the flaming arrow, 裏梅 declares the jujutsu sorcerers defeated, while 秤金次 watches with grave concern. A colossal pillar of fire erupts over 新宿 , further devastating the area. 脹相 sacrifices himself to rescue 悠仁. In the aftermath of the explosion, amid the darkness, 悠仁 encounters a severely burned 脹相 standing before him. As 脹相's body begins to crumble, he apologizes for having been an inadequate teacher. In a vision resembling 脹相's fabricated memories, the two sit at a picnic table, where 脹相 praises 悠仁 for learning 反転術式 more quickly than he did. 悠仁 dismisses the compliment, attributing his progress to 宿儺's influence rather than personal ability. 脹相 apologizes for leaving 悠仁 alone once again, but 悠仁 reassures him, stating that 脹相 has already done more than enough by remaining at his side during his most difficult moments. In reality, the disfigured 脹相 thanks 悠仁 for being his little brother, and 悠仁 reciprocates, finally calling 脹相 his big brother. The dome of blood shielding 悠仁 from 宿儺's 竈 collapses as 脹相 dies. Surveying the smoke-filled, scorched battlefield, 悠仁's resolve to fulfill his role and avenge his fallen brother begins to falter. 宿儺 then emerges from the smoke and stands before 悠仁. At the same time, another figure appears, shocking 悠仁 when they are revealed to be 東堂葵 , with his left hand wrapped in bandages. 東堂葵 returns and joins the raid! Some time before December 24, 冥冥 secretly met with 東堂 to discuss a plan to save the sorcerers trapped within 宿儺's domain. 東堂 proposed using his 術式 to swap the sorcerers inside the domain with 冥冥's crows stationed outside. 冥冥 agreed but questioned whether 東堂 can extend the range of his technique and target multiple individuals simultaneously without his left hand. Though uncertain, 東堂 believed he could still sense the rhythm of 不義遊戯 . He asked 冥冥 not to inform 悠仁 of the plan, reasoning that 悠仁's lingering resonance with 宿儺 from having served as his vessel might cause him to unconsciously leak information. He also requested that his plan to adjust his 術式 with 乙骨憂太 remain secret until the operation against 羂索 began. Returning to the present, 東堂 apologizes to 悠仁 for keeping his plans and the safety of their allies hidden, but assures him that the others are most likely safe. 悠仁 accepts this explanation, rekindling his resolve to fight 宿儺. As 東堂 walks alongside him, he begins tearing away the bandages on his hand. The two \"brothers\" stand united against the King of Curses, who is temporarily unable to use his 術式 following the collapse of his domain.",
+    "characters_raw_text": "加茂憲紀 (回想) 日下部篤也 (言及のみ) 乙骨憂太 (言及のみ) 宿儺 裏梅 秤金次 虎杖悠仁 五条悟 (言及のみ) 脹相 東堂葵 冥冥 (回想)",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 脹相の術式 赤血操術 宿儺の術式 領域展開：伏魔御廚子 御廚子 竈 竈",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-830f121430",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-4b0b9dc682",
+    "tech-a1213858c7"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "宿儺は領域内で「竈」を発動し、炎で戦場を焼き尽くす。",
+    "脹相は血の壁で虎杖を守って命を落とし、虎杖は兄との別れを経て再び立ち上がる。",
+    "領域内の粉塵を利用した竈の熱で戦場が爆発し、脹相は血の防壁で虎杖を完全に覆う。",
+    "脹相は兄として謝罪と感謝を伝え、虎杖を守って死亡する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-830f121430",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-dea43d7fc7"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-4b0b9dc682",
+    "tech-a1213858c7"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-4b0b9dc682",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-65867f280c"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-29",
+    "src-manga-games-vol-29",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

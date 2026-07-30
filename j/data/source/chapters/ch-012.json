@@ -1,0 +1,135 @@
+{
+  "id": "ch-012",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 12,
+  "zero_number": null,
+  "label": "第12話",
+  "title_official": "邁進",
+  "title_search_normalized": "邁進",
+  "start_page": 87,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.87",
+  "summary_short": "真人たちは五条を封印するための準備を進める。伏黒と釘崎は真希たちと弱点を補う訓練を続け、五条は生存を隠した虎杖に呪力操作を教え始める。",
+  "summary_full": "漏瑚は、夏油の姿をした術師が特級呪物・獄門疆を持っていると知り、五条を自分一人で倒すと申し出る。漏瑚は自分の強さを宿儺の指八、九本分と評されて自信を深め、店内の非術師たちを焼き殺す。伏黒は少年院で遺体を持ち帰れなかった岡﨑正の母を訪ね、名札を渡して謝罪する。その後、伏黒と釘崎は真希・狗巻・パンダの指導で近接戦を鍛える。生存を隠している虎杖には、五条が呪力と術式の違いを説明する。虎杖には現時点で生得術式がなく、まず身体能力へ安定して呪力を上乗せする訓練が必要となる。感情の揺れに左右されず呪力を出すため、五条は映画鑑賞を利用した修行を用意する。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Evil spirits hatch a plan to take down 五条悟 . Meanwhile, the students of 呪術高専 prepare for the coming trials. 恵 and 野薔薇 focus on improving their weaknesses with 真希 , while 五条 sensei hopes that he can improve on 悠仁 's strengths.",
+    "summary_full_legacy": "The 呪霊 , 漏瑚 is excited to learn that his associate, Pseudo-夏油 is in possession of the taboo object: 獄門疆 . 夏油 warns 漏瑚 to calm down due to the increasing heat in the room. 恵 apologizes for being unable to save Tadashi. One of the waiters in the restaurant notices the killer aura surrounding 夏油 despite being unable to see the curses. He's a responsible man, but he leaves the restaurant out of a pure primal sense of fear. The heat accidentally kills the manager, irritating 夏油. 漏瑚 makes it worse by incinerating the remaining humans in the building. 漏瑚 asks 夏油 to gauge his strength based on 宿儺の指. 夏油 says he's about eight or nine strong and the confidence goes straight to 漏瑚's volcanic head. The curse proposes that he kill 五条悟 alone and get the prison realm as a reward. 恵 visits Tadashi 's mother and admits he wasn't sure about saving the inmates at first. His friends thought otherwise but were still unable to recover Tadashi's body. 恵 takes out Tadashi's nametag and gives it to the mother. He bows and sincerely apologizes for being unable to save Tadashi's life. 真希 dedicates herself to training 恵. 恵 returns to school late for a training session with his peers. 真希, パンダ , and 棘 focus on training 恵 and 野薔薇 at improving their close-range fighting capabilities. Meanwhile, 五条 sensei decides its time to teach 悠仁 how to preform jujutsu sorcery. 悠仁 expresses his gratefulness to be learning jujutsu from the strongest jujutsu sorcerer. He was too weak to help before and says he wants to be stronger when he faces his friends again. 悟 uses soda cans as an example of 呪力 vs. cursed techniques . Cursed energy is used to blast the can, but a 術式 concentrates that energy to twist the can. 五条 training 悠仁 to harness 呪力. The ability for human's to use jujutsu is based solely on innate talent, which 悠仁 possesses none of. In due time, 五条 sensei hopes he can teach 悠仁 to master 宿儺's techniques. For now, 悟 focuses on teaching 悠仁 on using 呪力 to improve his physical offense. 悠仁 managed to channel 呪力 before when facing the cursed womb spirit. He's unable to do so now because he lacks control over the emotions necessary to utilize it. While 恵 continues physical training with 真希, 五条 hopes to help 悠仁 control his emotions by watching movies.",
+    "characters_raw_text": "Pseudo-夏油 漏瑚 花御 陀艮 伏黒恵 Tadashi's Mother 虎杖悠仁 釘崎野薔薇 Finger Bearer (回想) Tadashi Okazaki (回想) パンダ 禪院真希 狗巻棘 五条悟",
+    "locations_raw_text": "名称不明 食堂／東京都立呪術高等専門学校",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪力 術式 呪胎 獄門疆",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-0ee8c4b0ae",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-6674ce6baa",
+    "char-672d843799",
+    "char-678a848346",
+    "char-9148bf784c",
+    "char-a61d6ef891",
+    "char-a61fa295f1",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase1": [
+    "漏瑚が五条を単独で倒すと申し出る",
+    "伏黒が岡﨑正の母へ名札を返す",
+    "伏黒と釘崎が二年生との訓練を始める",
+    "五条が虎杖へ呪力と術式の違いを教える",
+    "映画を使う呪力操作訓練が決まる"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-in-geto-body"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0ee8c4b0ae",
+      "presence": "mention"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-678a848346",
+    "char-a61fa295f1",
+    "char-3c1852867d",
+    "char-0ee8c4b0ae",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-24d736edff",
+    "char-a61d6ef891",
+    "char-17322e71e5"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-252cb4a664",
+    "term-ad8bd57883",
+    "term-37f8736467",
+    "term-6e7e2b846e"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

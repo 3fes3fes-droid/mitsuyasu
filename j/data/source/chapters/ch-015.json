@@ -1,0 +1,122 @@
+{
+  "id": "ch-015",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 15,
+  "zero_number": null,
+  "label": "第15話",
+  "title_official": "領域",
+  "title_search_normalized": "領域",
+  "start_page": 147,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.147",
+  "summary_short": "漏瑚は領域展開「蓋棺鉄囲山」を発動する。五条は領域の仕組みを虎杖に説明し、自らの「無量空処」で漏瑚の領域を制圧する。",
+  "summary_full": "五条は虎杖を漏瑚との戦場へ連れ戻し、次の授業として領域展開を説明する。漏瑚は侮辱された怒りから領域展開『蓋棺鉄囲山』を発動し、周囲を火山内部のような灼熱空間へ変える。五条は領域が術式を付与した生得領域を呪力で構築する技であり、術者の能力を高め、領域内の術式を必中にすることを教える。少年院で三人が遭遇した空間は、術式が付与されていない未完成の領域だった。領域への対抗策の一つとして、五条は自らの領域展開『無量空処』を重ね、より洗練された領域で漏瑚を制圧する。無限の情報を与えられた漏瑚は動けなくなり、五条は尋問のため首だけを残して捕らえる。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悟 and 漏瑚 continue their battle, but now 悠仁 sits in on the jujutsu battle. He learns about 領域展開 as well as the incredible power his sensei wields.",
+    "summary_full_legacy": "悟 returns to the school to retrieve 悠仁 who is in the midst of watching movies. He notices that 悠仁 has been able to keep the 呪骸 asleep, impressing him. Even during 五条 sensei's interruption, 悠仁 is able to maintain a constant flow of 呪力. 悟 makes a mental note to up the amount of 呪力 in the next phase. 領域展開! 悟 surprised 悠仁 and told him that the next lesson will teach 悠仁 about 領域展開. They both suddenly appear back on the battlefield with 漏瑚. 漏瑚 realizes that 悠仁 is 宿儺 's vessel and askes if 五条 plans to use him as a shield. 悟 denies this and replies that its just a lesson for his young student. 漏瑚 claims 悠仁 will be a liability, but 悟 says everything will be fine since his opponent is so weak. Enraged, 漏瑚's head literally erupts with anger as he demands his enemy stop underestimating him. 悠仁 is intimidated because 漏瑚 is the strongest curse he's encountered thus far. Even so, 悟 assures his beloved protégé that everything will be okay. 悟 uses the opportunity to teach 悠仁 about Domains. 漏瑚 uses 領域展開：蓋棺鉄囲山 to bring them into his volcanic domain. 悟 explains that 領域展開 uses 呪力 to forge an enclosed space. 悠仁, 恵 , and 野薔薇 encountered an unpolished Domain during their mission in the detention center. Domains give their created improved stats as well as totally accurate attacks. Now 漏瑚's attacks will land in spite of 悟's 無限 technique . The enraged 呪霊 becomes even more irate acknowledging the difference in strength between himself and 悟. He tries to use his Domain to incinerate 悟 without leaving a single ash. However, 悟 showcases how to properly counter a Domain: expand a Domain of your own and the more polished domain will reign supreme. 無量空処! 悟 takes off his blindfold and uses 無量空処 to bring 漏瑚 into his domain, changing the volcanic scenery into the infinite void of space. 漏瑚 is exposed to too much information, endless perception and communication. This renders him immobile and unable to do anything other than die slowly. Before that happens, 悟 plans on interrogating the 呪霊. He removes 漏瑚's head and asks who sent the assassin. 悠仁 stands by amazed, having confirmed for himself that 五条 truly is the strongest shaman. Meanwhile, Pseudo-夏油 and 花御 watch from the cliffside, pondering if they should go and rescue 漏瑚.",
+    "characters_raw_text": "五条悟 虎杖悠仁 漏瑚 花御 Pseudo-夏油",
+    "locations_raw_text": "不明な道路",
+    "battles_events_raw_text": "五条悟 vs. 漏瑚",
+    "techniques_raw_text": "漏瑚の術式 領域展開：蓋棺鉄囲山 五条悟 術式 領域展開：無量空処",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-678a848346",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-4b0b9dc682",
+    "tech-542b17dcab",
+    "tech-6af565fce4"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase1": [
+    "漏瑚が蓋棺鉄囲山を展開する",
+    "五条が領域展開の必中効果を説明する",
+    "五条が無量空処で漏瑚の領域を制圧する",
+    "五条が漏瑚を首だけの状態で捕らえる"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "observer"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "observer-in-geto-body"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-17322e71e5",
+    "char-baadf43d19",
+    "char-a61fa295f1",
+    "char-9148bf784c",
+    "char-678a848346"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6af565fce4",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-cf2f8dca4a",
+    "tech-6af565fce4",
+    "tech-14f96ce777"
+  ],
+  "term_ids_verified_phase1": [
+    "term-e6a70dfe56",
+    "term-ea9fe4b536",
+    "term-8caa008608"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

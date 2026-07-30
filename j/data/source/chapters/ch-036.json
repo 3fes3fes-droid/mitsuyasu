@@ -1,0 +1,172 @@
+{
+  "id": "ch-036",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 36,
+  "zero_number": null,
+  "label": "第36話",
+  "title_official": "京都姉妹校交流会―団体戦③―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦3―",
+  "start_page": 27,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.27",
+  "summary_short": "東京校は京都校の狙いを察し、伏黒と真希が虎杖を守るため引き返す。東堂は虎杖の資質を見抜き、呪力の使い方を実戦で指導し始める。",
+  "summary_full": "東京校は京都校全体が虎杖へ集まっていることから暗殺計画を察する。伏黒と真希は加茂・三輪を止め、パンダと釘崎は西宮へ向かい、狗巻は団体戦を早く終えるため指定呪霊の捜索を続ける。虎杖は森林を利用して東堂へ対抗するが、東堂は逕庭拳が呪力の遅れによる副産物であり、特級相手には通じにくいと指摘する。三輪は家族を支えるため昇級を望む事情を明かしつつ、真希と戦い始める。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The 東京 Team is able to figure out that the Kyoto Team's scheme. 恵 and 真希 make their way back to protect 悠仁 , confronting their Kyoto rivals for trying to kill him. Meanwhile, 葵 realizes 悠仁's potential and decides to help take him to the next level.",
+    "summary_full_legacy": "\" Come out and plaaaay! \" Prior to 恵 and 真希's clash with Noritoshi and 霞, the 東京 Team noticed something off about their Kyoto opponents. パンダ realizes that the entire Kyoto Team is moving around 悠仁 and 恵's 玉犬 doesn't detect the grade 2 curse in that area. 恵 quickly surmised that the Kyoto Team are trying to kill 悠仁, much to his displeasure. 野薔薇 asked why the Kyoto students would do that and パンダ explained Principal 楽巌寺 is the type of man to give that order. The Kyoto sorcerers don't know 悠仁 and to them, 宿儺's vessel is just an object of fear, like any other curse that must be exorcised. 真希 decided to head back to 悠仁 with 恵 while パンダ and 野薔薇 do the same. Despite initially refusing, 棘 accepted the task of hunting down the grade 2 呪霊 so the event will end as soon as possible. 悠仁 adapts to 葵's fighting style. In the present, パンダ and 野薔薇 confront 桃 after she's shot down by 鵺's electric shock wings. At the same time, Noritoshi doesn't refute the idea of killing 悠仁, although he does suggest there is no reason to kill him. However, 恵 knows the big three Sorcerer Families have every reason to kill 悠仁. Meanwhile, 悠仁 continues his duel with 葵. 悠仁 shows his toughness as well as his battlefield awareness, able to momentarily overpower 葵 using the forest to his advantage. 葵 notices that 悠仁 is able to think ahead and to top it all off his raw power is incredible. However, 葵 is disappointed with 悠仁's 逕庭拳 . 葵 asks 悠仁 is he's content with being weak. 葵 begins screaming about how 悠仁's technique is all wrong and 真希 is able to hear him from her face off with 霞 . The Kyoto student realizes that 葵 is the reason 悠仁 is still alive. She apologizes for attacking 悠仁 but claims that her remorse won't stop her from trying to win the event. 霞 wants to be noticed by higher-ranked sorcerers so she can be promoted and earn a higher wage for her poor family. 真希 is surprised by 霞's nice demeanor and asks how she gets along with 真依. Despite this, 真希 promises not to hold back. 葵 tells 悠仁 that his 逕庭拳 holds him back. He says that as long as 悠仁 remains satisfied with that attack, he'll remain weak and their friendship will end. 悠仁 refuses to remain weak and accepts 葵's challenge, exciting the third-year.",
+    "characters_raw_text": "虎杖悠仁 伏黒恵 釘崎野薔薇 パンダ 狗巻棘 禪院真希 楽巌寺嘉伸 (回想) 宿儺 (回想) 西宮桃 加茂憲紀 三輪霞 東堂葵 伊地知潔高",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 虎杖悠仁 vs. 東堂葵 呪霊討伐競争 虎杖悠仁 vs. 東堂葵 虎杖悠仁 vs. 東堂葵",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 玉犬 鵺 玉犬 鵺 虎杖悠仁の術式 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-484fd66a1e",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-830f121430",
+    "char-996d48af99",
+    "char-a61d6ef891",
+    "char-ac327bdd73",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986",
+    "tech-996d48af99"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase3": [
+    "東京校が虎杖暗殺計画を察する",
+    "東京校が役割を再分担する",
+    "東堂が逕庭拳の欠点を指摘する",
+    "真希と三輪が戦闘に入る"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-24d736edff",
+    "char-ac327bdd73",
+    "char-2b8d365a39",
+    "char-484fd66a1e",
+    "char-830f121430",
+    "char-ebd2a8efa8",
+    "char-d76df97dca"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6c8be9e9eb",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase2-keiteiken",
+      "relation": "analyzed"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-7c3237f986",
+    "tech-6c8be9e9eb",
+    "tech-996d48af99",
+    "tech-phase2-keiteiken"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-6f7fa8f5d1",
+    "term-3c3554872b",
+    "term-67566a7224"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

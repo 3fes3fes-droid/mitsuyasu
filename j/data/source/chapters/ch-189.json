@@ -1,0 +1,108 @@
+{
+  "id": "ch-189",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 189,
+  "zero_number": null,
+  "label": "第189話",
+  "title_official": "東京第２結界⑧",
+  "title_search_normalized": "東京第2結界8",
+  "start_page": 171,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.171",
+  "summary_short": "秤は腹部を破壊されながら領域を展開し、再度の大当たりで生き延びる。鹿紫雲も海中の塩素を利用して毒を発生させ、秤を倒す危険な勝負へ出る。",
+  "summary_full": "秤は時短状態から突発大当たりを引き、吹き飛んだ腹部を再生する。領域の座標を海上へ移して鹿紫雲を海へ落とし、海水へ呪力を逃がして無力化しようとする。鹿紫雲は海水を電気分解して塩素ガスを発生させ、毒で秤の反転術式を上回ろうとするが、秤は毒物まで除去する。制限時間の終わりに鹿紫雲は残存呪力を熱へ変え、水蒸気爆発を起こす。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Even when it appears his luck has run out, 秤 continues to bet it all on his 領域展開 . 秤 proves once again to be extremely fortunate, but he's not the only one willing to gamble. As the battle presses on, 鹿紫雲 shows he's willing to take risks in order to achieve victory as well.",
+    "summary_full_legacy": "\" 秤金次 truly has incredible luck!!! \" 秤 successfully expands his domain, but with the left side of his lower abdomen wholly blown off, he can do little more than collapse. 鹿紫雲 believes it's over because this round of 坐殺博徒 will only include faster spins instead of increased probability. He says that 秤's desperate attempt is sad and doubts he'll hit another jackpot with only a one in two-hundred and thirty-nine chance. However, against all odds, 秤 once again hits the jackpot. Rather than only being granted faster spins, 秤's round also includes hidden probability, allowing him to slot three twos in a row and heal his fatal injury completely. As the domain begins to come apart, 秤 admits he's impressed with 鹿紫雲 as he's never nearly died so much in one fight. He also adds that he has manga on his brain because of his encounter with シャルル . 秤 asks 鹿紫雲 if he likes manga but the latter says that he doesn't. The young gambler responds with \"how's this for electric\" and suddenly the equilibrium within the domain shifts as the barrier comes apart. 秤 hits 鹿紫雲 into the sea. Now falling, 鹿紫雲 looks down and realizes that 秤 shifted the barrier over the sea next to the shipping yard. Dropping 鹿紫雲 into water will cause his electrified 呪力 to discharge until he's completely depleted. He can only release it til it's all gone or shut it off completely until he returns to land. However, the majority of the 東京第2結界 is the ocean and many 呪霊 reside within it. Several curses appear from the water in an attempt to attack 鹿紫雲 but he uses them as footholds to avoid touching the water. 鹿紫雲 uses electrolysis to poison 秤 with chlorine gas. With manga on his brain, 秤 strikes with rapid attacks that tear through the group of curses. He gets to 鹿紫雲 and kicks him into the water while holding on to a small flying curse to keep himself from falling in as well. Unable to guard himself without using jujutsu reinforcement, 鹿紫雲's 呪力 begins to flow out into the water as he desperately attempts to suppress it. 秤 plans on hitting 鹿紫雲 back into the water if he resurfaces but he suddenly finds it difficult to see or breathe. He vomits and lets go of the flying curse, falling into the water himself. While suppressing his 呪力 as much as possible, 鹿紫雲 used electrolysis to create chlorine gas from the water and poisoned 秤. \" But it's been fun. \" 鹿紫雲 knows he can kill a 反転術式 user with a single blow to the head or with toxins. In comparison to addressing a toxin, body regeneration is a simple task for 反転術式. He believes 秤 can't detoxify quickly enough and that the round will end while he's drowning. Even so, 鹿紫雲 admits to himself that this battle has been enjoyable, displaying his respect for 秤 as an opponent. Galmbing with their lives, neither side backs down! Just as 秤 descends past 鹿紫雲, he opens his eyes and ejects air from his nose, showing that he's still alive and active. This surprises 鹿紫雲, who's suddenly hit with a left hook across the jaw followed by a kick overtop his head. He's shocked that 秤's 反転術式 is fully automatic and capable of targeting toxins and removing them unconsciously. 秤 notices the water temperature rising due to 鹿紫雲's 呪力 and debates his next move. He can't expand his domain again before the round ends and doing so underwater is dangerous due to the rising temperature of the water and the electric shock within it. With only five seconds left, 秤 decides to attack rather than go back to the surface. 秤 hits 鹿紫雲 with another hard left hook and tells him to come on. 鹿紫雲 grabs 秤's arm and accepts the challenge, releasing all his 呪力 at once to create a steam explosion that catches his opponent off guard.",
+    "characters_raw_text": "秤金次 鹿紫雲一",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游 秤金次 vs. 鹿紫雲一 秤金次 vs. 鹿紫雲一",
+    "techniques_raw_text": "秤金次の術式 領域展開：坐殺博徒",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-0e7004da56",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-4b0b9dc682",
+    "tech-aee71097f5"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "秤が突発大当たりで腹部を再生する",
+    "秤が領域の座標を海上へ移動させる",
+    "鹿紫雲が海水を電気分解し塩素ガスを発生させる",
+    "鹿紫雲が水蒸気爆発を起こす"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "fighting"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-dea43d7fc7",
+    "char-0e7004da56"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-39d2b30b48",
+      "relation": "coordinate-shift"
+    },
+    {
+      "technique_id": "tech-955be682d2",
+      "relation": "active"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "poison-removal"
+    },
+    {
+      "technique_id": "tech-aee71097f5",
+      "relation": "electrolysis-and-explosion"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-39d2b30b48",
+    "tech-955be682d2",
+    "tech-cf5d1ac726",
+    "tech-aee71097f5"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-1c3b13971d",
+    "term-8485d1a225",
+    "term-f57cd720b8"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

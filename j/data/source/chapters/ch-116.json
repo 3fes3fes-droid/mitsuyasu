@@ -1,0 +1,132 @@
+{
+  "id": "ch-116",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 116,
+  "zero_number": null,
+  "label": "第116話",
+  "title_official": "渋谷事変㉞",
+  "title_search_normalized": "渋谷事変34",
+  "start_page": 7,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.7",
+  "summary_short": "宿儺は炎の一撃で漏瑚を倒し、その強さを認める。瀕死の伏黒が重面を巻き込んだ調伏の儀式を始め、新たな式神が現れる。",
+  "summary_full": "宿儺と漏瑚は互いに炎を構え、宿儺の一撃が漏瑚を焼き尽くす。死の間際、漏瑚は花御・陀艮と再会する情景の中で、真人へ呪霊の未来を託す。宿儺は漏瑚の「人間になりたい」という志向を否定しつつ、千年間戦った相手の中では強かったと評価する。漏瑚は涙を流して消滅し、宿儺の前には平安時代から仕える裏梅が現れる。別地点では重面が瀕死の伏黒を発見する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "宿儺 and 漏瑚 's battle reaches its fiery climax! Although 漏瑚 comes up short, he earns the acknowledgment of the King of Curses. Meanwhile, 恵 appears to be down for the count but a new combatant threatens to make sure 重面春太 shares his fate.",
+    "summary_full_legacy": "宿儺 and 漏瑚 stand atop the flaming remains of 極ノ番「隕」 . 宿儺 creates an arrow of flames from his palms while 漏瑚 swirls his flames into a small fireball made of his compressed energy. 宿儺 takes aim by keeping the full-formed arrow between his fingers while 漏瑚 stands across from him. 宿儺 fights fire with fire. 漏瑚 enters a fantasy alongside his deceased allies 花御 and 陀艮 . He apologizes to them and 花御 asks if 真人 is still alive. Death is something humans fear yet they linger beyond it. It is a mirror for humanity and 真人 is a manifestation of that reflection. He will continue to grow stronger and that's why 漏瑚 propped him up as the leader. 漏瑚 believes when they're all reborn, they'll become new entities. Despite this, he hopes all of them will be able to reunite someday. Sticking to his ideology to the end, 漏瑚 says that the 呪霊 are the true humans. 宿儺 abruptly enters the fantasy and asks 漏瑚 if he wanted to become human. 宿儺 knows 漏瑚 means he wants curses to take the place of humans but he believes this is foolish. \" You stupid jujutsu sorcerer! Wake up!! \" 宿儺 believes 漏瑚 should have burned everything a cinder without a second thought to reach heights without ever being concerned about 五条悟 . 宿儺 believes 漏瑚 lacked the hunger to take hold of such desires, but even so, the battle still entertained him. 宿儺 admits that compared to everyone he has fought over the last millennia, 漏瑚 isn't bad. He commends 漏瑚, telling him to stand proud because he's strong. Acknowledged for his strength, 漏瑚 sheds a tear and asks what's going on. Back in reality, 宿儺 answers 漏瑚's smoldering corpse, claiming he doesn't know either. Immediately after, the 呪詛師 裏梅 comes to escort Master 宿儺. 宿儺 is surprised to see 裏梅, recognizing them from the past. Elsewhere at 11:07 P.M. 恵 is severely injured and 重面春太 is faced with an all-new threat. Distressed, 重面 demands 恵 wake up from his unconscious and bloodied state.",
+    "characters_raw_text": "宿儺 漏瑚 花御 陀艮 裏梅 重面春太 伏黒恵",
+    "locations_raw_text": "渋谷 外 渋谷駅 前 渋谷 109 外 渋谷駅 前 渋谷 109 前 渋谷 109",
+    "battles_events_raw_text": "The 渋谷事変 宿儺 vs. 漏瑚 (終了) 宿儺 vs. 漏瑚 (終了)",
+    "techniques_raw_text": "漏瑚の術式 Disaster Flames (名称不明) 宿儺の術式 御廚子 竈 竈",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-6674ce6baa",
+    "char-6c8cc9b546",
+    "char-9148bf784c",
+    "char-a61fa295f1"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-542b17dcab"
+  ],
+  "term_ids_candidate": [
+    "term-cba4367139"
+  ],
+  "key_events_verified_phase6": [
+    "宿儺が炎で漏瑚を倒す",
+    "漏瑚が花御と陀艮を思い浮かべる",
+    "宿儺が漏瑚の強さを認める",
+    "裏梅が宿儺と再会する",
+    "重面が瀕死の伏黒を発見する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "exorcised"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "post-death-vision"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "post-death-vision"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "unconscious"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-2b8d365a39",
+    "char-a61fa295f1",
+    "char-9148bf784c",
+    "char-6674ce6baa",
+    "char-18d7c58412",
+    "char-000313127b",
+    "char-6c8cc9b546",
+    "char-3c1852867d"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-4b0b9dc682",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-542b17dcab",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-4b0b9dc682",
+    "tech-542b17dcab"
+  ],
+  "term_ids_verified_phase6": [
+    "term-phase5-special-grade-curse"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

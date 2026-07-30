@@ -1,0 +1,133 @@
+{
+  "id": "ch-031",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 31,
+  "zero_number": null,
+  "label": "第31話",
+  "title_official": "また明日",
+  "title_search_normalized": "また明日",
+  "start_page": 111,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.111",
+  "summary_short": "虎杖の侵入によって宿儺の魂に触れた真人は領域を解き、逃走する。治療を受けた虎杖は人を殺した重さに苦しみ、七海から呪術師としてその事実を背負うよう諭される。",
+  "summary_full": "虎杖が領域へ侵入したことで、真人は再び宿儺の魂へ触れる。宿儺は真人へ大きな傷を与え、領域は崩壊する。虎杖は逕庭拳で制圧しようとするが、真人は膨張させた肉体を囮にして下水へ逃走する。七海は猪野へ追跡を指示するものの、重傷の虎杖が倒れたため真人を逃す。治療後、虎杖は改造人間を殺したことと順平を救えなかったことに苦しむ。七海は正しい死の答えを今すぐ決める必要はなく、呪術師として自分の行為を背負い続けるよう諭す。里桜高校では事件の痕跡と順平の不在だけが残る。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the aftermath of the battle against 真人 , the 呪霊 escapes and 悠仁 's injuries are treated. 七海 talks with him about what it means to die a natural death after 悠仁 is upset by his prior actions. Elsewhere, the effects of 順平 's downfall are felt at his own school.",
+    "summary_full_legacy": "悠仁 attempts to finish off 真人. 真人 falls to his knees injured and bleeding out. Instantly, a chain of related thoughts flow through 悠仁's head and he realizes this his best opportunity to end 真人. He rushes towards the injured curse with the intent to kill him. 真人 knows that the 領域展開 was his last resort and despite this 宿儺 was able to repel him. In order to avoid death, 真人 mutates his body into a tall, bloated form. Presented with a larger target, 悠仁 confidently strikes 真人's body with a 逕庭拳 filled with pure killing intent. However, this form of 真人 pops like a balloon made of air. 七海 realizes 真人 is fleeing and chases him down until he finds the curse escaping into the sewers. \" Unlike the body, the soul can be killed multiple times. \" 七海 immediately calls 猪野 and asks him to intercept 真人 in the sewers. He intends on joining him, but 悠仁 falls unconscious from his injuries, angry with himself as he passes out. Meanwhile underground, 真人 realizes how powerful the presence of 宿儺's soul is. He's confident that despite whatever happens to him, the return of 宿儺 will signal an advent for all 呪霊 . 真人 is consumed with thoughts of revenge on 悠仁, but quells them for now. He decides he'll torture 悠仁's soul further in the future. Sometime later, 悠仁 is treated for his injuries and recovers in a remote house with 七海. Instead of lecturing 悠仁, 七海 chooses to thank him. 悠仁 doesn't believe he saved 七海 and claims it was accidental because of 宿儺. 七海 acknowledges 悠仁 as a jujutsu sorcerer. 悠仁 is still upset because he killed those ex-humans and now he's unsure how he can help people die natural deaths. 七海 believes that most people are neither good nor evil and all deaths come to all people differently. Trying to prevent people's wicked deaths is tiring and 七海 doesn't recommend it. Even so, 七海 knows 悠仁 will continue trying and asks that he doesn't die on the way. There will be people who need to rely on 悠仁 just as 七海 did today. Where the fall of 順平's heart began. 七海 says that 悠仁 is a jujutsu sorcerer now and 悠仁 realizes that 七海 has accepted him. At 順平's school, Sotomura meets with Shota Ito . He surmises that Ito gave 順平 his scar but the student tries to brush it off. Sotomura tells Ito this is his punishment and the student replies that the teacher deserves the same for ignoring it all this time. Sotomura agrees and admits that they both deserve to be punished for ruining 順平's heart. Meanwhile, 悠仁 meets back up with 五条 and 七海. He still doesn't know what it means to die naturally, but he decides not to lose again until he kills 真人.",
+    "characters_raw_text": "虎杖悠仁 七海建人 真人 猪野琢真 (言及のみ) 宿儺 (言及のみ) 漏瑚 (言及のみ) Sotomura Shota Ito 五条悟",
+    "locations_raw_text": "川崎市 里桜高校 里桜高校",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "真人の術式 無為転変 虎杖悠仁の術式 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-6309a7e2f4",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-cf2d32d5b9"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c",
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase2": [
+    "宿儺の反撃で真人の領域が崩壊する",
+    "真人が下水へ逃走する",
+    "七海が虎杖へ人を殺した事実を背負うよう諭す",
+    "順平事件が終結する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-contact"
+    },
+    {
+      "character_id": "char-0429ab4dc0",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-83967cd8ae",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-baadf43d19",
+    "char-6309a7e2f4",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-cf2d32d5b9",
+    "char-0429ab4dc0",
+    "char-83967cd8ae"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-f0f06d52dc",
+      "relation": "collapsed"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase2-keiteiken",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-f0f06d52dc",
+    "tech-71a2d65cad",
+    "tech-phase2-keiteiken"
+  ],
+  "term_ids_verified_phase2": [
+    "term-e6a70dfe56",
+    "term-65867f280c",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "ch-118",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 118,
+  "zero_number": null,
+  "label": "第118話",
+  "title_official": "渋谷事変㊱",
+  "title_search_normalized": "渋谷事変36",
+  "start_page": 49,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.49",
+  "summary_short": "宿儺は伏黒を救うため魔虚羅と戦い、あらゆる事象へ適応する能力を見抜く。斬撃への適応が進む前に攻略法を組み立てる。",
+  "summary_full": "宿儺は魔虚羅の退魔の剣を受け止め、斬撃「解」で全身を切り刻む。しかし魔虚羅の法陣が回転すると傷が治り、次の斬撃を弾くようになる。宿儺は剣が正のエネルギーを帯び、呪霊なら致命傷になること、法陣が受けた現象へ順次適応することを分析する。伏黒が少年院で魔虚羅を出していれば当時の自分は敗れていた可能性を認め、適応が完了する前に別種の攻撃で倒す方針を立てる。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In order to rescue 恵 , 宿儺 faces the out-of-control 式神 魔虚羅 in battle! While 宿儺 gains the upper hand early, but he quickly realizes 魔虚羅's ability to adapt is nothing to scoff at. 魔虚羅 may have been able to defeat 宿儺 if 恵 had summoned it when they first met, but ten fingers later the King of Curses can showcase his true power.",
+    "summary_full_legacy": "宿儺 blocks 魔虚羅's blade. 魔虚羅 attacks, swinging down the blade attached to its fist. 宿儺 blocks the blade with his forearm, creating a shockwave that knocks 重面 off balance. 宿儺 notices the blade is emitting strange energy and flips out of the way before it breaks through his defense. While upsidedown in mid-air, 宿儺 delivers a flurry of left-handed punches. He lands and follows up by unleashing his 術式 , 解, which slices the 式神's body all over. While 魔虚羅 recovers from the heavy blow, 宿儺 recognizes the specialized blade as a cursed tool for 呪霊 ; the 退魔の剣 . The blade is enveloped in positive energy similar to what's produced by a 反転術式 . If 宿儺 was a normal 呪霊 he would've been sliced clean through by his adversary. 宿儺 loses the upper hand and gets sent crashing through several buildings. The eight-handled wheel on 魔虚羅's head turns, suddenly healing all its wounds. 宿儺 quickly attacks again but this time his slashing technique is deflected by 魔虚羅, surprising him. 魔虚羅 swings its blade again and 宿儺 prepares to block, but this time it's immediately broken and he's sent crashing through several buildings from the impact. 宿儺 ends up smashing through the last wall into an office. Amused, 宿儺 admits his opponent isn't bad. In an instant, 魔虚羅 clears the giant area it just hit 宿儺 across to follow up with another attack. \" The ability to adapt to any and all phenomena! \". 魔虚羅 attempts to stab 宿儺 in the face but he jumps above the blade, kicking his opponent at the same time. 宿儺 mounts his giant opponent's arm and places his palm on the 式神's face, stating that it's his turn now. 宿儺 activates his slashing technique, slicing the entire office building in half. The impact sends the 式神 falling out of the structure only for 宿儺 to follow up and kick it straight into the ground. 宿儺 lands beside his recovering opponent and assumes it will heal again based on his observations. The eight-handled wheel turns and all of 魔虚羅's injuries disappear just as 宿儺 expected. 宿儺 compares this ability to Yamata-no-Orochi. 魔虚羅's first attack was reinforced positive energy. When that didn't work it adapted and reinforced its second attack with 呪力 . Additionally, it was able to see 宿儺's 術式 and deflect it. Both of these things happened after the eight-handled wheel turned the first time. Furu's Incantation of the Ten Sacred Treasures and the eight-handled wheel represents a complete cycle and harmony. With this information, 宿儺 deduces 魔虚羅's technique allows it to adapt to any and all phenomena. 宿儺 admits that if 恵 had unleashed this creature when they fought the first time, it may have been able to beat him. He thanks 恵 for showing him the way and activates 領域展開：伏魔御廚子 !",
+    "characters_raw_text": "宿儺 重面春太 伏黒恵",
+    "locations_raw_text": "渋谷 外 渋谷駅 外 渋谷駅",
+    "battles_events_raw_text": "The 渋谷事変 宿儺 vs. 魔虚羅 (開始) 宿儺 vs. 魔虚羅 (開始)",
+    "techniques_raw_text": "呪具 退魔の剣 伏黒恵の術式 十種影法術 術式 八握剣異戒神将 魔虚羅 魔虚羅 八握剣異戒神将 魔虚羅 魔虚羅 宿儺の術式 領域展開：伏魔御廚子 御廚子 解 解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-6c8cc9b546",
+    "char-9fccad3ed6"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-7c3237f986",
+    "tech-9761156f3b",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase6": [
+    "宿儺が魔虚羅と交戦する",
+    "退魔の剣が正のエネルギーを持つと判明する",
+    "魔虚羅が宿儺の斬撃へ適応する",
+    "宿儺が魔虚羅の能力を分析する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "unconscious"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "unconscious"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-2b8d365a39",
+    "char-9fccad3ed6",
+    "char-3c1852867d",
+    "char-6c8cc9b546"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-9761156f3b",
+      "relation": "combat-use"
+    },
+    {
+      "technique_id": "tech-phase6-sword-extermination",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d2feb31d47",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-9761156f3b",
+    "tech-phase6-sword-extermination",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_verified_phase6": [
+    "term-phase6-positive-energy",
+    "term-cf5d1ac726",
+    "term-phase6-adaptation",
+    "term-phase6-taming-ritual"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

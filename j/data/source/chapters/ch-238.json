@@ -1,0 +1,134 @@
+{
+  "id": "ch-238",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 27,
+  "number": 238,
+  "zero_number": null,
+  "label": "第238話",
+  "title_official": "人外魔境新宿決戦⑮",
+  "title_search_normalized": "人外魔境新宿決戦15",
+  "start_page": 27,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-27"
+  ],
+  "source_locator": "単行本27巻 目次 p.27",
+  "summary_short": "宿儺は受肉を完成させ、四本の腕と二つの口を持つ本来の姿へ戻る。完全な肉体と世界を断つ斬撃で鹿紫雲を圧倒し、強者の孤独と愛について答える。",
+  "summary_full": "宿儺は受肉を完成させ、四本の腕と二つの口を持つ本来の姿へ戻る。完全な肉体と世界を断つ斬撃で鹿紫雲を圧倒し、強者の孤独と愛について答える。宿儺は伏黒の肉体を本来の四腕二口の姿へ完全受肉させ、詠唱と掌印を同時に行える肉体を得る。鹿紫雲は世界を断つ斬撃の網に敗れ、強者の愛への答えを聞く。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "By completing his incarnation, 宿儺 has finally restored himself to his true form. In this state of near-perfection, 宿儺 teaches 鹿紫雲一 exactly what it means to be the strongest.",
+    "summary_full_legacy": "The true form of the King of Curses. 宿儺 resumes his incarnation to transform into his true form. Sporting four arms and two mouths, 宿儺 has two extra hands to form hand signs and a second voice to chant incantations constantly. For a jujutsu sorcerer , there is no greater advantage than this. Despite this grotesque physical form of his, 宿儺's organs and all his bodily functions remain unhindered. It was in this form, armed with 神武解 and 飛天 , that the King of Curses annihilated the Sun, Moon, and Stars Squad, the Five Empty Generals, and the Desshi Pacification Squad in the 平安時代. Using X-ray vision, 鹿紫雲 analyzes 宿儺's true form and comes to a single conclusion: it's utter perfection. 宿儺 engages 鹿紫雲 in hand-to-hand combat and pushes him back. 鹿紫雲 tries to respond with a blast of electricity but 宿儺 counters with a 解 that bisects the world. 宿儺 warns 鹿紫雲 before sending the slash, so the latter only loses part of his hand. 鹿紫雲 recognizes this is the same attack that killed 五条悟 and there is a momentary pause in the action. 宿儺 overpowering 鹿紫雲. 宿儺 tells 鹿紫雲 about 万 , describing her as a fool who preached to him about love. 万 believed 宿儺 knew nothing of love because he was peerless and isolated. 宿儺 understood her point but he found it annoying to be preached about something he's supposedly ignorant of. 宿儺 believes 鹿紫雲 and 五条 would've benefitted more from her company. He adds that 鹿紫雲 knows what he seeks but can't begin to comprehend it. 鹿紫雲 isn't sure what he means but 宿儺 can only explain by continuing the battle. 宿儺 uses 神武解 to summon a bolt of lightning as a diversion and flanks 鹿紫雲. He uses his extra arms to immobilize 鹿紫雲's hands and then pummels him with rapid-fire punches before throwing him aside. 鹿紫雲 tries to counterattack while he's sent flying, but a massive net of 解 slashes is already coming at him, spelling the end. 宿儺 teaches 鹿紫雲 the truth about strength. In a post-mortem fantasy, 鹿紫雲 speaks with 宿儺 about strength. 宿儺 explains that all those that 鹿紫雲 slaughtered wanted to be recognized by fighting the strongest. The strongest respond to that desire with their strength, something 宿儺 describes as love. 宿儺 believes they are loved for their strength and reciprocate by displaying that very power. He believes that responding to that desire with strength is true love. 宿儺 states that they are loved because they are strong and they simply respond to that love in kind. Yet, 鹿紫雲 and 五条 lament solitude, which to 宿儺, makes them greedy. 鹿紫雲 asks if the solitude is enough for 宿儺 then why split his soul into cursed objects . 宿儺 expresses that love is worthless and he never needed anyone to fulfill himself. He doesn't see it as his problem if anyone can't understand him. 鹿紫雲 smiles and asks if 宿儺 has had his fill but the King of Curses reveals that the flavors of humans are as diverse as they are fleeting. He believes consuming them is the perfect way to pass the time until the end. 悠仁 and 日車 arrive on the battlefield!! With 鹿紫雲's death, the 呪術高専 sorcerers move on to the next stage of their raid. 秤's domain barrier shatters and 宿儺 looks up to see someone he recognizes. As 秤 and 裏梅 descend from the barrier just as 悠仁 and 日車 arrive on the battlefield. Annoyed with being confronted by 悠仁, he asks what the boy could possibly achieve in this situation.",
+    "characters_raw_text": "鹿紫雲一 宿儺 五条悟 (言及のみ) 万 (言及のみ) 秤金次 裏梅 虎杖悠仁 日車寛見",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "鹿紫雲一 vs. 宿儺 (終了)",
+    "techniques_raw_text": "呪具 神武解 飛天 (言及のみ) 鹿紫雲一の術式 幻獣琥珀 宿儺の術式 御廚子 解 解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-baadf43d19",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-ab33983457",
+    "tech-aee71097f5",
+    "tech-d2feb31d47",
+    "tech-d35d193e62"
+  ],
+  "term_ids_candidate": [
+    "term-3f0111dca8"
+  ],
+  "key_events_verified_phase11": [
+    "宿儺は受肉を完成させ、四本の腕と二つの口を持つ本来の姿へ戻る。",
+    "完全な肉体と世界を断つ斬撃で鹿紫雲を圧倒し、強者の孤独と愛について答える。",
+    "宿儺は伏黒の肉体を本来の四腕二口の姿へ完全受肉させ、詠唱と掌印を同時に行える肉体を得る。",
+    "鹿紫雲は世界を断つ斬撃の網に敗れ、強者の愛への答えを聞く。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-baadf43d19",
+    "char-dea43d7fc7"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-d35d193e62",
+    "tech-ab33983457"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-d35d193e62",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-ab33983457",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-6024d040a4"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-27",
+    "src-manga-games-vol-27",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

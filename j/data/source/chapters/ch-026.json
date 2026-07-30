@@ -1,0 +1,118 @@
+{
+  "id": "ch-026",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 26,
+  "zero_number": null,
+  "label": "第26話",
+  "title_official": "いつかの君へ",
+  "title_search_normalized": "いつかの君へ",
+  "start_page": 7,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.7",
+  "summary_short": "虎杖は命令を無視して学校へ向かい、澱月を使う順平と戦いながら説得する。順平は虎杖の言葉を受け入れかけるが、背後では真人が機会をうかがう。",
+  "summary_full": "七海と伊地知の制止を振り切り、虎杖は里桜高校へ入る。順平は式神・澱月の触手と毒で攻撃するが、宿儺の器である虎杖には毒が効きにくい。虎杖は反撃しながら順平の母が呪いに殺されたと知り、母の心まで呪うような復讐をやめるよう訴える。順平の攻撃をあえて受け止め、高専へ来て一緒に戦おうと手を差し伸べる。順平が応じようとした時、真人が姿を現す。別の場所では七海と猪野が真人の拠点にいた呪霊を処理する。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Ignoring orders from 七海 and 伊地知 , 悠仁 rushes in to stop 順平 before he throws his life away. After their battle, 悠仁 extends a helping hand and tries to bring 順平 back to the light. However, 真人 continues to lurk in the background.",
+    "summary_full_legacy": "悠仁 ignores his orders and goes after 順平. On the phone, 悠仁 tells 七海 that he's going in to stop 順平. 七海 tells 悠仁 not to make a move and reminds him of their earlier conversation where he told 悠仁 he's still a child. 七海 believes that the 帳 will still be up by the time 悠仁 arrives. He asks 悠仁 to remain on standby until they can regroup. 内部 真人's old lair, 七海 and grade 2 sorcerer, 猪野琢真 , are surrounded by 呪霊 . 七海 tells Takuma to deal with them and he'll receive a grade 1 recommendation from him. 悠仁 ignores 七海's orders and tries to go off by himself. Guilty from the incident that resulted in 悠仁's death, 伊地知 refuses to allow him to go. Despite his pleads, 悠仁 goes off alone. 悠仁 repels 順平's 澱月. Back in the present, 悠仁 lands a direct hit on one of 順平's \" 澱月 \", a jellyfish-like 式神 . 順平 tells the jujutsu sorcerer to leave immediately, claiming this has nothing to do with 悠仁. 悠仁 replies that it isn't for 順平 to decide and the latter states that pointlessly saving people isn't how life works. 悠仁 appears to be swallowed in the 澱月 as 順平 is enraged. The 式神 user states that compassion is all lies and people who deserve to die shouldn't be spared. He begins to walk away, but stops and recalls a conversation with 真人. The 呪霊 taught 順平 how to create poison from his 呪力 and shape it into a 式神. He even told 順平 these are skills that would take normal sorcerer years to learn, claiming that 順平 was truly talented. \" Are you saying mother and I... are both cursed by people with heart? \" Suddenly, 悠仁 reaches out from the pile of 澱月 and grabs 順平's shirt. He throws 順平 out the window, confusing the 式神 user as to why his poison isn't taking effect. 順平 uses the soft body of one of his jellyfish to cushion his landing. 悠仁 follows close behind and 順平 tries to take advantage by attacking while his opponent is in mid-air. 順平 attempts to use his 式神 to strike 悠仁 just as he lands, but the sorcerer breaks the ground apart with his 逕庭拳 . 悠仁 reveals that he has no idea what 順平 has been talking about and claims it's all just nonsense to make himself feel better. 悠仁 recalls 五条 sensei telling him the best way to beat a 式神 is to go for the user themselves. With a powerful punch packed with 呪力 , 悠仁 hits 順平 back into the school through a window. 真人 joins the chaos just as 悠仁 brings 順平 to his side. 悠仁 says he doesn't understand why 順平 is doing this and not to throw his life away. 順平 claims that people don't have hearts but 悠仁 says he would never say that to his mother . Crying, 順平 says its not fair that he and his mother were cursed by people with hearts. No longer understanding of what is right and wrong, 順平 uses his jellyfish stinger to attack. However, 悠仁 chooses not to dodge and allows his shoulder to be pierced by the stinger, confusing 順平. 悠仁 tries to calm 順平 and says they can talk as friends. He wants 順平 to come to 呪術高専 so they can find out who cursed his mom together. While 悠仁 tries to convince 順平 to fight with him, 真人 walks down the stairs and joins the scene.",
+    "characters_raw_text": "七海建人 虎杖悠仁 真人 猪野琢真 伊地知潔高 吉野順平 五条悟 (カメオ登場) 釘崎野薔薇 (カメオ登場) 伏黒恵 (カメオ登場)",
+    "locations_raw_text": "川崎市 里桜高校 里桜高校",
+    "battles_events_raw_text": "虎杖悠仁 vs. 吉野順平 (開始・終了)",
+    "techniques_raw_text": "吉野順平の術式 式神 澱月 虎杖悠仁の術式 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-cf2d32d5b9"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase2": [
+    "虎杖が順平の攻撃を受けながら説得する",
+    "順平が高専へ来る提案を受け入れかける",
+    "真人が二人の前へ現れる"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-baadf43d19",
+    "char-236cc955ae",
+    "char-18d7c58412",
+    "char-6309a7e2f4",
+    "char-b4d661547b",
+    "char-cf2d32d5b9"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-phase2-oridzuki",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase2-keiteiken",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-phase2-oridzuki",
+    "tech-phase2-keiteiken"
+  ],
+  "term_ids_verified_phase2": [
+    "term-cba4367139",
+    "term-a927605750"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

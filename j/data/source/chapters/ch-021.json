@@ -1,0 +1,119 @@
+{
+  "id": "ch-021",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 21,
+  "zero_number": null,
+  "label": "第21話",
+  "title_official": "幼魚と逆罰―参―",
+  "title_search_normalized": "幼魚と逆罰―参―",
+  "start_page": 87,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.87",
+  "summary_short": "虎杖たちは改造人間事件を追い、虎杖と伊地知が順平への接触を担当する。七海は地下水路で真人を発見し、単独で戦闘を開始する。",
+  "summary_full": "真人は地下の拠点で、縮小・巨大化させた改造人間を順平に見せ、他者への無関心を肯定する。順平は自分を傷つけた相手への憎しみを打ち明け、真人はすべてを肯定すると近づく。調査側は役割を分担し、虎杖と伊地知は低級呪霊・蠅頭を使って順平が呪いを認識できるか確認する計画を立てる。虎杖は順平へ接触し、映画の話題から会話を始める。七海は残穢を追って地下水路へ入り、真人を発見する。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真人 and 順平 continue talking over their feelings about humanity. 悠仁 , 七海 , and 伊地知 forge a plan to investigate the disfiguration cases throughout the city. While 悠仁 and 伊地知 are tasked with questioning 順平, 七海 faces 真人 underground.",
+    "summary_full_legacy": "真人 shares his gruesome experiments with 順平. 順平 continues sitting down and talking with 真人 in the latter's hidden lair beneath 川崎市. The young boy tells 真人 that he can't believe that indifference is the opposite of hate. They both agree that people make excuses by complicated simple answers. 真人 shows 順平 a giant and hand-sized deformed humans, used as experiments for 真人 to test how big and small he can make humans. 真人 asks his guest why he's comfortable around corpses despite being human. Seemingly upset, 順平 says that he would only be angry if it was someone he cared about. He expects cruelty from people and believes his indifference is what all humans should strive for. 真人 claims that 順平's indifference against other people is simply his own way of revenge against his foolish race. 真人 explains that people have a soul separate from the heart and that's where emotions come from. He can see people's souls and claims he isn't impressed by this because other lives has no value. 真人 agrees with 順平 that life continues to go on without meaning, but he tells the young man to live the way he wants. 真人 supports 順平's way of thinking and tells him not to limit himself to mere indifference. 悠仁, 七海, and 伊地知 investigate the trail of deaths by deformation. Meanwhile, 悠仁 meets with 七海 and 伊地知 to discuss the disappearances and deaths by disfiguration across Kawasaki. Using the intel gathered from the Windows encounters with the culprit's residuals, they're able to triangulate the location of the criminal's hideout. 悠仁's ready to move out, but 七海 doesn't want him acting on an approximation. Instead, he tells 悠仁 to find the other witness: 吉野順平 . There isn't enough information to suggest 順平 is a \" 呪詛師 \", the-evil version of a jujutsu sorcerer. However, his connection to the victims needs to be looked into by 悠仁. 七海 trusts 伊地知 to look after 悠仁, but the latter knows their intel is more than a mere approximation. While 悠仁's out of the room, 七海 tells 伊地知 that the culprit is purposely leading the sorcerers into their hideout. He chooses not to put 悠仁 in harms way and says he'll go alone. 悠仁 re-enters the room and tells 七海 sensei to be careful. 七海 tells him to address him as a teacher, but 悠仁 can't help himself. 真人 welcomes 七海 into his lair. 伊地知 drives 悠仁 around until they have found 順平 walking around in public. They decide to use 蠅頭, small curses to test 順平's sensitivity to 呪霊 . If he can't see them and gets attacked, 悠仁 is to rescue him. If he can see them and he flees, 悠仁 must rescue him and bring him in for questioning. In the third scenario, if 順平 fights back with jujutsu, he is to be arrested immediately. In the worst-case scenario, 悠仁 must retreat if 順平 is grade 2 threat or above. 伊地知 reminds 悠仁 that he can't take on missions above his assigned level. Elsewhere beneath the city in 真人's hideout, 七海 cuts down a number of ex-humans turned curses. He tells 真人 to hurry and reveal himself, as 七海 doesn't enjoy killing humans. 真人 appears and claims he's excited that 五条 didn't show up. He adds that he needs someone strong enough to experiment on and 七海 is the perfect subject. Annoyed, 七海 tells 真人 they need to finish this quickly, as he also dislikes working overtime.",
+    "characters_raw_text": "吉野順平 真人 虎杖悠仁 七海建人 伊地知潔高 五条悟 (言及のみ)",
+    "locations_raw_text": "川崎市 真人's Underground Lair 真人's Underground Lair",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-0429ab4dc0",
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-6309a7e2f4",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-f479972eca"
+  ],
+  "technique_ids_candidate": [
+    "tech-a35b2bcd34"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase2": [
+    "真人が順平へ改造人間を見せる",
+    "虎杖と伊地知が順平への接触を始める",
+    "七海が地下水路で真人を発見する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-f479972eca",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-baadf43d19",
+    "char-6309a7e2f4",
+    "char-b4d661547b",
+    "char-f479972eca"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "explained-and-used"
+    },
+    {
+      "technique_id": "tech-a35b2bcd34",
+      "relation": "displayed"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-71a2d65cad",
+    "tech-a35b2bcd34"
+  ],
+  "term_ids_verified_phase2": [
+    "term-65867f280c",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03",
+    "src-official-character-vote-4"
+  ]
+}

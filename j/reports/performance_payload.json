@@ -1,0 +1,210 @@
+[
+  {
+    "page": "index.html",
+    "old_initial_bytes": 175576,
+    "new_initial_bytes": 206910,
+    "reduction_pct": -17.8,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog.js",
+        190000
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "assets/js/home.js",
+        2075
+      ]
+    ],
+    "initial_detail_bytes": 0
+  },
+  {
+    "page": "chapters.html",
+    "old_initial_bytes": 999209,
+    "new_initial_bytes": 223710,
+    "reduction_pct": 77.6,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog.js",
+        190000
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "assets/js/chapters-page.js",
+        5872
+      ]
+    ],
+    "initial_detail_bytes": 13003
+  },
+  {
+    "page": "characters.html",
+    "old_initial_bytes": 305678,
+    "new_initial_bytes": 179537,
+    "reduction_pct": 41.3,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog-characters.js",
+        139798
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "assets/js/entity-page.js",
+        6258
+      ]
+    ],
+    "initial_detail_bytes": 18646
+  },
+  {
+    "page": "techniques.html",
+    "old_initial_bytes": 284967,
+    "new_initial_bytes": 182398,
+    "reduction_pct": 36.0,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog-techniques.js",
+        142045
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "assets/js/entity-page.js",
+        6258
+      ]
+    ],
+    "initial_detail_bytes": 19260
+  },
+  {
+    "page": "terms.html",
+    "old_initial_bytes": 261416,
+    "new_initial_bytes": 163852,
+    "reduction_pct": 37.3,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog-terms.js",
+        128546
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "assets/js/entity-page.js",
+        6258
+      ]
+    ],
+    "initial_detail_bytes": 14213
+  },
+  {
+    "page": "supplements.html",
+    "old_initial_bytes": 178538,
+    "new_initial_bytes": 66421,
+    "reduction_pct": 62.8,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog-supplements.js",
+        46824
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "data/generated/supplements.js",
+        2516
+      ],
+      [
+        "assets/js/supplements-page.js",
+        2246
+      ]
+    ],
+    "initial_detail_bytes": 0
+  },
+  {
+    "page": "sources.html",
+    "old_initial_bytes": 218267,
+    "new_initial_bytes": 60273,
+    "reduction_pct": 72.4,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog-meta.js",
+        1184
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "data/generated/sources.js",
+        43043
+      ],
+      [
+        "assets/js/sources-page.js",
+        1211
+      ]
+    ],
+    "initial_detail_bytes": 0
+  },
+  {
+    "page": "status.html",
+    "old_initial_bytes": null,
+    "new_initial_bytes": 17741,
+    "reduction_pct": null,
+    "new_files": [
+      [
+        "assets/css/app.css",
+        6451
+      ],
+      [
+        "data/generated/catalog-meta.js",
+        1184
+      ],
+      [
+        "assets/js/core.js",
+        8384
+      ],
+      [
+        "assets/js/status-page.js",
+        1722
+      ]
+    ],
+    "initial_detail_bytes": 0
+  }
+]

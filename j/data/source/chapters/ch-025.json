@@ -1,0 +1,123 @@
+{
+  "id": "ch-025",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 25,
+  "zero_number": null,
+  "label": "第25話",
+  "title_official": "固陋蠢愚",
+  "title_search_normalized": "固陋蠢愚",
+  "start_page": 169,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.169",
+  "summary_short": "順平の母・凪が宿儺の指に引き寄せられた呪霊に殺される。真人は犯人を学校のいじめ加害者だと思わせ、順平を復讐へ向かわせる。",
+  "summary_full": "母を失った順平に、真人は宿儺の指を置いた犯人が学校の人間であるかのように吹き込む。七海は虎杖へ、子供である彼に人を殺させたくないと告げ、順平の監視を命じる。順平は里桜高校に帳を下ろし、澱月の毒で体育館の生徒や教師を昏倒させ、いじめの中心だった伊藤翔太を追い詰める。見て見ぬふりをした外村にも責任を問い、憎悪に従って伊藤を痛めつけるが、そこへ虎杖が駆けつける。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Following the tragic death of 順平 's mother, 吉野凪 , 順平 is misguided by 真人 and lead down the dark path of revenge. The jujutsu sorcerers continue to monitor him but it might be too late as 順平 falls further into the darkness.",
+    "summary_full_legacy": "吉野順平's Mother, 吉野凪 , was killed by a 呪霊 that was attracted to the 宿儺 finger found on the table. 真人 leads 順平 down the path of revenge. Following the incident, 悠仁 meets back up with 七海 asks to help him fight 真人 next time. 七海 reminds 悠仁 that he's child and although he doesn't consider this a bad thing, 悠仁 shouldn't be put in a position to kill. Instead, 七海 asks him to continue monitoring 順平. After his mother was killed, 順平 asked 真人 to explain what happened. 真人 tells him that the finger is a 呪物 that attracts curses. He claims a human likely paid for a curse to attack 順平 and his mother. He asks 順平 if there's anyone with time and money who resents him. 順平 goes to his mother's closet and grabs the first black pair of clothes he can find. 真人 puts his evil plan into action. 順平 goes to his school where Shota Ito is being recognized at an award ceremony. 真人 and 夏油 watch from the roof of another building. The 呪霊 uses 帳 to keep everyone out but Pseudo-夏油 says the Windows will discover it soon. 真人's plan is to use 順平 fight 宿儺's Vessel in order to force 悠仁 into a 縛り . 夏油 is impressed by how level-headed 真人 is compared to 漏瑚 . He decides he wants 呪術高専 to discover the finger that he left at 吉野's house. 夏油 leaves but 真人 implores him to stay and watch the demise of foolish children. 順平 nearly takes Shota's life. Everyone in the gym other than Shota Ito and Sotomura falls unconscious. 順平 confronts the teacher and reveals the scar on his head before turning his attention to Shota. He asks Shota if he's the one who put the finger in his house but Shota doesn't understand what he's talking about. Suddenly, black markings overtake half of Shota's body and 順平 knocks him to the ground. 順平 brutalizes Shota and claims he's going to die regardless due to his past crimes. Shota apologizes but 順平 feels no sympathy for him. 悠仁 bursts into the gym and finds 順平 at the center of this conflict. Horrified, 悠仁 asks 順平 what in the world he's doing. 順平 turns to him and tells the jujutsu sorcerer to stay out of it.",
+    "characters_raw_text": "吉野凪 (言及のみ) 虎杖悠仁 七海建人 吉野順平 真人 Shota Ito Pseudo-夏油 宿儺 (カメオ登場) 漏瑚 (カメオ登場)",
+    "locations_raw_text": "川崎市 里桜高校 里桜高校",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "縛り 呪物 呪霊 帳 呪術師",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-2b8d365a39",
+    "char-6309a7e2f4",
+    "char-678a848346",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-c0e690427b"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-8914e5bc1a"
+  ],
+  "key_events_verified_phase2": [
+    "真人が順平を復讐へ誘導する",
+    "順平が里桜高校に帳を下ろす",
+    "順平が伊藤と外村を追及する",
+    "虎杖が学校へ到着する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c0e690427b",
+      "presence": "corpse-or-recollection"
+    },
+    {
+      "character_id": "char-83967cd8ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0429ab4dc0",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-236cc955ae",
+    "char-18d7c58412",
+    "char-baadf43d19",
+    "char-6309a7e2f4",
+    "char-c0e690427b",
+    "char-83967cd8ae",
+    "char-0429ab4dc0"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-phase2-oridzuki",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-phase2-oridzuki"
+  ],
+  "term_ids_verified_phase2": [
+    "term-5b5abca89c",
+    "term-a0ce00ef9e",
+    "term-f9e3abf542",
+    "term-cba4367139",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03",
+    "src-official-character-vote-4"
+  ]
+}

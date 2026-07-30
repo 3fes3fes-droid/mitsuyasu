@@ -1,0 +1,103 @@
+{
+  "id": "ch-028",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 28,
+  "zero_number": null,
+  "label": "第28話",
+  "title_official": "殺してやる",
+  "title_search_normalized": "殺してやる",
+  "start_page": 47,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.47",
+  "summary_short": "虎杖は魂を捉えられる打撃で真人を攻めるが、真人の変形攻撃で重傷を負う。真人が宿儺の魂へ触れて反撃を受けた後、七海が到着して虎杖を援護する。",
+  "summary_full": "虎杖の体内には宿儺の魂が同居しているため、虎杖は無意識に魂の輪郭を認識し、真人へ有効打を与えられる。真人は腕や脚を刃・翼・槍のように変形させて対抗し、虎杖へ深い傷を負わせる。無為転変で虎杖を変形させようとして宿儺の魂へ触れた真人は、宿儺から斬撃を受け、二度と触れるなと警告される。それでも真人は攻撃を続けるが、七海が現場へ到着し、虎杖と合流する。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 vs. 真人 , a fierce battle begins! Unable to depend on 宿儺 , 悠仁 taps into his anger and attacks 真人 with everything he has. 真人 remains confident but finds trouble when he accidentally touches 宿儺's soul. Even so, 真人 manages to inflict brutal wounds on his opponent. Before their battle comes to an abrupt end, 七海 arrives to aid a severely injured 悠仁.",
+    "summary_full_legacy": "MORTAL ENEMY! 夏油 told 真人 that 悠仁 has no regard for his own life and taking a hostage won't work. Instead, 真人 plans to pit 悠仁 against himself, an unbeatable enemy, so that his rage will give into relying on 宿儺. If 順平 's death isn't enough, 真人 is willing to kill everyone in the school to force 悠仁 into a 縛り in 宿儺's favor. 真人's aforementioned strategy assumes that he's stronger than 悠仁. However, 真人 feels the pressure of his mortal enemy inside 悠仁. Angered more than ever before, 悠仁 lashes out and tries to strike 真人. 真人 avoids him by re-shaping his soul to give his body wings. 真人 changes a more \"inspired\" form of killing. 悠仁 notices how 真人 districts his body and decides not to try and grapple with him. At the same time, 真人 surmises that his best bet isn't to transform his body to give 悠仁 a bigger target. 悠仁 decides to continue to strike relentlessly while 真人 takes on a more \"inspired\" form meant for killing. 真人 transforms his arm into a mill of blades and slashes apart the immediate area. 悠仁 is able to avoid it and escapes outside through the hole in the wall created by 真人's attack. 宿儺 forbids 真人 from touching his soul. 真人 follows up shifting his arm into a drill for his next weapon. He fires it at 悠仁, who avoids the drill head and grabs the flesh connecting it 真人. 悠仁's hands are quickly pierced by thorns that grow from 真人's flesh. Even so, 悠仁 doesn't let go and uses his monstrous strength to hurl 真人 through the air before crashing down. 真人 states that normal people would have let go but 悠仁 has no time for words. He rushes 真人 and strikes his body with a powerful right hook. However, 真人 ignores the damage and smiles, before creating more spikes from his body that pierce parts of 悠仁's abdomen. \"I'm not gonna change... I'm gonna kill you!\" While 悠仁 is stunned by the attack, 真人 claims that his opponent can't win and demands he switch with 宿儺. He tries to re-shape 悠仁's soul with 無為転変 , but 宿儺 stops it. The King of Curses tells 真人 to know his place. 真人 is never to touch 宿儺's soul again and 宿儺 only lets him off this time because they shared at laugh at 悠仁's expense. 七海 joins the battle! Since 真人's attempt to touch 悠仁's soul whiffed, it leaves him open to attack. 悠仁 headbutts him fiercely and declares that he won't switch, promising to kill 真人 himself. While he's stumbling, 悠仁 follows up with a powerful roundhouse kick. He appears to have the upper hand and nearly capitalizes, but 真人 suddenly gets behind him. Armed with his hand shapeshifted into a mace, 真人 tries to crush 悠仁 from behind. Just before 悠仁 is hit, 七海's 十劃呪法 deflects 真人's assault.",
+    "characters_raw_text": "虎杖悠仁 真人 宿儺 七海建人",
+    "locations_raw_text": "川崎市 里桜高校 里桜高校",
+    "battles_events_raw_text": "虎杖悠仁 vs. 真人 (終了)",
+    "techniques_raw_text": "七海建人の術式 十劃呪法 真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-6309a7e2f4",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad",
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_candidate": [
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase2": [
+    "虎杖が真人の魂へ有効打を与える",
+    "真人が宿儺の魂へ触れて反撃を受ける",
+    "七海が虎杖と合流する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-baadf43d19",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-6309a7e2f4"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase2": [
+    "term-65867f280c",
+    "term-a927605750"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

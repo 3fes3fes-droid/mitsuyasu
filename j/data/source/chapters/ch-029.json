@@ -1,0 +1,111 @@
+{
+  "id": "ch-029",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 4,
+  "number": 29,
+  "zero_number": null,
+  "label": "第29話",
+  "title_official": "成長",
+  "title_search_normalized": "成長",
+  "start_page": 71,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-04"
+  ],
+  "source_locator": "単行本4巻 目次 p.71",
+  "summary_short": "虎杖と七海は連携して真人を追い詰める。死の危険に刺激された真人は成長し、領域展開へ到達する。",
+  "summary_full": "七海は虎杖が真人の魂へ打撃を通せると知り、二人で役割を分担して祓う方針を取る。真人は蓄えていた改造人間を放ち、虎杖を別の場所へ誘導して七海との一対一を作る。虎杖は元人間を殺すことに苦しみながらも、これ以上の被害を止めるため改造人間を倒して戻る。虎杖と七海の連携に追い詰められ、死を現実的に意識した真人は、その刺激をきっかけに術式の新たな段階へ到達し、領域展開を発動する。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The battle against 真人 rages on as 七海 joins in. Initially, 真人 is confident he can deal with 七海 while keeping 悠仁 busy. However, 真人 underestimates their strength and is backed into a corner. Inspired by the thrill of possibly dying, 真人 reaches the apex of his dark abilities.",
+    "summary_full_legacy": "\" We need to exorcise him. Right here. Right now. \" 七海 arrives to join the fight against 真人. He decides to forgo lecturing 悠仁 for now and asks for a simple status update. Saddened, 悠仁 admits he was unable to save 順平 or his mother . 七海 notices 悠仁 is always thinking of others and clarifies, again asking how 悠仁 is doing. 悠仁 brushes off his injuries as just a few holes and tells 七海 that a bunch of students and staff are unconscious in the gym. 真人 expresses his joy to see 七海 once again. 七海 ignores him and notices that his nose is bleeding. He asks 悠仁 how this happened and he reveals he injured 真人 with a punch at the start of their fight. 七海 asks if 真人 was able touch 悠仁, which he also confirms. Straightforward as usual, 七海 flat out admits that his attacks have zero effect on 真人, shocking 悠仁. 真人 attempts to keep his opponents at bay. 七海 surmises that 真人 is either unable to use his ability on 悠仁 or has a reason not to kill him. Either way, 七海 sees this as an advantage. He tells 悠仁 that despite being unable to harm 真人, he can still stifle his movements. The sorcerer duo agree to work together to create openings for each other by attacking relentlessly. 真人 creates an eye on his hand to watch 悠仁 while he mainly focuses on taking out 七海. While trading blows, 真人 shifts his body into a spiked form with several needles spreading outward. However, the shamans parry his attack and nearly strike him before 真人 escapes by shrinking his body. 真人 gets inspiration from his impending death. Weary of 悠仁's brute strength, 真人 regurgitates transfigured humans and orders them to kill the kid. 真人 believes that 悠仁 won't kill ex-humans and uses the time to pin 七海 up against the wall. The mutants chase 悠仁 onto the roof where they attack him. He doesn't want to fight back and is disheartened when one of the ex-humans ask him to kill them. 真人 plans on pinning 七海's disfigured body against 悠仁 next, but these plans won't come to fruition. He claims that 悠仁 is a fool for being unable to kill but 七海 replies that 真人 is the stupid one. 領域展開! Suddenly, 悠仁 appears from the roof, revealing he mercifully killed his adversaries. 悠仁 lands on 真人's enlarged hand, freeing 七海. 七海 quickly gets behind 真人 to strike, but the 呪霊 remains confident he can counter. However, 悠仁 strikes him with a powerful punch that's quickly followed up by a second strike from 七海. On the brink of death, 真人 receives the inspiration he needs to remodel his soul, unleashing his true power. He opens his mouth and four hands within it form the hand seals to activate 領域展開. He brings 七海 into his 領域展開：自閉円頓裹 . 七海 knows this is the worst-case scenario and 真人 thanks him for helping unleash this form.",
+    "characters_raw_text": "虎杖悠仁 七海建人 真人",
+    "locations_raw_text": "川崎市 里桜高校 里桜高校",
+    "battles_events_raw_text": "虎杖悠仁 & 七海建人 vs. 真人 (開始)",
+    "techniques_raw_text": "真人の術式 領域展開：自閉円頓裹",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-6309a7e2f4",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-f0f06d52dc"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase2": [
+    "虎杖と七海が連携して真人を追い詰める",
+    "虎杖が改造人間を倒す",
+    "真人が自閉円頓裹を発動する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-baadf43d19",
+    "char-6309a7e2f4",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a35b2bcd34",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-f0f06d52dc",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-e69f8fd37d",
+    "tech-71a2d65cad",
+    "tech-a35b2bcd34",
+    "tech-f0f06d52dc"
+  ],
+  "term_ids_verified_phase2": [
+    "term-65867f280c",
+    "term-e6a70dfe56"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-04",
+    "src-manga-games-vol-04",
+    "src-official-character-vote-4"
+  ]
+}

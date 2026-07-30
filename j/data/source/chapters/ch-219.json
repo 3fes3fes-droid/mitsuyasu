@@ -1,0 +1,129 @@
+{
+  "id": "ch-219",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 219,
+  "zero_number": null,
+  "label": "第219話",
+  "title_official": "浴④",
+  "title_search_normalized": "浴4",
+  "start_page": 27,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "bath-return",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.27",
+  "summary_short": "平安時代の万と宿儺の出会いが描かれる。万は領域展開と真球を用いるが、宿儺は魔虚羅を召喚して術式へ適応させ、万を倒す。",
+  "summary_full": "平安時代の万と宿儺の出会いが描かれる。万は領域展開と真球を用いるが、宿儺は魔虚羅を召喚して術式へ適応させ、万を倒す。万は領域「三重疾苦」と接触面に無限の圧力を生む真球を展開する。宿儺は魔虚羅の適応で真球を破り、万を殺害して伏黒の魂をさらに沈める。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "万 met 宿儺 during the 平安時代 and for her it was love at first sight. A thousand years later, 万 remains determined to show 宿儺 to shape of her love. True strength and the solitude it brings, the one to show him true love will be...",
+    "summary_full_legacy": "万's first attempt to quell 宿儺's lonliness a thousand years ago. One thousand years ago during the 平安時代, 宿儺 was not only invited to the Harvest Festival, but featured as an idol to be worshipped. Everyone in the capital was well aware of 宿儺's feats, having decimated the Sun, Moon and Stars Squad and the Five Empty Generals. 万 bested the Five Empty Generals as well and earned a place in the Fujiwara clan. At this time, local nobles felt as if the capital was falling to the savages. 万's servent, who struggles to direct her in any way, eventually made 万 aware of the Harvest Festival. 万 decided to attend only for a select food that her servant tried to warn her wouldn't be there. She was mesmerized upon laying eyes on 宿儺. She instantly felt his solitude and ran up to  him. She wrapped her arms around 宿儺 and embraced him, shaming everyone for not making sure he didn't feel alone. 裏梅 forced 万 back and 宿儺 cut her as well. She collapsed from her wounds despite her confident attitude but remained determined to keep 宿儺 company in order to take in his loneliness all for herself. 魔虚羅 destroys 万's True Sphere. In the modern day, 万 retains that same desire, to be the one who kills 宿儺. Using the pinnacle of her 構築術式 , 万 creates a True Sphere . This is a shape thought to be impossible with no point of contact and thus untouchable due to the infinite pressure created along the surface. Then she uses 領域展開：三重疾苦 to ensure it hits. 恵's soul drowned within 宿儺. However, 宿儺 doesn't open his domain in response. Instead, 魔虚羅's wheel turns on his head, having completed its adaptation. 万 is confused as to why 宿儺 hasn't opened his domain because he should know that if she activates her technique then she wins. 宿儺 drops the wheel into his shadow, summoning 魔虚羅 to switch places with him. 魔虚羅 destroys the True Sphere with a single stab from its 退魔の剣 . 万 is shocked that it destroyed her attack and then the 式神 strikes her down next. 万's domain crumbles and she lies defeated with 宿儺 standing over her. 宿儺 explains that he adapted to the liquid metal that she uses to construct her insect armor and the perfect sphere. 万 is glad 宿儺 knows so much about her tactics and is brought to tears. 宿儺 isn't amused but 万 leaves him with one last gift from 構築術式 at the end of her life. 万 and by association, 伏黒津美紀 is killed. 恵 's soul weeps in the depths of darkness, fully immersed within 宿儺.",
+    "characters_raw_text": "万 宿儺 裏梅 (回想) 伏黒恵",
+    "locations_raw_text": "仙台結界",
+    "battles_events_raw_text": "死滅回游 宿儺 vs. 万 (終了) 宿儺 vs. 万 (終了)",
+    "techniques_raw_text": "宿儺の術式 御廚子 (回想) 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 八握剣異戒神将 魔虚羅 魔虚羅 万の術式 構築術式／真球 領域展開：三重疾苦／真球",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "bath",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-9fccad3ed6"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-59d1d0e465",
+    "tech-7c3237f986",
+    "tech-9761156f3b",
+    "tech-a83926de11",
+    "tech-a9deccca5f"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase11": [
+    "平安時代の万と宿儺の出会いが描かれる。",
+    "万は領域展開と真球を用いるが、宿儺は魔虚羅を召喚して術式へ適応させ、万を倒す。",
+    "万は領域「三重疾苦」と接触面に無限の圧力を生む真球を展開する。",
+    "宿儺は魔虚羅の適応で真球を破り、万を殺害して伏黒の魂をさらに沈める。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-9fccad3ed6"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-59d1d0e465",
+    "tech-a9deccca5f",
+    "tech-a83926de11",
+    "tech-9761156f3b"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-59d1d0e465",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-a9deccca5f",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-a83926de11",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-9761156f3b",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-65867f280c"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

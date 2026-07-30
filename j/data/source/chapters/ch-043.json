@@ -1,0 +1,166 @@
+{
+  "id": "ch-043",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 43,
+  "zero_number": null,
+  "label": "第43話",
+  "title_official": "京都姉妹校交流会―団体戦⑩―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦10―",
+  "start_page": 171,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.171",
+  "summary_short": "伏黒の十種影法術と加茂憲紀の赤血操術が激突する。交流会の裏で楽巌寺が虎杖排除を進める一方、外部から花御らが高専へ侵入する。",
+  "summary_full": "伏黒と加茂の戦闘では、蝦蟇や不知井底と、血を付けて軌道を操る矢がぶつかる。加茂は赤鱗躍動で体内を操作して身体能力を高め、十種影法術を継ぐ伏黒を御三家を支える同類と見る。三輪は狗巻の電話による呪言で眠らされる。楽巌寺が用意した準一級呪霊は虎杖を狙う前に何者かに祓われ、狗巻の前へ花御が出現する。真人と組屋鞣造も高専への侵入を開始し、交流会は外敵の襲撃へ転じる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 's 十種影法術 術式 clashes with Noritoshi 's 赤血操術 ! As their duel rages on, Principal 楽巌寺 puts his plan in motion to deal with 悠仁. However, uninvited guests appear to enact an evil plan of their own.",
+    "summary_full_legacy": "恵's toad protects him from Nortoshi's blood-tipped arrows. Locked in fierce combat, Noritoshi fires three arrows simultaneously at 恵. The first-year deflects two of them with his tonfa and the third is stopped by one of his toads . 恵 notices that the arrows have traces of blood on them, allowing Noritoshi to make them defy physics. Noritoshi asks that 恵 not hold back and summon another 式神. 恵 ignores this because 玉犬 is busy and tells Noritoshi he won't help if he ends up losing too much blood. The Kyoto third-year responds with a smirk and reveals these arrows were prepared in advance. Noritoshi using 赤鱗躍動 to boost his physical abilities. 恵 knows Noritoshi can use the 加茂 Clan inherited 術式: 赤血操術, which allows him to control whatever his blood touches. Noritoshi thinks highly of 恵 because he possesses the 禪院家 Inherited 術式: 十種影法術 術式, which allows 恵 to summon 式神 using his shadows. This is something Noritoshi wishes 真依 and 真希 could have inherited. Noritoshi blasts the roof with an arrow to create a distraction that allows him to blitz by 恵. The 東京 first-year is able to defend, but he notices that Noritoshi seems much faster and stronger. Noritoshi commends his opponent's reflexes and continues to attack until he breaks one of 恵's tonfa. 赤血操術 allows Noritoshi to control his own body temperature, pulse rate, the number of red blood cells, and his blood composition using 赤鱗躍動 . 恵 compares this to doping, but Noritoshi doesn't appreciate the stigma associated with that word. 棘 notices the presence of a powerful 呪霊. Meanwhile, 霞 is disappointed and unable to do anything because her katana was taken by 真希 . She gets a call from メカ丸 , but it is actually 棘 on the other side who commands her to sleep. He's with 恵's 玉犬, which he pets and commands to return. Immediately afterward, 棘 notices the presence of a powerful 呪霊. The forces of evil set their plans into motion. Before the team battle began, Principal 楽巌寺 gave permission to Noritoshi to use a Semi-Grade 1 curse to kill 虎杖悠仁 . He commanded Noritoshi to do so using a special blood scent that would need to be attached to Yūji. The Principal believes that the 呪霊 will be able to kill 悠仁 after his fight with 葵. In the present, while 楽巌寺 thinks all of this over, 歌姫 goes out to retrieve 霞 from the forest. The semi-grade 1 spirit appears before 棘 but its head is severed and killed instantly by something else. Suddenly, 花御 appears from the trees to confront 棘. Elsewhere, 真人 and a 呪詛師 named, 組屋鞣造 , prepare to put their evil plan into motion.",
+    "characters_raw_text": "伏黒恵 加茂憲紀 三輪霞 狗巻棘 五条悟 庵歌姫 楽巌寺嘉伸 花御 組屋鞣造 真人",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 伏黒恵 vs. 加茂憲紀 (開始) 呪霊討伐競争 伏黒恵 vs. 加茂憲紀 (開始) 伏黒恵 vs. 加茂憲紀 (開始)",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 玉犬 不知井底 玉犬 不知井底 加茂の術式 赤血操術 赤鱗躍動 赤鱗躍動 狗巻棘の術式 呪言",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-3ed1d78924",
+    "char-830f121430",
+    "char-833a399363",
+    "char-9148bf784c",
+    "char-a61d6ef891",
+    "char-ac327bdd73",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-3ed1d78924",
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986",
+    "tech-a1213858c7",
+    "tech-deb6545546",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "伏黒と加茂が十種影法術と赤血操術で戦う",
+    "狗巻が三輪を電話越しの呪言で眠らせる",
+    "花御が高専へ侵入する",
+    "真人と組屋が襲撃を開始する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-833a399363",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-3c1852867d",
+    "char-830f121430",
+    "char-ebd2a8efa8",
+    "char-a61d6ef891",
+    "char-3de3b8af11",
+    "char-ac327bdd73",
+    "char-9148bf784c",
+    "char-833a399363",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6c8be9e9eb",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-3ed1d78924",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e66786ca8f",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-deb6545546",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-7c3237f986",
+    "tech-6c8be9e9eb",
+    "tech-3ed1d78924",
+    "tech-a1213858c7",
+    "tech-e66786ca8f",
+    "tech-deb6545546"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-6f7fa8f5d1",
+    "term-f74654d902",
+    "term-3777b71218",
+    "term-f9e3abf542"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

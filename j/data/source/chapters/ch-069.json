@@ -1,0 +1,137 @@
+{
+  "id": "ch-069",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 8,
+  "number": 69,
+  "zero_number": null,
+  "label": "第69話",
+  "title_official": "懐玉―伍―",
+  "title_search_normalized": "懐玉―伍―",
+  "start_page": 151,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-08"
+  ],
+  "source_locator": "単行本8巻 目次 p.151",
+  "summary_short": "五条は理子を保護し、無下限呪術で賞金目当ての呪詛師を退ける。しかし別行動を取っていた黒井が拉致され、人質交換を要求される。",
+  "summary_full": "五条は礼拝堂で理子を確保し、分身を大量に作る呪詛師と交戦する。術式反転「赫」はまだ成功せず、無限と術式順転「蒼」を用いて本体を見抜き制圧する。夏油も式神使いを捕らえ、襲撃者を尋問できる状態にする。しかし別行動していた黒井美里が何者かに拉致され、拘束された写真と取引要求が届く。理子は唯一の家族に近い黒井を救うことを強く望み、五条と夏油は指定された沖縄へ向かう。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 manages to take 天内理子 out of her music class and rushes to escape the school before encountering one of the intruders. To ensure the safety of the 星漿体 Vessel , 悟 unleashes the powers of his 無下限呪術 technique.",
+    "summary_full_legacy": "悟 tracks down 理子 and attempts to escape with her. 悟 barges into the girl's chapel yelling for 理子, surprising everyone inside and embarrassing 理子. The young girls are enthralled by how cute 悟 is so they start asking 理子 questions. 悟 even takes off his sunglasses for them, annoying 理子 with his confidence. The teacher makes the girls settle down and momentarily scolds 悟 before giving away her number. While all the girls continue to argue. 悟 grabs 理子 and escapes the chapel with her. She's annoyed he didn't follow her requests but 悟 explains that curse users have attacked the school. 悟 wants to head straight for 呪術高専, but as he runs across one of the rooftops with the girl, he's spotted by a 呪詛師. He doesn't recognize the guy with her but he does notice the girl. 美里 黒井 confronts the 呪詛師 from behind and asks if he's with the 時の器の会 or Q . They engage in a short scuffle that ends with incapacitating the man by striking him below the belt. 夏油傑 arrives shortly after, surprised by her strength. Based on their conversation the 呪詛師 is able to confirm the girl he saw is the bounty. Suddenly he melts into a puddle of mud, making 黒井 question if it was a 式神 . A clone 呪詛師 is forced to get familiar with 悟's 無下限呪術 technique. 傑 calls 悟 and informs him that there is a thirty-million-yen bounty on 理子's head with a time limit on a dark website for curse users. 悟 understands and hangs up the phone, as he and 理子 are both surrounded by four of the same 呪詛師. 悟 fails to unleash the 術式 術式反転 of the 無下限呪術. 理子 also thinks that 呪詛師's clones are 式神 while 悟 says their opponent should be a jujutsu sorcerer. The 呪詛師 refuses and forms a fifth clone, claiming being a professional sorcerer is more dangerous than it's worth. While the new doppelganger is forming, 悟 acts quickly and uses 術式 術式順転「蒼」 to take out two people in an instant. 理子 notices that the 式神 haven't been dispelled and 悟 corrects her. They're not 式神, they're clones of the real technique's caster. Two of the clones get in close to 悟, but they can't bypass his infinity, making them easy prey for a counterattack. Thanks to the 六眼, 悟 is able to read his opponent's 術式 and decides to divulge his own, allowing him to create a magnetic force that brings the 呪詛師 closer to him. 悟 attempts to unleash the 術式 術式反転 of the 無下限呪術, but it doesn't work. He's forced to knock out his opponent with a punch, confusing 理子. Suddenly she gets a text with a picture of 黒井 captured by the enemy.",
+    "characters_raw_text": "五条悟 天内理子 Bag Mask 呪詛師 美里 黒井 夏油傑",
+    "locations_raw_text": "浜松市",
+    "battles_events_raw_text": "五条悟 vs. 分身 呪詛師 美里 黒井 vs. 分身 呪詛師",
+    "techniques_raw_text": "Bag Mask 呪詛師's 術式 分身 術式 五条悟の術式 無下限呪術 術式 術式順転「蒼」 術式 術式反転「赫」 (失敗) 無限 術式 術式順転「蒼」 術式 術式反転「赫」 (失敗) 無限",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-526551b91f",
+    "char-63e2590b87",
+    "char-b9d4880408"
+  ],
+  "technique_ids_candidate": [
+    "tech-6e6dd087e1",
+    "tech-8b181ff845",
+    "tech-90aaa17cfe",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [
+    "term-041be91538"
+  ],
+  "key_events_verified_phase4": [
+    "五条が分身術者を制圧する",
+    "五条が術式反転「赫」に失敗する",
+    "黒井美里が拉致される"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d218cffa84",
+      "presence": "appearance-and-defeated"
+    },
+    {
+      "character_id": "char-526551b91f",
+      "presence": "appearance-and-kidnapped"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b8fa3c89b0",
+      "presence": "captured"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-17322e71e5",
+    "char-63e2590b87",
+    "char-d218cffa84",
+    "char-526551b91f",
+    "char-b9d4880408",
+    "char-b8fa3c89b0"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-phase4-clone-unnamed",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-8b181ff845",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6e6dd087e1",
+      "relation": "attempted-and-failed"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-phase4-clone-unnamed",
+    "tech-cf2f8dca4a",
+    "tech-8b181ff845",
+    "tech-90aaa17cfe",
+    "tech-6e6dd087e1"
+  ],
+  "term_ids_verified_phase4": [
+    "term-041be91538",
+    "term-6f0611c4ff",
+    "term-phase4-star-religious-group",
+    "term-phase4-time-vessel-association"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-08",
+    "src-manga-games-vol-08",
+    "src-official-character-vote-4"
+  ]
+}

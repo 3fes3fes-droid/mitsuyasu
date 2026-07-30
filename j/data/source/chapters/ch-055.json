@@ -1,0 +1,143 @@
+{
+  "id": "ch-055",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 55,
+  "zero_number": null,
+  "label": "第55話",
+  "title_official": "起首雷同",
+  "title_search_normalized": "起首雷同",
+  "start_page": 47,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.47",
+  "summary_short": "交流会後、虎杖・伏黒・釘崎は伏黒の母校に関係する連続呪殺事件を調査する。真人は高専から奪った呪胎九相図の一体を受肉させる。",
+  "summary_full": "自動ドアが開いたままになる現象の後に死亡した金田太一・島田治・大和広は、同じ中学校の卒業生だった。新田明は虎杖・伏黒・釘崎を埼玉の浦見東中へ連れ、三人が在学中に夜の八十八橋で肝試しをしていたと説明する。伏黒の旧担任・武田から、伏黒が不良をまとめて倒していた過去も知られる。真人と羂索は奪った呪胎九相図を人間へ受肉させ、血塗を誕生させる。橋の事件と宿儺の指、九相図が同じ場所へ集まり始める。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the aftermath of the Goodwill Event , 呪術高専's first-years are sent out on their next mission. Along with 新田明 , they investigate the mysterious deaths connected to 恵 's old junior high school. Meanwhile, 真人 manifests one of the 呪胎九相図 Wombs .",
+    "summary_full_legacy": "A 呪霊 appears where an auto-lock doors have been left wide open. In June, Taichi Kanada , a resident of Morioka complained to his building management that the auto lock doors to his apartment entrance are stuck wide open. None of the other residents haven't noticed an issue, but Taichi demands they inspect it now. While complaining over the phone, a 呪霊 appeared behind him and stabbed Taichi to death. In August, Osamu Shimada was killed in Yokohama and Hiroshi Yamato was killed under the same circumstances as well in September while staying in Nagoya. 新田明 , assistant manager for 呪術高専 explains this to the three-first years as she drives them to their mission site. 恵 points out that all the dates and locations are different and questions the idea that the same 呪霊 have traveled so far. 明 adds that there is another thread that connects the three. They all attended the same junior high for two years. The most likely explanation is that the three of them were cursed and it took all these years to manifest. 明 takes them to a funeral where they can speak to classmate who knew all three victims. 明 was unaware there was going to be a funeral and reveals that this means he died the same way as the other three. He was killed on his front entrance where his door wouldn't open. The sorcerers investigate 恵's old stomping grounds. Next, they move to investigate Saitama Urami East Junior High themselves. 野薔薇 notices some punks smoking and says they should beat them up and question them. The boys notice the group and immediately bow in respect while apologizing for not greeting them properly. 悠仁 and 野薔薇 both smirk, proud of themselves for their strong aura. However, the boys are bowing to 恵, who they haven't seen since graduation. 恵 acts aloof, but 野薔薇 and 悠仁 pester him. They ask the boys for answers and its revealed that 恵 has beaten up half the punks in this area. 恵 continues to act like he doesn't know what's going on, causing his peers to pester him more. One of the school faculty appears to question why strangers are on school ground. 明 explains they have a permit and 恵 speaks to Takeda directly. It has been twenty years since the four victims graduated and 恵 wonders if they had any karma coming to them. The punks from earlier ask if bungee jumping from 八十八橋 would qualify. 八十八橋 is a place known for suicides and is a hot spot for paranormal activity. Takeda also recalls that Junior High students like to test its merit by bungee jumping from it. 真人 inquires about the nature of the 呪胎九相図 Wombs. The boys claim it was an older generation thing that the kids don't do anymore, but they still hear the stories. One day, four students who didn't show up to school or return home the previous night were found unconscious below the bridge. 恵 has been there before since 呪術高専 goes to paranormal hot spots often. There was nothing special last time he went, but 野薔薇 and 明 agree they should head there anyway. One of the 呪胎九相図 Wombs incarnates. Before the sorcerers depart, Takeda asks 恵 how 津美紀 is. He replies that she's fine and 悠仁 asks who she is. 恵 reveals that 津美紀 is his sister and 野薔薇 is annoyed that he never tells them anything about himself. Meanwhile, 真人 and Pseudo-夏油 meet over their recently obtained cursed objects : 呪胎九相図 Wombs No. 1-3. 真人 asks why 呪術高専 doesn't destroy these cursed objects and 夏油 explains that they can't do it when the 呪物 is special grade. The most they can do is halt its life stream and prevent it from doing further damage. 宿儺の指 are an exception as they can still attract curses after all this time and choose its vessel. On the contrary, the 呪胎九相図 Wombs can manifest in anyone. A normal human unable to see curses even in this life threatening situation is chosen to manifest one of the wombs. 真人 does so by forcing the womb down his throat, transforming him into a 呪霊. At the same time, the three 呪術高専 first-years arrive at 八十八橋 .",
+    "characters_raw_text": "Taichi Kanada 虎杖悠仁 伏黒恵 新田明 釘崎野薔薇 Takeda 真人 Pseudo-夏油 血塗",
+    "locations_raw_text": "Saitama Urami East Junior High 鯉ノ口峡谷, 八十八橋",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪物／呪胎: 呪胎九相図 呪胎: 呪胎九相図",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-05e0877f46",
+    "char-0cb661851e",
+    "char-18d7c58412",
+    "char-3c1852867d",
+    "char-3e900c584c",
+    "char-5a0f7ded8d",
+    "char-5bc95bc9e0",
+    "char-678a848346",
+    "char-8e6f9fc580",
+    "char-964e851215",
+    "char-b0c4caf31c",
+    "char-baadf43d19",
+    "char-dcb6ddb293",
+    "char-ed98ec9440"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-c5958133bc",
+    "term-3f0111dca8"
+  ],
+  "key_events_verified_phase3": [
+    "八十八橋に関係する連続呪殺事件の調査が始まる",
+    "被害者三人が浦見東中の同級生と判明する",
+    "伏黒の中学時代が知られる",
+    "真人と羂索が呪胎九相図を受肉させる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-8e6f9fc580",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-05e0877f46",
+      "presence": "mentioned-as-victim"
+    },
+    {
+      "character_id": "char-b0c4caf31c",
+      "presence": "mentioned-as-victim"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ed98ec9440",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "incarnation"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-8e6f9fc580",
+    "char-05e0877f46",
+    "char-b0c4caf31c",
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-0cb661851e",
+    "char-5a0f7ded8d",
+    "char-ed98ec9440",
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-964e851215"
+  ],
+  "technique_appearances_verified_phase3": [],
+  "technique_ids_verified_phase3": [],
+  "term_ids_verified_phase3": [
+    "term-c5958133bc",
+    "term-d321a3c48f",
+    "term-3f0111dca8",
+    "term-5b5abca89c",
+    "term-a0ce00ef9e"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}

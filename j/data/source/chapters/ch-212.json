@@ -1,0 +1,129 @@
+{
+  "id": "ch-212",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 212,
+  "zero_number": null,
+  "label": "第212話",
+  "title_official": "膿む",
+  "title_search_normalized": "膿む",
+  "start_page": 67,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.67",
+  "summary_short": "津美紀の肉体には受肉術師・万が宿っていたと判明する。万が結界を去った直後、宿儺は契闊を唱えて虎杖の身体を支配し、指へ呪力を集中させる。",
+  "summary_full": "津美紀の肉体を使う存在は受肉術師・万と名乗り、千年前から宿儺へ一方的な執着を抱いていた。万は宿儺との戦いを望み、仙台結界へ移動する。救出の支えを失った伏黒の心が沈んだ瞬間、宿儺は縛りの合言葉「契闊」を唱えて虎杖の身体を一分間支配する。宿儺は来栖を気絶させ、自分の小指へ魂と呪力を込めて切り離す。虎杖自身を傷つけることが縛りに含まれていない隙を利用した行動だった。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "恵 's plan to rescue 津美紀 completely backfires when an incarnated sorcerer reveals they've been impersonating her the whole time. Before 恵's allies can properly respond, 宿儺 finally makes his move.",
+    "summary_full_legacy": "\"津美紀\" suddenly adds a different rule to the 死滅回游. Back when 津美紀 first woke up, 恵 went to visit her in the hospital. They discussed the 死滅回游 and what happened to 五条 but 恵 assured her that he and his comrades would handle things. 恵 says 津美紀 can go back to sleep and she replied with an uncharacteristically devious smile on her face. When the siblings reunited in the 死滅回游, 悠仁 came to terms with his role in the jujutsu world as the plan appeared to be coming to a close. He is grateful to 恵 and 五条 for giving him a role to play. However, currently, 恵's plan is going awry as 津美紀 adds a rule allowing entry and exit across colony borders. As the grim reality sets in on 恵, he asks who this imposter is. \"津美紀\" dons a sinister grin across her face and taunts 恵, claiming to be his big sister. When a 呪物 takes on flesh, it gains memories and knowledge of the modern age from its vessel's brain. 恵 realizes he was wrong to assume that 津美紀 was the awakened type of player, as she used 津美紀's memories to impersonate her. 悠仁 isn't sure what's happening and desperately asks for clarification while 恵 is stunned. The imposter makes a joke of the exchange and introduces herself as 万 , a sorcerer from the past who's incarnated into 津美紀's body. \"En... chain.\" 恵 asks why 万 decided to impersonate 津美紀. 万 explains she was happy to take the points they offered her in order to choose her battlefield and fight 宿儺. She flies off and 悠仁 tries to pursue her with 華 . However, a mouth suddenly appears on his face and says \"Enchain\", the activation word for the 縛り 宿儺 forced upon 悠仁 when he died. By invoking the vow, 宿儺 has taken over 悠仁's body for a full minute. 宿儺 incarnates into 恵. 宿儺 knocks 華 unconscious but does so without injuring her per the terms of the 縛り. He reveals he can't injure anyone and 恵 asks why he's appearing now of all times. 宿儺 says it's a gamble and then splits his soul into one of his fingers. He waits a moment after tearing it off and then laughs once he knows for sure he hasn't broken the 縛り. This confirms that 悠仁 didn't include himself among the people 宿儺 was allowed to injure, which the King of Curses emphasizes was a foolish mistake. 恵 attempts to summon 魔虚羅 but 宿儺 uses his speed to interrupt the necessary hand signs. 宿儺 forces 恵 to eat his severed pinky finger and incarnates into his body. 宿儺 leaves 悠仁's body entirely and has taken possession of 恵. As 悠仁 looks to see that his friend has been taken over, 宿儺 reminds him of the time that he told the sorcerer he'd see something interesting.",
+    "characters_raw_text": "伏黒津美紀 (Disguise) 万 伏黒恵 虎杖悠仁 五条悟 (言及のみ) 来栖華 宿儺",
+    "locations_raw_text": "東京第1結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": "式神 コガネ 万の術式 構築術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "meguna",
+  "character_ids_candidate": [
+    "char-0d3bc6b0dd",
+    "char-0f2e6e85bf",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-8a6e43878f",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [
+    "tech-59d1d0e465"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-e3eff1da1c",
+    "term-3f0111dca8"
+  ],
+  "key_events_verified_phase10": [
+    "津美紀の中に万が受肉していると判明する",
+    "万が宿儺との戦いを望んで移動する",
+    "宿儺が契闊を唱えて虎杖を支配する",
+    "宿儺が自分の指を呪物化する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "vessel-revealed"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "revealed"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "despairs"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "body-taken-over"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "invokes-binding-vow"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "knocked-unconscious"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "temporarily-suppressed"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-0f2e6e85bf",
+    "char-0d3bc6b0dd",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-2b8d365a39",
+    "char-d8252d61d4",
+    "char-65e7fd1c87"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-78b556c5e7",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-78b556c5e7"
+  ],
+  "term_ids_verified_phase10": [
+    "term-76365024bd",
+    "term-3f0111dca8",
+    "term-6de7063fc5",
+    "term-5b5abca89c",
+    "term-f57cd720b8",
+    "term-c3a59e1049"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

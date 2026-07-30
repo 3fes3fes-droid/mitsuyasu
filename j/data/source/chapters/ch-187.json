@@ -1,0 +1,131 @@
+{
+  "id": "ch-187",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 187,
+  "zero_number": null,
+  "label": "第187話",
+  "title_official": "東京第２結界⑥",
+  "title_search_normalized": "東京第2結界6",
+  "start_page": 131,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.131",
+  "summary_short": "秤は再び領域を展開し、連続大当たりを狙う。鹿紫雲は四百年前、羂索との契約によって死滅回游へ受肉し、宿儺との戦いを望んだ過去を思い出す。",
+  "summary_full": "坐殺博徒の無害な必中効果は領域の規則を高速で鹿紫雲へ伝え、対領域技術を使う前に抽選が始まる。大当たり中ではない秤は鹿紫雲に倒されるが、演出の再演で損傷を取り消し、再び大当たりを引く。鹿紫雲は時間切れを待つ安全策を拒み、不死身の秤を正面から殺すと決める。四百年前、老いた鹿紫雲が羂索との契約を受け入れた理由も、宿儺と戦うためだったと判明する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "秤 brings 鹿紫雲 into his domain where he's even more likely to hit the jackpot than last time. 鹿紫雲 enjoys the challenge and decides to try and defeat someone who's effectively immortal. 400 years ago when 鹿紫雲 was associated with 羂索 , he agreed to enter the 死滅回游 to challenge the most substantial fighter ever to exist, 宿儺 .",
+    "summary_full_legacy": "鹿紫雲 overpowers 秤 while he's not unkillable. 坐殺博徒 's sure-hit function is the harmless transfer of information to its target. The trade-off is that the activation of the imbued 術式 is fast, even more so than 真人 's all-or-nothing 領域展開 of 0.2 seconds during the 渋谷事変 . The domain apprises 鹿紫雲 of its rules even faster than he could give up on using 彌虚葛籠 to protect himself. With this newfound information, 鹿紫雲 realizes that 秤 was granted unlimited 呪力 from hitting the jackpot when he expanded his domain earlier. He's also aware that by lining up three odd-numbered symbols, 秤 will have increased probability this round and is likely to hit another jackpot. 秤 redoes a consecutive sequence to revert damage to himself. 鹿紫雲 relishes the challenge and commends 秤 for doing well so far. 秤 asks 鹿紫雲 how he's doing and the latter dismisses the taunt because his opponent is no longer in an unkillable state. 秤 retorts by stating that a life of gambling always carries risk and 鹿紫雲 wonders if his opponent can keep that same mindset when he's dead. 鹿紫雲 begins his assault and overpowers 秤 with a strong combination of strikes, knocking him unconscious. However, 秤 uses a consecutive effect to replay the sequence and reverts all the damage. Normally using a consecutive effect as an indicator carries a high risk of failing, so 秤 only uses it during increased probability mode. 鹿紫雲 quickly defeats 秤 again only for him to replay the sequence a second time. \" You may be unkillable but I'll kill you anyway!!! \" 秤 goes into riichi mode and enters the potty emergency scenario where the character \"Hiro\" must reach Yurigoaka station without wetting himself. Both fighters engage in the pachinko antics of the domain until Hiro successfully reaches his destination, resulting in a jackpot from drawing three sixes in a row. The domain disappears and 秤 emphatically calls for the music to begin, activating his unkillable mode where he has limitless 呪力 and a fully automatic 反転術式. 秤 hit the jackpot with three even numbers this time, so the next round won't include increased probability. 鹿紫雲 knows that if he can get through the next four minutes and eleven seconds, he can win when 秤 is killable. However, to 鹿紫雲, that is how a loser would think. Instead, 鹿紫雲 flares up his electrified 呪力 and challenges himself to kill the unkillable. A lust for battle that transcends even time! Four hundred years ago, 羂索 found an elderly 鹿紫雲 after a battle with other warriors. The field was laced with the dismembered bodies of his enemies but he didn't have any fun fighting. 羂索 told him about 石流龍 , who displayed the highest output of 呪力 ever, but 鹿紫雲 found it dubious because 龍 was too far away. Instead, he asked 羂索 who the strongest sorcerer he knew was. 羂索 was confident in stating that 宿儺 was the strongest ever and this convinced 鹿紫雲 to accept his conditions.  He agreed to become a 呪物 to eventually be incarnated for the 死滅回游 simply to get the chance to fight 宿儺.",
+    "characters_raw_text": "秤金次 鹿紫雲一 真人 (言及のみ) 羂索 (回想) 石流龍 (回想) 宿儺 (言及のみ)",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游 秤金次 vs. 鹿紫雲一 秤金次 vs. 鹿紫雲一",
+    "techniques_raw_text": "秤金次の術式 領域展開：坐殺博徒",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-0e7004da56",
+    "char-18d7c58412",
+    "char-2b8d365a39",
+    "char-4a29b3de7b",
+    "char-678a848346",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-4b0b9dc682",
+    "tech-aee71097f5"
+  ],
+  "term_ids_candidate": [
+    "term-3f0111dca8",
+    "term-bb89ef15f2"
+  ],
+  "key_events_verified_phase10": [
+    "坐殺博徒の規則が鹿紫雲へ伝達される",
+    "秤が演出の再演で損傷を取り消す",
+    "秤が再び大当たりを引く",
+    "鹿紫雲が羂索と契約した過去が描かれる"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "fighting-and-past"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "past-contract"
+    },
+    {
+      "character_id": "char-4a29b3de7b",
+      "presence": "past-mentioned"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "goal-mentioned"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "domain-speed-comparison"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-dea43d7fc7",
+    "char-0e7004da56",
+    "char-678a848346",
+    "char-4a29b3de7b",
+    "char-2b8d365a39",
+    "char-18d7c58412"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-39d2b30b48",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-955be682d2",
+      "relation": "reactivated"
+    },
+    {
+      "technique_id": "tech-1e8e6dda24",
+      "relation": "considered-not-used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-39d2b30b48",
+    "tech-955be682d2",
+    "tech-1e8e6dda24"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-3f0111dca8",
+    "term-5b5abca89c",
+    "term-d97934afcd",
+    "term-1c3b13971d"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

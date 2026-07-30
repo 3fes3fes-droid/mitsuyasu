@@ -1,0 +1,124 @@
+{
+  "id": "ch-237",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 27,
+  "number": 237,
+  "zero_number": null,
+  "label": "第237話",
+  "title_official": "人外魔境新宿決戦⑭",
+  "title_search_normalized": "人外魔境新宿決戦14",
+  "start_page": 7,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-27"
+  ],
+  "source_locator": "単行本27巻 目次 p.7",
+  "summary_short": "五条の死後、鹿紫雲が宿儺へ挑む。宿儺は万が残した呪具「神武解」を受け取り、鹿紫雲は一度しか使えない術式「幻獣琥珀」を解放する。",
+  "summary_full": "五条の死後、鹿紫雲が宿儺へ挑む。宿儺は万が残した呪具「神武解」を受け取り、鹿紫雲は一度しか使えない術式「幻獣琥珀」を解放する。鹿紫雲は宿儺との約束を果たすため即座に出撃する。裏梅が万の遺した神武解を届け、鹿紫雲は肉体を電気現象へ変える幻獣琥珀を解放する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The God of Lightning, 鹿紫雲一 , leaps into battle to take on 宿儺 next. 鹿紫雲 not only seeks to defeat 宿儺, but to learn what it truly means to be the strongest.",
+    "summary_full_legacy": "鹿紫雲 leaps onto the battlefield from two hundred and three meters off the ground to confront 宿儺. Even further above is a massive block of ice descending from the sky. Standing atop the ice is none other than the Frozen Star themselves, 裏梅 . Having already accounted for 裏梅's interference, 秤 surprises them from above. He reveals that he promised to get 鹿紫雲 his one-on-one against 宿儺 and traps 裏梅 inside his domain . 秤 traps 裏梅 inside his domain. As 秤's domain barrier forms, the block of ice continues plummeting to the earth. 宿儺 breaks it apart and an object within falls into his hands. The ice was simply a flashy means of transportation to arm 宿儺 with a perfect replica of the cursed tool : 神武解 . 万 created the replica using a 縛り at the end of her life as a gift to 宿儺. 宿儺 immediately activates 神武解, sending down a torrent of lightning on 鹿紫雲. However, it's completely ineffective due to 鹿紫雲's heavy resistance to electricity. \"Greedy bastard.\" Before the duel begins, 鹿紫雲 asks 宿儺 if he earned the title of the strongest or if he was born the strongest. 宿儺 claims he doesn't know and that all he knows is that he was born cursed and unwanted. 鹿紫雲 explains that he could never connect with those beneath him and saw everyone as feeble as dirt. He wants to know if strength is solitude and if the strong are cursed to wander endlessly in search of greater power. 宿儺 simply responds by calling 鹿紫雲 greedy, saying he and 五条悟 ask for too much, confusing 鹿紫雲. 宿儺 adds that he'll teach him and challenges the revenant to give his best shot. 宿儺 restores his body by fully incarnating into his original form. 鹿紫雲 accepts the challenge and attacks, with 宿儺 parrying his opening staff with 神武解. 鹿紫雲 activates his innate technique : 幻獣琥珀 . 鹿紫雲's increased speed takes 宿儺 by surprise and he lands successive punches. 宿儺 is knocked back and 鹿紫雲 follows up by yelling so loud that it creates a sonic boom. 幻獣琥珀 restructures 鹿紫雲's body to render any electricity-based phenomenon into a manifestible weapon. This includes increasing his agility by improving his brain's electrical signals, optimizing sound waves to match natural frequencies, and vaporizing irradiated objects with electromagnetic waves. However, as a result, 鹿紫雲's body has surpassed the limits of a human being. When his technique concludes, his flesh will crumble away and perish. 鹿紫雲 overwhelms 宿儺 and unleashes his signature lightning attack to cap off a vicious combination of attacks. 宿儺 survives, as he can restore his body without using 反転術式 . He's been intentionally saving this method for the right moment because he can only use it once. 宿儺 restores his body by resuming his incarnation, fully transforming into his true form.",
+    "characters_raw_text": "鹿紫雲一 宿儺 裏梅 秤金次 万 (言及のみ)",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "秤金次 vs. 裏梅 (開始) 鹿紫雲一 vs. 宿儺 (開始)",
+    "techniques_raw_text": "呪具 神武解 鹿紫雲一の術式 幻獣琥珀 秤金次の術式 領域展開：坐殺博徒 裏梅の術式 氷凝呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-0e7004da56",
+    "char-2b8d365a39",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-4b0b9dc682",
+    "tech-7210756e15",
+    "tech-aee71097f5",
+    "tech-d2feb31d47",
+    "tech-d35d193e62"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-ed19637c63"
+  ],
+  "key_events_verified_phase11": [
+    "五条の死後、鹿紫雲が宿儺へ挑む。",
+    "宿儺は万が残した呪具「神武解」を受け取り、鹿紫雲は一度しか使えない術式「幻獣琥珀」を解放する。",
+    "鹿紫雲は宿儺との約束を果たすため即座に出撃する。",
+    "裏梅が万の遺した神武解を届け、鹿紫雲は肉体を電気現象へ変える幻獣琥珀を解放する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-0e7004da56",
+    "char-2b8d365a39",
+    "char-dea43d7fc7"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-160da18a4d",
+    "tech-d35d193e62",
+    "tech-aee71097f5"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-160da18a4d",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-d35d193e62",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-aee71097f5",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-ed19637c63"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-27",
+    "src-manga-games-vol-27",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

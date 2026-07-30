@@ -1,0 +1,200 @@
+{
+  "id": "ch-232",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 26,
+  "number": 232,
+  "zero_number": null,
+  "label": "第232話",
+  "title_official": "人外魔境新宿決戦⑩",
+  "title_search_normalized": "人外魔境新宿決戦10",
+  "start_page": 87,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-26"
+  ],
+  "source_locator": "単行本26巻 目次 p.87",
+  "summary_short": "魔虚羅の輪が回るたび、無限への適応が進む。五条は残りの回転数を意識しながら、蒼と赫を使って宿儺へ攻撃を重ねる。",
+  "summary_full": "魔虚羅の輪が回るたび、無限への適応が進む。五条は残りの回転数を意識しながら、蒼と赫を使って宿儺へ攻撃を重ねる。五条は赫を温存して適応の読みを外し、近距離で宿儺へ命中させる。続く黒閃で反転術式の出力回復へ入り、魔虚羅の適応が進む前に宿儺へ畳み掛けて戦況を押し戻す。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "It's a race against the clock as 五条悟 must defeat 宿儺 before he can adapt to the 無限 . With just three spins of 魔虚羅's wheel to nullify 悟's inviolability, a deadly countdown looms over the battle of the strongest.",
+    "summary_full_legacy": "五条 pursues 宿儺 through the air as 魔虚羅's wheel spins, leaving only two more times before it adapts to the 無限. 悠仁 and 日下部 want 五条 to hurry and act more concerned. 五条 thoroughly attacks 宿儺 with Blue. 宿儺 dashes around pillars supporting a bridge on the battlefield as 五条 pursues him while armed with two spheres of Blue . 五条 throws the Blue orbs and destroys the pillars as 宿儺 avoids the attack. 五条 encircles 宿儺 with eight more Blue orbs and converges them on him. 宿儺 dodges again but 五条 gets behind him while he's on the defensive. They engage in hand-to-hand combat and 五条 kicks 宿儺 back. Blue hits 宿儺 from behind and injures his lower abdomen but he remains smug as the wheel on his head spins again, leaving only one rotation before it adapts to the 無限. 悠仁 questions if it is time or experience required for 魔虚羅 to adapt. After taking a moment to understand the question, 日下部 understands that he's asking if it takes time after 魔虚羅 is hit by an attack to adapt or if it adapts incrementally by experiencing an attack multiple times. As Kusakuabe wonders which it could be, 鹿紫雲 puts it simply and states either could be possible. \"Red hasn't exploded yet.\" 五条 knocks 宿儺 into a building and decides it's time to pile on the offensive. After thoroughly displaying that he'll only use Blue, 五条 is confident 宿儺 won't be able to effectively react to this timing. 五条 moves behind a pillar and blasts through it with Red to hit 宿儺. However, 宿儺 activates domain amplification in time to dampen the effect and minimize damage. While amplification can neutralize the 無限, 宿儺 still takes damage because it can't fully negate Blue or Red. 日車 and 悠仁 worry that 五条 misread the situation and fear that 宿儺 will adapt. 魔虚羅's blade encroaches the 無限! 宿儺 arrogantly taunts 五条 for rushing and asks if he's lost his head after being predicted. In response, 五条 reveals that the Red he fired hasn't exploded yet, surprising 宿儺. On cue, Red blasts 宿儺 in the back. He surmises too late that Red used the shape of the building to circle back around and flank him. 五条 immediately seizes the moment and lands a powerful 黒閃 that knocks the King of Curses unconscious. Everyone watching is astounded by the extraordinary display of 黒閃, which 悠仁 promptly recognizes. 宿儺 is incapacitated while standing and the 魔虚羅's wheel falls from his head. However, it spins after hitting the ground, officially signaling that 魔虚羅 has adapted to the 無限. 五条 is dragged down into 宿儺's shadow as 魔虚羅 emerges once again. 悠仁 and 憂太 both yell out of concern for their sensei as he falls into the clutches of the 式神 , who slashes him across the shoulder with the 退魔の剣 .",
+    "characters_raw_text": "五条悟 宿儺 虎杖悠仁 日下部篤也 星綺羅羅 秤金次 三輪霞 鹿紫雲一 日車寛見 冥冥 家入硝子 禪院真希 乙骨憂太 脹相 来栖華 パンダ",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 黒閃 無下限呪術 術式 術式順転「蒼」 術式 術式反転「赫」 術式 術式順転「蒼」 術式 術式反転「赫」 宿儺の術式 領域展延／反転術式 術式 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 八握剣異戒神将 魔虚羅 魔虚羅",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-df284f67ad",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-34f2643025",
+    "tech-69d5ecb511",
+    "tech-6e6dd087e1",
+    "tech-7c3237f986",
+    "tech-8b181ff845",
+    "tech-90aaa17cfe",
+    "tech-9761156f3b",
+    "tech-cf2f8dca4a",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "魔虚羅の輪が回るたび、無限への適応が進む。",
+    "五条は残りの回転数を意識しながら、蒼と赫を使って宿儺へ攻撃を重ねる。",
+    "五条は赫を温存して適応の読みを外し、近距離で宿儺へ命中させる。",
+    "続く黒閃で反転術式の出力回復へ入り、魔虚羅の適応が進む前に宿儺へ畳み掛けて戦況を押し戻す。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-df284f67ad",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-df284f67ad",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-90aaa17cfe",
+    "tech-6e6dd087e1",
+    "tech-69d5ecb511"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-6e6dd087e1",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-26",
+    "src-manga-games-vol-26",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

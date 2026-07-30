@@ -1,0 +1,128 @@
+{
+  "id": "ch-171",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 19,
+  "number": 171,
+  "zero_number": null,
+  "label": "第171話",
+  "title_official": "東京第１結界⑪",
+  "title_search_normalized": "東京第1結界11",
+  "start_page": 189,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-19"
+  ],
+  "source_locator": "単行本19巻 目次 p.189",
+  "summary_short": "伏黒は未完成の領域展開「嵌合暗翳庭」を体育館内に展開する。影を増幅した攻撃でレジィを圧倒するが、レジィも切り札を用意する。",
+  "summary_full": "伏黒は体育館を外殻の代わりにして、未完成の領域展開「嵌合暗翳庭」を発動する。レジィは必中効果を打ち消すため彌虚葛籠を使うが、未完成の嵌合暗翳庭には必中術式が付与されておらず、対策は空振りとなる。影を広げた伏黒は分身と式神を大量に生み出してレジィを圧倒する。追い詰められたレジィは、再契象で重量物を連続して呼び出し、伏黒の影へ荷重をかける。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "As his battle against レジィ wears on, 恵 finds his options more and more limited. With possibly only one course of action left, 恵 relies on the power of his 領域展開 !",
+    "summary_full_legacy": "レジィ suprised that his anti-domain technique is ineffective. 恵 successfully casts his 領域展開：嵌合暗翳庭 , trapping レジィ within his shadow. However, レジィ immediately activates the anti-domain technique, 彌虚葛籠 . It is the predecessor to 簡易領域 and functions similarly, meant to block out can't-miss attacks. レジィ believes he's successfully protected himself until four toads appear from the liquid shadow and wrap up both his legs with their tongues. Confused, レジィ doesn't understand how he's been hit after using 彌虚葛籠 because he doesn't realize that 恵's domain is incomplete. When 漏瑚 and 花御 used 領域展延 during the 渋谷事変 against 五条悟 , they could have included a technique that was sure to hit. However, by refraining to do so, the 呪霊 were able to pour in 悟's 無下限呪術 technique as a method of neutralizing it. Amplified by his domain, 恵 and his clones overwhelm レジィ. 彌虚葛籠 and 簡易領域 cannot achieve this same effect to neutralize cursed techniques directly. Instead, these techniques neutralize a domain's barrier to nullify its guaranteed hit. 恵 converted the gymnasium into his domain in order to forcibly enclose the barrier and therefore does not incorporate a guaranteed hit. In its present state, 嵌合暗翳庭 only serves to extend the 十種影法術 術式 's potential to 120%. レジィ drops three cars into 恵's shadow. That imperfection has taken レジィ off guard and 恵 notices his expression change. 恵 points out to レジィ that he's not snickering anymore, upsetting his opponent. Before レジィ can finish berating 恵 for getting cocky, he's ambushed by two shadow clones of his adversary. レジィ is unable to avoid the barrage of hits due to the toad's tongues preventing his movements. After getting pummeled, レジィ falls back and summons combat knives to sever the toads' tongues. Free to move again, レジィ summons a machete and prepares to counterattack. However, 恵's clone prevents レジィ from gaining any momentum by coming up from his shadow to grab his leg. Then the clone throws レジィ toward 恵's main body, who's armed with his sword and already in a swinging motion. レジィ is able to block 恵's cursed tool with his machete, but the second clone elbows him in the face during the exchange. \" You're forced to bear the weight of what you keep stored in your shadow. \" Heavily overwhelmed, レジィ realizes that 恵's clones and 式神 took on physical shape before hitting him and deduces this domain doesn't have a guaranteed hit. He narrowly defends a slash from 恵 and commends the increased function of his 術式, considering it worse than a lethal domain. レジィ is aware that if 恵 uses 満象 and showers him with water, he'll lose the fight. Refusing to allow that to happen, レジィ activates his 術式 and releases receipts in the air above his head. 恵 tries to destroy the receipts using 鵺 but it's too late to stop 再契象 from activating. A contest of bearing weight!! Three cars are generated from the receipts and they fall into the shadowy floor. レジィ understands that the entire domain is 恵's shadow and he's noticed that 恵 has only kept one cursed tool on him. He theorizes this is because 恵 has to bear the weight of anything kept within his shadow and is using the cars to turn the domain's conditions against 恵. Now carrying about 2.4 tons, 恵's clones disappear and he's immobilized while forced to hunch over. レジィ believes 恵 might be able to summon shinigami still, so he keeps his guard up and plans to keep piling on weight until his opponent is crushed. Despite his opponent being poised to finish him, 恵 tells レジィ he's forgotten something important. He reminds him that an incomplete domain is still a domain and there is shadow all around, including above them. 恵 suddenly conjures 満象 from the shadows above レジィ and the massive shinigami drops directly on top of him. Having turned their fight into a struggle to bear the most weight 恵 remains confident and asks レジィ which of them will be crushed first.",
+    "characters_raw_text": "伏黒恵 レジィ・スター",
+    "locations_raw_text": "東京第1結界／池袋",
+    "battles_events_raw_text": "死滅回游 伏黒恵 vs. レジィ・スター 伏黒恵 vs. レジィ・スター",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 満象 鵺 蝦蟇 領域展開：嵌合暗翳庭 満象 鵺 蝦蟇 レジィ・スターの術式 再契象／彌虚葛籠",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo1",
+  "character_ids_candidate": [
+    "char-026d657efa",
+    "char-3c1852867d",
+    "char-996d48af99",
+    "char-b18262c082",
+    "char-df284f67ad"
+  ],
+  "technique_ids_candidate": [
+    "tech-1cd41afe2a",
+    "tech-1e8e6dda24",
+    "tech-4b0b9dc682",
+    "tech-4b7f0d29f5",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-b18262c082",
+    "tech-df284f67ad"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase9": [
+    "伏黒が嵌合暗翳庭を展開する",
+    "レジィが彌虚葛籠を使用する",
+    "未完成領域に必中効果がないため彌虚葛籠が機能しない",
+    "レジィが重量物で影へ負荷をかける"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "domain-user"
+    },
+    {
+      "character_id": "char-026d657efa",
+      "presence": "anti-domain-user"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-3c1852867d",
+    "char-026d657efa"
+  ],
+  "technique_appearances_verified_phase9": [
+    {
+      "technique_id": "tech-1cd41afe2a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1e8e6dda24",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "amplified"
+    },
+    {
+      "technique_id": "tech-df284f67ad",
+      "relation": "replicated"
+    },
+    {
+      "technique_id": "tech-b18262c082",
+      "relation": "replicated"
+    },
+    {
+      "technique_id": "tech-4b7f0d29f5",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase9": [
+    "tech-1cd41afe2a",
+    "tech-1e8e6dda24",
+    "tech-7c3237f986",
+    "tech-df284f67ad",
+    "tech-b18262c082",
+    "tech-4b7f0d29f5"
+  ],
+  "term_ids_verified_phase9": [
+    "term-152790e31d",
+    "term-e6a70dfe56",
+    "term-d97934afcd",
+    "term-c195cec023"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-19",
+    "src-manga-games-vol-19",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

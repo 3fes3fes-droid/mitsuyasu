@@ -1,0 +1,125 @@
+{
+  "id": "ch-099",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 99,
+  "zero_number": null,
+  "label": "第99話",
+  "title_official": "渋谷事変⑰",
+  "title_search_normalized": "渋谷事変17",
+  "start_page": 27,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.27",
+  "summary_short": "禪院班は連絡不能の中で分散し、釘崎と新田明は重面春太に襲われる。重面の術式に翻弄され二人が追い詰められたところへ七海が到着する。",
+  "summary_full": "通信を断たれた禪院班は、伊地知の安否確認のため釘崎と新田明を地上へ向かわせる。二人は補助監督を狙っていた重面春太に襲われ、意思を持つ手剣と重面の奇跡によって翻弄される。新田が倒され、脳震盪を負った釘崎も追い詰められるが、伊地知を救出した七海が到着する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "With a lack of information and no way to communicate inside the curtain , the 禪院 Team splits up and tries to locate 伊地知 . 野薔薇 and 明 encounter 重面春太 on the way, and he's surprisingly powerful. 重面's unusual 術式 gets the better of the girls. Just when it seems 重面 will take another victim, 七海 arrives to put an end to his reign of terror.",
+    "summary_full_legacy": "野薔薇 takes on the 呪詛師 alone. Returning from taking 伊地知 to safety, 七海 tells himself that he never has and never will be frustrated by his own uselessness. He feels that he's just living in the face of all the evils of the world. He thinks about 灰原 and 伊地知 and asks how dare the enemy do this. Meanwhile, the 禪院 Team fights against transfigured humans inside 渋谷駅 . 新田明 notifies them that it sounds like 伊地知 was attacked while they were talking on the phone. 真希 tells 野薔薇 and 明 to go check on 伊地知 while she stays with the lazy old man 禪院 . The curtain blocks cell phone reception, so the assistant managers are critical for the jujutsu sorcerers. 真希 doesn't ever believe 五条悟 would lose but she's getting a bad feeling about the situation. 重面 discovers 明 trying to run away. While on their way, 野薔薇 and 明 are confronted by the 呪詛師 重面春太 on 松濤文化村ストリート . He's happy to finally run into a girl after taking out so many male managers. 野薔薇 believes that 重面 is the one who attacked 伊地知 and she asks 新田 to pretend to hide in the subway entrance while escaping through another. 重面 interrupts their whispering by throwing his sword at 野薔薇. She deflects it with her hammer and charges at him, confident that he's a mid-range fighter. He avoids her hammer and asks if they've met before. 野薔薇 remembers him but she denies it. 重面's sword lands a clean shot straight to 野薔薇's jaw. Suddenly, 重面 somehow finds out that 明's not actually hiding. As 明 runs through the station, she passes by 重面's hand sword cursed tool hanging off of a wall without noticing it. This leads 重面 right to her location where he runs up to her after she's already been attacked by the sword. The 呪詛師 delivers a soccer kick to the manager's sternum, upsetting 野薔薇 and injuring 明. 野薔薇 tries to stop him but the sword suddenly falls into 重面's hand, allowing him to slash 野薔薇's lead leg and leave a shallow cut. The cut brings 野薔薇's attention to her lower body, allowing 重面 to attack her upper body. His sword to land a fierce right hook right to her jaw, leaving 野薔薇 extremely dazed. 七海 arrives in time to stop the 呪詛師. 野薔薇 loses balance in her legs and falls to her knees. The first-year student can't believe how perfectly her opponent keeps landing his shots. 重面 asks 野薔薇 if she's concussed, kneeling over to talk to her in a taunting matter. He claims that she's gotten a lot stronger since they last met but it doesn't matter in the face of his uncanny 術式 . 重面 glances over at his sword and insists that he isn't sure what his technique is all about either. 野薔薇 tries to buy time by asking 重面 about his motivations. However, he doesn't have any convictions and kills simply because it's fun for him. He cuts 明 while she's on the ground, angering 野薔薇. She tells him to stop and he replies mockingly by asking her to make him stop. 野薔薇 stumbles back to her feet determined to save 明. Just as 重面 prepares to finish her off, they both detect a powerful presence. 七海 walks into the substation and immediately glares at the 呪詛師 with a very less than happy expression on his face. 重面 notices 七海's attire and wonders if he's supposed to kill non-black suits too.",
+    "characters_raw_text": "七海建人 灰原雄 (回想) 伊地知潔高 釘崎野薔薇 新田明 禪院真希 禪院直毘人",
+    "locations_raw_text": "渋谷 渋谷駅 松濤文化村ストリート Bunkamura Station 渋谷駅 松濤文化村ストリート Bunkamura Station",
+    "battles_events_raw_text": "The 渋谷事変 釘崎野薔薇 & 七海建人 vs. 重面春太 (開始) 釘崎野薔薇 & 七海建人 vs. 重面春太 (開始)",
+    "techniques_raw_text": "呪具 Haruto 重面's Hand-Sword 釘崎野薔薇's Hammer",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-0cb661851e",
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-6c8cc9b546",
+    "char-b2b454d6e2",
+    "char-b4d661547b"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase6": [
+    "禪院班が伊地知の確認と駅攻略に分かれる",
+    "重面が新田明と釘崎を負傷させる",
+    "七海が重面の前へ到着する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b2b454d6e2",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "injured"
+    },
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "injured"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-6309a7e2f4",
+    "char-b2b454d6e2",
+    "char-b4d661547b",
+    "char-5a0f7ded8d",
+    "char-0cb661851e",
+    "char-24d736edff",
+    "char-22abdd626c",
+    "char-6c8cc9b546"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-0ec3138e2c",
+      "relation": "passive-use"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-0ec3138e2c"
+  ],
+  "term_ids_verified_phase6": [
+    "term-f9e3abf542",
+    "term-c74cac6805",
+    "term-041be91538"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

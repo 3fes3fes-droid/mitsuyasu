@@ -1,0 +1,118 @@
+{
+  "id": "ch-104",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 104,
+  "zero_number": null,
+  "label": "第104話",
+  "title_official": "渋谷事変㉒",
+  "title_search_normalized": "渋谷事変22",
+  "start_page": 131,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.131",
+  "summary_short": "虎杖は散水設備で周囲を水浸しにし、血液操作を妨げて接近戦へ持ち込む。しかし脹相は体内の血を操ることで対応し、虎杖を再び追い詰める。",
+  "summary_full": "メカ丸は赤血操術の血が水に溶けやすい性質を利用し、虎杖を駅のトイレへ誘導する。散水設備を破壊して室内を水浸しにしたことで、脹相は体外の血液を操作できなくなり、戦いは近接戦へ移る。虎杖が優位に立ちかけるが、脹相は体内の血を操る赤鱗躍動・載で身体を強化し、掌に隠していた血星磊を虎杖の肝臓へ撃ち込む。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 struggles to fend 脹相 off, but メカ丸 returns to lend his advice. He gambles on メカ丸's plan to even the playing field between the two combatants, devolvingtheir duel into a fist fight. 悠仁 begins his counterattack only for it to go horribly wrong.",
+    "summary_full_legacy": "メカ丸 advises 悠仁 to lead 脹相 into the bathroom. メカ丸's communication device has been silent since 悠仁 and the others separated from 七海 . In the middle of 悠仁's battle with 脹相, メカ丸 suddenly starts talking again. He asks what the situation is and 悠仁 replies with his own question, asking where メカ丸 has been this whole time. メカ丸 claims he's conserving energy because there's something he still needs to do. 脹相 watches confused while メカ丸 recognizes the 呪胎九相図 and tells 悠仁 that 脹相 is using 赤血操術 . メカ丸 recognizes 赤血操術 from 加茂憲紀 , but he doesn't know its weakness. The inherited technique is prized within the 加茂家 for its overall balance in combat. 悠仁 doesn't find this info helpful as he narrowly dodges another shot of 穿血 . メカ丸 advises him to retreat to the bathroom, revealing that he has an idea. His plan has a low percentage of success, but it's better than dying gradually out in the open. 脹相 loses the ability to control blood outside his body. 悠仁 darts into a small hallway, surprising 脹相. The 呪胎九相図 believes that 悠仁 will hit a dead end and end up skewered by 穿血. However, 脹相 hears a noise coming from the area and remembers that 悠仁 defeated his brothers, so he's no fool. メカ丸's voice calls out to 脹相, taunting him by calling him a coward just like his brothers. Furious, 脹相 runs into the bathroom where he finds メカ丸's communication puppet attached to the opposite wall. メカ丸 says the three 呪胎九相図 brothers are full of love full each other and so easy to manipulate. 穿血 destroys the puppet, but water bursts out of every place in the room that dispenses it. 脹相's attack pierces 悠仁's liver. 悠仁, who was hiding in a stall, 悠仁 behind 脹相 and attacks. 脹相 slides back after blocking and believes that was 悠仁's last chance before death. He prepares to use the condensed blood floating around him to finish the fight, but the water splashing around the room abruptly dispels 百斂 . 赤血操術 normally stops blood from clotting. For that reason, it dissolves easier in water. Due to these specific circumstances, 脹相 is unable to manipulate blood outside his body. 脹相 doesn't quite understand what happened, but he decides to use 赤鱗躍動・載 , focusing on controlling the blood within his body. 悠仁 doesn't get the logic either but he does understand that they're fighting where's he's comfortable now, in close quarters. The two combatants take a moment to face off and assume their fighting stances while water violently breaks the appliances and floods the room from every direction. They engage in a quick exchange of physical blows, with 悠仁 gaining the upper hand. However, just as 悠仁 gets the advantage, 脹相 used his enhanced strength to flick a small 血星磊 hidden within hand straight into 悠仁's liver.",
+    "characters_raw_text": "与幸吉 (代理) 虎杖悠仁 脹相",
+    "locations_raw_text": "渋谷 渋谷駅 渋谷駅",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 vs. 脹相 虎杖悠仁 vs. 脹相",
+    "techniques_raw_text": "脹相の術式 赤血操術 血星磊 百斂／赤鱗躍動・載 穿血 血星磊 百斂／赤鱗躍動・載 穿血",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-dad71c9f31"
+  ],
+  "technique_ids_candidate": [
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase6": [
+    "メカ丸が水を利用する対赤血操術作戦を立てる",
+    "水によって脹相が体外の血を操作できなくなる",
+    "脹相が赤鱗躍動・載で近接戦へ対応する",
+    "血星磊が虎杖の肝臓を貫く"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "proxy-device-destroyed"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-baadf43d19",
+    "char-851111b10d",
+    "char-dad71c9f31"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "disrupted-by-water"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase6-flowing-red-scale-stack",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase6-blood-meteorite",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-5d6a005065",
+    "tech-phase6-flowing-red-scale-stack",
+    "tech-phase6-blood-meteorite"
+  ],
+  "term_ids_verified_phase6": [
+    "term-c5958133bc",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

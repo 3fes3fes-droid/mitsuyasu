@@ -1,0 +1,111 @@
+{
+  "id": "ch-002",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 1,
+  "number": 2,
+  "zero_number": null,
+  "label": "第2話",
+  "title_official": "秘匿死刑",
+  "title_search_normalized": "秘匿死刑",
+  "start_page": 61,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-01"
+  ],
+  "source_locator": "単行本1巻 目次 p.61",
+  "summary_short": "五条悟は虎杖が宿儺から自我を取り戻せることを確認する。即時処刑の代わりに、宿儺の指をすべて取り込んだ後で処刑するという猶予が与えられる。",
+  "summary_full": "虎杖を処分しようとする伏黒の前に五条悟が現れ、宿儺へ十秒だけ肉体を渡すよう虎杖へ指示する。宿儺は五条へ襲いかかるが、五条は余裕を保ったまま攻撃をかわし、虎杖も約束どおり自我を取り戻す。宿儺を抑え込める器が極めて稀である一方、呪術規定では虎杖の秘匿死刑が決まっていた。伏黒は自分の私情として虎杖を助けてほしいと五条へ頼む。五条は上層部との交渉により、今すぐ処刑するか、散在する宿儺の指を虎杖へすべて取り込ませてから処刑し、宿儺を完全に消すかという選択を示す。虎杖は祖父の遺言と自分にしかできない役目を考え、指を集める道を選ぶ。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 is brought in and interrogated by 五条悟 . 悠仁 proves he can control 宿儺's power and 恵 vouches for him not to be executed by the higher-ups at 呪術高専. 悟 manages to give 悠仁 another option instead of being executed: find the appendages of 宿儺 and consume them all.",
+    "summary_full_legacy": "悠仁 awakens inside a room sealed by several dozen different talismans. 悠仁 is bound to a chair and interrogated by a man wearing a blindfold. This man is 五条悟, the teacher of the first-year students at 呪術高専. 悠仁's secret execution is set! 悠仁 doesn't understand what's happening and asks what happened to his friends. 悟 says 悠仁 should only be worried about himself and reveals that his secret execution has been set. 悠仁 pleaded his case to 恵, who then explained it to his sensei appeared. He was ordered to follow up on 恵's mission by the higher-ups and learned that 悠仁 ate the 呪物. 悟 asks that 悠仁 prove can contain the curse called 宿儺 by switching to its consciousness for ten seconds. 宿儺 takes control and battles with the strongest jujutsu sorcerer . After ten seconds, 悠仁 passed the test by taking back control of his body. 悟 knocked 悠仁 unconscious and 恵 pleaded for 悠仁 not to be executed despite jujutsu regulations. Back in the present, 悟 explains to 悠仁 that rather than be executed right away, the higher-ups have been convinced to hold it off for now. 五条 tests 悠仁's control over 宿儺. 悟 reveals that 呪術高専 is in possession of six of 宿儺の指. They can't be destroyed or sealed, but 悠仁 can devour them into his body as a vessel. The higher-ups agreed that 悠仁 should be executed after consuming the rest of 宿儺. 悠仁 decides to devour all of 宿儺の指. Afterward, 悠仁 visits Sasaki and Iguchi at the hospital. She feels guilty about what happened but 悠仁 assures her it was the fault of evil curses. He leaves to meet back up with 悟. He decides to become a jujutsu sorcerer to stave off curses that ruin peoples lives. 悠仁 devours another finger and 悟 confirms 悠仁 is a special type of person that appears every thousand years or so. 悠仁 doesn't wish to be executed, but he agrees to eat the rest of 宿儺. He plans on dying as his grandfather asked him to. 恵 regroups with both of them and they plan to head off to 東京 Prefectural 呪術高専 School .",
+    "characters_raw_text": "虎杖悠仁 五条悟 伏黒恵 宿儺 佐々木せつこ 井口たけし 虎杖倭助 (回想)",
+    "locations_raw_text": "杉沢病院 東京 呪術高専",
+    "battles_events_raw_text": "五条悟 vs. 宿儺: First Fight 秘匿死刑 (開始)",
+    "techniques_raw_text": "呪物 呪術師",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-0ee50b4740",
+    "char-17322e71e5",
+    "char-19d387e1e3",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-6bce2a211a",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase1": [
+    "五条が虎杖の宿儺制御能力を試す",
+    "伏黒が虎杖の救命を五条へ頼む",
+    "虎杖の秘匿死刑に執行猶予が付く",
+    "虎杖が宿儺の指を集める道を選ぶ"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-19d387e1e3",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6bce2a211a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0ee50b4740",
+      "presence": "flashback"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-baadf43d19",
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-2b8d365a39",
+    "char-19d387e1e3",
+    "char-6bce2a211a",
+    "char-0ee50b4740"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-9ff83181a2",
+    "term-0a4956ab6c",
+    "term-a0ce00ef9e",
+    "term-3f0111dca8"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-01",
+    "src-manga-games-vol-01"
+  ]
+}

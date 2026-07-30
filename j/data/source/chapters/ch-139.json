@@ -1,0 +1,130 @@
+{
+  "id": "ch-139",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 16,
+  "number": 139,
+  "zero_number": null,
+  "label": "第139話",
+  "title_official": "狩人",
+  "title_search_normalized": "狩人",
+  "start_page": 109,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-16"
+  ],
+  "source_locator": "単行本16巻 目次 p.109",
+  "summary_short": "虎杖と脹相は東京で呪霊を狩り続ける。そこへ直哉と乙骨が現れ、乙骨は虎杖、直哉は脹相を相手に戦闘を開始する。",
+  "summary_full": "虎杖と脹相は手をたたく音と血の匂いを利用して呪霊を誘い出し、東京での討伐を続ける。そこへ禪院直哉が現れ、伏黒の居場所を聞き出そうとして二人を攻撃する。虎杖は直哉の異常な速度から、伏黒を殺す意思があると察する。さらに乙骨が到着し、上層部の命令どおり虎杖を処刑すると宣告する。虎杖と乙骨、脹相と直哉に分かれて戦闘が始まる。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Still attempting to atone for his mistakes in 渋谷 , 悠仁 works with 脹相 to hunt down as many 呪霊 as possible across 東京. Unfortunately for them, this gains the attention of 禪院直哉 and eventually 悠仁's executioner, 乙骨憂太 .",
+    "summary_full_legacy": "悠仁 baits the curses in 渋谷. Standing alone on a bridge, 悠仁 claps his hands together multiple times to draw out several 呪霊. He leads them down into an underpass where 脹相 appears, killing most of them with a single 穿血 shot. The one remaining 呪霊 leaps toward 脹相, but 悠仁 easily deals with it by crushing it against the wall. 脹相 is impressed by not only 悠仁's power but also his finesse and control of 呪力 , describing him as a demon god even though he still hasn't fully recovered. He calls 悠仁 impressive and addresses him as his little brother. 悠仁 asks if he is still doing that, and 脹相 answers that he will keep doing it, adding that 悠仁's father had stitches on his forehead. 悠仁 and 脹相 fight 直哉. 直哉 suddenly appears above them and says that he doesn't see 恵 , wondering how he could be so slow. As both 悠仁 and 脹相 stand ready, 直哉 asks the two if they plan to run. 悠仁 seems confused, and 直哉 reveals that 悠仁's execution will resume now that 五条 is no longer around to support him. 悠仁 then remembers 猪野 's words about how many sorcerers 五条 has saved. 乙骨憂太 enters the scene. 直哉 tells 悠仁 that while he doesn't care if he lives or dies since his business is with 恵, he can't allow him to be moving around freely, saying that he will first break 悠仁's legs. 悠仁 asks what he wants with 恵, and 直哉 replies that he plans for him to die, preferably after he writes something to help him. In that instant, 直哉 leaps down and says that 恵 is looking for 悠仁. Although 悠仁 recognizes 直哉's speed, he is unable to avoid the strike to his face. Before 悠仁 or 脹相 can land a hit of their own, 直哉 quickly jumps away and the two realize that it must be his 術式. 直哉 tells 悠仁 that he is stronger than he expected, also wondering to himself about the identity of the person with him. 直哉 coyly asks the two if he should increase his speed, but all three of them suddenly feel an overwhelming presence. 悠仁 initially thinks that it's 五条, but then describes it as something creepier. He looks up and sees 憂太, who calmly prepares his weapon and comments on the fact that 悠仁 is not alone.",
+    "characters_raw_text": "虎杖悠仁 脹相 禪院直哉 伏黒恵 (言及のみ) 五条悟 (言及のみ) 猪野琢真 (回想) 乙骨憂太",
+    "locations_raw_text": "渋谷",
+    "battles_events_raw_text": "虎杖悠仁 & 脹相 vs. 呪霊",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂 穿血 百斂 穿血 禪院直哉の術式 投射呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-851111b10d",
+    "char-b3be077b48",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7",
+    "tech-cc23098baa"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a"
+  ],
+  "key_events_verified_phase8": [
+    "虎杖と脹相が東京で呪霊を討伐する",
+    "直哉が伏黒の居場所を求めて虎杖たちを襲う",
+    "乙骨が虎杖の処刑を宣告する",
+    "虎杖対乙骨と脹相対直哉が始まる"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-baadf43d19",
+    "char-851111b10d",
+    "char-b3be077b48",
+    "char-c28763b98a",
+    "char-3c1852867d"
+  ],
+  "technique_appearances_verified_phase8": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase8": [
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-5d6a005065",
+    "tech-cc23098baa"
+  ],
+  "term_ids_verified_phase8": [
+    "term-8914e5bc1a",
+    "term-252cb4a664"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-16",
+    "src-manga-games-vol-16",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

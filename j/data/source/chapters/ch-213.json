@@ -1,0 +1,149 @@
+{
+  "id": "ch-213",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 213,
+  "zero_number": null,
+  "label": "第213話",
+  "title_official": "呪胎戴天-伍-",
+  "title_search_normalized": "呪胎戴天―伍―",
+  "start_page": 87,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.87",
+  "summary_short": "宿儺は虎杖の指を伏黒へ飲ませ、伏黒の肉体へ受肉する。鵺を巨大化させて周囲を攻撃し、天使は術式「邪去侮の梯子」で宿儺を消滅させようとする。",
+  "summary_full": "宿儺は呪物化した虎杖の指を伏黒へ飲ませ、長く狙っていた伏黒の肉体へ受肉する。虎杖は宿儺を失った身体から投げ飛ばされ、伏黒の姿をした宿儺は十種影法術で巨大な鵺を召喚して周囲を雷撃する。天使は宿儺と伏黒の結合が深まる前なら分離できる可能性があるとして、来栖の意識を取り戻し、最大出力の「邪去侮の梯子」を発動する。宿儺の肉体は術式消滅の光で焼かれる。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "宿儺 possesses 恵 's body and reigns shock and terror down on his comrades. Determined to rescue her beloved, 華 uses the 天使 's power to combat the 堕天.",
+    "summary_full_legacy": "Now in control of 恵's body, 宿儺 attacks 悠仁. The day 恵 fought with 宿儺, the King of Curses sensed not only the potential of the 十種影法術 術式 , but 恵's potential to suppress him as well. 宿儺's plans for 恵 have been to take his body in order to obtain the 十種影法術 術式. He could have made him swallow a finger earlier, but it would've been an issue if 恵 turned out to be a cage-like 悠仁 instead of a proper vessel. In order to fully ensure control over 恵's body, 宿儺 waited until the right moment, the moment his soul was crushed. 悠仁 desperately calls for 恵 as he bleeds from his missing finger. However, 恵 has been suppressed, and it's 宿儺 looking across from his former vessel. 宿儺 blitzes 悠仁 with extreme speed and strikes with a blow so hard that it sends his former cage crashing through an entire building. As 悠仁 is sent flying and crashes across a rooftop, 真希 and 高羽 notice the disturbance. As they rush toward the scene, 宿儺 comments that insects always come crawling out of the woodwork, no matter what age it is. He uses the 十種影法術 術式 to summon 鵺 , but his version of the 式神 is much larger and imposing than 恵's. 鵺 sends down several bolts of electricity to the ground that surprise 真希 and 高羽. 華 and the 天使 attempt to eliminate the 堕天. Shortly after deploying his attack, 宿儺 is suddenly attacked from behind by several beams of light. 華 is the one ambushing him with blasts of light, making it too bright to see while burning his body. 宿儺 quickly realizes that the 天使 likely helped 華 regain consciousness so quickly. 華 doesn't want to hurt 恵, but the 天使 expresses that they must take the risk to eliminate the 堕天 before he achieves a stronger hold over the body. Never forget a curse's true nature! Channeling the 天使の strength, 華 uses an extension technique to hit 宿儺 with maximum 呪力 output: 邪去侮の梯子 . This conjures a giant cylinder of light down from the sky that strikes 宿儺. 華 expresses her desire to be with 恵 and repeatedly demands 宿儺 give him back. 宿儺 survives the blast but is visibly injured from the technique. It initially appears as if the impact allowed 恵 to regain control of his body. He claims to remember 華 and motions for her to embrace him. 華 desperately clings to 恵 despite the 天使 repeating several times not to. Just as they embrace, 宿儺's head grows into a monstrous shape, poised to tear the girl to shreds.",
+    "characters_raw_text": "宿儺 伏黒恵 (言及のみ) 虎杖悠仁 禪院真希 高羽史彦 来栖華",
+    "locations_raw_text": "東京第1結界",
+    "battles_events_raw_text": "死滅回游 虎杖悠仁, 禪院真希 & 来栖華 vs. 宿儺 (開始) 虎杖悠仁, 禪院真希 & 来栖華 vs. 宿儺 (開始)",
+    "techniques_raw_text": "宿儺の術式 十種影法術 術式 (恵経由) 鵺 天使の 術式 術式 邪去侮の梯子",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "meguna",
+  "character_ids_candidate": [
+    "char-02aa196fbb",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-65e7fd1c87",
+    "char-996d48af99",
+    "char-baadf43d19",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [
+    "tech-2326f083fd",
+    "tech-56316150ed",
+    "tech-7c3237f986",
+    "tech-996d48af99"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-3f0111dca8"
+  ],
+  "key_events_verified_phase10": [
+    "宿儺が伏黒へ指を飲ませる",
+    "宿儺が伏黒の肉体へ受肉する",
+    "宿儺が巨大な鵺を召喚する",
+    "天使が邪去侮の梯子を最大出力で使う"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "switches-vessel"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "possessed"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "freed-from-sukuna-and-thrown"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "awakens"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "attacks-sukuna"
+    },
+    {
+      "character_id": "char-996d48af99",
+      "presence": "summoned-giant"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "departed"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-d8252d61d4",
+    "char-65e7fd1c87",
+    "char-996d48af99",
+    "char-0d3bc6b0dd"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-78b556c5e7",
+      "relation": "completed"
+    },
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used-by-sukuna"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "giant-form-used"
+    },
+    {
+      "technique_id": "tech-56316150ed",
+      "relation": "maximum-output-used"
+    },
+    {
+      "technique_id": "tech-2326f083fd",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-78b556c5e7",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-56316150ed",
+    "tech-2326f083fd"
+  ],
+  "term_ids_verified_phase10": [
+    "term-f314ce3b7a",
+    "term-3f0111dca8",
+    "term-f7be87831e",
+    "term-c3a59e1049",
+    "term-76365024bd"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,235 @@
+{
+  "id": "ch-220",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 220,
+  "zero_number": null,
+  "label": "第220話",
+  "title_official": "自浄自縛",
+  "title_search_normalized": "自浄自縛",
+  "start_page": 47,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "bath-return",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.47",
+  "summary_short": "羂索は死滅回游を終わらせるため、天元を利用して規則を追加し、参加者の全滅を終了条件にする。一方、高専側は獄門疆から五条を解放する準備を進める。",
+  "summary_full": "羂索は死滅回游を終わらせるため、天元を利用して規則を追加し、参加者の全滅を終了条件にする。一方、高専側は獄門疆から五条を解放する準備を進める。羂索は天元を脅して総則を追加し、死滅回游を全泳者死亡まで終わらない仕組みに変える。高専側では生存した来栖と天使が獄門疆「裏」の開放へ備える。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "羂索 corrupts the 死滅回游 with new rules that pave a clear road to the end of the event. Meanwhile, 五条悟 's allies prepare for his return as the daunting task of defeating 羂索 and 宿儺 awaits them.",
+    "summary_full_legacy": "羂索 uses his three hundred and nine points to add new rules to the 死滅回游. His コガネ rejects the first proposal because the new rules would work toward ending the 死滅回游. However, 羂索 gains leverage by threatening to destroy the central barrier the game is built. This would forcibly stop the game but it would also prevent the merger with 天元. 羂索 forces new rules on the 死滅回游. There are numerous pure barriers around the county that aid 呪霊 suppression and the barrier techniques of 呪術高専 managers. At the Holy Mountain of Hida is one of four essential pure barriers with the others being at the center of the Imperial Palace, the 薨星宮 , and the Yamakuni Mausoleum. The 死滅回游's barriers are built upon bon barriers that use 天元の pure barriers as a foundation. 天元 could've prevented the 死滅回游 by releasing these millennia-old barriers but the repercussions would've been too great. コガネ passes rule thirteen and closes off the 死滅回游 to all new players. 羂索 also adds rule fourteen which will end the 死滅回游 when all players except for 夏油傑 , 伏黒恵 , and Shiori Himi have died. Afterward, the 呪詛師 notices 宿儺 's mummified remains within the barrier and decides to take it to him as a souvenir. 華 survives her injuries from 宿儺. The sorcerers of 呪術高専 are quickly made aware of the rule change and believe it's possibly a condition to activate the great merger. 真希 says the rules simplify things by making it so they win if they can defeat 羂索 and 宿儺. 憂憂 argues that is as great a challenge as taking down 五条悟 and 真希 replies the very same man is about to make a comeback. 家入硝子 treats the wounds 来栖華 sustained from 宿儺. Her arm was unable to be regenerated and the 天使 reveals she only survived because of 凛 甘井 and 高羽史彦 . 憂太 asks the 天使 if they're able to switch bodies like 宿儺. She confirms it's not possible for her and that everyone who accepted the invitation to the 死滅回游 couldn't become cursed objects after death. 宿儺 learned how to do so after the experience. 憂太 and the 天使 agree that 華's role is complete when 五条悟 is freed from 獄門疆 . 華 is more concerned about 恵 and what's going to happen to him. \"There're bunch of monsters now awaiting your return. Come back, 五条.\" Meanwhile, 凛 vents to 悠仁 about how he hated the person he used to be for always trying to ingratiate himself with bad people. 悠仁 tries to encourage 凛 by pointing out that he saved 華. He goes to regroup with his allies but 凛 tries to stop him because 宿儺 is no longer inside him. 悠仁 clarifies that 宿儺 never helped him in the first place and he's like a 呪物 steeped in his 呪力 . As 悠仁 leaves, he tells 凛 that he'd \"eat anything\" to kill 宿儺. 悠仁 regroups with the others and wants to propose an idea to save 恵. 憂太 has an idea of his own but 真希 emphasizes that no matter what they'll need to incapacitate 宿儺 first. 脹相 gives 九十九由基 's book of notes on the soul to 悠仁. 悠仁 thanks 脹相 not only for the notes but for his brothers as well. 脹相 tells 悠仁 that their brothers will live on inside him. 硝子 watches all of the young sorcerers and recalls 悟 telling her about his dream of fostering strong and intelligent allies. Even if hell froze over, 硝子 would never have fallen for 悟 or 傑. Even so, she's offended that 悟 would feel alone when she was always beside him. 硝子 notes the large group of powerful comrades surrounding her who are all awaiting 五条's return and tells her friend that it's time to come back.",
+    "characters_raw_text": "羂索 天元 憂憂 禪院真希 来栖華 凛 甘井 高羽史彦 乙骨憂太 家入硝子 石流龍 (回想) 烏鷺亨子 (回想) 宿儺 (回想) 羽場 (回想) 羽生 (回想) 虎杖悠仁 西宮桃 三輪霞 秤金次 星綺羅羅 狗巻棘 脹相 鹿紫雲一 九十九由基 (言及のみ) 五条悟 (回想) 夏油傑 (回想) パンダ",
+    "locations_raw_text": "東京都・皇居 (言及のみ) 薨星宮 (言及のみ) Yamakuji Mausoleum, Kyoto (言及のみ) 飛騨霊山／東京第1結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": "結界 Bon 結界 Pure 結界 呪物 獄門疆 式神 コガネ",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "bath",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-02aa196fbb",
+    "char-0e7004da56",
+    "char-1566dd973d",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-484fd66a1e",
+    "char-4a29b3de7b",
+    "char-4ff7a5b46e",
+    "char-56bf974c92",
+    "char-672d843799",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-8a6e43878f",
+    "char-a61d6ef891",
+    "char-b9d4880408",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cb2d7aa2a7",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8",
+    "char-fe30ff0de9"
+  ],
+  "technique_ids_candidate": [
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-6e7e2b846e",
+    "term-bb89ef15f2"
+  ],
+  "key_events_verified_phase11": [
+    "羂索は死滅回游を終わらせるため、天元を利用して規則を追加し、参加者の全滅を終了条件にする。",
+    "一方、高専側は獄門疆から五条を解放する準備を進める。",
+    "羂索は天元を脅して総則を追加し、死滅回游を全泳者死亡まで終わらない仕組みに変える。",
+    "高専側では生存した来栖と天使が獄門疆「裏」の開放へ備える。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-02aa196fbb",
+    "char-0e7004da56",
+    "char-1566dd973d",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-484fd66a1e",
+    "char-4a29b3de7b",
+    "char-4ff7a5b46e",
+    "char-56bf974c92",
+    "char-672d843799",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-8a6e43878f",
+    "char-a61d6ef891",
+    "char-b9d4880408",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cb2d7aa2a7",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8",
+    "char-fe30ff0de9"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-4a29b3de7b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-4ff7a5b46e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-56bf974c92",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-8a6e43878f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cb2d7aa2a7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-fe30ff0de9",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [],
+  "technique_appearances_verified_phase11": [],
+  "term_ids_verified_phase11": [
+    "term-50ea4b9d52",
+    "term-bb89ef15f2"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

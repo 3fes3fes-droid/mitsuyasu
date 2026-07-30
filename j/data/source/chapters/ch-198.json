@@ -1,0 +1,133 @@
+{
+  "id": "ch-198",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 198,
+  "zero_number": null,
+  "label": "第198話",
+  "title_official": "桜島結界⑧",
+  "title_search_normalized": "桜島結界8",
+  "start_page": 147,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.147",
+  "summary_short": "直哉は領域展開「時胞月宮殿」を発動し、細胞単位で投射呪法を強制する。しかし呪力を持たない真希は領域の対象として認識されず、釈魂刀で直哉を斬り伏せる。",
+  "summary_full": "直哉の領域展開「時胞月宮殿」は、対象の細胞一つ一つへ投射呪法を強制する。大道と三代は動いた瞬間に身体を内部から損傷するが、呪力を完全に持たない真希は領域の必中対象として認識されず、結界へ自由に出入りできる。直哉が真希を見失った隙に、真希は釈魂刀で背後から斬り、魂ごと直哉を両断する。呪霊となった直哉はここで祓われる。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the climax of the battle in the 桜島結界, 直哉 unleashes his devastating 領域展開 ! However, 真希 's newfound freedom empowers her to take on any challenge, including everything 直哉 can throw at her.",
+    "summary_full_legacy": "領域展開：時胞月宮殿. 直哉 traps 鋼 大道 and 六十四 三代 inside his 領域展開, 時胞月宮殿 . The domain's auto-hit effect appears to deal no damage, so both fighters decide to go on the offensive against 直哉. However, as soon as they start to move, bleeding wounds appear all over their body. 直哉 explains that anyone inside his domain has to abide by the 24FPS second rule of 投射呪法 . The domain increases the precision of the 術式, allowing it to target cells. Anyone who disobeys the rule will have their cells become unstable and bleed profusely from instantaneously generated wounds. 直哉's domain doesn't recognize 真希. 三代 drops to the ground and 直哉 commends his own abilities until he realizes that he still can't locate 真希. 大道 tries to attack but his arm comes clean off and 直哉 tells him to stop messing around. 真希 takes the katana from 大道's severed hand and stabs 直哉 in the back with it. She has no 呪力, so the domain treats her the same as it would a building, allowing her free entry and exit. Unless 真希 consents or 直哉 uses a structure as the barrier's exterior like 恵 did in the 東京第1結界 , 直哉 can't trap 真希. \"Twelve years after his death, a demonic fighter equal to 禪院甚爾 was fully realized.\" On the beach where 真希's consciousness said goodbye to 真依 , the twin sisters meet again. They shake hands and 真依 is proud to know her sister understood her content and broke free completely. The blade she left behind for 真希 is an exact replica of 禪院甚爾 's 釈魂刀 , which can only be used by those who can perceive inorganic matter. 直哉 turns his head 180 degrees around and morphs it into a more curse-like state to attack 真希. He believes she's trapped herself and won't be able to move inside the domain, but he's mistaken. 真希 has no 呪力 so the domain's auto-hit cannot target her at all. She bisects 直哉's head with an upward slash, exorcising him once and for all. The domain dissolves as 直哉 dies and both 大道 and 三代 survive. 大道 and Niyo bear witness to a monstrous fighter equal to 甚爾 himself, as 真希 has been fully realized.",
+    "characters_raw_text": "六十四 三代 鋼 大道 禪院直哉 禪院真希 禪院真依 伏黒甚爾 (回想)",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉 (終了) 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉 (終了)",
+    "techniques_raw_text": "呪具 釈魂刀 禪院直哉 術式 領域展開：時胞月宮殿 投射呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-5724ed462b",
+    "char-69335b05c3",
+    "char-aabfd74fce",
+    "char-b3be077b48",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-1e8b90a741",
+    "tech-4b0b9dc682",
+    "tech-cc23098baa"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-e6a70dfe56",
+    "term-65867f280c",
+    "term-fe317d92dc"
+  ],
+  "key_events_verified_phase10": [
+    "直哉が時胞月宮殿の必中効果を発動する",
+    "大道と三代が細胞単位の損傷を受ける",
+    "真希が領域の必中対象から外れる",
+    "真希が釈魂刀で直哉を祓う"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "victor"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "exorcised"
+    },
+    {
+      "character_id": "char-aabfd74fce",
+      "presence": "severely-injured"
+    },
+    {
+      "character_id": "char-69335b05c3",
+      "presence": "severely-injured"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "sword-origin-recalled"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "parallel"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-b3be077b48",
+    "char-aabfd74fce",
+    "char-69335b05c3",
+    "char-5724ed462b",
+    "char-d5482ceba1"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-1e8b90a741",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-b9467c2180",
+      "relation": "sure-hit-used"
+    },
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "finishing-blow"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-1e8b90a741",
+    "tech-b9467c2180",
+    "tech-phase4-split-soul-katana"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-cd15f7853a",
+    "term-965bdc282e",
+    "term-d97934afcd",
+    "term-811629f74a"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}
