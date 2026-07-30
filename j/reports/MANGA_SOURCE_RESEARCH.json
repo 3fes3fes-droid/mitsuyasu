@@ -1,0 +1,1501 @@
+{
+  "generatedAt": "2026-07-30T03:42:51Z",
+  "counts": {
+    "chapters": 271,
+    "chaptersWithTwoOrMoreSourceFamilies": 225,
+    "rawLineCandidates": 4545,
+    "crosscheckedLines": 972,
+    "chaptersWithCrosscheckedLines": 128
+  },
+  "pageCounts": {
+    "animenb-index": 1,
+    "eiga-manga": 121,
+    "idononaka": 168,
+    "manga-games": 125,
+    "manga-games-volumes": 30,
+    "manga5000": 10,
+    "morn-life": 2,
+    "neet-life": 60
+  },
+  "sourceCoverageByChapter": {
+    "ch-001": [
+      "manga-games",
+      "manga5000",
+      "morn-life",
+      "neet-life"
+    ],
+    "ch-002": [
+      "manga-games",
+      "manga5000",
+      "morn-life"
+    ],
+    "ch-003": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-004": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-005": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-006": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-007": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-008": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-009": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-010": [
+      "manga-games",
+      "manga5000"
+    ],
+    "ch-011": [
+      "manga-games"
+    ],
+    "ch-012": [
+      "manga-games"
+    ],
+    "ch-013": [
+      "manga-games"
+    ],
+    "ch-014": [
+      "manga-games"
+    ],
+    "ch-015": [
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-016": [
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-017": [
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-018": [
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-019": [
+      "manga-games"
+    ],
+    "ch-020": [
+      "manga-games"
+    ],
+    "ch-021": [
+      "manga-games"
+    ],
+    "ch-022": [
+      "manga-games"
+    ],
+    "ch-023": [
+      "manga-games"
+    ],
+    "ch-024": [
+      "manga-games"
+    ],
+    "ch-025": [
+      "manga-games"
+    ],
+    "ch-026": [
+      "manga-games"
+    ],
+    "ch-027": [
+      "manga-games"
+    ],
+    "ch-028": [
+      "manga-games"
+    ],
+    "ch-029": [
+      "manga-games"
+    ],
+    "ch-030": [
+      "manga-games"
+    ],
+    "ch-031": [
+      "manga-games"
+    ],
+    "ch-032": [
+      "manga-games"
+    ],
+    "ch-033": [
+      "manga-games"
+    ],
+    "ch-034": [
+      "manga-games"
+    ],
+    "ch-035": [
+      "manga-games"
+    ],
+    "ch-036": [
+      "manga-games"
+    ],
+    "ch-037": [
+      "manga-games"
+    ],
+    "ch-038": [
+      "manga-games"
+    ],
+    "ch-039": [
+      "manga-games"
+    ],
+    "ch-040": [
+      "manga-games"
+    ],
+    "ch-041": [
+      "manga-games"
+    ],
+    "ch-042": [
+      "manga-games"
+    ],
+    "ch-043": [
+      "manga-games"
+    ],
+    "ch-044": [
+      "manga-games"
+    ],
+    "ch-045": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-046": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-047": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-048": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-049": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-050": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-051": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-052": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-053": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-054": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-055": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-056": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-057": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-058": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-059": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-060": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-061": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-062": [
+      "manga-games"
+    ],
+    "ch-063": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-064": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-065": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-066": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-067": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-068": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-069": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-070": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-071": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-072": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-073": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-074": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-075": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-076": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-077": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-078": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-079": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-080": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-081": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-082": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-083": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-084": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-085": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-086": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-087": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-088": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-089": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-090": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-091": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-092": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-093": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-094": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-095": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-096": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-097": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-098": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-099": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-100": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-101": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-102": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-103": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-104": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-105": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-106": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-107": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-108": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-109": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-110": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-111": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-112": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-113": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-114": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-115": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-116": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-117": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-118": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-119": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-120": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-121": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-122": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-123": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-124": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-125": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-126": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-127": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-128": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-129": [
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-130": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-131": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-132": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-133": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-134": [
+      "animenb",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-135": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-136": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-137": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-138": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-139": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-140": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-141": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-142": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-143": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-144": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-145": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-146": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-147": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-148": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-149": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-150": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-151": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-152": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-153": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-154": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-155": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-156": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-157": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-158": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-159": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-160": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-161": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-162": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-163": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-164": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-165": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-166": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-167": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-168": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-169": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-170": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-171": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-172": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-173": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-174": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-175": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-176": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-177": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-178": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-179": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-180": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-181": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-182": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-183": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-184": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-185": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-186": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-187": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-188": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-189": [
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-190": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-191": [
+      "animenb",
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-192": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-193": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-194": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-195": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-196": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-197": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-198": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-199": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-200": [
+      "animenb",
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-201": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-202": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-203": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-204": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-205": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-206": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-207": [
+      "animenb",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-208": [
+      "animenb",
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-209": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-210": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-211": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-212": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-213": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-214": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games"
+    ],
+    "ch-215": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-216": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-217": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-218": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-219": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-220": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-221": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-222": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-223": [
+      "eiga-manga",
+      "idononaka",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-224": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-225": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-226": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-227": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-228": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-229": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-230": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-231": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-232": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-233": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-234": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-235": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-236": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-237": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-238": [
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-239": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-240": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-241": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-242": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-243": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-244": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-245": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-246": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-247": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-248": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-249": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-250": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-251": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-252": [
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-253": [
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-254": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-255": [
+      "eiga-manga",
+      "manga-games",
+      "neet-life"
+    ],
+    "ch-256": [
+      "eiga-manga",
+      "manga-games"
+    ],
+    "ch-257": [
+      "manga-games"
+    ],
+    "ch-258": [
+      "manga-games"
+    ],
+    "ch-259": [
+      "manga-games"
+    ],
+    "ch-260": [
+      "manga-games"
+    ],
+    "ch-261": [
+      "manga-games"
+    ],
+    "ch-262": [
+      "manga-games"
+    ],
+    "ch-263": [
+      "manga-games"
+    ],
+    "ch-264": [
+      "manga-games"
+    ],
+    "ch-265": [
+      "manga-games"
+    ],
+    "ch-266": [
+      "manga-games"
+    ],
+    "ch-267": [
+      "manga-games"
+    ],
+    "ch-268": [
+      "manga-games"
+    ],
+    "ch-269": [
+      "manga-games"
+    ],
+    "ch-270": [
+      "manga-games"
+    ],
+    "ch-271": [
+      "manga-games"
+    ]
+  },
+  "errors": [
+    {
+      "source": "neet-life",
+      "chapter": 252,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn252/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn252/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 253,
+      "url": "https://eiga-manga.com/entry/jujutsu253",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu253"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 256,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn256/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn256/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 257,
+      "url": "https://eiga-manga.com/entry/jujutsu257",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu257"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 257,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn257/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn257/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 258,
+      "url": "https://eiga-manga.com/entry/jujutsu258",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu258"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 258,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn258/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn258/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 259,
+      "url": "https://eiga-manga.com/entry/jujutsu259",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu259"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 259,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn259/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn259/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 260,
+      "url": "https://eiga-manga.com/entry/jujutsu260",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu260"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 260,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn260/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn260/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 261,
+      "url": "https://eiga-manga.com/entry/jujutsu261",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu261"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 261,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn261/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn261/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 262,
+      "url": "https://eiga-manga.com/entry/jujutsu262",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu262"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 262,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn262-2/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn262-2/"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 262,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn262/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn262/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 263,
+      "url": "https://eiga-manga.com/entry/jujutsu263",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu263"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 263,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn263/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn263/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 264,
+      "url": "https://eiga-manga.com/entry/jujutsu264",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu264"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 265,
+      "url": "https://eiga-manga.com/entry/jujutsu265",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu265"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 264,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn264/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn264/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 266,
+      "url": "https://eiga-manga.com/entry/jujutsu266",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu266"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 266,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn266/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn266/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 267,
+      "url": "https://eiga-manga.com/entry/jujutsu267",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu267"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 267,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn267/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn267/"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 268,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn268/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn268/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 268,
+      "url": "https://eiga-manga.com/entry/jujutsu268",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu268"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 269,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn269/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn269/"
+    },
+    {
+      "source": "manga-games",
+      "chapter": 269,
+      "url": "https://manga-games.com/jujutsukaisen-jump-269/",
+      "error": "not cached: https://manga-games.com/jujutsukaisen-jump-269/"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 265,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn265/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn265/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 270,
+      "url": "https://eiga-manga.com/entry/jujutsu270",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu270"
+    },
+    {
+      "source": "neet-life",
+      "chapter": 271,
+      "url": "https://neet-life-blog.com/zyuzyutukaisenn271-final-episode-worst/",
+      "error": "not cached: https://neet-life-blog.com/zyuzyutukaisenn271-final-episode-worst/"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 271,
+      "url": "https://eiga-manga.com/entry/jujutsu271",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu271"
+    },
+    {
+      "source": "eiga-manga",
+      "chapter": 269,
+      "url": "https://eiga-manga.com/entry/jujutsu269",
+      "error": "not cached: https://eiga-manga.com/entry/jujutsu269"
+    },
+    {
+      "source": "manga-games",
+      "chapter": 271,
+      "url": "https://manga-games.com/jujutsukaisen-jump-271/",
+      "error": "not cached: https://manga-games.com/jujutsukaisen-jump-271/"
+    }
+  ]
+}

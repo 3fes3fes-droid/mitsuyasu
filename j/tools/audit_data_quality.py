@@ -18,6 +18,7 @@ techniques = load('techniques')
 terms = load('terms')
 supplements = load('supplements')
 sources = load('sources')
+volumes = load('volumes')
 
 chapter_map = {x['id']: x for x in chapters}
 character_map = {x['id']: x for x in characters}
@@ -122,7 +123,8 @@ priority_counts = collections.Counter(row['priority'] for row in issues)
 summary = {
     'counts': {
         'chapters': len(chapters), 'characters': len(characters), 'techniques': len(techniques),
-        'terms': len(terms), 'supplements': len(supplements), 'sources': len(sources)
+        'terms': len(terms), 'supplements': len(supplements), 'sources': len(sources),
+        'volumes': len(volumes)
     },
     'summary_lengths': {
         'minimum': min(summary_lengths), 'median': statistics.median(summary_lengths),
@@ -131,6 +133,15 @@ summary = {
     'primary_page_direct_checked_chapters': sum(bool(row.get('verificationBasis', {}).get('primary_manga_page_direct_check')) for row in chapters),
     'status_counts': dict(status_counts),
     'verification_counts': {key: dict(value) for key, value in verification_counts.items()},
+    'volume_data': {
+        'official_synopsis_based': sum(
+            row.get('verification') == 'official-volume-synopsis-paraphrased'
+            and bool((row.get('synopsis') or '').strip())
+            for row in volumes
+        ),
+        'chapter_assignments': sum(len(row.get('chapters', [])) for row in volumes),
+        'supplement_assignments': sum(len(row.get('supplements', [])) for row in volumes),
+    },
     'issue_counts': dict(issue_counts),
     'priority_counts': dict(priority_counts),
     'total_queue_items': len(issues)
@@ -155,6 +166,10 @@ md = f'''# データ品質監査
 - 技・術式：{len(techniques)}件
 - 用語：{len(terms)}件
 - 補遺：{len(supplements)}件
+- コミックス：{len(volumes)}冊
+- 公式巻紹介を根拠に要約したあらすじ：{summary['volume_data']['official_synopsis_based']} / {len(volumes)}冊
+- 巻への各話割当：{summary['volume_data']['chapter_assignments']} / {len(chapters)}話
+- 巻への補遺割当：{summary['volume_data']['supplement_assignments']} / {len(supplements)}件
 - 各話詳細あらすじ：{sum(bool((row.get('summaryFull') or '').strip()) for row in chapters)} / {len(chapters)}件
 - 単行本ページ直接監査済み：{summary['primary_page_direct_checked_chapters']} / {len(chapters)}件
 

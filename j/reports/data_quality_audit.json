@@ -6,7 +6,8 @@
       "techniques": 179,
       "terms": 173,
       "supplements": 4,
-      "sources": 83
+      "sources": 92,
+      "volumes": 31
     },
     "summary_lengths": {
       "minimum": 120,
@@ -84,6 +85,11 @@
         "phase8-crosscheck-pending-primary-pages": 9,
         "phase4-crosschecked-secondary-not-primary-pages": 7
       }
+    },
+    "volume_data": {
+      "official_synopsis_based": 31,
+      "chapter_assignments": 275,
+      "supplement_assignments": 4
     },
     "issue_counts": {
       "summary_under_180": 164,

@@ -67,6 +67,18 @@ def union_phase_lists(obj, prefix, fallback=None):
     return result
 
 
+def unique_strings(values):
+    seen, result = set(), []
+    for value in values:
+        if not isinstance(value, str):
+            continue
+        value = value.strip()
+        if value and value not in seen:
+            seen.add(value)
+            result.append(value)
+    return result
+
+
 def chapter_order(chapter_id: str):
     if chapter_id.startswith('zero-'):
         return int(chapter_id.split('-')[1]) - 10
@@ -75,6 +87,25 @@ def chapter_order(chapter_id: str):
 
 
 def normalize_chapter(chapter):
+    highlights = chapter_highlights_by_id.get(chapter['id'], {})
+    raw_crosschecked_lines = highlights.get('crosscheckedLines', [])
+    crosschecked_lines = [
+        {
+            key: line.get(key)
+            for key in (
+                'speaker', 'text', 'kind', 'verification',
+                'sourceCount', 'sourceRefs'
+            )
+        }
+        for line in raw_crosschecked_lines
+        if isinstance(line, dict)
+    ]
+    crosschecked_source_urls = unique_strings([
+        url
+        for line in raw_crosschecked_lines
+        if isinstance(line, dict)
+        for url in line.get('sourceUrls', [])
+    ])
     events, phase = latest_phase_field(chapter, 'key_events_verified', [])
     character_ids, _ = latest_phase_field(chapter, 'character_ids_verified', chapter.get('character_ids_candidate', []))
     character_appearances, _ = latest_phase_field(chapter, 'character_appearances_verified', [])
@@ -82,6 +113,14 @@ def normalize_chapter(chapter):
     technique_appearances, _ = latest_phase_field(chapter, 'technique_appearances_verified', [])
     term_ids, _ = latest_phase_field(chapter, 'term_ids_verified', chapter.get('term_ids_candidate', []))
     source_refs, _ = latest_phase_field(chapter, 'source_refs', chapter.get('source_refs', []))
+    if highlights.get('popularLineGists'):
+        source_refs = unique_strings([*(source_refs or []), 'src-ciatr-quotes-2026'])
+    line_source_refs = [
+        ref
+        for line in crosschecked_lines
+        for ref in line.get('sourceRefs', [])
+    ]
+    source_refs = unique_strings([*(source_refs or []), *line_source_refs])
     notes, _ = latest_phase_field(chapter, 'verification_notes', chapter.get('verification_notes', ''))
     basis, _ = latest_phase_field(chapter, 'verification_basis', chapter.get('verification_basis', {}))
     number, zero_number = chapter.get('number'), chapter.get('zero_number')
@@ -100,7 +139,17 @@ def normalize_chapter(chapter):
         'verification': chapter.get('content_verification', chapter.get('verification')),
         'verificationPhase': phase, 'verificationNotes': notes or '',
         'verificationBasis': basis or {}, 'sourceLocator': chapter.get('source_locator', ''),
-        'editorialNotes': chapter.get('editorial_notes', [])
+        'editorialNotes': chapter.get('editorial_notes', []),
+        'memorableQuotes': chapter.get('memorable_quotes', []),
+        'crosscheckedLines': crosschecked_lines,
+        'crosscheckedSourceUrls': crosschecked_source_urls,
+        'popularLineGists': highlights.get('popularLineGists', []),
+        'dialogueSummaries': highlights.get('dialogueSummaries', []),
+        'detailedEvents': highlights.get('detailedEvents', events or []),
+        'highlightKeywords': unique_strings([
+            *chapter.get('highlight_keywords', []),
+            *highlights.get('highlightKeywords', [])
+        ])
     }
 
 
@@ -194,13 +243,58 @@ techniques_raw = read_json(SRC / 'techniques.json')
 terms_raw = read_json(SRC / 'terms.json')
 supplements = read_json(SRC / 'supplements.json')
 sources = read_json(SRC / 'sources_registry.json')
+media_registry = read_json(SRC / 'media_registry.json')
+volume_records = read_json(SRC / 'volumes.json')
 overall = read_json(SRC / 'overall.json')
+chapter_highlights_payload = read_json(SRC / 'chapter_highlights.json')
+chapter_highlights_by_id = chapter_highlights_payload.get('chapters', {})
 chapters_raw = [read_json(path) for path in sorted((SRC / 'chapters').glob('*.json'))]
 
 chapters = sorted((normalize_chapter(x) for x in chapters_raw), key=lambda x: chapter_order(x['id']))
 characters = sorted((normalize_character(x) for x in characters_raw), key=lambda x: x['name'])
 techniques = sorted((normalize_technique(x) for x in techniques_raw), key=lambda x: x['name'])
 terms = sorted((normalize_term(x) for x in terms_raw), key=lambda x: x['name'])
+
+chapter_media_by_id = {x['chapterId']: x for x in media_registry.get('chapterThumbnails', [])}
+character_media_by_id = {
+    x['characterId']: x for x in media_registry.get('officialCharacterImages', [])
+    if x.get('characterId')
+}
+poll_page_url = media_registry.get('sources', {}).get('characterPoll', '')
+for item in chapters:
+    media = chapter_media_by_id.get(item['id'], {})
+    item['media'] = {
+        'type': 'official-jumpplus-thumbnail',
+        'imageUrl': media.get('imageUrl', ''),
+        'pageUrl': media.get('episodeUrl', ''),
+        'sourceRef': media.get('sourceRef', 'src-jumpplus-episode-thumbnails'),
+        'verification': media.get('verification', 'pending-official-page-collection'),
+        'note': media.get('note', '公式サムネイルURL未収集。')
+    }
+for item in characters:
+    media = character_media_by_id.get(item['id'])
+    if media:
+        item['media'] = {
+            'type': 'official-character-poll',
+            'imageUrl': media.get('imageUrl', ''),
+            'pageUrl': poll_page_url,
+            'sourceRef': media.get('sourceRef', 'src-official-character-vote-4'),
+            'verification': media.get('verification', 'official-page-direct-link'),
+            'officialLabel': media.get('officialLabel', ''),
+            'iconNumber': media.get('iconNumber'),
+            'note': '第4回キャラクター人気投票の公式一覧画像。'
+        }
+    else:
+        item['media'] = {
+            'type': 'official-character-poll',
+            'imageUrl': '',
+            'pageUrl': poll_page_url,
+            'sourceRef': 'src-official-character-vote-4',
+            'verification': 'not-listed-or-unmatched',
+            'officialLabel': '',
+            'iconNumber': None,
+            'note': '公式人気投票画像との対応未確認、または公式一覧に掲載なし。'
+        }
 
 if DETAILS.exists():
     shutil.rmtree(DETAILS)
@@ -213,6 +307,46 @@ for item in supplements:
         supplement_ids_by_character.setdefault(character_id, []).append(item['id'])
 for item in characters:
     item['supplementIds'] = supplement_ids_by_character.get(item['id'], [])
+
+volume_cover_by_id = {x['id']: x for x in media_registry.get('volumes', [])}
+source_by_id = {x['id']: x for x in sources}
+chapters_by_volume = {}
+for item in chapters:
+    chapters_by_volume.setdefault(item.get('volume'), []).append(item)
+supplements_by_volume = {}
+for item in supplements:
+    supplements_by_volume.setdefault(item.get('volume'), []).append(item)
+
+volumes = []
+for record in volume_records:
+    cover = volume_cover_by_id.get(record['id'], {})
+    number = cover.get('number')
+    synopsis_source_ref = record.get('synopsis_source_ref', '')
+    synopsis_source = source_by_id.get(synopsis_source_ref, {})
+    volume_chapters = chapters_by_volume.get(number, [])
+    volume_supplements = supplements_by_volume.get(number, [])
+    volumes.append({
+        'id': record['id'], 'number': number,
+        'label': cover.get('label', ''), 'title': cover.get('title', ''),
+        'synopsis': record.get('synopsis', ''),
+        'synopsisSourceRef': synopsis_source_ref,
+        'verification': record.get('verification', ''),
+        'imageUrl': cover.get('imageUrl', ''),
+        'pageUrl': synopsis_source.get('url') or cover.get('pageUrl', ''),
+        'coverPageUrl': cover.get('pageUrl', ''),
+        'sourceRef': cover.get('sourceRef', 'src-official-comics-list'),
+        'coverVerification': cover.get('verification', ''),
+        'chapterCount': len(volume_chapters),
+        'chapters': [{
+            'id': chapter['id'], 'label': chapter['label'], 'title': chapter['title'],
+            'startPage': chapter.get('startPage')
+        } for chapter in volume_chapters],
+        'supplementCount': len(volume_supplements),
+        'supplements': [{
+            'id': supplement['id'], 'title': supplement.get('title', ''),
+            'summary': supplement.get('summary', '')
+        } for supplement in volume_supplements]
+    })
 
 character_name_map = {}
 for item in characters:
@@ -242,7 +376,7 @@ meta = {
     'counts': {
         'chapters': len(chapters), 'characters': len(characters),
         'techniques': len(techniques), 'terms': len(terms),
-        'supplements': len(supplements), 'sources': len(sources)
+        'supplements': len(supplements), 'sources': len(sources), 'volumes': len(volumes)
     },
     'quality': {
         'chapterSummariesEntered': sum(bool(x['summaryFull'].strip()) for x in chapters),
@@ -251,11 +385,22 @@ meta = {
         'techniqueFirstPassPending': technique_first_pass,
         'termFirstPassPending': term_first_pass,
         'termsWithDirectSourceRefs': term_with_sources,
-        'stage': 'first-draft-complete-primary-page-audit-pending'
+        'stage': 'first-draft-complete-primary-page-audit-pending',
+        'officialVolumeImages': sum(bool(x.get('imageUrl')) for x in volumes),
+        'officialVolumeSynopses': sum(bool(x.get('synopsis')) for x in volumes),
+        'officialCharacterImages': sum(bool(x.get('media', {}).get('imageUrl')) for x in characters),
+        'officialChapterThumbnails': sum(bool(x.get('media', {}).get('imageUrl')) for x in chapters),
+        'detailedChapterEvents': sum(len(x.get('detailedEvents', [])) for x in chapters),
+        'dialogueSummaries': sum(len(x.get('dialogueSummaries', [])) for x in chapters),
+        'crosscheckedLines': sum(len(x.get('crosscheckedLines', [])) for x in chapters),
+        'popularLineGists': sum(len(x.get('popularLineGists', [])) for x in chapters),
+        'highlightKeywords': sum(len(x.get('highlightKeywords', [])) for x in chapters),
+        'chaptersWithDialogueSummary': sum(bool(x.get('dialogueSummaries')) for x in chapters),
+        'chaptersWithCrosscheckedLines': sum(bool(x.get('crosscheckedLines')) for x in chapters)
     },
     'scope': overall.get('scope', {}), 'verification': overall.get('verification', {}),
     'completionNote': overall.get('completion_note', ''),
-    'buildVersion': 'site-v2-audited', 'canonicalData': 'data/source'
+    'buildVersion': 'site-v8-source-crosschecked-lines', 'canonicalData': 'data/source'
 }
 
 catalog = {
@@ -263,12 +408,17 @@ catalog = {
     'chapters': [{
         'id': x['id'], 'label': x['label'], 'title': x['title'], 'volume': x['volume'],
         'arcId': x['arcId'], 'summaryShort': x['summaryShort'],
-        'detailChunk': Path(chapter_detail[x['id']]).stem
+        'highlightKeywords': x.get('highlightKeywords', [])[:10],
+        'detailChunk': Path(chapter_detail[x['id']]).stem,
+        'hasMedia': bool(x.get('media', {}).get('imageUrl')),
+        'mediaVerification': x.get('media', {}).get('verification', '')
     } for x in chapters],
     'characters': [{
         'id': x['id'], 'name': x['name'], 'aliases': x.get('aliases', []),
         'category': x['category'], 'affiliation': x['affiliation'],
-        'detailChunk': int(Path(character_detail[x['id']]).stem.split('-')[-1])
+        'detailChunk': int(Path(character_detail[x['id']]).stem.split('-')[-1]),
+        'hasMedia': bool(x.get('media', {}).get('imageUrl')),
+        'mediaVerification': x.get('media', {}).get('verification', '')
     } for x in characters],
     'techniques': [{
         'id': x['id'], 'name': x['name'], 'reading': x['reading'], 'aliases': x.get('aliases', []),
@@ -282,6 +432,7 @@ catalog = {
     'supplements': [{
         'id': x['id'], 'title': x['title'], 'volume': x.get('volume'), 'summary': x.get('summary', '')
     } for x in supplements],
+    'volumes': volumes,
     'sources': [{
         'id': x['id'], 'title': x.get('title', ''), 'type': x.get('type', ''),
         'publisher': x.get('publisher', ''), 'url': x.get('url', '')
@@ -290,14 +441,14 @@ catalog = {
 
 for name, data in [
     ('catalog', catalog), ('chapters', chapters), ('characters', characters),
-    ('techniques', techniques), ('terms', terms), ('supplements', supplements), ('sources', sources)
+    ('techniques', techniques), ('terms', terms), ('supplements', supplements), ('sources', sources), ('volumes', volumes)
 ]:
     write_json(GEN / f'{name}.json', data)
 
 write_js(GEN / 'catalog.js', 'catalog', catalog)
 write_js(GEN / 'catalog-characters.js', 'catalog', {
     'meta': meta, 'chapters': catalog['chapters'], 'characters': catalog['characters'],
-    'supplements': catalog['supplements'], 'sources': catalog['sources']
+    'supplements': catalog['supplements'], 'volumes': catalog['volumes'], 'sources': catalog['sources']
 })
 write_js(GEN / 'catalog-techniques.js', 'catalog', {
     'meta': meta, 'chapters': catalog['chapters'], 'techniques': catalog['techniques'],
@@ -311,11 +462,15 @@ write_js(GEN / 'catalog-supplements.js', 'catalog', {
     'meta': meta, 'characters': catalog['characters'], 'supplements': catalog['supplements'],
     'sources': catalog['sources']
 })
+write_js(GEN / 'catalog-volumes.js', 'catalog', {
+    'meta': meta, 'volumes': catalog['volumes'], 'sources': catalog['sources']
+})
 write_js(GEN / 'catalog-meta.js', 'catalog', {'meta': meta})
 write_js(GEN / 'supplements.js', 'supplements', supplements)
 write_js(GEN / 'sources.js', 'sources', sources)
+write_js(GEN / 'volumes.js', 'volumes', volumes)
 print(
     f'generated: chapters={len(chapters)}, characters={len(characters)}, '
-    f'techniques={len(techniques)}, terms={len(terms)}, chunks=' 
+    f'techniques={len(techniques)}, terms={len(terms)}, volumes={len(volumes)}, chunks=' 
     f'{len(set(chapter_detail.values())) + len(set(character_detail.values())) + len(set(technique_detail.values())) + len(set(term_detail.values()))}'
 )
