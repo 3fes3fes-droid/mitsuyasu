@@ -1,0 +1,173 @@
+{
+  "id": "ch-045",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 6,
+  "number": 45,
+  "zero_number": null,
+  "label": "第45話",
+  "title_official": "賢者",
+  "title_search_normalized": "賢者",
+  "start_page": 27,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-06"
+  ],
+  "source_locator": "単行本6巻 目次 p.27",
+  "summary_short": "呪霊と呪詛師の侵入によって交流会が中断され、五条だけを拒む帳が下ろされる。伏黒・狗巻・加茂は、自然への恐れから生まれた特級呪霊・花御と対峙する。",
+  "summary_full": "帳が完成し、五条だけが内部へ入れない一方、夜蛾は天元の結界を確認し、歌姫と楽巌寺が生徒救出へ向かう。冥冥は烏を通じて位置を探る。伏黒・加茂・狗巻は花御と対峙し、呪言で動きを止めて加茂の苅祓や伏黒の鵺を当てるが、特級呪霊の耐久力には届かない。花御は人間が消えた時間こそ地球に必要だと語り、死を通じて賢者になれと迫る。別地点では組屋が侵入し、楽巌寺が迎え撃つ。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The Goodwill Event is interrupted by the appearance of 呪霊 and curse users alike. They form a curtain around the area built specifically to keep 五条 out. Meanwhile, 恵 , 棘 , and Nortoshi are faced with 花御 , who claims to be the planet's wrath personified.",
+    "summary_full_legacy": "A curtain that lets everyone through except for 五条悟. 内部 the viewing room where both the 東京 and Kyoto staff are located, all the talisman suddenly burn 東京 Red. This is the default color if a third party exorcised the associated curses. 五条 makes a joke about it but the other sorcerers realize there is an intruder on campus. While 夜蛾 goes to check on 天元様 's barrier, 五条 , 楽巌寺 , and 歌姫 go and rescue the students. 冥冥 is tasked with remaining in the room and utilizing the crows to find the students. 花御 blitzes 恵 and Noritoshi. At the same time, the 呪詛師, 鞣造 , casts a curtain over 東京 呪術高専 . 五条 and the others aren't able to make it in time before the curtain fully forms. 五条 plans to tear the curtain apart. However, this curtain was made specifically to keep 五条 out at the cost of allowing all other sorcerers in. 五条 surmises there is a 呪詛師 inside with a fair amount of info on 呪術高専. 楽巌寺 and 歌姫 head inside to rescue the students from danger. \" Thou shalt become a Sage through death .\" 恵 recognizes 花御 as the 呪霊 that attacked 五条. Noritoshi notices the curtain surrounding them and 棘 suggests that they contact 五条 quickly. However, just as 恵 is about to call, 花御 swiftly attacks. 棘 stops 花御's movements long enough for Noritoshi to attack, but his 苅祓 does little damage to the special grade. 鵺 strikes 花御 from above and 恵 follows up by slashing the curse's legs with a sword. 花御 begins to speak and the boys can understand the meaning of his words despite the foreign language. 花御 claims that he wants to protect the planet from humans and asks the foolish children to stop fighting. He believes the planet needs time without humans and declares that the ones before him can become a sage through death.",
+    "characters_raw_text": "五条悟 楽巌寺嘉伸 夜蛾正道 庵歌姫 冥冥 組屋鞣造 西宮桃 三輪霞 禪院真依 パンダ 禪院真希 釘崎野薔薇 虎杖悠仁 東堂葵 花御 加茂憲紀 伏黒恵 狗巻棘",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 (終了) 恵, 棘 & Noritoshi vs. 花御 (開始) 呪霊討伐競争 (終了)",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 鵺 加茂憲紀の術式 赤血操術 苅祓 狗巻棘の術式 呪言「止まれ」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-830f121430",
+    "char-833a399363",
+    "char-9148bf784c",
+    "char-996d48af99",
+    "char-a61d6ef891",
+    "char-ac327bdd73",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-df284f67ad",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-7c3237f986",
+    "tech-9754429d12",
+    "tech-996d48af99",
+    "tech-a1213858c7",
+    "tech-deb6545546"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-041be91538",
+    "term-7037f2a1bd",
+    "term-f9e3abf542"
+  ],
+  "key_events_verified_phase3": [
+    "五条だけを拒む帳が完成する",
+    "伏黒・加茂・狗巻が花御と交戦する",
+    "花御が人間を排除する思想を語る",
+    "楽巌寺が組屋を迎え撃つ"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-833a399363",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-17322e71e5",
+    "char-ac327bdd73",
+    "char-58278d1ec5",
+    "char-3de3b8af11",
+    "char-07918bda3f",
+    "char-833a399363",
+    "char-9148bf784c",
+    "char-830f121430",
+    "char-3c1852867d",
+    "char-a61d6ef891"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-karibarai",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-deb6545546",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-996d48af99",
+    "tech-a1213858c7",
+    "tech-phase3-karibarai",
+    "tech-deb6545546"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-f9e3abf542",
+    "term-7037f2a1bd",
+    "term-041be91538"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-06",
+    "src-manga-games-vol-06",
+    "src-official-character-vote-4"
+  ]
+}

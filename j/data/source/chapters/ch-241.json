@@ -1,0 +1,89 @@
+{
+  "id": "ch-241",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 27,
+  "number": 241,
+  "zero_number": null,
+  "label": "第241話",
+  "title_official": "勝ち残れ!!",
+  "title_search_normalized": "勝ち残れ!!",
+  "start_page": 89,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-27"
+  ],
+  "source_locator": "単行本27巻 目次 p.89",
+  "summary_short": "髙羽は芸人を志した原点を思い出し、自分の笑いを信じる力を取り戻す。羂索へ必ず笑わせると宣言し、術式を再び発動する。",
+  "summary_full": "髙羽は芸人を志した原点を思い出し、自分の笑いを信じる力を取り戻す。羂索へ必ず笑わせると宣言し、術式を再び発動する。芸人として孤立した過去と相方への思いを振り返った髙羽は、誰にも笑われなくても舞台に立った原点を取り戻す。羂索を必ず笑わせると宣言して超人を再起動する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "高羽史彦 recalls his original inspiration for becoming a comedian. Reinvigorated by his origin, 高羽 regains his confidence and apologizes to 羂索 . He swears to make 羂索 laugh and reactivates his technique , leading to the climax of their duel.",
+    "summary_full_legacy": "One day several years ago, 高羽 was studying to become a comedian at Tantan University. 高羽 chastised his partner for being late to their performance rehearsal. As his partner apologized indifferently, 高羽 noticed the smell of alcohol on him before continuing with the rehearsal. 高羽 began a segment of the performance but soon discovered that his partner did not memorize his lines. 高羽's struggle to find a comedic partner. 高羽 angrily demanded a serious apology from his partner, who rebuked him by revealing that he was too busy covering for 高羽. He went on to state that 高羽 never went out drinking with the others, nor did he laugh at the other comedians from the stage wings, and it was only because of him that their upperclassmen didn't mistreat the duo. 高羽 asked his partner if that was a good reason for him to show up to rehearsal hungover, which he believed was. 高羽 then furiously called his partner out for only caring about his shady relationships, who mocked him for getting angry due to being unpopular. 高羽 punched him to the ground and stated that he wanted him to take comedy seriously, at which point his partner revealed that doing comedy wasn't fun with 高羽, and asked why the audience would laugh at their jokes if even they didn't. 高羽 remembers why he became a comedian. Sometime later, 高羽 read a critically unfavorable review about his performance. Despite being disheartened, his colleague told him it was impossible to make everyone in the audience laugh and convinced him to think positively. Later, while rehearsing a performance, 高羽's new partner informed him that he planned on quitting, citing that the two were already middle-aged while their classmates all had decent jobs and families to provide for. When 高羽 attempted to persuade him to stay, his partner asked him how long he planned on continuing to do comedy. 高羽 apologizes to 羂索 with perfect prostration form. Later in his apartment, 高羽 thought about his options as an entertainer without a partner to do comedy with. He remembered his response to his last partner's question. 高羽 planned on doing comedy until he did what he thought was funny to the fullest. 高羽 also remembered why he wanted to be a comedian. When he was a child, he was serious and cold towards others, which made him unlikable. Wishing to no longer be lonely, he put all his effort into joking around. When the other boys laughed and realized he wasn't a bad person, that made him happy and allowed him to make friends. However, he was never able to find a partner to make jokes with. As 高羽 watched a comedy duo joke about being unable to do comedy together on television, he held back tears. 高羽 concluded that the reason he became a comedian was because he wanted people to know him better. if people thought he was funny, he wouldn't be lonely ever again. 高羽's determination to make everyone laugh, even 羂索. Present-day 高羽 sits before his younger self in a school classroom. His younger self asks him what he meant by \"doing comedy seriously\" since people just want his goofy side. Older 高羽 states that that isn't what's important and has nothing to do with the audience. His younger version then asks if doing comedy seriously is fun and the reason he's a comedian. 高羽 reveals that he became a comedian because he wanted people to know him. He then wonders why he dismissed 羂索 for not laughing at his joke and realizes that his colleague's advice about not needing to make everyone laugh was telling him to not give up. 高羽 didn't interpret it that way to protect himself. In doing so, he stopped taking comedy seriously because he was afraid of getting hurt. Back in the present, 羂索 approaches a prostrating 高羽. 羂索 thinks about how perfect the form is, and how he himself could not achieve such a level until his late twenties. 羂索 quickly questions why his mind is on prostration when 高羽 gets his attention. 高羽 profusely apologizes as he exposes his insecurities, which led to him discounting 羂索 to protect himself. He refutes his previous statement and announces his newfound resolve to make everyone in the audience laugh. The comedian tells 羂索 to prepare to laugh his guts out and 羂索 replies by asking if 高羽 can actually do so. The excitement is written on 羂索's face, literally.",
+    "characters_raw_text": "高羽史彦 羂索",
+    "locations_raw_text": "Tantan University (回想) 岩手県・御所湖結界",
+    "battles_events_raw_text": "高羽史彦 vs. 羂索",
+    "techniques_raw_text": "高羽史彦の術式 超人 羂索の術式 呪霊操術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "takaba-kenjaku",
+  "character_ids_candidate": [
+    "char-02aa196fbb",
+    "char-678a848346"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-4b352da6cb"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "髙羽は芸人を志した原点を思い出し、自分の笑いを信じる力を取り戻す。",
+    "羂索へ必ず笑わせると宣言し、術式を再び発動する。",
+    "芸人として孤立した過去と相方への思いを振り返った髙羽は、誰にも笑われなくても舞台に立った原点を取り戻す。",
+    "羂索を必ず笑わせると宣言して超人を再起動する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-02aa196fbb",
+    "char-678a848346"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-4b352da6cb"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-4b352da6cb",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-27",
+    "src-manga-games-vol-27",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

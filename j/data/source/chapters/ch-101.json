@@ -1,0 +1,155 @@
+{
+  "id": "ch-101",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 101,
+  "zero_number": null,
+  "label": "第101話",
+  "title_official": "渋谷事変⑲",
+  "title_search_normalized": "渋谷事変19",
+  "start_page": 69,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.69",
+  "summary_short": "冥冥は羂索が放った特級特定疾病呪霊と対峙する。別ルートから駅へ入った虎杖の前には、弟たちの仇を討とうとする脹相が待ち構える。",
+  "summary_full": "七海は伊地知の命が助かったことと五条封印を釘崎たちへ伝え、以後の戦いは一級以上でなければ足手まといになるとして待機を命じる。地下では羂索が呪霊操術で疱瘡婆を放ち、冥冥と憂憂を墓地状の領域へ閉じ込める。別の入口から駅へ入った虎杖は、壊相と血塗の仇を討つため待ち構えていた脹相と対峙する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "冥冥 gets closer to 渋谷駅 but Pseudo-夏油 meets her halfway, summoning a special grade disease curse for her to exorcise. While she's underground, 悠仁 enters the station from above ground. However, 脹相 awaits him inside.",
+    "summary_full_legacy": "七海 kneels over as he speaks with 野薔薇 and 明 , who are sitting on two connected chairs recovering from their injuries. He reveals that 伊地知 will be okay. 七海 did what he can for him and he tells the girls not to forget that 伊地知 was originally training to be a sorcerer instead of a manager. Pseudo-夏油 summons a special grade disease curse for 冥冥 to fight. 野薔薇 and 明 also learn about 五条's situation, something they didn't hear about since they headed indoors away from 悠仁's yelling. 七海 asks them to wait for rescue while he joins the 禪院 Team and heads for 渋谷駅. 野薔薇 wants to go but Nanam insists that the coming battles require sorcerers grade 1 and above, anyone else would simply be in the way. Meanwhile, on the 副都心線 ホーム underground, 冥冥 comes face to face with Pseudo-夏油. She's surprised to 夏油 but quickly dismisses the idea that he could be alive. That would mean 悟 messed up and she has no reason to believe they're working together. Pseudo-夏油 tries to act friendly but 冥冥 hasn't forgotten about the assassin he just sent. She feels it's a shame that her preferred of the two special grade students ended up this way, she had her money on 夏油 over 五条. 夏油 replies that he feels sorry to have to kill a former senpai and summons a special grade disease curse: 疱瘡神 to do it for him. The 疱瘡神 traps 冥冥 inside its 領域展開. 冥冥 is surprised to see him use curse manipulation and doubts her conclusion about him for for a moment. 夏油 reveals that he doesn't have many curses left after the Night Parade of a Hundred Demons , but the ones he does still possess are of pristine quality. He leaves the area, telling Mei that if she can exorcise the 疱瘡神, then he'll be her next opponent. The disease curse immediately activates 領域展開 , trapping 冥冥 inside a coffin. The curse chants \"grave\", causing a large gravestone to fall from the sky onto the coffin, digging it under the ground. Then the curse begins a three count but 冥冥 breaks out before it ends. 憂憂 initially watches in horror but he's excited to see his sister survive. 冥冥 is impressed, stating that it's been longer than she can remember since her life has been in danger even for a moment. 脹相 attempts to take revenge for his brothers. At the entrance to 渋谷駅, 悠仁 runs inside and wonders if he's going the right way since no one is around. He immediately runs into 脹相, who recognizes 悠仁 as his brothers' killers. He activates 赤血操術 : 百斂 , an extension technique that compresses blood outside the user's body into a single point. Then 脹相 uses the secret technique of 赤血操術, shooting the blood through a single point at the speed of sound: 穿血 ! 穿血 fires a condensed, 呪力 -reinforced arrow extremely fast at 悠仁. He's able to block but the attack is so fast and sharp it nearly pierces 悠仁's left arm completely. 悠仁 is barely able to stop it but tries to close the distance right after the attack is done cutting his arm. 悠仁 hits him with 逕庭拳 with his injured arm, but can't quite move it well afterward. 脹相 blocks the hit is confused by the double impact. With a break in the action, 脹相 decides to ask 悠仁 if his younger brothers left him with any final words.",
+    "characters_raw_text": "七海建人 新田明 釘崎野薔薇 Pseudo-夏油 冥冥 憂憂 虎杖悠仁 脹相",
+    "locations_raw_text": "渋谷 渋谷駅 副都心線 ホーム Bunkamura Station 渋谷駅 副都心線 ホーム Bunkamura Station 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変 冥冥 & 憂憂 vs. 疱瘡神 (開始) 虎杖悠仁 vs. 脹相 (開始) 冥冥 & 憂憂 vs. 疱瘡神 (開始) 虎杖悠仁 vs. 脹相 (開始)",
+    "techniques_raw_text": "脹相の術式 赤血操術 百斂 穿血 百斂 穿血 領域展開／墓 (名称不明) Pseudo-夏油の術式 呪霊操術 疱瘡神 虎杖悠仁の術式 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-0cb661851e",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-92d504ce2f",
+    "char-baadf43d19",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-4b0b9dc682",
+    "tech-5d6a005065",
+    "tech-5eb242be96",
+    "tech-a1213858c7"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase6": [
+    "七海が釘崎と新田へ待機を命じる",
+    "羂索が疱瘡婆を放つ",
+    "疱瘡婆が領域を展開する",
+    "虎杖と脹相の戦闘が始まる"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-as-suguru-geto"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-92d504ce2f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-6309a7e2f4",
+    "char-5a0f7ded8d",
+    "char-0cb661851e",
+    "char-678a848346",
+    "char-07918bda3f",
+    "char-e41848a08f",
+    "char-92d504ce2f",
+    "char-baadf43d19",
+    "char-851111b10d"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase6-smallpox-domain",
+      "relation": "activated"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-1bc0d9ec7b",
+    "tech-phase6-smallpox-domain",
+    "tech-a1213858c7",
+    "tech-5d6a005065"
+  ],
+  "term_ids_verified_phase6": [
+    "term-phase6-special-disease-curse",
+    "term-e6a70dfe56",
+    "term-d97934afcd",
+    "term-c5958133bc"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

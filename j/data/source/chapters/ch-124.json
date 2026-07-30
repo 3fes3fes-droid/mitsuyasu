@@ -1,0 +1,115 @@
+{
+  "id": "ch-124",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 124,
+  "zero_number": null,
+  "label": "第124話",
+  "title_official": "渋谷事変㊷",
+  "title_search_normalized": "渋谷事変42",
+  "start_page": 173,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.173",
+  "summary_short": "釘崎の攻撃で損傷した真人を虎杖が追い詰める。真人は二体を再び一つに戻し、虎杖と釘崎の両方を絶望させる策を実行する。",
+  "summary_full": "共鳴りで真人の魂が傷ついた隙に、虎杖は本体へ連打を浴びせ、釘崎の援護によって自分が一人ではないと立ち直る。真人本体は小さな分裂体を囮にして逃走し、地上の分身体も釘崎から逃げて地下へ向かう。二体は通路で交差して互いの相手を入れ替え、本体であることを知らない釘崎の警戒の隙を突く。虎杖が止めようとする前に、本体の真人が釘崎の顔へ触れる。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "With 野薔薇 's aid, 悠仁 regains his confidence and claims the upper hand against 真人 . In order to survive the ordeal on both ends, 真人 decides it's time for his twin selves to switch opponents.",
+    "summary_full_legacy": "\" Thank you for showing me that I'm not alone. \" 野薔薇 has successfully hit 真人's soul, injuring both him and his double with 共鳴り . Recognizing his classmate's 術式 , 悠仁 capitalizes and pummels 真人 with rapid-fire 呪力 -infused punches. 共鳴り's effect is still lingering so 真人 can't move well or fight back. While 悠仁 bashes 真人 into a pillar with a relentless barrage of punches, he solemnly thanks 野薔薇. 悠仁 believes he hasn't been able to save anyone and that he's wasted everyone's efforts, but 野薔薇's help has shown him he's still not alone. Inspired by 野薔薇, 悠仁 keeps the pressure on and prepares to exorcise 真人 here and now. 真人's double runs away. Meanwhile, in the alley , the nail drops from 真人's double's forehead as he affirms her theory about him. 野薔薇 believes their real duel begins now but the double decides to run away instead and heads directly into a subway entrance. 野薔薇 could just ignore him and go to B5F but she has a bad feeling about letting him run loose and decides to exorcise him on the way there. Before 悠仁 can finish off 真人's main body, the special grade splits into several small, spherical versions of himself that run all across the room. One of them flares up its 呪力 to get 悠仁's attention. This makes him think that this is 真人's main body and smashes it. However, this was a feint, and the other doubles reform 真人's body as he runs away. 真人 and his double decide its time to switch opponents. Both 真人's enter the same corridor with the two jujutsu high students chasing them from opposite sides. 悠仁 initially believes 真人 is trying to heal until he sees 野薔薇. He immediately yells for her to run away, realizing the danger she's in. 野薔薇 remembers her time as a child in 2009. 野薔薇 is surprised to see 悠仁 and 真人's real body acted as a blind spot to cover the switch so she wouldn't notice. Furthermore, her fight with the double made her to lower her guard against 真人's hands. 真人 scores a direct hit on 野薔薇's face, potentially spelling the end for her. 悠仁 easily kills the double with a single shot and runs over to check on 野薔薇. 真人 waits to see if one touch will be enough to kill her since it wasn't enough to kill 七海 in their first encounter . 野薔薇 touches her face and recalls her life in 2009 when she was an emphatic six-year-old playing Smash Bros. Back then she believed everyone in her hometown was weird and she was the only sane person there.",
+    "characters_raw_text": "釘崎野薔薇 虎杖悠仁 真人 七海建人 (回想) ふみ (回想)",
+    "locations_raw_text": "渋谷 道玄坂小路 渋谷駅 道玄坂小路",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 釘崎野薔薇 vs. 真人 虎杖悠仁 & 釘崎野薔薇 vs. 真人",
+    "techniques_raw_text": "真人の術式 無為転変 釘崎野薔薇の術式 芻霊呪法 術式 共鳴り (言及のみ) 共鳴り (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-baadf43d19",
+    "char-daba6cb53e"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-71a2d65cad",
+    "tech-d9180946ec"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase7": [
+    "虎杖が共鳴りの効果中に真人本体を追い詰める",
+    "真人本体と分身体が逃走する",
+    "二体の真人が相手を入れ替える",
+    "真人本体が釘崎の顔へ接触する"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance-main-and-double"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-daba6cb53e",
+      "presence": "recollection-begins"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-18d7c58412",
+    "char-6309a7e2f4",
+    "char-daba6cb53e"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "damage-lingering"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "touches-nobara"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-d9180946ec",
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase7": [
+    "term-65867f280c",
+    "term-phase5-body",
+    "term-phase5-transfigured-human"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

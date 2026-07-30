@@ -1,0 +1,150 @@
+{
+  "id": "ch-190",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 190,
+  "zero_number": null,
+  "label": "第190話",
+  "title_official": "東京第２結界⑨",
+  "title_search_normalized": "東京第2結界9",
+  "start_page": 191,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.191",
+  "summary_short": "鹿紫雲は海中で呪力を爆発させるが、秤は腕を犠牲にして生還する。秤は鹿紫雲を仲間へ誘い、宿儺と戦わせる条件で協力を取り付ける。",
+  "summary_full": "水蒸気爆発後、鹿紫雲は呪力を使い果たすが、秤は左腕だけを失って生還する。秤は左腕を代償とする即席の縛りで、腕を守る呪力を全身へ回したと説明する。鹿紫雲を殺さず、宿儺と戦わせる条件で協力を取り付ける。小型化したパンダ、シャルル、西宮と合流し、得点譲渡後に追加する総則を相談する。場面は桜島結界へ移り、真希と加茂の前へ未知の呪霊が飛来する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "パンダ searches for 秤 at the very end of the fight against 鹿紫雲 . 秤 survives 鹿紫雲's last-ditch effort and decides to cut a deal. Meanwhile, the Kyoto 呪術高専 students head inside the colonies to communicate the next stage of the plan to combat the 死滅回游 .",
+    "summary_full_legacy": "秤 survives the explosion and puts an end to the fight with 鹿紫雲. As a result of the explosion caused by 鹿紫雲 at sea, a mix of water and blood rains down on the shipping yard dock. パンダ , who is now much smaller than usual due to the injuries he sustained, walks over to the edge of the yard and expresses concern for 秤's health. After seeing his fellow student's severed hand, パンダ assumes the worse. 鹿紫雲 emerges from the water and climbs up onto land. He's exhausted and completely out of 呪力 , but he believes that he's finally won. However, 秤 suddenly appears from the water and punches 鹿紫雲 across the face. He's missing an arm but is still very much alive. 鹿紫雲's 呪力 created a steam explosion that should have destroyed his opponent, but 秤 knew 鹿紫雲 was trying to prevent him from expanding his domain again because he was headed for another round of increased probability. 鹿紫雲 attempted to take off 秤's left arm at the very least in order to stop him from making hand signs. Anticipating this, 秤 decided to sacrifice his left arm with a last-ditch 縛り that protected the rest of his body with the 呪力 that would've been used on his arm. 秤 cuts a deal with 鹿紫雲 to bring him to their side. 鹿紫雲 tells 秤 to kill him but the latter refuses because then the hundred points the former possesses would disappear. 秤 even admits he doesn't consider this a clean victory because 鹿紫雲 never unleashed his innate technique . He commends 鹿紫雲 for being so powerful while only manipulating the traits of his 呪力. 鹿紫雲 questions how 秤 knows this and the latter and is surprised to learn his intuition was correct. 鹿紫雲 reveals that he can only use his 術式 once and he wanted to do so only on 宿儺 . With a high level of admiration for his opponent, 秤 offers to cut 鹿紫雲 a deal. パンダ locates 秤 and is surprised to learn that 鹿紫雲 is teaming up with them in exchange for fighting 宿儺. パンダ disagrees but 秤 insists it's okay, confusing 鹿紫雲 when he hears that 秤 is 宿儺's senpai. At the same time, rule ten allowing the transference of points between players is added to the 死滅回游. \" A monster. \" 秤 returns to the amusement park where he met シャルル and finds the aspiring mangaka again. シャルル asks why he came back and what happened to his arm but 秤 dismisses his inquiries. 秤 asks him if he feels better after fighting and even offers to read his manga. However, シャルル hasn't officially published anything yet, which irritates 秤 and makes him berate シャルル and tell him to draw like his life depends on it rather than worry about being a sorcerer . An unknown curse descends! 西宮桃 arrives in the colony and interrupts 秤 while he kicks シャルル. She asks if 秤 got the points and reveals that the Kyoto students are working together with their group to combat the 死滅回游. She also adds that they want to postpone creating another rule that would establish communication between colonies because 真希 and 憂憂 can serve as liaisons for them. 秤 asks how 真希 can pass through barriers without interference and 桃 reveals that it's because she's become a \"monster\". Meanwhile, in the 桜島結界 , 真希 makes short work of the most aggressive 呪霊 and players in the area. She meets up with 加茂憲紀 , who's now sporting an entirely new look. Noritoshi reveals that he's no longer the heir to the 加茂 clan and has fallen from grace while 真希 has grown strong. Noritoshi requests that 真希 meet up with 憂憂 after she leaves the 桜島結界, but their conversation is interrupted by the arrival of a mysterious 呪霊 that enters the colony and ignores コガネ 's request to become a player.",
+    "characters_raw_text": "パンダ 鹿紫雲一 秤金次 宿儺 (言及のみ) シャルル ベルナール 西宮桃 禪院真希 加茂憲紀 冥冥 (言及のみ) 憂憂 (言及のみ)",
+    "locations_raw_text": "東京第2結界 桜島結界",
+    "battles_events_raw_text": "死滅回游 秤金次 vs. 鹿紫雲一 (終了) 秤金次 vs. 鹿紫雲一 (終了)",
+    "techniques_raw_text": "式神 コガネ 呪具 釈魂刀",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-484fd66a1e",
+    "char-4e5593708e",
+    "char-672d843799",
+    "char-830f121430",
+    "char-8a6e43878f",
+    "char-dea43d7fc7",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-aee71097f5"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase10": [
+    "秤が即席の縛りで水蒸気爆発を生き延びる",
+    "秤が鹿紫雲を仲間へ引き入れる",
+    "得点譲渡の総則が追加される",
+    "西宮が今後の総則追加計画を共有する",
+    "桜島結界に未知の呪霊が侵入する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "victor-and-recruiter"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "defeated-and-allied"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "survives-small-form"
+    },
+    {
+      "character_id": "char-4e5593708e",
+      "presence": "reencounter"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "arrives"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "in-sakurajima"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "in-sakurajima"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "curse-arrives"
+    },
+    {
+      "character_id": "char-8a6e43878f",
+      "presence": "announces-rule"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-dea43d7fc7",
+    "char-0e7004da56",
+    "char-672d843799",
+    "char-4e5593708e",
+    "char-484fd66a1e",
+    "char-24d736edff",
+    "char-830f121430",
+    "char-b3be077b48",
+    "char-8a6e43878f"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-da5c953a34",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-aee71097f5",
+      "relation": "exhausted"
+    },
+    {
+      "technique_id": "tech-39d2b30b48",
+      "relation": "future-use-blocked-by-arm-loss"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-da5c953a34",
+    "tech-aee71097f5",
+    "tech-39d2b30b48"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-7ef1b59819",
+    "term-c2f186c626",
+    "term-phase4-zero-cursed-energy",
+    "term-f57cd720b8"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-hellominju-ch190",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

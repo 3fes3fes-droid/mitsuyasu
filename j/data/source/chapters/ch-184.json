@@ -1,0 +1,121 @@
+{
+  "id": "ch-184",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 184,
+  "zero_number": null,
+  "label": "第184話",
+  "title_official": "東京第２結界④",
+  "title_search_normalized": "東京第2結界4",
+  "start_page": 71,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.71",
+  "summary_short": "秤と離れて行動していたパンダは、東京第2結界で鹿紫雲一と遭遇する。宿儺の居場所を求める鹿紫雲は、パンダを一方的に攻撃する。",
+  "summary_full": "秤と分断されたパンダは、宿儺を探す鹿紫雲一と遭遇する。パンダは交渉を試みながらゴリラ核へ切り替えて攻撃するが、鹿紫雲の電気的な呪力は防御しにくく、打撃で蓄積した電荷から必中に近い放電を成立させる。鹿紫雲はゴリラ核を破壊し、パンダが隠していた姉の核も引き出す。パンダは三核を駆使するが、戦力差は圧倒的だった。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Separated from 秤 , パンダ is unsure of his next move. As soon as he decides to stop playing it safe and be a panda, he unfortunately happens upon none other than 鹿紫雲一 .",
+    "summary_full_legacy": "パンダ runs into 鹿紫雲一. In the 東京第2結界 , パンダ sits alone atop a shipping container in a shipyard dock next to the sea. He tells himself that just for this moment he's a harmless teddy bear instead of a パンダ. The scent of blood is strong in the air and he can smell several dismembered people nearby. The residuals left behind by the perpetrator are weak but パンダ understands that a skilled sorcerer likely did so purposely. He ponders his role in combating the 死滅回游 and laments that he and 秤 were instantly separated. 秤 was meant to do the fighting while パンダ was just going to track down the angel. パンダ knows he should get moving but doesn't want to get spotted by other players. Dismayed by his own cowardliness, パンダ has a change of heart and decides to roll off the shipping container onto the ground. He looks around and the coast appears to be clear, but suddenly none other than 鹿紫雲一 happens upon パンダ. Viewing パンダ as a simple animal, 鹿紫雲 wonders if he escaped from Ueno Zoo. パンダ tries to walk on all fours as a cover but 鹿紫雲 asks his コガネ if パンダ is a player. コガネ confirms, surprising パンダ, who was unaware コガネ could be used to identify other players. Even ゴリラモード proves to be no match for 鹿紫雲. パンダ quickly stands back up but by that time 鹿紫雲 has already closed the distance between them. A single punch is enough to punch a hole clean through パンダ's abdomen while also shocking him with an electric current. 鹿紫雲 follows up by using his staff to send パンダ crashing into a shipping container. パンダ notices that 鹿紫雲's 呪力 has the characteristics of electricity, making his attacks unguardable. He activates ゴリラモード and strikes with an unblockable attack of his own, but 鹿紫雲 is able to withstand it and even breaks パンダ's arm off. Unimpressed, 鹿紫雲 calls パンダ average while avoiding his next attack. 鹿紫雲 strikes before パンダ can use his big sister's power. 鹿紫雲 throws パンダ's dismembered arm at him to block his vision. パンダ assumes 鹿紫雲 is going to circle around his blind spot and swings behind him. However, 鹿紫雲 threw the arm as a simple diversion and continued to attack right behind it, tricking パンダ. 鹿紫雲 pummels パンダ with rapid-fire punches and then palm thrusts him into another shipping container. With パンダ near defeat, 鹿紫雲 rectifies his earlier taunt by calling パンダ super weak instead of average. He asks if パンダ knows where 宿儺 is, surprising the latter. パンダ wonders what 鹿紫雲 could possibly want with 宿儺 and denies knowing anything about him to protect 悠仁. Pausing to think about it was enough to tell 鹿紫雲 that パンダ knows something about 宿儺. \" Now... where's 宿儺? \" 鹿紫雲 offers to spare パンダ in exchange for information on 宿儺 but he refuses. パンダ changes into the form of his big sister, a Triceratops with a timid personality that will destroy anyone in her path to hide her embarrassment. 鹿紫雲 immediately takes the offensive before パンダ has a chance to show off the strengths of his big sister's form. 鹿紫雲 attacks by separating the charges of his electrified 呪力 and applies the positive charge to パンダ. The negative charge is discharged from 鹿紫雲 directly to パンダ without losing any power to the ground, resulting in a bolt of lightning that rends the air and can't miss without aid from a domain . The lightning blasts the upper right side of パンダ's body into pieces, utterly defeating him. Victorious in brutal fashion, 鹿紫雲 watches パンダ's blood spray across the ground and asks where 宿儺 is located.",
+    "characters_raw_text": "パンダ 秤金次 (言及のみ) 鹿紫雲一 宿儺 (言及のみ) 虎杖悠仁 (言及のみ)",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游 パンダ vs. 鹿紫雲一 パンダ vs. 鹿紫雲一",
+    "techniques_raw_text": "パンダの術式 Unblockable Drumming Beat 式神 コガネ",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-0e7004da56",
+    "char-2b8d365a39",
+    "char-672d843799",
+    "char-8a6e43878f",
+    "char-baadf43d19",
+    "char-dea43d7fc7",
+    "char-f5b0193f9b"
+  ],
+  "technique_ids_candidate": [
+    "tech-aee71097f5"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "パンダが鹿紫雲と遭遇する",
+    "パンダがゴリラ核へ切り替える",
+    "鹿紫雲が呪力の電荷を利用した放電を使う",
+    "パンダのゴリラ核が破壊され姉の核が現れる"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-672d843799",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "target-mentioned"
+    },
+    {
+      "character_id": "char-f5b0193f9b",
+      "presence": "core-damaged"
+    },
+    {
+      "character_id": "char-b05e05011d",
+      "presence": "core-revealed"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-672d843799",
+    "char-0e7004da56",
+    "char-2b8d365a39",
+    "char-f5b0193f9b",
+    "char-b05e05011d"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-phase3-gorilla-mode",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-drumming-beat",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-aee71097f5",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-phase3-gorilla-mode",
+    "tech-phase3-drumming-beat",
+    "tech-aee71097f5"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-f6f3d2df55",
+    "term-8485d1a225",
+    "term-phase3-abrupt-mutated-corpse"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

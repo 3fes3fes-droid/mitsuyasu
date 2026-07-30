@@ -1,0 +1,133 @@
+{
+  "id": "ch-141",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 16,
+  "number": 141,
+  "zero_number": null,
+  "label": "第141話",
+  "title_official": "うしろのしょうめん",
+  "title_search_normalized": "うしろのしょうめん",
+  "start_page": 149,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-16"
+  ],
+  "source_locator": "単行本16巻 目次 p.149",
+  "summary_short": "虎杖は乙骨の刀を折って抵抗するが、「リカ」に拘束され胸を刺される。一方、脹相は直哉の速度へ対応する方法を探る。",
+  "summary_full": "虎杖は乙骨の刀を素手と刃物で受け、折ることに成功するが、乙骨が呼び出した「リカ」に背後から拘束される。宿儺が一瞬反応する中、乙骨は動けない虎杖の胸を刀で貫く。脹相は直哉の速度へ対抗するため赤鱗躍動で身体能力を高め、流した血も含めて戦場を組み立てる。直哉は投射呪法の規則を押し付けて脹相を一秒間停止させるが、脹相は兄として弟を守る執念を失わない。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Reminded of 七海 's last words to him, 悠仁 refuses die just yet and continues to resist his execution. However, 憂太 unleashes his uncanny abilities to get the job done, revealing a new \"里香\". Meanwhile, 脹相 continues to clash with 直哉 but struggles against his overwhelming speed.",
+    "summary_full_legacy": "憂太 continues his relentless attacks. 憂太 stays on the offensive with his katana, and although 悠仁 dodges most of his strikes, one of them grazes his cheek and opens up a cut. He realizes that he needs to do something about 憂太's katana, remembering his fight against 粟坂二良 and reminding himself that even though he doesn't need to fear blades if he reinforces his body with 呪力 , he can't underestimate someone like 憂太. As he dashes toward a large SUV and jumps inside the open window, he spots a knife on the seat and quickly picks it up before jumping out through the opposite window. 悠仁 manages to break his opponent's weapon. 憂太 leaps over the hood and attacks with his katana, but 悠仁 uses the survival knife to block the strike. 憂太 is taken aback at first and wonders where he got it, but quickly realizes that it must have been inside the SUV. He tells himself that if it isn't a cursed tool , he doesn't need to be worried about it. 悠仁 lunges forward and tells himself to close the gap after imbuing the knife with 呪力. He then remembers 五条 's words about not relying on 呪具 to the detriment of 呪力 control, adding that he isn't ready for it yet (and that 屠坐魔 is for emergencies). \" What's going on here? \" As the two clash, 悠仁 knows that he hasn't learned how to fight this way and 憂太 tells him that he is focusing too much on his katana, suddenly raising it above his head and kicking 悠仁 in the stomach. 悠仁 can't believe the power of his kick, but even though he quickly recovers, 憂太's next strike breaks 悠仁's knife and cuts his midsection. However, as 憂太's katana is lodged in the ground, 悠仁 pins it down and breaks the blade with his foot. 憂太 is surprised at first, but reminds himself that he is 五条's student, saying aloud that the fight wasn't going to be easy. 憂太 executes 宿儺's vessel. Although 悠仁's wound is deep, he tells himself that his vitals are intact and that both of them are unarmed now. But as he moves forward to strike, a large creature suddenly appears behind him and puts both its hands around his head. 悠仁 is frozen with fear, and 憂太 tells 里香 that the two were just playing. 悠仁 doesn't know what to make of the name and wonders if it's a 式神 , telling himself that he can't move because it's too strong. 憂太 tells 里香 to hold 悠仁 still and calmly stabs him in the chest with the broken katana. As blood drips from 悠仁's mouth, 憂太 looks him in the eyes and apologizes. 宿儺 is taken aback at first, but soon puts on a smile. 直哉 overpowers 脹相. Back in the underpass, 脹相 struggles to keep up with the speed of 直哉, who uses his 投射呪法 and follows it up with a hard punch to 脹相's midsection. Reeling from the attack, 脹相 tells himself that he has no clue what kind of 術式 直哉 is using and that he most likely won't reveal it since he's winning so easily. 直哉 continues to overwhelm with strikes, and 脹相 says that 百斂 isn't an option since he can't even control the blood outside his body. 直哉 compliments him on his toughness and asks who he is. 脹相 confidently says that he is the oldest of ten siblings and suddenly uses 赤鱗躍動 : Stack, changing the markings on his face and causing new ones to appear.",
+    "characters_raw_text": "乙骨憂太 虎杖悠仁 粟坂二良 (回想) 五条悟 (回想) 里香 宿儺 脹相 禪院直哉",
+    "locations_raw_text": "渋谷",
+    "battles_events_raw_text": "虎杖悠仁 vs. 乙骨憂太 (終了) 脹相 vs. 禪院直哉",
+    "techniques_raw_text": "脹相の術式 赤血操術 赤鱗躍動・載 赤鱗躍動・載 禪院直哉の術式 投射呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-851111b10d",
+    "char-b3be077b48",
+    "char-ba2d62b596",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d31c75a751",
+    "char-fd5a754a56"
+  ],
+  "technique_ids_candidate": [
+    "tech-a1213858c7",
+    "tech-cc23098baa",
+    "tech-e66786ca8f",
+    "tech-fd5a754a56"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase8": [
+    "虎杖が乙骨の刀を折る",
+    "リカが虎杖を拘束する",
+    "乙骨が虎杖の胸を刺す",
+    "脹相が赤鱗躍動で直哉へ対抗する"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "fatally-stabbed"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-fd5a754a56",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "reaction"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-fd5a754a56",
+    "char-2b8d365a39",
+    "char-851111b10d",
+    "char-b3be077b48"
+  ],
+  "technique_appearances_verified_phase8": [
+    {
+      "technique_id": "tech-fd5a754a56",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e66786ca8f",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase8": [
+    "tech-fd5a754a56",
+    "tech-a1213858c7",
+    "tech-e66786ca8f",
+    "tech-cc23098baa"
+  ],
+  "term_ids_verified_phase8": [
+    "term-252cb4a664"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-16",
+    "src-manga-games-vol-16",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

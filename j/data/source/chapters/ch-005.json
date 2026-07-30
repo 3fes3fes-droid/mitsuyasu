@@ -1,0 +1,122 @@
+{
+  "id": "ch-005",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 1,
+  "number": 5,
+  "zero_number": null,
+  "label": "第5話",
+  "title_official": "始まり",
+  "title_search_normalized": "始まり",
+  "start_page": 131,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-01"
+  ],
+  "source_locator": "単行本1巻 目次 p.131",
+  "summary_short": "虎杖と釘崎は廃ビルの呪霊を祓い、人質にされた少年を救出する。釘崎は自らの信念と芻霊呪法を示す一方、別の場所では呪胎が特級呪霊へ変態し始める。",
+  "summary_full": "虎杖は屠坐魔と身体能力を使って呪霊を祓う。釘崎は釘と金槌を用いる芻霊呪法で別の呪霊を追い詰めるが、知性のある呪霊は救助対象の少年を人質にする。釘崎は少年を優先して武器を捨てるものの、呪霊は二人とも殺そうとする。そこへ虎杖が壁を破って介入し、呪霊の腕を引きちぎって少年を救出する。釘崎は切り離された腕を媒介に『共鳴り』を発動し、本体を祓う。釘崎が閉鎖的な故郷を離れた理由と、村へ来た沙織への思いも示される。任務を終えた三人の一方で、西東京市の少年院上空に呪胎が出現し、新たな緊急任務が発生する。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "野薔薇 and 悠仁 fight off the 呪霊 haunting an abandoned house. They manage to save a young boy inside and 野薔薇 shows her convictions. Elsewhere, a cursed womb begins to nurse a special grade curse.",
+    "summary_full_legacy": "野薔薇 is pitted against a more intelligent curse. 野薔薇 throws her cursed nails into the cursed mannequins head and blows it apart with 呪力. After appearing to exorcise the last curse, she notices a little boy hiding in the corner. He refuses to come out and she chalks it up to her being too intimidatingly beautiful. She leaves to find 悠仁, but the boy calls out her not to leave. 野薔薇 turns back around and is horrified to discover the boy is being held hostage by a more intelligent curse. This curse is low level but it has high enough intelligence to turn this situation against 野薔薇. She lays down her weapons and wishes she could see someone named 沙織 one last time. Suddenly, 悠仁 bursts through the wall and rescues the boy by chopping up the spirit's arm using his new weapon. 野薔薇 finishes off the curse using her 芻霊呪法 術式. Despite the boy being rescued, the curse nearly gets away. 野薔薇 uses her 術式 to exorcise the fleeing monster and proves to 五条 sensei that she's plenty crazy. 悠仁 asks why 野薔薇 wants to be a shaman and she explains that it was a chance to move to 東京 and stay true to herself. Back home she knew a girl who was from the city, a girl named 沙織. Elsewhere, a cursed womb starts to grow a special grade 呪霊. In July 2018, there's a report of three students going to deal with the curse. Of those three students... one died.",
+    "characters_raw_text": "釘崎野薔薇 伏黒恵 五条悟 虎杖悠仁",
+    "locations_raw_text": "東京都・六本木",
+    "battles_events_raw_text": "虎杖悠仁 & 釘崎野薔薇 vs. 呪霊 (終了)",
+    "techniques_raw_text": "釘崎野薔薇の術式 芻霊呪法 術式 共鳴り",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-d9180946ec"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase1": [
+    "呪霊が少年を人質にする",
+    "虎杖が少年を救出する",
+    "釘崎が共鳴りで呪霊を祓う",
+    "釘崎と沙織の過去が示される",
+    "少年院に呪胎が出現する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d321eb3a66",
+      "presence": "flashback"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-d321eb3a66"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-492818427b",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-492818427b",
+    "tech-2ac2471b12",
+    "tech-d9180946ec"
+  ],
+  "term_ids_verified_phase1": [
+    "term-ad8bd57883",
+    "term-252cb4a664",
+    "term-8914e5bc1a",
+    "term-d321a3c48f"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-01",
+    "src-manga-games-vol-01"
+  ]
+}

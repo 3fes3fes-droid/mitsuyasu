@@ -1,0 +1,132 @@
+{
+  "id": "ch-224",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 224,
+  "zero_number": null,
+  "label": "第224話",
+  "title_official": "人外魔境新宿決戦②",
+  "title_search_normalized": "人外魔境新宿決戦2",
+  "start_page": 127,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.127",
+  "summary_short": "五条と宿儺は接近戦で互いの能力を探り、領域展開を同時に発動する。無量空処と伏魔御厨子の必中効果が拮抗する。",
+  "summary_full": "五条と宿儺は接近戦で互いの能力を探り、領域展開を同時に発動する。無量空処と伏魔御厨子の必中効果が拮抗する。両者は接近戦と領域展延で無限への対処を探り、同時に領域を展開する。閉じた無量空処と開放型の伏魔御廚子は領域内部で必中が相殺される一方、結界条件の違いが次の攻防を左右する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The decisive battle, 五条悟 vs. 両面宿儺 , has begun! This fight between the strongest will shape the future, but 新宿 itself may not survive a clash between monsters.",
+    "summary_full_legacy": "The decisive battle between the strongest has begun! By releasing 虚式「茈」 , 五条 has landed the first strike and declared 宿儺 as the challenger. Amused, 宿儺 taunts 五条 for getting worked up over a surprise attack and compares him to a fancy fish that will get filleted the same as all the others who've come before. Taking his fighting stance, 宿儺 claims he'll start by peeling away at 五条's allure by ripping off his scales. 五条 responds by asking 宿儺 why he's still using 恵's likeness. He ensures 宿儺 that he has enough experience to go all out against 恵 and adds that it was a mistake for him to die once as 悠仁 . 五条 claims he'll worry about rescuing 恵 after the King of Curses is dead. 五条 uses Blue to manipulate the environment against 宿儺. The two strongest sorcerers clash and 五条 defends 宿儺's initial attacks with the 無限 and playful evasion. 五条 sends 宿儺 crashing through a building using Blue's field of attraction. 宿儺 recovers on a walkway bridge outside but 五条 breaks it apart with powerful stomps before throwing the wreckage with Blue. 宿儺 avoids damage from the debris and escapes to rooftops where he closes the distance on 五条 to get in range to fire 解 . 宿儺's slash a tall building behind 五条 in half, causing it to collapse. 新宿 can't survive this showdown! While the building is falling, 宿儺 engages 五条 using domain amplification . Rather than strengthen the 無下限呪術 to counter 宿儺's amplification, 五条 grabs 宿儺's fist and lifts them both into the descending structure. While 宿儺 pursues 五条 through a vertical corridor in the falling building, the latter grabs a door off the hinges and puts it between them. Both fighters charge up a 呪力 reinforced punch and unleash their power at the same time. The impact of their clash not only destroys the door but decimates the entire building. 五条 and 宿儺 both come out of the debris unscathed while only just getting warmed up. 五条 says he's going to blame all the damage and wreckage on his opponent. 宿儺 replies that no one will believe that because he's not at all blameless. This makes 五条 remember that 冥冥 is broadcasting the entire fight live to the public.",
+    "characters_raw_text": "五条悟 宿儺 伏黒恵 (言及のみ) 虎杖悠仁 (言及のみ) 冥冥 (言及のみ)",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 無下限呪術 術式 術式順転「蒼」 術式 術式順転「蒼」 宿儺の術式 領域展延 御廚子 解 解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-34f2643025",
+    "tech-4b0b9dc682",
+    "tech-90aaa17cfe",
+    "tech-ae26dbd914",
+    "tech-af5ae87255",
+    "tech-cf2f8dca4a",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56",
+    "term-d97934afcd"
+  ],
+  "key_events_verified_phase11": [
+    "五条と宿儺は接近戦で互いの能力を探り、領域展開を同時に発動する。",
+    "無量空処と伏魔御厨子の必中効果が拮抗する。",
+    "両者は接近戦と領域展延で無限への対処を探り、同時に領域を展開する。",
+    "閉じた無量空処と開放型の伏魔御廚子は領域内部で必中が相殺される一方、結界条件の違いが次の攻防を左右する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-baadf43d19"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-14f96ce777",
+    "tech-af5ae87255",
+    "tech-34f2643025",
+    "tech-cf2f8dca4a"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-af5ae87255",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-34f2643025",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-e6a70dfe56",
+    "term-d97934afcd"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

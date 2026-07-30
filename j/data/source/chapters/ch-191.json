@@ -1,0 +1,129 @@
+{
+  "id": "ch-191",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 191,
+  "zero_number": null,
+  "label": "第191話",
+  "title_official": "桜島結界①",
+  "title_search_normalized": "桜島結界1",
+  "start_page": 7,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.7",
+  "summary_short": "加茂憲紀は羂索に加茂家を掌握され、居場所を失っていた。桜島結界で真希と合流した加茂の前に、直哉の気配を持つ巨大な呪霊が現れる。",
+  "summary_full": "加茂憲紀は渋谷事変後に加茂家へ戻るが、羂索が総監部と一族を既に掌握していた。羂索は虎杖の処刑に乙骨を推した者たちも始末し、憲紀から居場所を奪う。11月14日の桜島結界では、真希と憲紀が行動を共にする。そこへ飛来した呪霊は、真希への執着と口調から禪院直哉だと判明する。直哉は呪力で殺されなかったため、死後に怨霊へ転じていた。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "After the 渋谷事変 , 加茂憲紀 realized that 羂索 already had puppets within his clan. He attempted to get the higher-ups to repeal their post-incident rulings to flush the enemy out but 羂索 was already several steps ahead of him. Without any options left, Noritoshi participates in the 死滅回游 alongside 真希 and they encounter a mysterious 呪霊 with a familiar presence.",
+    "summary_full_legacy": "The 25th head of the 加茂 clan, \"加茂憲紀\". On November 3rd at 11:05 P.M. at the 加茂 Main 家 in Kyoto, Noritoshi attempted to contact 楽巌寺嘉伸 as well as the other major clans. Upon returning to the house for the first time since the 渋谷事変, Noritoshi found that no one was home and an elderly attendant named Shino no longer recognized him. Noritoshi started to argue with Shino until he had a realization. He went deeper into the house and found none other than 羂索 casually relaxing in the master bedroom. 羂索 explained that Shino was manipulated to believe he was living in the world of a hundred and fifty years ago and told Noritoshi simply not to mind him. 羂索 said Noritoshi is later than he expected he understood due to the 東京 Metro being out of commission. Noritoshi believed the conservative faction was already compromised since 羂索, the original 加茂憲紀 , has connections to the 加茂 clan. However, there was an order out for 夏油傑 's execution, meaning there are conservatives who were uncorrupted. Noritoshi trusts 楽巌寺 and wanted to plead with him to work with the higher-ups to retract the notice for treating unsealing 五条 as a criminal act. 羂索 predicted all of this and already removed the conservative parties that ordered 夏油 and 悠仁 's executions. He completely took over the conservative faction and also took it upon himself to become the 25th head of the 加茂 clan instead of Noritoshi. The unknown curse moves at supersonic speed through the colony. 羂索 told Noritoshi that he had no place within the clan and that they'll never meet again. Noritoshi took this as a threat and activated 赤鱗躍動 in response. However, 羂索 didn't mean to provoke him and laughed him off. 羂索 doesn't view Noritoshi as a threat and told him to leave. 直哉 has morphed into a curse! Presently on November 12th, Noritoshi and 真希 take notice of the large 呪霊 that's just entered the 桜島結界. The curse has a strange presence, making Noritoshi and 真希 uneasy about what's really going on. The curse spots 真希 and flies down toward her at high speed. It moves so quickly that it breaks the sound barrier, shattering numerous windows while crashing through several buildings. It zooms right past Noritoshi before he can even react to what's happening. He turns around to see that 真希 is missing along with the curse, forcing him to admit that it's way too fast. The curse pins 真希 against a cliffside and she tries to punch it off her when the large worm-like creature suddenly disappears. The curse reappears next to 真希 and rams her back into the cliffside. 真希 can tell there is something unnatural about the curse's speed as she avoids a follow-up punch from her adversary. The worm-like curse swings the back of its body around to pin 真希 back against the wall and then reveals its true face. The face of 禪院直哉 emerges from one of the holes in the curse's face, revealing that he has been cursed after death and reincarnated as a vengeful spirit. 真希 recognizes 直哉's face as he claims to have \" come to this side too! \".",
+    "characters_raw_text": "Shino 楽巌寺嘉伸 (言及のみ) 加茂憲紀 羂索 加茂憲紀 (Ancestor) (言及のみ) 禪院真希 禪院直哉",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希 & 加茂憲紀 vs. 禪院直哉 (開始) 禪院真希 & 加茂憲紀 vs. 禪院直哉 (開始)",
+    "techniques_raw_text": "禪院直哉 術式 投射呪法 加茂 術式 赤血操術 赤鱗躍動 赤鱗躍動",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-25dbde0cc7",
+    "char-678a848346",
+    "char-830f121430",
+    "char-ac327bdd73",
+    "char-b3be077b48",
+    "char-ba1a693126",
+    "char-d7b7b23267",
+    "char-e2fb64f147"
+  ],
+  "technique_ids_candidate": [
+    "tech-a1213858c7",
+    "tech-cc23098baa",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-3777b71218"
+  ],
+  "key_events_verified_phase10": [
+    "羂索が加茂家と総監部を掌握していると判明する",
+    "加茂憲紀が一族での地位を失う",
+    "真希と加茂が桜島結界で合流する",
+    "飛来した呪霊の正体が禪院直哉と判明する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-830f121430",
+      "presence": "central"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "controls-kamo-clan"
+    },
+    {
+      "character_id": "char-d7b7b23267",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "vengeful-curse-revealed"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-830f121430",
+    "char-678a848346",
+    "char-d7b7b23267",
+    "char-ac327bdd73",
+    "char-24d736edff",
+    "char-b3be077b48"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "prepared"
+    },
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "curse-retains-technique"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-a1213858c7",
+    "tech-cc23098baa"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-811629f74a",
+    "term-c3dbb4af08",
+    "term-bb89ef15f2"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-hellominju-ch191",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

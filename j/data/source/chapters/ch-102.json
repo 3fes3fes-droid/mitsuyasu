@@ -1,0 +1,146 @@
+{
+  "id": "ch-102",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 102,
+  "zero_number": null,
+  "label": "第102話",
+  "title_official": "渋谷事変⑳",
+  "title_search_normalized": "渋谷事変20",
+  "start_page": 89,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.89",
+  "summary_short": "虎杖は壊相と血塗の最期を脹相へ伝え、兄弟を巡る戦いが始まる。冥冥と憂憂は領域内で疱瘡神の必中攻撃を受けながら攻略法を探す。",
+  "summary_full": "虎杖が壊相と血塗は死の間際に泣いていたと答えると、脹相は弟たちのため激怒して戦闘を本格化させる。疱瘡婆の領域では、標的が棺へ収められ墓石で埋められた後、三つ数えると死亡する手順が繰り返される。冥冥は憂憂を意図的に標的へ変え、簡易領域で時間を稼がせた隙に神風で疱瘡婆を祓い、羂索との直接対決へ進む。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 reveals 壊相 and 血塗 's last words to 脹相 , surfacing the fury of the proud elder brother. Meanwhile, trapped inside a graveyard domain , 冥冥 and 憂憂 put their lives on the line to exorcise Pseudo-夏油 's special grade disease curse .",
+    "summary_full_legacy": "\" This is your older brother!! \" 脹相 asks if his younger brothers had any last words before they died but 悠仁 doesn't know who he's talking about. 脹相 clarifies that he means the two people 悠仁 killed and the student laments about what happened with a sad expression on his face. He says they didn't really have last words but they did cry before they died. 脹相 is initially shocked and then quickly overcome with rage, causing the line of blood going horizontally across his nose to bubble and distort in shape. 脹相 asks 壊相 and 血塗 to watch over him as blood behind him forms an intimidating face shaped by his malice. He tells his younger brothers to take a good look at their older brother while 悠仁 stands ready to fight. Meanwhile, inside the 疱瘡神 's 領域展開, 冥冥 is momentarily trapped underground beneath another one of the disease curse's gravestones. The 呪霊 counts down from three but 冥冥 breaks out of the trap in time. She leaps toward her enemy and attempts to swing her axe, but once again she's instantly trapped inside a coffin by the domain's automatic hit. Having experienced this a few times now in this fight, 冥冥 understands the process of the special grade's technique. 冥冥 fighting against the 疱瘡神's domain. First, the target of the domain is trapped inside a coffin and then buried underground when their hit by the weight of the large gravestone. Lastly, the curse counts down from three and the target is infected will smallpox. The curse hits Mei's coffin with another gravestone but this time she immediately cuts her way out. She believes this part of the process is the most annoying and fears she won't be able to fight Pseudo-夏油 freely if she's hit again. 冥冥 also deduces that the domain can only target one person at a time and devises a counterattack centered around that. The curse instinctively targets the person with the stronger 呪力 . Only a single crow was caught inside the domain and 冥冥 needs the disease curse to focus on 憂憂 before she can utilize the bird. She asks her little brother if she's willing to die for her and he replies that he's more than happy to do anything for her. 憂憂 helps his sister put her plan to counter the domain into action. 冥冥 flees off to the side while 憂憂 flares up his 呪力. The disease curse notices the swelling energy and traps 憂憂 inside the coffin. A single hit by the gravestone would be enough to kill 憂憂, but as the curse chants grave and forms the requisite hand sign, 冥冥 suddenly slices its hands off with her axe. The grade 1 jujutsu sorcerer tells the disease curse that 憂憂's role is more than just that of a pack mule. 憂憂 proves this by activating 新陰流「簡易領域」 to protect himself. When 冥冥 asked if 憂憂 was willing to die, he realized this meant he's allowed to use jujutsu . 冥冥 says that his role is to counter domains and she doesn't like to be indebted to anyone. \" Not bad... for a jujutsu sorcerer of this era. \" The special grade disease curse heals its hands quickly and reaches out to attack 冥冥. Suddenly, the single bird flies through the back of the 呪霊, piercing and exorcising it in a single ferocious blow. While the disease curse is dealt a fatal blow, 冥冥's crow spontaneously dies as well. 冥冥 asks the quickest way to raise one's strength as a sorcerer and Ui Uii answers that would be a 縛り with one's life as the tradeoff for more power. 冥冥's innate technique is 黒鳥操術 . Her extension technique, Bird Strike , exceeds the limits of the crow's 呪力 by forcing it to commit suicide with a kamikaze-like attack. No one other than 五条悟 has ever survived the devastating attack. With 夏油's 呪詛師 and his disease curse both defeated by 冥冥, she declares it time for the main act. She calls a flock of crows to her side that fill the underground subway and asks if they're ready to die for her. Pseudo-夏油 comes to confront her and admits that she's not bad for a jujutsu sorcerer of this era.",
+    "characters_raw_text": "虎杖悠仁 脹相 壊相 (回想) 血塗 (回想) 冥冥 憂憂 Pseudo-夏油",
+    "locations_raw_text": "渋谷 渋谷駅 副都心線 ホーム 渋谷駅 副都心線 ホーム 副都心線 ホーム",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 vs. 脹相 冥冥 & 憂憂 vs. 疱瘡神 (終了) 虎杖悠仁 vs. 脹相 冥冥 & 憂憂 vs. 疱瘡神 (終了)",
+    "techniques_raw_text": "冥冥の術式 黒鳥操術／神風／疱瘡神 術式 名称不明の生得術式 術式 名称不明 領域展開 憂憂の術式 新陰流「簡易領域」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-6534bbe6c9",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-92d504ce2f",
+    "char-964e851215",
+    "char-baadf43d19",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-99fb78ca51",
+    "tech-ab3bfa159a",
+    "tech-e28246ff34"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase6": [
+    "脹相が弟たちの最期を知る",
+    "疱瘡婆の領域の必中手順が判明する",
+    "憂憂が簡易領域で必中をしのぐ",
+    "冥冥が神風で疱瘡婆を祓う",
+    "冥冥が羂索と対峙する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-92d504ce2f",
+      "presence": "exorcised"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-as-suguru-geto"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-baadf43d19",
+    "char-851111b10d",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-07918bda3f",
+    "char-e41848a08f",
+    "char-92d504ce2f",
+    "char-678a848346"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-phase6-smallpox-domain",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-ab3bfa159a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-99fb78ca51",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-phase6-smallpox-domain",
+    "tech-ab3bfa159a",
+    "tech-99fb78ca51",
+    "tech-e28246ff34"
+  ],
+  "term_ids_verified_phase6": [
+    "term-e6a70dfe56",
+    "term-d97934afcd",
+    "term-phase6-special-disease-curse",
+    "term-c5958133bc"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

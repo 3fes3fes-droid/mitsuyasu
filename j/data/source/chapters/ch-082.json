@@ -1,0 +1,133 @@
+{
+  "id": "ch-082",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 82,
+  "zero_number": null,
+  "label": "第82話",
+  "title_official": "宵祭り―参―",
+  "title_search_normalized": "宵祭り―参―",
+  "start_page": 47,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "evening-festival",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.47",
+  "summary_short": "真人は領域展開で与幸吉を取り込むが、簡易領域を使った反撃を受ける。最終的に真人が勝利し、与幸吉は情報を伝えられないまま死亡、10月31日の渋谷事変が始まる。",
+  "summary_full": "真人の自閉円頓裹に包まれた試作0号は、操縦席へ展開した簡易領域によって必中の無為転変を一度防ぐ。幸吉は別の筒を真人へ突き刺し、内側から簡易領域を発生させて肉体を破裂させる。真人を倒したと判断し羂索へ残りの呪力を向けるが、真人は自ら弾けて領域を解いたふりをしていた。操縦席へ侵入した真人に幸吉は最後の筒を撃ち込もうとするものの届かず、殺害される。情報を五条と仲間へ直接届けられないまま、十日後の渋谷事変へ時間が進む。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Trapped inside 真人 's 自閉円頓裹 幸吉 appears to have lost it all in just a moment. However, 幸吉 survives and turns the tables using 新陰流「簡易領域」 . The Evening Festival reaches its conclusion and the promised day in 渋谷 finally arrives.",
+    "summary_full_legacy": "新陰流「簡易領域」! 無為転変 automatically hits within 真人's 領域展開 . 究極メカ丸 装甲傀儡 究極メカ丸・絶対形態 collapses, appearing to signal 幸吉's demise. Confident in his automatic win strategy with 領域展開, 真人 turns his back to the giant 呪骸 and states 幸吉 shouldn't put so much faith into a strategy. October 31st is in ten days, leaving 真人 plenty of time to regenerate 呪力 after using 領域展開. Suddenly, メカ丸 gets back up stabs the spike on his middle finger through 真人's back. As he's lifted in the air by the giant hand with a spike piercing his stomach, 真人 turns his head with a confused look. 幸吉 meets his glare from within メカ丸's cockpit and recalls having seen it all. The technique tubes contain 簡易領域, the domain for the weak invented in the 平安時代 by a jujutsu sorcerer looking to protect their followers during the Golden Age of Jujutsu. There are four tubes that contain 簡易領域, the first failed, the second protected the cockpit, and the appears to finish off 真人 for good. 真人 turns the tables on 幸吉 once again. メカ丸 roars and 幸吉 believes he's won. Pseudo-夏油 is impressed the jujutsu sorcerer managed to use 簡易領域. 幸吉 turns his weapons towards 夏油, ready to use his remaining nine years to finish him off. However, the driver's area abruptly crumbles away from the impact of 真人's enlarged fist. Horrified, 幸吉 looks out of the broken cockpit to see 真人's deranged smile. 幸吉's dream comes to a tragic end. 幸吉 takes the last technique tube and desperately rushes to stab 真人 with it. 真人 uses a grotesque millipede-like form to crawl into the cockpit area and their hands pass each other at the same time. 幸吉 recalls talking with 霞 about her coming to visit her and getting to know one another better. She made a promise to come to see him, but 真人 has ensured that will never happen. メカ丸 collapses for good, with it's pilot's blood dripping from the puppet's giant head. 真人 and 夏油 make their leave following the fight. 夏油 suggests 真人 was cutting it a little close but 真人 believes it was all according to plan. He's glad to have seen 簡易領域, a splendid technique, before the main event in 渋谷. 夏油 claims his curse users have finished adjusting the terms of the 嘱託式の帳s and there shouldn't be any issue activating them with empowered words. Ten days later, the fateful day arrives: October 31, 2018, in 渋谷 .",
+    "characters_raw_text": "真人 与幸吉 Pseudo-夏油 三輪霞 (回想)",
+    "locations_raw_text": "不明な森林 渋谷 (カメオ登場)",
+    "battles_events_raw_text": "与幸吉 vs. 真人 (終了)",
+    "techniques_raw_text": "与幸吉の術式 傀儡操術／極ノ番 メカ丸 装甲傀儡 究極メカ丸・絶対形態 簡易領域 簡易領域 真人の術式 領域展開：自閉円頓裹 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "evening-festival",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-678a848346",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-71a2d65cad",
+    "tech-870eff819a",
+    "tech-c2ae5ed6dc",
+    "tech-e28246ff34",
+    "tech-f0f06d52dc"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56",
+    "term-e28246ff34",
+    "term-33c0eaca30"
+  ],
+  "key_events_verified_phase5": [
+    "簡易領域で領域内の無為転変を防ぐ",
+    "真人が死を偽装して操縦席へ侵入する",
+    "与幸吉が真人に殺害される"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-as-suguru-geto"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-18d7c58412",
+    "char-dad71c9f31",
+    "char-678a848346",
+    "char-ebd2a8efa8"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-f0f06d52dc",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "used-for-defense-and-attack"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used-to-kill"
+    },
+    {
+      "technique_id": "tech-phase5-mechamaru-mode-absolute",
+      "relation": "destroyed"
+    },
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "posthumous-preparation-context"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-f0f06d52dc",
+    "tech-e28246ff34",
+    "tech-71a2d65cad",
+    "tech-phase5-mechamaru-mode-absolute",
+    "tech-870eff819a"
+  ],
+  "term_ids_verified_phase5": [
+    "term-phase5-new-shadow-style",
+    "term-e28246ff34",
+    "term-e6a70dfe56",
+    "term-65867f280c",
+    "term-40e6a89fc4",
+    "term-33c0eaca30"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

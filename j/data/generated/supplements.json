@@ -1,0 +1,79 @@
+[
+  {
+    "id": "supp-epilogue-ozawa",
+    "title": "エピローグ 小沢優子",
+    "volume": 30,
+    "kind": "volume-drawn-epilogue",
+    "summary": "仙台へ戻った小沢優子は、祖父の家の整理に来ていた虎杖と偶然再会する。二人は渋谷後の無事を確かめ、雪を今も特別に感じるという中学時代の会話を重ね直す。",
+    "character_ids": [
+      "char-9469499a06",
+      "char-baadf43d19",
+      "char-5a0f7ded8d",
+      "char-3c1852867d"
+    ],
+    "source_refs": [
+      "src-shueisha-vol-30",
+      "src-hellominju-epilogue",
+      "src-oricon-epilogue-announcement"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages"
+  },
+  {
+    "id": "supp-epilogue-panda",
+    "title": "エピローグ パンダ",
+    "volume": 30,
+    "kind": "volume-drawn-epilogue",
+    "summary": "パンダは2023年に活動を停止して五条家の忌庫へ登録され、所有権は当主代理の乙骨憂太へ帰属する。2080年、乙骨の孫たちが保管されたパンダへ触れると、パンダは今も時折目覚めて言葉を発する。",
+    "character_ids": [
+      "char-672d843799",
+      "char-c28763b98a",
+      "char-3dec7ed6f8",
+      "char-056bc02c9c"
+    ],
+    "term_ids": [
+      "term-38f3fd22bf"
+    ],
+    "source_refs": [
+      "src-shueisha-vol-30",
+      "src-hellominju-epilogue",
+      "src-oricon-epilogue-announcement"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages"
+  },
+  {
+    "id": "supp-epilogue-nobara",
+    "title": "エピローグ 釘崎野薔薇",
+    "volume": 30,
+    "kind": "volume-drawn-epilogue",
+    "summary": "五条の遺言を無視したままにしないため、釘崎は離れて暮らす母を訪ねる。母への期待や怒りを否定し、祖母も呼び出して、自分の価値観を母親から切り離す。",
+    "character_ids": [
+      "char-5a0f7ded8d",
+      "char-19f7e73c60",
+      "char-486f7592ff",
+      "char-17322e71e5"
+    ],
+    "source_refs": [
+      "src-shueisha-vol-30",
+      "src-hellominju-epilogue",
+      "src-oricon-epilogue-announcement"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages"
+  },
+  {
+    "id": "supp-epilogue-uraume",
+    "title": "エピローグ 裏梅",
+    "volume": 30,
+    "kind": "volume-drawn-epilogue",
+    "summary": "平安時代、無意識に周囲を凍死させて孤立していた幼い裏梅を宿儺が拾う。宿儺は肉の保存を任せ、裏梅が料理と解体の才能を示したことで、二人の主従関係が始まる。",
+    "character_ids": [
+      "char-000313127b",
+      "char-2b8d365a39"
+    ],
+    "source_refs": [
+      "src-shueisha-vol-30",
+      "src-hellominju-epilogue",
+      "src-oricon-epilogue-announcement"
+    ],
+    "verification": "phase11-crosschecked-secondary-not-primary-pages"
+  }
+]

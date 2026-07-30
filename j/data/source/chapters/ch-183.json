@@ -1,0 +1,113 @@
+{
+  "id": "ch-183",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 183,
+  "zero_number": null,
+  "label": "第183話",
+  "title_official": "東京第２結界③",
+  "title_search_normalized": "東京第2結界3",
+  "start_page": 51,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.51",
+  "summary_short": "シャルルは漫画のコマで未来を読む術式を使う。秤は領域展開「坐殺博徒」を発動し、パチンコを模した抽選で大当たりを狙う。",
+  "summary_full": "坐殺博徒の必中効果によって、私鉄純愛列車を題材としたパチンコの規則がシャルルへ伝達される。秤は扉や疑似連などの演出を現実へ出現させ、抽選が外れても高速で次の回転へ移る。シャルルは未来視で大当たりを否定し続けようとするが、演出と攻撃を重ねる秤に追い詰められる。最終的に秤は大当たりを引き、無制限の呪力をまとった状態でシャルルを退ける。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "秤 traps シャルル inside his gambling-based domain and turns their fight into a game of luck. To achieve victory, he needs to use his skills to take hold of his good fortune and hit the jackpot.",
+    "summary_full_legacy": "秤 brings シャルル into his pachinko-themed domain. The guaranteed hit of 坐殺博徒 instantly transfers its rules directly into シャルル' mind. 秤's domain is based on a pachinko machine and hitting the jackpot guarantees him a bonus. The flow and rules of the gambling-themed domain are plentiful, irritating シャルル with a load of information dumped into his brain. Both fighters descend into the starting stage of 坐殺博徒 and 秤 begins by flicking a reserve ball at シャルル, which he blocks with G戦杖 . 秤 follows up by conjuring shutter doors that nearly close on シャルル's legs but he avoids it by jumping away. While evading, シャルル analyzes the game flow and recognizes both of 秤's attacks so far have been visual effect indicators. According to the rules, once one or more indicators have been generated, riichi mode begins. 秤 slots two fours, which feature the character Hiro Kato and the stage automatically changes to the low-chance transit card riichi scenario. If 由基 (the main character of Private Pure Love Train) arrives at work on time, 秤 hits the jackpot. シャルル attempts to attack 由基 to ensure he's late, but the riichi scenario is just a visualization and obstruction is pointless. All シャルル can do is observe the scenario or attempt to defeat 秤 before it ends. 秤 goes for the jackpot. シャルル can't use his G戦杖 to predict 秤's indicators or the scenario outcome. However, he's aware that the indicators 秤 used were green and red, meaning the scenario has a high chance of failing. 由基 fails to get to work on time and 秤 slots a five instead of three consecutive fours, returning both fighters to the starting stage. This will repeat until either 秤 hits the jackpot or シャルル defeats him. Despite things going well for him thus far, シャルル expresses his irritation with the appropriation of Candy Nakamura's Private Pure Love Train manga. He attacks 秤 by rapidly thrusting his spear at him and points out that the latter only has a one in two hundred and thirty-nine chance to hit the jackpot. シャルル also boasts he can still see his opponent's immediate future and won't allow the game to go on forever. 秤 taunts him for being unable to land a hit despite being able to see the future and conjures gold shutter doors, indicating a high chance of the next riichi scenario resulting in a jackpot. \" If this was a game of skill instead of luck you might have won. \" Using the doors to hide his movements, 秤 slips behind シャルル and claims that he's never gone over thirty spins whether going easy or all-in on the game. He throws a punch that's blocked by シャルル's spear and activates another riichi scenario. This time he slots two threes, featuring the character Yume Asagiri and the stage changes into the final train scenario with an eighty percent chance of success. 由基 and Yume are on opposite sides of the train platform and if Yume isn't on the last train when it departs, 秤 will hit the jackpot. 秤 continues to attack as the scenario plays out, making it difficult for シャルル to focus on the future while trying to analyze the situation. \" Wrong. I use skill to grab ahold of luck! \" The final train departs and シャルル yells for Yume to leave, hoping that his opponent missed the jackpot again. Yume appears to have disappeared from the train station and シャルル assumes that the jackpot was missed. Invigorated, シャルル manages to land a solid blow on 秤, cutting deep into the side of the latter's torso. Confident he's won, シャルル taunts 秤 for relying on luck instead of skill. However, Yume appears on the same platform as 由基 and reveals that she indeed missed the train after all. 秤 slots three consecutive threes and hits the jackpot, giving him enough power to break through G戦杖 with a single kick to シャルル' face, defeating him. Victorious, 秤 replies to シャルル's earlier taunt by stating that he uses skill to grab ahold of luck.",
+    "characters_raw_text": "シャルル ベルナール 秤金次",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游 秤金次 vs. シャルル ベルナール (終了) 秤金次 vs. シャルル ベルナール (終了)",
+    "techniques_raw_text": "シャルル ベルナールの術式 G戦杖 秤金次の術式 領域展開：坐殺博徒",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-0fd233938d",
+    "char-207d1e2959",
+    "char-4e5593708e",
+    "char-8e2aed473c",
+    "char-9bdffe1087",
+    "char-9d5781cc30",
+    "char-9f27f7b399",
+    "char-a6a1c5d1be",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-42c5acf52c",
+    "tech-4b0b9dc682"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase10": [
+    "坐殺博徒の規則が必中効果で伝達される",
+    "秤が演出を利用して抽選を繰り返す",
+    "シャルルが未来視で大当たりを阻止しようとする",
+    "秤が大当たりを引いてシャルルを退ける"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "domain-user"
+    },
+    {
+      "character_id": "char-4e5593708e",
+      "presence": "defeated"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-dea43d7fc7",
+    "char-4e5593708e"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-39d2b30b48",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-42c5acf52c",
+      "relation": "future-sight-used"
+    },
+    {
+      "technique_id": "tech-955be682d2",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-39d2b30b48",
+    "tech-42c5acf52c",
+    "tech-955be682d2"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-d97934afcd",
+    "term-1c3b13971d",
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

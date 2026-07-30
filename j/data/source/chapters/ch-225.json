@@ -1,0 +1,210 @@
+{
+  "id": "ch-225",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 225,
+  "zero_number": null,
+  "label": "第225話",
+  "title_official": "人外魔境新宿決戦③",
+  "title_search_normalized": "人外魔境新宿決戦3",
+  "start_page": 147,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.147",
+  "summary_short": "領域内部では必中効果が相殺されるが、伏魔御厨子は閉じた結界の外側から無量空処を破壊する。五条は術式が焼き切れた状態で宿儺の斬撃を受ける。",
+  "summary_full": "領域内部では必中効果が相殺されるが、伏魔御厨子は閉じた結界の外側から無量空処を破壊する。五条は術式が焼き切れた状態で宿儺の斬撃を受ける。伏魔御廚子の有効範囲は無量空処の結界外にも及び、外側から結界を破壊する。五条は術式が焼き切れた状態で無数の斬撃を受ける。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "As the battle of the strongest wreaks havoc on 新宿 , 悟's allies observe the battle and comment on every possible outcome. However, even they can't predict the unexpected result of a clash of their domains .",
+    "summary_full_legacy": "Sorcerers affiliated with 呪術高専 and company are gathered together around a pillar of television monitors and speakers to watch 冥冥's stream of the fight between 五条悟 and 宿儺 . Everyone learns 宿儺 can expand a domain without closing the barrier, which should be impossible. After watching the early stages of the battle, they discuss 宿儺's usage of domain amplification and its ability to use it to bypass 五条's 無限 . 天使 even believes 宿儺 will win if he finds another method to bypass 無限 other than amplification. Curious as to why neither sorcerer has expanded their domain, the group also theorizes on the possible outcome of a domain clash between the two. This leads 脹相 to reveal that 宿儺 can expand his domain without enclosing the barrier . This surprises many of the sorcerers, who believe something like that should be impossible. 日下部 uses several examples to explain how absurd an achievement that is, including attempting to hold water without a vessel or painting a picture without a canvas. 五条 and 宿儺 expand their domains at the same time. 脹相 also reveals that 羂索 also achieved a similar feat during his fight with 九十九由基 . 冥冥 believes that if 由基 had expanded her domain, it would've resulted in a clash of guaranteed hits within her barrier, a more favorable outcome than resisting with simple domain . 猪野 points out how casually they're discussing domain and believes that repeatedly expanding a domain could even deplete 五条's 呪力 . 狗巻 and 憂太 disagree, believing that 五条's 呪力 efficiency would never allow him to run out. With 無量空処 shattered, 宿儺's savage blade reaches 五条! 鹿紫雲一 is frustrated by 宿儺's strength and his ability to swap between amplification and an innate technique , comparing him to a god. He believes 宿儺 would best 五条 in efficiency if it wasn't for the 六眼 . 憂太 adds that 宿儺 has twice as much 呪力 overall than even himself, meaning a lack of 呪力 isn't the reason they haven't opened their domains yet. As 日車 comments that the clash is about to begin, 五条 and 宿儺 expand their domains at the same time. 無量空処 and 伏魔御廚子 are equally refined, leading to overlapping guaranteed hits within 五条's barrier. The can't-miss attack will only strike if one of the fighters takes heavy damage and can no longer maintain their domain. However, outside the barrier is a different situation entirely. The effective range of 伏魔御廚子 extends outside 五条's barrier, allowing 宿儺 to rip it apart from the outside. 五条's barrier shatters from the barrage of slashing attacks and his neck is immediately slashed by 宿儺's 術式.",
+    "characters_raw_text": "来栖華 虎杖悠仁 脹相 憂憂 冥冥 日下部篤也 三輪霞 日車寛見 西宮桃 秤金次 星綺羅羅 鹿紫雲一 乙骨憂太 禪院真希 パンダ 狗巻棘 家入硝子 猪野琢真 五条悟 宿儺",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 領域展開：無量空処 無下限呪術 (言及のみ) 無限 (言及のみ) 無限 (言及のみ) 宿儺の術式 領域展延 (言及のみ) 領域展開：伏魔御廚子 御廚子",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-484fd66a1e",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-34f2643025",
+    "tech-4b0b9dc682",
+    "tech-8b181ff845",
+    "tech-ae26dbd914",
+    "tech-af5ae87255",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-d97934afcd"
+  ],
+  "key_events_verified_phase11": [
+    "領域内部では必中効果が相殺されるが、伏魔御厨子は閉じた結界の外側から無量空処を破壊する。",
+    "五条は術式が焼き切れた状態で宿儺の斬撃を受ける。",
+    "伏魔御廚子の有効範囲は無量空処の結界外にも及び、外側から結界を破壊する。",
+    "五条は術式が焼き切れた状態で無数の斬撃を受ける。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-484fd66a1e",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d4a4bc45c6",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-14f96ce777",
+    "tech-af5ae87255"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-af5ae87255",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

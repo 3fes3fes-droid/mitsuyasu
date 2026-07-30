@@ -1,0 +1,95 @@
+{
+  "id": "ch-242",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 27,
+  "number": 242,
+  "zero_number": null,
+  "label": "第242話",
+  "title_official": "舞い上がれ!!",
+  "title_search_normalized": "舞い上がれ!!",
+  "start_page": 109,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-27"
+  ],
+  "source_locator": "単行本27巻 目次 p.109",
+  "summary_short": "髙羽の術式によって、羂索との戦いはクイズ、病院、海、昔話など次々に場面を変える。羂索は術式を終わらせるには、髙羽の笑いへの欲求を満たす必要があると悟る。",
+  "summary_full": "髙羽の術式によって、羂索との戦いはクイズ、病院、海、昔話など次々に場面を変える。羂索は術式を終わらせるには、髙羽の笑いへの欲求を満たす必要があると悟る。超人の世界は救急病院、クイズ番組、海、昔話などへ連続して変化する。羂索は無理に殺すより、髙羽が望む「共に笑う舞台」を完成させる必要を悟る。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "With his confidence restored, 高羽史彦 takes the fight to 羂索 and manifests a spectacle beyond comprehension.",
+    "summary_full_legacy": "\"WATCH OUT!!!\" Determined to defeat 高羽, 羂索 summons a special grade rebel spirit, Akuro-o Otake . 高羽 comedically exorcises the 呪霊 in a single hit by suddenly running it over with a truck. Portraying a drunk driver, 高羽 tells 羂索 not to play in the road. Having also been hit by the truck, 羂索 responds by telling the drunkard to take responsibility. He becomes a cop and asks 高羽 to take a breathalyzer test, instructing him to blow into a bag with a fish and water inside it. 羂索 explains that if the fish dies, then 高羽 fails the test. However, 高羽 points out that this is a setup because the fish is already half dead. 高羽 and 羂索's battle devolves further into comedy. 高羽 and 羂索, now dressed as doctors, are transferred to the hospital to treat the fish, which is now far larger than it was a moment ago. 羂索 uses the defibrillator to revive it but shocks 高羽 instead. The fish dies, becoming bones, much to their dismay. 羂索 turns into a nurse and 高羽 tells him to gather the other nurses so they can all fawn over him. 羂索 refuses and 高羽 tries to hit him with this stethoscope out of frustration. 羂索 avoids the hit and 高羽 becomes irate because his nurse isn't helping treat his depression. 羂索 argues that 高羽 is plenty lively and they decide to settle the matter with a game of rock, paper, scissors. 羂索 and 高羽 thoroughly enjoying themselves. Back in their normal garb, 羂索 and 高羽 dance as they prepare to play. They both throw scissors and stick their fingers in each other's noses. This damages 羂索, momentarily snapping him back to reality. He realizes that 高羽's 術式 is beyond simply manifesting his imagination. Even 羂索's mind is compelled by the technique and forced to participate, dubbing it a form of soul resonance. Next, the two randomly participate in a game show and 高羽 tells 羂索 not to get questions wrong on purpose because that type of comedy isn't entertaining. 羂索 gets the first question wrong and 高羽 berates him for breaking his promise so quickly. 羂索 gets the next question correct and then they're tasked with running towards two doors to choose the answer for the final quiz. However, on his way, 高羽 notices a cat in the street about to get hit by a car. The stars take the stage for their final battle!!. 高羽 rushes to save the cat but it turns out to be 羂索 with cat ears making a goofy face. 高羽 gets hit by the car but then takes over the role of the cat needing to be saved. He's suddenly drowning in a large body of water and 羂索 uses a surfboard to try and rescue him. 高羽 gets his revenge by ramming into 羂索 with a jet ski. The two of them laugh and splash each other with the water as an expression of their overwhelming joy. 羂索 even admits this is the most fun he's had in centuries, claiming this fight has made all the trouble of establishing the 死滅回游 worth it. 羂索 tries to drown 高羽 by forcing his head underwater but he quickly gets free and reveals the water is actually Fanta . 羂索 realizes that he's going to lose if the fight goes on like this. 高羽 isn't taking any damage while 羂索's injuries are piling up. 羂索 decides this isn't a battle that can't be won with violence. Instead, 羂索 must satisfy 高羽's love for comedy. Rather than continuing to fight back, 羂索 invites 高羽 to be his partner for a comedy routine. 高羽 agrees and the two of them take the stage as a comedic duo.",
+    "characters_raw_text": "羂索 高羽史彦",
+    "locations_raw_text": "岩手県・御所湖結界",
+    "battles_events_raw_text": "高羽史彦 vs. 羂索",
+    "techniques_raw_text": "高羽史彦の術式 超人 羂索の術式 呪霊操術 反逆の呪霊「悪路王大嶽」 反逆の呪霊「悪路王大嶽」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "takaba-kenjaku",
+  "character_ids_candidate": [
+    "char-02aa196fbb",
+    "char-2947dc1a21",
+    "char-678a848346"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-4b352da6cb"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "髙羽の術式によって、羂索との戦いはクイズ、病院、海、昔話など次々に場面を変える。",
+    "羂索は術式を終わらせるには、髙羽の笑いへの欲求を満たす必要があると悟る。",
+    "超人の世界は救急病院、クイズ番組、海、昔話などへ連続して変化する。",
+    "羂索は無理に殺すより、髙羽が望む「共に笑う舞台」を完成させる必要を悟る。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-02aa196fbb",
+    "char-2947dc1a21",
+    "char-678a848346"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2947dc1a21",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-4b352da6cb"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-4b352da6cb",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-27",
+    "src-manga-games-vol-27",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "ch-217",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 217,
+  "zero_number": null,
+  "label": "第217話",
+  "title_official": "浴②",
+  "title_search_normalized": "浴2",
+  "start_page": 173,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "bath-return",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.173",
+  "summary_short": "万は平安時代から宿儺へ一方的な愛情を抱き、勝者が敗者との結婚条件を決める戦いを提案する。宿儺は万を殺して伏黒の魂を完全に沈めようとする。",
+  "summary_full": "万は平安時代から宿儺へ一方的な愛情を抱き、勝者が敗者との結婚条件を決める戦いを提案する。宿儺は万を殺して伏黒の魂を完全に沈めようとする。宿儺は御厨子を使わず十種影法術だけで万を倒すと宣言し、それが伏黒の魂へより深い打撃を与える手段になると考える。万は勝者が敗者との婚姻条件を決める約束を持ち出す。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "万 has been infatuated with 宿儺 for over a thousand years but the sentiment is one-sided. 宿儺 is only interested in killing her to crush 恵's soul. However, 宿儺's demented plans don't deter 万 from her fantasy about their future.",
+    "summary_full_legacy": "万's fantasy of her victory and marriage to 宿儺. 万 asks 宿儺 why he's keeping 恵's face when he has the power over his vessel to change it at any time. 宿儺 simply spins this question back on 万, to whom this also applies. This amuses her and she says that she agrees using these appearances for now will serve them better later. With utter disregard for 万's confidence, 宿儺 asks if she truly believes she'll live until later. This provokes 万 to attack with two thick streams of black liquid metal. 宿儺 avoids the thrusting streams of liquid metal but 万 rides atop one of them to close the distance. 宿儺 and 万 exchange blows, parrying one another until 宿儺 kicks her back. However, 万 nullifies the impact by constructing a square-shaped plate of metal to block the impact. She teases 宿儺 and asks him why she noticed him when not even the 天使 did before. 宿儺 isn't interested in talking but 万 continues on, giving credit to love. She proclaims that she wants to kill 宿儺 and she wants him to be the one to kill her. She asks 宿儺 what he'll give her if she defeats him and he responds with \"everything\". 宿儺 uses only the 十種影法術 術式 to fight. 宿儺 knows that losing would mean death and it doesn't matter what happens at that point. 万 asks if that includes marriage and 宿儺 gives her a disinterested response. 万 takes this and runs with it, forming a 縛り between them. She rambles on with excitement about their marriage and details her fantasy about it with one addition after another. 万 exclaims that she's pumped to fight now and 宿儺 responds to her enthusiasm by re-igniting the battle. 宿儺 summons 玉犬 using the unstable form of his shadow instead of fully manifesting the 式神. The shadow dogs attack 万 but she blasts them away with a wave of spikes created from her liquid metal. A larger shadow similar to 玉犬: 渾 envelops 宿儺 and tries to crush 万. She avoids it and counterattacks with a spiked cage made of liquid metal but 宿儺 avoids that as well. \"Do you really think you can defeat me without using your 御廚子!?\" 万 begins to send spear-tipped streams of liquid metal at 宿儺 before suddenly stopping. She asks why 宿儺 is only using his vessel's innate technique and not his own 御廚子 . 宿儺 refuses to use his own technique because he wants 津美紀's blood to be on 恵's hands in a sense by only using the 十種影法術 術式 . This infuriates 万, who finds it disrespectful for 宿儺 to touch his future wife with someone else's technique. Not only that, she's also insulted that 宿儺 believes he could beat her without using his 御廚子. 万's innate technique is 構築術式 , allowing her to replicate almost any substance with enough practice. Having constructed numerous weapons on her way to becoming a seasoned sorcerer of the 平安時代, she narrowed down specific creations to make up her arsenal of choice. This heavily features her liquid metal, which has a changeable shape and volume with stable physical properties due to semi-autonomous 呪力 . She uses that to create insect armor that appropriates numerous biofunctions from multiple strands of evolution. In response, 宿儺 魔虚羅's wheel above his head and says this is a perfect time for a test drive.",
+    "characters_raw_text": "宿儺 万 裏梅 (言及のみ)",
+    "locations_raw_text": "仙台結界",
+    "battles_events_raw_text": "死滅回游 宿儺 vs. 万 宿儺 vs. 万",
+    "techniques_raw_text": "宿儺の術式 十種影法術 術式 (恵経由) 玉犬 御廚子 (言及のみ) 玉犬 万の術式 構築術式 Liquid Metal Insect Armor Liquid Metal Insect Armor",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "bath",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-9fccad3ed6"
+  ],
+  "technique_ids_candidate": [
+    "tech-59d1d0e465",
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986"
+  ],
+  "term_ids_candidate": [
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase11": [
+    "万は平安時代から宿儺へ一方的な愛情を抱き、勝者が敗者との結婚条件を決める戦いを提案する。",
+    "宿儺は万を殺して伏黒の魂を完全に沈めようとする。",
+    "宿儺は御厨子を使わず十種影法術だけで万を倒すと宣言し、それが伏黒の魂へより深い打撃を与える手段になると考える。",
+    "万は勝者が敗者との婚姻条件を決める約束を持ち出す。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-000313127b",
+    "char-0d3bc6b0dd",
+    "char-2b8d365a39",
+    "char-9fccad3ed6"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-000313127b",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-7c3237f986",
+    "tech-6c8be9e9eb"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-6c8be9e9eb",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

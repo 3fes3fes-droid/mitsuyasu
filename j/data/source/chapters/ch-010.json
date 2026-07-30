@@ -1,0 +1,160 @@
+{
+  "id": "ch-010",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 10,
+  "zero_number": null,
+  "label": "第10話",
+  "title_official": "雨後",
+  "title_search_normalized": "雨後",
+  "start_page": 47,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.47",
+  "summary_short": "虎杖の死後、真人・漏瑚らは人類と呪術師に対する計画を進める。五条は少年院任務が虎杖を殺すため仕組まれたと知り、伏黒と釘崎は交流会に向けて二年生との訓練を始める。",
+  "summary_full": "少年院事件の後、夏油傑の姿をした術師は漏瑚・花御・陀艮らと接触し、人間に代わって呪いが支配する世界を目指す漏瑚へ、勝利の条件は五条悟を行動不能にすることと、両面宿儺を味方へ引き入れることだと説明する。一方、五条は自分の不在中に一年生が特級案件へ送られた経緯から、上層部が虎杖を事故に見せかけて処分しようとした可能性を強く疑い、怒りをあらわにする。家入硝子は虎杖の遺体を調べる準備に入る。伏黒と釘崎は平静を装いながら虎杖の死を悼み、真希・狗巻・パンダから京都姉妹校交流会への参加を誘われる。二人は強くなることを決めるが、虎杖の意識は宿儺の生得領域に残っていた。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the aftermath of the cursed womb Incident, a group of evildoers plan the demise of the human race. 悟 learns his superiors purposefully sent 悠仁 to die while he was away. A group of second years tries to cheer up 恵 and 野薔薇 by inviting them to participate in the upcoming Kyoto Goodwill Event. They agree to get stronger for 悠仁, but is he truly gone?",
+    "summary_full_legacy": "五条 learns 悠仁 was set up to die in his absence. A man and a group of 呪霊 apparently had used 宿儺 's finger to create the cursed womb. This was in order to gain intel on 宿儺's new vessel. The single-eyed curse is upset that they wasted a finger on the event. The man placates him and enters a diner to order a table for one. Meanwhile, 悟 speaks with 伊地知潔高 about the circumstances surrounding the demise of one of his students. 悟 believes the higher-ups sent his students on this mission as a way to get 虎杖 killed while he was absent. 呪術高専 Doctor 家入硝子 prepares to dissect 悠仁 to learn more about 悠仁. Second-Year students of 呪術高専. 外 the school, 恵 tells 野薔薇 that 悠仁 wanted them to live long lives. They both act like they're mostly unaffected by his death, but 恵 notices subtle signs that 野薔薇 is upset. They're interrupted by 禪院真希 and a group of second-year students including 狗巻棘 and パンダ . They arrive to try and cheer both the lower-classman by inviting them to participate in the Kyoto Goodwill Event. This is a competition that pits students from 東京 呪術高専 against students from their sister school in Kyoto. 恵 and 野薔薇 agree to do it for their fallen friend and swear to get stronger no matter what it takes. 恵 and 野薔薇 swear to get stronger. 夏油傑 continues speaking with the 呪霊 inside the diner. 漏瑚 believes that curses are the truest form of humans and the \"fakes\" should be eliminated. 傑 reveals that the key for winning the war is immobilizing 五条悟 and making an ally of 両面宿儺 . 漏瑚 argues that 悠仁 is dead but 傑 doesn't seem so convinced. Somewhere deep within 悠仁's consciousness, 宿儺 looks down at his \"annoying\" counterpart. He tells 悠仁 not to stare without permission, but 悠仁 simply tells him to come down and face him.",
+    "characters_raw_text": "漏瑚 Pseudo-夏油 花御 陀艮 伊地知潔高 五条悟 家入硝子 虎杖悠仁 釘崎野薔薇 伏黒恵 禪院真希 パンダ 狗巻棘 夜蛾正道 (想像) 楽巌寺嘉伸 (想像) 宿儺",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "呪言 京都姉妹校交流会",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-1896d42b18",
+    "char-18d7c58412",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-6674ce6baa",
+    "char-672d843799",
+    "char-678a848346",
+    "char-9148bf784c",
+    "char-a61d6ef891",
+    "char-a61fa295f1",
+    "char-ac327bdd73",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [
+    "tech-deb6545546"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase1": [
+    "敵側が五条の無力化と宿儺の確保を勝利条件に定める",
+    "五条が上層部による虎杖排除を疑う",
+    "伏黒と釘崎が交流会へ向けて強くなると決める",
+    "虎杖の意識が宿儺の生得領域に残っていると判明する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-in-geto-body"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "body-or-inner-domain"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-678a848346",
+    "char-a61fa295f1",
+    "char-9148bf784c",
+    "char-6674ce6baa",
+    "char-b4d661547b",
+    "char-17322e71e5",
+    "char-d4a4bc45c6",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-3c1852867d",
+    "char-24d736edff",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-2b8d365a39"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-549dd18f32",
+    "term-ea9fe4b536",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

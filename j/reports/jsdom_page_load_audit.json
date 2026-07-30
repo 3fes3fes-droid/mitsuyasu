@@ -1,0 +1,58 @@
+{
+  "index.html": {
+    "elapsed_ms": 156.1,
+    "nodes": 135,
+    "buttons": 0,
+    "links": 30,
+    "text": 0,
+    "errors": []
+  },
+  "chapters.html": {
+    "elapsed_ms": 160.5,
+    "nodes": 933,
+    "buttons": 276,
+    "links": 23,
+    "text": 0,
+    "errors": []
+  },
+  "characters.html": {
+    "elapsed_ms": 114.6,
+    "nodes": 683,
+    "buttons": 189,
+    "links": 11,
+    "text": 0,
+    "errors": []
+  },
+  "techniques.html": {
+    "elapsed_ms": 107.6,
+    "nodes": 654,
+    "buttons": 179,
+    "links": 16,
+    "text": 0,
+    "errors": []
+  },
+  "terms.html": {
+    "elapsed_ms": 102.4,
+    "nodes": 645,
+    "buttons": 173,
+    "links": 10,
+    "text": 0,
+    "errors": []
+  },
+  "supplements.html": {
+    "elapsed_ms": 64.3,
+    "nodes": 63,
+    "buttons": 4,
+    "links": 15,
+    "text": 0,
+    "errors": []
+  },
+  "sources.html": {
+    "elapsed_ms": 97.5,
+    "nodes": 539,
+    "buttons": 0,
+    "links": 90,
+    "text": 0,
+    "errors": []
+  }
+}

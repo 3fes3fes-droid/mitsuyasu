@@ -1,0 +1,148 @@
+{
+  "id": "ch-208",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 208,
+  "zero_number": null,
+  "label": "第208話",
+  "title_official": "星と油④",
+  "title_search_normalized": "星と油4",
+  "start_page": 167,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.167",
+  "summary_short": "羂索は反重力機構を応用して九十九と脹相を退ける。九十九は脹相を生かして送り出し、自らをブラックホールへ変えて羂索もろとも消滅させようとするが、羂索は生き残る。",
+  "summary_full": "致命傷を負った九十九を救おうとする脹相に、九十九は「呪いとして死に、人として生きろ」と命じ、天元が脹相を戦場外へ落とす。羂索は重力で九十九を両断するが、九十九は星の怒りで自分へ限界を超える仮想質量を与え、ブラックホールとなる。天元の結界と九十九の意思で破壊は抑えられるものの、九十九は死亡する。羂索は虎杖香織の反重力機構を応用して生存し、天元本体を呪霊操術で取り込む。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "羂索 turns the tables on 九十九由基 , forcing 脹相 to attempt to sacrifice himself in order to stop him. However, 由基 and 天元 give 脹相 a chance to live on as a human. Instead, they execute their own last-ditch effort to take out the 呪詛師 once and for all.",
+    "summary_full_legacy": "\"脹相 this is where you die as a curse .\" Severely injured by 羂索's miniature うずまき attack, 由基 realizes that 羂索 wasn't buying time for his gravity technique when he summoned 呪霊 earlier. She deduces that his curses were meant to distract her from the うずまき he was forming, leaving her no time for regeneration before he can unleash the gravity again. At some point before 羂索's invasion, 脹相 and 由基 had a conversation in a bar hosted by 天元. 由基 asked why 脹相 was willing to die if he needs to be around for 悠仁. 脹相 asked 由基 if he was even human and stated that he decided to live as a curse because humanity wouldn't be able to accept his 壊相 and 血塗 's deformed appearances. 脹相 feels guilty for not only killing people in 渋谷 , but for ending the lives of 血塗 and 壊相 as well. He believes if they had chosen to live as humans, it wouldn't have resulted in their deaths. 脹相 cried at the bar and asks why he took the easy way out and left 悠仁 alone when the four brothers were fated to fight together. 由基 argued that if 脹相 dies, 悠仁 will be alone. 脹相 thanked her for her kindness but claimed that he can't continue to live alongside him after killing people in cold blood. 由基 falls to 羂索. This flashback ends for 脹相 and he attempts to sacrifice himself to rescue 由基. He prepares to throw a slicing disk at his father and tries to get his attention but 由基 tells him to die as a curse and live on as a human. 天元 crumbles the floor of the barrier beneath 脹相, both saving him and removing him from the fight. 羂索 unleashes his gravity technique and bisects 由基's body as it's forced to the ground, defeating the special grade . 天元の proxy appears before 羂索 and he's amused because 天元の appearance because they similar to 宿儺 . 天元 distracts 羂索 long enough for 由基 to grab his ankle, only serving to annoy him. 由基 transforms into a Black Hole in a last-ditch effort to take 羂索 down with her. 羂索 tells 由基 to die as a human, a play on her last words to 脹相. However, 羂索 is completely taken off guard when a strong gravitational force begins to affect him. 星の怒り 's alterations in mass don't affect 由基, but only up to a certain density. With no limit to the virtual mass she can add to herself, 由基 transforms herself into a black hole and attempts to take 羂索 down with her. For a black hole with the potential to swallow the entire planet, the destruction is relatively contained, only destroying a large section of 東京 呪術高専 before disappearing. Everything above the 薨星宮 is destroyed, leaving 天元の chamber completely exposed. \"Goodbye friend.\" Heavily injured but somehow still alive, 羂索 miraculously climbs out of the rubble. 羂索 admits he's impressed with 由基's last-ditch effort and 天元 demands an explanation as to how he survived. The 呪詛師 reveals that 虎杖香織 , his previous vessel, possessed 反重力機構 as her innate technique . He used his body as a domain to avoid restrictions on unstable 呪力 output and activation time, a gamble that paid off for him. The Black Hole could've destroyed the whole world, but 由基's will and 天元の barriers suppressed it. 羂索 credits them with his survival more than anything. 羂索 thanks 由基 and 天元 for the warm-up and says the latter has atoned for their tedious existence. The proxy disappears and 羂索 unseals the tree holding their true body. 羂索 says goodbye to his old friend and seizes 天元 once and for all.",
+    "characters_raw_text": "九十九由基 脹相 羂索 虎杖悠仁 (言及のみ) 壊相 (想像) 血塗 (想像) 天元 宿儺 (想像) 虎杖香織 (言及のみ)",
+    "locations_raw_text": "薨星宮",
+    "battles_events_raw_text": "九十九由基 & 脹相 vs. 羂索 (終了)",
+    "techniques_raw_text": "脹相の術式 赤血操術 苅祓 羂索の術式 反重力機構 九十九由基の術式 星の怒り",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-2b8d365a39",
+    "char-6534bbe6c9",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-964e851215",
+    "char-ad3a5428f6",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2374b0f892",
+    "tech-8f302c25a5",
+    "tech-a1213858c7",
+    "tech-d3451c7bbb"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "九十九と天元が脹相を戦場から逃がす",
+    "羂索が九十九へ致命的な重力攻撃を加える",
+    "九十九がブラックホール化して死亡する",
+    "羂索が反重力機構で生存する",
+    "羂索が天元を取り込む"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "dies"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "survives-and-escapes"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "survives-and-captures-tengen"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "captured"
+    },
+    {
+      "character_id": "char-ad3a5428f6",
+      "presence": "technique-origin-mentioned"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "imagined"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "imagined"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "reason-to-live-mentioned"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-1566dd973d",
+    "char-851111b10d",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-ad3a5428f6",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-2374b0f892",
+      "relation": "limit-exceeded"
+    },
+    {
+      "technique_id": "tech-8f302c25a5",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d3451c7bbb",
+      "relation": "used-to-survive"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "captures-tengen"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-2374b0f892",
+    "tech-8f302c25a5",
+    "tech-d3451c7bbb",
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase10": [
+    "term-399736afa9",
+    "term-dad5591883",
+    "term-58cf854ee7",
+    "term-phase6-positive-energy"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-hellominju-ch208",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

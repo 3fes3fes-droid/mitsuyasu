@@ -1,0 +1,187 @@
+{
+  "id": "ch-230",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 26,
+  "number": 230,
+  "zero_number": null,
+  "label": "第230話",
+  "title_official": "人外魔境新宿決戦⑧",
+  "title_search_normalized": "人外魔境新宿決戦8",
+  "start_page": 47,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-26"
+  ],
+  "source_locator": "単行本26巻 目次 p.47",
+  "summary_short": "魔虚羅は無量空処への適応を完了する。五条と宿儺は脳の損傷によって領域を展開できなくなり、宿儺も無量空処の影響を受けていたことが判明する。",
+  "summary_full": "魔虚羅は無量空処への適応を完了する。五条と宿儺は脳の損傷によって領域を展開できなくなり、宿儺も無量空処の影響を受けていたことが判明する。魔虚羅は無量空処へ完全適応しており、伏黒の魂だけが必中を受け続けていた。両者は脳損傷のため領域を失い、宿儺にも無量空処の遅延ダメージが現れる。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Across five domain expansions , 宿儺 has done the impossible and countered 無量空処 ! 五条悟 believes victory is still at hand until he suffers the backlash from exceeding limits that even \"the strongest\" possess.",
+    "summary_full_legacy": "魔虚羅 , destruction incarnate, has descended on the battle of the strongest! 冥冥 recognizes the 式神 as the secret crown jewel of the 禪院 clan . 脹相 is aware of 魔虚羅's ability to adapt and 悠仁 is surprised it's even adapted to 無量空処. 宿儺 regains consciousness and heals his chest wound as the 式神 returns to his shadow. Destruction incarnate enters the fray!! In his fight with 万 , 宿儺 took the process of 魔虚羅's adaptation upon himself to counter her 構築術式 technique. Across five domain clashes, 五条's sure-hit effect targeted everything within the domain while Sukkuna's targeted everything other than himself. This means that 無量空処's effect hit 宿儺 five times, but he wasn't quite the one who was affected. Confused, 五条 quickly tries to determine how 魔虚羅 adapted to 無量空処 in less than 0.1 seconds. He realizes that's impossible and the one taking on 無量空処's effect for 魔虚羅 to adapt was 恵's soul. 五条's perplexed expression amuses 宿儺 and the King of Curses asks what's on his opponent's mind. 五条 taunts him for trying so hard but the comment is turned back at him. 宿儺 explains that he wanted to deal with 無量空処 first by using domain amplification to fight while 恵 bore the process of 魔虚羅's adaptation. This meant 宿儺 couldn't use his innate techniques but the gamble paid off in the end. 恵's soul bears the process of 魔虚羅's adaptation. 五条 tells 宿儺 that 恵's soul took on the process of adaptation but 魔虚羅 was the one who adapted, not 宿儺. He believes this battle will end if he opens his domain again because he can destroy 魔虚羅 in a single attack. However, 五条's attempt to expand his domain fails and blood pours out of his nose. This not only surprises 五条 but confirms the bad feeling 憂太 has had since learning his sensei can somehow recover his exhausted technique with 反転術式 . 宿儺 reveals that 五条 has been damaging the section of his brain where his innate technique is engraved and then healing it with 反転術式 to achieve this. This revelation surprises 五条's allies, who can hardly believe he's still alive after doing something so reckless multiple times. Recklessly injuring his brain brings 五条 to his limit. Purposely injuring his brain five times has brought even 五条 to his limit, one completely different from injuring muscle and bone. 宿儺 summons 魔虚羅's wheel above his head and threatens to enclose his barrier while simultaneously adapting to the 無限 . He taunts 五条, calling him mediocre, and says he was only ever the strongest because he was born in an era when the King of Curses wasn't present. 伏魔御廚子 is activated but the domain crumbles apart suddenly. 宿儺 bleeds profusely from his nose and eyes as well. It was less than ten seconds, but 宿儺 was still hit by 無量空処 during the last domain clash. The damage done to his brain prevents him from using his domain as well. Neither side yields as battle of the strongest heads to round 2!! Reinvigorated, 五条 laughs at his opponent for being in the same situation and emphasizes that 無量空処 had an effect after all. Knowing his students are watching, 五条 tells 宿儺 that he's going to keep showing off for them. 五条 gets his second wind and uses Blue to pull 宿儺 towards him to land a powerful right hook. This exchange between the strongest reminds 宿儺 of 万's words about the solitude that accompanies unparalleled strength and the one who can teach him about love.",
+    "characters_raw_text": "冥冥 脹相 虎杖悠仁 五条悟 宿儺 万 (言及のみ) 伏黒恵 日下部篤也 乙骨憂太 家入硝子 鹿紫雲一 秤金次 狗巻棘 星綺羅羅 パンダ 禪院真希",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 領域展開：無量空処 (発動失敗) 無下限呪術 宿儺の術式 領域展開：伏魔御廚子 (発動失敗) 十種影法術 術式 (恵経由) 八握剣異戒神将 魔虚羅 魔虚羅 八握剣異戒神将 魔虚羅 魔虚羅",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0d3bc6b0dd",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-4b0b9dc682",
+    "tech-7c3237f986",
+    "tech-9761156f3b",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "魔虚羅は無量空処への適応を完了する。",
+    "五条と宿儺は脳の損傷によって領域を展開できなくなり、宿儺も無量空処の影響を受けていたことが判明する。",
+    "魔虚羅は無量空処へ完全適応しており、伏黒の魂だけが必中を受け続けていた。",
+    "両者は脳損傷のため領域を失い、宿儺にも無量空処の遅延ダメージが現れる。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0d3bc6b0dd",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d4a4bc45c6",
+    "char-dea43d7fc7"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-14f96ce777",
+    "tech-9761156f3b"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-9761156f3b",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-65867f280c"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-26",
+    "src-manga-games-vol-26",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "ch-044",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 6,
+  "number": 44,
+  "zero_number": null,
+  "label": "第44話",
+  "title_official": "京都姉妹校交流会－団体戦⑪－",
+  "title_search_normalized": "京都姉妹校交流会―団体戦11―",
+  "start_page": 7,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-06"
+  ],
+  "source_locator": "単行本6巻 目次 p.7",
+  "summary_short": "加茂は母を守るため次期当主を目指す事情を語り、伏黒と互いの信念をぶつける。戦闘の最中に花御が乱入し、生徒たちは新たな脅威へ対応を迫られる。",
+  "summary_full": "加茂は赤血操術を継ぐ子を産めなかった正室に代わり、側室の子として当主候補に据えられた。母を守るため正しい後継者を演じる加茂は、禪院家と距離を置く伏黒にも同じ責任を求め、虎杖を殺す意思を示す。伏黒は自分の良心に従って人を選んで救うと拒絶し、新たに調伏した満象の水と鵺で攻める。加茂は赤縛で鵺を捕らえるが、花御の枝が戦場へ侵入し、狗巻は二人へ「逃げろ」と命じる。組屋が五条だけを拒む帳を下ろす。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Pressured to become the heir of the 加茂家 to protect his mother, Noritoshi believes he and 恵 are similar. 恵 rejects this and everything the sorcerer families believe in, desiring to save 悠仁 no matter what. Their ideologies and cursed techniques clash until an unexpected enemy rears it's ugly head.",
+    "summary_full_legacy": "\" Then let's agree... to curse each other! \" Noritoshi was born to a cruel father who could not get his rightful wife to give birth to a son who possessed 赤血操術 . In order to make sure the 加茂家 had an heir, Noritoshi's mother became a mistress who gave birth to a son that could become the rightful air. In order to protect his mother, Noritoshi is determined to act as the true heir. 恵 and Noritoshi continue to duel at close range but 恵's second tonfa is broken by his opponent's enhanced strength. Noritoshi expresses happiness because 恵 is growing in power but the first-year doesn't understand why they're acting familiar. Noritoshi believes the two of them will be pillars that support the sorcerer families but 恵 claims he has no connection to the Zenins. 恵 unleashes 満象 against Noritoshi. Noritoshi openly reveals that he plans to kill 悠仁 of his own will. He believes that 恵 should understand because they're the same. 恵 rejects this notion and declares that he only believes in his own conscience. Despite what anyone thinks, 恵 will save people and if Noritoshi disagrees than they should only agree to curse each other! One of the toads appears behind Noritoshi, but it's just a decoy to buy 恵 time. While his opponent is distracted, 恵 uses a large amount of 呪力 to summon a 式神 that was just recently submitted: 満象 ! Noritoshi tries to act first but he's blasted out of the temple by a torrent of water fired from 満象's trunk. While Noritoshi is swept into mid-air, 恵 calls upon 鵺 to strike him down. 恵 and Noritoshi's battle is interrupted by an enemy attack. Noritoshi is reminded of his mother's struggle and refuses to give up. He throws a blood pack at 鵺 and restrains it using 赤血操術: 赤縛 . Both boys land on the ground below and rush each other with no intention of submitting to the other. However, they're interrupted by the sudden appearance of a large mass of wooden branches. 恵 notices 棘 evading the branches and the second-year immediately uses cursed speech to tell both the boys to run away. This forces 恵 and Noritoshi to dodge the wooden spikes attempting to strike them. Just outside the battlefield, 呪詛師 鞣造 sets up a talisman and calls upon a curtain to cover the area. As the curtain begins to form, the crazed 呪詛師 gets excited to start making a hanger rack.",
+    "characters_raw_text": "加茂憲紀 伏黒恵 虎杖悠仁 (言及のみ) 狗巻棘 組屋鞣造",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 伏黒恵 vs. 加茂憲紀 (終了) 呪霊討伐競争 伏黒恵 vs. 加茂憲紀 (終了) 伏黒恵 vs. 加茂憲紀 (終了)",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 満象 鵺 不知井底 満象 鵺 不知井底 加茂の術式 赤血操術 赤縛 赤縛 狗巻棘の術式 呪言「逃げろ」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-3c1852867d",
+    "char-3ed1d78924",
+    "char-830f121430",
+    "char-833a399363",
+    "char-9148bf784c",
+    "char-996d48af99",
+    "char-a61d6ef891",
+    "char-b18262c082",
+    "char-baadf43d19",
+    "char-df284f67ad"
+  ],
+  "technique_ids_candidate": [
+    "tech-3ed1d78924",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-a1213858c7",
+    "tech-deb6545546",
+    "tech-df284f67ad"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "加茂が当主候補になった事情を語る",
+    "伏黒が満象を初めて使用する",
+    "加茂が赤縛で鵺を拘束する",
+    "花御の襲撃で戦闘が中断し帳が下りる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-833a399363",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e2fb64f147",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-830f121430",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-a61d6ef891",
+    "char-833a399363",
+    "char-e2fb64f147"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-df284f67ad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-3ed1d78924",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-aka-shibari",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-deb6545546",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-7c3237f986",
+    "tech-df284f67ad",
+    "tech-996d48af99",
+    "tech-3ed1d78924",
+    "tech-a1213858c7",
+    "tech-phase3-aka-shibari",
+    "tech-deb6545546"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-6f7fa8f5d1",
+    "term-3777b71218",
+    "term-cba4367139",
+    "term-f9e3abf542"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-06",
+    "src-manga-games-vol-06",
+    "src-official-character-vote-4"
+  ]
+}

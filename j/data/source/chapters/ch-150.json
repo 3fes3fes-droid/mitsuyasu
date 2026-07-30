@@ -1,0 +1,130 @@
+{
+  "id": "ch-150",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 17,
+  "number": 150,
+  "zero_number": null,
+  "label": "第150話",
+  "title_official": "葦を啣む―参―",
+  "title_search_normalized": "葦を啣む―参―",
+  "start_page": 147,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-17"
+  ],
+  "source_locator": "単行本17巻 目次 p.147",
+  "summary_short": "覚醒した真希は禪院家の躯倶留隊と炳を次々に殲滅する。扇を殺した後も止まらず、真依の遺言どおり禪院家を壊し始める。",
+  "summary_full": "真依の遺言である「全部壊して」に従い、真希は禪院家の戦闘部隊を襲う。術式を持たない男性で構成される躯倶留隊を単独で殲滅し、続いて準一級以上の精鋭・炳と交戦する。禪院長寿郎の巨大な石の腕、禪院甚壱の拳、禪院蘭太の拘束を受けても止まらず、甚爾と同等の肉体で次々に撃破する。蘭太は真希を止めようとして両目を損傷し、甚壱らも死亡する。直哉だけが最後の対戦者として残る。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "News of 扇 's demise reaches the rest of the 禪院 clan . They scramble their most elite units to apprehend 真希 but the vengeful twin will not be denied justice for her sister. Willing to do anything to fulfill her promise to 真依 , 真希 uses her new abilities to destroy everything.",
+    "summary_full_legacy": "直哉 and 甚壱 notice alarm bell going off. The alarm bell sounds and the ringing echoes throughout the entire 禪院 clan estate. Within its range are 甚壱 and 直哉 , who leave their meeting room and go out into the hallway. Young 禪院蘭太 finds them and tells 甚壱 that 真希 has gone mad and killed 扇. 甚壱 and 直哉 are both surprised that 扇 fell to her. 躯倶留隊 has been dispatched to apprehend 真希. Captain Nobuaki 禪院 tells his men she must have killed 扇 in his sleep or in the bathroom, still underestimating her strength. He doesn't want to be reprimanded by 甚壱, so Nobuaki orders the 躯倶留隊 to deal with 真希 swiftly. 躯倶留隊 is made up of 禪院 men who did not manifest innate techniques. They are a lower branch of the 炳 who undergo grueling hand-to-hand combat training day and night. 躯倶留隊 finds 真希 in the ton room and surrounds her with at least twenty men. Standing alone with 竜骨 in one hand and the 釈魂刀 真依 left behind for her in the other, 真希 can only think about her sister. \" Destroy everything \". 真希 wonders what her plan was and if she should have given up becoming a sorcerer alongside 真依. She figures that might've been the right answer all along and apologizes to her sister. 躯倶留隊 attacks while 真希 remembers 真依's final request: \" destroy everything \". 真希 opens her eyes just as one of the men attempts to slash her with a katana. She avoids the blade and cuts off both the man's hands in one quick motion. Then she vaults over his back and cuts down several of his allies before beheading him. Despite their numbers, the 躯倶留隊 is no match for 真希 and are effortlessly killed one after another in successively brutal fashion. Nobuaki arrives expecting 真希 to already have been finished off. He's unpleasantly surprised to see all of his men have been turned into bloody corpses by an unscathed 真希, the same girl who used to serve in the unit. The members of the 躯倶留隊 are brutally slaughtered. 真希 notices a surge of 呪力 nearby. It's coming from Chojuro 禪院 down the hall next to her. Suddenly, 真希 is tossed into the air by gigantic stone hands that clap together in an attempt to smash her while she's falling back down. Nobuaki recognizes this attack as Chojuro's 術式 and notes that the 炳 have arrived. 炳 are the strongest sorcerers in the 禪院 clan, comprised of everyone in the family with a semi-grade 1 or higher ranking. Even the 禪院 clan's most elite sorcerers fall victim to 真希's vengeful blade. The clasping stone hands aren't enough to hold 真希 and she suddenly breaks out. Nobuaki and Chojuro attempt to stop her but she jams her hands into their throats at blinding speed, killing them both before they can react. 蘭太 uses his paralysis technique to hold 真希 in place and yells for 甚壱 to finish her off. While 甚壱 rushes to do just that, 真希 fights back and forcibly breaks out of 蘭太's paralysis. This backlash heavily injures 蘭太's eyes, prompting concern from 甚壱. Despite bleeding profusely from several places on his face, 蘭太 makes sure to tell 甚壱 that 真希 has become like 甚爾 . 甚爾 didn't destroy the clan on a whim but 真希 will do just that if 蘭太 and 甚壱 do not destroy her here and now. 甚壱 uses his 術式 to launch several giant 呪力 propelled fists raining down from the sky. This pummels everything in the immediate area, allowing 蘭太 to believe they succeeded in his last moments. 蘭太 collapses to his knees and succumbs to the previous strain of his injuries while 真希 walks out of the dust and smoke with 甚壱's severed head. She walks past 蘭太 and throws 甚壱's head into the pond without any sign of remorse. 直哉, head of the 炳, confronts 真希 on the other side of a small bridge that extends over the pawn. Amused by 真希's power, 直哉 calls her cruel and asks if she has a human heart. 真希 replies with a simple \"no\" because her heart was taken from her.",
+    "characters_raw_text": "禪院真希 禪院扇 禪院真依 甚壱 禪院 禪院直哉 禪院蘭太 Nobuaki 禪院 Chojuro 禪院",
+    "locations_raw_text": "禪院家邸宅",
+    "battles_events_raw_text": "禪院真希 vs. 躯倶留隊 禪院真希 vs. 炳",
+    "techniques_raw_text": "呪具 竜骨／釈魂刀 名称不明の生得術式 術式 Chojuro's Earth Arms 術式 蘭太's Paralyzing Gaze 術式 甚壱's Missle Fist 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-15c6f148d3",
+    "char-1ea67a363b",
+    "char-24d736edff",
+    "char-265abd362c",
+    "char-5724ed462b",
+    "char-b3be077b48",
+    "char-cde7b13e78",
+    "char-e3d79a21e6"
+  ],
+  "technique_ids_candidate": [
+    "tech-ffcf652351"
+  ],
+  "term_ids_candidate": [
+    "term-f74654d902"
+  ],
+  "key_events_verified_phase8": [
+    "真希が躯倶留隊を殲滅する",
+    "真希が炳の術師たちと交戦する",
+    "蘭太が術式で真希を拘束しようとして重傷を負う",
+    "真希が長寿郎・甚壱らを倒す",
+    "直哉が真希の前へ現れる"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "corpse-and-recollection"
+    },
+    {
+      "character_id": "char-15c6f148d3",
+      "presence": "dies"
+    },
+    {
+      "character_id": "char-1ea67a363b",
+      "presence": "dies"
+    },
+    {
+      "character_id": "char-cde7b13e78",
+      "presence": "dies"
+    },
+    {
+      "character_id": "char-e3d79a21e6",
+      "presence": "dies"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-265abd362c",
+      "presence": "corpse"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-24d736edff",
+    "char-5724ed462b",
+    "char-15c6f148d3",
+    "char-1ea67a363b",
+    "char-cde7b13e78",
+    "char-e3d79a21e6",
+    "char-b3be077b48",
+    "char-265abd362c"
+  ],
+  "technique_appearances_verified_phase8": [
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase8": [
+    "tech-phase4-split-soul-katana"
+  ],
+  "term_ids_verified_phase8": [
+    "term-f74654d902",
+    "term-phase8-kukuru",
+    "term-phase8-hei",
+    "term-bfcc1b065d"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-17",
+    "src-manga-games-vol-17",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

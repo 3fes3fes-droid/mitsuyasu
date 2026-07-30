@@ -1,0 +1,196 @@
+{
+  "id": "ch-227",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 25,
+  "number": 227,
+  "zero_number": null,
+  "label": "第227話",
+  "title_official": "人外魔境新宿決戦⑤",
+  "title_search_normalized": "人外魔境新宿決戦5",
+  "start_page": 186,
+  "official_group_id": "official-216-245",
+  "db_section_draft_id": "shinjuku-gojo",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-25"
+  ],
+  "source_locator": "単行本25巻 目次 p.186",
+  "summary_short": "五条は領域の外と内の条件を逆転させ、宿儺の攻撃へ対抗する。二人は領域を何度も展開し、結界条件と術式回復の限界を更新し続ける。",
+  "summary_full": "五条は領域の外と内の条件を逆転させ、宿儺の攻撃へ対抗する。二人は領域を何度も展開し、結界条件と術式回復の限界を更新し続ける。五条は領域の内外の強度条件を反転させ、宿儺も領域範囲と縛りを変えて応じる。二人は領域崩壊と術式修復を繰り返し、常識外の消耗戦へ入る。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 and 宿儺 's battle defies all logic and reason as each of them continues to push past all previously defined limits. For each momentum shift, there is an equal and opposite force to counter it until 五条 is forced to do something even more unexpected.",
+    "summary_full_legacy": "憂太 and 日下部 are surprised that 五条 somehow managed to heal his exhausted innate technique through 反転術式 . 憂太 compares an exhausted innate technique to an overheated engine, which can only be resolved by letting it cool. Healing physical damage should be an entirely different matter altogether yet 五条 has somehow managed to make it work. 憂太 states that perhaps his understanding of 反転術式 is incomplete but also worries that his sensei is simply pushing far beyond his limits to achieve something thought impossible. 宿儺 exploits a second weakness of 五条's domain. 五条 asks 宿儺 if he can expand his effective range even further and the latter just does that by increasing 伏魔御廚子 's range to its maximum. At the same time, 五条 expands his domain once again, surprising his allies. They quickly realize that 五条 has swapped the conditions of his barrier to make it durable to attacks from the outside and 日下部 wonders how he can switch the conditions of the barrier so effortlessly. The two fighters engage in hand-to-hand combat and 五条 is taken by surprise when 宿儺 lands a combo utilizing domain amplification . It's normally impossible to use amplification and an innate technique at the same time, but techniques applied to the domain already are an exception. Despite 宿儺 increasing his output, 五条 dismisses his achievement and lands a hard counter shot to the ribs. The battle of the strongest becomes more dense!! 宿儺 recovers quickly and spins around 五条's back while grabbing onto his leg. 五条 immediately realizes that 伏魔御廚子's sure-hit effect has been deactivated. However, 宿儺 has experienced how 五条's domain works from inside 悠仁 , so he's aware 無量空処 won't affect him as long as he's touching 五条. Using a 縛り , 宿儺 increases the power of his domain outside of 五条's barrier by removing the sure-hit effect on the inside of it and reducing its range. As a result, 五条's barrier once again collapses, and he's immediately barraged by slashes. While watching this dire situation, 鹿紫雲 reminds 秤 that he's going out next if 五条 dies. 五条 surprises 宿儺 by activating 落花の情 to counter the slashes with 呪力 , resulting in shallow wounds. 日下部 is able to recognize 落花の情 but no one else seems to have ever even heard of the secret art. 日下部 explains how it works but 脹相 adds that its output still isn't enough to rival a domain. 硝子 argues that it'll buy 五条 enough time to heal his exhausted technique, which 憂太 is still concerned about. Once again 五条 opens his domain but this time he expands it extremely far, rivaling 宿儺's maximum range. His allies are concerned because the quality of the domain itself will suffer and the outer shell even begins to crack. However, the domain begins to shrink until it becomes so small that it resembles the size of a sports ball.",
+    "characters_raw_text": "虎杖悠仁 宿儺 五条悟 日下部篤也 乙骨憂太 パンダ 禪院真希 猪野琢真 家入硝子 西宮桃 冥冥 日車寛見 秤金次 憂憂 鹿紫雲一 脹相 星綺羅羅",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "五条悟 vs. 宿儺",
+    "techniques_raw_text": "五条悟の術式 落花の情 無下限呪術 術式 術式反転「赫」 領域展開：無量空処 反転術式 術式 術式 術式反転「赫」 宿儺の術式 Domain 領域展延 領域展開：伏魔御廚子",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-gojo",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-484fd66a1e",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d4a4bc45c6",
+    "char-dea43d7fc7",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [
+    "tech-14f96ce777",
+    "tech-34f2643025",
+    "tech-4b0b9dc682",
+    "tech-6e6dd087e1",
+    "tech-7341630eb6",
+    "tech-cf2f8dca4a",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883"
+  ],
+  "key_events_verified_phase11": [
+    "五条は領域の外と内の条件を逆転させ、宿儺の攻撃へ対抗する。",
+    "二人は領域を何度も展開し、結界条件と術式回復の限界を更新し続ける。",
+    "五条は領域の内外の強度条件を反転させ、宿儺も領域範囲と縛りを変えて応じる。",
+    "二人は領域崩壊と術式修復を繰り返し、常識外の消耗戦へ入る。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-00f5cc93b4",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-484fd66a1e",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9",
+    "char-d4a4bc45c6",
+    "char-dea43d7fc7",
+    "char-e41848a08f"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-14f96ce777",
+    "tech-af5ae87255",
+    "tech-c03b9316e7"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-14f96ce777",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-af5ae87255",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-c03b9316e7",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-25",
+    "src-manga-games-vol-25",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

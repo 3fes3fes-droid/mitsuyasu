@@ -1,0 +1,125 @@
+{
+  "id": "ch-077",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 77,
+  "zero_number": null,
+  "label": "第77話",
+  "title_official": "玉折―弐―",
+  "title_search_normalized": "玉折―弐―",
+  "start_page": 127,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.127",
+  "summary_short": "夏油は特級術師・九十九由基と出会い、呪霊を生まない世界を作る方法を議論する。非術師を皆殺しにするという極論が、夏油の選択肢として形を持ち始める。",
+  "summary_full": "九十九由基は、呪霊を狩るのではなく呪霊が生まれない世界を目指し、全人類を術師にするか、呪力そのものから脱却させる方法を研究していると語る。呪力が完全にゼロだった甚爾は重要な例外だった。夏油が「非術師を皆殺しにすればよいのでは」と問うと、九十九は可能だが自分の方法ではないと答える。後に灰原雄が、二級案件と誤認された土地神級の呪霊との任務で死亡する。疲弊した夏油は村の任務で、呪力を持つため虐待されていた枷場美々子・菜々子を檻の中に発見する。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "傑 meets 九十九由基 , the third special grade sorcerer . She teaches 傑 even more about how they can combat curses. However, he allows this to twist his morality and has to make a choice on how he feels toward non-sorcerers.",
+    "summary_full_legacy": "\"Why not just kill every non-sorcerer?\" A woman walks into the room with 傑 and 灰原 to ask them what kind of girl's they're into. 傑 questions her identity while 灰原 answers and claims that he can tell she's not a bad person. He leaves 傑 and the woman alone shortly after. She introduces herself as the special grade sorcerer, 九十九由基. 傑 learned about her as the special grade who doesn't take on missions and bums around overseas. 由基 explains that while 呪術高専 treats the symptoms while she wants to get to the root cause of curses . This results in a bit of tension between the two parties because they don't see eye to eye. 傑 is confused by what she means by root cause so she explains that she desires a world where curses don't exist. She asks him what are curses and 傑 is able to explain that curses are born from negative energy that leak from humans. Since this is the case, there are only two ways to create a world where 呪霊 don't exist. They must eradicate 呪力 from all of humans entirely or teach humans to control it. 禪院甚爾 was a model case for the former. He was the only person 由基 found all over the world that possessed no 呪力 at all. His heavenly restriction granted him enhanced senses as well as the ability to resist curses. He was truly a superhuman and 由基 tells 傑 there is no shame to losing to someone as powerful as he was. 由基 wanted to research him but he refused her. 傑 finds two young sorcerer girls being mistreated during a mission. Cases of heavenly restriction are scarce so 由基 decides to focus on the latter option for eradicating curses. 由基 informs 傑 that other than cases where sorcerers die and become curses, sorcerers cannot give rise to curses. Cursed energy does not leak from sorcerers at nearly the same rate as non-sorcerers. This is due to the difference in the amount of 呪力 sorcerers use and how it flows while being contained within their bodies. In a general sense, if every human became a sorcerer it would be impossible for curses to exist. Shocked and still haunted by the followers of the star, 傑 asks 由基 why they shouldn't just kill every non-sorcerer. He snaps out of it right after and 由基 gives him a serious reply. Weeding out non-sorcerers to force evolution might be the easiest route, but its also the craziest. She asks 傑 if he hates non-sorcerers and he's unable to give an answer. The dangerous jujutsu sorcerer profession claims the life of another good person. 傑 used to believe sorcerers existed to protect non-sorcerers but now he doesn't know if humanity is worth fighting for. 由基 confirms that 傑 must choose between looking down and non-sorcerers and resisting that feeling before getting on her bike to leave. Before heading out on her motorcycle, 由基 says she'd like the three special grades to get along and reveals that 天元様 stabilized. Sometime later, 傑 and Kento are in the morgue mourning 灰原's death. Kento believed it was supposed to be a simple mission to take out a grade 2 呪霊. However, in the far off area they traveled to, the curse was the subject of a guardian deity's religion. As the deity of that area it became more powerful and should have been a grade 1. 傑 tells Kento to get some rest and assures him that 悟 will complete the mission. Kento says that 悟 should take on every mission alone from now on. 傑 makes his decision and massacres the entire village of non-sorcerers. This makes 傑 think about how begin a sorcerer is like running a marathon. The finish line is too unclear and there's nothing at the end of the road but a mountain of fellow sorcerer's dead corpses. Next month in September, 傑 is sent on a mission to investigate a village where a 呪霊 had been kidnapping people and causing abnormal deaths. 傑 is able to exorcise the curse but ends up finding two young girls who have been beaten and caged. 傑 tries to tell them that they are not the cause of this incident but the non-sorcerers call them monsters like their parents who should have died at birth. Having heard enough, 傑 unleashes his 呪霊 on the people and accepts his true feelings. 傑 murders one hundred and twelve non-sorcerers and fled afterward. The original target of this mission, the 呪霊 that had been plaguing the village was thought to be the culprit after all the people were found dead. However, further investigation revealed the residuals from 傑's curse manipulation technique.",
+    "characters_raw_text": "九十九由基 夏油傑 灰原雄 伏黒甚爾 (回想) 七海建人 美々子 菜々子",
+    "locations_raw_text": "東京 呪術高専 Unspecified Cursed Village",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-1a74b17cf8",
+    "char-6309a7e2f4",
+    "char-b2b454d6e2",
+    "char-b9d4880408",
+    "char-d5482ceba1",
+    "char-da4ca46be3"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-e3eff1da1c",
+    "term-cf5652fdbe",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase4": [
+    "九十九と夏油が呪霊の生まれない世界を議論する",
+    "灰原雄が任務で死亡する",
+    "夏油が虐待されている美々子と菜々子を発見する"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b2b454d6e2",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-da4ca46be3",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-1a74b17cf8",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-1566dd973d",
+    "char-b9d4880408",
+    "char-b2b454d6e2",
+    "char-6309a7e2f4",
+    "char-d5482ceba1",
+    "char-da4ca46be3",
+    "char-1a74b17cf8"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "burden-and-context"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase4": [
+    "term-cf5652fdbe",
+    "term-252cb4a664",
+    "term-bfcc1b065d",
+    "term-phase4-zero-cursed-energy",
+    "term-7037f2a1bd",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

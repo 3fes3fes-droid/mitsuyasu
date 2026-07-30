@@ -1,0 +1,132 @@
+{
+  "id": "ch-013",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 13,
+  "zero_number": null,
+  "label": "第13話",
+  "title_official": "映画鑑賞",
+  "title_search_normalized": "映画鑑賞",
+  "start_page": 107,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.107",
+  "summary_short": "虎杖は映画を見ながら感情と呪力を一定に保つ訓練に取り組む。訓練を離れた五条は、未登録の特級呪霊・漏瑚の襲撃を受ける。",
+  "summary_full": "虎杖は、夜蛾が作った呪骸を抱えて様々な映画を見続ける訓練を始める。呪力の供給が乱れると呪骸が目を覚まして殴りかかるため、喜怒哀楽が動いても一定量の呪力を流し続けなければならない。伏黒は真希やパンダとの訓練で呪具の運用を検討し、両手を空けたまま武器を持ち運ぶ方法として、自分の影を利用できないか考え始める。五条は虎杖に、蘇生時に宿儺と何らかの契約を結んでいないか確認するが、虎杖はその記憶を失っている。五条が伊地知の車を途中で降りると、未登録の特級呪霊・漏瑚が奇襲する。漏瑚の火炎を受けても五条は無傷で立ち、敵の知性と強さを見極めながら戦闘へ入る。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 must control his emotions while watching movies if he's ever to attain control over 呪力 . 恵 continues training alongside the second-years as well. After leaving his session with 悠仁, 五条悟 crosses paths with the unregistered special grade 呪霊 , 漏瑚 .",
+    "summary_full_legacy": "五条 sensei informs 悠仁 that he'll be watching movies to help him control his emotions. He won't be alone, as 五条 tasks him with holding on to one of the Principal's cursed corpses while watching the films. The doll will awaken and attack if it's not receiving a constant flow of 呪力. 悠仁 watching movies as training. There are a variety of movies meant to stir a variety of emotions with 悠仁. He must keep the 呪骸 sleeping while sitting through each movie. The training is meant to help 悠仁 control his 呪力 under any condition. However, he can only keep the doll asleep in short bursts and is quickly frustrated. Meanwhile, 恵 sits down with 真希 and パンダ to discuss using 呪具. 恵 chooses to keep his hands free. 真希 says that some jujutsu sorcerers can tame familiars that can store weapons for them, but it's a rare ability. 宿儺 mentioned before that 恵 shouldn't have run when faced with that special grade. Instilled with more confidence, 恵 believes he may be able to store weapons within the shadows of his 式神 . 漏瑚 confronts the strongest jujutsu sorcerer. 悟 leaves 悠仁 to continue his training alone. Before he exits, 五条 sensei asks 悠仁 if he agreed to any of 宿儺's conditions to get his heart fixed. 悠仁 recalls talking to 宿儺 but he can't remember the details. On their way to meet with the principal, 悟 asks Kiyotaka to stop the car and leave him behind in the road. 漏瑚 suddenly appears from the sky to ambush 悟, but the most powerful jujutsu sorcerer is ready for the attack. The curse uses flames to try and incinerate 悟, suggesting he's nothing special. However, 悟 effortlessly survives the assault and realizes this special grade cursed is highly intelligent as well as unregistered. 悟 recognizes that 漏瑚 is even more powerful than the current 宿儺 . Despite this, he's excited for this chance to fight.",
+    "characters_raw_text": "虎杖悠仁 五条悟 伏黒恵 狗巻棘 パンダ 禪院真希 釘崎野薔薇 伊地知潔高 漏瑚 宿儺 (想像)",
+    "locations_raw_text": "名称不明の部屋 東京 呪術高専 不明な道路",
+    "battles_events_raw_text": "映画鑑賞 五条悟 vs. 漏瑚 (開始)",
+    "techniques_raw_text": "呪骸 呪力 呪霊 式神",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-6cd94bbcdf",
+    "char-a61d6ef891",
+    "char-a61fa295f1",
+    "char-b4d661547b",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-542b17dcab"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase1": [
+    "虎杖が呪骸を使った映画鑑賞訓練を始める",
+    "伏黒が影へ呪具を収納する可能性を考える",
+    "虎杖が宿儺との契約を記憶していないと確認される",
+    "漏瑚が五条を奇襲する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "mention"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-baadf43d19",
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-a61d6ef891",
+    "char-672d843799",
+    "char-24d736edff",
+    "char-b4d661547b",
+    "char-a61fa295f1",
+    "char-2b8d365a39"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-37f8736467",
+    "term-252cb4a664",
+    "term-8914e5bc1a",
+    "term-cba4367139",
+    "term-ed19637c63"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

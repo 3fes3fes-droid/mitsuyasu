@@ -1,0 +1,116 @@
+{
+  "id": "ch-014",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 14,
+  "zero_number": null,
+  "label": "第14話",
+  "title_official": "急襲",
+  "title_search_normalized": "急襲",
+  "start_page": 127,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.127",
+  "summary_short": "漏瑚は五条を奇襲するが、攻撃は無下限呪術に阻まれ圧倒される。五条は戦闘途中で虎杖を連れてきて、特級同士の戦いを教材として見せる。",
+  "summary_full": "漏瑚は炎と火礫蟲の爆発で五条を仕留めようとするが、攻撃は五条へ到達しない。五条は無下限呪術によって、自分と相手の間にある距離を無限に分割し、接触を止めていると説明する。漏瑚が手を伸ばしても触れられず、五条は近接戦で一方的に打撃を加える。さらに術式反転『赫』による強烈な反発力で漏瑚を吹き飛ばし、実力差を示す。漏瑚がなお反撃しようとする中、五条は一度その場を離れ、映画修行を続けていた虎杖を連れて戻る。特級呪霊との実戦を、虎杖へ呪術戦の仕組みを教える授業として見せるためだった。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "五条悟 comes under sudden attack from the special grade 呪霊 , 漏瑚 . They trade attacks, but 五条 proves why he's the self-proclaimed strongest jujutsu sorcerer . After effortlessly outclassing his opponent, 悟 brings 悠仁 and uses the exchange as a learning experience for his young protégé.",
+    "summary_full_legacy": "漏瑚 launches a sudden assault. Faced with an unregistered special grade, 五条 comments that things are getting fun. 漏瑚 tells him that he has no sense of danger at all. 悟 knows he's been lured out alone so he can't call for reinforcements. 漏瑚 summons an army of 火礫蟲 using his innate technique . 悟 is able to halt all of them but they detonate shortly after. He escapes the blast and appears to be taken off guard by another explosive attack. 漏瑚 believes he won and says its deplorable how weak humans are. 五条 shows his opponent the difference in their strength. However, 悟 blows away all the smoke and explains that his attacks will never hit their mark. 漏瑚 is only able to touch the \" 無限 \" between them. 悟 knows 漏瑚 is confused and allows him to try and touch hands. 漏瑚 realizes that his hand stops before touching his opponent. 悟 \"shakes hands\" with the curse and beats him down using quick thrusts of his free hand. 漏瑚 is pummeled by the attack, unable to understand how it works beyond being a simple cursed-energy infused attack. 悟 explains he can bring infinity into reality using the space created by convergence and divergence. He unleashes this power on 漏瑚 using 術式 術式反転「赫」 , blowing him away into the forest. 漏瑚 tries to keep his eyes open and counterattacks. However, 悟 suddenly appears behind him and kicks him, sending 漏瑚 crashing down into a shallow lake. 悟 disappears for a moment and reappears with 悠仁 in tow. Confused, 悠仁 freaks out and says the 呪霊's head is Mt. Fuji. 五条 sensei explains that his young student will be sitting in on today's class.",
+    "characters_raw_text": "漏瑚 五条悟 Pseudo-夏油 (カメオ登場) 虎杖悠仁",
+    "locations_raw_text": "不明な道路",
+    "battles_events_raw_text": "五条悟 vs. 漏瑚",
+    "techniques_raw_text": "漏瑚の術式 Disaster Flames (名称不明) 火礫蟲 五条悟の術式 無下限呪術 術式 術式反転「赫」 術式 術式反転「赫」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-678a848346",
+    "char-a61fa295f1",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-542b17dcab",
+    "tech-6e6dd087e1",
+    "tech-cf2f8dca4a",
+    "tech-ff727e6493"
+  ],
+  "term_ids_candidate": [
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase1": [
+    "漏瑚の攻撃が無下限呪術に阻まれる",
+    "五条が無限の仕組みを漏瑚へ示す",
+    "五条が術式反転・赫で漏瑚を吹き飛ばす",
+    "五条が虎杖を戦場へ連れてくる"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "brief-observer"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-a61fa295f1",
+    "char-17322e71e5",
+    "char-678a848346",
+    "char-baadf43d19"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used-and-explained"
+    },
+    {
+      "technique_id": "tech-6e6dd087e1",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-ff727e6493",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-cf2f8dca4a",
+    "tech-6e6dd087e1",
+    "tech-ff727e6493"
+  ],
+  "term_ids_verified_phase1": [
+    "term-ad8bd57883",
+    "term-252cb4a664",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

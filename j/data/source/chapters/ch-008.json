@@ -1,0 +1,122 @@
+{
+  "id": "ch-008",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 8,
+  "zero_number": null,
+  "label": "第8話",
+  "title_official": "呪胎戴天―参―",
+  "title_search_normalized": "呪胎戴天―参―",
+  "start_page": 7,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.7",
+  "summary_short": "宿儺は特級呪霊を倒すが、虎杖へ肉体を返さず伏黒たちを狙う。虎杖を追い詰めるため自ら心臓を抜き取り、主導権を戻せば死ぬ状況を作る。",
+  "summary_full": "肉体の主導権を得た宿儺は、虎杖の意図に従うことを嫌ってすぐには特級呪霊を倒そうとしない。しかし、宿儺へ攻撃した呪霊を格の違いで圧倒し、失った腕を反転術式で再生する。さらに領域展開『伏魔御厨子』を発動して呪霊を細切れにし、その体内にあった自分の指を回収する。戦闘が終わっても虎杖が表へ戻らないことを知った宿儺は、伏黒を利用して虎杖を追い詰める策へ移る。肉体の心臓を自ら抜き、虎杖が主導権を取り戻せば即死する状況を作ったうえで、回収した指を取り込む。宿儺は少年院の外へ出て、伏黒と対峙する。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 switches his consciousness with 宿儺 . The King of Curses tries to slaughter 悠仁's friends but ends up doing exactly what 悠仁 wished, killing the other special grade curse. After the battle, 悠仁 finds himself unable to take back control of his body. 宿儺 hatches a scheme that could result in 悠仁's demise.",
+    "summary_full_legacy": "Now in control of 悠仁's body, 宿儺 tells the special grade 呪霊 to give him a moment. He thinks over his situation, believing that if he goes after 伏黒恵 , 悠仁 will regain control. 宿儺 dominates the other special grade 呪霊. 宿儺 deduces that working with the curse will allow him to put 悠仁 in check. However, the curse attacks him with 呪力. 宿儺 repairs 悠仁's injuries and decides that the curse will die here. He overwhelms the special grade with little effort, terrifying it in the process. 伊地知潔高 takes 野薔薇 to the hospital and 恵 stays behind to wait for 悠仁. Meanwhile, 宿儺 expresses his displeasure with being categorized as a special grade alongside a much weaker curse. The other curse manages to heal its wounds but 宿儺 is unimpressed. He responds by showcasing true jujutsu sorcery. Using 領域展開：伏魔御廚子 , 宿儺 slices the curse to pieces and takes back on of his fingers from within its body. 宿儺 rips out 悠仁's heart, effectively taking him hostage. Annoyed, 宿儺 tells 悠仁 to take back control. After no response, the devilish persona realizes that he's in control for now and maliciously grins. 恵 realizes the domain has disappeared, meaning the special grade is dead. Suddenly, 宿儺 appears beside him and explains that 悠仁 is paying for overusing 宿儺's power without restriction. He knows its only a matter of time, so 宿儺 rips out 悠仁's heart. He as a curse can live without it, but 悠仁 will die if he switches back now. 宿儺 ingests the second finger for good measure and prepares to kill 恵. 恵 says that this is just like the last time 宿儺 surfaced, except now the roles have been reversed.",
+    "characters_raw_text": "虎杖悠仁 宿儺 伏黒恵 伊地知潔高 釘崎野薔薇",
+    "locations_raw_text": "少年院／第2宿舎",
+    "battles_events_raw_text": "宿儺 vs. Finger Bearer",
+    "techniques_raw_text": "宿儺の術式 領域展開：伏魔御廚子 反転術式 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-5d693ebac2",
+    "char-b4d661547b",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase1": [
+    "宿儺が特級呪霊を圧倒する",
+    "宿儺が伏魔御廚子を展開する",
+    "特級呪霊から宿儺の指を回収する",
+    "宿儺が虎杖の心臓を抜き伏黒を狙う"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5d693ebac2",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-baadf43d19",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-b4d661547b",
+    "char-5a0f7ded8d",
+    "char-5d693ebac2"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-af5ae87255",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-af5ae87255",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_verified_phase1": [
+    "term-e6a70dfe56",
+    "term-cf5d1ac726",
+    "term-a0ce00ef9e"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

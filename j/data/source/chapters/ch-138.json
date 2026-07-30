@@ -1,0 +1,138 @@
+{
+  "id": "ch-138",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 16,
+  "number": 138,
+  "zero_number": null,
+  "label": "第138話",
+  "title_official": "禪院家",
+  "title_search_normalized": "禪院家",
+  "start_page": 89,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-16"
+  ],
+  "source_locator": "単行本16巻 目次 p.89",
+  "summary_short": "禪院家では直毘人の遺言が開示され、伏黒が当主に指名される。禪院直哉は相続を阻むため、伏黒と虎杖を殺そうと動き出す。",
+  "summary_full": "禪院直毘人の死亡を受け、禪院扇・禪院甚壱・禪院直哉の前で遺言が開示される。通常なら直哉が第27代当主となる内容だったが、五条が死亡または意思能力を失った場合は、伏黒甚爾との契約に基づき伏黒恵へ当主の座と全財産を譲る特約が優先された。直哉は相続を覆すため、東京にいる伏黒と虎杖を殺す計画を立てる。一方、虎杖は渋谷での宿儺の虐殺への罪悪感から仲間へ戻らず、脹相と東京に残って呪霊を狩る。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The 禪院家 gathers for the reading of 禪院直毘人 's will. His most talented son, 直哉 expects to inherit his position. However, his expectations are shattered by a special clause that will make 恵 head of the clan. He plans to take back what's rightfully his and plans on hunting down 恵 in 東京, the same place 悠仁 and 脹相 have chosen to remain following the 渋谷事変 .",
+    "summary_full_legacy": "The upper echelon of the 禪院 clan await 直毘人's status. At the 禪院 estate, after being critical of his dying cousin 真希 , 直哉 joins 扇 and 甚壱 as they wait for the news about 直毘人's death. 直哉 criticizes his two relatives and causes them to become violent. After 直哉 coyly defuses the situation he created, a man named Furudate enters and informs the three that 直毘人 has passed away. He reads 直毘人's will and announces that 直哉 will become the 27th head of the 禪院家 and inherit all its assets once he is approved by either 扇 or 甚壱. 直哉's reaction to the new head of the 禪院 clan. However, Furudate then reveals that there is a clause based on a written agreement with 伏黒甚爾 which states that if 五条悟 has died or become mentally incapacitated, 伏黒恵 will assume the role instead. 直哉 is left furious and knows that 扇 and 甚壱 will prefer having anyone other than himself as head of the clan. He eventually learns that 恵 is looking for 虎杖悠仁 in 東京 and that 悠仁 is 宿儺 's vessel, telling a female attendant to inform the higher-ups that he will kill 悠仁 personally. In addition, he plans to take advantage of the chaos in 東京 and to kill 恵 as well. \" What will you do? \" In a flashback, 由基 is on the phone with someone and apologizes for not making a move sooner, saying that she was just keeping an eye on things. She coyly remarks that she may not necessarily be on their side, adding that she just wants to rid the world of 呪霊. She says that she and her comrades will take responsibility for delivering the kids who were present, finally revealing that she plans to confront 天元 . 悠仁 and 脹相 head out to exorcise curses. As a despondent 悠仁 sits alone on a large staircase, 脹相 approaches him and asks about his injuries. 悠仁 says that he is fine because of 宿儺, who he can tell is growing stronger. 脹相 says that he will be fine by himself while he collects the remains of his brothers, telling 悠仁 that he can return to 呪術高専 . 悠仁, however, replies that 宿儺 has something planned for 恵 and that he himself has killed too many people, reminding 脹相 that he killed both 壊相 and 血塗 . 脹相 calmly says that it was a misunderstanding and that forgiveness isn't involved when it comes to brothers. As the two head out to deal with more 呪霊, 直哉 and 憂太 are each seen moving out to track 悠仁 and kill him.",
+    "characters_raw_text": "禪院直哉 禪院真希 (言及のみ) 禪院真依 (言及のみ) 禪院扇 甚壱 禪院 Furudate 九十九由基 (回想) 天元 (言及のみ) 虎杖悠仁 脹相 宿儺 (回想) 伏黒恵 (回想) 血塗 (想像) 壊相 (想像) 乙骨憂太",
+    "locations_raw_text": "禪院家邸宅 渋谷",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-224a241de8",
+    "char-24d736edff",
+    "char-265abd362c",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-5724ed462b",
+    "char-6534bbe6c9",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-964e851215",
+    "char-b3be077b48",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-e3d79a21e6"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682"
+  ],
+  "term_ids_candidate": [
+    "term-f74654d902"
+  ],
+  "key_events_verified_phase8": [
+    "禪院直毘人の死亡が確定する",
+    "遺言により伏黒恵が禪院家当主に指名される",
+    "直哉が伏黒と虎杖の殺害を計画する",
+    "虎杖と脹相が東京で呪霊を狩る方針を取る"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "death-confirmed"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-265abd362c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e3d79a21e6",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-224a241de8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "named-clan-head"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "agreement-mentioned"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-22abdd626c",
+    "char-b3be077b48",
+    "char-265abd362c",
+    "char-e3d79a21e6",
+    "char-224a241de8",
+    "char-3c1852867d",
+    "char-d5482ceba1",
+    "char-baadf43d19",
+    "char-851111b10d",
+    "char-1566dd973d"
+  ],
+  "technique_appearances_verified_phase8": [],
+  "technique_ids_verified_phase8": [],
+  "term_ids_verified_phase8": [
+    "term-f74654d902",
+    "term-6f7fa8f5d1",
+    "term-8914e5bc1a"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-16",
+    "src-manga-games-vol-16",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

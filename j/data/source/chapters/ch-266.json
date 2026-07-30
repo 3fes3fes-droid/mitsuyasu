@@ -1,0 +1,142 @@
+{
+  "id": "ch-266",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 30,
+  "number": 266,
+  "zero_number": null,
+  "label": "第266話",
+  "title_official": "人外魔境新宿決戦㊲",
+  "title_search_normalized": "人外魔境新宿決戦37",
+  "start_page": 47,
+  "official_group_id": null,
+  "db_section_draft_id": "ending",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-30"
+  ],
+  "source_locator": "単行本30巻 目次 p.47",
+  "summary_short": "宿儺は虎杖の提案を拒絶し、領域内の決戦が始まる。虎杖の呼びかけで伏黒は再び抵抗する意志を持ち、影を使って宿儺の動きを妨げる。",
+  "summary_full": "宿儺は虎杖の提案を拒絶し、領域内の決戦が始まる。虎杖の呼びかけで伏黒は再び抵抗する意志を持ち、影を使って宿儺の動きを妨げる。宿儺は虎杖の慈悲を侮辱と受け取り、彌虚葛籠で必中を防ぎながら戦う。伏黒は虎杖の呼びかけに応え、影で宿儺の足を沈めて抵抗を再開する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The final clash between 悠仁 and 宿儺 begins! 悠仁's main goal has always been to rescue 恵 , who appears to have given up on living. However, 悠仁's struggle has breathed new life into his friend, who is ready to return the favor and stand against the King of Curses!",
+    "summary_full_legacy": "恵 fights back against 宿儺 from within. 恵's soul asks 悠仁 to stop trying to save him. With 津美紀 dead, 恵's dream of creating a world where his stepsister would not suffer, or at the very least preserve their fragile yet idyllic lifestyle, has been destroyed. As a result, he no longer wishes to live. Remembering when his grandfather contracted lung cancer and refused treatment, 悠仁 understands 恵’s point of view and admits that he cannot tell his friend to keep living. As the final showdown between 宿儺 and 悠仁 begins, the former activates 彌虚葛籠 and maintains it with two of his hands. Although he could restore his burnt-out 術式 using 反転術式 , 宿儺 deems it too risky while his brain remains affected by 無量空処 . Unlike domains that manifest mental landscapes, 彌虚葛籠 and 簡易領域 possess weaker outputs and can only buy time before being inevitably overpowered. However, by continuously maintaining the hand signs after activation, 宿儺 prevents the anti-domain technique from collapsing. 悠仁 lands a combination of rapid-fire soul-seizing punches. The two sorcerers engage in hand-to-hand combat, with 宿儺 mercilessly beating down 悠仁 and flinging him away. Even 宿儺 is surprised by the intensity of his anger at being pitied by 悠仁 and vows to make the boy’s loved ones pay for the insult. A young 恵 appears in 悠仁’s mind, posing him the same question he once asked when they first met 五条悟 : \"what's with that look?\". Fighting back tears, 悠仁 replies that he would be lonely without 恵. Suddenly, shadows burst from beneath 宿儺’s left foot, causing it to sink and throwing him off balance. After 魔虚羅 ’s destruction, 宿儺 had been unable to utilize the 十種影法術 術式 , indicating that the shadows originate from 恵 himself. 宿儺 realizes that 悠仁’s soul-targeting 解 has reawakened 恵’s submerged soul. It's revealed that 悠仁 is missing two fingers, not just the one 宿儺 removed. Capitalizing on the opening, 悠仁 punches 宿儺 in the face, sending him crashing into a tree. Recognizing 恵’s assistance, 悠仁 smiles before charging at 宿儺 through the snow. After pummeling him with a flurry of blows, 悠仁 kicks up snow and grabs 宿儺 by the head, a gesture 宿儺 returns. The two repeatedly strike each other until 宿儺 falters first. 悠仁’s consecutive soul-rending attacks cannot be healed through 反転術式 and begin to destabilize 彌虚葛籠. Suddenly, flying slashes tear apart the claw-like gauntlet encasing 悠仁’s left arm, revealing his original arm beneath. By applying 五条’s method of resetting a burnt-out technique, 宿儺 restores his 御廚子 and prepares to unleash his 領域展開. However, he notices that 悠仁’s left hand is missing its ring and pinky fingers. Elsewhere, one of 宿儺の指 hangs suspended in midair by wires.",
+    "characters_raw_text": "虎杖悠仁 伏黒恵 (想像) 伏黒津美紀 (想像) 虎杖倭助 (言及のみ) 宿儺 五条悟 (言及のみ) レジィ・スター (想像) 九十九由基 (想像) 乙骨憂太 (回想)",
+    "locations_raw_text": "岩手県北上市／大橋公園 (想像) 男山 (想像) 大橋公園 (想像) 男山 (想像) 東京／白丸ダム調整池 (想像) 白丸ダム調整池 (想像)",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 宿儺の術式 彌虚葛籠／反転術式 術式 御廚子 解 解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "finale",
+  "character_ids_candidate": [
+    "char-026d657efa",
+    "char-0ee50b4740",
+    "char-0f2e6e85bf",
+    "char-1566dd973d",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a"
+  ],
+  "technique_ids_candidate": [
+    "tech-1e8e6dda24",
+    "tech-7c3237f986",
+    "tech-cf5d1ac726",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase11": [
+    "宿儺は虎杖の提案を拒絶し、領域内の決戦が始まる。",
+    "虎杖の呼びかけで伏黒は再び抵抗する意志を持ち、影を使って宿儺の動きを妨げる。",
+    "宿儺は虎杖の慈悲を侮辱と受け取り、彌虚葛籠で必中を防ぎながら戦う。",
+    "伏黒は虎杖の呼びかけに応え、影で宿儺の足を沈めて抵抗を再開する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-026d657efa",
+    "char-0ee50b4740",
+    "char-0f2e6e85bf",
+    "char-1566dd973d",
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-9fccad3ed6",
+    "char-baadf43d19",
+    "char-c28763b98a"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-026d657efa",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0ee50b4740",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-1e8e6dda24",
+    "tech-708d558bf8"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-1e8e6dda24",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-708d558bf8",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-30",
+    "src-manga-games-vol-30",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

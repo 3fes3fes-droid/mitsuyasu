@@ -1,0 +1,128 @@
+{
+  "id": "ch-100",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 12,
+  "number": 100,
+  "zero_number": null,
+  "label": "第100話",
+  "title_official": "渋谷事変⑱",
+  "title_search_normalized": "渋谷事変18",
+  "start_page": 47,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-12"
+  ],
+  "source_locator": "単行本12巻 目次 p.47",
+  "summary_short": "補助監督たちを傷つけた重面に激怒した七海は、圧倒的な力で制圧する。虎杖は狗巻の助けを受けて渋谷駅内部へ到達する。",
+  "summary_full": "七海は補助監督たちを傷つけた重面へ敵の人数と居場所を問い、答えない重面を十劃呪法と圧倒的な打撃で制圧する。重面は蓄積された「小さな奇跡」によって致命傷を回避するが、その仕組みを本人は知らない。七海は釘崎たちを退避させて禪院班へ合流。虎杖は呪言で群衆と改造人間を止める狗巻の助けを受け、渋谷駅へ入る。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Enraged by the number of victims the 呪詛師 , 重面春太 has left in his wake, 七海 fights to put a stop to it once and for all. Meanwhile, 悠仁 is able to finally reach 渋谷駅 with help from his favorite cursed speech user.",
+    "summary_full_legacy": "七海 confronts 重面 directly. 七海 walks into the battle between 野薔薇 and 重面春太. While 重面 wonders if he can kill non-black suits, 野薔薇 recognizes 七海 as the leader of 恵's team. The 呪詛師 tells the newcomer to read the room as 七海 wraps his necktie around his fist and walks toward the 呪詛師. 重面 tries to show that he has a hostage in 新田明 but she crawled up the escalator while he was distracted. While he expresses that he's sad that she's got away, 七海 appears directly behind him. He asks 重面 how many curse users there are and where they're located. 重面 turns around quickly to slash 七海 in the shoulder, claiming he doesn't know. He tries to follow up with a kick but it feels like hitting a stone wall. 七海 doesn't budge an inch and he's not cut at all either, surprising the assailant. \" Where and how many of you are there? \" 七海 repeats his question, asking where and how many enemies there are. 重面 is about to claim he doesn't know again but 七海 uses his 十劃呪法 to create a weak point in his opponent's body and backhands him across the room with incredible strength. 重面 tumbles through the air and crashes into a wall behind 野薔薇. Surprised, 野薔薇's jaw drops in reaction to 七海's strength. 重面 bleeds profusely from his face as his legs shake and he's barely able to stand. He believes he should have died and credits his 術式 for saving his life. He wants to run but 七海 grabs his hair and repeats his question once again. Before 重面 can even answer 七海 delivers a ferocious body shot that slams 重面 into the wall behind him and cracks it from the impact. 重面's concequences. This blow causes 重面 to violently vomit blood. With his life in very imminent danger, the 呪詛師 calls his cursed tool to rescue him. It flies through the air in an attempt to stab 七海 from behind, but 野薔薇 nails it to the wall with great accuracy. 重面 tells her to stay out of it but 七海 interrupts and grabs him by the throat. Instead of repeating the question again, 七海 reveals he found several dead managers on his way here. He lifts his fist and charges it with 呪力, asking if 重面 is responsible. 悠仁 notices a large crowd of civilians under attack. Terrified, the helpless murderer apologizes but it's too late for that. 七海 hits him again with his 術式, smashing the 呪詛師's face and leaving him in an unconscious bloody heap. 野薔薇 is amazed by 七海's strength, noting that he is exactly the model of what it means to be a true grade 1 jujutsu sorcerer . He walks away from the defeated 呪詛師 and tells 野薔薇 they need to find 明. Meanwhile, 悠仁 dashes through the streets of 渋谷. He runs over a bridge and notices civilians down below being attacked by transfigured humans. He can't leave the but there isn't enough time to save everyone in this massive crowd either. However, 悠仁 hears a familiar speech pattern that might be able to save the day. 狗巻棘 arrives with a megaphone in hand. He speaks to the entire crowd with his cursed speech, commanding everyone not to move. Shortly after helping 棘 rescue the civilians, 悠仁 enters 渋谷駅 at 10:10 P.M. Unbeknowst to 悠仁, 脹相 waits inside the station to confront his brothers' killer.",
+    "characters_raw_text": "七海建人 釘崎野薔薇 重面春太 虎杖悠仁 狗巻棘 脹相",
+    "locations_raw_text": "渋谷 渋谷駅 Bunkamura Station 渋谷駅 Bunkamura Station",
+    "battles_events_raw_text": "The 渋谷事変 釘崎野薔薇 & 七海建人 vs. 重面春太 (終了) 釘崎野薔薇 & 七海建人 vs. 重面春太 (終了)",
+    "techniques_raw_text": "呪具 重面春太's Hand-Sword 野薔薇 Kugasaki's Hammer & Nails 七海建人の術式 十劃呪法 重面春太の術式 奇跡 狗巻棘の術式 呪言",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-6c8cc9b546",
+    "char-851111b10d",
+    "char-a61d6ef891",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-0ec3138e2c",
+    "tech-deb6545546",
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_candidate": [
+    "term-c74cac6805"
+  ],
+  "key_events_verified_phase6": [
+    "七海が十劃呪法で重面を制圧する",
+    "重面の奇跡が自動的に命の危機を回避する",
+    "七海が釘崎と新田へ退避を命じる",
+    "狗巻が虎杖の駅進入を援護する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance-injured"
+    },
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "appearance-injured"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "defeated"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-6309a7e2f4",
+    "char-5a0f7ded8d",
+    "char-0cb661851e",
+    "char-6c8cc9b546",
+    "char-baadf43d19",
+    "char-a61d6ef891"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-0ec3138e2c",
+      "relation": "automatic-use"
+    },
+    {
+      "technique_id": "tech-deb6545546",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-e69f8fd37d",
+    "tech-0ec3138e2c",
+    "tech-deb6545546"
+  ],
+  "term_ids_verified_phase6": [
+    "term-041be91538",
+    "term-c74cac6805",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-12",
+    "src-manga-games-vol-12",
+    "src-legacy-ju-txt"
+  ]
+}

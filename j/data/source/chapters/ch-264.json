@@ -1,0 +1,158 @@
+{
+  "id": "ch-264",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 30,
+  "number": 264,
+  "zero_number": null,
+  "label": "第264話",
+  "title_official": "人外魔境新宿決戦㊱",
+  "title_search_normalized": "人外魔境新宿決戦36",
+  "start_page": 7,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-30"
+  ],
+  "source_locator": "単行本30巻 目次 p.7",
+  "summary_short": "来栖華が再び「邪去侮の梯子」を放つが、宿儺は威力が落ちた攻撃を突破する。虎杖は魂の境界を狙う解を使い、さらに初めて領域展開を発動する。",
+  "summary_full": "来栖華が再び「邪去侮の梯子」を放つが、宿儺は威力が落ちた攻撃を突破する。虎杖は魂の境界を狙う解を使い、さらに初めて領域展開を発動する。来栖の邪去侮の梯子は片腕と出力低下のため宿儺を止め切れない。虎杖は魂の境界へ解を刻み、宿儺との決着をつけるため自らの領域を展開する。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The ladder to victory is a perilous climb that only the strongest can manage! As his allies fall one after another, 悠仁 must rise to the occasion and reach a new realm of power to match 宿儺 .",
+    "summary_full_legacy": "As the radiance of 華 ’s 邪去侮の梯子 descends upon 宿儺, the King of Curses smashes the ground beneath himself, launching debris into the air. Though the pillar of purifying light engulfs him, 華 soon notices 宿儺 ascending through the rubble, using the airborne fragments as footholds. Unlike the sure-hit 邪去侮の梯子 unleashed within 憂太 ’s domain , which exclusively targeted 宿儺, 華’s technique would also affect 東堂 and 悠仁. Enduring the divine light, 宿儺 calculates that he can reach the 天使 ’s vessel before the other sorcerers can intervene. 東堂 uses his own body to protect 華 from 宿儺. Coexisting with an incarnated 呪物 causes a sorcerer to rely on the incarnation's 術式 and lack physical strength themselves. As a result of losing her arm, 華's output has considerably weakened. Seizing the opportunity, 宿儺 leaps behind her and gathers 呪力 into his fist, preparing a fatal blow. At the last instant, 東堂 intercepts the attack, blocking what ends up being a 黒閃 . 宿儺 acknowledges him as a true sorcerer, but the immense impact sends both 東堂 and 華 crashing into the ground, leaving them incapacitated. 悠仁 unable to land a soul-targeting 解. With 東堂 and 華 removed from the fight, 宿儺 turns to 悠仁, only to find him directly behind him, having pursued him through 邪去侮の梯子’s light. 悠仁 lands a clean punch before grabbing 宿儺’s legs and hurling him through a building. After regaining his footing, 宿儺 narrowly evades a 捌 from 悠仁 and retaliates with 解 . Although 悠仁 avoids the slash, 宿儺 follows up with a crushing punch from his restored left hand. Having now landed two 黒閃, 宿儺 restores the output of his 反転術式 , regenerating his missing heart and severed hands. With his body restored, 宿儺 abandons risky maneuvers and relentlessly assaults 悠仁 while waiting for his burnt-out technique to recover. 悠仁 counters by activating 捌 upon the ground itself, causing it to collapse beneath 宿儺. Attempting to capitalize, 悠仁 follows with a soul-targeting 解, but the attack misses and tears through a wall instead. Though 宿儺 acknowledges the technique’s lethality if it were to connect, he remains confident that 悠仁 cannot kill him so long as he avoids direct hits. The decisive final battle heads into an uncharted domain. Having undergone replacement training with 日下部篤也 , 悠仁 acquired a foundational understanding of barrier techniques . He recalls the time he spent inside 漏瑚 ’s 蓋棺鉄囲山 where 五条 explained that inside a 領域展開 , all attacks are guaranteed to hit. Inspired, 悠仁 forms a hand sign and expands his own domain for the first time. Caught within 悠仁's domain, 宿儺 finds himself sitting down in a train station-like environment and finds himself returned to the appearance he had when 悠仁 was his vessel. Across from him stands 悠仁, likewise restored to his pre-incarnation form. With an uncharacteristically bright expression, 悠仁 cheerfully tells 宿儺 to prepare himself.",
+    "characters_raw_text": "来栖華 宿儺 虎杖悠仁 東堂葵 乙骨憂太 (言及のみ) 天使 伏黒恵 (言及のみ) 漏瑚 (回想) 五条悟 (回想) 日下部篤也 (言及のみ)",
+    "locations_raw_text": "東京 新宿 岩手県北上市／北上駅 (想像) 新宿 北上駅 (想像)",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "来栖華の術式 術式 邪去侮の梯子 宿儺の術式 黒閃 反転術式 術式 御廚子 解 解 虎杖悠仁の術式 領域展開 御廚子 捌／解 捌／解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-53c5711b23",
+    "char-65e7fd1c87",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [
+    "tech-2326f083fd",
+    "tech-4b0b9dc682",
+    "tech-56316150ed",
+    "tech-69d5ecb511",
+    "tech-7f37ba28b4",
+    "tech-cf5d1ac726",
+    "tech-d2feb31d47",
+    "tech-d845dd244c"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56",
+    "term-65867f280c",
+    "term-bb7659490f"
+  ],
+  "key_events_verified_phase11": [
+    "来栖華が再び「邪去侮の梯子」を放つが、宿儺は威力が落ちた攻撃を突破する。",
+    "虎杖は魂の境界を狙う解を使い、さらに初めて領域展開を発動する。",
+    "来栖の邪去侮の梯子は片腕と出力低下のため宿儺を止め切れない。",
+    "虎杖は魂の境界へ解を刻み、宿儺との決着をつけるため自らの領域を展開する。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-53c5711b23",
+    "char-65e7fd1c87",
+    "char-a61fa295f1",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca",
+    "char-d8252d61d4"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-56316150ed",
+    "tech-708d558bf8",
+    "tech-1aadb53ceb"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-56316150ed",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-708d558bf8",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-1aadb53ceb",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-bb7659490f",
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-30",
+    "src-manga-games-vol-30",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

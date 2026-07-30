@@ -1,0 +1,150 @@
+{
+  "id": "ch-199",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 199,
+  "zero_number": null,
+  "label": "第199話",
+  "title_official": "仇名",
+  "title_search_normalized": "仇名",
+  "start_page": 167,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.167",
+  "summary_short": "桜島結界の戦いを終えた真希は、加茂へ母に会うよう促す。一方、東京第1結界では伏黒が目覚め、来栖華、髙羽、虎杖らと合流する。",
+  "summary_full": "直哉を祓った真希は、負傷した加茂へ母と話すよう勧め、自分は母と向き合えないまま殺したと語る。東京第1結界では、二日間眠っていた伏黒が来栖華、虎杖、髙羽と合流する。天使は来栖と共生する受肉存在で、術式消滅によって獄門疆の封印を解けると説明する。ただし協力の条件として「堕天」の抹殺を要求する。宿儺は虎杖の内側で、自分こそ堕天だと明かす。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Victorious, 真希 regroups with Noritoshi and offers him advice on his similar family situation. Meanwhile, in the 東京第1結界 , strange alliances are formed when 恵 wakes up two days later.",
+    "summary_full_legacy": "Able to relate to Noritoshi, 真希 offers him advice. Following her victory over 直哉 , 真希 goes back to check on Noritoshi. He's lying on the ground injured but he's alive and still conscious. Noritoshi asks 真希 if she won and she gives the credit to the others for the win. Noritoshi asks about their condition and 真希 tells him that they're in bad shape same as him. 真希 points out that Noritoshi has been acting differently and he reveals that he feels unimportant due to his ousting from the 加茂 clan as well as his relationship with his mother. 真希 urges Noritoshi to speak with his mother again and reveals that she killed hers before they had a chance to properly talk. She tells Noritoshi not to make the same mistake as she helps him walk to safety. Elsewhere, Noritoshi's mother tells her family about him. She gave Noritoshi a forbidden name because she hoped it would lead him back to her. Her younger child asks if Noritoshi is nice and the mother assures them that he is so simply because he is her son. \" Did you sleep well... Destined One? \" In the 東京 No. 1  Colony, 来栖華 greets 恵 after he awakens from sleeping for two days. 悠仁 and 高羽 greet him as well. 高羽 is able to bring back goods from the store because the electrical grid in the city is still functional. 恵 uses the bathroom and bathes before learning how 悠仁 met up with 華 and 高羽. 悠仁 happened upon 高羽's explosive fight with 黄櫨折 and they worked together to locate 恵. They found 恵 being carried away by 華 while he was unconscious. 恵 questions the caution of everyone involved and then rectifies his statement to thank everyone for helping him. 悠仁 shows 恵 that with their allies' help, their group has accumulated 359 points in total, more than enough to rescue 津美紀 . 恵 asks permission to use 華 and 高羽's points before moving on to more questions. He tells 華 they've been looking for the 天使, who was supposed to be in the 東京第2結界. He asks if 華 is the 天使 and why a rival player would help him. Someone answers that they're the 天使, but it's not exactly 華. 天使 revealed! A mouth grows on 華's cheek and speaks, telling 恵 not to pester a girl with so many questions. 恵 and 高羽 are surprised but 悠仁 simply notes that 華 is similar to himself. 天使 almost reveals why 華 helped 恵 but the girl covers the mouth before they get the chance. The mouth reappears on 華's hand and reveals their innate technique , 術式 術式消滅 , can negate barriers. This allowed 華 to leave the No. 2 colony because most of the players there were already wiped out by 鹿紫雲一 . 恵 asks why the 天使 is looking for players and they reveal all incarnated players are their targets for elimination. 天使 believes incarnation is wrong because they suppress the vessel's consciousness and has decided to exist symbiotically with 華. 宿儺 reveals himself as the \"堕天\". 恵 asks the 天使 if their ability to negate techniques can revert possessed players to normal. The simple answer is no, as the 天使 explains the process is more likely to kill the person than save them because the 呪物 has fused with their body. 天使 asks if this is what the boys sought them out for but 恵 clarifies that they need the 天使 to remove the seal on 獄門疆 . 天使 claims this should be within their capabilities, much to the delight of 悠仁 and 恵. 恵 pauses for a moment and thinks over how things are moving along too smoothly. 天使 proposes that they help 恵 and 悠仁 in return for an initial favor. 恵 asks if the 天使 wants them to help slay all the incarnated players but the 天使 only wants one eliminated, the 堕天. At that moment, 宿儺 pulls 悠仁's consciousness into his innate domain and reveals that he is the 堕天.",
+    "characters_raw_text": "加茂憲紀 禪院真希 加茂憲紀's Mother 来栖華 伏黒恵 虎杖悠仁 高羽史彦 秤金次 (言及のみ) 乙骨憂太 (言及のみ) 伏黒津美紀 (言及のみ) レジィ・スター (回想) 石流龍 (回想) 鹿紫雲一 (回想) 五条悟 (言及のみ) 宿儺",
+    "locations_raw_text": "桜島結界 東京第1結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": "呪物 獄門疆 (言及のみ) 式神 コガネ 天使の 術式 術式 術式消滅 (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-026d657efa",
+    "char-02aa196fbb",
+    "char-0e7004da56",
+    "char-0f2e6e85bf",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-4a29b3de7b",
+    "char-830f121430",
+    "char-8a6e43878f",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d8252d61d4",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "真希が加茂へ母と話すよう助言する",
+    "伏黒が虎杖・来栖・髙羽と合流する",
+    "天使が術式消滅と獄門疆解放の可能性を説明する",
+    "天使が堕天の抹殺を条件にする",
+    "宿儺が自分が堕天だと虎杖へ明かす"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e2fb64f147",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "awakens"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "revealed"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "reveals-fallen"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "rescue-target"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "rescue-target"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-830f121430",
+    "char-e2fb64f147",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-d8252d61d4",
+    "char-65e7fd1c87",
+    "char-02aa196fbb",
+    "char-2b8d365a39",
+    "char-17322e71e5",
+    "char-0f2e6e85bf"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-2326f083fd",
+      "relation": "explained"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-2326f083fd"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-152790e31d",
+    "term-f7be87831e",
+    "term-c3a59e1049",
+    "term-6de7063fc5",
+    "term-6e7e2b846e"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

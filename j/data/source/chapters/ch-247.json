@@ -1,0 +1,135 @@
+{
+  "id": "ch-247",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 28,
+  "number": 247,
+  "zero_number": null,
+  "label": "第247話",
+  "title_official": "人外魔境新宿決戦⑲",
+  "title_search_normalized": "人外魔境新宿決戦19",
+  "start_page": 31,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-28"
+  ],
+  "source_locator": "単行本28巻 目次 p.31",
+  "summary_short": "宿儺は日車を集中的に追い詰め、腕を切断する。日車は反転術式で再生し、処刑人の剣を虎杖へ託して力尽きる。",
+  "summary_full": "宿儺は日車を集中的に追い詰め、腕を切断する。日車は反転術式で再生し、処刑人の剣を虎杖へ託して力尽きる。宿儺は日車の腕を斬って反転術式の習得を迫り、日車は戦闘中に治癒を成功させる。最期の一撃で処刑人の剣を虎杖へ託すように渡して倒れるが、この時点では死亡を確定させない。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Fascinated by talent that rivals 五条悟 , 宿儺 has his eyes firmly set on 日車寛見 . 悠仁 tries to get him out of the desperate situation but 日車 is ready to embrace his role until the end.",
+    "summary_full_legacy": "Even more so than 日車's ability to use 領域展延 , 宿儺 is intrigued by his finesse with the anti-domain technique. 日車 was able interrupt and resume his 処刑人の剣 while using amplification instead of completely nullifying it. This was a feat that 宿儺 demonstrated during his battle against 五条悟 , where he was careful to only interrupt 魔虚羅 's adaptation rather than nullify it whenever he activated amplification. \"日車寛見.. that's your name right?\" Fascinated by 日車's prowess, 宿儺 decides to further test the awakened sorcerer's abilities. After performing hand signs with his extra arms, 宿儺 cuts apart the building they were in. 悠仁, who arrived outside of the building as this happened, joins the battle. Standing on the falling debris, 日車 charges at 宿儺, but is distracted by pieces of debris near his face that 宿儺 shattered using 解 . Taking advantage of the diversion, 宿儺 approaches 悠仁, who tries to punch him and protect 日車. However, 宿儺 intercepts his arm and grabs the left side of his torso before activating 捌 , cutting half of 悠仁's lower torso into pieces. As the bloodied young man falls to the ground, 宿儺 remarks on how boring he is. 悠仁 attempts to aid 日車 against 宿儺. As the destroyed building collapses on the ground, 宿儺 and 日車 emerge from the wreckage. 日車 fruitlessly tries to hit 宿儺 with the 処刑人の剣 all the while suffering punches from him. Eventually, 宿儺 jumps away from 日車 and chants the incantations for 解, unleashing a slash that cuts the world on the lawyer that slices apart the bridge he stood on. 日車's achieves 反転術式. 日車 was able to dodge the slash, but was unable to avoid it completely, as his right arm was severed. Impressed with Higiruma's rapid growth, 宿儺 tells 日車 to achieve 反転術式 and heal. 日車 believed he was prepared but admits that pain still hurts to a great degree. He tries to bear through the pain and charge 宿儺, who cuts off his left hand and slashes his legs in response, preventing him from moving. 宿儺 threatens to cut off 日車's head if he does not heal himself while dryly encouraging him. As 日車 remembers his wish to fulfil his role and then die, 宿儺 is suddenly hit by 穿血 , though he blocks it with his arm and notes that the technique belonged to the 呪胎九相図 Womb older brother . 悠仁 grabs hold of the curses entrusted to him with his own hands! Seizing the opportunity provided by the brief distraction, 日車 immediately regenerates his right arm, heals his legs with 反転術式, and seemingly stabs 宿儺's hand with the 処刑人の剣. However, the King of Curses cut off his hand before 日車 pierced it, but commends him for his effort nonetheless. As 宿儺 activates 捌 on 日車, the latter winces in pain and remembers a conversation he had with 日下部 about curses becoming stronger after death. 日車 then tosses away the cross inside the 処刑人の剣, which is caught by 悠仁, who appears behind 宿儺. As 日車 is slashed apart, he finally looks 悠仁 in the eyes and tells him that he has done what he can. Recalling 七海 's last words, 悠仁 prepares to stab 宿儺 in the back with the 処刑人の剣, proudly upholding the curse he was entrusted with as a jujutsu sorcerer .",
+    "characters_raw_text": "宿儺 日車寛見 五条悟 (言及のみ) 虎杖悠仁 脹相 (言及のみ) 日下部篤也 (回想) 七海建人 (回想)",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "脹相の術式 赤血操術 穿血 日車寛見の術式 反転術式 術式 宿儺の術式 御廚子 捌／解 捌／解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-6309a7e2f4",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-5d6a005065",
+    "tech-7f37ba28b4",
+    "tech-a1213858c7",
+    "tech-cf5d1ac726",
+    "tech-d2feb31d47",
+    "tech-e1903ce05c"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-cf5d1ac726"
+  ],
+  "key_events_verified_phase11": [
+    "宿儺は日車を集中的に追い詰め、腕を切断する。",
+    "日車は反転術式で再生し、処刑人の剣を虎杖へ託して力尽きる。",
+    "宿儺は日車の腕を斬って反転術式の習得を迫り、日車は戦闘中に治癒を成功させる。",
+    "最期の一撃で処刑人の剣を虎杖へ託すように渡して倒れるが、この時点では死亡を確定させない。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-6309a7e2f4",
+    "char-851111b10d",
+    "char-9fccad3ed6",
+    "char-baadf43d19"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-e1903ce05c",
+    "tech-cf5d1ac726"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-e1903ce05c",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-28",
+    "src-manga-games-vol-28",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

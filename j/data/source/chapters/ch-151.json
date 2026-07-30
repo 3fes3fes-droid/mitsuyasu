@@ -1,0 +1,109 @@
+{
+  "id": "ch-151",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 17,
+  "number": 151,
+  "zero_number": null,
+  "label": "第151話",
+  "title_official": "葦を啣む―肆―",
+  "title_search_normalized": "葦を啣む―肆―",
+  "start_page": 171,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-17"
+  ],
+  "source_locator": "単行本17巻 目次 p.171",
+  "summary_short": "真希は投射呪法を使う直哉と対決し、速度の法則を見抜いて一撃で打ち倒す。真希の肉体は、禪院家が恐れた甚爾の領域へ完全に到達していた。",
+  "summary_full": "禪院直哉は、幼少期から恐れていた甚爾と同じ領域へ真希が到達したことを認めず、投射呪法で高速攻撃を仕掛ける。速度を積み上げて音速を超え、真希へ何度も打撃を与えるが、真希は一度受けた術式から一秒を24分割する規則を見抜く。直哉が再び触れて動きを強制しようとした瞬間、真希は24コマに合わせて行動し、正面から拳を顔面へ命中させる。直哉は敗北し、甚爾を無視してきた禪院家の価値観も打ち砕かれる。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In exchange for 真依 's life, 真希 has broken away from 呪力 . Her power now resembles 禪院甚爾 's but 直哉 sees her as nothing more than an imposter. The conflict has escalated past a fight for the 禪院 clan, this has become a battle of who will stand beside 甚爾 and 五条悟 as the strongest.",
+    "summary_full_legacy": "直哉 understood 甚爾's true strength from a young age. When 直哉 was a child, he was constantly coddled and praised by his family members. He was recognized as a genius and many always believed he would grow into the head of the clan after 直毘人 . 直哉 heard of a black sheep in the 禪院 clan who didn't have any 呪力 and went to see how pitiful that person must look. However, 直哉 was physically shaken upon seeing 甚爾's cold, focused, and unconcerned eyes. 真希 has gained strength comparable to 甚爾's and has annihilated most of the 禪院 clan's strongest fighters with it. At the climax of the conflict, she faces 直哉, who sends a series of rapid punches her way within a single second. 真希 is able to parry most of them and tries to count the number of movements in that moment, but she's interrupted and grabbed by 直哉, causing her to be frozen inside a frame. Using extreme velocity, 直哉 kicks 真希 through several large stone structures surrounding the 禪院 estate. 直哉 is adamant to himself that 真希 is not 甚爾 regardless of her boost in power. 直哉 understands that the sin of insignificant people is their ignorance of strength. Everyone misjudged 甚爾 because of his lack of 呪力 and 直哉 doesn't believe anyone understood him other than 悟. \" You are not 甚爾!! \" Using his 術式 , 直哉 continually builds momentum and overwhelms 真希 with one high-speed move after another. 直哉 desires to prove that he is the one who will stand with 甚爾 and 悟 as one of the strongest, not 真希. Even with her improved abilities, 真希 is hurt by 直哉's attacks and struggles to keep up, admitting the situation is getting bad. 投射呪法 doesn't allow the user to egregiously ignore the laws of physics or trajectories. There is also an upper limit on the user's acceleration when they activate the technique as well. However, maintaining activation of 投射呪法 allows speed to continuously build. Unlike in his fight with 脹相, 直哉 won't stop building speed this time. He understands that strength equals weight and speed and plans to pierce 真希 at max velocity, having already gone supersonic. 直哉 attempts to cement his place among the strongest. 真希 gained a steel body that has broken away from 呪力 in exchange for 真依's life, but she's still injured from her fight with 扇 and the 炳 . At a disadvantage, 真希 welcomes a head-on collision and takes the stance of the 不知火型 technique. She attempts to take on the brunt of 直哉's supersonic speed attack in order to stop his movements, even if it means sacrificing a few ribs. Appearing to see through 真希's defensive strategy, 直哉 tags her with his palm instead. Doing so forces his cousin to follow the 24 frames per second rule of 投射呪法. Failure to do so means being frozen inside a frame for one second. 真希 deciphers the trick to 直哉's 術式. Still moving at top speed and seeing his adversary as nothing more than an imposter, 直哉 believes 真希 is frozen and prepares to finish her off. However, 真希 is not frozen and is even obeying the 24 frames per second rule. Her new body allows her to see that 直哉 can move twenty-four times per second and move fast enough to avoid being frozen. 真希 turns around and counterattacks, intercepting 直哉's path with her fist while his face approaches her punch at top speed. 直哉 attempts to call 真希 an imposter but she smashes his face into the ground with an incredibly ferocious punch that ends the fight. Since 直哉 didn't get to finish his statement, 真希 asks her bloodied and defeated cousin to repeat that.",
+    "characters_raw_text": "禪院直哉 伏黒甚爾 (回想) 禪院真希 五条悟 (回想) 禪院直毘人 (言及のみ)",
+    "locations_raw_text": "禪院家邸宅",
+    "battles_events_raw_text": "禪院真希 vs. 禪院直哉",
+    "techniques_raw_text": "禪院直哉の術式 投射呪法／体術 術式 不知火型 不知火型",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-b3be077b48",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-cc23098baa"
+  ],
+  "term_ids_candidate": [
+    "term-f74654d902"
+  ],
+  "key_events_verified_phase8": [
+    "直哉が投射呪法で速度を積み上げる",
+    "真希が投射呪法の24分割の規則を見抜く",
+    "真希が規則に合わせて行動する",
+    "真希が直哉を一撃で倒す"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "defeated"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-24d736edff",
+    "char-b3be077b48",
+    "char-d5482ceba1",
+    "char-22abdd626c",
+    "char-17322e71e5"
+  ],
+  "technique_appearances_verified_phase8": [
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used-and-decoded"
+    }
+  ],
+  "technique_ids_verified_phase8": [
+    "tech-cc23098baa"
+  ],
+  "term_ids_verified_phase8": [
+    "term-f74654d902",
+    "term-bfcc1b065d"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-17",
+    "src-manga-games-vol-17",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

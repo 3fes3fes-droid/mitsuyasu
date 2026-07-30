@@ -1,0 +1,126 @@
+{
+  "id": "ch-051",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 6,
+  "number": 51,
+  "zero_number": null,
+  "label": "第51話",
+  "title_official": "供花",
+  "title_search_normalized": "供花",
+  "start_page": 151,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-06"
+  ],
+  "source_locator": "単行本6巻 目次 p.151",
+  "summary_short": "虎杖と東堂は不義遊戯を駆使して花御を追い詰める。花御が領域展開を試みた瞬間、帳が破られ五条が戦場へ介入する。",
+  "summary_full": "花御は不義遊戯の交換へ徐々に対応するが、東堂は対象が人間に限らず、一定以上の呪力を持つ物体とも交換できることを利用する。呪いの種子を受ける直前、高田ちゃんの想像から防御の呪力を解けば種子が成長しないと気づく。東堂は河川に残された游雲と虎杖を交換し、游雲で花御の弱点を強打する。花御は周囲の植物の生命を左肩の花へ集めて供花を準備し、領域展開を発動しようとするが、帳が消え、上空に五条が現れる。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 and 葵 's back and forth battle against 花御 reaches its climax. Using his 術式 in different ways, 葵 is able to corner 花御. Prepared to pull out all the stops, 花御 is interrupted when a key player shows up on the battlefield.",
+    "summary_full_legacy": "花御 continues to relish in the thrill of the fight. 悠仁 and 葵's fight against 花御 rages on. 花御 begins to anticipate the switches as he gets used to 葵's 術式, 不義遊戯 . Despite losing a bit of their advantage, 悠仁 and 葵 remain confident they can exorcise the curse thanks to the damage 花御 took earlier from 悠仁's 黒閃 rush. Despite his injuries, 花御 goes all out and continues to relish in the thrill of battle. He summons a giant flower filled with Cursed Buds and launches them at his enemies. 葵 switches with 花御 to get 悠仁 out of the way and prepares to deflect the buds with protective 呪力. However, within 0.01 seconds, 葵 thinks about a fake memory with Takada-chan where she tells him that the buds grew into 恵 because of his 呪力. By disengaging his jujutsu protection, 葵 is able to withstand the Cursed Buds and thanks Takada. 葵 crushes 花御 with 游雲! 悠仁 and 葵 press their attack again and 葵 reveals more about his 不義遊戯 術式. He can use it to switch with anything that possesses 呪力. 葵 also points out that they've returned to the river where their battle first started. He uses his 術式 to switch 悠仁 with 真希's 游雲 , arming 葵 with the special grade cursed tool. Time's up! 恵 left 游雲 in the river and revealed to 葵 that the branches on 花御's face are his weak point. Confused, 悠仁 is sent to the river while 葵 breaks 花御's face with a powerful strike from 游雲. 花御 is barely able to withstand the blow and nearly counters with a spiked root that 葵 is able to evade. The trees around them begin to wither and die as the flower on 花御's shoulder absorbs the plant's life and converts it into 呪力. The eye of the flower opens and begins to charge a large focused beam of 呪力. 花御 knows avoiding this attack would be simple for 葵, so he begins to activate his 領域展開 . However, the curtain surrounding the school disappears and the fighters notice 五条悟 floating above them.",
+    "characters_raw_text": "虎杖悠仁 花御 東堂葵 Nobuko Takada 五条悟",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 虎杖悠仁 & 東堂葵 vs. 花御 (終了)",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 呪具 游雲",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-0bca269a4a",
+    "char-17322e71e5",
+    "char-9148bf784c",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-3a1afe6fc8",
+    "tech-4688b07b42",
+    "tech-4b0b9dc682",
+    "tech-9754429d12"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56",
+    "term-f9e3abf542"
+  ],
+  "key_events_verified_phase3": [
+    "東堂が呪いの種子の性質を見抜く",
+    "不義遊戯で游雲を回収する",
+    "東堂が游雲で花御の弱点を打つ",
+    "花御が供花と領域展開を準備する",
+    "五条が帳を破って現れる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0bca269a4a",
+      "presence": "imagined"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-baadf43d19",
+    "char-9148bf784c",
+    "char-d76df97dca",
+    "char-0bca269a4a",
+    "char-17322e71e5"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-4688b07b42",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-07d7ee8f6e",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-3a1afe6fc8",
+      "relation": "charged"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-4688b07b42",
+    "tech-07d7ee8f6e",
+    "tech-3a1afe6fc8"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-bf1b3beaca",
+    "term-64abcd060b",
+    "term-e6a70dfe56"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-06",
+    "src-manga-games-vol-06",
+    "src-official-character-vote-4"
+  ]
+}

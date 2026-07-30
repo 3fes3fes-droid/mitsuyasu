@@ -1,0 +1,108 @@
+{
+  "id": "ch-131",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 15,
+  "number": 131,
+  "zero_number": null,
+  "label": "第131話",
+  "title_official": "渋谷事変㊽",
+  "title_search_normalized": "渋谷事変48",
+  "start_page": 130,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-15"
+  ],
+  "source_locator": "単行本15巻 目次 p.130",
+  "summary_short": "虎杖は遍殺即霊体となった真人と一対一で激突する。硬度と攻撃力を増した真人に苦戦しながら、最後の一撃へ全力を集中する。",
+  "summary_full": "遍殺即霊体となった真人は、魂の形を攻撃力と硬度に特化させ、虎杖の通常打撃をほぼ通さない肉体を得る。速度と威力でも虎杖を上回り、道路を崩して追い詰めるが、直前に受けた黒閃や長時間の戦闘による損傷も残っている。虎杖は真人を倒すには最大呪力を込めた黒閃しかないと判断し、右拳へ力を集中したまま攻撃をさばき、互いに決定打を狙う最終局面へ入る。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "As the 渋谷事変 races violently towards its conclusion, only 悠仁 is left to stand against 真人 . Having ascended to his true form, 真人 plans to celebrate his rebirth by killing his nemesis.",
+    "summary_full_legacy": "真人's new destructive power. 渋谷 has been decimated by the exchanges of the jujutsu battle between 真人 and the sorcerers. In the midst of the city ruins, 悠仁 glares at his greatest enemy and wonders what his newest transfiguration brings to the table. 無為転変 : 遍殺即霊体 has allowed 真人 to ascend to his \"true form\". The 呪霊 feels reborn and asks 悠仁 to wish him a happy birthday to celebrate the monumental occasion. Having unleashed 黒閃 , 真人 believes he has tapped into his true unbridled soul. 悠仁 didn't take his adversary to be one for a journey of self-discovery. Amused, 真人 replies that his rebirth has just begun. Only after killing 悠仁 does the 呪霊 feel that he can truly be born anew. 真人's newly hardened body nullifies the force of 悠仁's punch completely. The two fighters blitz one another with blinding speed to reignite the battle. 真人 makes the first move, creating a shockwave with just a wave of his arm. 悠仁 ducks under the wave of debris and attacks with a straight kick that's caught by the black hairs protruding from 真人's head. The curse tries to take advantage with a tailwhip but 悠仁 blocks it with his knee. Both fighters return to neutral where 悠仁 is able to parry 真人's punch and counter with an uppercut to his body. However, 悠仁's 呪力 infused punch deals absolutely zero damage. 真人's body is now even harder than 脹相 's was at the end of his jujutsu battle with 悠仁. 真人 knocks 悠仁 away and forces him to realize that the 呪霊 transcended beyond his former state. They trade blows but 悠仁's attacks are unable to reach his opponent any longer. \" You and I still got a lot left in the tank. \" 悠仁 is overwhelmed and slammed into the street, creating a giant crater from the impact. The street crumbles apart and 悠仁 falls to the bottom of the crater where several pipes have burst. As water fills the bottom of the crater where 悠仁 stands across from 真人, the former realizes he can only win using a 黒閃 infused with maximum 呪力. 悠仁 focuses on charging his 呪力 for a max power 黒閃. 悠仁's leg suddenly sinks into the shallow body of water forming at his feet. 真人 attempts to take advantage, but he finds himself coughing up blood and smaller areas of his body breaking apart. 悠仁 hitting 真人 with 黒閃 immediately after 真人 activated 領域展開 dealt serious damage. The lasting effects of their long battle are now catching up with the special grade . 悠仁 hits his leg to wake himself up, prompting 真人 to comment that they both still have plenty left in the tank. 真人 rushes his opponent as soon as he's capable, kicking up a large volume of water. 悠仁 focuses on charging his 呪力 around his fist and ducks under 真人's attack. While continuing to keep his right hand in a fist, 悠仁 parries 真人's attack. This puts them both in a position to attack with their free hand, with both fighters ready to deal the final decisive blow.",
+    "characters_raw_text": "虎杖悠仁 真人 脹相 (回想)",
+    "locations_raw_text": "渋谷",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 東堂葵 vs. 真人 虎杖悠仁 & 東堂葵 vs. 真人",
+    "techniques_raw_text": "真人の術式 無為転変 遍殺即霊体 遍殺即霊体",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-851111b10d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad",
+    "tech-c657f1cc7e"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase7": [
+    "遍殺即霊体の硬度と攻撃力が示される",
+    "虎杖の通常打撃が真人へ通りにくくなる",
+    "真人にも蓄積した損傷が現れる",
+    "虎杖が最大呪力の黒閃へ集中する"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance-true-form"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-baadf43d19",
+    "char-18d7c58412",
+    "char-851111b10d"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-c657f1cc7e",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "maintains-form"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "prepared-by-yuji"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-c657f1cc7e",
+    "tech-71a2d65cad",
+    "tech-69d5ecb511"
+  ],
+  "term_ids_verified_phase7": [
+    "term-65867f280c",
+    "term-phase5-body",
+    "term-c6defb1c13",
+    "term-69d5ecb511"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-15",
+    "src-manga-games-vol-15",
+    "src-legacy-ju-txt"
+  ]
+}

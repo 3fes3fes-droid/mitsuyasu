@@ -1,0 +1,119 @@
+{
+  "id": "ch-193",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 193,
+  "zero_number": null,
+  "label": "第193話",
+  "title_official": "桜島結界③",
+  "title_search_normalized": "桜島結界3",
+  "start_page": 47,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.47",
+  "summary_short": "人型へ変態した直哉は投射呪法で加速し、真希へ音速を超える突進を叩き込む。真希と加茂は速度と威力の両面で追い詰められる。",
+  "summary_full": "人型へ変態した直哉は、投射呪法で空気を圧縮しながら加速し、最高速度マッハ3の突進を真希へ直撃させる。真希は甚爾と同じ呪力ゼロの肉体を得ていたが、視覚だけで速度を追おうとして直哉の軌道を捉え切れない。加茂は赤血操術で援護するものの、直哉の速度は穿血を上回る。真希は重傷を負い、自分と甚爾の間にまだ違いがあることを認める。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "直哉 has evolved into a far more powerful vengeful curse . 真希 and Noritoshi continue to combine their strength, but 直哉's evergrowing speed and power present a challenge even they may not even be able to match.",
+    "summary_full_legacy": "直哉 withstands 真希 and Noritoshi's combo attacks. After sending Noritoshi flying, 直哉 notices that his hand has been burned. He commends Noritoshi for nullifying his punch and proving to have the strength of a clan head. Noritoshi crashed into a gate and his bow was broken by the impact, but his body is mostly uninjured. If he hadn't blocked the punch with blood, however, Noritoshi's head and arm would've been destroyed by 直哉's attack. Noritoshi is aware of this and decides to step up his game and activate 赤鱗躍動 . 直哉 rushes towards Noritoshi and 真希 intercepts him. She slashes 直哉 with the 釈魂刀 and then Noritoshi restrains him with 赤縛 . 真希 attempts another slash, but 直哉 rotates at high speed to reflect the blade. 真希 reveals to Noritoshi that their opponent is 禪院直哉 and Noritoshi is surprised that 直哉 has retained so much of his ego as a curse. He compares 直哉 to 里香 , who behaves much more like a normal 呪霊. 真希 adds that 直哉 can still use his 術式 and Noritoshi realizes that he's been using 投射呪法 this entire time. 直哉 building up to his top speed. Using the aforementioned technique, 直哉 freezes the air into animation frames and then strikes them to create an explosion that blows his opponent's back. This allows 直哉 to dash in between them and fly away into the air. Noritoshi questions if 直哉 is fleeing but 直哉 states that it's more likely that he's speeding up. They know 直哉 will charge them once he's reached top speed and 真希 believes they can prepare an attack and wait for 直哉 to run into it, the same strategy she used to defeat him before. 真希 suffers a direct hit from 直哉's high-speed attack. 直哉's flesh appendages retreat into his shell as he gains speed and takes air into the inlet on his back. He goes supersonic and shatters all structures he passes by, zooming around repeatedly in a circular motion to build centrifugal force. 直哉's body uses thrusting pressure and 呪力 to compress and eject the air to increase his propulsion. Moving at over three times the speed of sound 直哉 rends the area around 真希 with his approach and crashes into her before she can react. 真希's body is smashed into the ground from the high-speed impact. She failed to stop 直哉's attack and is heavily injured, bleeding profusely from her mouth. 直哉 stands triumphantly over 真希 and taunts her for being weak, claiming he can't believe he ever lost to her.",
+    "characters_raw_text": "禪院直哉 加茂憲紀 禪院真希",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希 & 加茂憲紀 vs. 禪院直哉 禪院真希 & 加茂憲紀 vs. 禪院直哉",
+    "techniques_raw_text": "呪具 釈魂刀 禪院直哉 術式 投射呪法 加茂 術式 赤血操術 赤縛 赤鱗躍動 赤縛 赤鱗躍動",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-830f121430",
+    "char-b3be077b48"
+  ],
+  "technique_ids_candidate": [
+    "tech-a1213858c7",
+    "tech-cc23098baa",
+    "tech-e66786ca8f"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "直哉が投射呪法でマッハ3へ加速する",
+    "直哉の突進が真希へ直撃する",
+    "加茂の援護が速度で上回られる",
+    "真希が甚爾との差を自覚する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "severely-injured"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "supporting"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "mach3-attack"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "comparison"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-830f121430",
+    "char-b3be077b48",
+    "char-d5482ceba1"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "mach3-used"
+    },
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e66786ca8f",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-cc23098baa",
+    "tech-a1213858c7",
+    "tech-e66786ca8f",
+    "tech-5d6a005065"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-bfcc1b065d",
+    "term-phase4-zero-cursed-energy",
+    "term-c6defb1c13"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

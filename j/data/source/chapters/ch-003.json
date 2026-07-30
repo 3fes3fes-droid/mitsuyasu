@@ -1,0 +1,111 @@
+{
+  "id": "ch-003",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 1,
+  "number": 3,
+  "zero_number": null,
+  "label": "第3話",
+  "title_official": "自分のために",
+  "title_search_normalized": "自分のために",
+  "start_page": 87,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-01"
+  ],
+  "source_locator": "単行本1巻 目次 p.87",
+  "summary_short": "虎杖は呪術高専で夜蛾正道の面接を受け、自分自身の意思で宿儺を取り込み続ける覚悟を示す。入学を認められ、伏黒とともに三人目の一年生を迎えに向かう。",
+  "summary_full": "虎杖は東京の呪術高専へ移り、伏黒の隣の部屋を与えられる。入学には学長・夜蛾正道との面接が必要だが、虎杖が『祖父の遺言だから』と説明すると、夜蛾は他人から与えられた理由では死に直面したときに呪いを残すとして不合格を告げる。夜蛾の呪骸に攻撃されながら、虎杖は宿儺の指を食べられる人間が自分しかおらず、逃げれば将来その事実を後悔すると考え直す。自分自身の意思で、呪いに殺される人を減らし、正しい死を求めると答えたことで入学を認められる。こうして虎杖は伏黒とともに、三人目の一年生・釘崎野薔薇を迎えに向かう。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 is brought to the mountains of 東京 to enroll in 東京 呪術高専 . Firstly, he has a meeting with the school's principal. 夜蛾正道 tests 悠仁's convictions and his reason for attending the school. 悠仁 resolves not to regret how he lives each day and accepts that he is the only one who can consume 宿儺 . 悠仁 is accepted into 呪術高専 after passing tests from both the principal and 五条 . Afterward, 悠仁 and 恵 travel to pick up the last remaining first-year, 釘崎野薔薇 .",
+    "summary_full_legacy": "五条 guides 悠仁 to 呪術高専, located deep in the mountains. The school is one of two facilities that serve as home bases for jujutsu sorcerers . 悟 informs 悠仁 that his first order of business is an interview with the school's principal. He could possibly be denied entry, and 悠仁 fears he could be executed on the spot. Principal 夜蛾 disqualifies 悠仁 from attending 呪術高専. Displeased by 悠仁's weakness, 宿儺 creates mouths that speak for him. He can't respect a system that isn't based on strength. 悠仁 tries to stop him and the curse promises to kill 悟 first. 悟 claims he's honored to be targeted by a demon of legend that has lived for over a thousand years, the undisputed king of curses. Despite this, 悟 tells 悠仁 he would defeat 宿儺 in a fight. Eight minutes late to the interview, 悟 and 悠仁 find a displeased 夜蛾正道 waiting for them. 悠仁 is distracted by the fact the principal is creating cute dolls while scolding 五条. The only question the principal asks 悠仁 is why he wants to attend 呪術高専. \"I won't regret the way I live!\" 悠仁 explains that it was the last request from his grandfather that he help people. However, this answer displeases 夜蛾. He disqualifies 悠仁 from attending the school and reveals a doll infused with his curse. He believes people are more honest while being cornered and uses his doll to pressure 悠仁 with attacks. Sorcerers must be motivated and a little crazy to get the job done against curses . The principal doesn't believe his students should do it because someone else asked them to. 釘崎野薔薇. 夜蛾 asks if it's going to be 悠仁's grandfather's fault when he's killed by a curse. He's determined to make 悠仁 realize that no sorcerer dies without regret and asks once again why 悠仁 is here. 悠仁 restrains the 呪骸 and points out that only he can seal 宿儺. He doesn't want people to get hurt because of 宿儺 and while he sits idly by. 悠仁 doesn't want to regret the way he lives. Principal 夜蛾 accepts 悠仁 into the school but forgets to shut off his incantation. 悠仁 is attacked while trying to re-introduce himself and is shown to his dorm afterward. In 悠仁's room, 五条 asks 悠仁 if he wants to remain behind while other sorcerers do the fighting. 悠仁 refuses and 五条 reveals that it wasn't an option anyway, since 悠仁's new body can be used to track 宿儺の指 like a radar. 恵 is in the dorm next door and complains about the arrangement. 五条 tells him to cheer up and reveals that tomorrow they're going to meet the third first-year student: 釘崎野薔薇 .",
+    "characters_raw_text": "虎杖悠仁 五条悟 伏黒恵 宿儺 夜蛾正道 釘崎野薔薇",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "秘匿死刑 (終了)",
+    "techniques_raw_text": "呪骸 (Cathy)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-3f92b6bb78"
+  ],
+  "key_events_verified_phase1": [
+    "虎杖が夜蛾の面接を受ける",
+    "祖父の遺言ではなく自分の意思で戦う理由を定める",
+    "虎杖の呪術高専入学が認められる",
+    "三人目の一年生を迎えに向かう"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3a20306988",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-baadf43d19",
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-2b8d365a39",
+    "char-58278d1ec5",
+    "char-3a20306988",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-3f92b6bb78",
+    "term-37f8736467",
+    "term-5b5abca89c"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-01",
+    "src-manga-games-vol-01"
+  ]
+}

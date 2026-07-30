@@ -1,0 +1,107 @@
+[
+  {
+    "id": "zero",
+    "name": "0巻／百鬼夜行前日譚",
+    "start": "0-1",
+    "end": "0-4",
+    "status": "editorial-draft"
+  },
+  {
+    "id": "cursed-womb",
+    "name": "呪胎戴天",
+    "start": 1,
+    "end": 18,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "junpei",
+    "name": "幼魚と逆罰",
+    "start": 19,
+    "end": 31,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "goodwill",
+    "name": "京都姉妹校交流会",
+    "start": 32,
+    "end": 54,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "origin-obedience",
+    "name": "起首雷同",
+    "start": 55,
+    "end": 64,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "hidden-inventory",
+    "name": "懐玉・玉折",
+    "start": 65,
+    "end": 79,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "evening-festival",
+    "name": "宵祭り",
+    "start": 80,
+    "end": 82,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "shibuya",
+    "name": "渋谷事変",
+    "start": 83,
+    "end": 136,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "post-shibuya",
+    "name": "渋谷事変後／死滅回游導入",
+    "start": 137,
+    "end": 158,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "culling-game-1",
+    "name": "死滅回游・前半",
+    "start": 159,
+    "end": 180,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "culling-game-2",
+    "name": "死滅回游・後半",
+    "start": 181,
+    "end": 215,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "bath-return",
+    "name": "浴・五条復活・決戦準備",
+    "start": 216,
+    "end": 222,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "shinjuku-gojo",
+    "name": "人外魔境新宿決戦／五条対宿儺",
+    "start": 223,
+    "end": 236,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "shinjuku-succession",
+    "name": "人外魔境新宿決戦／総力戦",
+    "start": 237,
+    "end": 264,
+    "status": "editorial-draft"
+  },
+  {
+    "id": "ending",
+    "name": "決着・終幕",
+    "start": 265,
+    "end": 271,
+    "status": "editorial-draft"
+  }
+]

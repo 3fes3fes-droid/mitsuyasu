@@ -1,0 +1,135 @@
+{
+  "id": "ch-205",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 205,
+  "zero_number": null,
+  "label": "第205話",
+  "title_official": "星と油①",
+  "title_search_normalized": "星と油1",
+  "start_page": 107,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.107",
+  "summary_short": "九十九由基が式神「凰輪」とともに参戦し、質量を付与する術式で羂索を圧倒する。羂索は九十九の能力を探りながら領域展開へ踏み切る。",
+  "summary_full": "九十九由基が式神・凰輪とともに参戦する。九十九の術式「星の怒り」は自分と凰輪へ仮想質量を付与し、概念に干渉するほどの質量を持たせながら本人の速度を落とさない。九十九は凰輪を蹴り飛ばして特級呪霊を一撃で破壊し、拳で羂索の腕を折る。呪霊操術が質量に対して有効な手札を欠くと判断した羂索は、九十九の領域を待たず、結界を閉じない領域展開「胎蔵遍野」を発動する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "A wild beast storms the battlefield as 九十九由基 tags in for 脹相 ! Even 羂索 knows little about her abilities and finds out the hard way why she's befitting the special grade ranking.",
+    "summary_full_legacy": "\"I'll have to beat you into shape!\" 由基 commends 脹相 for putting up a good fight and asks him to leave the rest to her. 脹相 falls through the ground of the empty barrier while 由基 stands off with 羂索. 由基 tells him 羂索 that likes the rough type, but in the 呪詛師 's case, she'll need to beat him into shape. 羂索 and 呪術総監部 have next to no information on 由基's 術式 . He cautiously keeps her at a distance by summoning ガネーシャ , the same elephant-like 呪霊 he used against the U.S. military. 由基 can tell ガネーシャ isn't from Japan and 羂索 explains that it is a special grade Asian divine curse. 羂索 invites 由基 to show what she's got and she accepts the challenge. 由基's 式神, 凰輪 , folds itself into a ball that she kicks clean through ガネーシャ's head, effortlessly exorcising the special grade curse. 羂索 is shocked and 由基 quickly closes the distance while revealing that her technique manipulates mass . She delivers a punch so devastating that it strikes directly through 羂索's guard, breaking his arms and sending him flying so far that he crashes through the circular definition of the empty barrier. 由基 tearing through 羂索's defenses. 由基 reveals her innate technique is called 星の怒り , which allows her to grant herself virtual mass. It also affects 凰輪, transforming the 式神 into a cursed tool she can add mass to as well. 羂索 heals himself with 反転術式 and concludes that 由基's mass isn't permanent because it doesn't affect her speed. He doesn't believe any 呪霊 will help against her in this case and questions if he can even take down such a wild beast on his own. \"What a pain!!\" 由基 analyzes 羂索's abilities as well. She observed 羂索 manipulate gravity against 脹相's last attack. Based on her observations, 由基 deduces the gravity ability is a third innate technique for 羂索 in addition 呪霊操術 and his body transfer technique. Any further techniques would overload 羂索's brain without outside storage, but 由基 is prepared in case he even has a fourth. At the same time, 羂索 considers the possibility 由基 might possess an extension technique with high 呪力 output. Both fighters simultaneously acknowledge what a nuisance facing their opponent is. 羂索 expands his domain! 由基 plans on making 羂索 open his domain so he'll be unable to use his cursed techniques afterward. 由基 is confident she can win even if she's in the same situation because she has 凰輪. 由基 would like to drag out the fight and wear down 羂索 before he opens his domain but he surprises her and does so immediately. 羂索 says 由基 should've already opened her domain and questions if his opponent lacks confidence in a domain clash. 羂索 activates 領域展開：胎蔵遍野 and 由基 immediately calls out to 天元 , surprising the 呪詛師. 天元 moves to put their plan into action but questions if there is enough time to do so.",
+    "characters_raw_text": "九十九由基 脹相 羂索 天元",
+    "locations_raw_text": "薨星宮",
+    "battles_events_raw_text": "九十九由基 & 脹相 vs. 羂索",
+    "techniques_raw_text": "羂索の術式 反重力機構 ( 術式 術式反転 ) 呪霊操術 (夏油傑として) 領域展開：胎蔵遍野／ガネーシャ／反転術式 術式 領域展開：胎蔵遍野／ガネーシャ／式神「凰輪」 九十九由基の術式 星の怒り",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d",
+    "char-a34bfbb398"
+  ],
+  "technique_ids_candidate": [
+    "tech-1bc0d9ec7b",
+    "tech-2374b0f892",
+    "tech-4b0b9dc682",
+    "tech-6246245c7a",
+    "tech-a34bfbb398",
+    "tech-cf5d1ac726",
+    "tech-d3451c7bbb",
+    "tech-f1d024fea2"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-e6a70dfe56",
+    "term-cba4367139"
+  ],
+  "key_events_verified_phase10": [
+    "九十九が凰輪とともに参戦する",
+    "星の怒りの仮想質量が明かされる",
+    "九十九が羂索の特級呪霊と腕を破壊する",
+    "羂索が胎蔵遍野を発動する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-a34bfbb398",
+      "presence": "used-as-weapon"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "domain-user"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "withdrawn"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "supporting"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-1566dd973d",
+    "char-a34bfbb398",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-6eab17a5a8"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-2374b0f892",
+      "relation": "revealed-and-used"
+    },
+    {
+      "technique_id": "tech-a34bfbb398",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "countered"
+    },
+    {
+      "technique_id": "tech-f1d024fea2",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-2374b0f892",
+    "tech-a34bfbb398",
+    "tech-1bc0d9ec7b",
+    "tech-f1d024fea2"
+  ],
+  "term_ids_verified_phase10": [
+    "term-58cf854ee7",
+    "term-41c52a18d0",
+    "term-phase6-open-barrier-domain",
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

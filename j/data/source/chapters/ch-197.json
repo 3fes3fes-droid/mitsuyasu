@@ -1,0 +1,120 @@
+{
+  "id": "ch-197",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 197,
+  "zero_number": null,
+  "label": "第197話",
+  "title_official": "桜島結界⑦",
+  "title_search_normalized": "桜島結界7",
+  "start_page": 127,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.127",
+  "summary_short": "自由な感覚を得た真希は、直哉の動きを空気や周囲の変化から捉え、攻撃をかわす。大道と三代も加わり、直哉を圧倒する。",
+  "summary_full": "領域から出た真希は、直哉の視線や呪力ではなく、空気の面と周囲の変化から進路を読み、マッハ3の突進を難なく回避する。空中も足場として自由に動き、直哉を翻弄する。大道と三代も戦線へ戻り、三人で直哉を追い詰める。自分が再び真希に敗れることを拒絶した直哉は、呪霊の身体で領域展開へ到達し、胎内を思わせる結界を完成させる。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Sumo wrestling with 三代 has changed 真希 in unexpected ways. With aid from the wrestler and the samurai, 真希 reaches even further heights and effortlessly turns the tide of battle back against 直哉 .",
+    "summary_full_legacy": "大道 and 三代 agree who they are doesn't matter. Noritoshi and 大道 note 真希's intense change despite such a short time in the domain . Time flows faster within 三代's barrier due to forgoing any binding bows . One thousand sumo bouts took less than one minute outside the barrier. 直哉 doesn't care about 真希's change and flies off to build up speed for another head-on attack. 三代 and 大道 ready themselves for a fight and Noritoshi asks who they are and why they're helping. They claim they're individuals who do as they want and their identities are of little importance. 真希 gets ahead of them and pursues 直哉, who's frustrated that he can't outpace her completely. 真希 keeping pace with 直哉's high-speed movement. 真希 and 直哉 zoom through the city and 真希 is able to predict how 直哉 will move by seeing everything around her. 真希 now knows that she's capable of seeing something only \" that person \" could before her. She believes he could have destroyed 直哉's cursed womb and would've withstood his full-speed attack. \"The one who stands with them is me!!!!\" 直哉 attempts to tackle 真希 in mid-air but she easily avoids it, confusing him. She can use the differences in temperature and air density as scattered surfaces to move without solid footing. 真希 punches 直哉 down to the ground and he taunts her by inviting her to continue hitting him without 呪力 . Suddenly, 三代 headbutts 直哉 and 大道 bisects him with another powerful slash. 真希 kicks the top half of 直哉's body off before he can heal. Irate, 直哉 repeats that this is impossible and he becomes increasingly frustrated as 真希 continues to resemble 甚爾. Driven by his hatred and rejection, 直哉 makes his human form appear from the 呪霊 body. His hands appear from the bottom half of the body and pulls out a replica of his human upper half. He once again proclaims the one who stands with 悟 and 甚爾 is himself and casts 領域展開 .",
+    "characters_raw_text": "加茂憲紀 禪院直哉 禪院真希 鋼 大道 六十四 三代 伏黒甚爾 (想像)",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉 禪院真希, 鋼 大道 & 六十四 三代 vs. 禪院直哉",
+    "techniques_raw_text": "呪具 釈魂刀 禪院直哉 術式 投射呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-69335b05c3",
+    "char-830f121430",
+    "char-aabfd74fce",
+    "char-b3be077b48",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-cc23098baa"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "真希が直哉の高速突進を回避する",
+    "真希が空気の面を足場として戦う",
+    "大道と三代が直哉を攻撃する",
+    "直哉が領域展開を発動する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "dominant"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "domain-awakening"
+    },
+    {
+      "character_id": "char-aabfd74fce",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-69335b05c3",
+      "presence": "fighting"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "watching-injured"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-b3be077b48",
+    "char-aabfd74fce",
+    "char-69335b05c3",
+    "char-830f121430"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "evaded"
+    },
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1e8b90a741",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-cc23098baa",
+    "tech-phase4-split-soul-katana",
+    "tech-1e8b90a741"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-965bdc282e",
+    "term-e6a70dfe56",
+    "term-bfcc1b065d"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "ch-062",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 8,
+  "number": 62,
+  "zero_number": null,
+  "label": "第62話",
+  "title_official": "起首雷同―捌―",
+  "title_search_normalized": "起首雷同―捌―",
+  "start_page": 7,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-08"
+  ],
+  "source_locator": "単行本8巻 目次 p.7",
+  "summary_short": "虎杖は逃走する壊相を追い、釘崎は簪で血塗を仕留める。二人は壊相にもとどめを刺すが、人に近い受肉体を殺した事実が心に残り、脹相たちは弟たちの死を察知する。",
+  "summary_full": "弟を失った壊相は涙を流し、虎杖はその姿に一瞬動きを止める。血塗の肉体が消えないことから、二人は相手が単なる呪霊ではなく、受肉して肉体を持つ存在だったと理解する。壊相は通りかかった車を奪って逃走するが、釘崎が切断された腕へ共鳴りをかけて引きずり落とす。虎杖は謝罪して壊相の胸を打ち抜き、とどめを刺す。離れた場所の脹相は弟二人の死を感知し、真人と羂索は高専一年の虎杖・釘崎が倒したと知る。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The battle with the 呪胎九相図 brothers rapidly spirals to its conclusion. However, even in victory there is a cost in killing something the students had never considered before. Meanwhile, 脹相 , 真人 , and Pseudo-夏油 gain wind of the incident.",
+    "summary_full_legacy": "野薔薇 stops 壊相 from getting away. 野薔薇 has killed 血塗 and threatens to do the same to 壊相 . 悠仁 rushes to finish 壊相 off but the older brother sheds tears for his murdered kin, surprising 悠仁 enough to stop him. 野薔薇 notices that 血塗 hasn't disappeared and they both stopped fighting to realize that they're not just 呪霊 , they're flesh and blood. A truck comes out of the tunnel the fight ended up on and 壊相 takes the passengers hostage, trying to ride away from his family. 悠仁 is unable to pursue so 壊相 believes he's going to get away and claim revenge later. However, 野薔薇 uses 芻霊呪法 術式 : 共鳴り on 壊相's severed arm, piercing his chest with large black nails. \"My younger brothers are dead.\" This 共鳴り attack was especially powerful since it activated following the use of 黒閃 . 壊相 falls off the truck and 悠仁 prepares to finish him off. He apologizes just moments before dealing the killing blow, a 逕庭拳 clean through 壊相's chest. 悠仁's hand is burned from 壊相's blood, but he says it hurts for a deeper reason than that. While 脹相, 夏油 , and 真人 are playing a board game, the former realizes his younger brothers have been killed. He breaks the pieces, upsetting 真人 and 夏油 looks up what happened because he doesn't believe they'd lose to a Finger Bearer. After searching through his phone, 夏油 announces that 壊相 and 血塗 were killed by 呪術高専 first-years, 虎杖悠仁 and 釘崎野薔薇, exciting 真人.",
+    "characters_raw_text": "虎杖悠仁 血塗 釘崎野薔薇 壊相 脹相 真人 Pseudo-夏油",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": "虎杖悠仁 & 釘崎野薔薇 vs. 壊相 & 血塗 (終了)",
+    "techniques_raw_text": "壊相の術式 蝕爛腐術 術式 釘崎野薔薇の術式 芻霊呪法 術式 共鳴り 虎杖悠仁の術式 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-678a848346",
+    "char-851111b10d",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-932f1fb717",
+    "tech-d9180946ec",
+    "tech-d9efa28175"
+  ],
+  "term_ids_candidate": [
+    "term-3f0111dca8"
+  ],
+  "key_events_verified_phase3": [
+    "壊相が血塗の死を悲しむ",
+    "壊相が車を奪って逃走する",
+    "釘崎が共鳴りで壊相を止める",
+    "虎杖が壊相を殺す",
+    "脹相が弟二人の死を感知する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "corpse"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "appearance-and-death"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-baadf43d19",
+    "char-964e851215",
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-851111b10d",
+    "char-18d7c58412",
+    "char-678a848346"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-d9efa28175",
+      "relation": "aftermath"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase2-keiteiken",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-d9efa28175",
+    "tech-2ac2471b12",
+    "tech-d9180946ec",
+    "tech-phase2-keiteiken"
+  ],
+  "term_ids_verified_phase3": [
+    "term-c5958133bc",
+    "term-3f0111dca8",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-08",
+    "src-manga-games-vol-08",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chapter_count": 275,
+  "zero_count": 4,
+  "main_count": 271,
+  "missing_summary": [],
+  "summary_without_japanese": [],
+  "summary_with_latin": [
+    "ch-066",
+    "ch-087",
+    "ch-094"
+  ],
+  "duplicate_ids": [],
+  "forbidden_source_types": [
+    "src-official-fanbook",
+    "src-legacy-ju-txt",
+    "src-fandom-chapter-zero-01",
+    "src-fandom-chapter-zero-02",
+    "src-fandom-chapter-zero-03",
+    "src-fandom-chapter-zero-04"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "ch-209",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 209,
+  "zero_number": null,
+  "label": "第209話",
+  "title_official": "未知への供物①",
+  "title_search_normalized": "未知への供物1",
+  "start_page": 7,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.7",
+  "summary_short": "時間は羂索と九十九の戦い以前へ戻り、各結界へ外国軍が侵入する。兵士たちは術師を資源として捕獲しようとするが、羂索の真の狙いは兵士の死で呪力を満たすことだった。",
+  "summary_full": "時間は九十九戦より前へ戻る。各結界へ侵入した外国軍は術師を捕獲し、呪力を研究資源として運び出そうとする。しかし兵士の多くは呪霊を見ることも対抗することもできず、次々に襲われる。羂索の真の狙いは、軍隊という多数の非術師を結界内で死なせ、同化前の「慣らし」に必要な呪力を満たすことだった。虎杖たちの拠点にも兵士が侵入し、泳者捕獲用の装備で襲撃する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Rewinding the clock just before 羂索 's clash with 九十九 and 脹相 , foreign armed forces make their move and crash the 死滅回游 . The military forces are under the impression they're in Japan to capture jujutsu sorcerers but 羂索 has other plans for them altogether.",
+    "summary_full_legacy": "The military captures weaker players... In the middle of the night of November 14th, the United States military invades the 死滅回游 colonies. Each and every soldier is approached by コガネ only to ignore the 式神 . The random teleportation into the colonies only happens to players who answer コガネ's invitation. The absence of teleportation allows the military to move in uninhibited. 羂索 explains this to 裏梅 as they descend into the disciplinary chambers of the decimated 禪院 clan . He claims it's a kind of hidden rule but 裏梅 argues that it's more of a glitch, a statement the former finds harsh. 羂索 shows 裏梅 the space and the latter says it'll do nicely for a bath even 宿儺 would appreciate. ... while stronger players effortlessly dispatch the invaders. Meanwhile, in 東京 Colony No. 1, 麗美 and numerous other sorcerers are captured by the military. The military takes many weak players without much trouble and even makes a game out of who gets the most. It's so simple that some are even confused as to why Lieutenant General Garry K. Johnson was so concerned. However, a female soldier comes forward and tells them about a run-in with a player who had a helicopter propeller on his head. Her team was injured and they had no choice but to use lethal force in order to even survive. The other soldiers are skeptical of her story but she emphasizes that there are different types of sorcerers: the weaker ones that have been captured, and the monsters putting up incredible resistance. She even believes there are ones beyond even that level of strength. 庵 黄櫨折 is among those who effortlessly repel the invaders. He looks at a deceased soldier's uniform and recognizes that they're a foreign power. This makes him wonder if this is what レジィ meant by a major reveal that would change the 死滅回游. \"I suspect 羂索's goal is the mass slaughter of non-sorcerers by 呪霊.\" 裏梅 tries to guess the reason 羂索 has pitted the military against the 死滅回游 players. 羂索's proposal to use sorcerers for research was simply a ploy to manipulate the United States government. 裏梅 believes his real goal is to stimulate the colony with enough 呪力 to begin the pre-merger with 天元 . 羂索 admits their guess is close but not quite all the way correct. Only the 東京 and Sendai colonies have enough 呪力 for the preparation and the military is insurance. However, 羂索 doesn't expect there to be a showdown between the soldiers and the sorcerers. Awakened players will struggle and even the strong ones of this type are reluctant to kill. The soldiers will retreat once casualties mount and it won't be worth the points for players to pursue non-sorcerers. With this added information revealed, 羂索 asks 裏梅 if they've figured out his plan yet. Even non-sorcerers release a large amount of 呪力 when they die. 裏梅 asks if the same is true for foreigners and 羂索 confirms that to be the case. 裏梅 realizes 羂索 never intended to pit the sorcerers against the soldiers at all. They initially thought 羂索 had the military moved in at night to give them an advantage, but it was actually because 羂索 released a large amount of 呪霊 into the colonies. The military engages 恵 and company. 天使 has figured out that 羂索 plans to sacrifice the people entering the colony. As 悠仁 , 恵 , 華 , and Fumihiko move through the hotel, they happen upon invading soldiers. The military group tries to stun them with a grenade but 悠仁 kicks it away before it goes off to protect everyone. 恵 notices the intruders are military and quickly recognizes they're not the JSDF. He wonders if they've been dispatched to protect citizens only for the soldiers to open fire. 恵, 悠仁, and 華 get out of the way of the bullets while Fumihiko comically shuffles his way through them. As evidenced by the shooting, the soldiers aren't there to protect anyone and 恵 says they'll just have to ask them directly to find out their true intent.",
+    "characters_raw_text": "羂索 裏梅 庵 黄櫨折 日車寛見 凛 甘井 麗美 禪院扇 来栖華 高羽史彦 伏黒恵",
+    "locations_raw_text": "東京第1結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-000313127b",
+    "char-02aa196fbb",
+    "char-265abd362c",
+    "char-27f5cf78ab",
+    "char-3062a0117e",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-4ff7a5b46e",
+    "char-678a848346",
+    "char-8a6e43878f",
+    "char-a5d1c4b82b",
+    "char-d8252d61d4"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase10": [
+    "外国軍が各結界へ侵入する",
+    "軍が泳者を捕獲して研究対象にしようとする",
+    "兵士が呪霊に襲われる",
+    "羂索の目的が兵士を呪力の供物にすることだと判明する",
+    "虎杖たちの拠点が兵士に襲撃される"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "plan-explained"
+    },
+    {
+      "character_id": "char-000313127b",
+      "presence": "accompanying"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "attacked"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "attacked"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "attacked"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "attacked"
+    },
+    {
+      "character_id": "char-27f5cf78ab",
+      "presence": "encounters-soldiers"
+    },
+    {
+      "character_id": "char-a5d1c4b82b",
+      "presence": "encounters-soldiers"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-678a848346",
+    "char-000313127b",
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-d8252d61d4",
+    "char-02aa196fbb",
+    "char-27f5cf78ab",
+    "char-a5d1c4b82b"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "used-to-release-curses"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase10": [
+    "term-adb9e5012c",
+    "term-c063667868",
+    "term-f98498c1ef",
+    "term-bb89ef15f2",
+    "term-8914e5bc1a"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-hellominju-ch209",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

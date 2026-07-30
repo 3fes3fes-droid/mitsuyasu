@@ -1,0 +1,186 @@
+{
+  "id": "ch-211",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 24,
+  "number": 211,
+  "zero_number": null,
+  "label": "第211話",
+  "title_official": "熟む",
+  "title_search_normalized": "熟む",
+  "start_page": 47,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-24"
+  ],
+  "source_locator": "単行本24巻 目次 p.47",
+  "summary_short": "真希が薨星宮の敗北と天元の喪失を仲間へ伝える。津美紀を結界から出すため得点を渡すが、津美紀は予想外の規則を追加し、別人のような行動を見せる。",
+  "summary_full": "真希が東京第1結界へ戻り、九十九の死亡、羂索による天元の確保、薨星宮の陥落を報告する。仲間は津美紀を死滅回游から離脱させるため、100点と身代わりを条件とする総則11を追加し、得点を津美紀へ渡す。伏黒は津美紀に結界外の新規泳者を招くよう求めるが、津美紀は得点を使って「結界を自由に出入りできる総則」を追加する。救出計画と無関係な行動から、伏黒は目の前の姉が本人ではないと悟る。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The preparations for 羂索's plans are nearly complete and 真希 delivers the bad news about 天元 and 九十九 to her allies. The group tries to focus on saving 伏黒津美紀 but their misfortune reaches further than expected.",
+    "summary_full_legacy": "The \"preparation\" for the merger moves forward. Japan crossing over to the other side...!? As the 死滅回游 colonies activate one after the other and the pre-prep for the merger concludes, some civilians notice a change in the air while others are completely oblivious. On November 16th at noon, 真希 successfully rendezvous with 悠仁 and 恵 . She informs them that 由基 and 脹相 were defeated by 羂索 , who successfully seized 天元. 悠仁 and 恵 are shocked as they listen to 真希 reveal all of this unfortunate information in such a calm matter. 恵 especially notices how much 真希 has changed since they were last together a few days ago. 悠仁 asks why the merger hasn't started but nobody can come up with a concrete reason. 天使 believes sorcerers can resist the merger with 呪力 and 真希 reveals that some civilians were affected, as they made the news. With no way to know for sure, 悠仁 suggests they simply focus on rescuing 津美紀. He asks why their senpai haven't added the rules and 真希 explains that the rules never forbid entering and exiting the colonies or the disruption of communication. These might be side effects of the barriers, meaning adding the rules to change them could be completely ineffective. They prioritize saving 津美紀 and all the group's collective points are transferred to 恵. 恵 adds a new rule allowing players to leave the 死滅回游. コガネ denies allowing a rule to allow players to exit the 死滅回游 for no cost, which 恵 expected. He follows up by requesting a rule that allows someone outside the colonies to substitute for a player who wants to leave. This is denied as well, surprising 恵, but コガネ gives them a suggestion. A player can leave the game by expending one hundred points to invite a new player into the colony as a substitute. 悠仁 is fine with this as they have plenty of points but 恵 tries to argue the logic behind how that would go against the rules for long-lasting effects. However, コガネ doesn't negotiate with him any further. Left without a choice, 恵 officially adds the eleventh rule to the game and then asks 真希 to bring 津美紀 into the colony. Suddenly adding another rule!? Who is she really? Confused, 悠仁 asks why they don't transfer the points to 津美紀 while she's outside the colony. 恵 points out that could possibly breach the rules if she never declares participation and she could die right away from 術式 removal. 真希 and 伊地知潔高 bring 津美紀 to the colony at 3 P.M. the same day. 真希 asks if 伊地知 is sure about becoming a player and the manager assures 真希 he can handle himself. When they were students, 五条 originally told 伊地知 to quit being a jujutsu sorcerer in a very rude manner. In the present day, 伊地知 realizes now that likely ended up saving his life. 津美紀 happens to be able to stroll right into the colony and directly to 悠仁 and 恵's location. 悠仁, 華 , and 津美紀 introduce themselves to one another but 恵 wants to move quickly. 恵 transfers one hundred points to 津美紀 and tells her to use it to leave the 死滅回游. However, instead, she suddenly tells コガネ to add a rule allowing entry and exit into the colonies. Deeply shocked and confused, 恵 asks this imposter who she really is.",
+    "characters_raw_text": "禪院真希 伏黒恵 虎杖悠仁 来栖華 天元 (言及のみ) 星綺羅羅 脹相 高羽史彦 憂憂 冥冥 (言及のみ) 日車寛見 鹿紫雲一 凛 甘井 加茂憲紀 庵 黄櫨折 秤金次 伊地知潔高 伏黒津美紀 五条悟 (回想)",
+    "locations_raw_text": "東京第1結界",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": "式神 コガネ",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-02aa196fbb",
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-0f2e6e85bf",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-27f5cf78ab",
+    "char-3062a0117e",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-4ff7a5b46e",
+    "char-6eab17a5a8",
+    "char-830f121430",
+    "char-851111b10d",
+    "char-8a6e43878f",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-d8252d61d4",
+    "char-dea43d7fc7",
+    "char-e41848a08f"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-58cf854ee7",
+    "term-6d3234fdfd"
+  ],
+  "key_events_verified_phase10": [
+    "真希が九十九の死亡と天元の喪失を報告する",
+    "総則11が追加される",
+    "仲間の得点が津美紀へ譲渡される",
+    "津美紀が結界出入り自由の総則を追加する",
+    "伏黒が津美紀の中身が別人だと気付く"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "reports-defeat"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "rescue-plan-fails"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "body-present"
+    },
+    {
+      "character_id": "char-0d3bc6b0dd",
+      "presence": "identity-hidden"
+    },
+    {
+      "character_id": "char-d8252d61d4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-65e7fd1c87",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-02aa196fbb",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "group-member"
+    },
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "group-member"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "points-contributor"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "points-contributor"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "news-source"
+    },
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "death-reported"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "capture-reported"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-0f2e6e85bf",
+    "char-0d3bc6b0dd",
+    "char-d8252d61d4",
+    "char-65e7fd1c87",
+    "char-02aa196fbb",
+    "char-dea43d7fc7",
+    "char-00f5cc93b4",
+    "char-3062a0117e",
+    "char-0e7004da56",
+    "char-830f121430",
+    "char-484fd66a1e",
+    "char-3de3b8af11",
+    "char-851111b10d",
+    "char-1566dd973d",
+    "char-6eab17a5a8"
+  ],
+  "technique_appearances_verified_phase10": [],
+  "technique_ids_verified_phase10": [],
+  "term_ids_verified_phase10": [
+    "term-c38a86467e",
+    "term-7ef1b59819",
+    "term-dad5591883",
+    "term-bb89ef15f2",
+    "term-49963d44ff"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-24",
+    "src-manga-games-vol-24",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "ch-019",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 19,
+  "zero_number": null,
+  "label": "第19話",
+  "title_official": "幼魚と逆罰",
+  "title_search_normalized": "幼魚と逆罰",
+  "start_page": 47,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.47",
+  "summary_short": "川崎市の映画館で、異形に変えられた高校生三人の遺体が発見される。虎杖は一級術師・七海建人と調査を始め、事件を目撃した吉野順平は犯人の真人へ接触する。",
+  "summary_full": "2018年9月、川崎市の映画館で、上映中に騒いでいた佐山・西村・本田が異形の遺体となる。いじめを受けていた吉野順平は、三人を変形させた真人を目撃し、恐れるよりも人を殺す方法を学ぼうと接触する。一方、五条は虎杖を一級術師・七海建人へ預ける。虎杖と七海は残穢を追って映画館を調査し、屋上で人型の異形二体と対峙する。七海は子供を守るのは大人の責任だと述べ、虎杖に実戦で自分の有用性を示すよう求める。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Three deformed corpses are found at キネマシネマ in 川崎市. Accompanied by 七海建人 , a very straightforward man, 悠仁 investigates the supernatural crime scene. Meanwhile, the only known witness decides to confront the murderer to learn the ways of 呪霊 .",
+    "summary_full_legacy": "A young boy named 吉野順平 believes he could never press a button that would kill someone he disliked. However, if it were to kill someone that didn't like him, 順平 wouldn't hesitate to press it. 真人 silences the noisy moviegoers. 順平 goes to see a movie at キネマシネマ, where some of his rude classmates are also attending the film. They cause a disturbance until their bodies are disturbed and morphed until they're unrecognizable, seemingly killing them. 順平 noticed the blue-haired man with a patchwork-face who killed the loud moviegoers and follows him into an alleyway outside. He surmises this man must not be human and gets notice while they're in the alley. The 呪霊 asks 順平 if those people were important to him, but the human surprises him by asking if he could learn to kill people like that. 五条 sensei introduces 悠仁 to 七海. 七海建人, a grade 1 jujutsu sorcerer , takes 悠仁 with him to investigate the disturbance at the movie theater. He shows 悠仁 how to track the residual of 呪力 left behind from a 術式 . 悠仁 initially struggles to understand but 七海 tells him to focus harder on sensing before seeing. The student notices the tracks and asks for encouragement, but 七海 claims he's only there to uphold the law, not to insult or praise 悠仁. They both move to follow the trace but 悟 shows up to poke fun at 七海, calling him an office worker dropout. 悟 adds that 七海 actually used to work in an office and is far more trustworthy than a lot of other sorcerers. \" Experiencing those little losses... is what helps people grow into adults .\" 七海 claims he only works as a sorcerer because its less idiotic than office work. He even says that despite trusting 悟, he can't respect him because of how jujutsu society works. For that same reason, 七海 can't recognize 悠仁 as a jujutsu sorcerer. He asks the young man to prove his usefulness despite having 宿儺 within him. 悠仁 has heard a lot recently that he's weak and useless, so he asks 七海 to have patience with him on his path to becoming stronger. There was no recording of the incident, so the sorcerers must question the only remaining witness at the scene. While checking out the roof, 七海 and 悠仁 run into two curses. 悠仁 asks 七海 not to underestimate him but the latter believes it is simply an adult duty to protect children. Despite multiple near-death experiences, 悠仁 is not an adult. While drawing his weapon to prepare for battle, 七海 states that it's the little losses that are what build people into adults.",
+    "characters_raw_text": "吉野順平 真人 七海建人 虎杖悠仁 五条悟",
+    "locations_raw_text": "川崎市 キネマシネマ キネマシネマ",
+    "battles_events_raw_text": "虎杖悠仁 & 七海建人 vs. 改造人間 (開始)",
+    "techniques_raw_text": "真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-0af61a454d",
+    "char-17322e71e5",
+    "char-1751414065",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-6309a7e2f4",
+    "char-656fe03d94",
+    "char-baadf43d19",
+    "char-dda1b15cf5"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase2": [
+    "映画館で佐山・西村・本田が真人に殺害される",
+    "順平が真人へ接触する",
+    "虎杖が七海の指導下で実戦調査へ入る",
+    "虎杖と七海が改造人間二体と対峙する"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-1751414065",
+      "presence": "appearance-and-corpse"
+    },
+    {
+      "character_id": "char-0af61a454d",
+      "presence": "appearance-and-corpse"
+    },
+    {
+      "character_id": "char-dda1b15cf5",
+      "presence": "appearance-and-corpse"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-236cc955ae",
+    "char-18d7c58412",
+    "char-6309a7e2f4",
+    "char-baadf43d19",
+    "char-17322e71e5",
+    "char-1751414065",
+    "char-0af61a454d",
+    "char-dda1b15cf5"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used-before-investigation"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-71a2d65cad"
+  ],
+  "term_ids_verified_phase2": [
+    "term-252cb4a664",
+    "term-e3eff1da1c",
+    "term-67566a7224",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03",
+    "src-official-character-vote-4"
+  ]
+}

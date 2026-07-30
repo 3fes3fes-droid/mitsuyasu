@@ -1,0 +1,134 @@
+{
+  "id": "ch-110",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 13,
+  "number": 110,
+  "zero_number": null,
+  "label": "第110話",
+  "title_official": "渋谷事変㉘",
+  "title_search_normalized": "渋谷事変28",
+  "start_page": 71,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-13"
+  ],
+  "source_locator": "単行本13巻 目次 p.71",
+  "summary_short": "甚爾は游雲を奪い、呪力を持たない肉体だけで陀艮を圧倒する。陀艮の式神と攻撃をすべて突破し、特級呪霊を祓う。",
+  "summary_full": "領域へ侵入した甚爾は真希から游雲を奪い、怪力で研ぎ澄ませた三節棍を使って陀艮を圧倒する。陀艮は死累累湧軍を再開し、水上へ逃れて距離を取ろうとするが、甚爾は式神を足場に追いつき、游雲を尖らせて連続で突き刺す。呪力を一切持たない肉体の暴力によって陀艮は祓われ、領域も消滅する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Acting on pure instinct, as a puppet of carnage, 伏黒甚爾 bears his fangs at 陀艮 . The other sorcerers can only sit back and watch in amazement as a man with no 呪力 completely annihilates everything the special grade 呪霊 throws at him.",
+    "summary_full_legacy": "甚爾 effortlessly rips 游雲 from 真希's hands. 甚爾 makes his way into 陀艮's domain through the hole 恵 made in the barrier. Surprised, 恵 looks up at the man floating in the air and asks himself who this person could be. 真希 notices the intruder is a human jujutsu sorcerer and 陀艮 wonders why his adversaries would let someone in rather than escape. 甚爾 disappears from mid-air, suddenly grabbing onto 游雲 with blinding speed. Not only that, but 真希 notices his intense grip as well while she's also holding on to the weapon. 甚爾 easily snatches the cursed tool from 真希, throwing her aside to arm himself with 游雲. 真希 didn't notice any 呪力, so she's shocked that she actually lose an exchange of pure strength. 恵 reveals that the hole he opened in the barrier has been closed and it won't be easy to open another. 直毘人 is the only one among them who recognizes 甚爾. Upon uttering his name, 直毘人 notices the sclera of 甚爾's eyes filled completely black. \" He had become a puppet of carnage! Bearing his fangs... toward the strongest around! \" Though Granny オガミ 's 降霊術 術式 had the capability to continue after death, it was never meant to last forever. The technique is supposed to end when the host's 呪力 runs out. However, オガミ's grandson's soul did not possess 呪力, and 甚爾's body that overwrote it does not consume 呪力. Therefore, there is no signal for the séance to end and now it has run rampant. 甚爾 can only fight completely on instinct until the vessel breaks. He is a puppet of carnage... bearing his fangs at the strongest around! 甚爾 takes a fighting stance to fight the 呪霊 with 游雲. 陀艮 notices 甚爾 has no 呪力 and says he's a waste of time. He summons a 式神 to attack but 甚爾 obliterates it in a single swing. With incredible speed, 甚爾 follows up with a barrage of three-section-staff strikes that injures 陀艮's head and sends him flying back. Suprised, 陀艮 recognizes that he grossly underestimated 甚爾's superhuman speed and power. He tries to summon a swarm of numerous smaller 式神 to attack but 甚爾 continues to get faster. While running on water like it's nothing, 甚爾 effortlessly rushes through all the fish, striking them apart with the cursed tool on his way to attack 陀艮. 游雲 is pure and solid power. It's strength depends on that of the user. 陀艮 summons his hardest and most powerful 式神 to repel 甚爾. However, they're dispatched just as easily as the rest. 游雲 is the only special grade cursed tool without a 術式 imbued into it. It is pure and solid power that depends entirely on the wielder's strength. In 甚爾's hands, he annihilates 陀艮's water shield in a single blow, slamming the curse's head violently into the sand. 甚爾 makes dispatching 陀艮 look effortless. Dumbfounded by the newcomer's domination, 真希 can only watch in amazement with everyone else. She asks 直毘人 who that man is but he says 甚爾 is just a ghost. 七海 tells 恵 to hold onto his domain for just a little longer because they're going to need to bet on 甚爾. Rubbing 游雲 together to sharpen its shape, 甚爾 creates a loud noise that irritates everyone. Injured, 陀艮 barely stands back up and comes to the realization that he's really about to lose to a human without 呪力. 陀艮 attempts to buy time until 恵's domain runs out by levitating in the air, but once again 直毘人 is way ahead of him. 直毘人 leaps on top of 陀艮's head and stops his progress. 甚爾 stacks 游雲's three sections on top of each other to vault himself into the air directly at 陀艮. The curse puts his guard up but 甚爾 stabs 游雲 clean straight through his face.",
+    "characters_raw_text": "伏黒恵 七海建人 伏黒甚爾 禪院真希 禪院直毘人 陀艮",
+    "locations_raw_text": "渋谷 渋谷駅 渋谷駅",
+    "battles_events_raw_text": "The 渋谷事変 伏黒甚爾 vs. 陀艮 (開始) 伏黒甚爾 vs. 陀艮 (開始)",
+    "techniques_raw_text": "呪具 游雲 陀艮の術式 領域展開：蕩蘊平線 オガミの術式 降霊術 術式 (言及のみ)",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-6309a7e2f4",
+    "char-6674ce6baa",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-81aaf10015",
+    "tech-8b33629c5d",
+    "tech-fbf15eb3e2"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-8914e5bc1a",
+    "term-7037f2a1bd",
+    "term-cba4367139",
+    "term-64abcd060b"
+  ],
+  "key_events_verified_phase6": [
+    "甚爾が游雲を奪う",
+    "甚爾が陀艮の式神と水上移動を突破する",
+    "甚爾が陀艮を祓う",
+    "蕩蘊平線が消滅する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "exorcised"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-d5482ceba1",
+    "char-6674ce6baa",
+    "char-24d736edff",
+    "char-6309a7e2f4",
+    "char-22abdd626c",
+    "char-3c1852867d"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-phase6-playful-cloud",
+      "relation": "used-by-toji"
+    },
+    {
+      "technique_id": "tech-dc54ab0cd7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-81aaf10015",
+      "relation": "destroyed"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-phase6-playful-cloud",
+    "tech-dc54ab0cd7",
+    "tech-81aaf10015"
+  ],
+  "term_ids_verified_phase6": [
+    "term-bfcc1b065d",
+    "term-252cb4a664",
+    "term-phase5-special-grade-curse",
+    "term-bf1b3beaca"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-13",
+    "src-manga-games-vol-13",
+    "src-legacy-ju-txt"
+  ]
+}

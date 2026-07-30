@@ -1,0 +1,153 @@
+{
+  "id": "ch-035",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 35,
+  "zero_number": null,
+  "label": "第35話",
+  "title_official": "京都姉妹校交流会―団体戦②―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦2―",
+  "start_page": 7,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.7",
+  "summary_short": "虎杖と女性の好みが一致した東堂は、虎杖を親友と思い込み京都校の暗殺計画を妨害する。伏黒たちは虎杖を狙った京都校の生徒を追う。",
+  "summary_full": "虎杖が「身長と尻が大きい女性」と答えると、東堂は自分と趣味が一致したことから、実在しない学生時代の記憶まで作り上げて虎杖を親友と認定する。西宮が虎杖の位置を知らせ、京都校の生徒たちが一斉攻撃を仕掛けるが、東堂は不義遊戯で位置を入れ替え、加茂を殴って暗殺を妨害する。東堂は一対一の続行を要求し、伏黒は鵺で西宮を落とし、真希とともに京都校側を追う。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In an unexpected turn of events, 葵 takes a special liking to 悠仁 . Convinced they're best friends, 葵 even throws his own team's plan to kill 悠仁. Meanwhile, 恵 and the others begin to go after their Kyoto rivals in order to protect 悠仁 as well.",
+    "summary_full_legacy": "\" Tall girls... with big butts. \" Confused, 悠仁 asks 葵 why the latter would inquire about his type at a time like this. 葵 replies by telling 悠仁 to stop fussing because he's just trying to get a sense of his opponent. Despite his confusion, 悠仁 answers that he likes tall girls with big butts, exactly like 葵. This sparks a memory within 葵's mind of a time that never actually happened. 葵 recalls he and 悠仁 talking during middle school about his crush on Takada-chan . However, 葵 gets turned down but 悠仁 is there to cheer him up by offering to buy ramen. This memory draws tears from 葵's eyes as he reveals that he and 悠仁 are now best friends. The Kyoto Team tries to take 悠仁's life. 桃 watches them both from above and confirms 悠仁's position. Her classmates surround 悠仁 and try to strike him down with their jujutsu. It doesn't take long for 悠仁 to realize that they're trying to kill him. 葵 uses his 術式 to swap everyone's positions and immediately attacks Noritoshi . He forces his classmates to retreat and demands 悠仁 fight him one on one. 恵 uses 鵺 to take 桃 off guard and knocks her out of the sky. 真希 and 恵 ambush Noritoshi's team while they're retreating. 真希 takes on 霞 while 恵 clashes with Noritoshi. 恵 decides to ask Noritoshi directly if the Kyoto students are trying to murder 悠仁.",
+    "characters_raw_text": "虎杖悠仁 東堂葵 Nobuko Takada 西宮桃 与幸吉 (メカ丸として) 三輪霞 加茂憲紀 禪院真依 伏黒恵 禪院真希",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 虎杖悠仁 vs. 東堂葵 呪霊討伐競争 虎杖悠仁 vs. 東堂葵 虎杖悠仁 vs. 東堂葵",
+    "techniques_raw_text": "東堂葵の術式 不義遊戯 三輪霞の術式 新陰流「簡易領域」 伏黒恵の術式 十種影法術 術式 鵺",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-0bca269a4a",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-830f121430",
+    "char-996d48af99",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-4688b07b42",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-e28246ff34"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "東堂が虎杖を親友と認定する",
+    "京都校が虎杖へ一斉攻撃する",
+    "東堂が不義遊戯で暗殺を妨害する",
+    "伏黒と真希が京都校側を追う"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0bca269a4a",
+      "presence": "imagined-memory"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-as-mechamaru"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-0bca269a4a",
+    "char-484fd66a1e",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8",
+    "char-830f121430",
+    "char-5724ed462b",
+    "char-3c1852867d",
+    "char-24d736edff"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-4688b07b42",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "stance-or-use"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-4688b07b42",
+    "tech-e28246ff34",
+    "tech-996d48af99"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-phase3-team-battle",
+    "term-e28246ff34",
+    "term-cba4367139"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

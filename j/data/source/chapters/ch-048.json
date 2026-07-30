@@ -1,0 +1,130 @@
+{
+  "id": "ch-048",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 6,
+  "number": 48,
+  "zero_number": null,
+  "label": "第48話",
+  "title_official": "黒閃",
+  "title_search_normalized": "黒閃",
+  "start_page": 89,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-06"
+  ],
+  "source_locator": "単行本6巻 目次 p.89",
+  "summary_short": "虎杖と東堂が花御との戦いを引き継ぐ。東堂は虎杖に、呪力と打撃を極限まで同期させる現象「黒閃」を実戦で成功させるよう求める。",
+  "summary_full": "西宮は負傷した狗巻と加茂を運び、パンダは伏黒と真希を退避させる。東堂は虎杖へ、黒閃を成功させるまでは助けないと宣言する。真人を連想させる花御の言葉に虎杖は怒りで集中を乱し、最初の一撃を失敗する。東堂は怒りを抑え、戦い以外を排除して呪力を打撃の百万分の一秒以内に重ねるよう促す。虎杖は極度の集中状態へ入り、花御へ初めて黒閃を命中させ、呪力への理解を一段深める。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 and 葵 take over the fight against 花御 . 葵 instructs 悠仁 to unleash a technique known as \" 黒閃 \". Mastering this move will allow 悠仁 to grow stronger than ever before!",
+    "summary_full_legacy": "葵 takes 悠仁 with unlocking the power of 黒閃. 桃 uses her broom to fly 棘 and Noritoshi's unconscious bodies away from the battlefield. While carrying both the boys away, 桃 admits she's surprised how they ended up in this condition considering their strength while also commenting about them being heavy. She decides to put her faith in 葵 because she believes if nothing else, he's strong. Meanwhile, 葵 and 悠仁 make a dynamic entry to save 真希 and 恵 from 花御. 恵 tries to warn 悠仁 of 花御's strength, but 葵 calls out to パンダ, who suddenly appears. He asks パンダ to take 恵 and 真希 away while he and 悠仁 keep 花御 busy. 恵 pleads to convince them to re-think this, but 悠仁 assures 恵 that it'll be okay. 悠仁 takes on 花御! 葵 notices that 恵 can see 悠仁 beginning to grow as well. 恵 tells 悠仁 he'll kill him if he dies again and then パンダ takes 恵 and 真希 away. As 悠仁 prepares to fight, 葵 declares that he won't intervene until 悠仁 uses 黒閃. If 悠仁 is unable to use this secret technique, 葵 is prepared to watch 悠仁 die. 花御 takes note of 葵's strength but believes he's still weaker than himself. 悠仁 asks 花御 if there is a patch-faced 呪霊 in his group and 花御 hints that it's possible. Angry, 悠仁 creates a giant splash of water by hitting the river and throws rocks through it. 花御 ignores them and spots 悠仁 closing the distance. He attempts to counter 悠仁 with a wooden ball but the jujutsu student speeds past it and lands a flurry of kicks. 花御 admits he's faster than 真希 but is disappointed by his strength. \" Thank you so much! Best Friend 東堂! \" By holding back, 悠仁 gains an opening on 花御 because he's underestimating his opponent. 悠仁 nearly unleashes the 黒閃, but his anger over how curses have affected his friends causes a momentary lapse in focus. After landing a pointless hit, 悠仁 retreats and 葵 punishes him for not concentrating properly. 葵 tells his new friend that he must suppress his anger and drown out all distractions. 黒閃! Thanks to his new best friend's advice, 悠仁 readies himself to unleash the 黒閃. 黒閃 is released when a jujutsu sorcerer applies 呪力 within 0.000001 seconds of a physical hit. There is no sorcerer that can use it at will and those who have used it have an infinitely better understanding of 呪力 than those who have not. 悠仁 stares with such intense focus that he begins to droll. Just as his saliva hits the ground, 悠仁 blitzes by 花御 and strikes him with 呪力 that flashes black: 黒閃! 花御 is surprised by the strength of the hit while 葵 is happy to see that 悠仁 was able to pull it off.",
+    "characters_raw_text": "西宮桃 狗巻棘 花御 虎杖悠仁 東堂葵 伏黒恵 禪院真希 パンダ",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 虎杖悠仁 & 東堂葵 vs. 花御 (開始)",
+    "techniques_raw_text": "虎杖悠仁の術式 黒閃",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-484fd66a1e",
+    "char-672d843799",
+    "char-9148bf784c",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [
+    "tech-69d5ecb511",
+    "tech-9754429d12"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-69d5ecb511"
+  ],
+  "key_events_verified_phase3": [
+    "負傷した生徒が退避する",
+    "東堂が虎杖へ黒閃を要求する",
+    "虎杖が怒りで一度失敗する",
+    "虎杖が初めて黒閃を成功させる"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-484fd66a1e",
+    "char-a61d6ef891",
+    "char-9148bf784c",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-3c1852867d",
+    "char-24d736edff",
+    "char-672d843799"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "first-use"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-69d5ecb511"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-69d5ecb511",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-06",
+    "src-manga-games-vol-06",
+    "src-official-character-vote-4"
+  ]
+}

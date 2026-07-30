@@ -1,0 +1,104 @@
+{
+  "id": "ch-152",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 17,
+  "number": 152,
+  "zero_number": null,
+  "label": "第152話",
+  "title_official": "葦を啣む―跋―",
+  "title_search_normalized": "葦を啣む―跋―",
+  "start_page": 191,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-17"
+  ],
+  "source_locator": "単行本17巻 目次 p.191",
+  "summary_short": "真希は母を含む禪院家の者たちを殺し、家を去る。瀕死の直哉は真希の母に刺されて死亡し、禪院家は壊滅状態となる。",
+  "summary_full": "真希は母に、忌庫へ向かう前に「戻れ」と言った理由を尋ねるが、答えを得られず喉を斬る。真依の遺体を西宮へ託し、禪院家を去った後も、その日に不在だった炳六名と躯倶留隊二十一名を殺害したと記録される。重傷ながら生きていた直哉は、瀕死の真希の母に包丁で刺され、人間として死亡する。母は最期に娘たちを産んでよかったと感じる。禪院家の御三家除名は他家から提議されるが、総監部が保留とする。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真希 has all but annihilated the 禪院 clan and now it's time to face her mother. 直哉 survives his defeat but suffers an ironic and fitting fate. In the aftermath of all the chaos, 真希 leaves her sister behind and continues moving forward to ensure that her promise is fully carried out.",
+    "summary_full_legacy": "直哉 survives his fight with 真希 only to meet an ironic end. 真希 finds her mother in a kitchen area and gets a very frantic reaction from her. 真希's mother tells her to stay back but 真希 wants to know why she told her to come back before entering the cursed warehouse earlier. Too distraught to recall, 真希's mother can only ask what 真希's talking about. Dissatisfied, 真希 approaches her mother, who yells out in panic several times before her blood is splattered on the wall. \" I'm so glad... I gave birth to you. \" 炳 and the 躯倶留隊 have been completely decimated, with their corpses lining the premises. 直哉, heavily injured but still alive, walks around and bleeds from his face all over the ground until he falls through a door onto the ground inside one of the buildings. He mocks 真希 for not finishing him off but her mother suddenly walks up behind him. Her throat has been slit and she's bleeding to death, but she's also holding a kitchen knife. 真希 leaves 真依 behind so she can complete the anihhilation of the 禪院 clan. 直哉 is too injured to use his 呪力 and 真希's mother stabs him in the back, lying on him as they both die. 直哉 calls her a piece of trash but suffers a pitiful end, unable to do anything about it. As 真希 and 真依's mother passes away, she admits that she was glad to have given birth to the twins. 真希 exits the 禪院 property with 真依's body. 西宮桃 arrives, apparently arriving too late after chasing behind 真依 in concern. Apparently, 真依 had left Kyoto and 桃 had told her not to go. Seeing now that 真依 has died as a result, 桃 cries and sobs over her regret. 真希 hands over 真依's body for 桃 to look after. 桃 asks 真希 what she's going to do now but she keeps walking away silently with 真依's blade in her hand. According to the official record, the 禪院 clan members who were not present that day all died violent deaths. No residuals were found other than trace amounts from a cursed tool . Days later, the 五条 and 加茂 clans proposed removing the 禪院 clan from the 御三家 . 呪術総監部 is keeping the verdict on hold for now.",
+    "characters_raw_text": "真希 and 真依's mother 禪院真希 禪院直哉 禪院真依 西宮桃",
+    "locations_raw_text": "禪院家 家／邸宅",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-3248ea0da4",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-b3be077b48"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-f74654d902"
+  ],
+  "key_events_verified_phase8": [
+    "真希が母の喉を斬る",
+    "真希が真依の遺体を西宮へ託す",
+    "不在だった炳と躯倶留隊も後日殺害される",
+    "真希の母が直哉を刺す",
+    "直哉が人間として死亡する",
+    "禪院家の御三家除名が保留される"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3248ea0da4",
+      "presence": "dies"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "human-body-dies"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "corpse"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-24d736edff",
+    "char-3248ea0da4",
+    "char-b3be077b48",
+    "char-5724ed462b",
+    "char-484fd66a1e"
+  ],
+  "technique_appearances_verified_phase8": [],
+  "technique_ids_verified_phase8": [],
+  "term_ids_verified_phase8": [
+    "term-f74654d902",
+    "term-phase8-kukuru",
+    "term-phase8-hei",
+    "term-6f7fa8f5d1"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-17",
+    "src-manga-games-vol-17",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

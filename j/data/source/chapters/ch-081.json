@@ -1,0 +1,167 @@
+{
+  "id": "ch-081",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 10,
+  "number": 81,
+  "zero_number": null,
+  "label": "第81話",
+  "title_official": "宵祭り―弐―",
+  "title_search_normalized": "宵祭り―弐―",
+  "start_page": 27,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "evening-festival",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-10"
+  ],
+  "source_locator": "単行本10巻 目次 p.27",
+  "summary_short": "与幸吉は蓄積してきた呪力と巨大メカ丸で真人を追い詰める。真人の魂へ攻撃を通すため簡易領域を仕込み、勝機をつかもうとする。",
+  "summary_full": "与幸吉は試作0号の装甲と蓄積呪力で真人の変形攻撃へ対抗する。真人の肉体を傷付けても魂へ届かなければ決定打にならないため、幸吉はシン・陰流「簡易領域」を封じた筒を試作0号へ装填していた。追尾弾～五重奏～で真人を追い込み、指先の杭から簡易領域を体内へ展開して魂へ損傷を与える。勝機を見いだした幸吉は京都校の仲間、とりわけ三輪に会うことを願うが、真人は切り札として領域展開「自閉円頓裹」を発動する。",
+  "content_verification": "phase5-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The battle between 幸吉 and 真人 rages on! The puppet manipulator manages to find an advantage in his fight with the special grade 呪霊. However, just as his dream is just within reach, 幸吉 plays directly into 真人's hands.",
+    "summary_full_legacy": "幸吉 gains the upper hand against 真人. 真人 extends his arm and grabs onto メカ丸 Absolute's head to accurately deliver a 呪力 infused punch. It's a direct hit, vigorously shaking the kockpit. 幸吉 acknowledges that 真人's strength can break メカ丸's armor apart. 幸吉 inserts a tube into one of the side panels beside him and activates a 術式 charge. The tip of メカ丸's finger splits open to reveal a small canon. It fires a spiked projectile that stabs into 真人 as he's flying around with wings. メカ丸 trying desperately to finish 真人 off. Initially, 真人 doesn't see it as a threat but suddenly his wing explodes, leaving him open to get smacked aside by メカ丸. 真人 crashes through several trees, confused as to how his soul was destroyed. メカ丸 unleashes a series of rapid punches upon the forest area, forcing 真人 to fly away in retreat in the form of a bird. 幸吉 notices 真人 reshaping himself to hide his injury, making the puppet manipulator more confident he can win. Even Pseudo-夏油 , who's still spectating, acknowledges that 幸吉 is skilled and his strategies are working against 真人. 幸吉 uses five-year charge: Pigeon Viola , to send five cannons of 呪力 at his opponent. \" And... now we're done. \" 真人 shapeshifts and tries to avoid the beams, but he's taken by surprise when メカ丸 crushes him from above. The curse narrowly avoids getting smashes but メカ丸 follows up with another strike that sends 真人 flying back into the forest.  幸吉 activates another 術式 charge, reshaping メカ丸's middle finger into a spike. He's confident that he'll be able to achieve his dream and meet up with everyone. However, the worst-case scenario occurs when 真人 activates his 領域展開：自閉円頓裹 !",
+    "characters_raw_text": "真人 与幸吉 Pseudo-夏油 東堂葵 (回想) 庵歌姫 (回想) 禪院真依 (回想) 西宮桃 (回想) 三輪霞 (回想) 加茂憲紀 (回想)",
+    "locations_raw_text": "不明な森林",
+    "battles_events_raw_text": "与幸吉 vs. 真人",
+    "techniques_raw_text": "与幸吉の術式 傀儡操術／極ノ番 メカ丸 装甲傀儡 究極メカ丸・絶対形態 Pigeon Viola Pigeon Viola 真人の術式 領域展開：自閉円頓裹 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "evening-festival",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-3de3b8af11",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-678a848346",
+    "char-830f121430",
+    "char-d76df97dca",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-71a2d65cad",
+    "tech-870eff819a",
+    "tech-c2ae5ed6dc",
+    "tech-e28246ff34",
+    "tech-f0f06d52dc"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-e28246ff34",
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase5": [
+    "簡易領域を封じた筒で真人の魂へ損傷を与える",
+    "追尾弾～五重奏～を使用する",
+    "真人が自閉円頓裹を発動する"
+  ],
+  "character_appearances_verified_phase5": [
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "observer"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase5": [
+    "char-18d7c58412",
+    "char-dad71c9f31",
+    "char-678a848346",
+    "char-d76df97dca",
+    "char-3de3b8af11",
+    "char-5724ed462b",
+    "char-484fd66a1e",
+    "char-ebd2a8efa8",
+    "char-830f121430"
+  ],
+  "technique_appearances_verified_phase5": [
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase5-mechamaru-mode-absolute",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase5-pigeon-viola",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "inserted-into-projectile"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "combat-use"
+    },
+    {
+      "technique_id": "tech-f0f06d52dc",
+      "relation": "activated-at-end"
+    }
+  ],
+  "technique_ids_verified_phase5": [
+    "tech-870eff819a",
+    "tech-phase5-mechamaru-mode-absolute",
+    "tech-phase5-pigeon-viola",
+    "tech-e28246ff34",
+    "tech-71a2d65cad",
+    "tech-f0f06d52dc"
+  ],
+  "term_ids_verified_phase5": [
+    "term-phase5-new-shadow-style",
+    "term-e28246ff34",
+    "term-65867f280c",
+    "term-e6a70dfe56",
+    "term-40e6a89fc4"
+  ],
+  "verification_basis_phase5": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase5": "集英社公式10・11巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第五段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase5": [
+    "src-shueisha-vol-10",
+    "src-manga-games-vol-10",
+    "src-official-character-vote-4"
+  ]
+}

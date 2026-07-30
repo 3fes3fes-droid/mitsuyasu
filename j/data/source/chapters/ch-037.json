@@ -1,0 +1,120 @@
+{
+  "id": "ch-037",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 37,
+  "zero_number": null,
+  "label": "第37話",
+  "title_official": "京都姉妹校交流会―団体戦④―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦4―",
+  "start_page": 47,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.47",
+  "summary_short": "東堂の助言で、虎杖は全身に呪力を巡らせる感覚をつかむ。別の場所では、釘崎とパンダが西宮桃・究極メカ丸と遭遇し、それぞれ戦闘に入る。",
+  "summary_full": "東堂は虎杖へ、腹・胸・手足を別々に考えず、全身を一つとして呪力を巡らせる感覚を教える。虎杖は逕庭拳に頼らず打撃と呪力を一致させる糸口をつかみ、東堂との実戦で急速に成長する。別の場所では釘崎が西宮へ虎杖暗殺の理由を問い、メカ丸がパンダを砲撃する。倒れたふりをしていたパンダはメカ丸へ反撃し、同じ呪骸同士だと語りかけるが、遠隔操作する与幸吉は強く反発する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "As 悠仁 's duel with 東堂葵 reaches his climax, he learns what it truly means to reach his potential. With 葵's guiding expertise, 悠仁 begins to grow toward new heights of power. Meanwhile, メカ丸 backs up 桃 in her confrontation with 野薔薇 and パンダ .",
+    "summary_full_legacy": "\" We exist in the world with our entire mind, body, and soul. \" There is a saying within the artistic community. It is impossible for the hand to move faster than the eye. If someone doesn't have an eye that can judge quality, they can never create anything of value with their hands. Many disciplines believe this to be true, including jujutsu. The rate of growth for people who possess this eye far eclipses the rate of those who do not. Using a vertical lead left jab, 悠仁 is able to counter 葵's right hook. This shows 葵 that 悠仁 is growing as a fighter. He's able to break down 葵's offense and is growing by devouring his opponent. However, 葵 stops 悠仁's fist from gaining momentum by blocking it with his head and says 悠仁 needs to devour something else entirely. 葵 shows 悠仁 the way to exceed his limits. 葵 reveals that 悠仁's 逕庭拳 stems from the 呪力 left behind by 悠仁's superhuman speed. He admits its a good technique against an average sorcerer but it's useless against a special grade . 悠仁 realizes that he must apply 呪力 at the exact moment his attack hits. In order to do so, 悠仁 must learn to make his 呪力 flow properly. 葵 teaches 悠仁 that flowing 呪力 is something most sorcerer's do consciously. It starts from the stomach into the chest throughout the rest of the body. Thinking of one's body parts as desperate sections is what delays 呪力. 悠仁 can't get stuck at simply speeding up his flow even if reading the flow of 呪力 is difficult. 葵 teaches 悠仁 that everyone exists in this world with their entire body and soul even if most people have taken that maxim for granted. パンダ fakes an injury to take メカ丸 by surprise. 葵's wise words help 悠仁 understand what it means to make 呪力 flow throughout his body, unlocking his true potential. Done talking, 葵 and 悠仁 go all out against one another so that the latter can climb to new heights by joining his new best friend down the path of the mighty. Meanwhile, 野薔薇 asks 桃 if the Kyoto Principal ordered the students to kill 悠仁. She threatens to kill 桃, 真依, and all of her classmates in return because she's crazy mad about the order. Suddenly, パンダ is shot and immobilized by メカ丸, but 桃 wants to take on 野薔薇 on her own. She wants to teach the first-year the kind of hardships female sorcerers like 真依 have to live with. パンダ suddenly recovers, having been faking an injury the whole time and lands a hard right hook on メカ丸. He reveals that メカ丸 is a 呪骸 like him, but this only serves to anger メカ丸, who gears up to fight. As they prepare to face off, パンダ asks what happened to the point of the event being hunting curses .",
+    "characters_raw_text": "虎杖悠仁 東堂葵 伊地知潔高 真人 (回想) 漏瑚 (回想) 西宮桃 パンダ 釘崎野薔薇 与幸吉 (メカ丸として)",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 虎杖悠仁 vs. 東堂葵 (終了) パンダ vs. 究極メカ丸 (開始) 呪霊討伐競争 虎杖悠仁 vs. 東堂葵 (終了) パンダ vs. 究極メカ丸 (開始) 虎杖悠仁 vs. 東堂葵 (終了) パンダ vs. 究極メカ丸 (開始)",
+    "techniques_raw_text": "虎杖悠仁の術式 逕庭拳",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-484fd66a1e",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-a61fa295f1",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-dad71c9f31"
+  ],
+  "technique_ids_candidate": [
+    "tech-c2ae5ed6dc"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664"
+  ],
+  "key_events_verified_phase3": [
+    "東堂が虎杖へ全身の呪力操作を教える",
+    "虎杖が呪力の流れをつかむ",
+    "パンダがメカ丸へ反撃する",
+    "パンダとメカ丸の戦闘が本格化する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-as-mechamaru"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-baadf43d19",
+    "char-d76df97dca",
+    "char-484fd66a1e",
+    "char-672d843799",
+    "char-5a0f7ded8d",
+    "char-dad71c9f31"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-phase2-keiteiken",
+      "relation": "analyzed"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-phase2-keiteiken"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-252cb4a664",
+    "term-3c3554872b",
+    "term-37f8736467"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

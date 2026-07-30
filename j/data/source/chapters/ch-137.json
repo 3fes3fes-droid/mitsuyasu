@@ -1,0 +1,125 @@
+{
+  "id": "ch-137",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 16,
+  "number": 137,
+  "zero_number": null,
+  "label": "第137話",
+  "title_official": "堅白",
+  "title_search_normalized": "堅白",
+  "start_page": 67,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "post-shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-16"
+  ],
+  "source_locator": "単行本16巻 目次 p.67",
+  "summary_short": "渋谷事変後、東京は呪霊が徘徊する危険地帯となり、呪術界は虎杖の死刑執行を再開する。海外から戻った乙骨憂太が執行役を引き受ける。",
+  "summary_full": "渋谷事変後、東京23区の大部分は呪霊が徘徊する危険地帯となり、呪術総監部は避難と情報統制を協議する。帰国した乙骨憂太は街で少女を襲う呪霊を祓い、解呪後に残った存在「リカ」の力も示す。上層部は夏油の再度の死刑、五条の永久追放と封印解除の禁止、夜蛾の死刑、虎杖の死刑再開を通達し、乙骨を執行人に任命する。乙骨は狗巻の腕を失わせた件を理由に、自ら虎杖を殺すと誓う。",
+  "content_verification": "phase8-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "In the aftermath of the events in 渋谷 , 東京 has been completely overtaken by curses . 憂太 has returned to Japan and resumes active duty as a jujutsu sorcerer under the the higher-ups . Headquarters releases several notices as consequences for the 渋谷事変 , including 虎杖悠仁 's execution is to be carried out by 憂太 himself.",
+    "summary_full_legacy": "The empty streets of 渋谷. Through an overhead shot of 東京, a massive dead zone in the city is revealed. 呪術総監部 discusses the situation and reveal that the twenty-three wards have been almost completely destroyed, with only a handful of areas clear. They plan to create an evacuation plan for the five million residents, estimating that at least ten million 呪霊 have been released. One of the people is flabbergasted that they plan to evacuate the entire area, wondering about the various consequences. One says that they should expand the two barriers to the boundaries of the prefecture, and another worries about making public the existence of 呪霊. Someone assures the others that sorcerers are protecting evacuees inside the city, with another adding that they can tell the public that 呪霊 only appear in 東京. As someone worries about an intervention by a foreign military, the others debate back and forth about how to handle the whole situation. 乙骨憂太 enters the scene. In a convenience store, a young girl kneels on the floor consuming various food and drink items. She suddenly spots a creepy figure in the doorway telling her to come and that it's dangerous. It also mentions hot baths and that they can sing songs. The girl asks where her mother is, and the figure replies that mom, dad, big sister, little brother, and teacher are all there. She says that she doesn't have a little brother and that she hates her teacher. After the figure simply repeats the girl's words, she is left confused and asks if they want a drink. The figure says to give it to them, and as the girl walks outside the store, an enormous 呪霊 with razor-sharp teeth pulls away the decoy they were using and opens its mouth to devour her. Leaping down from above, 憂太 suddenly appears and stabs the creature in the head with his katana. With a smile on his face, he asks the girl if he scared her, also making sure that she isn't hurt. He asks if she is with her mother or father, but she replies that she doesn't know. 憂太 notes the area and doubts that she lives there, noticing how worn her shoes are and asking if she has walked a long way. The meeting with the jujutsu higher-ups. As 憂太 tells her that she has done a good job, the creature suddenly rises up from the ground and opens its mouth to devour him, but it's violently thrown back and splattered against the wall. The girl notices the attack, and 憂太 politely asks 里香 not to overdo things, covering the girl's eyes and turning her away from the carnage. Three notices from the higher-ups. Later, 憂太 meets with the higher-ups who praise his efforts. He bluntly tells them to get to the point and says that they know he will obey their orders. One of them chuckles and says that his killing of 呪霊 proves nothing. 憂太 asks in reply if he should enter into a 縛り , then assuring them that he doesn't care if the person is 五条 's student. He says that since 悠仁 cut off 狗巻 's arm in 渋谷, he will kill him personally. Five notices are made known by the higher-ups. First, 夏油 is confirmed to be alive and has been sentenced to death (again). Second, 五条 is considered an accomplice in the incident at 渋谷 and has been permanently exiled. Removing his seal will be considered a criminal act. Third, 正道 is to be executed for inciting 五条 and 夏油 and causing the incident at 渋谷. Fourth, 悠仁's execution will resume and be carried out immediately. Lastly, 憂太 is appointed as 悠仁's executioner.",
+    "characters_raw_text": "乙骨憂太 折本里香 五条悟 (言及のみ) 狗巻棘 (想像) 夏油傑 (言及のみ) 夜蛾正道 (想像) 虎杖悠仁 (想像)",
+    "locations_raw_text": "渋谷 商業地区 商業地区",
+    "battles_events_raw_text": "乙骨憂太 vs. 呪霊",
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "post-shibuya",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-58278d1ec5",
+    "char-a61d6ef891",
+    "char-b9d4880408",
+    "char-ba2d62b596",
+    "char-baadf43d19",
+    "char-c28763b98a"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-33c0eaca30"
+  ],
+  "key_events_verified_phase8": [
+    "東京が多数の呪霊に覆われ避難と情報統制が協議される",
+    "乙骨が少女を呪霊から救う",
+    "本編の「リカ」が乙骨を援護する",
+    "呪術総監部が五条・夜蛾・虎杖らへの処分を通達する",
+    "乙骨が虎杖の死刑執行人となる"
+  ],
+  "character_appearances_verified_phase8": [
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-fd5a754a56",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "target-of-execution-order"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "mentioned-injured"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "mentioned-sanctioned"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "mentioned-sentenced"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "misidentified-by-headquarters"
+    }
+  ],
+  "character_ids_verified_phase8": [
+    "char-c28763b98a",
+    "char-fd5a754a56",
+    "char-baadf43d19",
+    "char-a61d6ef891",
+    "char-17322e71e5",
+    "char-58278d1ec5",
+    "char-b9d4880408"
+  ],
+  "technique_appearances_verified_phase8": [
+    {
+      "technique_id": "tech-fd5a754a56",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase8": [
+    "tech-fd5a754a56"
+  ],
+  "term_ids_verified_phase8": [
+    "term-32f18a66ec",
+    "term-33c0eaca30",
+    "term-8914e5bc1a",
+    "term-9ff83181a2"
+  ],
+  "source_refs_phase8": [
+    "src-shueisha-vol-16",
+    "src-manga-games-vol-16",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase8": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase8": "集英社公式16～18巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第八段階。単行本各ページの直接最終照合前。"
+}

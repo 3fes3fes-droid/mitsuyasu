@@ -1,0 +1,74 @@
+{
+  "started": "2026-07-21T22:15:38.969Z",
+  "chapters": {
+    "type": "chapters",
+    "total": 275,
+    "failures": [],
+    "errors": [],
+    "visibleAfterSearch": 82,
+    "visibleAfterSearchAndArc": 10,
+    "elapsedMs": 2113.6,
+    "detailsLoaded": 275
+  },
+  "characters": {
+    "type": "characters",
+    "total": 189,
+    "failures": [],
+    "errors": [],
+    "visibleAfterSearch": 1,
+    "elapsedMs": 1257.5,
+    "detailChunksLoaded": 189
+  },
+  "techniques": {
+    "type": "techniques",
+    "total": 179,
+    "failures": [],
+    "errors": [],
+    "visibleAfterSearch": 23,
+    "elapsedMs": 1179.3,
+    "detailChunksLoaded": 179
+  },
+  "terms": {
+    "type": "terms",
+    "total": 173,
+    "failures": [],
+    "errors": [],
+    "visibleAfterSearch": 15,
+    "elapsedMs": 1141.9,
+    "detailChunksLoaded": 173
+  },
+  "simple": {
+    "index.html": {
+      "errors": [],
+      "nodes": 135,
+      "buttons": 0,
+      "links": 30,
+      "text": 1390
+    },
+    "supplements.html": {
+      "errors": [],
+      "nodes": 63,
+      "buttons": 4,
+      "links": 15,
+      "text": 397,
+      "items": 4
+    },
+    "sources.html": {
+      "errors": [],
+      "nodes": 539,
+      "buttons": 0,
+      "links": 90,
+      "text": 4442,
+      "rows": 83
+    },
+    "status.html": {
+      "errors": [],
+      "nodes": 58,
+      "buttons": 0,
+      "links": 8,
+      "text": 403,
+      "hasStatus": true
+    }
+  },
+  "finished": "2026-07-21T22:15:45.363Z"
+}

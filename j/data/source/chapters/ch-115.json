@@ -1,0 +1,140 @@
+{
+  "id": "ch-115",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 13,
+  "number": 115,
+  "zero_number": null,
+  "label": "第115話",
+  "title_official": "渋谷事変㉝",
+  "title_search_normalized": "渋谷事変33",
+  "start_page": 173,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-13"
+  ],
+  "source_locator": "単行本13巻 目次 p.173",
+  "summary_short": "漏瑚は極ノ番「隕」で宿儺を攻撃し、周囲の術師や呪詛師も巻き込まれる。宿儺は炎の技を見せ、火力勝負を漏瑚へ持ちかける。",
+  "summary_full": "宿儺は斬撃と肉弾戦で漏瑚を一方的に翻弄する。漏瑚は極ノ番「隕」を渋谷へ落とし、近くの日下部・パンダと夏油一派も巻き込もうとするが、宿儺は人間たちへ動くなと命じ、直前まで退避を許さない。隕が落下しても宿儺は無傷で、領域を使わない漏瑚の消極性を指摘。続いて自ら炎を出し、漏瑚の得意分野で火力を競うと宣言する。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The chaos created by 宿儺 's battle with 漏瑚 begins to affect a much larger area of 渋谷 . The 日下部 Team and their opposing curse users are caught up in the battle as well. After 漏瑚 unleashes his maximum technique , 宿儺 unveils a new unforeseen ability as well.",
+    "summary_full_legacy": "\" The moonlight's illumination makes it easier to see how pathetic you are. \" Dominating 漏瑚 in their fight, 宿儺 smacks his opponent across the air. He asks the 呪霊 if that's all he's got and 漏瑚 replies not yet. 漏瑚 prepares a fire attack by concentrating flames between his palms, but 宿儺 uses his innate technique to slash 漏瑚's arms apart. While the 呪霊 is still reeling, 宿儺 smashes his head in with a violent hammer fist. The impact sends 漏瑚 crashing toward the ground but 宿儺 catches up to him with a quick dive in order to smash his face directly into the top of a tall building. 宿儺 and 漏瑚 crash through all the floors of the skyscraper, severely injuring the latter. As the moonlight shines through the broken roof to the building, 宿儺 looks down on 漏瑚 and says the Moon's illumination makes it easier to see how pathetic he is. As 漏瑚 struggles to regenerate his dismantled jaw among other injures, he recalls 羂索 telling him his strength is comparable to 宿儺 with eight or nine fingers absorbed. Despite knowing he'd be outmatched, 漏瑚 contemplates to himself that he didn't expect the difference in their strength to be this great. 日下部 cuts down the pursuing curse users. 宿儺 suddenly appears behind 漏瑚, surprising him and interrupting his train of thought. The King of Curses grabs his opponent's collar and lifts him up as he tells him to keep going until the fun stops. Flames erupt from all the forcefully opened holes in the building, further destroying the structure. 宿儺 escapes out into the street and 漏瑚 follows him, attacking his strongest 術式: 極ノ番「隕」 ! The 日下部 Team and the curse users around them notice the battle going on nearby. 日下部 and パンダ attempt to flee and are intercepted by Negi and Suda's henchmen. Suda tells the underlings they don't have time to fight but 日下部 quickly cuts them down with 新陰流 シン・陰流「抜刀」 ! 宿儺 forces all the sorcerers to wait for 極ノ番「隕」. 日下部 tells the remaining curse users they need to flee and get away from the fighting special grades . He compares them to elephants tap-dancing among ants. However, 宿儺 appears next to 日下部 in an instant and says he won't allow any human to run. 宿儺 declares that all humans in his vicinity aren't allowed to move until he says so, or else he will kill them. All the sorcerers forced to watch as the 極ノ番 Meteor follows 宿儺 and draws closer to killing them all. A few moments later 宿儺 finally lets them all run, clapping with a playful smile as the signal. 宿儺 begins fighting using 漏瑚's specialty. 極ノ番 Meteor crashes into 渋谷, decimating the area of the battle with the impact. \nTired from unleashing his maximum technique, 漏瑚 stands atop the Meteor huffing for air. After catching his breath, 漏瑚 smirks and says even an attack that powerful must have injured 宿儺. However, 宿儺's voice tells 漏瑚 that would only be the case if it hit. 宿儺 appears sitting beside him as if he was never in danger. He asks 漏瑚 why he won't use 領域展開 . 漏瑚 admits that he would lose in a domain struggle between them and 宿儺 believes his lack of confidence stems from losing to 五条悟 . Entertained, 宿儺 stands up and suggests he begin fighting using 漏瑚's specialty. 宿儺 commands \"■\" to open allowing him to manipulate flames as well. 漏瑚 is confused, prompting 宿儺 to realize a 呪霊 wouldn't understand this technique. 宿儺 tells 漏瑚 to get ready for a fire-power battle.",
+    "characters_raw_text": "宿儺 漏瑚 パンダ 日下部篤也 Toshihisa Negi Manami Suda",
+    "locations_raw_text": "渋谷 外 渋谷駅 Near 渋谷ストリーム 外 渋谷駅 Near 渋谷ストリーム",
+    "battles_events_raw_text": "The 渋谷事変 宿儺 vs. 漏瑚 宿儺 vs. 漏瑚",
+    "techniques_raw_text": "日下部篤也の術式 新陰流 シン・陰流「抜刀」 漏瑚の術式 Disaster Flames (名称不明) 極ノ番「隕」 極ノ番「隕」 宿儺の術式 御廚子 竈 竈",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-a61fa295f1",
+    "char-e5bfc97a26",
+    "char-f65b4fe4b0"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-542b17dcab",
+    "tech-bbdf7b1f2f"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c",
+    "term-041be91538",
+    "term-907c704f71"
+  ],
+  "key_events_verified_phase6": [
+    "宿儺が漏瑚を圧倒する",
+    "漏瑚が極ノ番「隕」を発動する",
+    "日下部が夏油一派の部下を抜刀で斬る",
+    "宿儺が炎の技を開く"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-e5bfc97a26",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-f65b4fe4b0",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-2b8d365a39",
+    "char-a61fa295f1",
+    "char-53c5711b23",
+    "char-672d843799",
+    "char-e5bfc97a26",
+    "char-f65b4fe4b0"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-ae26dbd914",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d2feb31d47",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-bbdf7b1f2f",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase6-evening-moon",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-4b0b9dc682",
+      "relation": "opened"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-ae26dbd914",
+    "tech-d2feb31d47",
+    "tech-bbdf7b1f2f",
+    "tech-phase6-evening-moon",
+    "tech-4b0b9dc682"
+  ],
+  "term_ids_verified_phase6": [
+    "term-907c704f71",
+    "term-e6a70dfe56",
+    "term-phase5-special-grade-curse"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-13",
+    "src-manga-games-vol-13",
+    "src-legacy-ju-txt"
+  ]
+}

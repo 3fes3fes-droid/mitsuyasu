@@ -1,0 +1,132 @@
+{
+  "id": "zero-01",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 0,
+  "number": null,
+  "zero_number": 1,
+  "label": "第1話",
+  "title_official": "呪いの子",
+  "title_search_normalized": "呪いの子",
+  "start_page": 5,
+  "official_group_id": null,
+  "db_section_draft_id": "zero",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-00"
+  ],
+  "source_locator": "単行本0巻 目次 p.5",
+  "summary_short": "怨霊となった祈本里香に苦しむ乙骨憂太は、五条悟に導かれて呪術高専へ入学する。禪院真希との任務を経て、生きる自信を取り戻し、里香の呪いを解くことを目標にする。",
+  "summary_full": "中学校で同級生を重傷にした乙骨憂太は、その原因である幼なじみ・祈本里香の怨霊に苦しみ、自分の処刑と隔離を望んでいた。五条悟は乙骨を東京都立呪術高等専門学校へ転入させ、禪院真希・狗巻棘・パンダの同級生として迎える。真希と組んだ初任務では、行方不明になった児童を捜す途中で巨大な呪霊にのみ込まれる。乙骨は傷ついた真希と児童を守りたいと願い、里香を顕現させて脱出する。人との関わりを恐れていた乙骨は、真希との会話を通じて生きる意味を見つけ始め、呪術高専で里香の呪いを解くことを目標に定める。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "events_raw": [
+      "乙骨が呪術高専へ移る",
+      "乙骨と真希が小学校で行方不明児を捜索する",
+      "里香が顕現し、乙骨が生きることへの意思を言葉にする",
+      "乙骨が里香の呪いを解く方針を持つ"
+    ],
+    "characters_raw": [
+      "乙骨憂太",
+      "祈本里香",
+      "五条悟",
+      "禪院真希",
+      "狗巻棘",
+      "パンダ"
+    ],
+    "locations_raw": [
+      "東京都立呪術高等専門学校",
+      "任務先の小学校"
+    ],
+    "techniques_or_terms_raw": [
+      "特級過呪怨霊",
+      "呪術高専",
+      "呪力",
+      "呪具"
+    ],
+    "source_refs": [
+      "src-fandom-chapter-zero-01",
+      "src-shueisha-vol-00"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "zero",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-58278d1ec5",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-ba2d62b596",
+    "char-c28763b98a",
+    "char-fd5a754a56"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-c91391b066",
+    "term-3f92b6bb78"
+  ],
+  "key_events_verified_phase1": [
+    "乙骨の旧校で里香が同級生を重傷にする",
+    "五条が乙骨を呪術高専へ転入させる",
+    "乙骨と真希が小学校の児童を救出する",
+    "乙骨が里香の解呪を目標に定める"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ba2d62b596",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-c28763b98a",
+    "char-ba2d62b596",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-a61d6ef891",
+    "char-672d843799"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-c91391b066",
+    "term-252cb4a664",
+    "term-3f92b6bb78",
+    "term-e70d29a871",
+    "term-8914e5bc1a",
+    "term-ed19637c63",
+    "term-67566a7224"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-00",
+    "src-fandom-chapter-zero-01"
+  ]
+}

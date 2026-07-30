@@ -1,0 +1,155 @@
+{
+  "id": "ch-071",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 71,
+  "zero_number": null,
+  "label": "第71話",
+  "title_official": "懐玉―漆―",
+  "title_search_normalized": "懐玉―漆―",
+  "start_page": 7,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.7",
+  "summary_short": "伏黒甚爾は星漿体暗殺のため五条を奇襲する。呪力を持たず気配を読ませない肉体と、多数の呪具・呪霊を組み合わせて無下限呪術を攻略する。",
+  "summary_full": "甚爾は、理子の懸賞金を利用して五条を数日間消耗させ、期限終了後の油断を狙っていた。呪力を完全に持たない天与呪縛の肉体は六眼の感知から外れ、格納型呪霊へ呪具を収納することで武器の呪力も隠す。五条は最大出力の「蒼」で距離を取るが、甚爾は蠅頭の群れで視界と感知を乱し、術式を強制解除する天逆鉾で無限を突破する。五条は喉を斬られ、全身を刺されて倒れる。甚爾は五条を排除したと判断し、理子を追う。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "伏黒甚爾 finally appears and makes his move to assassinate the 星漿体 Vessel . First he must defeat the prodigy of the 五条家. 悟 believes he can hold off the Sorcerer Killer while 傑 completes their mission, but 甚爾 has a surprise in store.",
+    "summary_full_legacy": "甚爾 visiting 悟 in the past to see what the fuss over the 六眼 was about. 悟 slightly recognizes 甚爾 because he once went to see the young 五条 boy while he was a child. He was a big deal, and the first and last person to notice 甚爾's presence behind them. He waited until 傑 was worn down to strike, stabbing him from behind in a surprise. 悟 forces him up into the air and 傑 summons his giant man-eating hookworm curse to devour the Sorcerer Killer. 傑 rushes to his friends side but 悟 assures him that his would isn't too severe. He reinforced it with 呪力 to reduce any further damage. 悟 asks 傑 to take 理子 to 天元様 's place while he takes care of the assassin. He, 理子, and 黒井 leave the area as 甚爾 slashes his way out of the giant curse and exorcises it. 悟 is forced to engage the Sorcerer Killer in fierce combat. 甚爾 looks around for the 星漿体 Vessel and claims he's getting rusty for not killing 悟 in one blow. 悟 taunts 甚爾, stating that the bounty has been lifted but 甚爾 reveals he's the one who took it down. He finds it funny they went to 沖縄 and adds that he had to create an opening with the illusion of goals using the time limit. No sorcerers from 五条's side were killed, but 甚爾 still managed to get him to deactivate his 術式 . 悟 unleashes 術式 術式順転「蒼」 on 甚爾, sending him flying using a magnetic field of attraction. However, 甚爾 is fast enough to evade the technique. This makes 悟 realize that 甚爾 has zero 呪力 , meaning he's using nothing but innate physical prowess to fight. 悟 can't read his moves, but he's able to knock 甚爾 away once he advances. He recognizes that his opponent knows about the 無下限呪術 technique and likely has a plan. Special grade cursed tool: 天逆鉾. Effect: Forced stoppage of all cursed techniques. 甚爾 disappears into the nearby buildings and 悟 can't sense him without 呪力. He decides to clear the area of all possible blind spots using 術式 Lapse - 極ノ番 呪力 Output: Blue . The jujutsu student believes his enemy may be hiding in the forest, and is surprised when a swarm of 蠅頭 appears. He believes that they were kept in the same 呪霊 that been storing 甚爾's weapons, and 甚爾's plan might be connected to the cursed tool he took out of it as well. With his view blocked again by this mock chaff grenade, 悟 plans on using Blue again until he realizes that 甚爾 might have left and gone straight after 理子. While 悟 is distracted with that thought on his mind, 甚爾 suddenly appears behind him. 悟 notices in time but his 六眼 recognize the foreign 呪力 flowing out of 甚爾's cursed tool. This puts 悟 on the defensive, sealing his fate. 甚爾 stabs 悟 though the neck with the special grade cursed tool: 天逆鉾 . It has the ability to force the stoppage of all cursed techniques.",
+    "characters_raw_text": "五条悟 伏黒甚爾 夏油傑 美里 黒井 天内理子",
+    "locations_raw_text": "東京 呪術高専 Foothills of Mount Mushiro Foothills of Mount Mushiro",
+    "battles_events_raw_text": "五条悟 vs. 伏黒甚爾",
+    "techniques_raw_text": "呪具 天逆鉾／釈魂刀 五条悟の術式 無下限呪術 術式 術式順転「蒼」 六眼 術式 術式順転「蒼」 夏油傑の術式 呪霊操術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-526551b91f",
+    "char-5da68e2f6c",
+    "char-63e2590b87",
+    "char-b9d4880408",
+    "char-d5482ceba1",
+    "char-f479972eca"
+  ],
+  "technique_ids_candidate": [
+    "tech-1baac5a3fc",
+    "tech-1bc0d9ec7b",
+    "tech-90aaa17cfe",
+    "tech-cf2f8dca4a"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-8914e5bc1a",
+    "term-ed19637c63",
+    "term-6f0611c4ff"
+  ],
+  "key_events_verified_phase4": [
+    "甚爾の天与呪縛と呪力ゼロの性質が示される",
+    "天逆鉾で無限が突破される",
+    "五条が甚爾に敗れる"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5da68e2f6c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-f479972eca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-526551b91f",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-17322e71e5",
+    "char-d5482ceba1",
+    "char-5da68e2f6c",
+    "char-f479972eca",
+    "char-b9d4880408",
+    "char-63e2590b87",
+    "char-526551b91f"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-8b181ff845",
+      "relation": "bypassed"
+    },
+    {
+      "technique_id": "tech-90aaa17cfe",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-1baac5a3fc",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase4-inverted-spear",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-cf2f8dca4a",
+    "tech-8b181ff845",
+    "tech-90aaa17cfe",
+    "tech-1baac5a3fc",
+    "tech-phase4-inverted-spear",
+    "tech-phase4-split-soul-katana"
+  ],
+  "term_ids_verified_phase4": [
+    "term-bfcc1b065d",
+    "term-phase4-zero-cursed-energy",
+    "term-phase4-sorcerer-killer",
+    "term-ed19637c63",
+    "term-bf1b3beaca",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

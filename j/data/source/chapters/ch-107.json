@@ -1,0 +1,127 @@
+{
+  "id": "ch-107",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 13,
+  "number": 107,
+  "zero_number": null,
+  "label": "第107話",
+  "title_official": "渋谷事変㉕",
+  "title_search_normalized": "渋谷事変25",
+  "start_page": 7,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-13"
+  ],
+  "source_locator": "単行本13巻 目次 p.7",
+  "summary_short": "陀艮は呪胎から成体へ変わり、直毘人の速度を中心とした連携に追い詰められる。劣勢になると領域展開「蕩蘊平線」を発動する。",
+  "summary_full": "成体となった陀艮は大量の水を放ち、七海・真希・直毘人を攻撃する。直毘人は投射呪法で水流と陀艮の動きをフレームへ固定し、七海と真希を交えた高速連携で追い詰める。陀艮は直毘人を最大の脅威と判断し、手印を妨害されても腹部へ印を結んで領域展開「蕩蘊平線」を発動。三人を海岸の領域へ引き込む。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The cursed womb , 陀艮 evolves into a massively powerful 呪霊 . 七海 and 真希 support 直毘人 as he overwhelms 陀艮 with speed. Just as the head of the 禪院家 begins to take over the fight, 陀艮 activates 領域展開 and changes everything.",
+    "summary_full_legacy": "陀艮 attacks the sorcerers with a furious current of water. Facing off with a team of jujutsu sorcerers looking to exorcise him, 陀艮 generates a sphere of water on the tip of his finger. 直毘人 prepares for the incoming attack and 陀艮 unleashes the water as a furious current that floods the entire area. 真希 stabs her spear into one of the pillars and stands on it to avoid the furious water current. She's shocked by the pure volume of water the 呪霊 is outputting, far outclassing 恵 's 満象 . However, much of the water that comes 直毘人's way is trapped within projection frames by his 術式 直毘人 asks the 呪霊 if he knows how many frames there are in an animated sequence. 陀艮 reveals his name and asks to be addressed as such. 直毘人 goes on about how everything is about resolution these days and 陀艮 also him and yells out that all his allies bear names. 直毘人 yells back and says that concepts such 4K and 60FPS are so unrefined. 禪院直毘人 overwhelms 陀艮 with incredible speed. While 陀艮 is distracted, 七海 gets above him and strikes using his 十劃呪法 . 陀艮 appears to block it, but he's abruptly sent crashing into the ground. 真希 attempts to follow up with an attack of her own but 陀艮 grabs the blade of her cursed tool . Before he counterattacks, 直毘人 traps him inside a frame and 七海 dives down to strike the 呪霊 out of it. 陀艮 is able to protect himself from 七海 this time by generating a whirling shield of water that circles around him. Frustrated, 七海 understands they are dealing damage but it feels like this curse had boundless health. 直毘人 is impressed two grade 1 jujutsu sorcerers aren't enough to exorcise the 呪霊. 真希 laments being saved by 直毘人, humiliated by the fact she would have died if he hadn't stopped 陀艮 earlier. 領域展開! The old man playfully slaps 陀艮's shield of water and commends him for being able to pull off multiple simultaneous cursed techniques. He recognizes 陀艮 has massive amounts of 呪力 and likely more techniques up his sleeve. In order to counter, 直毘人 leads the way and claims they'll all crush him with speed before he can activate any more moves. 直毘人, 七海, and 真希 pour on the pressure, attacking 陀艮's water shield as fast as they can in rapid succession. Each of them gradually begins to pierce it until 直毘人's fist breaks through completely. Before he's hit, 陀艮 causes the water to explode as a distraction and levitates above 真希 and 七海. However, 直毘人 suddenly appears behind 陀艮 and says he foresaw the curse attempting to flee up high. He kicks 陀艮 onto the ground and follows up with a barrage of brutal blows that overwhelms 陀艮 with pure speed. He admits the old man is the main problem in this jujutsu battle and that he's even faster than 漏瑚 . 陀艮 attempts to form his fingers together to create a hand sign but 直毘人 unleashes a flurry of rapid-fire downward punches that pound 陀艮 into the ground. Despite 直毘人's best efforts, an uncanny seal forms on 陀艮's stomach area, allowing him to cast 領域展開 . In an instant, 陀艮 disappears and 直毘人 is trapped inside a coastal domain, looking out at sea.",
+    "characters_raw_text": "陀艮 禪院直毘人 禪院真希 七海建人 伏黒恵 (言及のみ) 漏瑚 (言及のみ) 真人 (言及のみ) 花御 (言及のみ)",
+    "locations_raw_text": "渋谷 渋谷駅 渋谷駅",
+    "battles_events_raw_text": "The 渋谷事変 呪術師s vs. 陀艮 呪術師s vs. 陀艮",
+    "techniques_raw_text": "陀艮の術式 Disaster Tides (名称不明) 領域展開：蕩蘊平線 七海建人の術式 十劃呪法 禪院直毘人の術式 投射呪法",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-18d7c58412",
+    "char-22abdd626c",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-6309a7e2f4",
+    "char-6674ce6baa",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-df284f67ad"
+  ],
+  "technique_ids_candidate": [
+    "tech-4b0b9dc682",
+    "tech-81aaf10015",
+    "tech-8b33629c5d",
+    "tech-cc23098baa",
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase6": [
+    "陀艮が成体の力で大量の水を操る",
+    "直毘人・七海・真希が連携して陀艮を追い詰める",
+    "陀艮が蕩蘊平線を展開する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22abdd626c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-6674ce6baa",
+    "char-22abdd626c",
+    "char-6309a7e2f4",
+    "char-24d736edff"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-8b33629c5d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-81aaf10015",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-8b33629c5d",
+    "tech-cc23098baa",
+    "tech-e69f8fd37d",
+    "tech-81aaf10015"
+  ],
+  "term_ids_verified_phase6": [
+    "term-e6a70dfe56",
+    "term-252cb4a664",
+    "term-phase5-special-grade-curse"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-13",
+    "src-manga-games-vol-13",
+    "src-legacy-ju-txt"
+  ]
+}

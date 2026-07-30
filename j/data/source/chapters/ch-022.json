@@ -1,0 +1,119 @@
+{
+  "id": "ch-022",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 3,
+  "number": 22,
+  "zero_number": null,
+  "label": "第22話",
+  "title_official": "幼魚と逆罰―肆―",
+  "title_search_normalized": "幼魚と逆罰―肆―",
+  "start_page": 107,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "junpei",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-03"
+  ],
+  "source_locator": "単行本3巻 目次 p.107",
+  "summary_short": "七海と真人が地下で交戦する。地上では虎杖が順平へ初めて接触し、映画の話題をきっかけに距離を縮める。",
+  "summary_full": "地下水路で七海と真人が交戦する。七海の十劃呪法は真人の肉体を切断するが、真人は魂の形を保つことで肉体を修復・変形させる。真人は無為転変で作った改造人間を武器として使い、接触した相手の魂へ干渉する機会を狙う。地上では虎杖が順平に映画館事件を直接尋ねる。回りくどい探りをやめた率直な態度に順平は関心を持ち、二人は映画の話を通じて距離を縮める。",
+  "content_verification": "phase2-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "七海建人 and 真人 being their battle beneath 川崎市. Above ground, 悠仁 makes contact with 順平 for the first time.",
+    "summary_full_legacy": "七海 duels with 真人. 七海 compares 真人 to 五条悟 when it comes to their superficial attitudes and deep dark strength. He wraps his hands in 呪力 and attacks but 七海 deflects both hands and kicks 真人 back. 七海 winds up his blunt sword and reveals 真人's weak points. 真人 attempts to guard 七海's blade with 呪力 but his arm is cleaved most of the way through. 真人 examines his hand hanging by a thread and asks if this is 七海's 術式 . Seeing that this is obvious, 七海 expresses his displeasure with open-ended questions. The curse says he's glad his opponent is willing to talk and 七海 decides to speak with him in order to gather more info on his level of intelligence. 七海 has reason to believe that 真人 is directly connected to the other unregistered special grade that 五条 encountered. 真人 reveals his ability to disfigure the body by reshaping it's soul. Suddenly, 真人 asks 七海 whether the human body or the soul came first. 七海 humors him and says the body came first but 真人 disagrees. He believes the soul should always exist first and the body should be modeled from the shape of one's soul. 真人 fixes his arm but he claims not to be healing it using the usual method a curse would use. Instead, 真人 reveals his 術式: 無為転変 , the ability that allows one to reshape the soul. By reinforcing the shape of his own soul, he's able to reform his own body as well as others. 真人 pulls out a few small humans he disfigured and reshapes one of them into a full-sized curse-like being using 無為転変. He wants to experiment on a strong jujutsu sorcerer and see if they can survive the process. 七海 ignores 真人 and checks the time on his watch. He calculates the time he's been working and realizes he must clock out within the next half hour to avoid working overtime. 悠仁 interrupts 順平's conversation. Elsewhere, 順平 encounters one of his teachers named Sotomura . He asks 順平 why he wasn't at his friend's funerals, irritating 順平. 順平 asks Sotomura how people in their profession can continue to live in ignorance of the real world. He prepares to use a 術式, but 悠仁 interrupts to stop the 呪霊 伊地知 let loose to test 順平's awareness. Five minutes before, 伊地知 botched the mission by letting out the curses too early while 順平 was talking to Sotomura. 七海's injury. 悠仁 interrupts their conversation, irritating Sotomura, who asks 悠仁 not to be rude. In order to get rid of the pestering man, 悠仁 takes his pants and runs away with them. Once Sotomura leaves the area, 悠仁 returns to speak with 順平 alone. 順平 comments that 悠仁 could've just dragged him away instead, but 悠仁 responds that he noticed 順平 didn't like that guy anyway. Meanwhile, back underground, 真人 taunts the Grade 1 sorcerer, who's been slightly injured. 七海 ignores 真人 and notices the time on his watch. 真人 realizes that 七海's 呪力 has spiked all of a sudden. Namami returns his focus to 真人 and reveals that he's now working overtime.",
+    "characters_raw_text": "五条悟 真人 七海建人 花御 (カメオ登場) 漏瑚 (カメオ登場) 吉野順平 虎杖悠仁 伊地知潔高",
+    "locations_raw_text": "川崎市 真人's Underground Lair 真人's Underground Lair",
+    "battles_events_raw_text": "七海建人 vs. 真人 (開始)",
+    "techniques_raw_text": "七海建人の術式 十劃呪法 真人の術式 無為転変",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "junpei",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-236cc955ae",
+    "char-6309a7e2f4",
+    "char-9148bf784c",
+    "char-a61fa295f1",
+    "char-b4d661547b",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-71a2d65cad",
+    "tech-e69f8fd37d"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase2": [
+    "七海と真人の戦闘が始まる",
+    "虎杖と順平が映画の話題で距離を縮める"
+  ],
+  "character_appearances_verified_phase2": [
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-236cc955ae",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase2": [
+    "char-6309a7e2f4",
+    "char-18d7c58412",
+    "char-baadf43d19",
+    "char-236cc955ae",
+    "char-b4d661547b"
+  ],
+  "technique_appearances_verified_phase2": [
+    {
+      "technique_id": "tech-e69f8fd37d",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-a35b2bcd34",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase2": [
+    "tech-e69f8fd37d",
+    "tech-71a2d65cad",
+    "tech-a35b2bcd34"
+  ],
+  "term_ids_verified_phase2": [
+    "term-65867f280c",
+    "term-252cb4a664"
+  ],
+  "verification_basis_phase2": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase2": "集英社公式の巻目次・巻概要と、原作漫画のみを扱う日本語巻別記事、旧候補資料を突合した第二段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase2": [
+    "src-shueisha-vol-03",
+    "src-manga-games-vol-03",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "ch-016",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 2,
+  "number": 16,
+  "zero_number": null,
+  "label": "第16話",
+  "title_official": "情",
+  "title_search_normalized": "情",
+  "start_page": 167,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-02"
+  ],
+  "source_locator": "単行本2巻 目次 p.167",
+  "summary_short": "瀕死の漏瑚は花御に救出され、真人を中心とする一派へ戻る。一方、東京校には京都校の東堂葵と禪院真依が現れ、伏黒や釘崎を挑発する。",
+  "summary_full": "五条が漏瑚から仲間の情報を聞き出そうとしたところ、花御が植物を発生させて注意をそらし、漏瑚の首を回収する。五条は虎杖を守るため追跡を中断するが、気配を隠したまま逃げた花御の能力を警戒する。虎杖には修行と実戦任務を重ねさせ、京都姉妹校交流会で仲間の前へ復帰させる方針が決まる。敵側では夏油の姿をした術師、真人、漏瑚、花御、陀艮が合流し、10月31日の渋谷で五条を封印する計画を確認する。東京校では、京都校の東堂葵と禪院真依が伏黒・釘崎の前へ現れ、死亡したとされる虎杖を侮辱して挑発する。東堂は伏黒の力量を直接確かめようとする。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "漏瑚 's allies rescue him from a precarious situation and return to their mysterious ringleader: 真人 . Meanwhile, students from Kyoto 呪術高専 arrive to taunt their rival school students.",
+    "summary_full_legacy": "Pseudo-夏油 and 花御 watch from over the cliffside and decide whether or not they want to save 漏瑚. 夏油 refuses to be seen by anyone from 呪術高専. He says 花御 can do so if he wishes, but he's unsure if 呪霊 feel any kindship toward one another. 花御 leaves after saying something in another language that irritates 夏油. 花御 rescues 漏瑚. 悟 tries to interrogate 漏瑚 but to no avail. Suddenly a large spike nearly strikes 悟. It pierces the ground and grows a garden of flowers, distracting the shamans long enough for 花御 to swoop in and save 漏瑚. The garden spawns a wooden curse monster that attacks 悠仁 . 悟 saves his student, but the other curses manages to get away. 悟 is impressed the 呪霊 managed to hide its presence and claims that things are getting fun. He tells 悠仁 that he wants his students to all get strong enough to defeat curses like that. The mastermind is revealed. 五条 sensei plans on continuing to train 悠仁 before eventually taking on tough missions. Then he'll make his return at the exchange event, something 悠仁 still doesn't know anything about. Meanwhile, 伊地知潔高 meets with Principal 夜蛾 , but the latter is upset by 悟's absence. 夏油 meets with his associates in another domain and the other two come in close behind. They all plan on doing their best to seal 悟 on October 31st in 渋谷. The Kyoto students arrive to intimidate their younger rivals. While 恵 and 野薔薇 are out running errands for 真希 , she and パンダ discuss the situation involving the Higher Ups and 呪術高専 following the cursed womb incident. They know it's unlikely their Kyoto rivals would come for the meeting, but they still know those guys might still come since they love talking trash. One of them is 真希's sister, 禪院真依 , and the other is third-year, 東堂葵 . They both insult 悠仁, who is still believed to be deceased. The first-year students from 東京 ignore their rivals obvious bait. 葵 steps forward and prepares to fight, determined to see if they're worthy replacements for 乙骨.",
+    "characters_raw_text": "Pseudo-夏油 花御 虎杖悠仁 五条悟 漏瑚 夜蛾正道 伊地知潔高 陀艮 真人 釘崎野薔薇 伏黒恵 パンダ 狗巻棘 禪院真希 禪院真依 東堂葵 乙骨憂太 (言及のみ)",
+    "locations_raw_text": "不明な道路 東京都立呪術高等専門学校 東京都立呪術高等専門学校",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": "花御の術式 Flower Field 呪霊 呪胎",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-18d7c58412",
+    "char-24d736edff",
+    "char-3c1852867d",
+    "char-5724ed462b",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-6674ce6baa",
+    "char-672d843799",
+    "char-678a848346",
+    "char-9148bf784c",
+    "char-a61d6ef891",
+    "char-a61fa295f1",
+    "char-b4d661547b",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase1": [
+    "花御が漏瑚を救出する",
+    "五条が虎杖の交流会復帰計画を決める",
+    "敵側が10月31日の渋谷で五条を封印すると決める",
+    "東堂と真依が東京校の一年生を挑発する"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance-in-geto-body"
+    },
+    {
+      "character_id": "char-9148bf784c",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61fa295f1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "mention"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-678a848346",
+    "char-9148bf784c",
+    "char-baadf43d19",
+    "char-17322e71e5",
+    "char-a61fa295f1",
+    "char-58278d1ec5",
+    "char-b4d661547b",
+    "char-6674ce6baa",
+    "char-18d7c58412",
+    "char-5a0f7ded8d",
+    "char-3c1852867d",
+    "char-672d843799",
+    "char-a61d6ef891",
+    "char-24d736edff",
+    "char-5724ed462b",
+    "char-d76df97dca",
+    "char-c28763b98a"
+  ],
+  "technique_appearances_verified_phase1": [],
+  "technique_ids_verified_phase1": [],
+  "term_ids_verified_phase1": [
+    "term-8914e5bc1a",
+    "term-549dd18f32"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-02",
+    "src-manga-games-vol-02"
+  ]
+}

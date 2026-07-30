@@ -1,0 +1,149 @@
+{
+  "id": "ch-007",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 1,
+  "number": 7,
+  "zero_number": null,
+  "label": "第7話",
+  "title_official": "呪胎戴天―弐―",
+  "title_search_normalized": "呪胎戴天―弐―",
+  "start_page": 171,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-01"
+  ],
+  "source_locator": "単行本1巻 目次 p.171",
+  "summary_short": "虎杖と伏黒は特級呪霊に圧倒され、釘崎も別の場所へ飛ばされる。虎杖は伏黒に釘崎を連れて脱出させ、自分は宿儺へ肉体を明け渡して時間を稼ごうとする。",
+  "summary_full": "特級呪霊の力は一年生の想定をはるかに超え、虎杖の左手と呪具・屠坐魔は容易に破壊される。伏黒も式神を使って援護するが、まともに戦えば全滅すると判断する。別の空間へ飛ばされた釘崎も多数の呪霊に囲まれるが、伏黒は鵺と蝦蟇を使って救出へ向かう。虎杖は二人が領域の外へ出るまで自分が特級を足止めし、合図を確認した後に宿儺へ肉体を渡すという危険な策を選ぶ。恐怖と死への後悔に震えながらも、虎杖は自分が弱いことを認め、仲間を逃がすため戦い続ける。鵺の合図が上がると、虎杖は宿儺へ交代する。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 and 恵 find themselves at the mercy of a special grade 呪霊 . Helpless in battle, 悠仁 bets its all on a last resort plan to use 宿儺 to their advantage. However, 恵 must first find 野薔薇 and escape the facility before 宿儺 can be unleashed.",
+    "summary_full_legacy": "As 恵 falls downward through the building, he calls on his flying 式神 , 鵺 to secure him before falling to his demise. He hopes that neither of his classmates perish in this event as he runs to try and locate 野薔薇's position. 悠仁 holds off the curse to buy time for 恵. Meanwhile, 悠仁 continues to fight despite only having one hand. He recalls telling 宿儺 that he can't run away and tries to bait him into switching. However, 宿儺 refused and threatened to kill both 悠仁's friends if they switch. 悠仁 told 恵 to find 野薔薇 and escape, and to give him the signal once they're out. 恵 initially refuses, but 悠仁 points out that the curse is underestimating them. Against his best judgment, 恵 leaves to follow 悠仁's plan. 悠仁 is completely outmatched by the pure strength of the special grade curse. He loses the fingers on his only remaining hand while barely hanging on to life. He's only trying to buy time, but reality sets in that 悠仁 might actually die in this battle. He's deeply disappointed with how weak he truly is. 恵 rescues 野薔薇 in time. Elsewhere, 野薔薇 kills the majority of her enemies but is eventually bested by their numbers. Before she's devoured, 恵 rescues her using his 蝦蟇 式神. Back at his fight with the special grade curse, 悠仁 finds himself helpless against the monster. He's disheartened by his own weakness until he realizes he can use these negative feelings to harness curse energy. 悠仁 attempts to gather 呪力 into his hand and strikes his opponent. It appears to have no effect and all is seemingly lost. However, 悠仁 hears a howl from one of 恵's 玉犬 and realizes this is the signal. He unleashes 宿儺's consciousness, and the King of Curses is annoyed with his counterpart for his clever plan.",
+    "characters_raw_text": "伏黒恵 虎杖悠仁 釘崎野薔薇 宿儺 夜蛾正道 (回想) 伊地知潔高",
+    "locations_raw_text": "少年院／第2宿舎",
+    "battles_events_raw_text": "釘崎野薔薇 vs. 呪霊 (終了) 虎杖悠仁 vs. Finger Bearer (終了)",
+    "techniques_raw_text": "伏黒恵の術式 十種影法術 術式 玉犬 鵺 蝦蟇 玉犬 鵺 蝦蟇 釘崎野薔薇の術式 芻霊呪法 術式",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-5d693ebac2",
+    "char-996d48af99",
+    "char-b18262c082",
+    "char-b4d661547b",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986",
+    "tech-996d48af99",
+    "tech-b18262c082"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase1": [
+    "特級呪霊が虎杖の左手と屠坐魔を破壊する",
+    "伏黒が釘崎の救出へ向かう",
+    "虎杖が仲間の脱出まで特級を足止めする",
+    "虎杖が宿儺へ肉体を渡す"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5d693ebac2",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-2b8d365a39",
+    "char-b4d661547b",
+    "char-5d693ebac2"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6c8be9e9eb",
+      "relation": "destroyed"
+    },
+    {
+      "technique_id": "tech-996d48af99",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-b18262c082",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-492818427b",
+      "relation": "destroyed"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-7c3237f986",
+    "tech-6c8be9e9eb",
+    "tech-996d48af99",
+    "tech-b18262c082",
+    "tech-2ac2471b12",
+    "tech-492818427b"
+  ],
+  "term_ids_verified_phase1": [
+    "term-cba4367139",
+    "term-252cb4a664",
+    "term-8caa008608",
+    "term-ed19637c63"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-01",
+    "src-manga-games-vol-01"
+  ]
+}

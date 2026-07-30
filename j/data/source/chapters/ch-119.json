@@ -1,0 +1,165 @@
+{
+  "id": "ch-119",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 119,
+  "zero_number": null,
+  "label": "第119話",
+  "title_official": "渋谷事変㊲",
+  "title_search_normalized": "渋谷事変37",
+  "start_page": 69,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.69",
+  "summary_short": "宿儺は領域展開「伏魔御厨子」で魔虚羅を斬り刻み、さらに炎で完全に倒す。伏黒を家入のもとへ運ばせる一方、渋谷には甚大な破壊が残る。",
+  "summary_full": "宿儺は結界を閉じない領域「伏魔御廚子」を展開し、伏黒を巻き込まない半径約140メートルへ解と捌を浴びせる。魔虚羅は斬撃全般へ適応して再生を始めるが、宿儺は適応前の別種の攻撃として竈「開」の炎を放ち、完全に破壊して調伏の儀を終わらせる。伏黒を家入たちの救護地点へ運び、逃げようとした重面は奇跡を使い切った末に斬撃で死亡。肉体を返される虎杖には壊滅した渋谷が残される。",
+  "content_verification": "phase6-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Having correctly analyzed 魔虚羅 and deduced its abilities, 宿儺 launches his counterattack! 宿儺 uses all the powers he's displayed so far to bring down the uncontrollable 式神 and save 恵 . However, in the wake of the battles, 悠仁 is left with the gruesome aftermath.",
+    "summary_full_legacy": "\" A truly divine technique. \" 宿儺's technique is divided into two types of slashing attacks. The default slash, \"解\", and the other \"捌\". The latter can be adjusted using 呪力 to cut down the 宿儺's target in one fell swoop. 伏魔御廚子 , unlike other Domain 領域展開s , does not separate space from its barrier. Manifesting one's innate domain without closing its barrier is akin to painting a masterpiece on air without a canvas, a truly divine technique. By allowing an escape route from the domain using a 縛り , 宿儺 increases the guaranteed hit area its nearly two-hundred meter radius. He narrows down the effective range to one hundred and forty meters to avoid hitting 恵 but mercilessly slashes the rest of that area of 渋谷 apart. 宿儺 relentlessly slashing and slicing 魔虚羅. Civilians who were hiding out nearby after being rescued by 狗巻棘 are violently torn to pieces. 解 is used on inanimate objects while anything with 呪力 within range is hit with 捌. While 伏魔御廚子 is active 宿儺's slashing attacks relentlessly cut down everything within its guaranteed hit's effective range. 宿儺 puts an end to the exorcism ritual. Almost two hundred meters of 渋谷 is decimated in an instant by 宿儺's attack. 宿儺 surmises the only way to defeat 魔虚羅 is to kill it with a new attack before it can recover. However, 魔虚羅 has not only adapted to 解 but to slashing attacks in general. This means 魔虚羅 will recover soon and 宿儺 needs to act quickly. He activates his mysterious flame technique again and shoots a fire arrow at the 式神 before it heals. The impact creates a giant pillar of explosive flames that completely decimates 魔虚羅. 重面 watches in amazement, appearing to be just out of 宿儺's range. The King of Curses walks back to 恵 with 魔虚羅's wheel in hand. He throws the eight-handled wheel past 重面 and it disintegrates shortly after, solidifying 宿儺's victory. 重面春太's luck runs out. Annoyed, 宿儺 asks 重面 what he's looking at and tells him to disappear from sight. Feeling extremely lucky, 重面 runs off excited to have escaped another dangerous situation alive. His innate technique stores little miracles from every day that is erased from his memory. 奇跡 are released to save 重面's life when he's in danger. The markings under his eyes show how many miracles are stored but he's not even aware of how it works. Believing he's escaped the day with his life, 重面 runs off. However, his body suddenly slides apart, revealing he's been cut by the effects of 宿儺's attack as well. The 呪詛師's luck had run out fighting against 七海建人 . His body gruesomely falls into two separate pieces and 重面 dies. As 宿儺 walks off without remorse, he can feel himself losing control and decides to take 恵 to where 家入硝子 and Principal 夜蛾 are. 宿儺 disappears as quickly as he appears and 正道 only spots him for a second, questioning if it was 宿儺 or 悠仁. 宿儺 releases control over 悠仁's body allows the young student to see the chaos that was unleashed in his stead.",
+    "characters_raw_text": "宿儺 狗巻棘 (想像) 伏黒恵 重面春太 夜蛾正道 家入硝子 虎杖悠仁 七海建人 (言及のみ)",
+    "locations_raw_text": "渋谷 外 渋谷駅 首都高速3号線: 渋谷 線 渋谷 料金所 外 渋谷駅 首都高速3号線: 渋谷 線 渋谷 料金所 渋谷 料金所",
+    "battles_events_raw_text": "The 渋谷事変 宿儺 vs. 魔虚羅 (終了) 宿儺 vs. 魔虚羅 (終了)",
+    "techniques_raw_text": "重面春太の術式 奇跡 伏黒恵の術式 十種影法術 術式 八握剣異戒神将 魔虚羅 魔虚羅 八握剣異戒神将 魔虚羅 魔虚羅 宿儺の術式 領域展開：伏魔御廚子 御廚子 捌／解／竈 捌／解／竈",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-58278d1ec5",
+    "char-6309a7e2f4",
+    "char-6c8cc9b546",
+    "char-9fccad3ed6",
+    "char-a61d6ef891",
+    "char-baadf43d19",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [
+    "tech-0ec3138e2c",
+    "tech-4b0b9dc682",
+    "tech-7c3237f986",
+    "tech-7f37ba28b4",
+    "tech-9761156f3b",
+    "tech-ae26dbd914",
+    "tech-af5ae87255",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-e6a70dfe56"
+  ],
+  "key_events_verified_phase6": [
+    "宿儺が伏魔御廚子を展開する",
+    "渋谷の広範囲と多数の一般人が斬撃に巻き込まれる",
+    "宿儺が竈「開」で魔虚羅を破壊する",
+    "魔虚羅の調伏の儀が終了する",
+    "宿儺が伏黒を救護地点へ運ぶ",
+    "重面が奇跡を使い切って死亡する"
+  ],
+  "character_appearances_verified_phase6": [
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-9fccad3ed6",
+      "presence": "destroyed"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "rescued-unconscious"
+    },
+    {
+      "character_id": "char-6c8cc9b546",
+      "presence": "killed"
+    },
+    {
+      "character_id": "char-a61d6ef891",
+      "presence": "imagined-near-destruction-zone"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance-at-aid-station"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "appearance-at-aid-station"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "body-control-returning"
+    }
+  ],
+  "character_ids_verified_phase6": [
+    "char-2b8d365a39",
+    "char-9fccad3ed6",
+    "char-3c1852867d",
+    "char-6c8cc9b546",
+    "char-a61d6ef891",
+    "char-58278d1ec5",
+    "char-d4a4bc45c6",
+    "char-baadf43d19"
+  ],
+  "technique_appearances_verified_phase6": [
+    {
+      "technique_id": "tech-af5ae87255",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d2feb31d47",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-7f37ba28b4",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-4b0b9dc682",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-9761156f3b",
+      "relation": "destroyed"
+    },
+    {
+      "technique_id": "tech-0ec3138e2c",
+      "relation": "final-stock-consumed"
+    }
+  ],
+  "technique_ids_verified_phase6": [
+    "tech-af5ae87255",
+    "tech-d2feb31d47",
+    "tech-7f37ba28b4",
+    "tech-4b0b9dc682",
+    "tech-9761156f3b",
+    "tech-0ec3138e2c"
+  ],
+  "term_ids_verified_phase6": [
+    "term-phase6-open-barrier-domain",
+    "term-40e6a89fc4",
+    "term-d97934afcd",
+    "term-phase6-taming-ritual",
+    "term-phase6-adaptation"
+  ],
+  "verification_basis_phase6": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase6": "集英社公式12～14巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第六段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase6": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "ch-160",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 18,
+  "number": 160,
+  "zero_number": null,
+  "label": "第160話",
+  "title_official": "結界",
+  "title_search_normalized": "結界",
+  "start_page": 147,
+  "official_group_id": "official-137-173",
+  "db_section_draft_id": "culling-game-1",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-18"
+  ],
+  "source_locator": "単行本18巻 目次 p.147",
+  "summary_short": "羂索は結界内にいた一般人へ退出の機会を与える。虎杖たちは死滅回游へ参加し、東京第1結界と第2結界へ分かれて入る。",
+  "summary_full": "羂索は死滅回游の結界内にいた非泳者を夢と現実の境で導き、希望者を結界外へ退避させる。杉沢第三高校の佐々木には、虎杖と仲良くしてくれたことへの礼を告げる。同じ頃、虎杖・伏黒・秤・パンダ・綺羅羅は役割を確認し、虎杖と伏黒が東京第1結界、秤とパンダが東京第2結界へ向かう。結界へ入った虎杖と伏黒は、直後に別々の場所へ転送される。",
+  "content_verification": "phase9-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Those who were already inside a barrier colony when the 死滅回游 began on November 1st were given one chance to escape. 悠仁 's high school friend 佐々木せつこ took this chance and was escorted out of 仙台市 by 羂索 himself. Twelve days later, 悠仁 and his allies are ready to enter the 東京 colonies and let the games begin.",
+    "summary_full_legacy": "\" The space between dream and reality... is a curse . \" 羂索 suddenly greets Setsuko, who is sleeping in her bed. Surprised, Setsuko appears to wake up and looks up at the strange man standing over her, asking who her mysterious visitor is. 羂索 explains that he's the sorcerer who placed a barrier over 仙台市 and that the region has been chosen to host a lethal contest where players will fight to the death. Setsuko is shocked to hear people will be killing each other and nervously jokes by asking they not do that in her house. 羂索 commends her for being funny and continues to explain the circumstances. The remains of an execution site nearby serves as the center of the barrier with a radius of around five to six kilometers. Creating the barrier required immense effort and 羂索 can't impose unreasonable conditions. Those like Setsuko, who begin inside the barrier are given one chance to leave. If she so chooses, Setsuko will awaken outside the barrier. Confused, Setsuko asks what he means by \"awaken\" and questions if she's still dreaming. 羂索 replies that the space between dreams and reality is a curse. 羂索 takes Setsuko outside the barrier. 羂索 takes Setsuko's hand and warns her to be careful because the hasty players are already outside. 羂索 holds Setsuko's hands while her eyes are closed and escorts her safely past the carnage taking place across the battlefields. Before they part ways for good, 羂索 thanks Setsuko for befriending his son. Setsuko wakes up outside the barrier to the voice of her friend 井口たけし , who's glad to have found someone he knows in the panic. He draws Setsuko's attention to the gigantic barrier wall and explains that everyone saw the man wearing the kesa. Setsuko asks if the man mentioned his son to Takeshi but that isn't the case. Setsuko wonders if the man meant 虎杖悠仁 from high school. This all took place on November 1st at 6:00 AM when the 死滅回游 first began. 悠仁, 恵, and their allies form a plan to handle the 死滅回游. The present-day is November 11th, when 悠仁 and 恵 continue planning for the game with the others. They're unable to find a player named the \"天使\" but apparently, they'll know them when they see them. 秤 decides that he and パンダ will go to the 東京第2結界 while 悠仁 and 恵 go to No. 1 and 綺羅羅 stays outside the barrier. 秤 plans to handle 鹿紫雲一 himself since they're the player with the most points and is likely the strongest. At the same time, パンダ will search for the 天使 with his nose. 綺羅羅 is confused about why they aren't going inside the barrier to help and 秤 explains that 憂太 hasn't made contact because cell phones don't get reception inside the barriers. Their group is going to need 綺羅羅 on the outside to keep an eye out for them. The 呪術高専 students officially enter the 東京 colonies. 悠仁 begins to bring up that perhaps he and 恵 shouldn't travel together due to 宿儺 . However, 恵 tells him to shut up and to stop being selfish because the senpai can't change their roles just for that. 悠仁 gets offended because he's just worried but 恵 finds it annoying and a waste of time. They both get aggravated and get in each other's faces but パンダ tells them to stop squabbling. The next day on November 12 at 12:00 P.M., everyone reaches their designated barriers in 東京. コガネ explains that inside the barriers the lethal competition known as the Culling game is taking place. They ask if the new players are willing to enter and declare their participation as players. 恵, パンダ, and 秤 all don't hesitate to agree operation to rescue 津美紀 begins.",
+    "characters_raw_text": "羂索 佐々木せつこ 井口たけし 虎杖悠仁 伏黒恵 パンダ 秤金次 星綺羅羅 来栖華 (言及のみ) 宿儺 (言及のみ) 鹿紫雲一 (言及のみ) 乙骨憂太 (言及のみ) 伏黒津美紀 (言及のみ)",
+    "locations_raw_text": "仙台結界 仙台市 東京第1結界 東京第2結界 仙台市",
+    "battles_events_raw_text": "死滅回游",
+    "techniques_raw_text": "式神 ドゥルヴ's 式神 コガネ",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo1",
+  "character_ids_candidate": [
+    "char-00f5cc93b4",
+    "char-0e7004da56",
+    "char-0f2e6e85bf",
+    "char-19d387e1e3",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-672d843799",
+    "char-678a848346",
+    "char-6bce2a211a",
+    "char-8a6e43878f",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-d8252d61d4",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [
+    "term-bb89ef15f2"
+  ],
+  "key_events_verified_phase9": [
+    "羂索が非泳者へ結界退出の機会を与える",
+    "羂索が佐々木へ虎杖との交流の礼を告げる",
+    "虎杖と伏黒が東京第1結界へ侵入する",
+    "結界侵入直後に二人が無作為転送で分断される"
+  ],
+  "character_appearances_verified_phase9": [
+    {
+      "character_id": "char-678a848346",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-19d387e1e3",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6bce2a211a",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "enters-colony"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "enters-colony"
+    },
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "departing-for-tokyo2"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "departing-for-tokyo2"
+    },
+    {
+      "character_id": "char-00f5cc93b4",
+      "presence": "support-outside"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "mentioned-in-sendai"
+    },
+    {
+      "character_id": "char-0f2e6e85bf",
+      "presence": "objective"
+    }
+  ],
+  "character_ids_verified_phase9": [
+    "char-678a848346",
+    "char-19d387e1e3",
+    "char-6bce2a211a",
+    "char-baadf43d19",
+    "char-3c1852867d",
+    "char-dea43d7fc7",
+    "char-672d843799",
+    "char-00f5cc93b4",
+    "char-c28763b98a",
+    "char-0f2e6e85bf"
+  ],
+  "technique_appearances_verified_phase9": [],
+  "technique_ids_verified_phase9": [],
+  "term_ids_verified_phase9": [
+    "term-bb89ef15f2",
+    "term-59acaaffab",
+    "term-152790e31d",
+    "term-3c7a37c125",
+    "term-49963d44ff",
+    "term-8a6e43878f"
+  ],
+  "source_refs_phase9": [
+    "src-shueisha-vol-18",
+    "src-manga-games-vol-18",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase9": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase9": "集英社公式18～20巻目次と巻概要、日本語の原作漫画巻別・話別記事、旧候補資料を話単位で突合した第九段階。単行本各ページの直接最終照合前。"
+}

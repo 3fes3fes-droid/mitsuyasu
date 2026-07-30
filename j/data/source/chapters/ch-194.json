@@ -1,0 +1,131 @@
+{
+  "id": "ch-194",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 22,
+  "number": 194,
+  "zero_number": null,
+  "label": "第194話",
+  "title_official": "桜島結界④",
+  "title_search_normalized": "桜島結界4",
+  "start_page": 67,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-22"
+  ],
+  "source_locator": "単行本22巻 目次 p.67",
+  "summary_short": "真希が回復する時間を作るため、加茂は命を懸けて直哉を足止めする。加茂は家督も母との居場所も失った自分に、戦う以外の意味を見いだせずにいた。",
+  "summary_full": "真希は五分で回復すると告げ、加茂が単独で直哉を引き受ける。家督も母との居場所も失った加茂は、自分がここで命を使うことに意味を求め、赤血操術で出血を補いながら戦う。直哉の速度と打撃に追い詰められても、加茂は自らの血で拘束し、真希の回復時間を稼ぐ。そこへ刀を求める大道鋼と、相撲を求める三代六十四という二人の受肉術師が、偶然同じ戦場へ乱入する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真希 is overmatched by 直哉 's supreme speed and needs to recover. Noritoshi is no longer the heir of the 加茂 clan and his mother has a new family, so he feels he has nowhere to belong. He is willing to sacrifice himself for 真希 and puts it all on the line to buy time against 直哉.",
+    "summary_full_legacy": "Noritoshi struggles to hold back 直哉. Searing with pride in his newfound strength, 直哉 boasts he can't remember when he was weaker than 真希 in the same way that adults don't remember being helpless like children. 真希 taunts 直哉 for never being an adult and then he replies by bringing up 真依 to provoke her. 真希 leaps to her feet and Noritoshi throws his remaining arrows into 直哉's arm. Annoyed by Noritoshi's interference, 直哉 is distracted long enough for 真希 to kick him away. Noritoshi attacks with more blood to keep 直哉 away from 真希, confusing the 呪霊 . 直哉 doesn't understand where Noritoshi is getting ammunition until he realizes that Noritoshi has been funneling blood in and out of his body. This method is exhausting Noritoshi and 直哉 notices, stating Noritoshi is headed toward death. \" The one who has no place to go is... \" Noritoshi moves to protect 真希 and tells her to flee from the colony. 真希 says Noritoshi would die and refuses, claiming she can recover quickly if he buys her just five minutes. Feeling as if his life doesn't matter regardless, Noritoshi agrees to fend off 直哉 with everything on the line. 直哉 can't sense 真希's location and focuses his attacks on Noritoshi. He's slowed down by offense from 赤血操術 , which is poisonous to 呪霊, but still brutalizes Noritsohi with repeated attacks. Two enthusiastic newcomers randomly disturb the battle. 直哉's 呪霊 body is only tough when accelerating because he curls into his shell to avoid destroying his flesh. He isn't as durable the rest of the time and Noritoshi tries to exploit this with big moves he doesn't think 直哉 expects. Noritoshi attacks recklessly without any regard for himself, ready to sacrifice his life because he doesn't feel as if he has any home to return to. At some point, Noritoshi found his mother with a new family, including a husband and child. They looked happy but Noritoshi felt like he didn't belong with them. Norotishi feels as though he failed to create a place for her in the 加茂 clan and now he's the one with nowhere to go. Noritoshi believes his life is best used as a sacrifice in service of his comrades so that they can burn away their lives on his ashes. Before Noritoshi's life burns away completely, two unknown and quirky newcomers suddenly appear. They're crying and yelling about sumo wrestling and katanas respectively.",
+    "characters_raw_text": "禪院直哉 禪院真希 加茂憲紀 Noritoshi's Mother 鋼 大道 六十四 三代",
+    "locations_raw_text": "桜島結界",
+    "battles_events_raw_text": "死滅回游 禪院真希 & 加茂憲紀 vs. 禪院直哉 禪院真希 & 加茂憲紀 vs. 禪院直哉",
+    "techniques_raw_text": "禪院直哉 術式 投射呪法 加茂 術式 赤血操術 穿血",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "sakurajima",
+  "character_ids_candidate": [
+    "char-24d736edff",
+    "char-69335b05c3",
+    "char-830f121430",
+    "char-aabfd74fce",
+    "char-b3be077b48"
+  ],
+  "technique_ids_candidate": [
+    "tech-5d6a005065",
+    "tech-a1213858c7",
+    "tech-cc23098baa"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase10": [
+    "真希が回復のため戦線を離れる",
+    "加茂が単独で直哉を足止めする",
+    "加茂が死を覚悟して戦う",
+    "大道鋼と三代六十四が桜島結界へ乱入する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-24d736edff",
+      "presence": "recovering"
+    },
+    {
+      "character_id": "char-830f121430",
+      "presence": "life-risking-stand"
+    },
+    {
+      "character_id": "char-b3be077b48",
+      "presence": "attacking"
+    },
+    {
+      "character_id": "char-aabfd74fce",
+      "presence": "arrives"
+    },
+    {
+      "character_id": "char-69335b05c3",
+      "presence": "arrives"
+    },
+    {
+      "character_id": "char-e2fb64f147",
+      "presence": "remembered"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-24d736edff",
+    "char-830f121430",
+    "char-b3be077b48",
+    "char-aabfd74fce",
+    "char-69335b05c3",
+    "char-e2fb64f147"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-a1213858c7",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5eb242be96",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5d6a005065",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cc23098baa",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-a1213858c7",
+    "tech-5eb242be96",
+    "tech-5d6a005065",
+    "tech-cc23098baa"
+  ],
+  "term_ids_verified_phase10": [
+    "term-c2f186c626",
+    "term-3f0111dca8",
+    "term-49963d44ff",
+    "term-bb89ef15f2"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-22",
+    "src-manga-games-vol-22",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

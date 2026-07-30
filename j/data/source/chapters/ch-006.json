@@ -1,0 +1,139 @@
+{
+  "id": "ch-006",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 1,
+  "number": 6,
+  "zero_number": null,
+  "label": "第6話",
+  "title_official": "呪胎戴天",
+  "title_search_normalized": "呪胎戴天",
+  "start_page": 151,
+  "official_group_id": "official-001-018",
+  "db_section_draft_id": "cursed-womb",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-01"
+  ],
+  "source_locator": "単行本1巻 目次 p.151",
+  "summary_short": "虎杖・伏黒・釘崎は、呪胎が発生した少年院へ生存者救出に派遣される。内部では既に呪胎が特級呪霊へ変態しており、三人は想定を超える危機に直面する。",
+  "summary_full": "2018年7月、西東京市の英集少年院に特級相当へ成長する可能性がある呪胎が出現する。五条が出張中のため、虎杖・伏黒・釘崎の一年生三人が、生存者の確認と救出を目的に派遣される。伊地知は特級と遭遇しても戦わず逃げるよう厳命し、外部を隠す帳を下ろす。内部は建物の構造を無視した異様な空間へ変わり、出口も消える。虎杖は遺体となった受刑者・岡﨑正を家族へ返そうとするが、伏黒は危険を増やしてまで全員を平等に助けることへ反対し、二人の救命観が衝突する。やがて玉犬が倒され、釘崎は別の場所へ移される。呪胎はすでに変態を終えており、虎杖と伏黒の前に特級呪霊が姿を現す。",
+  "content_verification": "phase1-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 , 恵 , and 野薔薇 are sent on a mission to rescue survivors at scene of a cursed womb appearance. During their efforts, 悠仁 and 恵 disagree on their methods of helping people. Little do they realize that the fearsome womb has already given birth to a special grade 呪霊 .",
+    "summary_full_legacy": "A cursed womb has appeared in West 東京 City at the Eishu Juvenile Detention Center and all three of 五条悟 's students have been deployed in this emergency. 悠仁, 恵, and 野薔薇 enter a new domain. Their mission is to locate and evacuate the survivors without encountering any special grade curses. One of the bystanders is the mother of a possible victim. She begs 悠仁, 恵, and 野薔薇 to save her son if possible. 悠仁 wishes to help her and 野薔薇 agrees. After being debriefed by 伊地知潔高 , the students head inside the building and the assistant director lowers the curtain to hide them from the outside world. They head further inside the facility to find they've been lead into a curse's domain. 恵 summons one of his 玉犬 to track the scent of any survivors. 悠仁 and 野薔薇 are happy to see the dog but this is short-lived when the group walks into a brutal scene. They find the corpses of several inmates, including that woman's son. 悠仁 wishes to bring his body back, but 恵 sternly disagrees to help someone an inmate from a juvenile detention center. 恵 argues that they can't bother saving everyone if they're going to hurt people in the future. Angry, 悠仁 replies by asking why 恵 ever saved him in the first place. A special grade curse! 野薔薇 tries to break it up but she suddenly falls down a dark hole. Taken by surprise, 恵 realizes his white 玉犬 has been killed and orders 悠仁 to run. They're taken completely off guard when suddenly the special grade demon appears between them. They're both stricken with fear until 悠仁 tries to attack. 悠仁 loses 屠坐魔 and his hand a result, both being instantly cut off by the curse. Meanwhile, 野薔薇 is trapped in darkness and is faceing with several curses.",
+    "characters_raw_text": "伊地知潔高 釘崎野薔薇 伏黒恵 虎杖悠仁 五条悟 Tadashi's Mother Tadashi Okazaki (死亡)",
+    "locations_raw_text": "英集少年院／第2宿舎",
+    "battles_events_raw_text": "Evacuation of the Eishu Detention Center 釘崎野薔薇 vs. 呪霊 (開始) 虎杖悠仁 vs. Finger Bearer (開始)",
+    "techniques_raw_text": "伊地知潔高の術式 帳 伏黒恵の術式 十種影法術 術式 玉犬 呪胎 領域 虎杖悠仁の装備 屠坐魔",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "cursed-womb",
+  "character_ids_candidate": [
+    "char-0ee8c4b0ae",
+    "char-17322e71e5",
+    "char-3c1852867d",
+    "char-5a0f7ded8d",
+    "char-5d693ebac2",
+    "char-76c359aa1d",
+    "char-8236095713",
+    "char-b4d661547b",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-6c8be9e9eb",
+    "tech-7c3237f986"
+  ],
+  "term_ids_candidate": [
+    "term-8914e5bc1a",
+    "term-7037f2a1bd"
+  ],
+  "key_events_verified_phase1": [
+    "一年生三人が英集少年院へ派遣される",
+    "伊地知が帳を下ろす",
+    "虎杖と伏黒の救命観が衝突する",
+    "釘崎が別空間へ移される",
+    "変態済みの特級呪霊が現れる"
+  ],
+  "character_appearances_verified_phase1": [
+    {
+      "character_id": "char-b4d661547b",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "mention"
+    },
+    {
+      "character_id": "char-0ee8c4b0ae",
+      "presence": "corpse"
+    },
+    {
+      "character_id": "char-5d693ebac2",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase1": [
+    "char-b4d661547b",
+    "char-5a0f7ded8d",
+    "char-3c1852867d",
+    "char-baadf43d19",
+    "char-17322e71e5",
+    "char-0ee8c4b0ae",
+    "char-5d693ebac2"
+  ],
+  "technique_appearances_verified_phase1": [
+    {
+      "technique_id": "tech-7c3237f986",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6c8be9e9eb",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-492818427b",
+      "relation": "equipped"
+    }
+  ],
+  "technique_ids_verified_phase1": [
+    "tech-7c3237f986",
+    "tech-6c8be9e9eb",
+    "tech-492818427b"
+  ],
+  "term_ids_verified_phase1": [
+    "term-f9e3abf542",
+    "term-d321a3c48f",
+    "term-67566a7224",
+    "term-8caa008608",
+    "term-ed19637c63",
+    "term-8914e5bc1a"
+  ],
+  "verification_basis": {
+    "official_metadata": true,
+    "manga_only_secondary_crosscheck": true,
+    "primary_manga_page_direct_check": false,
+    "candidate_legacy_preserved_for_audit": true,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes": "話名・巻・開始ページは集英社公式。内容は原作漫画のみを扱う章別資料と旧候補を比較し、独自の日本語要約として再構成。原作ページを直接開いた最終照合は後工程。",
+  "source_refs_phase1": [
+    "src-shueisha-vol-01",
+    "src-manga-games-vol-01"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "ch-123",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 14,
+  "number": 123,
+  "zero_number": null,
+  "label": "第123話",
+  "title_official": "渋谷事変㊶",
+  "title_search_normalized": "渋谷事変41",
+  "start_page": 149,
+  "official_group_id": "official-080-136",
+  "db_section_draft_id": "shibuya",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-14"
+  ],
+  "source_locator": "単行本14巻 目次 p.149",
+  "summary_short": "釘崎の共鳴りが分身体を通じて真人本体の魂にも届き、虎杖は好機を得る。しかし真人は分身体と入れ替わり、釘崎へ本体の手を伸ばす。",
+  "summary_full": "釘崎は七海の待機命令に従わず、仲間が戦う渋谷へ戻って真人の分身体と対峙する。分身体が他人の魂へ無為転変を使えないことを見抜き、地面へ立てた釘を簪で起爆して動きを止める。さらに分身体を媒介として共鳴りを発動すると、同じ魂を共有する真人本体にも損傷が伝わり、虎杖は窮地を脱する。真人は釘崎が虎杖と同様に魂へ攻撃できる天敵だと認識する。",
+  "content_verification": "phase7-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真人 and his double continue fighting against the 呪術高専 students. 悠仁 quickly loses the upper hand while 野薔薇 uses 真人's overconfidence against him. The special grade curse is forced to discover that 悠仁 isn't his only natural enemy.",
+    "summary_full_legacy": "真人 continues needlessly killing humans to hurt 悠仁. At 11:14 PM, After 七海 left 野薔薇 and 明 behind, the first-year student refused to leave with the paramedic's team. They didn't tell 野薔薇 家入硝子 was in 渋谷 so she didn't do something reckless. However, she ignored 七海's orders to stay out of the incident and went off alone because she can't just run away while everyone else keeps fighting. Currently, somewhere closer to 11:20 PM inside the station, 真人 skewers three innocent civilians and uses them to attack 悠仁 as he comes up the stairs. He playfully wonders if he should've asked 陀艮 to leave more humans around but quickly dismisses it. 悠仁 checks on the condition of one of the injured people only for them to transfigure and explode. The blood gets in 悠仁's eyes, leaving him vulnerable to an attack from behind. 真人 transforms his arm into a spiked club and prepares to finish him. 野薔薇 appears to fight a losing battle. Meanwhile, in the alley nearby, 真人 is still clashing with 野薔薇. She avoids his hands but 真人's double can't transfigure other souls anyway. This double attacks by transfiguring himself since this isn't 悠仁 and he doesn't incur any risk. 野薔薇 tries to trade blows but her methods appear ineffective. 真人 points this out to his opponent but 野薔薇 proclaims she has to try anyway, boring the 呪霊. 真人 casually avoids 野薔薇's projectile nails as she climbs up the side of the alley onto a higher platform. She drops several nails at 真人's feet and detonates them with 簪 before coming back down, confusing 真人 with her movements. While he's focused on 野薔薇, she activates 簪 again and her 呪力 extends them into 真人's lower body, immobilizing him. 真人 realizes the first explosion was simply to point the nails upright, putting them in the perfect position. 野薔薇 uses 真人's body to hit his soul with 共鳴り. 野薔薇 mounts 真人 while he's injured but he doesn't see any potential danger regardless. However, unbeknownst to the special grade, 野薔薇 has figured out a way to attack his soul. 真人 realizes 野薔薇 was bluffing about not having a plan too late. She hammers a nail directly into his forehead and activates 共鳴り . By using 真人's body as the effigy, 野薔薇 can use her 術式 to attack his soul. As a result, 共鳴り also relays from the double to the original soul and rebounds the damage back, greatly injuring them both. 野薔薇 figures out her opponent is just a double. 真人's sudden injury stops him from finishing 悠仁 off. 悠仁 manages to open his eyes and even recognizes 野薔薇's needles sticking out of the curse's chest. 真人's double is shocked and realizes that 悠仁 isn't his only natural enemy. The girl of steel standing before him can attack his soul as well. 野薔薇 reveals that she felt her 呪力 activate somewhere else nearby. Additionally, she doesn't feel 真人's 呪力 is as strong as it should be and he didn't grab her when he had the opportunity. She surmises that this 真人 is simply a double that can't properly use his innate technique. Amused, 真人 licks the blood dripping from his face and admits his adversary is completely correct.",
+    "characters_raw_text": "新田明 (回想) 釘崎野薔薇 七海建人 (言及のみ) 家入硝子 (言及のみ) 真人 虎杖悠仁 陀艮 (言及のみ)",
+    "locations_raw_text": "渋谷 道玄坂小路 渋谷駅 道玄坂小路",
+    "battles_events_raw_text": "The 渋谷事変 虎杖悠仁 & 釘崎野薔薇 vs. 真人 虎杖悠仁 & 釘崎野薔薇 vs. 真人",
+    "techniques_raw_text": "真人の術式 無為転変 釘崎野薔薇の術式 芻霊呪法 術式 共鳴り／簪 共鳴り／簪",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shibuya",
+  "character_ids_candidate": [
+    "char-0cb661851e",
+    "char-18d7c58412",
+    "char-5a0f7ded8d",
+    "char-6309a7e2f4",
+    "char-6674ce6baa",
+    "char-baadf43d19",
+    "char-d4a4bc45c6"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-71a2d65cad",
+    "tech-932f1fb717",
+    "tech-d9180946ec"
+  ],
+  "term_ids_candidate": [
+    "term-65867f280c"
+  ],
+  "key_events_verified_phase7": [
+    "釘崎が真人の分身体の制限を見抜く",
+    "簪で真人の分身体を拘束する",
+    "共鳴りが分身体と本体の魂へ同時に届く",
+    "虎杖が真人本体の攻撃から救われる"
+  ],
+  "character_appearances_verified_phase7": [
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-18d7c58412",
+      "presence": "appearance-main-and-double"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-6674ce6baa",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase7": [
+    "char-5a0f7ded8d",
+    "char-18d7c58412",
+    "char-baadf43d19",
+    "char-0cb661851e",
+    "char-6309a7e2f4",
+    "char-d4a4bc45c6",
+    "char-6674ce6baa"
+  ],
+  "technique_appearances_verified_phase7": [
+    {
+      "technique_id": "tech-71a2d65cad",
+      "relation": "double-limited"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-932f1fb717",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "used-on-soul"
+    }
+  ],
+  "technique_ids_verified_phase7": [
+    "tech-71a2d65cad",
+    "tech-2ac2471b12",
+    "tech-932f1fb717",
+    "tech-d9180946ec"
+  ],
+  "term_ids_verified_phase7": [
+    "term-65867f280c",
+    "term-bb7659490f",
+    "term-ad8bd57883"
+  ],
+  "verification_basis_phase7": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase7": "集英社公式14～16巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第七段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase7": [
+    "src-shueisha-vol-14",
+    "src-manga-games-vol-14",
+    "src-legacy-ju-txt"
+  ]
+}

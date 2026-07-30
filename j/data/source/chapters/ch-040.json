@@ -1,0 +1,154 @@
+{
+  "id": "ch-040",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 40,
+  "zero_number": null,
+  "label": "第40話",
+  "title_official": "京都姉妹校交流会―団体戦⑦―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦7―",
+  "start_page": 111,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.111",
+  "summary_short": "三輪は真依から聞いていた以上の真希の強さに翻弄される。西宮は釘崎に、女性術師、とりわけ真依が呪術界で背負わされる不公平を説く。",
+  "summary_full": "三輪は真依から真希を「呪いも見えない四級」と聞いていたが、実戦では武器術と身体能力の差に圧倒される。三輪は簡易領域と自動迎撃の抜刀で対抗するものの、真希は武器を投げて領域を崩し、刀を奪う。観戦中の冥冥と五条は、禪院家の妨害がなければ真希はより高い等級にいると見る。釘崎は空を飛ぶ西宮を追い、箒から放たれる風と遠隔攻撃を受けながら距離を詰める。西宮は女性術師が背負う不公平を語り始める。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "霞 is taken by surprise when 真希 showcases skills far beyond what 真依 had described. At the same time, 桃 attempts to teach 野薔薇 a lesson on why women sorcerers like 真依 face undeserved hardships.",
+    "summary_full_legacy": "真希 proves to be more than 霞 can handle. In the past, while training for the Goodwill Event, 霞 asked 真依 about 真希. Naturally, 真依 claimed 真希 was worthless and would be a grade 4 forever. 霞 was relieved about possibly facing off against 真希 but currently, 霞 is realizing that 真依 was completely wrong. 霞 considers 真希 to be crazy strong. 真希 swings around her polearm with great skill despite the cramped fighting space. 霞 is shocked by how she might have died twice already if 真希 was actually trying to kill her. She even believes that 真希 could defeat a grade 2 curse with ease. 冥冥 comments on 真希's rank. 霞 activates 新陰流「簡易領域」 , which allows her to intercept anyone who comes within 2 meters of her using an Iai Sword-Drawing technique. 真希 casually breaks her cursed tool and throws it as 霞 to negate the effects of her 簡易領域. 霞 intercepts 真依's projectiles but the latter is able to close the distance and disarm 霞 of her sword. Grade 1 sorcerer, 冥冥 watches the girls duel using her crow. She's in the viewing room with 五条, 歌姫 , and both Principals. 五条 and 冥冥 agree that the 禪院 family should just allow 真希 to be promoted. 冥冥 simply claims she can't understand connections not based on money. 五条 suspects something is going on due to the inconsistent video feed, but he's confident that 悠仁 can take care of himself. 野薔薇 continues to try and bring 桃 down. One of the talismans on the wall burn red, signaling a 東京 student had exorcised a curse. It was パンダ who did so, but 五条 notices that all the students seem to be focused on one-on-one battles. 野薔薇 continues chasing 桃 around, attempting to fight. Using her broom to fly, 桃 taunts 野薔薇 and blasts her with gusts of 呪力 fueled wind, strong enough to push 野薔薇 back. She also telepathically controls her broom to hit 野薔薇 right after she recovers. Right after, 桃 begins to start lecturing 野薔薇 about how life is more difficult for female sorcerers. She claims 真依 has faced discrimination far beyond what the first year can understand. 野薔薇 claims she understands, but only that she understands that 桃 is incredibly annoying.",
+    "characters_raw_text": "禪院真依 三輪霞 庵歌姫 与幸吉 (メカ丸として) 禪院真希 冥冥 五条悟 夜蛾正道 楽巌寺嘉伸 伊地知潔高 パンダ 西宮桃 釘崎野薔薇",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 禪院真希 vs. 三輪霞 (終了) 釘崎野薔薇 vs. 西宮桃 (開始) 呪霊討伐競争 禪院真希 vs. 三輪霞 (終了) 釘崎野薔薇 vs. 西宮桃 (開始) 禪院真希 vs. 三輪霞 (終了) 釘崎野薔薇 vs. 西宮桃 (開始)",
+    "techniques_raw_text": "三輪霞の術式 新陰流「簡易領域」 Mono 西宮の術式 付喪操術",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-3de3b8af11",
+    "char-484fd66a1e",
+    "char-5724ed462b",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-ac327bdd73",
+    "char-b4d661547b",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-e28246ff34"
+  ],
+  "term_ids_candidate": [
+    "term-e3eff1da1c"
+  ],
+  "key_events_verified_phase3": [
+    "真希が三輪の簡易領域を攻略する",
+    "真希が三輪の刀を奪う",
+    "冥冥と五条が真希の等級を話題にする",
+    "釘崎と西宮が戦う"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-5724ed462b",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-484fd66a1e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-5724ed462b",
+    "char-ebd2a8efa8",
+    "char-3de3b8af11",
+    "char-24d736edff",
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-58278d1ec5",
+    "char-ac327bdd73",
+    "char-672d843799",
+    "char-484fd66a1e",
+    "char-5a0f7ded8d"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-tsukumoso",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-e28246ff34",
+    "tech-phase3-tsukumoso"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-e28246ff34",
+    "term-67566a7224",
+    "term-f74654d902"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

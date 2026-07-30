@@ -1,0 +1,1543 @@
+[
+  {
+    "id": "src-shueisha-vol-00",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 0 東京都立呪術高等専門学校",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881672881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-01",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 1",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881516881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-02",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 2",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881608881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-03",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 3",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881666881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-04",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 4",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881756881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-05",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 5",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881828881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-06",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 6",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08881876881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-07",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 7",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882076881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-08",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 8",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882168881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-09",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 9",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882218881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-10",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 10",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882274881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-11",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 11",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882296881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-12",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 12",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882381881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-13",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 13",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882429881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-14",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 14",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882534881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-15",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 15",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882581881516315501",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-16",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 16",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000014389100",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-17",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 17",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000016958600",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-18",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 18",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000018964300",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-19",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 19",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000020243200",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-20",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 20",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000022829800",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-21",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 21",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000025474800",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-22",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 22",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000026971600",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-23",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 23",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000029203700",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-24",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 24",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000031663000",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-25",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 25",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000033935700",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-26",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 26",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000040371400",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-27",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 27",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000048680300",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-28",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 28",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000052758200",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-29",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 29",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000055592900",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-shueisha-vol-30",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "呪術廻戦 30",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000055593000",
+    "usable_for": [
+      "official chapter title",
+      "volume assignment",
+      "table-of-contents start page",
+      "volume-level official synopsis"
+    ],
+    "not_sufficient_for": [
+      "detailed chapter summary",
+      "complete character history",
+      "unshown technique mechanics"
+    ]
+  },
+  {
+    "id": "src-final-countdown",
+    "type": "official-publisher",
+    "media_scope": "manga",
+    "title": "最終回カウントダウン!!「呪術廻戦」245話分順次無料!!!",
+    "publisher": "集英社／週刊少年ジャンプ",
+    "url": "https://www.shonenjump.com/j/sp_jujutsu_kaisen_final/",
+    "usable_for": [
+      "official campaign group labels and ranges"
+    ],
+    "note": "246～270話は同ページで追いつきパックとして示されるが、独立した公式区分名は付いていない。271話も同企画の区分外。"
+  },
+  {
+    "id": "src-official-fanbook",
+    "type": "official-fanbook",
+    "media_scope": "manga-settings",
+    "title": "呪術廻戦 公式ファンブック",
+    "publisher": "集英社",
+    "url": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08882636881516315501",
+    "usable_for": [
+      "character Q&A",
+      "manga terminology and settings",
+      "author commentary for volume 0 through chapter 64"
+    ],
+    "excluded_sections": [
+      "映画編",
+      "アニメ編"
+    ],
+    "note": "同じ本に含まれる映像作品関連部分はDBへ取り込まない。"
+  },
+  {
+    "id": "src-legacy-ju-txt",
+    "type": "secondary-legacy-import",
+    "media_scope": "unknown-secondary",
+    "title": "ju.txt（ユーザーの過去収集物）",
+    "publisher": null,
+    "url": null,
+    "usable_for": [
+      "candidate discovery only",
+      "draft summary recovery",
+      "candidate character/technique/location extraction"
+    ],
+    "not_sufficient_for": [
+      "any final factual statement"
+    ],
+    "note": "英日混在、用語置換、重複、誤字、翻訳崩れを確認。原作照合前の表示禁止。"
+  },
+  {
+    "id": "src-fandom-chapter-zero-01",
+    "type": "secondary-index",
+    "media_scope": "manga-page-only",
+    "title": "Jujutsu Kaisen Wiki: Chapter 0-1",
+    "publisher": "Fandom community wiki",
+    "url": "https://jujutsu-kaisen.fandom.com/wiki/Chapter_0-1",
+    "usable_for": [
+      "candidate discovery",
+      "candidate chapter summary outline",
+      "candidate character, location, battle and technique pointers"
+    ],
+    "not_sufficient_for": [
+      "any final factual statement",
+      "official naming",
+      "manga-text quotation"
+    ],
+    "excluded_fields": [
+      "anime episode",
+      "movie adaptation",
+      "adaptation-only information"
+    ],
+    "note": "索引専用。候補は原作0巻本文と照合するまで公開データへ昇格禁止。"
+  },
+  {
+    "id": "src-fandom-chapter-zero-02",
+    "type": "secondary-index",
+    "media_scope": "manga-page-only",
+    "title": "Jujutsu Kaisen Wiki: Chapter 0-2",
+    "publisher": "Fandom community wiki",
+    "url": "https://jujutsu-kaisen.fandom.com/wiki/Chapter_0-2",
+    "usable_for": [
+      "candidate discovery",
+      "candidate chapter summary outline",
+      "candidate character, location, battle and technique pointers"
+    ],
+    "not_sufficient_for": [
+      "any final factual statement",
+      "official naming",
+      "manga-text quotation"
+    ],
+    "excluded_fields": [
+      "anime episode",
+      "movie adaptation",
+      "adaptation-only information"
+    ],
+    "note": "索引専用。候補は原作0巻本文と照合するまで公開データへ昇格禁止。"
+  },
+  {
+    "id": "src-fandom-chapter-zero-03",
+    "type": "secondary-index",
+    "media_scope": "manga-page-only",
+    "title": "Jujutsu Kaisen Wiki: Chapter 0-3",
+    "publisher": "Fandom community wiki",
+    "url": "https://jujutsu-kaisen.fandom.com/wiki/Chapter_0-3",
+    "usable_for": [
+      "candidate discovery",
+      "candidate chapter summary outline",
+      "candidate character, location, battle and technique pointers"
+    ],
+    "not_sufficient_for": [
+      "any final factual statement",
+      "official naming",
+      "manga-text quotation"
+    ],
+    "excluded_fields": [
+      "anime episode",
+      "movie adaptation",
+      "adaptation-only information"
+    ],
+    "note": "索引専用。候補は原作0巻本文と照合するまで公開データへ昇格禁止。"
+  },
+  {
+    "id": "src-fandom-chapter-zero-04",
+    "type": "secondary-index",
+    "media_scope": "manga-page-only",
+    "title": "Jujutsu Kaisen Wiki: Chapter 0-4",
+    "publisher": "Fandom community wiki",
+    "url": "https://jujutsu-kaisen.fandom.com/wiki/Chapter_0-4",
+    "usable_for": [
+      "candidate discovery",
+      "candidate chapter summary outline",
+      "candidate character, location, battle and technique pointers"
+    ],
+    "not_sufficient_for": [
+      "any final factual statement",
+      "official naming",
+      "manga-text quotation"
+    ],
+    "excluded_fields": [
+      "anime episode",
+      "movie adaptation",
+      "adaptation-only information"
+    ],
+    "note": "索引専用。候補は原作0巻本文と照合するまで公開データへ昇格禁止。"
+  },
+  {
+    "id": "src-official-character-vote-4",
+    "type": "official-publisher",
+    "media_scope": "manga-character-index",
+    "title": "『呪術廻戦』第4回キャラクター人気投票 キャラクター一覧",
+    "publisher": "集英社／週刊少年ジャンプ",
+    "url": "https://sp.shonenjump.com/j/vote_jujutsu_kaisen/",
+    "usable_for": [
+      "official character/entity spelling",
+      "named character/entity existence",
+      "brief manga profile through volume 26"
+    ],
+    "not_sufficient_for": [
+      "exhaustive post-volume-26 appearances",
+      "final status after chapter 236",
+      "detailed chapter summary"
+    ]
+  },
+  {
+    "id": "src-manga-games-manga-pages",
+    "type": "japanese-secondary",
+    "media_scope": "manga-pages-only",
+    "title": "マンガゲーム（呪術廻戦 原作漫画の巻・話記事）",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/",
+    "allowed_url_patterns": [
+      "jujutsukaisen-vol-",
+      "jujutsukaisen-jump-"
+    ],
+    "disallowed_scope": [
+      "anime pages",
+      "movie pages",
+      "game-derived settings"
+    ],
+    "usable_for": [
+      "cross-checking chapter events",
+      "locating manga panels and chapter boundaries"
+    ],
+    "not_sufficient_for": [
+      "sole authority for canon facts",
+      "official spelling when conflicting with Shueisha"
+    ]
+  },
+  {
+    "id": "src-hellominju-manga-pages",
+    "type": "japanese-secondary",
+    "media_scope": "manga-pages-only",
+    "title": "ハローアニメ内 呪術廻戦 原作漫画記事",
+    "publisher": "hellominju.com",
+    "url": "https://www.hellominju.com/p/jujutsukaisen.html",
+    "allowed_scope": [
+      "explicit original manga chapter articles",
+      "manga character/technique list pages"
+    ],
+    "disallowed_scope": [
+      "anime episode pages",
+      "TV season pages",
+      "Modulo pages"
+    ],
+    "usable_for": [
+      "cross-checking chapter events",
+      "technique usage chapter candidates"
+    ],
+    "not_sufficient_for": [
+      "sole authority for canon facts",
+      "official naming when the manga leaves a name unstated"
+    ]
+  },
+  {
+    "id": "src-manga-games-vol-01",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 1巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-1/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画1巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-02",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 2巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-2/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画2巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-03",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 3巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-3/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画3巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-04",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 4巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-4/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画4巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-05",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 5巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-5/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画5巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-06",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 6巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-6/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画6巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-07",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 7巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-7/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画7巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-08",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 8巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-8/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ記事は使用しない。原作漫画8巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-09",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 9巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-9/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "同サイト内のアニメ関連記事は使用せず、原作漫画9巻ページだけを参照。"
+  },
+  {
+    "id": "src-manga-games-vol-10",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 10巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-10/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画10巻の記事のみ使用。アニメ関連記事・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-11",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 11巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-11/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画11巻の記事のみ使用。アニメ関連記事・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-12",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 12巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-12/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画12巻の記事のみ使用。アニメ関連記事・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-13",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 13巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-13/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画13巻の記事のみ使用。アニメ関連記事・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-14",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 14巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-14/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画14巻の記事のみ使用。アニメ関連記事・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-15",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 15巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-15/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画15巻の記事のみ使用。アニメ関連記事・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-16",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 16巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-16/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画16巻の記事のみ使用。アニメ関連記事・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-17",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 17巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-17/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画17巻の記事部分のみ使用。アニメ・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-18",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 18巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-18/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画18巻の記事部分のみ使用。アニメ・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch148",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第148話 葦を啣む 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2024/05/JJK148.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "technique and cursed tool candidate crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "ページ内の原作漫画第148話部分のみ使用。アニメへのリンク・記述は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-19",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 19巻 東京第一結界 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-19/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画19巻の記事部分のみ使用。アニメ・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-20",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 20巻 仙台結界 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-20/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画20巻の記事部分のみ使用。アニメ・映像版の情報は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch159",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第159話 裁き 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/10/JJK159.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "named character candidate crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第159話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch174",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第174話 仙台結界① 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/10/JJK174.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "character and battle candidate crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第174話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch178",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第178話 仙台結界⑤ 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/10/JJK178.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "domain and technique candidate crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第178話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-21",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 21巻 東京第二結界 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-21/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画21巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-22",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 22巻 桜島結界 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-22/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画22巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-23",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 23巻 星と油 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-23/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画23巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-24",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 24巻 呪胎戴天-再帰- 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-24/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画24巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch181",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第181話 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/10/JJK181.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "character and technique candidate crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第181話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch190",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第190話 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/10/JJK190.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "binding vow and colony transition crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第190話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch191",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第191話 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/10/JJK191.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "Kamo clan and Naoya curse crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第191話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch200",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第200話 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/10/JJK200.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "foreign-government meeting crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第200話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch208",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第208話 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/09/JJK208.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "Yuki death and Tengen capture crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第208話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-hellominju-ch209",
+    "type": "secondary-japanese-manga-chapter-summary",
+    "media_scope": "manga-only-page",
+    "title": "ハローアニメ 呪術廻戦 第209話 原作漫画整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2023/09/JJK209.html",
+    "usable_for": [
+      "chapter event crosscheck",
+      "foreign troops and Kenjaku plan crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画第209話の整理部分のみ使用。アニメ欄は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-25",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 25巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-25/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画25巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-26",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 26巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-26/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画26巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-27",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 27巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-27/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画27巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-28",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 28巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-28/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画28巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-29",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 29巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-29/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画29巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-manga-games-vol-30",
+    "type": "secondary-japanese-manga-summary",
+    "media_scope": "manga-only-page",
+    "title": "マンガゲーム 呪術廻戦 30巻 原作漫画まとめ",
+    "publisher": "マンガゲーム",
+    "url": "https://manga-games.com/jujutsukaisen-vol-30/",
+    "usable_for": [
+      "chapter event crosscheck",
+      "manga-only synopsis comparison"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "fine dialogue verification",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "原作漫画30巻の記事部分のみ使用。アニメ・映像版の記事は使用しない。"
+  },
+  {
+    "id": "src-hellominju-epilogue",
+    "type": "secondary-japanese-manga-supplement-summary",
+    "media_scope": "manga-only-page",
+    "title": "呪術廻戦 最終30巻 描き下ろしエピローグ整理",
+    "publisher": "ハローアニメ",
+    "url": "https://www.hellominju.com/2024/12/Jujujtsu-epilogue.html",
+    "usable_for": [
+      "volume-30 epilogue event crosscheck"
+    ],
+    "not_sufficient_for": [
+      "primary-text quotation",
+      "page-by-page certainty"
+    ],
+    "exclusion_note": "単行本30巻の描き下ろし漫画部分のみ使用。"
+  },
+  {
+    "id": "src-oricon-epilogue-announcement",
+    "type": "official-news-secondary",
+    "media_scope": "manga-publication-news",
+    "title": "最終30巻に4本の描き下ろしエピローグ収録",
+    "publisher": "ORICON NEWS",
+    "url": "https://www.oricon.co.jp/news/2360341/full/",
+    "usable_for": [
+      "epilogue titles and publication confirmation"
+    ],
+    "not_sufficient_for": [
+      "plot detail verification"
+    ],
+    "exclusion_note": "漫画単行本の収録情報のみ使用。"
+  }
+]

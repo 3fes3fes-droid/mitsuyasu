@@ -1,0 +1,115 @@
+{
+  "id": "ch-038",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 5,
+  "number": 38,
+  "zero_number": null,
+  "label": "第38話",
+  "title_official": "京都姉妹校交流会―団体戦⑤―",
+  "title_search_normalized": "京都姉妹校交流会―団体戦5―",
+  "start_page": 69,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "goodwill",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-05"
+  ],
+  "source_locator": "単行本5巻 目次 p.69",
+  "summary_short": "パンダと究極メカ丸が交戦する。互いに呪骸だと思われていたが、メカ丸は天与呪縛で自由を失った与幸吉が遠隔操作する傀儡だと明かされる。",
+  "summary_full": "遠隔地にいる与幸吉は天与呪縛により、広大な術式範囲と呪力を得る代わりに、右腕と両脚を失い、日光にも耐えない肉体で生活している。傀儡・究極メカ丸は剣撃と高出力砲撃でパンダの核を狙う。パンダは夜蛾が作った自我を持つ突然変異呪骸で、心臓に相当する呪力の核を三つ持つと説明される。通常核を損傷させられたパンダは、兄の核によるゴリラモードへ移行する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "The battle between パンダ and メカ丸 begins! パンダ initially believes they're both cursed corpses but メカ丸 is being controlled remotely by a sorcerer who cannot use their own body. In a clash of ideals, パンダ pulls out all the stops in order to ensure victory. But is パンダ ... truly a パンダ?",
+    "summary_full_legacy": "The man controlling メカ丸 remotely. 内部 a remote location, a heavily bandaged 幸吉 recalls パンダ saying they're both cursed corpses. 幸吉 resents this and claims パンダ is nothing but a doll. メカ丸, who is being controlled remotely switches to Sword Option with Boost On and attacks パンダ using Ultra Spin. パンダ avoids it but the attack has enough raw power to completely collapse a nearby tree. パンダ is impressed with メカ丸's power as he doesn't know much about him, 霞, or 桃. パンダ asks what rank メカ丸 is, and to his surprise, メカ丸 is semi-grade 1. パンダ is able to withstand メカ丸's next attack, a beam of concentrated 呪力 called Ultra Cannon . メカ丸 immediately recognizes that his firepower is useless unless he can hit パンダ's core. パンダ vs. メカ丸! パンダ is an Abrupt-Mutation 呪骸 that was born sentient and developed emotions. He is the greatest creation of the foremost practitioner of puppet jujutsu, Principal 夜蛾. A man-made 呪骸 like パンダ has a core of 呪力 in place of a heart. In close combat, パンダ holds a clear advantage against メカ丸. He realizes メカ丸 is being controlled by 幸吉's main body somewhere outside the arena, meaning his only choice is crush メカ丸 here and now. パンダ... is not a パンダ! 幸吉 reveals that he has a Heavenly Restriction that grants him great levels of 呪力 in place of his useless body. His skin can't handle sunlight, he's missing both legs and an arm as well. The fact that パンダ can live carefree as a doll triggers great anger from within 幸吉, which manifests in メカ丸's Albatross Mode. メカ丸 grabs パンダ, who decides to take the attack in order to protect 野薔薇, who is in the line of fire. パンダ gets blasted by メカ丸's full-power Ultimate Cannon, leaving the latter to believe he won.  メカ丸 comments that a doll isn't worth death, but パンダ's voice appears from the dust, shocking メカ丸. As the smoke clears, パンダ expresses his anger and reveals his new form: ゴリラモード !",
+    "characters_raw_text": "釘崎野薔薇 (表紙のみ) パンダ 与幸吉 (メカ丸として) 三輪霞 (言及のみ) 西宮桃 (言及のみ) 夜蛾正道 (回想)",
+    "locations_raw_text": "東京 呪術高専",
+    "battles_events_raw_text": "京都姉妹校交流会 呪霊討伐競争 パンダ vs. 究極メカ丸 呪霊討伐競争 パンダ vs. 究極メカ丸 パンダ vs. 究極メカ丸",
+    "techniques_raw_text": "パンダの術式 ゴリラモード 究極メカ丸の術式 傀儡操術 Boost On Sword Option Mode: Albatross Ultimate Cannon Ultra Cannon Ultra Spin Boost On Sword Option Mode: Albatross Ultimate Cannon Ultra Cannon Ultra Spin",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "exchange-event",
+  "character_ids_candidate": [
+    "char-484fd66a1e",
+    "char-58278d1ec5",
+    "char-5a0f7ded8d",
+    "char-672d843799",
+    "char-dad71c9f31",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-870eff819a",
+    "tech-c2ae5ed6dc"
+  ],
+  "term_ids_candidate": [
+    "term-bfcc1b065d",
+    "term-37f8736467"
+  ],
+  "key_events_verified_phase3": [
+    "与幸吉の天与呪縛と本体が明かされる",
+    "パンダが三つの核を持つ突然変異呪骸と説明される",
+    "メカ丸がパンダの核を二つ損傷させる",
+    "パンダがゴリラモードへ移行する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-672d843799",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-dad71c9f31",
+      "presence": "appearance-as-self-and-mechamaru"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-672d843799",
+    "char-dad71c9f31",
+    "char-58278d1ec5"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-870eff819a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-c2ae5ed6dc",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-phase3-gorilla-mode",
+      "relation": "activated"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-870eff819a",
+    "tech-c2ae5ed6dc",
+    "tech-phase3-gorilla-mode"
+  ],
+  "term_ids_verified_phase3": [
+    "term-549dd18f32",
+    "term-bfcc1b065d",
+    "term-37f8736467",
+    "term-phase3-abrupt-mutated-corpse",
+    "term-67566a7224"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-05",
+    "src-manga-games-vol-05",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ch-188",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 21,
+  "number": 188,
+  "zero_number": null,
+  "label": "第188話",
+  "title_official": "東京第２結界⑦",
+  "title_search_normalized": "東京第2結界7",
+  "start_page": 151,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-21"
+  ],
+  "source_locator": "単行本21巻 目次 p.151",
+  "summary_short": "鹿紫雲は秤の大当たり時間が終わる瞬間を狙い、致命的な電撃を浴びせる。秤は残された呪力と判断力で損傷を修復し、再び賭けへ出る。",
+  "summary_full": "鹿紫雲は反転術式の源である頭部を一撃で破壊しようとし、秤の顔面へ放電する。秤は脳が壊れるそばから治し、侵入した呪力を鼻から排出して生還する。残り時間が迫る中、秤は放電には電荷を蓄える条件があると読み、攻撃へ全賭けする。しかし鹿紫雲は離れた杖に残した電荷を呼び戻し、秤の腹部を貫通させる。大当たりが切れた秤は、致命傷を抱えたまま領域を展開する。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Determined to prove his strength against an unkillable opponent, 鹿紫雲 puts his timeless skills against 秤 's gambles. 秤's bets have been paying off thus far, but all luck eventually runs out.",
+    "summary_full_legacy": "秤 and 鹿紫雲 go blow for blow. 秤 and 鹿紫雲 dash around the shipping yard at top speed. As 鹿紫雲 makes a turn around the freight containers, 秤 leaps forward and punches one of them at his opponent. 鹿紫雲 stops and punches it back with equal force, leading to both of them hitting the large crate back and forth until it's completely flattened by their superhuman strength. As 秤 knocks what's left of it away, 鹿紫雲 jumps over the remains with a piece of the container door in hand. He uses it to strike 秤's face twice, ripping the skin clean off and splitting his head open. \" I can heal... while I break!! \" 鹿紫雲 is aware that 呪力 flows from the abdomen but positive energy comes from the brain. Regardless of how automatic 秤's 反転術式 is, 鹿紫雲 can win if he crushes his head in a single blow. 秤's face quickly heals but 鹿紫雲 follows up by shooting a bolt of lightning at his head. 秤 is made painfully aware of how close he is to death but he acts quickly to heal at the same time as he breaks. While healing his damaged brain, 秤 ejects his opponent's 呪力 from his nose. Elated that he survived the attack, 秤 taunts 鹿紫雲 for nearly killing him. 秤's luck appears to finally run out. With only eight seconds left in the round, 秤 turns up the intensity and attacks even faster than before. His punches all land and he figures there must be conditions to 鹿紫雲's lightning blast and he isn't likely to use it again immediately. He recklessly goes all-in on his attacks and tries to beat down 鹿紫雲 completely, managing to overwhelm his opponent with increased power and speed. However, 秤 is mistaken about 鹿紫雲's ability to use electricity functions. 鹿紫雲 also accumulated an electrical charge on his staff, which is across the shipping yard where their battle began. 鹿紫雲 retrieves the electrified 呪力 as feedback along a route through 秤's lower abdomen. This completely destroys the left side of 秤's gut just as his unkillable round ends. 鹿紫雲 believes he's won but 秤 quickly uses the last of his strength to cast 領域展開 once again, surprising the former with his ability to still use jujutsu .",
+    "characters_raw_text": "秤金次 鹿紫雲一",
+    "locations_raw_text": "東京第2結界",
+    "battles_events_raw_text": "死滅回游 秤金次 vs. 鹿紫雲一 秤金次 vs. 鹿紫雲一",
+    "techniques_raw_text": "秤金次の術式 領域展開：坐殺博徒",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "tokyo2",
+  "character_ids_candidate": [
+    "char-0e7004da56",
+    "char-dea43d7fc7"
+  ],
+  "technique_ids_candidate": [
+    "tech-39d2b30b48",
+    "tech-4b0b9dc682",
+    "tech-aee71097f5"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-8ae4844630"
+  ],
+  "key_events_verified_phase10": [
+    "鹿紫雲が秤の頭部へ放電する",
+    "秤が脳を破壊されながら自動治癒する",
+    "鹿紫雲が杖の電荷を利用して秤の腹部を破壊する",
+    "秤が致命傷のまま坐殺博徒を展開する"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-dea43d7fc7",
+      "presence": "critically-injured"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "fighting"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-dea43d7fc7",
+    "char-0e7004da56"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-aee71097f5",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "automatic"
+    },
+    {
+      "technique_id": "tech-39d2b30b48",
+      "relation": "activated-at-limit"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-aee71097f5",
+    "tech-cf5d1ac726",
+    "tech-39d2b30b48"
+  ],
+  "term_ids_verified_phase10": [
+    "term-5c353791e3",
+    "term-8485d1a225",
+    "term-1c3b13971d",
+    "term-e6a70dfe56"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-21",
+    "src-manga-games-vol-21",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

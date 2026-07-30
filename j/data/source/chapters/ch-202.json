@@ -1,0 +1,115 @@
+{
+  "id": "ch-202",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 23,
+  "number": 202,
+  "zero_number": null,
+  "label": "第202話",
+  "title_official": "血と油①",
+  "title_search_normalized": "血と油1",
+  "start_page": 47,
+  "official_group_id": "official-174-215",
+  "db_section_draft_id": "culling-game-2",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-23"
+  ],
+  "source_locator": "単行本23巻 目次 p.47",
+  "summary_short": "九十九は元星漿体として天元と対話する。薨星宮へ侵入した羂索を脹相が迎え撃ち、羂索は天元と人類を同化させる計画を語る。",
+  "summary_full": "九十九由基は元星漿体として天元へ、過去の星漿体たちの声や同化の秘密を問いただす。天元は理子の死後も進化が進み、羂索が自分を呪霊操術で取り込める状態にあると説明する。薨星宮へ侵入した羂索に対し、脹相が九十九を温存するため先に立つ。羂索は死滅回游の目的が、日本の人々を進化した天元と同化させ、呪力の巨大な集合体へ変えることだと明かす。",
+  "content_verification": "phase10-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "九十九由基 , a former 星漿体 Vessel , has her long desired conversation with 天元 . Meanwhile, 羂索 finally makes his move on the 薨星宮 where 脹相 is waiting for him. Before they come to blows, 羂索 reveals more about his plan for the future of the jujutsu world.",
+    "summary_full_legacy": "由基 scolds 天元 about 星漿体 Vessels. 九十九由基 and 天元 have a conversation regarding 星漿体 Vessels. 由基 asks if there were other vessels aside from 天内理子 and herself. 天元 confirms there were other vessels but claims none of them had 理子's potential. 由基 asks why 天元 would take the risk of not merging if there were others and 天元 replies that they've merely accepted their circumstances. 天元 has preserved their self-awareness using barrier techniques even if they evolve. They've always felt this was inevitable regardless, an answer 由基 outright rejects. 由基 disapproves of 天元の flagrant disregard for the lives of young girls. 由基 states she would've sided with the 時の器の会 if their goal was to seize control rather than try to kill 星漿体 Vessels. Irritated, 由基 scoffs and says she dislikes talking about what could've been. 天元 asks if 由基 can hear the voices of the other 星漿体 Vessels since they themselves can not and asks what they're saying. 由基 refuses to tell 天元 because she believes 天元 would just use their enlightenment to deflect responsibility if they found out what became of those who've they've merged with. As a former 星漿体 Vessel, 由基 feels as if it's her responsibility not to make it so easy for 天元. 羂索 invades the 薨星宮. Sensing an incoming threat, 天元 expresses that they wish this conversation could continue. Suddenly, 羂索 bursts through the wall of an empty barrier above the 薨星宮. He's met by 脹相 , who the 呪詛師 claims is of no interest to him anymore. He asks where 天元 is and 脹相 claims 天元 doesn't want to speak while taunting 羂索 for being disliked. 羂索 calls 脹相 an overzealous vanguard and claims that the 死滅回游 has served its purpose with the prelude to the ritual's completion. This statement confuses and concerns 脹相, who thinks it's still too soon and worries about 悠仁 and the others. 羂索 shows 脹相 one possible outcome to his scheme. 羂索 boasts that if he seizes 天元, the world is done for. He manipulates the empty barrier around them to create a movie theater to show 脹相 one possible conclusion to his scheme. 羂索 starts by reminding 脹相 that at the end of the 渋谷事変 , 由基 emphasized that optimizing 呪力 through 天元 would turn everyone in Japan into sorcerers . For 羂索's plans, this would only serve as a precursor as he does not seek to rid the world of 呪霊 as 由基 does. 羂索 has always pursued the possibility of a new form of 呪力 beyond 呪霊 and jujutsu sorcerers. This is why he expected so much of the 呪胎九相図 Wombs by combining the two only to be disappointed. Annoyed, 脹相 threatens to kill 羂索 without listening to his monologue if he insults his brothers. A strike of blood to end 羂索's sideshow!! 羂索 continues without taunting, explaining that because 天元 is more 呪霊 than sorcerer, merging them with humanity would turn non-sorcerers into 呪霊 instead. This could possibly distill a hundred million people into a conglomeration of 呪力 that could take on any form. 羂索 wants to know what form that will take, comparing his excitement to a toddler holding a crayon to blank paper. 羂索 concludes his speech and collapses the theater back into the empty barrier. 脹相 asks what it is that 羂索 wants, to which the 呪詛師 replies that he just explained. 脹相 wants to know what is driving 羂索 to do this but the 呪詛師 simply claims it's good fun. He even thinks it would be funny if this new form took on a funny face and laughs out loud. Fed up with 羂索's antics, 脹相 goes on the offensive and prepares to fire 穿血 at him.",
+    "characters_raw_text": "天内理子 (回想) 九十九由基 天元 羂索 脹相",
+    "locations_raw_text": "薨星宮",
+    "battles_events_raw_text": "死滅回游 (言及のみ)",
+    "techniques_raw_text": "脹相の術式 赤血操術 穿血",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "kenjaku-plan",
+  "character_ids_candidate": [
+    "char-1566dd973d",
+    "char-63e2590b87",
+    "char-678a848346",
+    "char-6eab17a5a8",
+    "char-851111b10d"
+  ],
+  "technique_ids_candidate": [
+    "tech-5d6a005065",
+    "tech-a1213858c7"
+  ],
+  "term_ids_candidate": [
+    "term-6f0611c4ff",
+    "term-58cf854ee7"
+  ],
+  "key_events_verified_phase10": [
+    "九十九が元星漿体として天元へ質問する",
+    "天元が進化後は呪霊操術の対象になり得ると説明する",
+    "羂索が薨星宮へ侵入する",
+    "脹相が羂索との戦闘を引き受ける",
+    "羂索が天元と人類の同化計画を明かす"
+  ],
+  "character_appearances_verified_phase10": [
+    {
+      "character_id": "char-1566dd973d",
+      "presence": "central"
+    },
+    {
+      "character_id": "char-6eab17a5a8",
+      "presence": "central"
+    },
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "past-mentioned"
+    },
+    {
+      "character_id": "char-678a848346",
+      "presence": "invades"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "faces-kenjaku"
+    }
+  ],
+  "character_ids_verified_phase10": [
+    "char-1566dd973d",
+    "char-6eab17a5a8",
+    "char-63e2590b87",
+    "char-678a848346",
+    "char-851111b10d"
+  ],
+  "technique_appearances_verified_phase10": [
+    {
+      "technique_id": "tech-1bc0d9ec7b",
+      "relation": "capture-threat"
+    }
+  ],
+  "technique_ids_verified_phase10": [
+    "tech-1bc0d9ec7b"
+  ],
+  "term_ids_verified_phase10": [
+    "term-61f2f5fc0d",
+    "term-6f0611c4ff",
+    "term-58cf854ee7",
+    "term-dad5591883",
+    "term-f98498c1ef"
+  ],
+  "source_refs_phase10": [
+    "src-shueisha-vol-23",
+    "src-manga-games-vol-23",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase10": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase10": "集英社公式21～24巻目次・巻概要、日本語の原作漫画巻別／話別資料、旧候補資料を話単位で突合した第十段階。単行本各ページの直接最終照合前。"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "ch-253",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 28,
+  "number": 253,
+  "zero_number": null,
+  "label": "第253話",
+  "title_official": "人外魔境新宿決戦㉕",
+  "title_search_normalized": "人外魔境新宿決戦25",
+  "start_page": 153,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-28"
+  ],
+  "source_locator": "単行本28巻 目次 p.153",
+  "summary_short": "真希は呪力を持たない肉体で宿儺と激突する。宿儺は呪術と肉体のどちらが頂点に立つかを試すように高揚し、黒閃を真希へ叩き込む。",
+  "summary_full": "真希は呪力を持たない肉体で宿儺と激突する。宿儺は呪術と肉体のどちらが頂点に立つかを試すように高揚し、黒閃を真希へ叩き込む。釈魂刀の傷は魂の輪郭を治癒できなければ再生できず、宿儺は心臓を呪力で動かしながら戦う。真希との肉体勝負に高揚し、宿儺は黒閃を成功させる。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "真希 vs. 宿儺 ! The King of Curses takes a particular interest in 真希's heavenly restriction , but that may not even be enough to take him down. When all other options seem lost, there still remains one unexpected grade 1 sorcerer left to continue the fight.",
+    "summary_full_legacy": "At some point in the past, 冥冥 , 七海建人 , 五条悟 , and 日下部篤也 were each asked who they believed to be the strongest grade 1 sorcerer . While their answers differed, 冥冥, 七海, and 五条 all named 日下部. 日下部 himself, however, rejected the idea, believing the title belonged to someone else, excluding both himself and Usami. 宿儺 hits 真希 with 黒閃. In the present, 禪院真希 ’s battle with 宿儺 continues to tear through the streets of 新宿 . When a missed 解 slices through a nearby structure, the collapsing debris causes several cars to fall between the two combatants. Exploiting the momentary obstruction, 宿儺 unleashes a slash that detonates one of the cars, hurling 真希 into a nearby building. He immediately pursues her, attempting to strike her with 捌 . At that moment, 猪野琢真 intervenes and attempts to attack 宿儺 using 獬豸 , but 宿儺 interrupts him with a barrage of slashes before kicking him out of the building. Standing near a shattered window, 宿儺 questions why 猪野 was not wielding the blunt sword cursed tool . Suddenly, 日下部 crashes through the ceiling above and attempts to ambush 宿儺 with the weapon. 宿儺, however, anticipates the attack and blocks it, pinning 日下部 against the wall. Before 宿儺 can capitalize on the situation, 真希 charges in and tackles him away from 日下部. 日下部 is the only sorcerer left to face 宿儺. 真希 and 宿儺 resume their fight inside the building, with 真希 pressing aggressively to end the battle as quickly as possible. 宿儺 reflects that despite facing numerous powerful sorcerers, 真希 excites him the most due to her complete abandonment of jujutsu through her Heavenly Restriction . Their clash spills back outside, where 宿儺 enthusiastically remarks that while jujutsu sorcery concerns the “skin and flesh,” 真希’s body represents “bone and marrow,” as her very existence contradicts the fundamentals of jujutsu. As they exchange blows, 宿儺 proclaims that the outcome of their battle will determine whether jujutsu sorcery or pure physical ability is more worthy of cultivation. He then catches the 釈魂刀 , while 真希 notices that 宿儺 has ceased healing himself with 反転術式 . Drawing back his fist, 宿儺 strikes 真希 and unleashes a devastating 黒閃 . The 黒閃 sends 真希 flying. Observing the battlefield, 日下部 wonders where the remaining sorcerers are and abandons his plan to retreat. Locking eyes with 宿儺, 日下部 realizes that he must face the King of Curses alone.",
+    "characters_raw_text": "冥冥 (回想) 七海建人 (回想) 五条悟 (回想) 禪院真希 宿儺 猪野琢真 日下部篤也 鹿紫雲一 (言及のみ) 日車寛見 (言及のみ) 乙骨憂太 (言及のみ) 虎杖悠仁 (言及のみ) 脹相 (言及のみ)",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "呪具 釈魂刀 七海's 鈍刀 宿儺の術式 黒閃 反転術式 術式 御廚子 捌／解 捌／解 猪野琢真の術式 来訪瑞獣 獬豸 獬豸",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-6309a7e2f4",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9"
+  ],
+  "technique_ids_candidate": [
+    "tech-146ed91574",
+    "tech-346182ab1b",
+    "tech-69d5ecb511",
+    "tech-7f37ba28b4",
+    "tech-cf5d1ac726",
+    "tech-d2feb31d47"
+  ],
+  "term_ids_candidate": [
+    "term-252cb4a664",
+    "term-69d5ecb511"
+  ],
+  "key_events_verified_phase11": [
+    "真希は呪力を持たない肉体で宿儺と激突する。",
+    "宿儺は呪術と肉体のどちらが頂点に立つかを試すように高揚し、黒閃を真希へ叩き込む。",
+    "釈魂刀の傷は魂の輪郭を治癒できなければ再生できず、宿儺は心臓を呪力で動かしながら戦う。",
+    "真希との肉体勝負に高揚し、宿儺は黒閃を成功させる。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-07918bda3f",
+    "char-0e7004da56",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3062a0117e",
+    "char-53c5711b23",
+    "char-6309a7e2f4",
+    "char-851111b10d",
+    "char-baadf43d19",
+    "char-c28763b98a",
+    "char-cf2d32d5b9"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-0e7004da56",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-3062a0117e",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-c28763b98a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-cf2d32d5b9",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-phase4-split-soul-katana",
+    "tech-69d5ecb511",
+    "tech-cf5d1ac726"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-phase4-split-soul-katana",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-69d5ecb511",
+      "relation": "used-explained-or-central"
+    },
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [
+    "term-69d5ecb511"
+  ],
+  "source_refs_phase11": [
+    "src-shueisha-vol-28",
+    "src-manga-games-vol-28",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

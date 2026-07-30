@@ -1,0 +1,133 @@
+{
+  "id": "ch-074",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 9,
+  "number": 74,
+  "zero_number": null,
+  "label": "第74話",
+  "title_official": "懐玉―拾―",
+  "title_search_normalized": "懐玉―拾―",
+  "start_page": 67,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "hidden-inventory",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-09"
+  ],
+  "source_locator": "単行本9巻 目次 p.67",
+  "summary_short": "甚爾は理子の遺体を盤星教へ運び報酬を受け取る。そこへ反転術式を会得して死を免れた五条が現れ、再戦を挑む。",
+  "summary_full": "甚爾は理子の遺体を盤星教「時の器の会」へ引き渡し、代表役員の園田茂から報酬を受け取る。帰路、殺したはずの五条が再び現れる。五条は喉を斬られた直後から、攻撃ではなく反転術式へ全神経を集中し、負の呪力同士から生じる正のエネルギーで肉体を治癒していた。死の淵で呪力の核心をつかんだ五条は、以前失敗していた術式反転「赫」も成功させ、甚爾を大きく吹き飛ばす。甚爾は異常な高揚状態の五条を前に再戦を選ぶ。",
+  "content_verification": "phase4-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "甚爾 ends up being the one to complete his mission, delivering 理子 's corpse to the 時の器の会 . After completing his task, 甚爾 leaves only to find that his fight is not over. A dead man walking, 五条悟 waits for him.",
+    "summary_full_legacy": "甚爾 delivers the 星漿体 Vessel's corpse to the 盤星教. At the 時の器の会 Head Quarters: 盤星教, 甚爾 delivers 星漿体 Vessel 's corpse to a direct representative of the 盤星教: Shigeru Sonoda . He confirms her death and states they will pay 甚爾 extra for his troubles. 天元様 began spreading Japanese Buddhism in the Nara Period and preached what would become the foundation of jujutsu sorcerers . The worlds of jujutsu and religion do not agree and from that disparity the 時の器の会 was born. Due to this, jujutsu sorcerers can't harm the group while non-curse users are perfect candidates to work for them. The 時の器の会 couldn't afford to allow an impure merger to take place, and they are ready to fall alongside the star if need be. 悟 returns from the dead to confront 甚爾. 甚爾 thinks Shigeru is crazy and asks the middle man why he didn't kill the maid. Instead of using 黒井's death, he created a false sense of security from the rescue. This helped 甚爾, who the middle man believes he owes a bit of a debt. They used a private jet to transport the hostage to 沖縄 , which 甚爾 and the middle man both think is hilarious. 甚爾 asks him to go out for food, but the man says he'd only associate with 甚爾 in business or in hell. 術式 術式反転「赫」 As 甚爾 exits the premises, he runs into a restored 五条悟. He's very surprised to see someone he killed not too long ago. 悟 reveals he used 反転術式 to heal himself and claims 甚爾 has lost for not cutting his head off. Overusing the 六眼 to process 無下限呪術 as well as the reversed 術式 has taxed 悟's brain, making him delirious with a crazed demeanor. He begins rambling about how he learned to pull off the 反転術式. At the very edge of death, 悟 experienced and understood the core of 呪力 . Insulted by the idea that he's lost, 甚爾 takes out the 天逆鉾 and claims the battle is just beginning. 悟 gets excited, agreeing with 甚爾 completely. 甚爾 attempts to blitz 悟, slashing at him several times. However, 悟 is able to avoid them and manages to get behind 甚爾 and levitates in the air. 甚爾 turns to face him in time, but 五条 learns to flow the positive energy into the 無下限呪術 technique to successfully unleash the 術式 術式反転「赫」 . The explosive repulsion power sends 甚爾 flying a great several hundred meters. As 悟 floats proudly with an insane smirk on his face, 甚爾 acknowledges that his young opponent is a monster.",
+    "characters_raw_text": "天内理子 伏黒甚爾 孔時雨 Shigeru Sonoda 夏油傑 (回想) 五条悟 家入硝子 (回想)",
+    "locations_raw_text": "盤星教",
+    "battles_events_raw_text": "五条悟 vs. 伏黒甚爾: Rematch (開始)",
+    "techniques_raw_text": "呪具 天逆鉾 五条悟の術式 無下限呪術 術式 術式反転「赫」／反転術式 術式 術式 術式反転「赫」",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "hidden-inventory",
+  "character_ids_candidate": [
+    "char-17322e71e5",
+    "char-22da946917",
+    "char-63e2590b87",
+    "char-b9d4880408",
+    "char-d4a4bc45c6",
+    "char-d5482ceba1"
+  ],
+  "technique_ids_candidate": [
+    "tech-6e6dd087e1",
+    "tech-cf2f8dca4a",
+    "tech-cf5d1ac726"
+  ],
+  "term_ids_candidate": [
+    "term-ad8bd57883",
+    "term-cf5d1ac726"
+  ],
+  "key_events_verified_phase4": [
+    "甚爾が理子の遺体を盤星教へ引き渡す",
+    "五条が反転術式で生還する",
+    "五条が術式反転「赫」を成功させる"
+  ],
+  "character_appearances_verified_phase4": [
+    {
+      "character_id": "char-63e2590b87",
+      "presence": "corpse"
+    },
+    {
+      "character_id": "char-d5482ceba1",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-22da946917",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-f575a0a3ee",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-and-revival"
+    },
+    {
+      "character_id": "char-b9d4880408",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-d4a4bc45c6",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase4": [
+    "char-63e2590b87",
+    "char-d5482ceba1",
+    "char-22da946917",
+    "char-f575a0a3ee",
+    "char-17322e71e5",
+    "char-b9d4880408",
+    "char-d4a4bc45c6"
+  ],
+  "technique_appearances_verified_phase4": [
+    {
+      "technique_id": "tech-cf5d1ac726",
+      "relation": "first-self-healing"
+    },
+    {
+      "technique_id": "tech-cf2f8dca4a",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-6e6dd087e1",
+      "relation": "first-successful-use"
+    }
+  ],
+  "technique_ids_verified_phase4": [
+    "tech-cf5d1ac726",
+    "tech-cf2f8dca4a",
+    "tech-6e6dd087e1"
+  ],
+  "term_ids_verified_phase4": [
+    "term-phase4-star-religious-group",
+    "term-phase4-time-vessel-association",
+    "term-cf5d1ac726"
+  ],
+  "verification_basis_phase4": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase4": "集英社公式8・9巻目次と巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第四段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase4": [
+    "src-shueisha-vol-09",
+    "src-manga-games-vol-09",
+    "src-official-character-vote-4"
+  ]
+}

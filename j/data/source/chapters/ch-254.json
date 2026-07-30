@@ -1,0 +1,137 @@
+{
+  "id": "ch-254",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 28,
+  "number": 254,
+  "zero_number": null,
+  "label": "第254話",
+  "title_official": "人外魔境新宿決戦㉖",
+  "title_search_normalized": "人外魔境新宿決戦26",
+  "start_page": 173,
+  "official_group_id": null,
+  "db_section_draft_id": "shinjuku-succession",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-28"
+  ],
+  "source_locator": "単行本28巻 目次 p.173",
+  "summary_short": "真希が戦線を離れた後、日下部が一人で宿儺と対峙する。簡易領域による自動迎撃と卓越した剣技で攻めるが、宿儺に敗れる。",
+  "summary_full": "真希が戦線を離れた後、日下部が一人で宿儺と対峙する。簡易領域による自動迎撃と卓越した剣技で攻めるが、宿儺に敗れる。宿儺に一級最強と評される日下部は、簡易領域の範囲内で自動迎撃し、斬撃へ反応する。刀が折れても拳で攻めるが敗れ、次の援軍が現れる。",
+  "content_verification": "phase11-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "日下部篤也 vs. 宿儺 !? Against his lackadaisical nature, 日下部 follows in the footsteps of his students and gives his all in the fight to stop the King of Curses.",
+    "summary_full_legacy": "Opening a 簡易領域 and activating Evening Moon Sword Drawing , 日下部 steels himself as he confronts 宿儺. Observing 日下部’s stance, 宿儺 questions why the grade 1 sorcerer is relying on sword-drawing techniques against an opponent who primarily employs ranged slashing attacks. He further notes that while 簡易領域 functions as an anti-domain and anti- barrier technique capable of nullifying a domain ’s guaranteed-hit effect, it cannot independently neutralize a 術式 . Nevertheless, as a 簡易領域 is still a domain, 宿儺 decides to test 日下部 by firing a single 解 . 日下部 automatically deflecting slashes from 宿儺. With a swift sword draw, 日下部 deflects the incoming slash using his katana. 日下部 increases his 呪力 output while slightly weakening 宿儺’s cursed techniques within the 簡易領域. Through Evening Moon Sword Drawing, by embedding his own programming into the domain, 日下部 enables it to automatically intercept anything that enters its range with his blade, reducing his reliance on manually reading 宿儺’s movements and fluctuations in 呪力. Suddenly, 日下部 narrowly deflects a slash aimed at his face and realizes that 宿儺 activated his 術式 without any visible motion. 宿儺 mockingly tells him to prepare for the next attack, which 日下部 assumes to be a world-cutting slash. At some point in the past, 冥冥 , 七海建人 , and 五条悟 explain why they believe 日下部 to be the strongest grade 1 sorcerer. 冥冥 states that while both she and 七海 surpass 日下部 in raw power, his versatility sets him apart. 七海 adds that he finds it easier to imagine 日下部 winning rather than losing, citing his mastery of swordsmanship, wide array of techniques, particularly barrier techniques and exceptional analytical and decision-making abilities stemming from his deep knowledge of jujutsu . 五条 further explains that unlike beginners who require a 縛り to use 簡易領域, such as 三輪霞 , who must keep both feet on the ground, 日下部 can deploy a wide-ranging 簡易領域 without any 縛り at all. \"I don't know anyone who can withstand that .\" In the present, 日下部 shifts to the offensive and expands the range of his 簡易領域 to encompass 宿儺, who realizes that this was done to broaden the target of 日下部’s 術式. During her interview, 冥冥 explained that while 新陰流 Style sword-drawing techniques are typically reactive counters meant to lure opponents in, 日下部’s expanded 簡易領域 and programmed automation allow him to overwhelm enemies despite lacking a 術式 of his own. 日下部 unleashes a relentless barrage of high-speed slashes, catching the King of Curses off guard and inflicting visible cuts all over his body. The man who went toe-to-toe with 五条悟, ミゲル joins the battle!? The sustained assault eventually shatters 日下部’s katana. Thinking quickly, he throws his coat into 宿儺’s face before striking him with a punch. 宿儺 retaliates by cutting the coat apart with 解 , but 日下部 evades the attack, ducks low, and kicks 宿儺 away before giving chase. As they clash through the streets of 新宿 , 日下部 reflects on why he continues to fight so desperately and realizes that he does so to avoid disappointing 夜蛾 . The interviews concluded with unanimous agreement that, despite his constant complaints, 日下部 is fundamentally kind-hearted. Evading a barrage of 解s, 日下部 resolves to stake his life on the battle and uses Hazy Moon to restore his katana’s blade and unleashes a surprise attack. 宿儺, however, anticipates the true target of the attack, his damaged heart, and catches the katana between his fingers. 日下部 is subsequently cut down and left bleeding. As 憂憂 arrives to teleport him away, 宿儺 suddenly appears behind them and remarks on how irritating 憂憂's presence has been. 憂憂 vanishes instantly, causing 宿儺’s attack to miss. Looking off into the distance, 宿儺 notes that he does not recognize 憂憂’s rescuer. Standing atop a nearby building and looking down at 宿儺, ミゲル taunts him for his ignorance, mocking the King of Curses for not knowing who he is.",
+    "characters_raw_text": "日下部篤也 宿儺 冥冥 (回想) 七海建人 (回想) 五条悟 (回想) 三輪霞 (想像) 夜蛾正道 (回想) 憂憂 ミゲル",
+    "locations_raw_text": "東京 新宿 新宿",
+    "battles_events_raw_text": "呪術師s vs. 宿儺",
+    "techniques_raw_text": "日下部篤也の術式 Evening Moon Sword Drawing Hazy Moon 簡易領域 宿儺の術式 御廚子 解 解",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "shinjuku-raid",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-58278d1ec5",
+    "char-6309a7e2f4",
+    "char-6d1d442a9a",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "technique_ids_candidate": [
+    "tech-d2feb31d47",
+    "tech-e28246ff34"
+  ],
+  "term_ids_candidate": [
+    "term-e28246ff34"
+  ],
+  "key_events_verified_phase11": [
+    "真希が戦線を離れた後、日下部が一人で宿儺と対峙する。",
+    "簡易領域による自動迎撃と卓越した剣技で攻めるが、宿儺に敗れる。",
+    "宿儺に一級最強と評される日下部は、簡易領域の範囲内で自動迎撃し、斬撃へ反応する。",
+    "刀が折れても拳で攻めるが敗れ、次の援軍が現れる。"
+  ],
+  "character_ids_verified_phase11": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-53c5711b23",
+    "char-58278d1ec5",
+    "char-6309a7e2f4",
+    "char-6d1d442a9a",
+    "char-e41848a08f",
+    "char-ebd2a8efa8"
+  ],
+  "character_appearances_verified_phase11": [
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-53c5711b23",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-58278d1ec5",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6309a7e2f4",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-6d1d442a9a",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-e41848a08f",
+      "presence": "appearance-or-explicit-reference"
+    },
+    {
+      "character_id": "char-ebd2a8efa8",
+      "presence": "appearance-or-explicit-reference"
+    }
+  ],
+  "technique_ids_verified_phase11": [
+    "tech-e28246ff34"
+  ],
+  "technique_appearances_verified_phase11": [
+    {
+      "technique_id": "tech-e28246ff34",
+      "relation": "used-explained-or-central"
+    }
+  ],
+  "term_ids_verified_phase11": [],
+  "source_refs_phase11": [
+    "src-shueisha-vol-28",
+    "src-manga-games-vol-28",
+    "src-legacy-ju-txt"
+  ],
+  "verification_basis_phase11": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase11": "集英社公式24～30巻目次・巻概要、日本語の原作漫画巻別資料、旧候補資料を話単位で突合した最終区間。単行本各ページの直接最終照合前。"
+}

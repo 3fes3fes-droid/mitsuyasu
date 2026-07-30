@@ -1,0 +1,147 @@
+{
+  "id": "ch-063",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 8,
+  "number": 63,
+  "zero_number": null,
+  "label": "第63話",
+  "title_official": "共犯",
+  "title_search_normalized": "共犯",
+  "start_page": 27,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-08"
+  ],
+  "source_locator": "単行本8巻 目次 p.27",
+  "summary_short": "虎杖と釘崎は壊相・血塗を殺した重さを共有し、伏黒と合流して八十八橋の事件を終える。伏黒と虎杖は宿儺の指が事件を招いた事情を互いに隠そうとする。",
+  "summary_full": "虎杖は壊相が弟の死に涙したことから、人に近い相手を殺した重さを口にする。釘崎は自分たちの判断が正しかったかを簡単には決めず、二人で殺した以上は共犯だと受け止める。伏黒と合流し、回収した宿儺の指は虎杖の手に現れた宿儺の口が勝手に飲み込む。伏黒は虎杖の受肉が八十八橋の呪いを活性化した事実を隠し、虎杖も宿儺の言葉を伏黒へ伝えない。五条は歌姫へ内通者調査を続けさせ、冥冥へ依頼する。東堂と冥冥は虎杖・伏黒・釘崎・真希・パンダを一級術師へ推薦する。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "Following the deaths of 壊相 and 血塗 , 悠仁 and 野薔薇 take a moment to reflect on what it means for them to take a life. Afterward, they meet up with 恵 and close this case for good. Meanwhile, 五条 enacts a plan to promote all of his young proteges.",
+    "summary_full_legacy": "\"I guess that makes us... accomplices.\" In the aftermath of the fight against the 呪胎九相図 , 悠仁 checks to make sure 野薔薇 is alright. She replies that she's fine despite her scarred left arm and the possibility of poison flowing through her body. She wonders if 硝子 will be awake and sober to heal her and then notices 悠仁 is acting weird. 悠仁 asks if this is the first time 野薔薇 has killed someone instead of exorcising them. 悠仁 has once before with the transfigured humans but 野薔薇 doesn't really have a problem with it. 野薔薇 believes since they're jujutsu sorcerers , they must follow their own moral compass. 悠仁 understands why they had to kill the brothers, but he's still saddened by the fact that 壊相 was crying for his brother who died in front of him. He took a life and tears were shed, and so 野薔薇 agrees that this makes them accomplices. 悠仁 and 野薔薇 return to underneath the bridge, where they find 恵 presumably unconscious. They're worried, but 恵 suddenly wakes up and expresses his gratitude that they're okay. Relieved, 悠仁 and 野薔薇 yell at 恵 for scaring them. He was lying down with a finger which needs to be sealed as soon as possible. 野薔薇 plans on calling 明 and 悠仁 offers to eat the finger. 野薔薇 doesn't think he should and 恵 adds that they're unsure how many fingers 悠仁 can consume. All three first years make it out of this mission alive. 恵 hands over the finger because 悠仁 appears to be the least worn down, but 宿儺 creates a mouth on 悠仁's palm and devours the finger. 悠仁 is annoyed since 宿儺 didn't even help and realizes what 五条 said about 宿儺 leading them to other fingers was nonsense. On behalf of 東堂葵 and 冥冥, five 東京 Jujutsu students are recommended for grade 1. Two days later, 五条 talks on the phone with 歌姫 to check on the status of the mole while bragging about the success of his students. 歌姫 reports isn't able to find any leads outside the students and will continue to look into it. 五条 turns to 冥冥 for another matter. She receives a check from him for ten million yen. 恵 tells 野薔薇 that 宿儺's incarnation triggered the 八十八橋 curse and asks that she don't tell 悠仁. At the same time 宿儺 taunts 悠仁 for causing all those deaths and he tells 宿儺 never to tell 恵. 東堂葵 and 冥冥 reunite with the Kyoto High Principal. 楽巌寺 states that special grades are anomalies among jujutsu sorcerers and grade 1 sorcerers are those who uphold the standards of the strongest sorcerers. The level of danger involved on mission and the compensation is far greater than any rank below it, including even semi-grade 1. With that in mind, 楽巌寺 asks for 葵 and Mei's request. They both put in a recommendation for 悠仁, 恵, 野薔薇, 真希 , and パンダ to be promoted to grade 1 sorcerers.",
+    "characters_raw_text": "釘崎野薔薇 虎杖悠仁 壊相 血塗 伏黒恵 宿儺 五条悟 庵歌姫 冥冥 楽巌寺嘉伸 東堂葵 パンダ 禪院真希",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": null,
+    "techniques_raw_text": null,
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-07918bda3f",
+    "char-17322e71e5",
+    "char-24d736edff",
+    "char-2b8d365a39",
+    "char-3c1852867d",
+    "char-3de3b8af11",
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-672d843799",
+    "char-964e851215",
+    "char-ac327bdd73",
+    "char-baadf43d19",
+    "char-d76df97dca"
+  ],
+  "technique_ids_candidate": [],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "虎杖と釘崎が殺人の重さを共有する",
+    "宿儺が回収した指を勝手に飲み込む",
+    "伏黒と虎杖が互いに事件の原因を隠す",
+    "東堂と冥冥が五人を一級術師へ推薦する"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "recollection"
+    },
+    {
+      "character_id": "char-3c1852867d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-2b8d365a39",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-17322e71e5",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-3de3b8af11",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-07918bda3f",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-ac327bdd73",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-d76df97dca",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-672d843799",
+      "presence": "mentioned"
+    },
+    {
+      "character_id": "char-24d736edff",
+      "presence": "mentioned"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-5a0f7ded8d",
+    "char-baadf43d19",
+    "char-6534bbe6c9",
+    "char-964e851215",
+    "char-3c1852867d",
+    "char-2b8d365a39",
+    "char-17322e71e5",
+    "char-3de3b8af11",
+    "char-07918bda3f",
+    "char-ac327bdd73",
+    "char-d76df97dca",
+    "char-672d843799",
+    "char-24d736edff"
+  ],
+  "technique_appearances_verified_phase3": [],
+  "technique_ids_verified_phase3": [],
+  "term_ids_verified_phase3": [
+    "term-a0ce00ef9e",
+    "term-phase3-grade1-recommendation",
+    "term-67566a7224"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-08",
+    "src-manga-games-vol-08",
+    "src-official-character-vote-4"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "ch-060",
+  "series": "jujutsu-kaisen-manga",
+  "volume": 7,
+  "number": 60,
+  "zero_number": null,
+  "label": "第60話",
+  "title_official": "起首雷同―陸―",
+  "title_search_normalized": "起首雷同―陸―",
+  "start_page": 153,
+  "official_group_id": "official-019-079",
+  "db_section_draft_id": "origin-obedience",
+  "verification": "official-metadata",
+  "source_refs": [
+    "src-shueisha-vol-07"
+  ],
+  "source_locator": "単行本7巻 目次 p.153",
+  "summary_short": "壊相と血塗の腐蝕によって虎杖と釘崎は毒に侵される。釘崎は自分にも釘を打ち込み、芻霊呪法「共鳴り」で兄弟へ同時に損傷を返す。",
+  "summary_full": "壊相は毒性の血で作った翅王を展開し、虎杖は釘崎を抱えて逃げるが、血塗との挟撃で二人とも血を浴びる。壊相が朽を発動すると、血が付着した箇所から腐蝕が始まり、一定時間後に死亡すると告げられる。壊相は明治期に呪霊と人間の子を宿した女性と、加茂憲倫による九度の妊娠・堕胎から呪胎九相図が生まれた経緯を語る。受肉した三兄弟は互いのために生きる道を選んでいた。釘崎は自分の腕へ釘を刺し、体内の血を媒介に共鳴りを発動して兄弟へ痛みを返す。",
+  "content_verification": "phase3-crosschecked-secondary-not-primary-pages",
+  "summary_authorship": "original-japanese-summary-for-private-db",
+  "candidate_evidence": {
+    "summary_short_legacy": "悠仁 and 野薔薇 face off against the brothers born as 呪胎九相図 Wombs . When the sorcerers are cursed by their opponents blood, the Girl of Steel finds the perfect way to counterattack.",
+    "summary_full_legacy": "悠仁 using his insane speed to carry 野薔薇 away from 壊相's wings of blood. 新田明 goes to check on the students in bed and notices they're all gone. She tries to call them to no avail and gets in her car to search for them. Elsewhere, 壊相 activates 蝕爛腐術 術式 , 極ノ番「翅王」 , sprouting insect-like wings made from his toxic blood. He states his opponents will suffer death by wasp as they prepare to deal with this new ability. They're forced to flee as 壊相 sends lines of poisonous blood to chase after them. 野薔薇 isn't able to get away fast enough so 悠仁 carries her and escapes using his extreme speed. 悠仁 is able to zig zag through the forest to quickly lose 壊相. Even so, the curse doesn't seem to be afraid. 悠仁 and 野薔薇 marked by 蝕爛腐術 術式: 朽. Just after 野薔薇 thanks 悠仁 for helping her out, they're abruptly ambushed by 血塗 . 悠仁 quickly realized 血塗 took the straight route to pursue them while 悠仁 went around. While 野薔薇 is concerned with 悠仁, she's hit from behind by 壊相's Wing King. Having caught up with his opponents, 壊相 explains that their acidic blood isn't too lethal but it does hurt like hell. 壊相 activates 蝕爛腐術 術式 朽 , which creates floral patterns across the spots on the sorcerer's bodies that were hit by the blood. 悠仁 believes that this is poison but 壊相 clarifies that it's actually having a decomposing effect on their bodies. With the advantage clearly in hand, 壊相 asks what they will do next. He recalls talking to his older brother about 呪術師s not being anything special. Three brothers living for each other and existing as one. In the Meiji Era, there was a girl who bore a child born of the mixed blood of both 呪霊 and human. She was ostracized by family and fled to a temple ran by 加茂憲紀 , the most evil sorcerer in history. There were nine pregnancies and nine abortions and all records of this were erased. However, the 呪胎九相図 Wombs do not remember their mother and have no hatred toward jujutsu sorcerers. For 150 years 呪胎九相図 Wombs 1-3 existed sealed away with only each other by their side. \"I'm a bad match for you!\" When they were finally incarnated, the three brothers decided to side with 真人 . The oldest brother, 脹相 , instructed them to live for each other and agreed to fight for a future the 呪霊 have painted for them. Returning his focus on his opponents, 壊相 says he can kill them to relieve the agony if they would like. However, 野薔薇 expectedly begins laughing. She admits the curses are strong but claims she's a terrible match of for them. 野薔薇 activates 芻霊呪法 術式 : 共鳴り and stabs herself in the wrist, injuring both 壊相 and 血塗. As blood drips from her impaled wrist, 野薔薇 smiles with excitement over her success and asks that they engage in a game of chicken.",
+    "characters_raw_text": "新田明 壊相 虎杖悠仁 釘崎野薔薇 血塗 加茂憲紀 (想像) 脹相 (回想)",
+    "locations_raw_text": "八十八橋",
+    "battles_events_raw_text": "虎杖悠仁 & 釘崎野薔薇 vs. 壊相 & 血塗",
+    "techniques_raw_text": "壊相の術式 蝕爛腐術 術式 朽／極ノ番「翅王」 朽／極ノ番「翅王」 血塗の術式 蝕爛腐術 術式 朽 朽 釘崎野薔薇の術式 芻霊呪法 術式 共鳴り",
+    "source_refs": [
+      "src-legacy-ju-txt"
+    ]
+  },
+  "editorial_notes": [],
+  "db_arc_id": "origin-obedience",
+  "character_ids_candidate": [
+    "char-0cb661851e",
+    "char-5a0f7ded8d",
+    "char-6534bbe6c9",
+    "char-830f121430",
+    "char-851111b10d",
+    "char-964e851215",
+    "char-baadf43d19"
+  ],
+  "technique_ids_candidate": [
+    "tech-2ac2471b12",
+    "tech-5c0ec253ee",
+    "tech-c8154fa79f",
+    "tech-d9180946ec",
+    "tech-d9efa28175"
+  ],
+  "term_ids_candidate": [],
+  "key_events_verified_phase3": [
+    "壊相が朽で虎杖と釘崎を腐蝕させる",
+    "呪胎九相図の成立と兄弟の関係が語られる",
+    "釘崎が自分へ釘を打つ",
+    "共鳴りが壊相と血塗へ届く"
+  ],
+  "character_appearances_verified_phase3": [
+    {
+      "character_id": "char-0cb661851e",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-6534bbe6c9",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-baadf43d19",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-5a0f7ded8d",
+      "presence": "appearance"
+    },
+    {
+      "character_id": "char-964e851215",
+      "presence": "appearance-and-recollection"
+    },
+    {
+      "character_id": "char-phase3-kamo-noritoshi-ancestor",
+      "presence": "historical-reference"
+    },
+    {
+      "character_id": "char-851111b10d",
+      "presence": "recollection"
+    }
+  ],
+  "character_ids_verified_phase3": [
+    "char-0cb661851e",
+    "char-6534bbe6c9",
+    "char-baadf43d19",
+    "char-5a0f7ded8d",
+    "char-964e851215",
+    "char-phase3-kamo-noritoshi-ancestor",
+    "char-851111b10d"
+  ],
+  "technique_appearances_verified_phase3": [
+    {
+      "technique_id": "tech-d9efa28175",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-5c0ec253ee",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-c8154fa79f",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-2ac2471b12",
+      "relation": "used"
+    },
+    {
+      "technique_id": "tech-d9180946ec",
+      "relation": "used"
+    }
+  ],
+  "technique_ids_verified_phase3": [
+    "tech-d9efa28175",
+    "tech-5c0ec253ee",
+    "tech-c8154fa79f",
+    "tech-2ac2471b12",
+    "tech-d9180946ec"
+  ],
+  "term_ids_verified_phase3": [
+    "term-c5958133bc",
+    "term-3f0111dca8",
+    "term-65867f280c",
+    "term-3777b71218"
+  ],
+  "verification_basis_phase3": {
+    "official_metadata_checked": true,
+    "japanese_manga_only_secondary_crosscheck": true,
+    "legacy_candidate_compared": true,
+    "primary_manga_page_direct_check": false,
+    "anime_movie_game_novel_used": false
+  },
+  "verification_notes_phase3": "集英社公式の単行本目次・巻概要、日本語の原作漫画巻別記事、旧候補資料を話単位で突合した第三段階。単行本各ページの直接最終照合前。",
+  "source_refs_phase3": [
+    "src-shueisha-vol-07",
+    "src-manga-games-vol-07",
+    "src-official-character-vote-4"
+  ]
+}
