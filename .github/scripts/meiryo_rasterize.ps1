@@ -1,11 +1,21 @@
 Add-Type -AssemblyName System.Drawing
 
-$families = [System.Drawing.FontFamily]::Families | ForEach-Object { $_.Name }
-if ($families -notcontains 'Meiryo') {
-  Write-Host 'Installed fonts containing Meiryo:'
-  $families | Where-Object { $_ -match 'Meiryo|メイリオ' } | ForEach-Object { Write-Host $_ }
-  throw 'Meiryo font is not installed on this Windows runner.'
+function Get-FontNames {
+  [System.Drawing.FontFamily]::Families | ForEach-Object { $_.Name }
 }
+
+$families = Get-FontNames
+if ($families -notcontains 'Meiryo') {
+  Write-Host 'Meiryo not present. Installing Japanese Supplemental Fonts...'
+  $p = Start-Process -FilePath dism.exe -ArgumentList '/Online','/Add-Capability','/CapabilityName:Language.Fonts.Jpan~~~und-JPAN~0.0.1.0','/NoRestart' -Wait -PassThru -NoNewWindow
+  if ($p.ExitCode -ne 0) { throw "DISM failed with exit code $($p.ExitCode)" }
+  Start-Sleep -Seconds 2
+  $families = Get-FontNames
+}
+if ($families -notcontains 'Meiryo') {
+  throw 'Meiryo is still unavailable after installing Japanese Supplemental Fonts.'
+}
+Write-Host 'Actual Meiryo found. Rasterizing UI glyphs.'
 
 $path = 'izuni.html'
 $html = Get-Content $path -Raw -Encoding UTF8
