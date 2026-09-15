@@ -1,0 +1,44 @@
+name: Resize izuni timetable text
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/resize-izuni.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resize timetable text
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('izuni.html')
+          s = p.read_text(encoding='utf-8')
+          old1 = '.top-direct{font-size:clamp(17px,5.2vw,25px)'
+          new1 = '.top-direct{font-size:clamp(34px,10.4vw,50px)'
+          old2 = '.chip .minute{font-size:15px;line-height:1}'
+          new2 = '.chip .minute{font-size:22.5px;line-height:1}'
+          if old1 not in s:
+              raise SystemExit('top-direct original CSS not found')
+          if old2 not in s:
+              raise SystemExit('minute original CSS not found')
+          s = s.replace(old1, new1, 1).replace(old2, new2, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit change
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add izuni.html
+          git diff --cached --quiet && exit 0
+          git commit -m 'Resize izuni timetable time text'
+          git push
