@@ -1,18 +1,21 @@
-name: Pixel 10a layout patch
+name: Pixel 10a izuni rebuild
+
 on:
   push:
+    branches: [main]
     paths:
       - '.github/workflows/pixel10a-layout-once.yml'
+
 permissions:
   contents: write
+
 jobs:
   patch:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Patch izuni.html
+      - name: Apply Pixel 10a layout and top-time text
         shell: bash
         run: |
           python - <<'PY'
@@ -71,14 +74,13 @@ jobs:
           s=s.replace(old,new,1)
           p.write_text(s,encoding='utf-8')
           PY
-          git diff --check -- izuni.html
-          git diff -- izuni.html
-      - name: Commit
+      - name: Verify and commit izuni only
         shell: bash
         run: |
+          git diff --check -- izuni.html
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add izuni.html
           git diff --cached --quiet && exit 0
-          git commit -m 'Tune izuni for Pixel 10a layout'
+          git commit -m 'Rebuild izuni for Pixel 10a proportions'
           git push
