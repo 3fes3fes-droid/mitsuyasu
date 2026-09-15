@@ -17,13 +17,13 @@ jobs:
       - name: Download required files
         shell: pwsh
         run: |
-          Write-Host 'Windows 11 Meiryo Install-Language attempt 3'
+          Write-Host 'Windows 11 Meiryo Install-Language attempt 4'
           New-Item -ItemType Directory -Force .github/scripts | Out-Null
           Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/izuni.html' -OutFile 'izuni.html'
           Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/.github/scripts/meiryo_rasterize.ps1' -OutFile '.github/scripts/meiryo_rasterize.ps1'
           Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/.github/scripts/meiryo_runtime.template.js' -OutFile '.github/scripts/meiryo_runtime.template.js'
       - name: Install Japanese language components
-        shell: pwsh
+        shell: powershell
         run: |
           Import-Module LanguagePackManagement -ErrorAction Stop
           Install-Language ja-JP -ErrorAction Stop
