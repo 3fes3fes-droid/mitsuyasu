@@ -6,10 +6,18 @@ function Get-FontNames {
 
 $families = Get-FontNames
 if ($families -notcontains 'Meiryo') {
-  Write-Host 'Meiryo not present. Installing Japanese Supplemental Fonts...'
+  Write-Host 'Meiryo not present. Enabling Windows Update services and installing Japanese Supplemental Fonts...'
+  foreach ($svcName in @('wuauserv','bits')) {
+    try {
+      Set-Service -Name $svcName -StartupType Manual -ErrorAction SilentlyContinue
+      Start-Service -Name $svcName -ErrorAction SilentlyContinue
+      $svc = Get-Service -Name $svcName -ErrorAction SilentlyContinue
+      if ($svc) { Write-Host "$svcName status: $($svc.Status)" }
+    } catch { Write-Host "$svcName start warning: $($_.Exception.Message)" }
+  }
   $p = Start-Process -FilePath dism.exe -ArgumentList '/Online','/Add-Capability','/CapabilityName:Language.Fonts.Jpan~~~und-JPAN~0.0.1.0','/NoRestart' -Wait -PassThru -NoNewWindow
-  if ($p.ExitCode -ne 0) { throw "DISM failed with exit code $($p.ExitCode)" }
-  Start-Sleep -Seconds 2
+  if ($p.ExitCode -notin @(0,3010)) { throw "DISM failed with exit code $($p.ExitCode)" }
+  Start-Sleep -Seconds 3
   $families = Get-FontNames
 }
 if ($families -notcontains 'Meiryo') {
