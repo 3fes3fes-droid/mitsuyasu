@@ -1,4 +1,4 @@
-name: Rasterize izuni Meiryo direct
+name: Rasterize izuni exact Meiryo
 
 on:
   push:
@@ -17,6 +17,7 @@ jobs:
       - name: Download only required files
         shell: pwsh
         run: |
+          Write-Host 'Meiryo rasterization version 4'
           New-Item -ItemType Directory -Force .github/scripts | Out-Null
           Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/izuni.html' -OutFile 'izuni.html'
           Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/.github/scripts/meiryo_rasterize.ps1' -OutFile '.github/scripts/meiryo_rasterize.ps1'
