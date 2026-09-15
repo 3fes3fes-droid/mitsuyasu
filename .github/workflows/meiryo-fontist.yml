@@ -1,0 +1,42 @@
+name: Rasterize izuni exact Meiryo via Fontist
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/meiryo-fontist.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rasterize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: windows-latest
+    steps:
+      - name: Download required files
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force .github/scripts | Out-Null
+          Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/izuni.html' -OutFile 'izuni.html'
+          Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/.github/scripts/meiryo_rasterize.ps1' -OutFile '.github/scripts/meiryo_rasterize.ps1'
+          Invoke-WebRequest 'https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/.github/scripts/meiryo_runtime.template.js' -OutFile '.github/scripts/meiryo_runtime.template.js'
+      - name: Install Fontist
+        shell: pwsh
+        run: gem install fontist --no-document
+      - name: Install actual Meiryo FOD
+        shell: pwsh
+        run: fontist install Meiryo --accept-all-licenses
+      - name: Verify and rasterize actual Meiryo
+        shell: pwsh
+        run: ./.github/scripts/meiryo_rasterize.ps1
+      - name: Replace izuni through GitHub API
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $headers = @{ Authorization = "Bearer $env:GH_TOKEN"; Accept = 'application/vnd.github+json'; 'X-GitHub-Api-Version' = '2022-11-28' }
+          $meta = Invoke-RestMethod -Headers $headers -Uri 'https://api.github.com/repos/3fes3fes-droid/mitsuyasu/contents/izuni.html?ref=main' -Method Get
+          $content = [Convert]::ToBase64String([System.IO.File]::ReadAllBytes((Resolve-Path 'izuni.html')))
+          $body = @{ message='Use actual Meiryo raster glyphs in izuni'; content=$content; sha=$meta.sha; branch='main' } | ConvertTo-Json -Compress
+          Invoke-RestMethod -Headers $headers -Uri 'https://api.github.com/repos/3fes3fes-droid/mitsuyasu/contents/izuni.html' -Method Put -Body $body -ContentType 'application/json' | Out-Null
