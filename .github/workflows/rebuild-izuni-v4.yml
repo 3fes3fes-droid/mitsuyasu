@@ -1,0 +1,29 @@
+name: Rebuild izuni UI v4
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rebuild-izuni-v4.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rebuild izuni
+        run: python .github/scripts/rebuild_izuni_v3.py
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add izuni.html
+          git diff --cached --quiet && exit 0
+          git commit -m 'Rebuild izuni bright balanced UI'
+          git push
