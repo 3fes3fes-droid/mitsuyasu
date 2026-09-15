@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
       - name: Rasterize actual Meiryo
         shell: pwsh
         run: ./.github/scripts/meiryo_rasterize.ps1
