@@ -276,6 +276,47 @@ header{
  .home-ico,.company-ico{width:54px;height:54px;flex-basis:54px}
 }
 
+
+/* 固定2列の過去時刻表示 */
+.hour.dim-past-block{
+ opacity:.34;
+ cursor:pointer;
+ user-select:none;
+ -webkit-tap-highlight-color:transparent;
+}
+.hour.dim-past-block .chip.past{opacity:1}
+.hour.hidden-past-block{display:none}
+
+/* Smartphone top-card fit: keep departure/arrival inside the card */
+@media (max-width:430px) and (orientation:portrait){
+ .top-card{
+  padding:10px;
+  border-radius:14px;
+  grid-template-columns:minmax(0,1fr) auto;
+  grid-template-areas:"times times" "count clock";
+  gap:6px 10px;
+ }
+ .top-times{
+  grid-area:times;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  overflow:hidden;
+  text-align:center;
+ }
+ .top-direct{
+  width:100%;
+  max-width:100%;
+  font-size:38px;
+  line-height:1;
+  letter-spacing:0;
+  white-space:nowrap;
+  overflow:hidden;
+ }
+ .countdown{grid-area:count;justify-self:start}
+ .clock{grid-area:clock;justify-self:end}
+}
+
 </style>
 </head>
 <body>
@@ -350,6 +391,7 @@ const STATIONS=[
 let currentRoute=localStorage.getItem('izunitta-route')||'out-daito';
 if(!ROUTES[currentRoute])currentRoute='out-daito';
 const selected={};
+const pastExpanded=Object.fromEntries(ROUTE_ORDER.map(r=>[r,false]));
 const pad=n=>String(n).padStart(2,'0');
 const key=(h,m)=>`${pad(h)}:${pad(m)}`;
 const toMin=t=>{const [h,m]=t.split(':').map(Number);return h*60+m};
@@ -422,8 +464,14 @@ function buildGrid(r){
  const cfg=ROUTES[r],grid=document.getElementById('grid-'+r),hours={};
  cfg.times.forEach(([h,m])=>(hours[h]??=[]).push(m));
  grid.className='hours-grid';
- grid.innerHTML=Object.keys(hours).map(Number).sort((a,b)=>a-b).map(h=>`<div class="hour"><div class="hour-label">${digitsHtml(h)}</div><div class="hour-line"></div><div class="minutes">${hours[h].map(m=>chipHtml(r,h,m)).join('')}</div></div>`).join('');
+ grid.innerHTML=Object.keys(hours).map(Number).sort((a,b)=>a-b).map(h=>`<div class="hour" data-hour="${h}"><div class="hour-label">${digitsHtml(h)}</div><div class="hour-line"></div><div class="minutes">${hours[h].map(m=>chipHtml(r,h,m)).join('')}</div></div>`).join('');
  grid.querySelectorAll('.chip[data-select="1"]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();selected[r]=el.dataset.time;renderRoute(r)}));
+ grid.querySelectorAll('.hour').forEach(hour=>hour.addEventListener('click',e=>{
+  if(!hour.classList.contains('dim-past-block'))return;
+  e.preventDefault();
+  pastExpanded[r]=true;
+  updatePastVisibility(r,nowMin());
+ }));
 }
 function chipHtml(r,h,m){
  const t=trip(r,h,m),tm=key(h,m),special=isSpecial(r,h,m),transfer=r==='out-numazu'||r==='home-numazu';
@@ -431,6 +479,31 @@ function chipHtml(r,h,m){
  if(transfer)return `<a href="#" class="${cls}" data-select="1" data-route="${r}" data-time="${tm}" data-min="${h*60+m}"><span class="minute">${digitsHtml(pad(m))}</span></a>`;
  const href=t.firstLink||'#';return `<a href="${href}" class="${cls}" data-route="${r}" data-time="${tm}" data-min="${h*60+m}" target="_blank" rel="noopener"><span class="minute">${digitsHtml(pad(m))}</span></a>`;
 }
+
+function updatePastVisibility(r,n){
+ const grid=document.getElementById('grid-'+r);
+ if(!grid)return;
+ const hours=[...grid.querySelectorAll('.hour')];
+ hours.forEach(hour=>hour.classList.remove('dim-past-block','hidden-past-block'));
+ if(pastExpanded[r])return;
+
+ const currentHour=Math.floor(n/60);
+ let currentIndex=hours.findIndex(hour=>Number(hour.dataset.hour)===currentHour);
+ if(currentIndex<0){
+  currentIndex=hours.findIndex(hour=>Number(hour.dataset.hour)>currentHour);
+  if(currentIndex<0)currentIndex=hours.length;
+ }
+ if(currentIndex<=0)return;
+
+ const rowStart=Math.floor(currentIndex/2)*2;
+ const keepStart=(currentIndex%2===1) ? rowStart : Math.max(0,rowStart-2);
+
+ hours.forEach((hour,i)=>{
+  if(i<keepStart)hour.classList.add('hidden-past-block');
+  else if(i<currentIndex)hour.classList.add('dim-past-block');
+ });
+}
+
 function renderRoute(r){
  document.querySelectorAll('.section').forEach(x=>x.classList.remove('visible'));document.getElementById('sec-'+r).classList.add('visible');
  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active-out','active-home'));
@@ -442,7 +515,7 @@ function renderRoute(r){
 function refresh(){
  const n=nowMin();
  for(const r of ROUTE_ORDER){
-  const nt=nextTrip(r);document.querySelectorAll(`#grid-${r} .chip`).forEach(x=>{const m=Number(x.dataset.min);x.classList.toggle('past',m<n);x.classList.toggle('next',!!nt&&x.dataset.time===nt.dep)});
+  const nt=nextTrip(r);document.querySelectorAll(`#grid-${r} .chip`).forEach(x=>{x.classList.toggle('next',!!nt&&x.dataset.time===nt.dep)});updatePastVisibility(r,n);
   if((r==='out-numazu'||r==='home-numazu')&&!selected[r]){const j=document.getElementById('journey-'+r);if(j)j.innerHTML=journeyHtml(nt)}
  }
  const t=nextTrip(currentRoute);
