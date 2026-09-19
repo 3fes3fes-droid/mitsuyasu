@@ -61,7 +61,16 @@ def collect_all():
                 union.append(v)
 
     if not union:
-        raise RuntimeError("No video IDs were collected.")
+        uploads_url = "https://www.youtube.com/playlist?list=UUCJge2nWVQwnJj9BxQMecWg"
+        uploads = collect_one("uploads", uploads_url)
+        results.append(uploads)
+        for v in uploads["ids"]:
+            if v not in seen:
+                seen.add(v)
+                union.append(v)
+
+    if not union:
+        raise RuntimeError("No video IDs were collected from channel tabs or official uploads playlist.")
 
     successful_explicit_tabs = [
         r for r in results
@@ -226,4 +235,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# trigger workflow channel-id fallback
+# trigger workflow official uploads fallback
