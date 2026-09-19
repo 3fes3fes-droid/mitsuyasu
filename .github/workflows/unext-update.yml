@@ -12,6 +12,10 @@ on:
         required: false
         default: "300"
 
+  push:
+    paths:
+      - "unext_run_trigger.txt"
+
 permissions:
   contents: write
 
