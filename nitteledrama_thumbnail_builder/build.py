@@ -9,7 +9,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-CHANNEL_BASE = "https://www.youtube.com/@nitteledrama"
+CHANNEL_BASE = "https://www.youtube.com/channel/UCCJge2nWVQwnJj9BxQMecWg"
 TARGETS = [
     ("videos", CHANNEL_BASE + "/videos"),
     ("shorts", CHANNEL_BASE + "/shorts"),
@@ -226,4 +226,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# trigger workflow
+# trigger workflow channel-id fallback
