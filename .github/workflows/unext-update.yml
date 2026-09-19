@@ -4,17 +4,18 @@ on:
   workflow_dispatch:
     inputs:
       max_items:
-        description: "Maximum number of new titles to fetch in this run"
+        description: "Maximum new titles in this run (0 = unlimited)"
         required: false
         default: "1000"
-  push:
-    paths:
-      - "un.py"
-      - ".github/workflows/unext-update.yml"
+      max_runtime_minutes:
+        description: "Stop cleanly after this many minutes (0 = unlimited)"
+        required: false
+        default: "300"
 
 permissions:
   contents: write
 
+# 同じDBを2本同時に更新させない。
 concurrency:
   group: unext-database-update
   cancel-in-progress: false
@@ -42,23 +43,28 @@ jobs:
 
       - name: Update U-NEXT database
         env:
-          MAX_ITEMS: ${{ inputs.max_items || '1000' }}
-          MAX_RUNTIME_MINUTES: "300"
-          SAVE_EVERY: "25"
+          MAX_ITEMS: ${{ inputs.max_items }}
+          MAX_RUNTIME_MINUTES: ${{ inputs.max_runtime_minutes }}
+          SAVE_EVERY: "100"
           REQUEST_TIMEOUT: "30"
+          MAX_SID_RETRIES: "3"
+          REQUEST_INTERVAL: "0.8"
         run: python un.py
 
-      - name: Commit updated database
+      - name: Commit database and crawl state
         shell: bash
         run: |
-          if git diff --quiet -- unext.json; then
-            echo "unext.json has no changes"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # unext_state.json は初回は未追跡なので、git diff ではなく先に add する。
+          git add -A -- unext.json unext_state.json
+
+          if git diff --cached --quiet; then
+            echo "No database/state changes"
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add unext.json
           git commit -m "Update U-NEXT database"
           git pull --rebase origin main
           git push origin HEAD:main
