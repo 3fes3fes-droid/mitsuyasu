@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - ".github/workflows/BS_NOBROCK-thumbnails.yml"
-      - "BS_NOBROCK_thumbnail_builder/**"
+      - ".github/workflows/bs-nobrock-thumbnails.yml"
+      - "bs_nobrock_thumbnail_builder/**"
 
 jobs:
   build:
@@ -27,12 +27,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install --upgrade "yt-dlp[default]"
       - name: Build complete embedded-thumbnail HTML
-        run: python BS_NOBROCK_thumbnail_builder/build.py
+        run: python bs_nobrock_thumbnail_builder/build.py
       - name: Upload result and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: BS_NOBROCK-all-thumbnails
-          path: BS_NOBROCK_thumbnail_builder/output/*
+          name: bs-nobrock-all-thumbnails
+          path: bs_nobrock_thumbnail_builder/output/*
           if-no-files-found: error
           retention-days: 7
