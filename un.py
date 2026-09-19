@@ -23,7 +23,8 @@ U-NEXT 作品データベース更新スクリプト
 5. SAVE_EVERY / MAX_ITEMS / MAX_RUNTIME_MINUTES 等を環境変数化。
    ローカル実行では従来どおり無制限、GitHub Actions 側だけ上限を設定できる。
 6. 取得失敗 SID は同一実行内で数回だけ再試行する。
-   永久ループは避け、次回実行で再発見された場合は再挑戦できる。
+   上限まで失敗した SID は deferred として次回実行へ回し、
+   ランキング外の関連作品でも探索経路を失わないようにした。
 7. unext.json の既存データ形式は変更しない。
    unext.html 等、既存の利用側を壊さないことを最優先にしている。
 """
@@ -91,25 +92,26 @@ def save_db(db):
 
 def load_state():
     """
-    [変更] pending は「まだ処理していない関連作品」の継続用キュー。
-    retry_counts は同一実行で通信失敗した SID の再試行回数。
+    [変更]
+    pending  = 通常の未処理キュー。
+    deferred = 前回、通信/APIエラーが上限回数続いたため次回送りにした SID。
     """
     state = load_json(STATE_FILE, {})
     pending = state.get('pending', [])
-    retry_counts = state.get('retry_counts', {})
+    deferred = state.get('deferred', [])
 
     if not isinstance(pending, list):
         pending = []
-    if not isinstance(retry_counts, dict):
-        retry_counts = {}
+    if not isinstance(deferred, list):
+        deferred = []
 
-    return pending, retry_counts
+    return pending, deferred
 
 
-def save_state(queue, retry_counts):
+def save_state(queue, deferred):
     save_json_atomic(STATE_FILE, {
         'pending': list(queue),
-        'retry_counts': retry_counts,
+        'deferred': list(deferred),
     })
 
 
@@ -253,32 +255,40 @@ def add_unseen(queue, seen, sids):
     return added
 
 
-def checkpoint(db, queue, retry_counts):
+def checkpoint(db, queue, deferred):
     """
-    [変更] DB と探索キューを同じタイミングで保存する。
+    [変更] DB と探索状態を同じタイミングで保存する。
     DBだけ先に進んだり、キューだけ先に進んだりするズレを最小化する。
     """
     save_db(db)
-    save_state(queue, retry_counts)
+    save_state(queue, deferred)
 
 
 def scrape(seed_sids=None):
     db = load_db()
 
-    # [変更] 前回 Actions が残した探索キューから再開する。
-    saved_pending, retry_counts = load_state()
-    queue = deque(saved_pending)
+    # [変更] 前回 Actions の未処理 + 次回送り SID をまとめて再開する。
+    saved_pending, saved_deferred = load_state()
+    resumed = list(dict.fromkeys(saved_pending + saved_deferred))
+    queue = deque(resumed)
 
     # DB登録済み + 既にキューにいる SID は重複追加しない。
     seen = set(db.keys())
     seen.update(queue)
+
+    # retry_counts は実行ごとにリセットする。
+    retry_counts = {}
+    deferred = []
 
     processed = 0
     changed_since_checkpoint = 0
     started = time.monotonic()
 
     print(f'取得済みDB: {len(db)} 件')
-    print(f'前回からの継続キュー: {len(queue)} 件')
+    print(
+        f'前回から再開: {len(queue)} 件 '
+        f'(通常 {len(saved_pending)} / エラー次回送り {len(saved_deferred)})'
+    )
 
     # 基本仕様：毎回ランキングを見て、新着の探索起点も追加する。
     ranking = get_ranking_sids()
@@ -292,7 +302,7 @@ def scrape(seed_sids=None):
             print(f'手動シード: {manual_added} 件追加')
 
     # ランキング/手動シード追加直後にも状態を残す。
-    save_state(queue, retry_counts)
+    save_state(queue, deferred)
 
     if not queue:
         print('新着・継続キューなし。終了します。')
@@ -328,7 +338,7 @@ def scrape(seed_sids=None):
             try:
                 entry, related = fetch_one(sid)
 
-                # 成功した SID の通信再試行記録は不要。
+                # 成功した SID の再試行記録は不要。
                 retry_counts.pop(sid, None)
 
                 if entry:
@@ -353,19 +363,20 @@ def scrape(seed_sids=None):
                         f'(SID再試行 {retry_count}/{MAX_SID_RETRIES - 1})'
                     )
                 else:
-                    # [変更] 同一実行で永久に回さない。
-                    # 次回ランキング/関連作品から再発見された場合は再挑戦可能。
+                    # [変更] 現在の実行では打ち切るが、SID自体は捨てない。
+                    # deferred に残し、次回 Actions の最初で通常キューへ戻す。
                     retry_counts.pop(sid, None)
-                    print(f'-> エラー: {e} (この実行では打ち切り)')
+                    deferred.append(sid)
+                    print(f'-> エラー: {e} (次回実行へ延期)')
 
                 time.sleep(2)
 
             if changed_since_checkpoint >= SAVE_EVERY:
-                checkpoint(db, queue, retry_counts)
+                checkpoint(db, queue, deferred)
                 changed_since_checkpoint = 0
                 print(
                     f'--- checkpoint: DB {len(db)}件 / '
-                    f'残キュー {len(queue)}件 ---'
+                    f'残キュー {len(queue)}件 / 延期 {len(deferred)}件 ---'
                 )
 
             if REQUEST_INTERVAL:
@@ -376,10 +387,11 @@ def scrape(seed_sids=None):
 
     finally:
         # [変更] 件数/時間上限・Ctrl+C・通常完了のすべてで次回再開可能にする。
-        checkpoint(db, queue, retry_counts)
+        checkpoint(db, queue, deferred)
         print(
             f'完了。今回 {processed} 件更新 / '
-            f'DB合計 {len(db)} 件 / 次回キュー {len(queue)} 件'
+            f'DB合計 {len(db)} 件 / '
+            f'次回キュー {len(queue) + len(deferred)} 件'
         )
 
 
