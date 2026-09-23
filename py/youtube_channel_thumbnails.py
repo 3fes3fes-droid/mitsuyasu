@@ -34,7 +34,13 @@ def ensure_ytdlp():
         )
 
 def normalize_channel_base(url: str) -> str:
-    url = url.strip().rstrip("/")
+    url = url.strip()
+    if "://" not in url:
+        url = "https://" + url.lstrip("/")
+
+    parsed = urlparse(url)
+    url = parsed._replace(query="", fragment="").geturl().rstrip("/")
+
     for suffix in ("/videos", "/shorts", "/streams", "/featured"):
         if url.endswith(suffix):
             url = url[:-len(suffix)]
