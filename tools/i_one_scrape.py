@@ -7,7 +7,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, parse_qs, quote
+from urllib.parse import urljoin, urlparse, parse_qs, quote, quote_plus
 
 import requests
 from bs4 import BeautifulSoup
@@ -64,6 +64,21 @@ def detail_id_from_href(href):
     vals = q.get("id")
     return vals[0] if vals else None
 
+def find_model_name(a):
+    p = a
+    for _ in range(7):
+        p = p.parent
+        if not p:
+            break
+        detail_links = p.find_all("a", href=True)
+        detail_count = sum(1 for x in detail_links if "/content/detail/" in x.get("href", ""))
+        model_links = [x for x in detail_links if "model=" in x.get("href", "")]
+        if model_links and detail_count <= 2:
+            name = model_links[0].get_text(" ", strip=True)
+            if name:
+                return name
+    return ""
+
 def extract_page(page):
     url = LIST_URL.format(page=page)
     r = get_with_retry(url)
@@ -116,11 +131,14 @@ def extract_page(page):
         if not src:
             src = derived_key_url(cid)
 
+        model = find_model_name(a)
+
         seen.add(cid)
         items.append({
             "id": cid,
             "detail": urljoin(BASE, href),
             "image": src,
+            "model": model,
             "page": page,
         })
 
@@ -167,10 +185,15 @@ def image_to_data_uri(item):
 
     return item["id"], None, None, last
 
-def build_html(images):
+def build_html(items):
     cells = "\n".join(
-        f'<img src="{data_uri}" loading="eager" decoding="async" alt="">'
-        for _, data_uri in images
+        (
+            f'<a href="https://www.youtube.com/results?search_query={quote_plus(item.get("model") or item["id"])}" '
+            f'target="_blank" rel="noopener noreferrer" aria-label="{item.get("model") or item["id"]}">'
+            f'<img src="{item["data_uri"]}" loading="eager" decoding="async" alt="">'
+            f'</a>'
+        )
+        for item in items
     )
     return f"""<!doctype html>
 <html lang="ja">
@@ -184,19 +207,21 @@ html,body{{margin:0;padding:0;background:#000}}
 body{{overflow-y:scroll}}
 #gallery{{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
-  gap:4px;
-  padding:4px;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:3px;
+  padding:3px;
   align-items:start;
+}}
+#gallery a{{
+  display:block;
+  min-width:0;
+  text-decoration:none;
 }}
 #gallery img{{
   width:100%;
   height:auto;
   display:block;
   background:#111;
-}}
-@media (max-width:700px){{
-  #gallery{{grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;padding:2px}}
 }}
 </style>
 </head>
@@ -281,7 +306,10 @@ def main():
             if done % 50 == 0 or done == len(futs):
                 print(f"images {done}/{len(futs)} ok={len(results)} fail={len(failures)}")
 
-    ordered = [(x["id"], results[x["id"]][0]) for x in all_items if x["id"] in results]
+    ordered = [
+        {**x, "data_uri": results[x["id"]][0]}
+        for x in all_items if x["id"] in results
+    ]
     OUT.write_text(build_html(ordered), encoding="utf-8")
     Path("i-one_failures.json").write_text(json.dumps(failures, ensure_ascii=False, indent=2), encoding="utf-8")
 
