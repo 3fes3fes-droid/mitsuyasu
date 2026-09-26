@@ -1,0 +1,40 @@
+name: TEMP YouTube channel thumbnails
+
+on:
+  push:
+    paths:
+      - ".github/workflows/_temp-youtube-channel-thumbnails.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install yt-dlp
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade "yt-dlp[default]"
+
+      - name: Build HTML
+        run: python py/youtube_channel_thumbnails.py "https://www.youtube.com/@melos--web4629/videos"
+
+      - name: Upload HTML
+        uses: actions/upload-artifact@v4
+        with:
+          name: melos-web4629-thumbnails
+          path: melos--web4629_all_thumbnails.html
+          if-no-files-found: error
+          retention-days: 1
