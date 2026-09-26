@@ -1,0 +1,39 @@
+name: i-one thumbnail scrape
+
+on:
+  push:
+    branches:
+      - tmp-i-one-scrape-20260926
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade requests beautifulsoup4 pillow
+
+      - name: Scrape pages and build embedded HTML
+        run: python tools/i_one_scrape.py
+
+      - name: Upload result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: i-one-subscription-thumbnails
+          path: |
+            i-one_subscription_thumbnails.html
+            i-one_items.json
+            i-one_failures.json
+          if-no-files-found: warn
+          compression-level: 0
