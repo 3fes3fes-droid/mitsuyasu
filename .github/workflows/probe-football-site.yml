@@ -1,0 +1,24 @@
+name: Probe football source
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/probe-football-site.yml"
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch site
+        shell: bash
+        run: |
+          set -euxo pipefail
+          curl -L --fail --show-error --max-time 30 -D /tmp/headers.txt -o /tmp/site.html 'https://mitsuyasu-memory.mitsuyasuuu.chatgpt.site/'
+          echo "BYTES=$(wc -c < /tmp/site.html)"
+          cat /tmp/headers.txt
+          echo "--- HTML HEAD ---"
+          head -c 12000 /tmp/site.html
+          echo
+          echo "--- ASSETS ---"
+          grep -Eo '(src|href)="[^"]+"' /tmp/site.html | head -100 || true
