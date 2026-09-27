@@ -1,0 +1,54 @@
+name: wbj_anime channel thumbnail build
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/wbj-anime-thumbnails.yml"
+      - "wbj_anime_thumbnail_builder/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Deno for YouTube JS challenges
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install latest yt-dlp
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade "yt-dlp[default]"
+
+      - name: Build complete embedded-thumbnail HTML
+        run: python wbj_anime_thumbnail_builder/build.py
+
+      - name: Verify only final HTML remains
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          d = Path("wbj_anime_thumbnail_builder/output")
+          files = list(d.iterdir())
+          assert len(files) == 1, files
+          assert files[0].name == "wbj_anime_all_thumbnails.html", files
+          print(files[0], files[0].stat().st_size)
+          PY
+
+      - name: Upload final HTML
+        uses: actions/upload-artifact@v4
+        with:
+          name: wbj-anime-all-thumbnails
+          path: wbj_anime_thumbnail_builder/output/wbj_anime_all_thumbnails.html
+          if-no-files-found: error
+          retention-days: 7
