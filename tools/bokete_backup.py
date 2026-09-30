@@ -256,6 +256,14 @@ def worker():
         try: fetch(url, kind)
         finally: q.task_done()
 
+# Add retry / externally supplied seeds when present.
+seed_file = os.getenv("SEED_FILE")
+if seed_file and Path(seed_file).exists():
+    for line in Path(seed_file).read_text(encoding="utf-8", errors="ignore").splitlines():
+        u = line.strip()
+        if u:
+            enqueue(u, 0, "page")
+
 # Seed direct pages.
 for u in SEEDS: enqueue(u, 0, "page")
 
