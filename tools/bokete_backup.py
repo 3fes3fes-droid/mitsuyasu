@@ -10,6 +10,9 @@ MAX_PAGES = int(os.getenv("MAX_PAGES", "250000"))
 MAX_ASSETS = int(os.getenv("MAX_ASSETS", "500000"))
 MAX_SECONDS = int(os.getenv("MAX_SECONDS", "3300"))
 WORKERS = int(os.getenv("WORKERS", "12"))
+RETRY_ATTEMPTS = int(os.getenv("RETRY_ATTEMPTS", "4"))
+SEEDS_ONLY = os.getenv("SEEDS_ONLY", "0") == "1"
+DISCOVER_PAGES = os.getenv("DISCOVER_PAGES", "1") != "0"
 START = time.time()
 
 PAGE_HOSTS = {"bokete.jp", "www.bokete.jp", "select.bokete.jp"}
@@ -161,7 +164,8 @@ def rewrite_html(url, body, out_path):
             absu = normalize(val, url)
             if not absu: continue
             if kind == "page" and is_page(absu):
-                enqueue(absu, 0, "page")
+                if DISCOVER_PAGES:
+                    enqueue(absu, 0, "page")
                 tag[attr] = rel_target(out_path, absu)
             elif kind == "asset":
                 enqueue(absu, 1, "asset")
@@ -206,7 +210,7 @@ def fetch(url, kind):
         queued.discard(url)
     try:
         r = None
-        for attempt in range(4):
+        for attempt in range(RETRY_ATTEMPTS):
             r = session().get(url, timeout=(8,25), allow_redirects=True)
             if r.status_code not in (429, 500, 502, 503, 504):
                 break
@@ -269,31 +273,32 @@ if seed_file and Path(seed_file).exists():
         if u:
             enqueue(u, 0, "page")
 
-# Seed direct pages.
-for u in SEEDS: enqueue(u, 0, "page")
+if not SEEDS_ONLY:
+    # Seed direct pages.
+    for u in SEEDS: enqueue(u, 0, "page")
 
-# Seed robots/sitemaps; sitemap links are added if accessible.
-for sm in SITEMAPS:
-    try:
-        r = session().get(sm, timeout=10)
-        if r.ok:
-            (LOG / ("seed_" + hashlib.sha1(sm.encode()).hexdigest()[:8] + ".txt")).write_bytes(r.content)
-            text = r.text
-            for m in re.findall(r'https?://[^\s<>"\']+', text):
-                m = m.replace("&amp;","&")
-                if is_page(normalize(m) or ""):
-                    enqueue(m,0,"page")
-                elif "sitemap" in m.lower():
-                    try:
-                        rr = session().get(m, timeout=15)
-                        if rr.ok:
-                            for mm in re.findall(r'<loc>\s*(.*?)\s*</loc>', rr.text, re.I):
-                                enqueue(mm,0,"page")
-                    except Exception: pass
-            for mm in re.findall(r'<loc>\s*(.*?)\s*</loc>', text, re.I):
-                enqueue(mm,0,"page")
-    except Exception:
-        pass
+    # Seed robots/sitemaps; sitemap links are added if accessible.
+    for sm in SITEMAPS:
+        try:
+            r = session().get(sm, timeout=10)
+            if r.ok:
+                (LOG / ("seed_" + hashlib.sha1(sm.encode()).hexdigest()[:8] + ".txt")).write_bytes(r.content)
+                text = r.text
+                for m in re.findall(r'https?://[^\s<>"\']+', text):
+                    m = m.replace("&amp;","&")
+                    if is_page(normalize(m) or ""):
+                        enqueue(m,0,"page")
+                    elif "sitemap" in m.lower():
+                        try:
+                            rr = session().get(m, timeout=15)
+                            if rr.ok:
+                                for mm in re.findall(r'<loc>\s*(.*?)\s*</loc>', rr.text, re.I):
+                                    enqueue(mm,0,"page")
+                        except Exception: pass
+                for mm in re.findall(r'<loc>\s*(.*?)\s*</loc>', text, re.I):
+                    enqueue(mm,0,"page")
+        except Exception:
+            pass
 
 threads = [threading.Thread(target=worker, daemon=True) for _ in range(WORKERS)]
 for t in threads: t.start()
