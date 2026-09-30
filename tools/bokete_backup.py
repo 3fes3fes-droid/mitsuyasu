@@ -205,7 +205,12 @@ def fetch(url, kind):
         seen.add(url)
         queued.discard(url)
     try:
-        r = session().get(url, timeout=(8,25), allow_redirects=True)
+        r = None
+        for attempt in range(4):
+            r = session().get(url, timeout=(8,25), allow_redirects=True)
+            if r.status_code not in (429, 500, 502, 503, 504):
+                break
+            time.sleep(min(8, 1.5 * (attempt + 1)))
         final = normalize(r.url) or url
         ct = r.headers.get("content-type","").lower()
         data = r.content
