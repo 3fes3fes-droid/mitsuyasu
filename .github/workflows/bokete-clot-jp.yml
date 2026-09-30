@@ -1,0 +1,72 @@
+name: Bokete CLoT Japanese supplement
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/bokete-clot-jp.yml"]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download public Japanese Bokete research data
+        run: |
+          mkdir -p bokete_clot_jp
+          curl -fL --retry 4 --retry-all-errors \
+            "https://huggingface.co/datasets/zhongshsh/CLoT-Oogiri-GO/resolve/main/jp.jsonl?download=true" \
+            -o bokete_clot_jp/jp.jsonl
+          ls -lh bokete_clot_jp/jp.jsonl
+      - name: Build offline searchable HTML
+        run: |
+          python - <<'PY'
+          import json, html
+          from pathlib import Path
+          p=Path('bokete_clot_jp/jp.jsonl')
+          rows=[]
+          bad=0
+          for line in p.read_text(encoding='utf-8',errors='replace').splitlines():
+              if not line.strip(): continue
+              try:
+                  x=json.loads(line)
+                  rows.append({
+                      'type':x.get('type'),
+                      'question':x.get('question'),
+                      'image':x.get('image'),
+                      'text':x.get('text'),
+                      'star':x.get('star'),
+                  })
+              except Exception:
+                  bad+=1
+          payload=json.dumps(rows,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
+          page='''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+          <title>Bokete CLoT 日本語補完アーカイブ</title>
+          <style>
+          body{font-family:system-ui,sans-serif;background:#111;color:#eee;margin:0}header{position:sticky;top:0;background:#181818;padding:12px;z-index:2}
+          h1{font-size:20px;margin:0 0 8px}input,select{padding:10px;font-size:16px;background:#222;color:#eee;border:1px solid #555}
+          input{width:min(700px,70vw)}#meta{color:#aaa;margin:8px 0}.card{border-bottom:1px solid #333;padding:12px}
+          .boke{font-size:20px;margin:6px 0;white-space:pre-wrap}.q,.id,.star{color:#aaa}.star{font-weight:700}
+          </style>
+          <header><h1>Bokete CLoT 日本語補完アーカイブ</h1>
+          <input id=q placeholder="ボケ・お題・画像IDを検索"><select id=t><option value="">全種別</option><option>I2T</option><option>IT2T</option><option>T2T</option></select>
+          <div id=meta></div></header><main id=list></main>
+          <script id=data type="application/json">'''+payload+'''</script>
+          <script>
+          const D=JSON.parse(document.querySelector('#data').textContent),q=document.querySelector('#q'),t=document.querySelector('#t'),L=document.querySelector('#list'),M=document.querySelector('#meta');
+          let timer;function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+          function render(){let z=q.value.toLowerCase(),ty=t.value,a=D.filter(x=>(!ty||x.type===ty)&&(!z||JSON.stringify(x).toLowerCase().includes(z)));
+          M.textContent='全 '+D.length.toLocaleString()+' 件 / 表示 '+a.length.toLocaleString()+' 件';
+          L.innerHTML=a.slice(0,5000).map(x=>'<article class=card><div class=id>'+esc(x.type)+' / image '+esc(x.image)+'</div><div class=boke>'+esc(x.text)+'</div><div class=q>'+esc(x.question||'')+'</div><div class=star>★ '+esc(x.star??'')+'</div></article>').join('')+(a.length>5000?'<p>表示は先頭5000件まで。検索で絞り込み。</p>':'')}
+          q.oninput=()=>{clearTimeout(timer);timer=setTimeout(render,100)};t.onchange=render;render();
+          </script></html>'''
+          Path('bokete_clot_jp/index.html').write_text(page,encoding='utf-8')
+          Path('bokete_clot_jp/INFO.txt').write_text(f'rows={len(rows)}\\nbad_lines={bad}\\nsource=CLoT-Oogiri-GO jp.jsonl\\n',encoding='utf-8')
+          print('rows',len(rows),'bad',bad,'html bytes',len(page.encode()))
+          PY
+      - name: Upload supplement
+        uses: actions/upload-artifact@v4
+        with:
+          name: bokete-clot-jp-html
+          path: bokete_clot_jp/
+          retention-days: 90
+          compression-level: 6
