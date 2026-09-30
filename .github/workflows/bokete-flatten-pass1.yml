@@ -1,0 +1,30 @@
+name: Bokete flatten pass1
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/bokete-flatten-pass1.yml"]
+permissions:
+  actions: read
+  contents: read
+jobs:
+  flatten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: bokete-backup-2026-09-30
+          path: prev
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 36706126361
+      - run: |
+          cat prev/bokete_backup.tar.zst.part-* > /tmp/site.tar.zst
+          tar --zstd -xf /tmp/site.tar.zst
+          test -f bokete_backup/index.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bokete-html-pass1-ready
+          path: bokete_backup/
+          retention-days: 90
+          compression-level: 6
