@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         画像生成
 // @namespace    image-generation.local
-// @version      7.5.10
+// @version      7.6.0
 // @description  全国1,741自治体・実景説明3周目（Chromebook検証修正反映／自動実行・重複送信防止・自動復旧）
 // @updateURL    https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/tampermonkey/image-generation.user.js
 // @downloadURL  https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/tampermonkey/image-generation.user.js
@@ -33,10 +33,9 @@
 服装：デザインと素材は個性的に生成。色や柄は無地、原色、柄、ネオン、派手、地味、光沢、メタリック、細い紐、レース、フリル付き、透けた薄い素材、ミニスカート
 `;
 
-  const INTERVAL_MINUTES = 1;
-  const MAX_GENERATION_MINUTES = 30;
-  const GENERATION_STALL_MINUTES = 8;
-  const NO_IMAGE_IDLE_SECONDS = 180;
+  // 送信から次の送信までの総時間。検出と残り待機を含めて5分。
+  const CYCLE_MINUTES = 5;
+  const PRE_SEND_RETRY_SECONDS = 60;
   const SEND_CONFIRM_SECONDS = 75;
   const COMPOSER_WAIT_SECONDS = 60;
   const LIMIT_RETRY_MINUTES = 30;
@@ -2245,12 +2244,13 @@
   // ============================================================
 
   const SCRIPT_NAME = '画像生成 3周目';
-  const SCRIPT_VERSION = '7.5.4';
+  const SCRIPT_VERSION = '7.6.0';
   const DATASET_ID = 'japan-1741-2026-09-05-background-description-v3-random-environment';
   const EXPECTED_TOTAL = 1741;
   const ROOT_URL = 'https://chatgpt.com/';
 
   const STATE_KEY = 'image_generation_state_v7_third_pass';
+  const PREVIOUS_STATE_KEY = 'image_generation_state_before_v7_6_0';
   const LOG_KEY = 'image_generation_logs_v7_third_pass';
   const FALLBACK_TAB_ID_KEY = 'image_generation_tab_id_v7_third_pass';
   const STATE_LOCK_NAME = 'image_generation_state_lock_v7_third_pass';
@@ -2267,13 +2267,12 @@
   const LOG_LIMIT = 3000;
   const LOG_COPY_LIMIT = 1200;
   // 送信後はChatGPT自身のSPAから移動しない。URLは診断用途だけに保存する。
-  const RECOVERY_GRACE_MINUTES = 3;
-  const IMAGE_STABLE_READS = 2;
   const RESULT_COMPLETE_STABLE_MS = 5 * 1000;
+  const IMAGE_WITH_STOP_STABLE_MS = 15 * 1000;
+  const MIN_RESULT_IMAGE_SIDE = 128;
   const LEGACY_SENT_RECOVERY_GRACE_MS = 5 * 1000;
   const SAME_PAGE_SENT_RECOVERY_GRACE_MS = 15 * 1000;
   const RELOADED_SENT_RECOVERY_GRACE_MS = 7 * 1000;
-  const TARGET_TURN_MISSING_GRACE_MS = 10 * 1000;
 
   const PHASE = Object.freeze({
     CLAIMING: 'CLAIMING',
@@ -2969,6 +2968,7 @@
       limitBackoffLevel: 0,
       lastCompletedAt: 0,
       lastProgressAt: 0,
+      lastOutcome: null,
       lastError: '',
       updatedAt: Date.now(),
     };
@@ -3050,7 +3050,7 @@
     // v7.5.4へ初回更新した時だけ、旧版の8秒/20秒待機を5分待機へ補正する。
     if (sourceSchema < 10 && [PHASE.RECOVERING, PHASE.RETRY_WAIT].includes(state.phase) && state.index < total) {
       state.phase = PHASE.COOLDOWN;
-      state.nextAt = Math.max(state.nextAt, Date.now() + INTERVAL_MINUTES * 60 * 1000);
+      state.nextAt = Math.max(state.nextAt, Date.now() + PRE_SEND_RETRY_SECONDS * 1000);
     }
 
     if (state.attempt && state.attempt.index !== state.index) state.attempt = null;
@@ -3076,6 +3076,11 @@
   }
 
   let stateCache = (() => {
+    // 旧版の進捗も初回だけ退避する。通常の再起動では上書きしない。
+    const previous = GM_getValue(STATE_KEY, null);
+    if (previous && !GM_getValue(PREVIOUS_STATE_KEY, null)) {
+      GM_setValue(PREVIOUS_STATE_KEY, JSON.stringify({ savedAt: Date.now(), state: parseStored(previous) }));
+    }
     const existing = parseStored(GM_getValue(STATE_KEY, null));
     return saveStateDirect(existing || defaultState());
   })();
@@ -3136,7 +3141,13 @@
   }
 
   function conversationScope() {
-    return document.querySelector('main') || document.body || document.documentElement;
+    const mains = [...document.querySelectorAll('main, [role="main"]')];
+    const scope = mains.find(node => isVisible(node) && node.querySelector('[data-turn-key], [data-message-author-role], [data-testid^="conversation-turn-"]')) ||
+      mains.find(isVisible) || document.body || document.documentElement;
+    // 画像ツールがmainの兄弟として描画される構成も扱う。画像分類側で入力・サイドバーは除外する。
+    const resultOutside = [...document.querySelectorAll('[data-testid="generated-image-gallery"], [data-testid="generated-image-preview"]')]
+      .some(node => !scope.contains(node) && !node.closest('nav, aside, form, [role="navigation"]'));
+    return resultOutside ? (document.body || scope) : scope;
   }
 
   function findComposer() {
@@ -3154,7 +3165,7 @@
       for (const element of document.querySelectorAll(selector)) {
         if (candidates.includes(element) || !isVisible(element)) continue;
         if (element.closest(`#${PANEL_ID}`)) continue;
-        if (element.closest('[data-message-author-role], [data-turn], section[data-testid^="conversation-turn-"]')) continue;
+        if (element.closest('[data-message-author-role], [data-turn], [data-turn-key], [data-user-message-bubble], [data-conversation-role], section[data-testid^="conversation-turn-"]')) continue;
         candidates.push(element);
       }
     }
@@ -3171,89 +3182,154 @@
 
   function isStopButton(button) {
     if (!button || !(button instanceof Element)) return false;
-    const testid = String(button.getAttribute('data-testid') || '').toLowerCase();
-    if (testid === 'stop-button') return true;
-    const label = normalizeText(button.getAttribute('aria-label') || button.getAttribute('title') || '').toLowerCase();
-    return new Set([
-      'stop streaming', 'stop generating', 'stop response', 'stop',
-      '生成を停止', '応答を停止', '停止',
-    ]).has(label) || (button.id === 'composer-submit-button' && /(^|\s)stop(\s|$)/i.test(label));
+    if (button.getAttribute('data-testid') === 'stop-button') return true;
+    const label = normalizeText(button.getAttribute('aria-label') || button.getAttribute('title') || elementText(button)).toLowerCase();
+    if (/voice|dictat|read aloud|音声|読み上げ|语音/i.test(label)) return false;
+    return /^(?:stop(?: generating(?: response)?| streaming| response| generation)?|停止|中止|生成を停止|生成を中止|応答を停止|応答を中止)[.!。]?$/.test(label);
   }
 
   function findStopButton() {
-    const composer = findComposer();
-    const form = composer?.closest?.('form');
-    const selectors = [
-      'button[data-testid="stop-button"]',
-      'button#composer-submit-button',
-      'button[aria-label="Stop streaming"]',
-      'button[aria-label="Stop generating"]',
-      'button[aria-label="生成を停止"]',
-      'button[aria-label="応答を停止"]',
-    ];
-    for (const scope of [form, conversationScope()].filter(Boolean)) {
-      for (const selector of selectors) {
-        for (const button of scope.querySelectorAll(selector)) {
-          if (isVisible(button) && !isDisabled(button) && isStopButton(button)) return button;
-        }
+    const form = findComposer()?.closest?.('form');
+    for (const scope of [...new Set([form, conversationScope()].filter(Boolean))]) {
+      for (const button of scope.querySelectorAll('button')) {
+        if (button.closest(`#${PANEL_ID}, nav, aside, [role="navigation"]`)) continue;
+        if (isVisible(button) && !isDisabled(button) && isStopButton(button)) return button;
       }
     }
     return null;
   }
 
   function findSendButton(includeDisabled = false) {
-    const composer = findComposer();
-    const form = composer?.closest?.('form');
-    const selectors = [
-      'button[data-testid="send-button"]',
-      'button#composer-submit-button',
-      'button[aria-label="Send prompt"]',
-      'button[aria-label="Send message"]',
-      'button[aria-label="Send"]',
-      'button[aria-label="送信"]',
-    ];
-    for (const scope of [form, document].filter(Boolean)) {
-      for (const selector of selectors) {
-        for (const button of scope.querySelectorAll(selector)) {
-          if (!isVisible(button) || button.closest(`#${PANEL_ID}`) || isStopButton(button)) continue;
-          if (!includeDisabled && isDisabled(button)) continue;
-          return button;
-        }
+    const form = findComposer()?.closest?.('form');
+    const knownSelector = 'button[data-testid="send-button"], button#composer-submit-button, button[aria-label="Send prompt"], button[aria-label="Send message"], button[aria-label="Send"], button[aria-label="送信"]';
+    for (const scope of [...new Set([form, document].filter(Boolean))]) {
+      const selector = scope === form ? `${knownSelector}, button[type="submit"]` : knownSelector;
+      for (const button of scope.querySelectorAll(selector)) {
+        if (!isVisible(button) || button.closest(`#${PANEL_ID}, nav, aside, [role="navigation"]`) || isStopButton(button)) continue;
+        if (!includeDisabled && isDisabled(button)) continue;
+        const label = `${button.getAttribute('aria-label') || ''} ${button.getAttribute('title') || ''} ${button.getAttribute('data-testid') || ''}`;
+        if (/voice|dictat|音声|読み上げ|语音/i.test(label)) continue;
+        return button;
       }
     }
     return null;
   }
 
+  // Compatibility for legacy conversation turns and keyed exchanges containing both roles.
+  // The WeakMap preserves real DOM nodes as the public turn API; no page DOM is modified.
+  const TURN_PARTS = new WeakMap();
+  const USER_MESSAGE_SELECTOR = '[data-user-message-bubble], [data-message-author-role="user"], [data-turn="user"]';
+  const ASSISTANT_BODY_SELECTOR = '[data-message-author-role="assistant"], [data-turn="assistant"], [data-markdown-copy], [data-testid="generated-image-gallery"], [data-testid="generated-image-preview"]';
+  const GENERATED_IMAGE_CONTAINER_SELECTOR = '[data-testid="generated-image-preview"], [data-testid="generated-image-gallery"]';
+
+
   function topLevelTurnElements() {
     const scope = conversationScope();
-    const sections = [...scope.querySelectorAll('section[data-testid^="conversation-turn-"]')]
-      .filter(section => !section.parentElement?.closest?.('section[data-testid^="conversation-turn-"]'));
-    if (sections.length) return sections;
+    if (!scope?.querySelectorAll) return [];
+    const entries = [];
+    const ownNodes = (root, selector) => {
+      const nodes = [...(root.matches(selector) ? [root] : []), ...root.querySelectorAll(selector)];
+      return nodes.filter(node => {
+        const keyed = node.closest('[data-turn-key]');
+        return keyed === root || (keyed && root.contains(keyed) && keyed.getAttribute('data-turn-key') === root.getAttribute('data-turn-key'));
+      });
+    };
+    const outerParts = nodes => [...new Set(nodes)].filter(node => !nodes.some(other => other !== node && other.contains(node)));
+    const add = (node, role, key, parts = [node]) => {
+      if (!node || node.closest(`#${PANEL_ID}, nav, aside, [role="navigation"], form`)) return;
+      entries.push({ node, role, key, parts });
+    };
 
-    const roleNodes = [...scope.querySelectorAll('[data-message-author-role], [data-turn="user"], [data-turn="assistant"]')];
-    const candidates = roleNodes.map(node => node.closest('[data-testid^="conversation-turn-"]') || node);
-    return [...new Set(candidates)].filter(node => !candidates.some(other => other !== node && other.contains(node)));
+    const keyedRoots = [...scope.querySelectorAll('[data-turn-key]')].filter(root => {
+      const parent = root.parentElement?.closest('[data-turn-key]');
+      return !parent || parent.getAttribute('data-turn-key') !== root.getAttribute('data-turn-key');
+    });
+    for (const root of keyedRoots) {
+      const key = root.getAttribute('data-turn-key') || '';
+      const users = outerParts(ownNodes(root, USER_MESSAGE_SELECTOR));
+      // The bubble is the exact prompt text; a keyed root can also contain the reply.
+      for (const user of users) {
+        const bubble = user.matches('[data-user-message-bubble]') ? user : user.querySelector('[data-user-message-bubble]');
+        add(bubble || user, 'user', key ? `key:${key}:user` : '');
+      }
+      const assistantParts = outerParts(ownNodes(root, ASSISTANT_BODY_SELECTOR)
+        .filter(node => !node.closest(USER_MESSAGE_SELECTOR)));
+      if (assistantParts.length) add(assistantParts[0], 'assistant', key ? `key:${key}:assistant` : '', assistantParts);
+      // An assistant heading exists before its reply; do not treat the heading as a reply.
+    }
+
+    const legacy = [...scope.querySelectorAll('[data-testid^="conversation-turn-"], [data-message-author-role], [data-turn="user"], [data-turn="assistant"]')]
+      .filter(node => !node.closest('[data-turn-key]'));
+    const legacyRoots = legacy.filter(node => !legacy.some(other => other !== node && other.contains(node)));
+    for (const root of legacyRoots) {
+      const directRole = root.getAttribute('data-message-author-role') || root.getAttribute('data-turn');
+      if (directRole === 'user' || directRole === 'assistant') {
+        const id = root.getAttribute('data-message-id') || root.getAttribute('data-testid');
+        add(root, directRole, id ? `legacy:${id}:${directRole}` : '');
+        continue;
+      }
+      const roles = outerParts([...root.querySelectorAll('[data-message-author-role="user"], [data-message-author-role="assistant"], [data-turn="user"], [data-turn="assistant"]')]);
+      for (const part of roles) {
+        const role = part.getAttribute('data-message-author-role') || part.getAttribute('data-turn');
+        const id = part.getAttribute('data-message-id') || root.getAttribute('data-testid');
+        add(roles.length === 1 ? root : part, role, id ? `legacy:${id}:${role}` : '', [part]);
+      }
+    }
+
+    // Deduplicate only an explicit turn/message identifier, never similar prompt text.
+    const selected = new Map();
+    const unkeyed = [];
+    const score = entry => (isVisible(entry.node) ? 10 : 0) + entry.parts.filter(isVisible).length;
+    for (const entry of entries) {
+      if (!entry.key) { unkeyed.push(entry); continue; }
+      const previous = selected.get(entry.key);
+      if (!previous || score(entry) > score(previous)) selected.set(entry.key, entry);
+    }
+    const result = [...selected.values(), ...unkeyed].sort((left, right) => {
+      if (left.node === right.node) return 0;
+      const order = left.node.compareDocumentPosition(right.node);
+      return order & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : order & Node.DOCUMENT_POSITION_PRECEDING ? 1 : 0;
+    });
+    for (const entry of result) TURN_PARTS.set(entry.node, entry);
+    return result.map(entry => entry.node);
   }
 
   function turnRole(turn) {
     if (!turn) return '';
-    const direct = turn.getAttribute?.('data-message-author-role') || turn.getAttribute?.('data-turn');
+    const recorded = TURN_PARTS.get(turn);
+    if (recorded) return recorded.role;
+    if (turn.matches?.('[data-user-message-bubble]')) return 'user';
+    const direct = turn.getAttribute?.('data-message-author-role') || turn.getAttribute?.('data-turn') || turn.getAttribute?.('data-conversation-role');
     if (direct === 'user' || direct === 'assistant') return direct;
-    const roleNode = turn.querySelector?.('[data-message-author-role="user"], [data-message-author-role="assistant"], [data-turn="user"], [data-turn="assistant"]');
-    return roleNode?.getAttribute?.('data-message-author-role') || roleNode?.getAttribute?.('data-turn') || '';
+    if (turn.matches?.('[data-markdown-copy], [data-testid="generated-image-gallery"], [data-testid="generated-image-preview"]') && !turn.closest(USER_MESSAGE_SELECTOR)) return 'assistant';
+    const hasUser = Boolean(turn.querySelector?.(USER_MESSAGE_SELECTOR));
+    const hasAssistant = Boolean(turn.querySelector?.(ASSISTANT_BODY_SELECTOR));
+    // A keyed exchange containing both roles has no single role of its own.
+    return hasUser === hasAssistant ? '' : hasUser ? 'user' : 'assistant';
   }
 
   function turnText(turn) {
     if (!turn) return '';
+    const recorded = TURN_PARTS.get(turn);
+    if (recorded) return normalizeText(recorded.parts.map(elementText).join('\n'));
     const role = turnRole(turn);
+    if (role === 'user') {
+      const bubble = turn.matches?.('[data-user-message-bubble]') ? turn : turn.querySelector?.('[data-user-message-bubble]');
+      if (bubble) return normalizeText(elementText(bubble));
+    }
     const body = role ? turn.querySelector?.(`[data-message-author-role="${role}"], [data-turn="${role}"]`) : null;
     return normalizeText(elementText(body || turn));
   }
 
   function turnKey(turn, index = -1) {
-    const testid = turn?.getAttribute?.('data-testid') || '';
-    if (testid) return testid;
-    return `${turnRole(turn)}:${index}:${hashText(turnText(turn).slice(0, 500))}`;
+    const recorded = turn && TURN_PARTS.get(turn);
+    if (recorded?.key) return recorded.key;
+    const role = turnRole(turn);
+    const keyed = turn?.closest?.('[data-turn-key]')?.getAttribute('data-turn-key');
+    if (keyed) return `key:${keyed}:${role}`;
+    const id = turn?.getAttribute?.('data-message-id') || turn?.getAttribute?.('data-testid');
+    if (id) return `legacy:${id}:${role}`;
+    return `${role}:${index}:${hashText(turnText(turn).slice(0, 500))}`;
   }
 
   function userTurnElements() {
@@ -3280,10 +3356,20 @@
   }
 
   function assistantTurnsAfter(userTurn) {
+    const wantedKey = turnKey(userTurn);
     const turns = topLevelTurnElements();
-    const userIndex = turns.indexOf(userTurn);
+    let userIndex = turns.indexOf(userTurn);
+    if (userIndex < 0 && wantedKey && !wantedKey.startsWith('user:-1:')) {
+      userIndex = turns.findIndex(turn => turnRole(turn) === 'user' && turnKey(turn) === wantedKey);
+    }
     if (userIndex < 0) return [];
-    return turns.slice(userIndex + 1).filter(turn => turnRole(turn) === 'assistant');
+    const result = [];
+    for (const turn of turns.slice(userIndex + 1)) {
+      const role = turnRole(turn);
+      if (role === 'user') break;
+      if (role === 'assistant') result.push(turn);
+    }
+    return result;
   }
 
   function currentConversationUrl() {
@@ -3309,40 +3395,37 @@
   }
 
   function isGeneratedImage(image) {
-    if (!(image instanceof HTMLImageElement) || image.closest(`#${PANEL_ID}`)) return false;
-    const containingTurn = image.closest('section[data-testid^="conversation-turn-"], [data-message-author-role], [data-turn]');
+    if (!(image instanceof HTMLImageElement)) return false;
+    if (image.closest(`#${PANEL_ID}, form, nav, aside, [role="navigation"], [data-testid*="avatar" i]`)) return false;
+    if (image.closest(USER_MESSAGE_SELECTOR)) return false;
+    const keyedTurn = image.closest('[data-turn-key]');
+    if (keyedTurn?.querySelector(USER_MESSAGE_SELECTOR) && !image.closest(GENERATED_IMAGE_CONTAINER_SELECTOR)) {
+      const assistantStart = keyedTurn.querySelector(`[data-conversation-role="assistant"], ${ASSISTANT_BODY_SELECTOR}`);
+      // 添付画像は本文bubbleの兄弟になることもある。assistant開始より前の画像を除く。
+      if (!assistantStart || (image.compareDocumentPosition(assistantStart) & Node.DOCUMENT_POSITION_FOLLOWING)) return false;
+    }
+    const containingTurn = image.closest('[data-message-author-role], [data-turn], [data-testid^="conversation-turn-"]');
     if (containingTurn && turnRole(containingTurn) === 'user') return false;
     const source = currentImageSource(image);
     const alt = normalizeText(image.getAttribute('alt') || '');
-    return (
-      /\/backend-api\/estuary\/content/i.test(source) ||
-      /\/backend-api\/files\/download/i.test(source) ||
-      /files\/download/i.test(source) ||
-      /oaiusercontent\.com/i.test(source) ||
-      /^Generated image(?::|\b)/i.test(alt) ||
-      /^生成された画像(?::|\b)/i.test(alt) ||
-      /^生成画像(?::|\b)/i.test(alt)
-    );
+    // The redesigned UI uses blob URLs only inside its generated-image widgets.
+    if (image.closest(GENERATED_IMAGE_CONTAINER_SELECTOR)) return true;
+    if (/^Generated image(?::|\b)/i.test(alt) || /^生成された画像(?::|\s|$)/i.test(alt) || /^生成画像(?::|\s|$)/i.test(alt)) return true;
+    try {
+      const url = new URL(source, location.href);
+      if (/(^|\.)oaiusercontent\.com$/i.test(url.hostname)) return true;
+      return url.origin === location.origin && /\/backend-api\/(?:estuary\/content|files\/download)(?:\/|$)/i.test(url.pathname);
+    } catch {
+      return false;
+    }
   }
 
   function generatedImageElements(scope = conversationScope()) {
     if (!scope?.querySelectorAll) return [];
-    const selectors = [
-      'img[src*="/backend-api/estuary/content"]',
-      'img[src*="/backend-api/files/download"]',
-      'img[src*="files/download"]',
-      'img[src*="oaiusercontent.com"]',
-      'img[alt^="Generated image" i]',
-      'img[alt^="生成された画像"]',
-      'img[alt^="生成画像"]',
-    ];
-    const images = new Set();
-    for (const selector of selectors) {
-      for (const image of scope.querySelectorAll(selector)) {
-        if (isGeneratedImage(image)) images.add(image);
-      }
-    }
-    return [...images];
+    // Enumerating img also covers currentSrc chosen from srcset/picture and blob outputs.
+    const images = [...scope.querySelectorAll('img')];
+    if (scope instanceof HTMLImageElement) images.unshift(scope);
+    return [...new Set(images)].filter(isGeneratedImage);
   }
 
   function imageArtifactKey(image) {
@@ -3815,9 +3898,10 @@
     const url = currentConversationUrl();
     if (!url) return;
     const current = refreshState();
-    if (current.attempt?.id !== attemptId || current.attempt.conversationUrl === url) return;
+    // 送信先は最初に確認したURLへ固定する。画面移動で別の会話に付け替えない。
+    if (current.attempt?.id !== attemptId || current.attempt.conversationUrl) return;
     await mutateState(state => {
-      if (state.ownerTabId !== TAB_ID || state.runToken !== runToken || state.attempt?.id !== attemptId) return;
+      if (state.ownerTabId !== TAB_ID || state.runToken !== runToken || state.attempt?.id !== attemptId || state.attempt.conversationUrl) return;
       state.attempt.conversationUrl = url;
       state.attempt.conversationUrlObservedAt = Date.now();
       state.ownerHeartbeatAt = Date.now();
@@ -3846,7 +3930,7 @@
     const updated = await mutateState(state => {
       if (state.ownerTabId !== TAB_ID || state.runToken !== runToken || state.attempt?.id !== attemptId) throw new OwnershipSignal();
       state.attempt.stage = 'SENT';
-      state.attempt.sentAt = state.attempt.sentAt || Date.now();
+      state.attempt.sentAt = state.attempt.sentAt || state.attempt.clickCommittedAt || Date.now();
       state.attempt.sentPageInstanceId = PAGE_INSTANCE_ID;
       state.attempt.sentByVersion = SCRIPT_VERSION;
       if (url) {
@@ -3984,7 +4068,7 @@
         ? SAME_PAGE_SENT_RECOVERY_GRACE_MS
         : RELOADED_SENT_RECOVERY_GRACE_MS;
 
-    const end = Date.now() + waitMs;
+    const end = Math.min(Date.now() + waitMs, attemptCycleDeadline(attempt));
     while (Date.now() < end) {
       assertOwner(runToken);
       await pulseOwner(runToken);
@@ -4015,39 +4099,74 @@
   // 画像完成確認
   // ============================================================
 
+  function attemptCycleStart(attempt) {
+    for (const value of [attempt?.clickCommittedAt, attempt?.sentAt, attempt?.createdAt]) {
+      if (Number.isFinite(Number(value)) && Number(value) > 0) return Number(value);
+    }
+    return Date.now();
+  }
+
+  function attemptCycleDeadline(attempt) {
+    return attemptCycleStart(attempt) + CYCLE_MINUTES * 60 * 1000;
+  }
+
   function createDomSignal() {
     let resolver = null;
     let timer = null;
-    const observer = new MutationObserver(() => {
+    let pending = false;
+    const wake = () => {
+      pending = true;
       if (!resolver) return;
       const done = resolver;
       resolver = null;
-      if (timer) clearTimeout(timer);
+      clearTimeout(timer);
       timer = null;
+      pending = false;
       done();
+    };
+    const ownPanel = node => {
+      const element = node?.nodeType === 1 ? node : node?.parentElement;
+      return Boolean(element?.closest?.(`#${PANEL_ID}`));
+    };
+    const observer = new MutationObserver(records => {
+      if (records.some(record => !ownPanel(record.target))) wake();
     });
     observer.observe(document.body || document.documentElement, {
-      subtree: true,
-      childList: true,
-      attributes: true,
-      characterData: true,
-      attributeFilter: ['src', 'srcset', 'alt', 'aria-label', 'aria-busy', 'data-testid', 'disabled'],
+      subtree: true, childList: true, attributes: true, characterData: true,
+      attributeFilter: ['src', 'srcset', 'alt', 'aria-label', 'aria-busy', 'aria-valuenow',
+        'data-testid', 'disabled', 'class', 'style', 'hidden'],
     });
+    // load/errorはbubbleしないためcaptureで拾う。DOM属性が変わらない読込完了にも反応する。
+    const onImageEvent = event => { if (event.target instanceof HTMLImageElement) wake(); };
+    document.addEventListener('load', onImageEvent, true);
+    document.addEventListener('error', onImageEvent, true);
+    document.addEventListener('visibilitychange', wake);
+    document.addEventListener('resume', wake);
+    window.addEventListener('pageshow', wake);
+    window.addEventListener('online', wake);
     return {
+      wake,
       async wait(milliseconds = 1000) {
+        if (pending) { pending = false; return; }
         if (resolver) return;
         await new Promise(resolve => {
           resolver = resolve;
           timer = setTimeout(() => {
-            if (resolver === resolve) resolver = null;
+            resolver = null;
             timer = null;
             resolve();
-          }, milliseconds);
+          }, Math.max(0, milliseconds));
         });
       },
       disconnect() {
         observer.disconnect();
-        if (timer) clearTimeout(timer);
+        document.removeEventListener('load', onImageEvent, true);
+        document.removeEventListener('error', onImageEvent, true);
+        document.removeEventListener('visibilitychange', wake);
+        document.removeEventListener('resume', wake);
+        window.removeEventListener('pageshow', wake);
+        window.removeEventListener('online', wake);
+        clearTimeout(timer);
         if (resolver) resolver();
         resolver = null;
         timer = null;
@@ -4055,192 +4174,219 @@
     };
   }
 
-  async function imageDecoded(image) {
-    if (!image?.complete || image.naturalWidth <= 0 || image.naturalHeight <= 0) return false;
+  function imageSourceStamp(image) {
+    return JSON.stringify([currentImageSource(image), image?.naturalWidth || 0, image?.naturalHeight || 0]);
+  }
+
+  function imageLoaded(image) {
+    return Boolean(currentImageSource(image) && image?.complete &&
+      image.naturalWidth >= MIN_RESULT_IMAGE_SIDE && image.naturalHeight >= MIN_RESULT_IMAGE_SIDE);
+  }
+
+  const decodedImages = new WeakMap();
+
+  async function imageDecoded(image, timeoutMs = 1000) {
+    if (!imageLoaded(image)) return false;
+    const stamp = imageSourceStamp(image);
+    if (decodedImages.get(image) === stamp) return true;
     if (typeof image.decode !== 'function') return true;
+    let timer;
+    let decoded = false;
     try {
-      await Promise.race([
-        image.decode(),
-        sleep(5000).then(() => { throw new Error('画像decode待機超過'); }),
+      decoded = await Promise.race([
+        image.decode().then(() => true),
+        new Promise(resolve => { timer = setTimeout(() => resolve(false), Math.max(1, timeoutMs)); }),
       ]);
     } catch {
-      return Boolean(image.complete && image.naturalWidth > 0 && image.naturalHeight > 0);
+      return false;
+    } finally {
+      clearTimeout(timer);
     }
+    // 同じfile IDでもプレビューから最終画像にsrcが変われば改めて確認する。
+    if (!decoded || !imageLoaded(image) || imageSourceStamp(image) !== stamp) return false;
+    decodedImages.set(image, stamp);
     return true;
   }
 
+  function imageResultContainer(image) {
+    return image.closest('[data-testid="generated-image-gallery"]') ||
+      image.closest('[data-testid="generated-image-preview"]') ||
+      image.closest('[data-message-author-role="assistant"], [data-turn="assistant"]') ||
+      image.parentElement;
+  }
+
+  function imageHasActiveProgress(image) {
+    if (!isVisible(image)) return false;
+    const container = imageResultContainer(image);
+    if (!container) return false;
+    const progressNodes = [container, ...container.querySelectorAll(
+      '[aria-busy="true"], [role="progressbar"], progress, [role="status"], [data-testid*="progress" i]'
+    )];
+    for (const node of progressNodes) {
+      if (!isVisible(node)) continue;
+      if (node.getAttribute('aria-busy') === 'true') return true;
+      if (node.getAttribute('role') === 'progressbar' || node.tagName === 'PROGRESS') {
+        const raw = node.getAttribute('aria-valuenow') ?? node.getAttribute('value');
+        const max = Number(node.getAttribute('aria-valuemax') ?? node.getAttribute('max') ?? 100);
+        if (raw === null || Number(raw) < max) return true;
+      }
+      const text = normalizeText(elementText(node));
+      if (node !== container && /(?:creating|generating)\s+(?:an?\s+)?image|画像(?:を)?(?:生成|作成)(?:中|しています)/i.test(text)) return true;
+    }
+    // 読み込めたぼかしプレビューを完成画像として数えない。
+    for (let node = image; node && container.contains(node); node = node.parentElement) {
+      const blur = String(getComputedStyle(node).filter || '').match(/blur\(([\d.]+)px\)/i);
+      if (blur && Number(blur[1]) > 0) return true;
+      if (node === container) break;
+    }
+    return false;
+  }
+
+  function imageHasResultAction(image) {
+    const container = imageResultContainer(image);
+    if (!container) return false;
+    return [...container.querySelectorAll('button, a[download], [role="button"]')].some(node => {
+      if (isDisabled(node) || !isVisible(node)) return false;
+      if (node.hasAttribute('download')) return true;
+      const label = [node.getAttribute('aria-label'), node.getAttribute('title'), elementText(node)].filter(Boolean).join(' ');
+      return /download|ダウンロード|画像を保存|save image/i.test(label);
+    });
+  }
+
   function generationSnapshot(attempt, prompt, fallbackUserTurn = null) {
+    const turns = topLevelTurnElements();
     const freshUserTurn = findExpectedUserTurn(prompt);
-    const fallbackStillPresent = Boolean(
-      fallbackUserTurn?.isConnected && topLevelTurnElements().includes(fallbackUserTurn)
-    ) ? fallbackUserTurn : null;
-    const expectedUserTurn = freshUserTurn || fallbackStillPresent;
+    const expectedUserTurn = freshUserTurn || (fallbackUserTurn?.isConnected && turns.includes(fallbackUserTurn) ? fallbackUserTurn : null);
+    const currentUrl = currentConversationUrl();
+    const wrongConversation = Boolean(attempt.conversationUrl && currentUrl && attempt.conversationUrl !== currentUrl);
+    const contextMatches = !wrongConversation && Boolean(expectedUserTurn || (currentUrl && attempt.conversationUrl === currentUrl));
     const assistants = expectedUserTurn ? assistantTurnsAfter(expectedUserTurn) : [];
     const assistant = assistants.at(-1) || null;
-    // 現行ChatGPTの生成画像はassistant本文外に出るため、常にmain内の生成画像だけを見る。
-    const records = artifactRecords(conversationScope(), attempt.baselineArtifactKeys);
-    const imageStates = [...records.entries()].map(([key, images]) => ({
-      key,
-      nodes: images.length,
-      ready: images.some(image => image.complete && image.naturalWidth > 0 && image.naturalHeight > 0),
-    }));
+    const records = contextMatches ? artifactRecords(conversationScope(), attempt.baselineArtifactKeys || []) : new Map();
+    if (expectedUserTurn) {
+      const index = turns.indexOf(expectedUserTurn);
+      const nextUser = turns.slice(index + 1).find(turn => turnRole(turn) === 'user');
+      for (const [key, images] of records) {
+        const belonging = images.filter(image => {
+          if (expectedUserTurn.contains(image)) return false;
+          if (!(expectedUserTurn.compareDocumentPosition(image) & Node.DOCUMENT_POSITION_FOLLOWING)) return false;
+          if (nextUser && (nextUser.contains(image) || (nextUser.compareDocumentPosition(image) & Node.DOCUMENT_POSITION_FOLLOWING))) return false;
+          return true;
+        });
+        if (belonging.length) records.set(key, belonging);
+        else records.delete(key);
+      }
+    }
+    const readyEvidence = [];
+    let imageBusy = false;
+    let domNodeCount = 0;
+    for (const [key, images] of records) {
+      domNodeCount += images.length;
+      const available = images.filter(imageLoaded).sort((a, b) => Number(isVisible(b)) - Number(isVisible(a)) ||
+        b.naturalWidth * b.naturalHeight - a.naturalWidth * a.naturalHeight);
+      const image = available[0];
+      if (!image) continue;
+      const busy = imageHasActiveProgress(image);
+      imageBusy ||= busy;
+      readyEvidence.push({ key, image, stamp: imageSourceStamp(image), busy, resultAction: imageHasResultAction(image) });
+    }
+    const stopButton = findStopButton();
     return {
-      expectedUserTurn,
-      assistant,
-      assistants,
-      records,
-      fingerprint: JSON.stringify({
-        hasTargetTurn: Boolean(expectedUserTurn),
-        stop: Boolean(findStopButton()),
-        assistantCount: assistants.length,
-        assistantText: assistant ? turnText(assistant).slice(-700) : '',
-        images: imageStates,
-      }),
+      expectedUserTurn, assistant, assistants, records, readyEvidence, imageBusy, stopButton, domNodeCount, contextMatches,
+      fingerprint: JSON.stringify({ contextMatches, stop: Boolean(stopButton), images: readyEvidence.map(({key, stamp, busy}) => [key, stamp, busy]).sort() }),
     };
   }
 
-
   async function waitForGenerationComplete(runToken, attempt, prompt) {
+    const deadline = attemptCycleDeadline(attempt);
     const expectedUserTurn = await ensureSentConversation(runToken, attempt, prompt);
     await setPhase(runToken, PHASE.WAITING_RESULT);
-    addLog('info', 'GENERATION_WATCH', `${attempt.index + 1}/${ITEMS.length} 画像完成の監視開始`);
-
+    addLog('info', 'GENERATION_WATCH', `${attempt.index + 1}/${ITEMS.length} 完成検出開始。次へ進む時刻: ${formatDateTime(deadline)}（送信から${CYCLE_MINUTES}分）`);
     const signal = createDomSignal();
-    const normalDeadline = (Number(attempt.sentAt) || Date.now()) + MAX_GENERATION_MINUTES * 60 * 1000;
-    const deadline = Math.max(normalDeadline, Date.now() + RECOVERY_GRACE_MINUTES * 60 * 1000);
-    let snapshot = generationSnapshot(attempt, prompt, expectedUserTurn);
-    let lastFingerprint = snapshot.fingerprint;
-    let lastActivityAt = Date.now();
-    let lastWakeSerial = wakeSerial;
-    let noImageIdleSince = 0;
-    let completeSince = 0;
-    let lastReportedUnique = -1;
-    let lastReportedNodes = -1;
-
-    // 一度でも実体として読めた画像は、React再描画でDOMから消えても忘れない。
+    let stableSince = 0;
+    let stableFingerprint = '';
+    let lastDiagnostic = '';
+    let lastDiagnosticAt = 0;
+    let lastStop = null;
     const seenKeys = new Set(attempt.seenArtifactKeys || []);
-    const readyKeys = new Set(attempt.readyArtifactKeys || []);
-
+    // 過去に読めたプレビューのキーは診断専用。毎回、今ある画像を改めて確認する。
+    let rememberedReady = new Set(attempt.readyArtifactKeys || []);
     try {
       while (true) {
         const state = assertOwner(runToken);
         if (state.attempt?.id !== attempt.id || state.attempt.stage !== 'SENT') throw new OwnershipSignal();
-
         await pulseOwner(runToken);
-        if (!navigator.onLine) {
-          await waitForOnline(runToken);
-          lastActivityAt = Date.now();
-        }
-
-        if (lastWakeSerial !== wakeSerial) {
-          lastWakeSerial = wakeSerial;
-          lastActivityAt = Date.now();
-          completeSince = 0;
-        }
-
+        if (!navigator.onLine) await waitForOnline(runToken);
         await captureConversationUrl(runToken, attempt.id);
-        snapshot = generationSnapshot(attempt, prompt, expectedUserTurn);
-
-        if (snapshot.fingerprint !== lastFingerprint) {
-          lastFingerprint = snapshot.fingerprint;
-          lastActivityAt = Date.now();
-        }
-
-        const assistant = snapshot.assistant;
-        const limit = detectLimitMessage(assistant);
+        const latestAttempt = assertOwner(runToken).attempt;
+        const snapshot = generationSnapshot(latestAttempt, prompt, expectedUserTurn);
+        if (!snapshot.contextMatches) throw new PostSendUncertainError('対象の会話を確認できません。別の会話の画像は完成判定に使用しません');
+        const limit = detectLimitMessage(snapshot.assistant);
         if (limit) throw new LimitSignal(limit);
-
+        const decoded = await Promise.all(snapshot.readyEvidence.map(async evidence => ({
+          ...evidence,
+          decoded: await imageDecoded(evidence.image, Math.min(1000, Math.max(1, deadline - Date.now()))),
+        })));
+        const ready = decoded.filter(evidence => evidence.decoded && evidence.image.isConnected &&
+          imageSourceStamp(evidence.image) === evidence.stamp && !imageHasActiveProgress(evidence.image));
+        const currentReady = new Set(ready.map(evidence => evidence.key));
+        let keysChanged = false;
+        for (const key of snapshot.records.keys()) {
+          if (!seenKeys.has(key)) { seenKeys.add(key); keysChanged = true; }
+        }
+        if (keysChanged || [...currentReady].sort().join('\n') !== [...rememberedReady].sort().join('\n')) {
+          await rememberArtifactKeys(runToken, attempt.id, seenKeys, currentReady);
+          rememberedReady = currentReady;
+        }
         const stopButton = findStopButton();
-        const failure = detectGenerationFailureMessage(assistant);
-        if (failure && !stopButton && readyKeys.size === 0) {
-          throw new GenerationFailureError(failure);
-        }
-
-        const uniqueCount = snapshot.records.size;
-        const domNodeCount = [...snapshot.records.values()].reduce((sum, images) => sum + images.length, 0);
-
-        if (uniqueCount !== lastReportedUnique || domNodeCount !== lastReportedNodes) {
-          lastReportedUnique = uniqueCount;
-          lastReportedNodes = domNodeCount;
-          if (uniqueCount > 0) {
-            addLog('info', 'IMAGE_COUNT', `画像DOM ${domNodeCount}件 / 一意な画像実体 ${uniqueCount}件`);
-          }
-        }
-
-        let artifactStateChanged = false;
-        for (const [key, images] of snapshot.records.entries()) {
-          if (!seenKeys.has(key)) {
-            seenKeys.add(key);
-            artifactStateChanged = true;
-            lastActivityAt = Date.now();
-          }
-
-          if (readyKeys.has(key)) continue;
-          for (const image of images) {
-            if (await imageDecoded(image)) {
-              readyKeys.add(key);
-              artifactStateChanged = true;
-              lastActivityAt = Date.now();
-              try { image.scrollIntoView({ block: 'center', inline: 'nearest' }); } catch {}
-              break;
-            }
-          }
-        }
-
-        if (artifactStateChanged) {
-          await rememberArtifactKeys(runToken, attempt.id, seenKeys, readyKeys);
-        }
-
-        // シンプルな完成判定:
-        // 一度でも読込完了した生成画像があり、ChatGPTの生成停止ボタンが5秒間出ていなければ完成。
-        // URLや画像srcの差し替え、会話ターンDOMの変更には依存しない。
-        if (readyKeys.size > 0 && !stopButton) {
-          if (!completeSince) completeSince = Date.now();
-          if (Date.now() - completeSince >= RESULT_COMPLETE_STABLE_MS) {
-            addLog('info', 'IMAGE_COMPLETE', `画像完成。読込確認済み画像実体 ${readyKeys.size}件`);
-            return { uniqueCount: Math.max(uniqueCount, readyKeys.size), domNodeCount };
+        const imageBusy = [...snapshot.records.values()].flat().some(imageHasActiveProgress);
+        const fingerprint = JSON.stringify(ready.map(({key, stamp}) => [key, stamp]).sort());
+        if (ready.length && !imageBusy) {
+          if (fingerprint !== stableFingerprint) {
+            stableFingerprint = fingerprint;
+            stableSince = Date.now();
           }
         } else {
-          completeSince = 0;
+          stableFingerprint = '';
+          stableSince = 0;
         }
-
-        // 画像を一度も読めていない場合だけ、応答終了後の画像なし判定を使う。
-        if (assistant && readyKeys.size === 0 && !stopButton) {
-          if (!noImageIdleSince) noImageIdleSince = Date.now();
-          if (Date.now() - noImageIdleSince >= NO_IMAGE_IDLE_SECONDS * 1000) {
-            throw new GenerationFailureError('応答は終了しましたが画像実体を確認できませんでした');
-          }
-        } else {
-          noImageIdleSince = 0;
+        // 停止ボタンは補助情報。残留しても画像の実体・安定・進行表示で完成を判定する。
+        const requiredStableMs = stopButton && !ready.some(evidence => evidence.resultAction)
+          ? IMAGE_WITH_STOP_STABLE_MS : RESULT_COMPLETE_STABLE_MS;
+        const stableMs = stableSince ? Date.now() - stableSince : 0;
+        const diagnostics = `候補${snapshot.records.size} / 読込確認${ready.length} / 画像進行${imageBusy ? 'あり' : 'なし'} / 停止${stopButton ? 'あり' : 'なし'}`;
+        if (diagnostics !== lastDiagnostic || Date.now() - lastDiagnosticAt >= 30000) {
+          addLog('info', 'DETECTION_STATE', `${diagnostics} / 安定${Math.floor(stableMs / 1000)}秒 / 期限まで${Math.max(0, Math.ceil((deadline - Date.now()) / 1000))}秒`);
+          lastDiagnostic = diagnostics;
+          lastDiagnosticAt = Date.now();
         }
-
+        if (Boolean(stopButton) !== lastStop) {
+          lastStop = Boolean(stopButton);
+          if (stopButton) addLog('info', 'STOP_OBSERVED', describeElement(stopButton));
+        }
+        if (ready.length && !imageBusy && stableMs >= requiredStableMs) {
+          const reason = stopButton ? '画像実体と表示の安定を確認（停止ボタン残留）' : '画像実体と表示の安定を確認';
+          addLog('info', 'IMAGE_COMPLETE', `${reason}。送信から${Math.round((Date.now() - attemptCycleStart(attempt)) / 1000)}秒`);
+          return { uniqueCount: currentReady.size, domNodeCount: snapshot.domNodeCount, reason };
+        }
+        const failure = detectGenerationFailureMessage(snapshot.assistant);
+        if (failure && !stopButton && !ready.length) throw new GenerationFailureError(failure);
         if (Date.now() >= deadline) {
-          stopVisibleGenerationOnce();
-          throw new GenerationFailureError(`${MAX_GENERATION_MINUTES}分以内に画像完成を確認できませんでした`);
+          throw new GenerationFailureError(`${CYCLE_MINUTES}分の期限。完成未確認で次へ進みます（${diagnostics}）。会話: ${latestAttempt.conversationUrl || location.href}`);
         }
-
-        if (Date.now() - lastActivityAt >= GENERATION_STALL_MINUTES * 60 * 1000) {
-          // 一度でも画像実体を読めているなら、DOM変化が止まったことだけで失敗にしない。
-          if (readyKeys.size > 0 && !stopButton) {
-            addLog('info', 'IMAGE_COMPLETE', `画像完成。読込確認済み画像実体 ${readyKeys.size}件`);
-            return { uniqueCount: Math.max(uniqueCount, readyKeys.size), domNodeCount };
-          }
-          stopVisibleGenerationOnce();
-          throw new GenerationFailureError(`画面が${GENERATION_STALL_MINUTES}分変化しませんでした`);
-        }
-
-        await signal.wait(1000);
+        await signal.wait(Math.min(1000, Math.max(0, deadline - Date.now())));
       }
     } finally {
       signal.disconnect();
     }
   }
 
+
   // ============================================================
   // 完了・再試行・利用制限
   // ============================================================
 
-  async function completeCurrent(runToken, attempt) {
+  async function completeCurrent(runToken, attempt, completion = {}) {
     const result = await mutateState(state => {
       if (state.ownerTabId !== TAB_ID || state.runToken !== runToken) throw new OwnershipSignal();
       if (state.index !== attempt.index || state.attempt?.id !== attempt.id) throw new OwnershipSignal();
@@ -4251,6 +4397,9 @@
       state.lastCompletedAt = Date.now();
       state.lastProgressAt = Date.now();
       state.lastError = '';
+      state.lastOutcome = { status: 'complete', index: attempt.index, at: Date.now(),
+        cycleStartedAt: attemptCycleStart(attempt), cycleDeadline: attemptCycleDeadline(attempt),
+        conversationUrl: state.attempt.conversationUrl || '', reason: completion.reason || '画像完成を確認' };
       state.attempt = null;
       if (state.index >= ITEMS.length) {
         state.phase = PHASE.FINISHED;
@@ -4260,19 +4409,23 @@
         state.runToken = '';
       } else {
         state.phase = PHASE.COOLDOWN;
-        state.nextAt = Date.now() + INTERVAL_MINUTES * 60 * 1000;
+        state.nextAt = Math.max(Date.now(), attemptCycleDeadline(attempt));
         state.ownerHeartbeatAt = Date.now();
       }
     });
     addLog('info', 'ITEM_COMPLETE', `${attempt.index + 1}/${ITEMS.length} ${ITEMS[attempt.index].display}`);
+    if (result.index < ITEMS.length) addLog('info', 'CYCLE_WAIT', `次は${formatDateTime(result.nextAt)}。送信から${CYCLE_MINUTES}分の残り時間だけ待機`);
     return result;
   }
 
 
   async function skipAfterSend(runToken, error) {
-    stopVisibleGenerationOnce();
     const message = cleanMessage(error);
     const current = assertOwner(runToken);
+    const attempt = current.attempt;
+    // 期限処理はここだけで停止する。別の会話へ移動した場合はその会話を停止しない。
+    if (attempt && ((attempt.conversationUrl && attempt.conversationUrl === currentConversationUrl()) ||
+      (attempt.promptText && findExpectedUserTurn(attempt.promptText)))) stopVisibleGenerationOnce();
     const expectedIndex = current.index;
     const result = await mutateState(state => {
       if (state.ownerTabId !== TAB_ID || state.runToken !== runToken || state.index !== expectedIndex) throw new OwnershipSignal();
@@ -4281,6 +4434,9 @@
       state.preSendFailures = 0;
       state.lastProgressAt = Date.now();
       state.lastError = message;
+      state.lastOutcome = { status: 'unconfirmed', index: expectedIndex, at: Date.now(),
+        cycleStartedAt: attemptCycleStart(attempt), cycleDeadline: attemptCycleDeadline(attempt),
+        conversationUrl: attempt?.conversationUrl || '', reason: message };
       state.attempt = null;
 
       if (state.index >= ITEMS.length) {
@@ -4290,15 +4446,15 @@
         state.ownerHeartbeatAt = 0;
         state.runToken = '';
       } else {
-        // 特別な8秒復旧は使わない。通常完了と同じ5分待機へ統一する。
+        // 成功・失敗とも送信から5分。期限を過ぎたら追加待機はしない。
         state.phase = PHASE.COOLDOWN;
-        state.nextAt = Date.now() + INTERVAL_MINUTES * 60 * 1000;
+        state.nextAt = Math.max(Date.now(), attemptCycleDeadline(attempt));
         state.ownerHeartbeatAt = Date.now();
       }
     });
     addLog('warn', 'ITEM_SKIPPED', `${expectedIndex + 1}/${ITEMS.length} ${ITEMS[expectedIndex].display} / ${message}`);
     if (result.index < ITEMS.length) {
-      addLog('info', 'COOLDOWN', `次の対象は${INTERVAL_MINUTES}分後`);
+      addLog('info', 'CYCLE_WAIT', `次は${formatDateTime(result.nextAt)}。送信から${CYCLE_MINUTES}分の残り時間だけ待機`);
     }
     return result;
   }
@@ -4391,12 +4547,12 @@
       state.preSendFailures = failures;
       state.attempt = null;
       state.phase = PHASE.COOLDOWN;
-      state.nextAt = Date.now() + INTERVAL_MINUTES * 60 * 1000;
+      state.nextAt = Date.now() + PRE_SEND_RETRY_SECONDS * 1000;
       state.lastError = message;
       state.ownerHeartbeatAt = Date.now();
     });
 
-    addLog('warn', 'PRE_SEND_RETRY', `${INTERVAL_MINUTES}分後に同じ対象を送信前から再試行（${failures}回目）: ${message}`);
+    addLog('warn', 'PRE_SEND_RETRY', `${PRE_SEND_RETRY_SECONDS}秒後に同じ対象を送信前から再試行（${failures}回目）: ${message}`);
   }
 
   async function handleRunError(runToken, error) {
@@ -4438,10 +4594,16 @@
   // ============================================================
 
   async function waitUntilNextAt(runToken) {
-    while (true) {
-      const state = assertOwner(runToken);
-      if (state.nextAt <= Date.now()) return;
-      await sleepWhileOwned(runToken, Math.min(5000, state.nextAt - Date.now()));
+    const signal = createDomSignal();
+    try {
+      while (true) {
+        const state = assertOwner(runToken);
+        if (state.nextAt <= Date.now()) return;
+        await pulseOwner(runToken);
+        await signal.wait(Math.min(1000, Math.max(0, state.nextAt - Date.now())));
+      }
+    } finally {
+      signal.disconnect();
     }
   }
 
@@ -4472,8 +4634,8 @@
     const attempt = cloneObject(latest.attempt);
     if (!attempt || attempt.stage !== 'SENT') throw new PostSendUncertainError('送信済み状態へ移行できませんでした');
     const { prompt } = validateAttempt(attempt);
-    await waitForGenerationComplete(runToken, attempt, prompt);
-    const result = await completeCurrent(runToken, attempt);
+    const completion = await waitForGenerationComplete(runToken, attempt, prompt);
+    const result = await completeCurrent(runToken, attempt, completion);
     return result.index >= ITEMS.length ? 'FINISHED' : 'COMPLETED';
   }
 
@@ -4603,6 +4765,10 @@
       `位置: ${Math.min(state.index + 1, ITEMS?.length || EXPECTED_TOTAL)} / ${ITEMS?.length || EXPECTED_TOTAL}`,
       `対象: ${item?.display || '完了'}`,
       `段階: ${PHASE_LABEL[state.phase] || state.phase}`,
+      `周期: 送信から${CYCLE_MINUTES}分（画像検出と待機を含む）`,
+      `今回の送信起点: ${state.attempt ? formatDateTime(attemptCycleStart(state.attempt)) : 'なし'}`,
+      `今回の期限: ${state.attempt ? formatDateTime(attemptCycleDeadline(state.attempt)) : 'なし'}`,
+      `前回の結果: ${state.lastOutcome ? JSON.stringify(state.lastOutcome) : 'なし'}`,
       `次回: ${state.nextAt ? `${formatDateTime(state.nextAt)}（${formatCountdown(state.nextAt)}）` : 'すぐ実行'}`,
       `完了: ${state.completedCount}`,
       `自動飛ばし: ${state.skippedCount}`,
@@ -4631,6 +4797,8 @@
       `一意な画像実体数: ${records.size}`,
       `この試行で検出済み画像: ${state.attempt?.seenArtifactKeys?.length || 0}`,
       `この試行で読込完了済み画像: ${state.attempt?.readyArtifactKeys?.length || 0}`,
+      `画像進行表示: ${images.some(imageHasActiveProgress) ? 'あり' : 'なし'}`,
+      `旧版進捗バックアップ: ${GM_getValue(PREVIOUS_STATE_KEY, null) ? '保存済み' : 'なし'}`,
       ...[...records.entries()].slice(0, 10).map(([key, nodes], index) => `画像実体${index + 1}: ${key} / DOM ${nodes.length}件`),
       '',
       '--- state JSON ---',
@@ -4710,6 +4878,12 @@
     if (fatalStartupError) return '起動エラー';
     if (state.index >= (ITEMS?.length || EXPECTED_TOTAL)) return '全件完了';
     if (state.ownerTabId && state.ownerTabId !== TAB_ID && ownerIsFresh(state)) return '別のタブで実行中';
+    if (state.phase === PHASE.WAITING_RESULT && state.attempt) {
+      return `画像確認中・次へ${formatCountdown(attemptCycleDeadline(state.attempt))}`;
+    }
+    if (state.phase === PHASE.COOLDOWN && state.lastOutcome && state.nextAt > Date.now()) {
+      return `${state.lastOutcome.status === 'complete' ? '画像確認済み' : '完成未確認'}・次へ${formatCountdown(state.nextAt)}`;
+    }
     const label = PHASE_LABEL[state.phase] || state.phase;
     if (state.nextAt > Date.now()) return `${label}・${formatCountdown(state.nextAt)}`;
     return label;
@@ -4722,7 +4896,7 @@
     const total = ITEMS?.length || EXPECTED_TOTAL;
     const item = ITEMS && state.index < ITEMS.length ? ITEMS[state.index] : null;
     const position = state.index >= total ? `${total} / ${total}` : `${state.index + 1} / ${total}`;
-    panel.querySelector('.ig-head').textContent = `画像生成　${position}`;
+    panel.querySelector('.ig-head').textContent = `画像生成 v${SCRIPT_VERSION}　${position}`;
     panel.querySelector('.ig-place').textContent = item ? `${item.display}${state.attempt?.index === state.index && state.attempt?.people && state.attempt?.season && state.attempt?.time && state.attempt?.weather ? `／${state.attempt.people}人・${state.attempt.season}・${state.attempt.time}・${state.attempt.weather}` : ''}` : 'すべて完了しました';
     panel.querySelector('.ig-place').title = panel.querySelector('.ig-place').textContent;
     panel.querySelector('.ig-status').textContent = statusText(state);
