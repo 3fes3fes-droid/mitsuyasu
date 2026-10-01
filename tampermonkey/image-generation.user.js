@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         画像生成
 // @namespace    image-generation.local
-// @version      7.5.9
+// @version      7.5.10
 // @description  全国1,741自治体・実景説明3周目（Chromebook検証修正反映／自動実行・重複送信防止・自動復旧）
 // @updateURL    https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/tampermonkey/image-generation.user.js
 // @downloadURL  https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/main/tampermonkey/image-generation.user.js
@@ -33,7 +33,7 @@
 服装：デザインと素材は個性的に生成。色や柄は無地、原色、柄、ネオン、派手、地味、光沢、メタリック、細い紐、レース、フリル付き、透けた薄い素材、ミニスカート
 `;
 
-  const INTERVAL_MINUTES = 5;
+  const INTERVAL_MINUTES = 1;
   const MAX_GENERATION_MINUTES = 30;
   const GENERATION_STALL_MINUTES = 8;
   const NO_IMAGE_IDLE_SECONDS = 180;
