@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NO SPOILER FOOTBALL</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="root" class="integrated-archive archive-football"><div class="archive-loading" role="status">サッカーを読み込み中…</div></main>
+  <script>
+    (async () => {
+      const response = await fetch("app.b64");
+      if (!response.ok) throw new Error("Application unavailable");
+      const encoded = (await response.text()).trim();
+      const bytes = Uint8Array.from(atob(encoded), character => character.charCodeAt(0));
+      const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+      const script = document.createElement("script");
+      script.textContent = await new Response(stream).text();
+      document.body.append(script);
+    })().catch(error => {
+      console.error(error);
+      document.getElementById("root").textContent = "読み込みに失敗しました。ページを再読み込みしてください。";
+    });
+  </script>
+</body>
+</html>
