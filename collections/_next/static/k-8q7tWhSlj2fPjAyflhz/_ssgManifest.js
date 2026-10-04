@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fintegrated\u002Fmaps\u002Fcountries\u002F[id]","\u002Fintegrated\u002Fmaps\u002Fprefectures\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
