@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>女優</title>
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#090b0e;
+  --panel:#11151a;
+  --head:#171b21;
+  --line:#29303a;
+  --text:#f5f6f7;
+  --accent:#ffd84b;
+}
+*{box-sizing:border-box}
+html,body{
+  height:100%;margin:0;background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;
+}
+body{overflow:hidden}
+.page{height:100%;display:grid;grid-template-rows:44px 1fr;gap:7px;padding:7px}
+.toolbar{display:flex;justify-content:flex-end;align-items:center;gap:7px}
+button,input{font:inherit}
+button{
+  height:34px;border:1px solid var(--line);background:#20262f;color:#fff;
+  border-radius:8px;padding:0 11px;font-size:13px;font-weight:700;cursor:pointer;
+}
+button.active{background:#fff;color:#111}
+.search{
+  width:260px;height:34px;border:1px solid var(--line);border-radius:8px;
+  background:#0e1216;color:#fff;padding:0 11px;outline:none;
+}
+.search:focus{border-color:#6d7988}
+.app{min-height:0;display:grid;grid-template-columns:minmax(280px,38%) 1fr;gap:8px}
+.app.list-hidden{grid-template-columns:1fr 0}
+.app.list-hidden .right{opacity:0;pointer-events:none;border-width:0}
+.pane{
+  min-width:0;display:flex;flex-direction:column;overflow:hidden;
+  background:var(--panel);border:1px solid var(--line);border-radius:11px;
+}
+.right{transition:opacity .15s ease}
+.head{
+  flex:0 0 46px;display:flex;align-items:center;justify-content:space-between;
+  gap:8px;padding:0 10px 0 13px;background:var(--head);border-bottom:1px solid var(--line);
+}
+.title{font-size:16px;font-weight:800;white-space:nowrap}
+.sorts{display:flex;gap:5px}
+.sorts button{height:29px;padding:0 9px;font-size:12px}
+.scroll{min-height:0;overflow:auto;padding:8px}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:8px;
+}
+.card{
+  min-width:0;overflow:hidden;border:1px solid #252c35;
+  border-radius:9px;background:#0d1115;
+}
+.thumb{display:block;aspect-ratio:1/1;overflow:hidden;background:#080a0c}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.missing{width:100%;height:100%;background:#0a0d11}
+.meta{display:flex;align-items:center;gap:7px;padding:8px}
+.name{
+  min-width:0;flex:1;color:#fff;text-decoration:none;font-size:14px;font-weight:700;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.check{
+  appearance:none;width:21px;height:21px;margin:0;border:2px solid #778293;
+  border-radius:4px;display:grid;place-content:center;background:#0b0e12;
+  cursor:pointer;flex:0 0 auto;
+}
+.check:checked{background:var(--accent);border-color:var(--accent)}
+.check:checked::after{content:"★";color:#111;font-size:14px;font-weight:900}
+.sentinel{height:12px}
+@media(max-width:850px){
+  body{overflow:auto}
+  .page{height:auto;min-height:100%;grid-template-rows:auto auto}
+  .toolbar{position:sticky;top:0;z-index:10;background:var(--bg)}
+  .search{width:min(64vw,300px)}
+  .app,.app.list-hidden{grid-template-columns:1fr}
+  .pane{height:55vh}
+  .app.list-hidden .right{display:none}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="toolbar">
+    <button id="toggleList" class="active" type="button">一覧</button>
+    <input id="searchInput" class="search" type="search" autocomplete="off">
+  </div>
+
+  <div id="app" class="app">
+    <section class="pane">
+      <div class="head">
+        <div class="title">★ お気に入り</div>
+        <div class="sorts">
+          <button id="favRandom" class="active" type="button">ランダム</button>
+          <button id="favKana" type="button">50音</button>
+        </div>
+      </div>
+      <div class="scroll"><div id="favGrid" class="grid"></div></div>
+    </section>
+
+    <section class="pane right">
+      <div class="head">
+        <div class="title">一覧</div>
+        <div class="sorts">
+          <button id="allRandom" class="active" type="button">ランダム</button>
+          <button id="allKana" type="button">50音</button>
+        </div>
+      </div>
+      <div id="allScroll" class="scroll">
+        <div id="allGrid" class="grid"></div>
+        <div id="sentinel" class="sentinel"></div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+<script src="directory.js"></script>
+</body>
+</html>
