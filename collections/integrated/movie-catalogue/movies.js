@@ -38,6 +38,7 @@ function poster(m,compact=false,split=false){
   const visual=el('span','poster-visual');n.append(visual);
   const fallback=()=>visual.replaceChildren(el('span','fallback',compact?'':m.title));
   if(m.poster_url){const img=el('img');img.src=url(m.poster_url);img.alt=m.title;img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.onerror=fallback;visual.append(img)}else fallback();
+  if(m.isWatched){const badge=el('span','badge watched-icon','✓');badge.setAttribute('role','img');badge.setAttribute('aria-label','観た');n.append(badge)}
   if(split){
     const preview=el('button','poster-zone poster-zone-preview'),details=el('button','poster-zone poster-zone-details');
     preview.type=details.type='button';
@@ -57,10 +58,10 @@ function card(m){
 function genreList(m){return m.genres?.length?m.genres:(m.genre?[m.genre]:[])}
 function shuffle(){const a=movies.map(m=>m.key);for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}randomRank=new Map(a.map((k,i)=>[k,i]))}
 function rebuild(){byKey=new Map(movies.map(m=>[m.key,m]));people=new Map();for(const m of movies){m.search=norm([m.title,...credits(m).map(p=>p.name)].join(' '));for(const p of credits(m)){if(!p.name)continue;const k=pkey(p);if(!people.has(k))people.set(k,{...p,key:k,keys:new Set(),roles:new Set()});people.get(k).keys.add(m.key);people.get(k).roles.add(p.role)}}shuffle();const gs=[...new Set(movies.flatMap(genreList))].sort((a,b)=>a.localeCompare(b,'ja'));$('#genres').replaceChildren(...gs.map(g=>{const l=el('label'),i=el('input');i.type='checkbox';i.value=g;i.onchange=()=>{i.checked?selectedGenres.add(g):selectedGenres.delete(g);limit=72;render()};l.append(i,document.createTextNode(g));return l}))}
-function matches(m){if(selectedGenres.size){const hit=genreList(m).some(g=>selectedGenres.has(g));if($('#genreMode').value==='include'?!hit:hit)return false}return true}
+function matches(m){const scope=$('#scope').value;if(scope==='watched'&&!m.isWatched||scope==='unwatched'&&m.isWatched||scope==='personal'&&!m.personalList)return false;if(selectedGenres.size){const hit=genreList(m).some(g=>selectedGenres.has(g));if($('#genreMode').value==='include'?!hit:hit)return false}return true}
 function sorted(list){const s=$('#sort').value;return list.sort((a,b)=>s==='random'?randomRank.get(a.key)-randomRank.get(b.key):s==='title'?a.title.localeCompare(b.title,'ja'):s==='year'?(Number(b.production_year||b.year)||0)-(Number(a.production_year||a.year)||0):(b[s]??-1)-(a[s]??-1))}
 function personCard(p){const b=el('button','person-card');b.append(el('strong','',p.name),el('small','',[...p.roles].join('・')+' · '+fmt(p.keys.size)));b.onclick=()=>show({type:'person',key:p.key});return b}
-function render(){const terms=norm($('#search').value).trim().split(/\s+/).filter(Boolean);let list;if(mode==='people'){list=[...people.values()].filter(p=>terms.every(t=>norm(p.name).includes(t))&&[...p.keys].some(k=>matches(byKey.get(k)))).sort((a,b)=>b.keys.size-a.keys.size);$('#heading').textContent='出演者・監督';$('#grid').replaceChildren(...list.slice(0,limit).map(personCard))}else{list=sorted(movies.filter(m=>matches(m)&&terms.every(t=>m.search.includes(t))));$('#heading').textContent='すべての映画';$('#grid').replaceChildren(...list.slice(0,limit).map(card))}$('#count').textContent=fmt(list.length);if(!list.length)$('#grid').append(el('p','empty','該当する作品・人物がありません'));$('#more').hidden=list.length<=limit;$('#peopleView').textContent=mode==='people'?'映画一覧':'出演者・監督';$('#genreCount').textContent=selectedGenres.size?'（'+selectedGenres.size+'）':''}
+function render(){const terms=norm($('#search').value).trim().split(/\s+/).filter(Boolean);let list;if(mode==='people'){list=[...people.values()].filter(p=>terms.every(t=>norm(p.name).includes(t))&&[...p.keys].some(k=>matches(byKey.get(k)))).sort((a,b)=>b.keys.size-a.keys.size);$('#heading').textContent='出演者・監督';$('#grid').replaceChildren(...list.slice(0,limit).map(personCard))}else{list=sorted(movies.filter(m=>matches(m)&&terms.every(t=>m.search.includes(t))));$('#heading').textContent=({'all':'すべての映画','watched':'観た映画','unwatched':'未鑑賞の映画','personal':'Filmarksの自分のリスト'})[$('#scope').value];$('#grid').replaceChildren(...list.slice(0,limit).map(card))}$('#count').textContent=fmt(list.length);if(!list.length)$('#grid').append(el('p','empty','該当する作品・人物がありません'));$('#more').hidden=list.length<=limit;$('#peopleView').textContent=mode==='people'?'映画一覧':'出演者・監督';$('#genreCount').textContent=selectedGenres.size?'（'+selectedGenres.size+'）':''}
 
 function show(view,back=false){
   if(!back&&(stack.at(-1)?.type!==view.type||stack.at(-1)?.key!==view.key))stack.push(view);
@@ -68,7 +69,7 @@ function show(view,back=false){
   if(view.type==='film'){
     const m=byKey.get(view.key);if(!m)return;
     const head=el('div','film-head'),info=el('div','film-info');
-    info.append(el('h2','',m.title),el('p','meta',String(m.release_date||m.production_year||m.year||'')));
+    info.append(el('h2','',m.title),el('p','meta',[m.release_date||m.production_year||m.year,m.isWatched?'観た':'未鑑賞'].filter(Boolean).join(' · ')));
     for(const [label,list] of [['出演',m.cast||[]],['監督',m.directors||[]]]){
       if(!list.length)continue;
       info.append(el('h3','section-title',label));const chips=el('div','chips');
@@ -115,17 +116,17 @@ $('#searchToggle').onclick=()=>setSearchOpen($('#search').hidden);
 $('#search').addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();setSearchOpen(false)}});
 $('#movieFilters').addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();setSearchOpen(false)}});
 $('#search').addEventListener('input',()=>{mode='movies';limit=72;render()});
-for(const id of ['sort','genreMode'])$('#'+id).addEventListener('change',()=>{limit=72;render()});
+for(const id of ['scope','sort','genreMode'])$('#'+id).addEventListener('change',()=>{limit=72;render()});
 $('#peopleView').onclick=()=>{mode=mode==='movies'?'people':'movies';limit=72;render()};
 $('#more').onclick=()=>{limit+=72;render()};
 $('#shuffle').onclick=()=>{shuffle();$('#sort').value='random';limit=72;render()};
 $('#genreClear').onclick=()=>{selectedGenres.clear();$('#genres').querySelectorAll('input').forEach(i=>i.checked=false);render()};
 document.body.dataset.size='large';
 async function init(){
-  const response=await fetch('catalogue-index.json');if(!response.ok)throw Error('data');
-  const manifest=await response.json();
-  const parts=await Promise.all(manifest.parts.map(async path=>{const r=await fetch(path);if(!r.ok)throw Error('data');return r.json()}));
-  movies=parts.flat();if(movies.length!==manifest.total)throw Error('data count');
-  rebuild();render();
+  let r,stale=false;
+  try{r=await fetch('movie-data.json',{cache:'no-store'});if(!r.ok)throw Error('api')}catch{stale=true;r=await fetch('movie-data.json')}
+  if(!r.ok)throw Error('data');dataset=await r.json();movies=dataset.movies;rebuild();
+  if(stale){$('#coverage').hidden=false;$('#coverage').textContent='保存済みデータを表示しています。'}
+  render();
 }
 init().catch(()=>{$('#grid').append(el('p','empty','読み込みに失敗しました。ページを再読み込みしてください'))});
