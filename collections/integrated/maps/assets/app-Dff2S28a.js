@@ -1,0 +1,1 @@
+import{t as e}from"./app-Bu5Gu9ET.js";import{o as t}from"./app-Cn62m2fZ.js";var n=e();async function r({searchParams:e}){let{view:r}=await e;return(0,n.jsx)(t,{initialMode:r===`world`?`world`:`japan`})}export{r as t};
