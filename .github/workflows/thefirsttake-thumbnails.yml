@@ -1,0 +1,92 @@
+name: THE FIRST TAKE official channel thumbnail build
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/thefirsttake-thumbnails.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Deno for YouTube JS challenges
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install latest yt-dlp
+        run: |
+          python -m pip install --upgrade "yt-dlp[default]"
+
+      - name: Build single-file THE FIRST TAKE thumbnail gallery
+        shell: bash
+        run: |
+          set -o pipefail
+          python py/youtube_channel_thumbnails.py             "https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q"             -o thefirsttake_all_thumbnails.html             --workers 24 2>&1 | tee thefirsttake_build.log
+
+      - name: Verify embedded video images
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, re
+          from datetime import datetime, timezone
+          from pathlib import Path
+          path=Path("thefirsttake_all_thumbnails.html")
+          assert path.is_file() and path.stat().st_size > 100000, "HTML not produced"
+          content=path.read_text(encoding="utf-8")
+          ids=re.findall(r'<a class="thumb" href="https://www\.youtube\.com/watch\?v=([\w-]{11})"',content)
+          thumbs=content.count('src="data:image/')
+          assert len(ids)>1000, f"Suspiciously few video IDs: {len(ids)}"
+          assert len(ids)==len(set(ids))==thumbs, "Duplicate or missing thumbnails"
+          assert "i.ytimg.com/vi/" not in content, "External thumbnail reference found"
+          log=Path("thefirsttake_build.log").read_text(encoding="utf-8")
+          counts={}
+          for name,pattern in {
+            "videos":r"通常動画: (\d+)件",
+            "streams":r"配信: (\d+)件",
+            "unique":r"重複除去後: (\d+)件",
+            "failed":r"取得失敗: (\d+)件"
+          }.items():
+              matches=re.findall(pattern,log)
+              assert matches,f"Missing {name} in log"
+              counts[name]=int(matches[-1])
+          assert counts["unique"]==len(ids) and counts["failed"]==0
+          report={
+            "channel":"THE FIRST TAKE",
+            "channel_url":"https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q",
+            "created_utc":datetime.now(timezone.utc).isoformat(),
+            "usual_videos":counts["videos"],"streams":counts["streams"],
+            "shorts":"excluded","unique_video_ids":len(ids),
+            "embedded_thumbnails":thumbs,"failed_thumbnails":0,
+            "html_size_bytes":path.stat().st_size,"complete":True
+          }
+          Path("thefirsttake_report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
+          Path("thefirsttake_video_ids.txt").write_text("\n".join(ids)+"\n",encoding="utf-8")
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          PY
+
+      - name: Upload THE FIRST TAKE HTML and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thefirsttake-all-thumbnails
+          path: |
+            thefirsttake_all_thumbnails.html
+            thefirsttake_report.json
+            thefirsttake_video_ids.txt
+            thefirsttake_build.log
+          if-no-files-found: warn
+          retention-days: 7
