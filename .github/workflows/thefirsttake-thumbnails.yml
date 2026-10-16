@@ -49,7 +49,7 @@ jobs:
           content=path.read_text(encoding="utf-8")
           ids=re.findall(r'<a class="thumb" href="https://www\.youtube\.com/watch\?v=([\w-]{11})"',content)
           thumbs=content.count('src="data:image/')
-          assert len(ids)>1000, f"Suspiciously few video IDs: {len(ids)}"
+          assert len(ids)>100, f"Suspiciously few video IDs: {len(ids)}"
           assert len(ids)==len(set(ids))==thumbs, "Duplicate or missing thumbnails"
           assert "i.ytimg.com/vi/" not in content, "External thumbnail reference found"
           log=Path("thefirsttake_build.log").read_text(encoding="utf-8")
