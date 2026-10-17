@@ -1,3 +1,9 @@
+# コレクションの保存先
+
+光康サイトのコレクションはR2へ移行しました。旧GitHub Pagesの入口からも [光康サイト](https://mitsuyasu-memory.mitsuyasuuu.chatgpt.site/) の対応画面へ移動します。編集元は光康サイトのソース内 `content/collections/`、更新手順は同ソース内 `docs/r2-unified-storage.md` です。
+
+以下は移行前の運用記録を含むリポジトリ説明です。
+
 # 光康サイト｜GitHub公開リンク台帳・運用ルール
 
 更新日：2026-10-17（日本時間）
