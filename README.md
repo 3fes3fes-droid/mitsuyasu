@@ -12,7 +12,6 @@ GitHub Pagesで公開するHTML・データと、取得・更新用コードを�
 | サッカー保存アーカイブ | [公開画面](https://3fes3fes-droid.github.io/mitsuyasu/Football_archive_single.html)・`Football_archive_single.html` |
 | メディア画面 | [公開画面](https://3fes3fes-droid.github.io/mitsuyasu/m.html)・`m.html` |
 | 各種一覧 | ルートの `anime.html`、`unext.html`、`human.html`、`play.html` などと対応するJSON・CSS・JS |
-| 画像・素材 | `ione-tv/` など |
 | 取得・更新処理 | `py/`、`un.py`、`tampermonkey/`、`.github/workflows/` |
 
 公開URLの台帳は [site-links.json](site-links.json)。GitHubの [Actions](https://github.com/3fes3fes-droid/mitsuyasu/actions) にある **Public link audit (manual)** から、登録済みURLを手動確認できる。
