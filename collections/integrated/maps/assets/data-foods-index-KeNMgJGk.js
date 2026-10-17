@@ -1,0 +1,1 @@
+import{t as e}from"./data-foods-0-BTVEuwJk.js";import{t}from"./data-foods-1-UY6NNc28.js";import{t as n}from"./data-foods-2-CzysJd8a.js";import{t as r}from"./data-foods-3-B7fMqU_H.js";var i={...e,...t,...n,...r};export{i as t};

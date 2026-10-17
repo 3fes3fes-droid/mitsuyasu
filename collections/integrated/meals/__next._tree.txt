@@ -1,0 +1,3 @@
+:HL["/mitsuyasu/collections/_next/static/css/0ecb2d3f3c30c0fd.css","style"]
+:HL["/mitsuyasu/collections/_next/static/css/9d7390567e5e0c35.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"integrated","param":null,"prefetchHints":0,"slots":{"children":{"name":"meals","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"k-8q7tWhSlj2fPjAyflhz"}

@@ -1,0 +1,1442 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>有吉弘行 Twitter / X ニュース年表</title>
+<style>
+:root{--bg:#0b0d10;--panel:#14181d;--panel2:#1b2027;--text:#eef1f4;--muted:#98a2ae;--line:#29303a;--accent:#f3c64e;--link:#8fc7ff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Yu Gothic UI","Yu Gothic",sans-serif;line-height:1.7}
+.wrap{max-width:1500px;margin:auto;padding:25px 18px 70px}
+h1{font-size:clamp(28px,4vw,48px);line-height:1.14;margin:0 0 10px}
+.intro{max-width:1100px;margin:0;color:#c9cfd6}
+.counts{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 22px}
+.count{background:var(--panel);border:1px solid var(--line);padding:10px 14px;border-radius:12px}
+.count b{color:var(--accent);font-size:24px;margin-right:6px}
+.count span{font-size:12px;color:var(--muted)}
+.controls{position:sticky;top:0;z-index:20;background:rgba(11,13,16,.96);backdrop-filter:blur(10px);padding:11px 0 12px;border-bottom:1px solid var(--line);margin-bottom:15px}
+.search{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:#101318;color:var(--text);font-size:15px;outline:none}
+.row{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{border:1px solid var(--line);background:var(--panel);color:#cbd2da;border-radius:999px;padding:6px 10px;font-size:12px;cursor:pointer}
+.chip.active{background:var(--accent);border-color:var(--accent);color:#151515;font-weight:800}
+.result{font-size:12px;color:var(--muted);margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.card{background:linear-gradient(180deg,var(--panel),#111419);border:1px solid var(--line);border-radius:14px;padding:16px}
+.card.hidden{display:none}
+.card-head{display:flex;justify-content:space-between;gap:15px}
+.date{color:var(--accent);font-size:13px;font-weight:800}
+h2{font-size:18px;line-height:1.4;margin:3px 0 7px}
+.num{font-size:12px;color:#5f6975;font-weight:800}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin:7px 0}
+.tag{font-size:11px;padding:3px 7px;background:#232a32;border:1px solid #313a45;color:#d0d6dd;border-radius:999px}
+.card p{font-size:14px;color:#c9d0d8;margin:9px 0}
+.key{font-size:13px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:8px 10px}
+.key span{color:var(--accent);font-weight:800;margin-right:7px}
+.source{font-size:12px;color:var(--muted);margin-top:9px}
+.source a{color:var(--link);text-decoration:none}
+.source a:hover{text-decoration:underline}
+footer{border-top:1px solid var(--line);margin-top:25px;padding-top:13px;color:#7f8995;font-size:12px}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.wrap{padding:18px 12px 55px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>有吉弘行<br>Twitter / Xでニュースになった出来事</h1>
+<p class="intro">2010年から2026年9月まで。本人の投稿、一般ユーザーとの応酬、芸能人との公開会話、脅迫・盗撮・記事への反論、Twitter発企画、ゲーム・写真・私生活の投稿など、Twitter / Xがニュースの中心になった記事を年代順に収録。</p>
+
+<div class="counts">
+  <div class="count"><b>104</b><span>掲載件数</span></div>
+  <div class="count"><b>59</b><span>今回追加</span></div>
+  <div class="count"><b>2010–2026</b><span>収録期間</span></div>
+</div>
+
+<div class="controls">
+  <input id="q" class="search" placeholder="検索：児嶋 / 殺害 / 太田プロ / 深澤 / 上島 / 盗撮 / ドラクエ / フワ など">
+  <div class="row" id="years"><button class="chip year active" data-year="all">全年</button><button class="chip year" data-year="2010">2010</button><button class="chip year" data-year="2011">2011</button><button class="chip year" data-year="2012">2012</button><button class="chip year" data-year="2013">2013</button><button class="chip year" data-year="2014">2014</button><button class="chip year" data-year="2015">2015</button><button class="chip year" data-year="2016">2016</button><button class="chip year" data-year="2017">2017</button><button class="chip year" data-year="2018">2018</button><button class="chip year" data-year="2019">2019</button><button class="chip year" data-year="2020">2020</button><button class="chip year" data-year="2021">2021</button><button class="chip year" data-year="2022">2022</button><button class="chip year" data-year="2023">2023</button><button class="chip year" data-year="2024">2024</button><button class="chip year" data-year="2025">2025</button><button class="chip year" data-year="2026">2026</button></div>
+  <div class="row" id="types"><button class="chip type active" data-type="all">全種類</button><button class="chip type" data-type="Twitter企画">Twitter企画</button><button class="chip type" data-type="Twitter黎明期">Twitter黎明期</button><button class="chip type" data-type="X自体">X自体</button><button class="chip type" data-type="ゲーム">ゲーム</button><button class="chip type" data-type="スポーツ">スポーツ</button><button class="chip type" data-type="ファン絡み">ファン絡み</button><button class="chip type" data-type="メディア">メディア</button><button class="chip type" data-type="一般人">一般人</button><button class="chip type" data-type="公開応酬">公開応酬</button><button class="chip type" data-type="写真">写真</button><button class="chip type" data-type="削除">削除</button><button class="chip type" data-type="恒例投稿">恒例投稿</button><button class="chip type" data-type="意味深投稿">意味深投稿</button><button class="chip type" data-type="懐古投稿">懐古投稿</button><button class="chip type" data-type="時事">時事</button><button class="chip type" data-type="炎上・騒動">炎上・騒動</button><button class="chip type" data-type="番組">番組</button><button class="chip type" data-type="番組企画">番組企画</button><button class="chip type" data-type="番組連動">番組連動</button><button class="chip type" data-type="盗撮・メディア">盗撮・メディア</button><button class="chip type" data-type="私生活">私生活</button><button class="chip type" data-type="脅迫・警察">脅迫・警察</button><button class="chip type" data-type="芸能人">芸能人</button><button class="chip type" data-type="記録・節目">記録・節目</button><button class="chip type" data-type="話題投稿">話題投稿</button><button class="chip type" data-type="誤投稿">誤投稿</button><button class="chip type" data-type="追悼・私生活">追悼・私生活</button></div>
+  <div class="result" id="result"></div>
+</div>
+
+<main class="grid">
+<article class="card" data-year="2010" data-types="番組企画｜Twitter黎明期" data-search="2010-01-25 『電波少年2010』でtwitterだけを頼りに生活する企画、有吉も参加 twitterのつぶやきだけを頼りに生活する『電波少年2010』企画が始動。有吉がボス役としてtwitter上から指令を出すなど、本人のtwitter活動が大きく知られる前のsns企画として報じられた。 twitterを番組企画そのものに使用 番組企画 twitter黎明期">
+  <div class="card-head">
+    <div>
+      <div class="date">2010-01-25</div>
+      <h2>『電波少年2010』でTwitterだけを頼りに生活する企画、有吉も参加</h2>
+    </div>
+    <div class="num">#001</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter黎明期</span></div>
+  <p>Twitterのつぶやきだけを頼りに生活する『電波少年2010』企画が始動。有吉がボス役としてTwitter上から指令を出すなど、本人のTwitter活動が大きく知られる前のSNS企画として報じられた。</p>
+  <div class="key"><span>流れ</span>Twitterを番組企画そのものに使用</div>
+  <div class="source">出典：<a href="https://www.itmedia.co.jp/news/articles/1001/25/news076.html" target="_blank" rel="noopener">ITmedia NEWS</a></div>
+</article>
+<article class="card" data-year="2011" data-types="一般人｜脅迫・警察" data-search="2011-12-26 自宅への放火予告を本人がリツイート 高校生とみられるユーザーが有吉の自宅への放火を予告。有吉が投稿を拡散し、警察関係者に対応を委ねる趣旨で反応。投稿者は冗談だったと釈明し、謝罪へ。 放火予告 → 有吉本人が可視化 → 投稿者炎上・謝罪 一般人 脅迫・警察">
+  <div class="card-head">
+    <div>
+      <div class="date">2011-12-26</div>
+      <h2>自宅への放火予告を本人がリツイート</h2>
+    </div>
+    <div class="num">#002</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">脅迫・警察</span></div>
+  <p>高校生とみられるユーザーが有吉の自宅への放火を予告。有吉が投稿を拡散し、警察関係者に対応を委ねる趣旨で反応。投稿者は冗談だったと釈明し、謝罪へ。</p>
+  <div class="key"><span>流れ</span>放火予告 → 有吉本人が可視化 → 投稿者炎上・謝罪</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2011/12/27117746.html?p=all" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2012" data-types="一般人｜炎上・騒動" data-search="2012-01-25 薬局店員の来店客ツイートに有吉が反撃 有吉を接客した薬局店員が、帽子やサングラス姿を揶揄する投稿。有吉が知って直接反応し、店員側が炎上。謝罪後にアカウント削除へ。 店員の悪口投稿 → 有吉が発見 → 店員謝罪・アカウント削除 一般人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2012-01-25</div>
+      <h2>薬局店員の来店客ツイートに有吉が反撃</h2>
+    </div>
+    <div class="num">#003</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">炎上・騒動</span></div>
+  <p>有吉を接客した薬局店員が、帽子やサングラス姿を揶揄する投稿。有吉が知って直接反応し、店員側が炎上。謝罪後にアカウント削除へ。</p>
+  <div class="key"><span>流れ</span>店員の悪口投稿 → 有吉が発見 → 店員謝罪・アカウント削除</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/6228097/" target="_blank" rel="noopener">J-CASTニュース / livedoor</a></div>
+</article>
+<article class="card" data-year="2012" data-types="一般人｜脅迫・警察" data-search="2012-03-26 「住所つぶやいていい？」に「警察に連絡していい？」 一般ユーザーが有吉の自宅を見つけたとして住所公開を示唆。有吉が警察への連絡可否を問い返す。相手は冗談と釈明して謝罪し、その後アカウントを削除。 自宅住所公開示唆 → 警察への連絡を確認 → 謝罪・削除 一般人 脅迫・警察">
+  <div class="card-head">
+    <div>
+      <div class="date">2012-03-26</div>
+      <h2>「住所つぶやいていい？」に「警察に連絡していい？」</h2>
+    </div>
+    <div class="num">#004</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">脅迫・警察</span></div>
+  <p>一般ユーザーが有吉の自宅を見つけたとして住所公開を示唆。有吉が警察への連絡可否を問い返す。相手は冗談と釈明して謝罪し、その後アカウントを削除。</p>
+  <div class="key"><span>流れ</span>自宅住所公開示唆 → 警察への連絡を確認 → 謝罪・削除</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2012/03/29127138.html?p=all" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2012" data-types="記録・節目｜芸能人" data-search="2012-04-03 ガチャピンを抜きtwitterフォロワー国内2位 フォロワー数でガチャピンを上回り国内2位へ。前日からガチャピン本人を意識した投稿をしており、そのやり取りも含めてニュース化。 有吉twitterが巨大メディア化していく時期 記録・節目 芸能人">
+  <div class="card-head">
+    <div>
+      <div class="date">2012-04-03</div>
+      <h2>ガチャピンを抜きTwitterフォロワー国内2位</h2>
+    </div>
+    <div class="num">#005</div>
+  </div>
+  <div class="tags"><span class="tag">記録・節目</span><span class="tag">芸能人</span></div>
+  <p>フォロワー数でガチャピンを上回り国内2位へ。前日からガチャピン本人を意識した投稿をしており、そのやり取りも含めてニュース化。</p>
+  <div class="key"><span>流れ</span>有吉Twitterが巨大メディア化していく時期</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2009607/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2012" data-types="一般人｜脅迫・警察" data-search="2012-05 「有吉ぶっ殺す!!!」への即レスがニュース化 殺害を示唆する一般ユーザーの投稿に、有吉が犯罪になり得ることを指摘。相手はすぐに謝罪し投稿を削除したと報じられた。 殺害示唆 → 有吉が直接返答 → 投稿者謝罪・削除 一般人 脅迫・警察">
+  <div class="card-head">
+    <div>
+      <div class="date">2012-05</div>
+      <h2>「有吉ぶっ殺す!!!」への即レスがニュース化</h2>
+    </div>
+    <div class="num">#006</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">脅迫・警察</span></div>
+  <p>殺害を示唆する一般ユーザーの投稿に、有吉が犯罪になり得ることを指摘。相手はすぐに謝罪し投稿を削除したと報じられた。</p>
+  <div class="key"><span>流れ</span>殺害示唆 → 有吉が直接返答 → 投稿者謝罪・削除</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/6583024/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2012" data-types="X自体｜話題投稿" data-search="2012-06-19 「twitterに完全に飽きた」発言、それでも孫正義超えを意識 有吉がtwitterに完全に飽きたという趣旨を投稿しつつ、当時フォロワー数トップだった孫正義を抜く難しさにも触れた。急増していたフォロワー数と合わせてニュースになった。 twitter疲れを投稿 → フォロワー競争も話題 x自体 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2012-06-19</div>
+      <h2>「Twitterに完全に飽きた」発言、それでも孫正義超えを意識</h2>
+    </div>
+    <div class="num">#007</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">話題投稿</span></div>
+  <p>有吉がTwitterに完全に飽きたという趣旨を投稿しつつ、当時フォロワー数トップだった孫正義を抜く難しさにも触れた。急増していたフォロワー数と合わせてニュースになった。</p>
+  <div class="key"><span>流れ</span>Twitter疲れを投稿 → フォロワー競争も話題</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/6672851/" target="_blank" rel="noopener">J-CAST / livedoor</a></div>
+</article>
+<article class="card" data-year="2012" data-types="記録・節目" data-search="2012-11-30 孫正義を抜いてtwitterフォロワー数日本一 約182万フォロワーに達し、国内フォロワー数1位に。日常の短文投稿や一般ユーザーへの切り返しが広く注目されていた時期。 有吉の1投稿がニュースを動かす規模へ 記録・節目">
+  <div class="card-head">
+    <div>
+      <div class="date">2012-11-30</div>
+      <h2>孫正義を抜いてTwitterフォロワー数日本一</h2>
+    </div>
+    <div class="num">#008</div>
+  </div>
+  <div class="tags"><span class="tag">記録・節目</span></div>
+  <p>約182万フォロワーに達し、国内フォロワー数1位に。日常の短文投稿や一般ユーザーへの切り返しが広く注目されていた時期。</p>
+  <div class="key"><span>流れ</span>有吉の1投稿がニュースを動かす規模へ</div>
+  <div class="source">出典：<a href="https://www.itmedia.co.jp/news/article/1212/03/1121203056/" target="_blank" rel="noopener">ITmedia NEWS</a></div>
+</article>
+<article class="card" data-year="2012" data-types="芸能人｜一般人" data-search="2012-12-30 小嶋陽菜をフォローしていなかった有吉、一般ユーザーの一言で初絡み 一般ユーザーから小嶋陽菜をフォローするよう促され、有吉が応じてフォロー。小嶋本人とのtwitter上のやり取りに発展し、akb48との番組共演もあって話題になった。 一般人のリプ → 小嶋をフォロー → 本人との公開会話 芸能人 一般人">
+  <div class="card-head">
+    <div>
+      <div class="date">2012-12-30</div>
+      <h2>小嶋陽菜をフォローしていなかった有吉、一般ユーザーの一言で初絡み</h2>
+    </div>
+    <div class="num">#009</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">一般人</span></div>
+  <p>一般ユーザーから小嶋陽菜をフォローするよう促され、有吉が応じてフォロー。小嶋本人とのTwitter上のやり取りに発展し、AKB48との番組共演もあって話題になった。</p>
+  <div class="key"><span>流れ</span>一般人のリプ → 小嶋をフォロー → 本人との公開会話</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/7280031/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2013" data-types="記録・節目" data-search="2013-02-06 国内初の200万フォロワー突破 twitterフォロワー数が国内で初めて200万人を突破。前年末の国内1位に続き、sns上での存在感そのものがニュースになった。 200万フォロワー突破 記録・節目">
+  <div class="card-head">
+    <div>
+      <div class="date">2013-02-06</div>
+      <h2>国内初の200万フォロワー突破</h2>
+    </div>
+    <div class="num">#010</div>
+  </div>
+  <div class="tags"><span class="tag">記録・節目</span></div>
+  <p>Twitterフォロワー数が国内で初めて200万人を突破。前年末の国内1位に続き、SNS上での存在感そのものがニュースになった。</p>
+  <div class="key"><span>流れ</span>200万フォロワー突破</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2021439/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2013" data-types="一般人｜炎上・騒動" data-search="2013-02 絡んできた高校生の過去の飲酒投稿が掘り返される 有吉に暴言を交えて絡んだ高校生とみられるユーザーについて、過去の飲酒投稿などが注目され炎上。有吉との応酬自体がネット記事になった。 一般ユーザーが絡む → 過去投稿が発掘 → 炎上 一般人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2013-02</div>
+      <h2>絡んできた高校生の過去の飲酒投稿が掘り返される</h2>
+    </div>
+    <div class="num">#011</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">炎上・騒動</span></div>
+  <p>有吉に暴言を交えて絡んだ高校生とみられるユーザーについて、過去の飲酒投稿などが注目され炎上。有吉との応酬自体がネット記事になった。</p>
+  <div class="key"><span>流れ</span>一般ユーザーが絡む → 過去投稿が発掘 → 炎上</div>
+  <div class="source">出典：<a href="https://rensai.jp/41248" target="_blank" rel="noopener">連載JP</a></div>
+</article>
+<article class="card" data-year="2013" data-types="番組企画｜Twitter企画" data-search="2013-03-28 twitter投票で決める「太田プロ総選挙」第3回開催を告知 有吉が太田プロ所属タレントの人気順位をtwitter投票で決める恒例企画を告知。本人のアカウント上で行われる非公式総選挙そのものがニュースになった。 twitter投票企画が恒例ニュース化 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2013-03-28</div>
+      <h2>Twitter投票で決める「太田プロ総選挙」第3回開催を告知</h2>
+    </div>
+    <div class="num">#012</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>有吉が太田プロ所属タレントの人気順位をTwitter投票で決める恒例企画を告知。本人のアカウント上で行われる非公式総選挙そのものがニュースになった。</p>
+  <div class="key"><span>流れ</span>Twitter投票企画が恒例ニュース化</div>
+  <div class="source">出典：<a href="https://www.rbbtoday.com/article/2013/03/28/105403.html" target="_blank" rel="noopener">RBB TODAY</a></div>
+</article>
+<article class="card" data-year="2013" data-types="番組企画｜Twitter企画" data-search="2013-06-09 「太田プロ総選挙2013」結果をtwitterで発表 有吉がtwitter上で太田プロ所属タレントの総選挙結果を発表。大島優子ら実際のakb総選挙上位メンバーも絡むパロディ企画として大きく報じられた。 有吉主催のtwitter投票 → 結果発表までニュース化 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2013-06-09</div>
+      <h2>「太田プロ総選挙2013」結果をTwitterで発表</h2>
+    </div>
+    <div class="num">#013</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>有吉がTwitter上で太田プロ所属タレントの総選挙結果を発表。大島優子ら実際のAKB総選挙上位メンバーも絡むパロディ企画として大きく報じられた。</p>
+  <div class="key"><span>流れ</span>有吉主催のTwitter投票 → 結果発表までニュース化</div>
+  <div class="source">出典：<a href="https://www.sponichi.co.jp/entertainment/news/2013/06/09/kiji/K20130609005979750.html" target="_blank" rel="noopener">スポニチ</a></div>
+</article>
+<article class="card" data-year="2013" data-types="X自体｜記録・節目" data-search="2013-07-18 250万フォロワー到達で「緩やかにフェードアウト」発言 フォロワー250万人を超えた時期、有吉がtwitterから徐々に離れる意向を投稿。この後も利用は継続したが、初期の大量応酬期からの変化として報じられた。 twitterとの距離感を変える発言 x自体 記録・節目">
+  <div class="card-head">
+    <div>
+      <div class="date">2013-07-18</div>
+      <h2>250万フォロワー到達で「緩やかにフェードアウト」発言</h2>
+    </div>
+    <div class="num">#014</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">記録・節目</span></div>
+  <p>フォロワー250万人を超えた時期、有吉がTwitterから徐々に離れる意向を投稿。この後も利用は継続したが、初期の大量応酬期からの変化として報じられた。</p>
+  <div class="key"><span>流れ</span>Twitterとの距離感を変える発言</div>
+  <div class="source">出典：<a href="https://www.cinematoday.jp/news/N0054909" target="_blank" rel="noopener">シネマトゥデイ</a></div>
+</article>
+<article class="card" data-year="2013" data-types="話題投稿" data-search="2013-10-23 twitterで突然の禁煙宣言、禁断症状実況が話題 1日100本ほど吸っていたとされる有吉がtwitterで突然禁煙を宣言。その後、禁煙中の苦しさを連日投稿し、投稿自体がニュースとして追われた。 私生活実況が連日ニュース化 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2013-10-23</div>
+      <h2>Twitterで突然の禁煙宣言、禁断症状実況が話題</h2>
+    </div>
+    <div class="num">#015</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span></div>
+  <p>1日100本ほど吸っていたとされる有吉がTwitterで突然禁煙を宣言。その後、禁煙中の苦しさを連日投稿し、投稿自体がニュースとして追われた。</p>
+  <div class="key"><span>流れ</span>私生活実況が連日ニュース化</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2013/11/08188387.html?p=all" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2014" data-types="X自体｜一般人" data-search="2014-01-18 「twitterの悪意に心折られてやめるのは自意識過剰」と持論 twitter上の悪意を理由にsnsをやめることについて有吉が持論を投稿。以前ほど一般ユーザーへ返信しなくなった理由にも触れ、twitterとの付き合い方が記事化された。 初期の大量返信期から運用方針が変化 x自体 一般人">
+  <div class="card-head">
+    <div>
+      <div class="date">2014-01-18</div>
+      <h2>「Twitterの悪意に心折られてやめるのは自意識過剰」と持論</h2>
+    </div>
+    <div class="num">#016</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">一般人</span></div>
+  <p>Twitter上の悪意を理由にSNSをやめることについて有吉が持論を投稿。以前ほど一般ユーザーへ返信しなくなった理由にも触れ、Twitterとの付き合い方が記事化された。</p>
+  <div class="key"><span>流れ</span>初期の大量返信期から運用方針が変化</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/topics/detail/8453500/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2014" data-types="番組企画｜Twitter企画" data-search="2014-03-23 恒例「太田プロ総選挙」の開催をtwitterで発表 有吉がtwitter上で太田プロ総選挙の開催を告知。実在の選挙風の煽りや所属タレントを巻き込んだ展開が毎年ネットニュースになる恒例企画となっていた。 本人アカウント発の恒例イベント 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2014-03-23</div>
+      <h2>恒例「太田プロ総選挙」の開催をTwitterで発表</h2>
+    </div>
+    <div class="num">#017</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>有吉がTwitter上で太田プロ総選挙の開催を告知。実在の選挙風の煽りや所属タレントを巻き込んだ展開が毎年ネットニュースになる恒例企画となっていた。</p>
+  <div class="key"><span>流れ</span>本人アカウント発の恒例イベント</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2035492/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2014" data-types="番組企画｜Twitter企画" data-search="2014-06-08 「太田プロ総選挙2014」結果発表 有吉がtwitter上で総選挙結果を発表。太田プロ所属芸人・タレントを独自順位に並べる企画が今年も報道された。 twitterで順位発表 → 芸能ニュース化 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2014-06-08</div>
+      <h2>「太田プロ総選挙2014」結果発表</h2>
+    </div>
+    <div class="num">#018</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>有吉がTwitter上で総選挙結果を発表。太田プロ所属芸人・タレントを独自順位に並べる企画が今年も報道された。</p>
+  <div class="key"><span>流れ</span>Twitterで順位発表 → 芸能ニュース化</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2038400/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2014" data-types="一般人｜脅迫・警察" data-search="2014-06-25 「喋んな殺すぞ」へ「ちょっと報告してきます」 一般ユーザーからの殺害を示唆する投稿を引用。有吉が意図を確認すると相手は冗談と後退したが、有吉は関係先へ報告する趣旨で返した。 脅迫めいた投稿 → 冗談と釈明 → 有吉は報告へ 一般人 脅迫・警察">
+  <div class="card-head">
+    <div>
+      <div class="date">2014-06-25</div>
+      <h2>「喋んな殺すぞ」へ「ちょっと報告してきます」</h2>
+    </div>
+    <div class="num">#019</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">脅迫・警察</span></div>
+  <p>一般ユーザーからの殺害を示唆する投稿を引用。有吉が意図を確認すると相手は冗談と後退したが、有吉は関係先へ報告する趣旨で返した。</p>
+  <div class="key"><span>流れ</span>脅迫めいた投稿 → 冗談と釈明 → 有吉は報告へ</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/topics/detail/8975142/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2014" data-types="話題投稿｜私生活" data-search="2014-10-25 大量の松茸写真を投稿、「どうした？」と反響 有吉が大量の松茸を前にした写真などをtwitterへ投稿。普段の投稿とのギャップや豪華さが話題になり記事化された。 日常写真だけでネットニュース化 話題投稿 私生活">
+  <div class="card-head">
+    <div>
+      <div class="date">2014-10-25</div>
+      <h2>大量の松茸写真を投稿、「どうした？」と反響</h2>
+    </div>
+    <div class="num">#020</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">私生活</span></div>
+  <p>有吉が大量の松茸を前にした写真などをTwitterへ投稿。普段の投稿とのギャップや豪華さが話題になり記事化された。</p>
+  <div class="key"><span>流れ</span>日常写真だけでネットニュース化</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/9399939/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2014" data-types="芸能人｜公開応酬" data-search="2014-11-07 アンジャッシュ渡部の寿司写真に有吉が絡み「イカとバカ」応酬 渡部建が投稿した寿司写真をきっかけに、有吉と渡部がtwitter上で公開応酬。互いの食通キャラ・毒舌を使ったやり取りとしてニュースになった。 芸人同士のtwitter口喧嘩が記事化 芸能人 公開応酬">
+  <div class="card-head">
+    <div>
+      <div class="date">2014-11-07</div>
+      <h2>アンジャッシュ渡部の寿司写真に有吉が絡み「イカとバカ」応酬</h2>
+    </div>
+    <div class="num">#021</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">公開応酬</span></div>
+  <p>渡部建が投稿した寿司写真をきっかけに、有吉と渡部がTwitter上で公開応酬。互いの食通キャラ・毒舌を使ったやり取りとしてニュースになった。</p>
+  <div class="key"><span>流れ</span>芸人同士のTwitter口喧嘩が記事化</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/9459835/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2014" data-types="記録・節目｜X自体" data-search="2014-12 フォロワー数が横浜市人口を超え、twitter芸が特集される 有吉のフォロワーが約370万人規模となり、一般ユーザーへの切り返し、芸人仲間との会話、写真投稿などを含むtwitter運用そのものが特集記事になった。 有吉twitterの「一般人への切り返し」が定番化 記録・節目 x自体">
+  <div class="card-head">
+    <div>
+      <div class="date">2014-12</div>
+      <h2>フォロワー数が横浜市人口を超え、Twitter芸が特集される</h2>
+    </div>
+    <div class="num">#022</div>
+  </div>
+  <div class="tags"><span class="tag">記録・節目</span><span class="tag">X自体</span></div>
+  <p>有吉のフォロワーが約370万人規模となり、一般ユーザーへの切り返し、芸人仲間との会話、写真投稿などを含むTwitter運用そのものが特集記事になった。</p>
+  <div class="key"><span>流れ</span>有吉Twitterの「一般人への切り返し」が定番化</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2014/12/12223190.html?p=all" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2015" data-types="芸能人｜公開応酬" data-search="2015-01-14 児嶋一哉とtwitter口論、「告訴します。法廷でお会いしましょう」 有吉が児嶋一哉へ引退を促すような冗談を投稿し、児嶋が反論。最後は有吉が告訴をほのめかす完全なネタ応酬となり、その一連がニュースになった。 有吉→児嶋→有吉の公開プロレス 芸能人 公開応酬">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-01-14</div>
+      <h2>児嶋一哉とTwitter口論、「告訴します。法廷でお会いしましょう」</h2>
+    </div>
+    <div class="num">#023</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">公開応酬</span></div>
+  <p>有吉が児嶋一哉へ引退を促すような冗談を投稿し、児嶋が反論。最後は有吉が告訴をほのめかす完全なネタ応酬となり、その一連がニュースになった。</p>
+  <div class="key"><span>流れ</span>有吉→児嶋→有吉の公開プロレス</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/topics/detail/9677782/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2015" data-types="一般人｜ファン絡み" data-search="2015-02-12 川栄李奈ファンへの「そのファンが嫌で本人にも関わりにくくなる」返し 川栄李奈の誕生日にコメントを求めたファンへ、有吉がファンの振る舞いを理由に本人にも関わりづらくなる趣旨で返信。投稿者本人も後日、ニュースになった経緯をブログで説明した。 ファンのリプ → 推し本人との関係に話をつなげる 一般人 ファン絡み">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-02-12</div>
+      <h2>川栄李奈ファンへの「そのファンが嫌で本人にも関わりにくくなる」返し</h2>
+    </div>
+    <div class="num">#024</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">ファン絡み</span></div>
+  <p>川栄李奈の誕生日にコメントを求めたファンへ、有吉がファンの振る舞いを理由に本人にも関わりづらくなる趣旨で返信。投稿者本人も後日、ニュースになった経緯をブログで説明した。</p>
+  <div class="key"><span>流れ</span>ファンのリプ → 推し本人との関係に話をつなげる</div>
+  <div class="source">出典：<a href="https://girlschannel.net/topics/294795/" target="_blank" rel="noopener">当時のニュース保存記録</a></div>
+</article>
+<article class="card" data-year="2015" data-types="芸能人｜話題投稿" data-search="2015-04-08 とにかく明るい安村・クマムシら若手芸人をtwitterで評価 ブレイク中の若手芸人について有吉がtwitterで言及。テレビでの評価だけでなく、有吉の短い投稿自体が芸人評として取り上げられた。 有吉の一言が若手芸人評としてニュース化 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-04-08</div>
+      <h2>とにかく明るい安村・クマムシら若手芸人をTwitterで評価</h2>
+    </div>
+    <div class="num">#025</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>ブレイク中の若手芸人について有吉がTwitterで言及。テレビでの評価だけでなく、有吉の短い投稿自体が芸人評として取り上げられた。</p>
+  <div class="key"><span>流れ</span>有吉の一言が若手芸人評としてニュース化</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/topics/detail/9982420/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2015" data-types="芸能人｜話題投稿" data-search="2015-04-24 ダレノガレ明美とのtwitter応酬で新あだ名 ダレノガレ明美が番組出演を希望する投稿をしたところ、有吉が独特の長いあだ名で返答。芸能人同士の公開応酬としてニュース化。 芸能人へのtwitter上の毒舌あだ名 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-04-24</div>
+      <h2>ダレノガレ明美とのTwitter応酬で新あだ名</h2>
+    </div>
+    <div class="num">#026</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>ダレノガレ明美が番組出演を希望する投稿をしたところ、有吉が独特の長いあだ名で返答。芸能人同士の公開応酬としてニュース化。</p>
+  <div class="key"><span>流れ</span>芸能人へのTwitter上の毒舌あだ名</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/10048347/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2015" data-types="X自体｜一般人" data-search="2015-04-26 一般ユーザーを大量フォローする理由をtwitterで説明 芸能人だけでなく一般ユーザーも多数フォローしていた有吉が、その理由やtwitterでの距離感を説明。フォロー方針自体が記事になった。 一般人との距離感・フォロー方針を公開 x自体 一般人">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-04-26</div>
+      <h2>一般ユーザーを大量フォローする理由をTwitterで説明</h2>
+    </div>
+    <div class="num">#027</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">一般人</span></div>
+  <p>芸能人だけでなく一般ユーザーも多数フォローしていた有吉が、その理由やTwitterでの距離感を説明。フォロー方針自体が記事になった。</p>
+  <div class="key"><span>流れ</span>一般人との距離感・フォロー方針を公開</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/topics/detail/10052863/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2015" data-types="話題投稿｜私生活" data-search="2015-05-31 41歳の誕生日に「39歳になりました」と投稿 誕生日を迎えた有吉が実年齢とは違う「39歳」とtwitterへ投稿。本人らしい軽い嘘と祝福リプが話題になった。 誕生日投稿の小ネタがニュース化 話題投稿 私生活">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-05-31</div>
+      <h2>41歳の誕生日に「39歳になりました」と投稿</h2>
+    </div>
+    <div class="num">#028</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">私生活</span></div>
+  <p>誕生日を迎えた有吉が実年齢とは違う「39歳」とTwitterへ投稿。本人らしい軽い嘘と祝福リプが話題になった。</p>
+  <div class="key"><span>流れ</span>誕生日投稿の小ネタがニュース化</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/10178217/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2015" data-types="番組企画｜Twitter企画" data-search="2015-06-07 「太田プロ総選挙2015」結果をtwitterで発表 恒例の太田プロ総選挙をtwitterで実施し結果発表。実際のakb48選抜総選挙に合わせた恒例パロディとして報道された。 twitter恒例企画が今年もニュース化 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-06-07</div>
+      <h2>「太田プロ総選挙2015」結果をTwitterで発表</h2>
+    </div>
+    <div class="num">#029</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>恒例の太田プロ総選挙をTwitterで実施し結果発表。実際のAKB48選抜総選挙に合わせた恒例パロディとして報道された。</p>
+  <div class="key"><span>流れ</span>Twitter恒例企画が今年もニュース化</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2053905/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2015" data-types="一般人｜炎上・騒動" data-search="2015-08-16 コミケ来場をtwitter報告、後から寄せられた批判にも反応 コミックマーケット会場から「来ましたー」と投稿。現地での目撃や反響に加え、来場をめぐる批判的な反応にも有吉が触れ、一連が記事になった。 現地投稿 → 大量反響 → 批判への言及 一般人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-08-16</div>
+      <h2>コミケ来場をTwitter報告、後から寄せられた批判にも反応</h2>
+    </div>
+    <div class="num">#030</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">炎上・騒動</span></div>
+  <p>コミックマーケット会場から「来ましたー」と投稿。現地での目撃や反響に加え、来場をめぐる批判的な反応にも有吉が触れ、一連が記事になった。</p>
+  <div class="key"><span>流れ</span>現地投稿 → 大量反響 → 批判への言及</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/topics/detail/10483515/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2015" data-types="一般人｜ファン絡み｜炎上・騒動" data-search="2015-09-03 高橋みなみの写真イジり → ファン抗議 → 「二度と絡まない」 高橋みなみの写真を有吉が軽くイジったところ、一部ファンが抗議。有吉はファンの投稿を拾って今後絡まない趣旨で返し、高橋本人がファン側を制止した。 アイドルをイジる → ファン反発 → 本人がファンを止める 一般人 ファン絡み 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2015-09-03</div>
+      <h2>高橋みなみの写真イジり → ファン抗議 → 「二度と絡まない」</h2>
+    </div>
+    <div class="num">#031</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">ファン絡み</span><span class="tag">炎上・騒動</span></div>
+  <p>高橋みなみの写真を有吉が軽くイジったところ、一部ファンが抗議。有吉はファンの投稿を拾って今後絡まない趣旨で返し、高橋本人がファン側を制止した。</p>
+  <div class="key"><span>流れ</span>アイドルをイジる → ファン反発 → 本人がファンを止める</div>
+  <div class="source">出典：<a href="https://jfn-pods.com/program/27400/article/v6x30Tq4lh" target="_blank" rel="noopener">JFN番組記録</a></div>
+</article>
+<article class="card" data-year="2016" data-types="芸能人｜炎上・騒動" data-search="2016-01-07 ベッキー不倫報道直後の「今日も1日、頑張る。」投稿 ベッキーの不倫報道翌朝、普段の有吉らしくないポジティブ文体と富士山写真を投稿。ベッキーの投稿スタイルを意識したイジりではないかと受け取られニュース化。 時事騒動に直接名指しせず乗る投稿 芸能人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2016-01-07</div>
+      <h2>ベッキー不倫報道直後の「今日も1日、頑張る。」投稿</h2>
+    </div>
+    <div class="num">#032</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">炎上・騒動</span></div>
+  <p>ベッキーの不倫報道翌朝、普段の有吉らしくないポジティブ文体と富士山写真を投稿。ベッキーの投稿スタイルを意識したイジりではないかと受け取られニュース化。</p>
+  <div class="key"><span>流れ</span>時事騒動に直接名指しせず乗る投稿</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2016/01/07254928.html" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2016" data-types="話題投稿｜芸能人" data-search="2016-02-03 手倉森誠監督とカンニング竹山を比較する写真投稿 サッカー日本代表監督の手倉森誠とカンニング竹山が似ているという画像・投稿で話題に。スポーツの大きなニュースに有吉のtwitterが乗る形で記事化された。 時事スポーツ＋芸人イジり 話題投稿 芸能人">
+  <div class="card-head">
+    <div>
+      <div class="date">2016-02-03</div>
+      <h2>手倉森誠監督とカンニング竹山を比較する写真投稿</h2>
+    </div>
+    <div class="num">#033</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">芸能人</span></div>
+  <p>サッカー日本代表監督の手倉森誠とカンニング竹山が似ているという画像・投稿で話題に。スポーツの大きなニュースに有吉のTwitterが乗る形で記事化された。</p>
+  <div class="key"><span>流れ</span>時事スポーツ＋芸人イジり</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2016/02/04257601.html?p=all" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2016" data-types="一般人｜X自体" data-search="2016-02-07 「この人誰ですか？」などの返信にラジオで毒舌 安田和博の写真投稿に付いた一般ユーザーの返信を題材に、ラジオでtwitterの不要な返信・つまらない絡みについて強く批判。snsとの距離感が再び記事になった。 リプ欄の一般人 → ラジオでまとめて言及 一般人 x自体">
+  <div class="card-head">
+    <div>
+      <div class="date">2016-02-07</div>
+      <h2>「この人誰ですか？」などの返信にラジオで毒舌</h2>
+    </div>
+    <div class="num">#034</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">X自体</span></div>
+  <p>安田和博の写真投稿に付いた一般ユーザーの返信を題材に、ラジオでTwitterの不要な返信・つまらない絡みについて強く批判。SNSとの距離感が再び記事になった。</p>
+  <div class="key"><span>流れ</span>リプ欄の一般人 → ラジオでまとめて言及</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/lite/article_detail/11159632/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2016" data-types="番組企画｜Twitter企画" data-search="2016-06-19 「太田プロ総選挙2016」結果発表 有吉がtwitterで恒例の太田プロ総選挙結果を発表。毎年のsns企画として芸能ニュース各社が結果を報じた。 twitter発の恒例ランキング企画 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2016-06-19</div>
+      <h2>「太田プロ総選挙2016」結果発表</h2>
+    </div>
+    <div class="num">#035</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>有吉がTwitterで恒例の太田プロ総選挙結果を発表。毎年のSNS企画として芸能ニュース各社が結果を報じた。</p>
+  <div class="key"><span>流れ</span>Twitter発の恒例ランキング企画</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2073673/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2016" data-types="炎上・騒動｜意味深投稿" data-search="2016-08-24 夏目三久との交際・妊娠報道後「狐につままれたような気分」 夏目三久との交際・妊娠報道が出た当日夜、具体的な説明をせず意味深な一文をtwitterに投稿。報道への反応として大きく取り上げられた。 大型芸能報道 → 意味深投稿 → さらにニュース化 炎上・騒動 意味深投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2016-08-24</div>
+      <h2>夏目三久との交際・妊娠報道後「狐につままれたような気分」</h2>
+    </div>
+    <div class="num">#036</div>
+  </div>
+  <div class="tags"><span class="tag">炎上・騒動</span><span class="tag">意味深投稿</span></div>
+  <p>夏目三久との交際・妊娠報道が出た当日夜、具体的な説明をせず意味深な一文をTwitterに投稿。報道への反応として大きく取り上げられた。</p>
+  <div class="key"><span>流れ</span>大型芸能報道 → 意味深投稿 → さらにニュース化</div>
+  <div class="source">出典：<a href="https://news.mynavi.jp/article/20160824-a534/" target="_blank" rel="noopener">マイナビニュース</a></div>
+</article>
+<article class="card" data-year="2017" data-types="話題投稿｜X自体" data-search="2017-01-21 スマホを便器に落としてフォロワーへ「さようなら」 携帯電話を便器に落としたとして、twitterが使えなくなる可能性を理由にフォロワーへ別れを告げる投稿。翌日には投稿を再開し、それも含めてニュースになった。 日常の一言がそのままネットニュース化 話題投稿 x自体">
+  <div class="card-head">
+    <div>
+      <div class="date">2017-01-21</div>
+      <h2>スマホを便器に落としてフォロワーへ「さようなら」</h2>
+    </div>
+    <div class="num">#037</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">X自体</span></div>
+  <p>携帯電話を便器に落としたとして、Twitterが使えなくなる可能性を理由にフォロワーへ別れを告げる投稿。翌日には投稿を再開し、それも含めてニュースになった。</p>
+  <div class="key"><span>流れ</span>日常の一言がそのままネットニュース化</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2017/01/23288745.html?p=all" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2017" data-types="スポーツ｜話題投稿" data-search="2017-08-23 広陵高校の甲子園準優勝に「全員カープに入団してください！」 広島出身の有吉が、甲子園で躍進した広陵高校にtwitterで反応。広島カープ愛を絡めた投稿としてニュースになった。 地元高校の活躍 → カープ絡みの投稿 スポーツ 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2017-08-23</div>
+      <h2>広陵高校の甲子園準優勝に「全員カープに入団してください！」</h2>
+    </div>
+    <div class="num">#038</div>
+  </div>
+  <div class="tags"><span class="tag">スポーツ</span><span class="tag">話題投稿</span></div>
+  <p>広島出身の有吉が、甲子園で躍進した広陵高校にTwitterで反応。広島カープ愛を絡めた投稿としてニュースになった。</p>
+  <div class="key"><span>流れ</span>地元高校の活躍 → カープ絡みの投稿</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2096101/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2017" data-types="芸能人｜話題投稿" data-search="2017-10-10 上島竜兵への敬意をtwitterであらためて投稿 長年親交の深い上島竜兵について、有吉が尊敬や関係性を感じさせる投稿を行い話題に。普段のイジりとの落差も含めて記事化された。 毒舌関係の裏にある敬意が話題 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2017-10-10</div>
+      <h2>上島竜兵への敬意をTwitterであらためて投稿</h2>
+    </div>
+    <div class="num">#039</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>長年親交の深い上島竜兵について、有吉が尊敬や関係性を感じさせる投稿を行い話題に。普段のイジりとの落差も含めて記事化された。</p>
+  <div class="key"><span>流れ</span>毒舌関係の裏にある敬意が話題</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/13731107/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2017" data-types="話題投稿｜時事" data-search="2017-12-03 有吉版「世間の流行語大賞」をtwitterで発表 世間の流行語大賞とは別に、有吉自身が印象に残った言葉をtwitterで挙げる恒例的な投稿がニュースになった。 独自の流行語選定が記事化 話題投稿 時事">
+  <div class="card-head">
+    <div>
+      <div class="date">2017-12-03</div>
+      <h2>有吉版「世間の流行語大賞」をTwitterで発表</h2>
+    </div>
+    <div class="num">#040</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">時事</span></div>
+  <p>世間の流行語大賞とは別に、有吉自身が印象に残った言葉をTwitterで挙げる恒例的な投稿がニュースになった。</p>
+  <div class="key"><span>流れ</span>独自の流行語選定が記事化</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/topics/detail/13977916/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2017" data-types="話題投稿｜写真" data-search="2017-12-26 『君の名は。』聖地を再現した写真が大反響 映画『君の名は。』の有名な階段シーンを意識した写真をtwitterに投稿。十万件規模の「いいね」を集める大反響となった。 映画の聖地写真 → 大量いいね 話題投稿 写真">
+  <div class="card-head">
+    <div>
+      <div class="date">2017-12-26</div>
+      <h2>『君の名は。』聖地を再現した写真が大反響</h2>
+    </div>
+    <div class="num">#041</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">写真</span></div>
+  <p>映画『君の名は。』の有名な階段シーンを意識した写真をTwitterに投稿。十万件規模の「いいね」を集める大反響となった。</p>
+  <div class="key"><span>流れ</span>映画の聖地写真 → 大量いいね</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2017/12/27317664.html?p=all" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2018" data-types="芸能人｜写真" data-search="2018-02-27 トレンディエンジェル斎藤の頭頂部写真に「芽吹き。春はもうすぐだ」 斎藤司の頭頂部を接写した写真に季節感のある一言を添えて投稿。有吉らしい写真イジりとして拡散された。 一枚の写真＋短文で大反響 芸能人 写真">
+  <div class="card-head">
+    <div>
+      <div class="date">2018-02-27</div>
+      <h2>トレンディエンジェル斎藤の頭頂部写真に「芽吹き。春はもうすぐだ」</h2>
+    </div>
+    <div class="num">#042</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">写真</span></div>
+  <p>斎藤司の頭頂部を接写した写真に季節感のある一言を添えて投稿。有吉らしい写真イジりとして拡散された。</p>
+  <div class="key"><span>流れ</span>一枚の写真＋短文で大反響</div>
+  <div class="source">出典：<a href="https://grapee.jp/461715" target="_blank" rel="noopener">grape</a></div>
+</article>
+<article class="card" data-year="2018" data-types="芸能人｜炎上・騒動" data-search="2018-06-10 安田和博を「侵入者」扱いした投稿が別事件を連想させ波紋 先輩の安田和博を不法侵入者のように表現する恒例のイジり投稿が、当時の太田プロ所属芸人をめぐる事件を連想させるとして一部で波紋。意図を巡って記事化された。 身内イジりが時事事件と重なり反響 芸能人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2018-06-10</div>
+      <h2>安田和博を「侵入者」扱いした投稿が別事件を連想させ波紋</h2>
+    </div>
+    <div class="num">#043</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">炎上・騒動</span></div>
+  <p>先輩の安田和博を不法侵入者のように表現する恒例のイジり投稿が、当時の太田プロ所属芸人をめぐる事件を連想させるとして一部で波紋。意図を巡って記事化された。</p>
+  <div class="key"><span>流れ</span>身内イジりが時事事件と重なり反響</div>
+  <div class="source">出典：<a href="https://www.asagei.com/excerpt/107304" target="_blank" rel="noopener">アサ芸プラス</a></div>
+</article>
+<article class="card" data-year="2018" data-types="番組企画｜Twitter企画" data-search="2018-06-16 「竜兵会総選挙」をtwitterで開催 上島竜兵を中心とした竜兵会メンバーの人気投票を有吉がtwitterで実施。太田プロ総選挙の派生企画として結果まで報道された。 twitter投票で竜兵会メンバーを順位付け 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2018-06-16</div>
+      <h2>「竜兵会総選挙」をTwitterで開催</h2>
+    </div>
+    <div class="num">#044</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>上島竜兵を中心とした竜兵会メンバーの人気投票を有吉がTwitterで実施。太田プロ総選挙の派生企画として結果まで報道された。</p>
+  <div class="key"><span>流れ</span>Twitter投票で竜兵会メンバーを順位付け</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2113791/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2018" data-types="芸能人｜話題投稿" data-search="2018-07-24 丸山桂里奈から届く独特な差し入れに「最近はただただ怖い」 丸山桂里奈から共演者へ渡される独特な差し入れについて、有吉がtwitterで写真付き投稿。丸山のキャラクターも含めて話題になった。 共演者からの贈り物をtwitterで公開 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2018-07-24</div>
+      <h2>丸山桂里奈から届く独特な差し入れに「最近はただただ怖い」</h2>
+    </div>
+    <div class="num">#045</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>丸山桂里奈から共演者へ渡される独特な差し入れについて、有吉がTwitterで写真付き投稿。丸山のキャラクターも含めて話題になった。</p>
+  <div class="key"><span>流れ</span>共演者からの贈り物をTwitterで公開</div>
+  <div class="source">出典：<a href="https://www.daily.co.jp/gossip/2018/07/24/0011475624.shtml" target="_blank" rel="noopener">デイリースポーツ</a></div>
+</article>
+<article class="card" data-year="2019" data-types="芸能人｜公開応酬" data-search="2019-07-10 小嶋陽菜の「#クロちゃんハラスメント」に有吉も便乗 小嶋陽菜がクロちゃんからのリプをハラスメント風に表現すると、有吉も自身へのクロちゃんの絡みに言及。複数芸能人のtwitter会話としてニュースになった。 小嶋→クロちゃん→有吉の公開会話 芸能人 公開応酬">
+  <div class="card-head">
+    <div>
+      <div class="date">2019-07-10</div>
+      <h2>小嶋陽菜の「#クロちゃんハラスメント」に有吉も便乗</h2>
+    </div>
+    <div class="num">#046</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">公開応酬</span></div>
+  <p>小嶋陽菜がクロちゃんからのリプをハラスメント風に表現すると、有吉も自身へのクロちゃんの絡みに言及。複数芸能人のTwitter会話としてニュースになった。</p>
+  <div class="key"><span>流れ</span>小嶋→クロちゃん→有吉の公開会話</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2139861/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2019" data-types="芸能人｜炎上・騒動" data-search="2019-07-20 前澤友作が有吉の「時代おくれ」投稿を引用、偶然のタイミングで騒動 宮迫博之・田村亮の会見をめぐり前澤友作が炎上していた同日、有吉が河島英五『時代おくれ』の一節を投稿。前澤が反応したことで意味ありげに見えたが、有吉は後に偶然だったと説明。 無関係の投稿が別の炎上と接続される 芸能人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2019-07-20</div>
+      <h2>前澤友作が有吉の「時代おくれ」投稿を引用、偶然のタイミングで騒動</h2>
+    </div>
+    <div class="num">#047</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">炎上・騒動</span></div>
+  <p>宮迫博之・田村亮の会見をめぐり前澤友作が炎上していた同日、有吉が河島英五『時代おくれ』の一節を投稿。前澤が反応したことで意味ありげに見えたが、有吉は後に偶然だったと説明。</p>
+  <div class="key"><span>流れ</span>無関係の投稿が別の炎上と接続される</div>
+  <div class="source">出典：<a href="https://www.sponichi.co.jp/entertainment/news/2019/07/21/kiji/20190721s00041000426000c.html" target="_blank" rel="noopener">スポニチ</a></div>
+</article>
+<article class="card" data-year="2019" data-types="ゲーム｜話題投稿" data-search="2019-09-11 『ドラクエウォーク』配信前日に「準備万端。明日から歩く」 ゲーム好きの有吉が『ドラゴンクエストウォーク』開始前にtwitter投稿。以後のプレイ報告も含め、有吉のゲーム活動がたびたび記事化されるきっかけの一つとなった。 ゲーム開始宣言がニュース化 ゲーム 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2019-09-11</div>
+      <h2>『ドラクエウォーク』配信前日に「準備万端。明日から歩く」</h2>
+    </div>
+    <div class="num">#048</div>
+  </div>
+  <div class="tags"><span class="tag">ゲーム</span><span class="tag">話題投稿</span></div>
+  <p>ゲーム好きの有吉が『ドラゴンクエストウォーク』開始前にTwitter投稿。以後のプレイ報告も含め、有吉のゲーム活動がたびたび記事化されるきっかけの一つとなった。</p>
+  <div class="key"><span>流れ</span>ゲーム開始宣言がニュース化</div>
+  <div class="source">出典：<a href="https://futaman.futabanet.jp/articles/-/68570?page=1" target="_blank" rel="noopener">ふたまん＋</a></div>
+</article>
+<article class="card" data-year="2019" data-types="番組企画｜Twitter企画" data-search="2019-12-18 年末の「太田プロランキング」をtwitterで発表 かつての太田プロ総選挙に続く形で、所属タレントを独自に並べるランキングをtwitterで発表。順位と寸評がニュースになった。 所属事務所メンバーの独自ランキング 番組企画 twitter企画">
+  <div class="card-head">
+    <div>
+      <div class="date">2019-12-18</div>
+      <h2>年末の「太田プロランキング」をTwitterで発表</h2>
+    </div>
+    <div class="num">#049</div>
+  </div>
+  <div class="tags"><span class="tag">番組企画</span><span class="tag">Twitter企画</span></div>
+  <p>かつての太田プロ総選挙に続く形で、所属タレントを独自に並べるランキングをTwitterで発表。順位と寸評がニュースになった。</p>
+  <div class="key"><span>流れ</span>所属事務所メンバーの独自ランキング</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2151390/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2020" data-types="話題投稿｜私生活" data-search="2020-01-07 「忘れない3つ」をtwitterで投稿し反響 新年の自身への戒めのような短い投稿が反響を呼び、内容と有吉らしい言葉選びが芸能ニュースで取り上げられた。 短い自己ルール投稿が記事化 話題投稿 私生活">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-01-07</div>
+      <h2>「忘れない3つ」をTwitterで投稿し反響</h2>
+    </div>
+    <div class="num">#050</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">私生活</span></div>
+  <p>新年の自身への戒めのような短い投稿が反響を呼び、内容と有吉らしい言葉選びが芸能ニュースで取り上げられた。</p>
+  <div class="key"><span>流れ</span>短い自己ルール投稿が記事化</div>
+  <div class="source">出典：<a href="https://www.excite.co.jp/news/article/E_talentbank_125765/" target="_blank" rel="noopener">E-TALENTBANK</a></div>
+</article>
+<article class="card" data-year="2020" data-types="ゲーム｜写真" data-search="2020-01-13 『ドラクエウォーク』の世界が現実に？「現実に出やがった」 街中で見つけた物体を『ドラクエウォーク』のモンスターになぞらえtwitterへ投稿。ゲームファンを中心に反響が広がった。 現実風景をゲームネタ化 ゲーム 写真">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-01-13</div>
+      <h2>『ドラクエウォーク』の世界が現実に？「現実に出やがった」</h2>
+    </div>
+    <div class="num">#051</div>
+  </div>
+  <div class="tags"><span class="tag">ゲーム</span><span class="tag">写真</span></div>
+  <p>街中で見つけた物体を『ドラクエウォーク』のモンスターになぞらえTwitterへ投稿。ゲームファンを中心に反響が広がった。</p>
+  <div class="key"><span>流れ</span>現実風景をゲームネタ化</div>
+  <div class="source">出典：<a href="https://encount.press/archives/18955/" target="_blank" rel="noopener">ENCOUNT</a></div>
+</article>
+<article class="card" data-year="2020" data-types="芸能人｜写真" data-search="2020-02-10 粗品とガリガリガリクソンを取り違えたようなのし紙写真 祝い品ののし紙に芸人名を絡めた写真をtwitterへ投稿。粗品、ガリガリガリクソンらの名前を使った有吉流のイジりが記事になった。 名前ネタを写真一枚で展開 芸能人 写真">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-02-10</div>
+      <h2>粗品とガリガリガリクソンを取り違えたようなのし紙写真</h2>
+    </div>
+    <div class="num">#052</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">写真</span></div>
+  <p>祝い品ののし紙に芸人名を絡めた写真をTwitterへ投稿。粗品、ガリガリガリクソンらの名前を使った有吉流のイジりが記事になった。</p>
+  <div class="key"><span>流れ</span>名前ネタを写真一枚で展開</div>
+  <div class="source">出典：<a href="https://encount.press/archives/25065/" target="_blank" rel="noopener">ENCOUNT</a></div>
+</article>
+<article class="card" data-year="2020" data-types="炎上・騒動｜話題投稿" data-search="2020-03-20〜22 『100日後に死ぬワニ』完結後の炎上をtwitterとラジオでイジる 連載中から作品について投稿していた有吉が、完結直後のメディア展開への反発や「電通案件」騒動をラジオでイジり、twitterでの作品との関わりも含めてニュース化。 twitter発コンテンツの大炎上に有吉が乗る 炎上・騒動 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-03-20〜22</div>
+      <h2>『100日後に死ぬワニ』完結後の炎上をTwitterとラジオでイジる</h2>
+    </div>
+    <div class="num">#053</div>
+  </div>
+  <div class="tags"><span class="tag">炎上・騒動</span><span class="tag">話題投稿</span></div>
+  <p>連載中から作品について投稿していた有吉が、完結直後のメディア展開への反発や「電通案件」騒動をラジオでイジり、Twitterでの作品との関わりも含めてニュース化。</p>
+  <div class="key"><span>流れ</span>Twitter発コンテンツの大炎上に有吉が乗る</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2020/03/23382766.html" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2020" data-types="番組｜懐古投稿" data-search="2020-04-08 『有吉の壁』レギュラー開始日に「猫男爵」写真 『有吉の壁』のレギュラー放送開始日に、若手時代の代表的キャラクター「猫男爵」の写真をtwitterへ投稿。長い芸歴を感じさせる投稿として反響を呼んだ。 新番組開始日に過去キャラをセルフ引用 番組 懐古投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-04-08</div>
+      <h2>『有吉の壁』レギュラー開始日に「猫男爵」写真</h2>
+    </div>
+    <div class="num">#054</div>
+  </div>
+  <div class="tags"><span class="tag">番組</span><span class="tag">懐古投稿</span></div>
+  <p>『有吉の壁』のレギュラー放送開始日に、若手時代の代表的キャラクター「猫男爵」の写真をTwitterへ投稿。長い芸歴を感じさせる投稿として反響を呼んだ。</p>
+  <div class="key"><span>流れ</span>新番組開始日に過去キャラをセルフ引用</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2159442/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2020" data-types="芸能人｜炎上・騒動" data-search="2020-06-10 渡部建の活動自粛報道直後、ポン酢瓶で渡部を殴るイラストを投稿 渡部建をめぐる報道が広がる中、有吉が過去から続く「ポン酢」ネタを使ったイラストをtwitterへ投稿。直接説明しない形の反応として話題になった。 大きな芸能ニュースに長年の身内ネタで反応 芸能人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-06-10</div>
+      <h2>渡部建の活動自粛報道直後、ポン酢瓶で渡部を殴るイラストを投稿</h2>
+    </div>
+    <div class="num">#055</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">炎上・騒動</span></div>
+  <p>渡部建をめぐる報道が広がる中、有吉が過去から続く「ポン酢」ネタを使ったイラストをTwitterへ投稿。直接説明しない形の反応として話題になった。</p>
+  <div class="key"><span>流れ</span>大きな芸能ニュースに長年の身内ネタで反応</div>
+  <div class="source">出典：<a href="https://getnews.jp/archives/2579559" target="_blank" rel="noopener">ガジェット通信</a></div>
+</article>
+<article class="card" data-year="2020" data-types="写真｜恒例投稿" data-search="2020-11-11 ポッキーの日に幼少期写真を投稿 11月11日に合わせて幼少期の写真をtwitterへ投稿。毎年のように昔の写真や小ネタを投入する有吉のsns投稿として取り上げられた。 記念日に幼少期写真を投入 写真 恒例投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-11-11</div>
+      <h2>ポッキーの日に幼少期写真を投稿</h2>
+    </div>
+    <div class="num">#056</div>
+  </div>
+  <div class="tags"><span class="tag">写真</span><span class="tag">恒例投稿</span></div>
+  <p>11月11日に合わせて幼少期の写真をTwitterへ投稿。毎年のように昔の写真や小ネタを投入する有吉のSNS投稿として取り上げられた。</p>
+  <div class="key"><span>流れ</span>記念日に幼少期写真を投入</div>
+  <div class="source">出典：<a href="https://youpouch.com/2020/11/11/721389/" target="_blank" rel="noopener">Pouch</a></div>
+</article>
+<article class="card" data-year="2020" data-types="芸能人｜話題投稿" data-search="2020-12-07 渡部建会見直後、児嶋一哉の写真に「なんかあったのかなぁ」 渡部建の謝罪会見直後、相方の児嶋一哉の険しい表情の写真を投稿して白々しくイジる。児嶋本人もtwitterで即ツッコミし、大きな反響。 時事騒動を芸人同士のtwitter応酬に変換 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2020-12-07</div>
+      <h2>渡部建会見直後、児嶋一哉の写真に「なんかあったのかなぁ」</h2>
+    </div>
+    <div class="num">#057</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>渡部建の謝罪会見直後、相方の児嶋一哉の険しい表情の写真を投稿して白々しくイジる。児嶋本人もTwitterで即ツッコミし、大きな反響。</p>
+  <div class="key"><span>流れ</span>時事騒動を芸人同士のTwitter応酬に変換</div>
+  <div class="source">出典：<a href="https://times.abema.tv/articles/-/8636882" target="_blank" rel="noopener">ABEMA TIMES</a></div>
+</article>
+<article class="card" data-year="2021" data-types="芸能人｜写真" data-search="2021-01-11 フワちゃんをブルーザー・ブロディになぞらえ「令和の。。。」 フワちゃんの見た目をプロレスラーのブルーザー・ブロディに重ねた画像・投稿が話題に。本人同士の関係性を知るフォロワーから大きな反響があった。 人物写真をプロレスネタで比較 芸能人 写真">
+  <div class="card-head">
+    <div>
+      <div class="date">2021-01-11</div>
+      <h2>フワちゃんをブルーザー・ブロディになぞらえ「令和の。。。」</h2>
+    </div>
+    <div class="num">#058</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">写真</span></div>
+  <p>フワちゃんの見た目をプロレスラーのブルーザー・ブロディに重ねた画像・投稿が話題に。本人同士の関係性を知るフォロワーから大きな反響があった。</p>
+  <div class="key"><span>流れ</span>人物写真をプロレスネタで比較</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/19520837/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2021" data-types="記録・節目｜話題投稿" data-search="2021-04-02 夏目三久との結婚報告が2021年twitter「最多いいね」 結婚報告の投稿が約94万いいねを集め、その年のtwitterトレンド大賞で「最多いいね」部門に選ばれた。 私生活発表が年間最大級のtwitter反響 記録・節目 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2021-04-02</div>
+      <h2>夏目三久との結婚報告が2021年Twitter「最多いいね」</h2>
+    </div>
+    <div class="num">#059</div>
+  </div>
+  <div class="tags"><span class="tag">記録・節目</span><span class="tag">話題投稿</span></div>
+  <p>結婚報告の投稿が約94万いいねを集め、その年のTwitterトレンド大賞で「最多いいね」部門に選ばれた。</p>
+  <div class="key"><span>流れ</span>私生活発表が年間最大級のTwitter反響</div>
+  <div class="source">出典：<a href="https://www.itmedia.co.jp/news/articles/2112/20/news121.html" target="_blank" rel="noopener">ITmedia NEWS</a></div>
+</article>
+<article class="card" data-year="2021" data-types="芸能人｜写真" data-search="2021-05-03 フワちゃんの写真を大胆にぼかして投稿 フワちゃんの写真の一部を大きくぼかした画像をtwitterへ投稿。何を隠しているのかという見せ方と本人同士のイジりが話題になった。 加工写真による身内イジり 芸能人 写真">
+  <div class="card-head">
+    <div>
+      <div class="date">2021-05-03</div>
+      <h2>フワちゃんの写真を大胆にぼかして投稿</h2>
+    </div>
+    <div class="num">#060</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">写真</span></div>
+  <p>フワちゃんの写真の一部を大きくぼかした画像をTwitterへ投稿。何を隠しているのかという見せ方と本人同士のイジりが話題になった。</p>
+  <div class="key"><span>流れ</span>加工写真による身内イジり</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/20132677/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2021" data-types="一般人｜盗撮・メディア" data-search="2021-05-07 盗撮への不満に「有名人だからしょうがない」→ 有吉が直接反論 有吉が長時間の盗撮への不快感を投稿。一般ユーザーから「有名人だから仕方ない」という趣旨の返信が来ると、その論理を皮肉る形で直接返した。 盗撮被害 → 有名税論 → 有吉が引用的に反論 一般人 盗撮・メディア">
+  <div class="card-head">
+    <div>
+      <div class="date">2021-05-07</div>
+      <h2>盗撮への不満に「有名人だからしょうがない」→ 有吉が直接反論</h2>
+    </div>
+    <div class="num">#061</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">盗撮・メディア</span></div>
+  <p>有吉が長時間の盗撮への不快感を投稿。一般ユーザーから「有名人だから仕方ない」という趣旨の返信が来ると、その論理を皮肉る形で直接返した。</p>
+  <div class="key"><span>流れ</span>盗撮被害 → 有名税論 → 有吉が引用的に反論</div>
+  <div class="source">出典：<a href="https://news.mynavi.jp/article/20210508-1885400/" target="_blank" rel="noopener">マイナビニュース</a></div>
+</article>
+<article class="card" data-year="2021" data-types="芸能人｜時事" data-search="2021-09-28 櫻井翔・相葉雅紀の結婚発表直後に「おめでとうございます！」 櫻井翔と相葉雅紀の結婚発表を受け、有吉がすぐtwitterで祝福。『夜会』などで共演する櫻井との関係もあり投稿が報じられた。 大型芸能ニュースへ即時祝福投稿 芸能人 時事">
+  <div class="card-head">
+    <div>
+      <div class="date">2021-09-28</div>
+      <h2>櫻井翔・相葉雅紀の結婚発表直後に「おめでとうございます！」</h2>
+    </div>
+    <div class="num">#062</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">時事</span></div>
+  <p>櫻井翔と相葉雅紀の結婚発表を受け、有吉がすぐTwitterで祝福。『夜会』などで共演する櫻井との関係もあり投稿が報じられた。</p>
+  <div class="key"><span>流れ</span>大型芸能ニュースへ即時祝福投稿</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2208523/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2022" data-types="芸能人｜炎上・騒動｜削除" data-search="2022-01-16 児嶋一哉が有吉へ「恥ずかしくないの？」と苦言投稿、その後削除 有吉がラジオで児嶋のyoutubeを強くイジったことに児嶋がtwitterで反発。投稿は削除され、翌日には本人同士で話したため大丈夫だと説明した。 ラジオ発言 → 児嶋がtwitter反論 → 削除・収束 芸能人 炎上・騒動 削除">
+  <div class="card-head">
+    <div>
+      <div class="date">2022-01-16</div>
+      <h2>児嶋一哉が有吉へ「恥ずかしくないの？」と苦言投稿、その後削除</h2>
+    </div>
+    <div class="num">#063</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">炎上・騒動</span><span class="tag">削除</span></div>
+  <p>有吉がラジオで児嶋のYouTubeを強くイジったことに児嶋がTwitterで反発。投稿は削除され、翌日には本人同士で話したため大丈夫だと説明した。</p>
+  <div class="key"><span>流れ</span>ラジオ発言 → 児嶋がTwitter反論 → 削除・収束</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2022/01/18429073.html" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2022" data-types="芸能人｜恒例投稿" data-search="2022-01-20 上島竜兵の誕生日に「大寒。上島竜兵の誕生日です」 上島竜兵の誕生日を知らせる恒例のようなtwitter投稿がニュースに。長年続いた二人の関係を象徴するsns上のやり取りの一つ。 上島の誕生日をtwitterで告知 芸能人 恒例投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2022-01-20</div>
+      <h2>上島竜兵の誕生日に「大寒。上島竜兵の誕生日です」</h2>
+    </div>
+    <div class="num">#064</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">恒例投稿</span></div>
+  <p>上島竜兵の誕生日を知らせる恒例のようなTwitter投稿がニュースに。長年続いた二人の関係を象徴するSNS上のやり取りの一つ。</p>
+  <div class="key"><span>流れ</span>上島の誕生日をTwitterで告知</div>
+  <div class="source">出典：<a href="https://news.livedoor.com/article/detail/21538485/" target="_blank" rel="noopener">livedoorニュース</a></div>
+</article>
+<article class="card" data-year="2022" data-types="芸能人｜追悼・私生活" data-search="2022-05-15 上島竜兵さん死去後、初のtwitter投稿 上島竜兵さんの死去後、しばらく更新が止まっていた有吉がラジオ放送日にtwitterを更新。短い通常運転の文面だったことも含め、多数のメディアが報じた。 大きな出来事後の初投稿として注目 芸能人 追悼・私生活">
+  <div class="card-head">
+    <div>
+      <div class="date">2022-05-15</div>
+      <h2>上島竜兵さん死去後、初のTwitter投稿</h2>
+    </div>
+    <div class="num">#065</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">追悼・私生活</span></div>
+  <p>上島竜兵さんの死去後、しばらく更新が止まっていた有吉がラジオ放送日にTwitterを更新。短い通常運転の文面だったことも含め、多数のメディアが報じた。</p>
+  <div class="key"><span>流れ</span>大きな出来事後の初投稿として注目</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202205150000845.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2022" data-types="芸能人｜恒例投稿" data-search="2022-05-31 鈴木京香の誕生日をtwitterで祝福 5月31日の誕生日に有吉が鈴木京香を祝う投稿。以前から続く恒例の誕生日投稿として本人やファンの間で話題になった。 毎年続く鈴木京香誕生日投稿 芸能人 恒例投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2022-05-31</div>
+      <h2>鈴木京香の誕生日をTwitterで祝福</h2>
+    </div>
+    <div class="num">#066</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">恒例投稿</span></div>
+  <p>5月31日の誕生日に有吉が鈴木京香を祝う投稿。以前から続く恒例の誕生日投稿として本人やファンの間で話題になった。</p>
+  <div class="key"><span>流れ</span>毎年続く鈴木京香誕生日投稿</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2236620/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2022" data-types="番組｜話題投稿" data-search="2022-12-16 紅白出演発表を引用し「ラッキー！」 nhk紅白歌合戦への出演が発表されると、公式情報を引用して有吉が短く反応。出演決定そのものと合わせてニュースになった。 大型番組出演決定 → xで短文反応 番組 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2022-12-16</div>
+      <h2>紅白出演発表を引用し「ラッキー！」</h2>
+    </div>
+    <div class="num">#067</div>
+  </div>
+  <div class="tags"><span class="tag">番組</span><span class="tag">話題投稿</span></div>
+  <p>NHK紅白歌合戦への出演が発表されると、公式情報を引用して有吉が短く反応。出演決定そのものと合わせてニュースになった。</p>
+  <div class="key"><span>流れ</span>大型番組出演決定 → Xで短文反応</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2260881/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2023" data-types="炎上・騒動｜意味深投稿" data-search="2023-03-06 r-1の得点表示騒動で「極秘情報入手」「そんな裏事情が」 r-1グランプリの得点表示をめぐる騒動が広がる中、詳細を明かさず「極秘情報入手」などと投稿。何を知ったのか憶測が広がり記事化。 騒動の最中に意味深な短文だけ投下 炎上・騒動 意味深投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-03-06</div>
+      <h2>R-1の得点表示騒動で「極秘情報入手」「そんな裏事情が」</h2>
+    </div>
+    <div class="num">#068</div>
+  </div>
+  <div class="tags"><span class="tag">炎上・騒動</span><span class="tag">意味深投稿</span></div>
+  <p>R-1グランプリの得点表示をめぐる騒動が広がる中、詳細を明かさず「極秘情報入手」などと投稿。何を知ったのか憶測が広がり記事化。</p>
+  <div class="key"><span>流れ</span>騒動の最中に意味深な短文だけ投下</div>
+  <div class="source">出典：<a href="https://news.allabout.co.jp/articles/o/57769/" target="_blank" rel="noopener">All About ニュース</a></div>
+</article>
+<article class="card" data-year="2023" data-types="芸能人｜番組" data-search="2023-05-20 the second準優勝のマシンガンズへtwitterで反応 『the second』でマシンガンズが準優勝すると、有吉がtwitterで言及。太田プロの後輩芸人への反応として大会結果とともに報じられた。 賞レース結果へ所属後輩をねぎらう投稿 芸能人 番組">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-05-20</div>
+      <h2>THE SECOND準優勝のマシンガンズへTwitterで反応</h2>
+    </div>
+    <div class="num">#069</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">番組</span></div>
+  <p>『THE SECOND』でマシンガンズが準優勝すると、有吉がTwitterで言及。太田プロの後輩芸人への反応として大会結果とともに報じられた。</p>
+  <div class="key"><span>流れ</span>賞レース結果へ所属後輩をねぎらう投稿</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2279815/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2023" data-types="芸能人｜追悼・私生活" data-search="2023-05-22 肥後克広60歳と上島竜兵さん一周忌に触れる投稿 ダチョウ倶楽部の肥後克広の節目と上島竜兵さんをめぐる時期に有吉がtwitterで言及。竜兵会の関係性を示す投稿として報じられた。 ダチョウ倶楽部との長年の関係をxで言及 芸能人 追悼・私生活">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-05-22</div>
+      <h2>肥後克広60歳と上島竜兵さん一周忌に触れる投稿</h2>
+    </div>
+    <div class="num">#070</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">追悼・私生活</span></div>
+  <p>ダチョウ倶楽部の肥後克広の節目と上島竜兵さんをめぐる時期に有吉がTwitterで言及。竜兵会の関係性を示す投稿として報じられた。</p>
+  <div class="key"><span>流れ</span>ダチョウ倶楽部との長年の関係をXで言及</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2280037/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2023" data-types="芸能人｜恒例投稿" data-search="2023-05-31 休養中の鈴木京香へ誕生日メッセージ 恒例となっている鈴木京香の誕生日投稿を継続。療養中だった時期のため、体調を気遣う反応も含めて記事化された。 恒例投稿＋療養への気遣い 芸能人 恒例投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-05-31</div>
+      <h2>休養中の鈴木京香へ誕生日メッセージ</h2>
+    </div>
+    <div class="num">#071</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">恒例投稿</span></div>
+  <p>恒例となっている鈴木京香の誕生日投稿を継続。療養中だった時期のため、体調を気遣う反応も含めて記事化された。</p>
+  <div class="key"><span>流れ</span>恒例投稿＋療養への気遣い</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2281038/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2023" data-types="X自体｜話題投稿" data-search="2023-07-31 xの個人サブスクを誤って高額設定し「参加しないでください」 xのサブスクリプション機能を試している最中、価格設定を簡単に戻せない状態になったとして加入しないよう注意喚起。価格の高さも含めて話題に。 x新機能を触る → 設定事故 → 本人が加入停止を呼びかけ x自体 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-07-31</div>
+      <h2>Xの個人サブスクを誤って高額設定し「参加しないでください」</h2>
+    </div>
+    <div class="num">#072</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">話題投稿</span></div>
+  <p>Xのサブスクリプション機能を試している最中、価格設定を簡単に戻せない状態になったとして加入しないよう注意喚起。価格の高さも含めて話題に。</p>
+  <div class="key"><span>流れ</span>X新機能を触る → 設定事故 → 本人が加入停止を呼びかけ</div>
+  <div class="source">出典：<a href="https://encount.press/archives/493397/2/" target="_blank" rel="noopener">ENCOUNT</a></div>
+</article>
+<article class="card" data-year="2023" data-types="X自体｜一般人" data-search="2023-09 インプレッション稼ぎの海外リプ急増、「ブロックはあきらめました」 収益化導入後、自身の投稿に機械翻訳的な海外ユーザーの返信が急増。有吉がブロックを諦めたと投稿し、後には逆手に取ってインプレッション増を楽しむ展開までニュース化。 x収益化 → リプ欄荒れ → 有吉が逆利用 x自体 一般人">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-09</div>
+      <h2>インプレッション稼ぎの海外リプ急増、「ブロックはあきらめました」</h2>
+    </div>
+    <div class="num">#073</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">一般人</span></div>
+  <p>収益化導入後、自身の投稿に機械翻訳的な海外ユーザーの返信が急増。有吉がブロックを諦めたと投稿し、後には逆手に取ってインプレッション増を楽しむ展開までニュース化。</p>
+  <div class="key"><span>流れ</span>X収益化 → リプ欄荒れ → 有吉が逆利用</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202309150000242.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2023" data-types="盗撮・メディア｜炎上・騒動" data-search="2023-10-18 紅白司会の舞台裏記事を「妄想記事」とxで否定 紅白司会を受けるまでの心境を匿名関係者が語った週刊誌記事について、有吉がx上で事実性に疑問を呈し、記事内容を批判した。 週刊誌記事 → xで本人が直接否定 盗撮・メディア 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-10-18</div>
+      <h2>紅白司会の舞台裏記事を「妄想記事」とXで否定</h2>
+    </div>
+    <div class="num">#074</div>
+  </div>
+  <div class="tags"><span class="tag">盗撮・メディア</span><span class="tag">炎上・騒動</span></div>
+  <p>紅白司会を受けるまでの心境を匿名関係者が語った週刊誌記事について、有吉がX上で事実性に疑問を呈し、記事内容を批判した。</p>
+  <div class="key"><span>流れ</span>週刊誌記事 → Xで本人が直接否定</div>
+  <div class="source">出典：<a href="https://www.j-cast.com/2023/10/19471286.html" target="_blank" rel="noopener">J-CASTニュース</a></div>
+</article>
+<article class="card" data-year="2023" data-types="芸能人｜話題投稿" data-search="2023-11-16 ギター断念投稿に布袋寅泰が直接返信、「sns史上最も焦った」 ギターを始めたい衝動を諦めると投稿したところ、布袋寅泰から勧める返信。有吉が恐縮して反応し、一連のやり取りがニュース化。 何気ない投稿 → 大物本人が突然リプ 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-11-16</div>
+      <h2>ギター断念投稿に布袋寅泰が直接返信、「SNS史上最も焦った」</h2>
+    </div>
+    <div class="num">#075</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>ギターを始めたい衝動を諦めると投稿したところ、布袋寅泰から勧める返信。有吉が恐縮して反応し、一連のやり取りがニュース化。</p>
+  <div class="key"><span>流れ</span>何気ない投稿 → 大物本人が突然リプ</div>
+  <div class="source">出典：<a href="https://nlab.itmedia.co.jp/cont/articles/3367611/" target="_blank" rel="noopener">ねとらぼ</a></div>
+</article>
+<article class="card" data-year="2023" data-types="芸能人｜X自体" data-search="2023-11-30 太田プロライブのチケット不振をxで連投宣伝 所属事務所の若手ライブのチケットが売れていないとして、有吉が出演者をイジりながらxで宣伝。後輩芸人を次々巻き込む投稿がニュースになった。 後輩イジりを使ってライブを宣伝 芸能人 x自体">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-11-30</div>
+      <h2>太田プロライブのチケット不振をXで連投宣伝</h2>
+    </div>
+    <div class="num">#076</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">X自体</span></div>
+  <p>所属事務所の若手ライブのチケットが売れていないとして、有吉が出演者をイジりながらXで宣伝。後輩芸人を次々巻き込む投稿がニュースになった。</p>
+  <div class="key"><span>流れ</span>後輩イジりを使ってライブを宣伝</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202311300000185.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2023" data-types="X自体｜話題投稿" data-search="2023-12-08 『有吉ぃぃeeeee！』公式xの閲覧制限を本人が報告 番組公式アカウントが一時的に制限されていることを有吉がxで報告。原因を冗談交じりに推測して話題になった。 番組公式アカウントの制限まで有吉がネタ化 x自体 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-12-08</div>
+      <h2>『有吉ぃぃeeeee！』公式Xの閲覧制限を本人が報告</h2>
+    </div>
+    <div class="num">#077</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">話題投稿</span></div>
+  <p>番組公式アカウントが一時的に制限されていることを有吉がXで報告。原因を冗談交じりに推測して話題になった。</p>
+  <div class="key"><span>流れ</span>番組公式アカウントの制限まで有吉がネタ化</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202312080000468.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2023" data-types="番組｜話題投稿" data-search="2023-12-22 tver特番に「大丈夫なんだろうな？」と不安げに投稿 刺激の強い内容をうたう配信番組について、有吉がxで公式投稿を引用しながら反応。番組宣伝と本人の警戒するような一言がセットで記事になった。 公式番組投稿を引用して自らツッコミ 番組 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2023-12-22</div>
+      <h2>TVer特番に「大丈夫なんだろうな？」と不安げに投稿</h2>
+    </div>
+    <div class="num">#078</div>
+  </div>
+  <div class="tags"><span class="tag">番組</span><span class="tag">話題投稿</span></div>
+  <p>刺激の強い内容をうたう配信番組について、有吉がXで公式投稿を引用しながら反応。番組宣伝と本人の警戒するような一言がセットで記事になった。</p>
+  <div class="key"><span>流れ</span>公式番組投稿を引用して自らツッコミ</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202312220001128.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2024" data-types="一般人｜盗撮・メディア" data-search="2024-01-15 番組収録中を盗撮・即投稿され苦言 → 撮影者が謝罪・削除 一般ユーザーが有吉を撮影してxへ投稿。有吉が盗撮と即時アップに苦言を呈すと、撮影者は事情を説明して謝罪し、投稿を削除した。 盗撮投稿 → 有吉が直接反応 → 投稿者謝罪・削除 一般人 盗撮・メディア">
+  <div class="card-head">
+    <div>
+      <div class="date">2024-01-15</div>
+      <h2>番組収録中を盗撮・即投稿され苦言 → 撮影者が謝罪・削除</h2>
+    </div>
+    <div class="num">#079</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">盗撮・メディア</span></div>
+  <p>一般ユーザーが有吉を撮影してXへ投稿。有吉が盗撮と即時アップに苦言を呈すと、撮影者は事情を説明して謝罪し、投稿を削除した。</p>
+  <div class="key"><span>流れ</span>盗撮投稿 → 有吉が直接反応 → 投稿者謝罪・削除</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202401160000165.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2024" data-types="話題投稿｜メディア" data-search="2024-04-25 台湾ニュースで東大名誉教授と顔写真を誤表示、有吉「まあいいよ」 台湾のニュース番組で地震研究者の肩書きに有吉の顔写真が誤って表示され、有吉本人がxで紹介。台湾側でも話題になった。 海外メディアの誤植 → 本人がxで発見・拡散 話題投稿 メディア">
+  <div class="card-head">
+    <div>
+      <div class="date">2024-04-25</div>
+      <h2>台湾ニュースで東大名誉教授と顔写真を誤表示、有吉「まあいいよ」</h2>
+    </div>
+    <div class="num">#080</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">メディア</span></div>
+  <p>台湾のニュース番組で地震研究者の肩書きに有吉の顔写真が誤って表示され、有吉本人がXで紹介。台湾側でも話題になった。</p>
+  <div class="key"><span>流れ</span>海外メディアの誤植 → 本人がXで発見・拡散</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202404250000498.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2024" data-types="一般人｜ファン絡み｜炎上・騒動" data-search="2024-05-24 『夜会』批判の櫻井翔ファンへ「カスハラでしょうか？」 『櫻井・有吉the夜会』での有吉の言動を批判したユーザー投稿を引用し、有吉が呼び捨て表現などを拾って反応。投稿主が櫻井翔ファンと分かると、さらに皮肉な訂正投稿をした。 共演者ファンの番組批判 → 有吉が本人投稿を引用して応酬 一般人 ファン絡み 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2024-05-24</div>
+      <h2>『夜会』批判の櫻井翔ファンへ「カスハラでしょうか？」</h2>
+    </div>
+    <div class="num">#081</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">ファン絡み</span><span class="tag">炎上・騒動</span></div>
+  <p>『櫻井・有吉THE夜会』での有吉の言動を批判したユーザー投稿を引用し、有吉が呼び捨て表現などを拾って反応。投稿主が櫻井翔ファンと分かると、さらに皮肉な訂正投稿をした。</p>
+  <div class="key"><span>流れ</span>共演者ファンの番組批判 → 有吉が本人投稿を引用して応酬</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202405250000357.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2024" data-types="芸能人｜誤投稿" data-search="2024-06-01 「粗品と宮下草薙が揉めてる」誤投稿 → 宮下本人に訂正・謝罪 粗品と宮迫博之の騒動を「宮下草薙」と取り違えてx投稿。宮下兼史鷹本人が反応し、有吉が正式に訂正・謝罪。粗品も会話に加わった。 名前を取り違える → 本人登場 → x上で訂正劇 芸能人 誤投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2024-06-01</div>
+      <h2>「粗品と宮下草薙が揉めてる」誤投稿 → 宮下本人に訂正・謝罪</h2>
+    </div>
+    <div class="num">#082</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">誤投稿</span></div>
+  <p>粗品と宮迫博之の騒動を「宮下草薙」と取り違えてX投稿。宮下兼史鷹本人が反応し、有吉が正式に訂正・謝罪。粗品も会話に加わった。</p>
+  <div class="key"><span>流れ</span>名前を取り違える → 本人登場 → X上で訂正劇</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202406020000340.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2024" data-types="盗撮・メディア｜炎上・騒動" data-search="2024-06-25 妻子の盗撮掲載に「どうか家族の盗撮やめてください」 週刊誌に家族のプライベート写真が掲載されたことを受け、有吉がxで強く不快感を表明。家族、特に子どもの盗撮をやめるよう求めた。 家族の写真掲載 → xで週刊誌へ直接抗議 盗撮・メディア 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2024-06-25</div>
+      <h2>妻子の盗撮掲載に「どうか家族の盗撮やめてください」</h2>
+    </div>
+    <div class="num">#083</div>
+  </div>
+  <div class="tags"><span class="tag">盗撮・メディア</span><span class="tag">炎上・騒動</span></div>
+  <p>週刊誌に家族のプライベート写真が掲載されたことを受け、有吉がXで強く不快感を表明。家族、特に子どもの盗撮をやめるよう求めた。</p>
+  <div class="key"><span>流れ</span>家族の写真掲載 → Xで週刊誌へ直接抗議</div>
+  <div class="source">出典：<a href="https://www.sponichi.co.jp/entertainment/news/2024/06/25/articles/20240625s00041000298000c.html" target="_blank" rel="noopener">スポニチ</a></div>
+</article>
+<article class="card" data-year="2024" data-types="芸能人｜炎上・騒動" data-search="2024-08-14 フワちゃん騒動へのコメント要求をxで逆にイジる やす子への不適切投稿でフワちゃんが活動休止した後、週刊誌から意見を求められていることをxでネタにし、コメントするなら自身の連載媒体で、という趣旨の投稿をした。 他人のsns炎上 → コメント要求そのものをxでネタ化 芸能人 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2024-08-14</div>
+      <h2>フワちゃん騒動へのコメント要求をXで逆にイジる</h2>
+    </div>
+    <div class="num">#084</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">炎上・騒動</span></div>
+  <p>やす子への不適切投稿でフワちゃんが活動休止した後、週刊誌から意見を求められていることをXでネタにし、コメントするなら自身の連載媒体で、という趣旨の投稿をした。</p>
+  <div class="key"><span>流れ</span>他人のSNS炎上 → コメント要求そのものをXでネタ化</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202408170001002.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2024" data-types="メディア｜炎上・騒動｜削除" data-search="2024-08-20 自分の発言を誤解したネット記事にxで苦言、記事は削除 番組内のフィクション的な発言を事実のように扱ったネット記事について、有吉がxで誤解を指摘し強く批判。その後、記事が削除されたことまで含めて報じられた。 ネット記事 → 本人がxで訂正要求 → 記事削除 メディア 炎上・騒動 削除">
+  <div class="card-head">
+    <div>
+      <div class="date">2024-08-20</div>
+      <h2>自分の発言を誤解したネット記事にXで苦言、記事は削除</h2>
+    </div>
+    <div class="num">#085</div>
+  </div>
+  <div class="tags"><span class="tag">メディア</span><span class="tag">炎上・騒動</span><span class="tag">削除</span></div>
+  <p>番組内のフィクション的な発言を事実のように扱ったネット記事について、有吉がXで誤解を指摘し強く批判。その後、記事が削除されたことまで含めて報じられた。</p>
+  <div class="key"><span>流れ</span>ネット記事 → 本人がXで訂正要求 → 記事削除</div>
+  <div class="source">出典：<a href="https://news.allabout.co.jp/articles/o/83881/" target="_blank" rel="noopener">All About ニュース</a></div>
+</article>
+<article class="card" data-year="2025" data-types="一般人｜炎上・騒動｜番組連動" data-search="2025-05-17 the secondで有吉のx投稿が生放送で読まれ、審査影響論 有吉が「囲碁将棋推し」とx投稿。生放送でその投稿が紹介されると、一般審査員への影響を懸念する声が出た。有吉は批判投稿を複数リポストし、翌日のラジオでも言及。 有吉のx → 生放送で読み上げ → 視聴者批判 → 有吉が再反応 一般人 炎上・騒動 番組連動">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-05-17</div>
+      <h2>THE SECONDで有吉のX投稿が生放送で読まれ、審査影響論</h2>
+    </div>
+    <div class="num">#086</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">炎上・騒動</span><span class="tag">番組連動</span></div>
+  <p>有吉が「囲碁将棋推し」とX投稿。生放送でその投稿が紹介されると、一般審査員への影響を懸念する声が出た。有吉は批判投稿を複数リポストし、翌日のラジオでも言及。</p>
+  <div class="key"><span>流れ</span>有吉のX → 生放送で読み上げ → 視聴者批判 → 有吉が再反応</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202505170002179.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2025" data-types="芸能人｜恒例投稿" data-search="2025-05-31 2025年も鈴木京香の誕生日を祝福 毎年続いている鈴木京香の誕生日投稿を今年も実施。長期間続く有吉のtwitter/x上の恒例行事として記事になった。 十年以上続く恒例投稿 芸能人 恒例投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-05-31</div>
+      <h2>2025年も鈴木京香の誕生日を祝福</h2>
+    </div>
+    <div class="num">#087</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">恒例投稿</span></div>
+  <p>毎年続いている鈴木京香の誕生日投稿を今年も実施。長期間続く有吉のTwitter/X上の恒例行事として記事になった。</p>
+  <div class="key"><span>流れ</span>十年以上続く恒例投稿</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202505310000184.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2025" data-types="X自体｜炎上・騒動" data-search="2025-06-06 有吉そっくりの「逮捕広告」をxで公開し、なりすまし広告問題に 有吉に酷似した人物が逮捕されたかのように見せるweb広告を本人がxで紹介。事務所が放置していることにも触れ、悪質ななりすまし広告としてニュース化。 偽広告 → 本人がxで晒す → 法的論点まで記事化 x自体 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-06-06</div>
+      <h2>有吉そっくりの「逮捕広告」をXで公開し、なりすまし広告問題に</h2>
+    </div>
+    <div class="num">#088</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">炎上・騒動</span></div>
+  <p>有吉に酷似した人物が逮捕されたかのように見せるWeb広告を本人がXで紹介。事務所が放置していることにも触れ、悪質ななりすまし広告としてニュース化。</p>
+  <div class="key"><span>流れ</span>偽広告 → 本人がXで晒す → 法的論点まで記事化</div>
+  <div class="source">出典：<a href="https://allabout.co.jp/gm/gc/511898/" target="_blank" rel="noopener">All About</a></div>
+</article>
+<article class="card" data-year="2025" data-types="話題投稿｜恒例投稿" data-search="2025-06-09 恒例の「梅雨入りましたー！」をx投稿 実際の気象発表とは別に、有吉が毎年のように行う独自の梅雨入り宣言をxへ投稿。恒例ネタとして今年もニュースになった。 季節の恒例ネタ投稿 話題投稿 恒例投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-06-09</div>
+      <h2>恒例の「梅雨入りましたー！」をX投稿</h2>
+    </div>
+    <div class="num">#089</div>
+  </div>
+  <div class="tags"><span class="tag">話題投稿</span><span class="tag">恒例投稿</span></div>
+  <p>実際の気象発表とは別に、有吉が毎年のように行う独自の梅雨入り宣言をXへ投稿。恒例ネタとして今年もニュースになった。</p>
+  <div class="key"><span>流れ</span>季節の恒例ネタ投稿</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202506090000534.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2025" data-types="芸能人｜話題投稿" data-search="2025-07-23 小沢仁志の本を「反社会的な方？」とイジり、翌日訂正 小沢仁志の著書をもらった写真とともに強面イメージをネタにする投稿。その後、ヤクザではなくヤクザっぽい俳優だったという形で“訂正”し話題になった。 芸能人イジり → 翌日わざとらしい訂正 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-07-23</div>
+      <h2>小沢仁志の本を「反社会的な方？」とイジり、翌日訂正</h2>
+    </div>
+    <div class="num">#090</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>小沢仁志の著書をもらった写真とともに強面イメージをネタにする投稿。その後、ヤクザではなくヤクザっぽい俳優だったという形で“訂正”し話題になった。</p>
+  <div class="key"><span>流れ</span>芸能人イジり → 翌日わざとらしい訂正</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202507240000613.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2025" data-types="芸能人｜公開応酬" data-search="2025-08-09 納言・薄幸の活動再開報告に「俺が7年休んでいた時も…」 薄幸の活動再開報告へ有吉が返信し、自身の長い不遇期をネタにした一言を投稿。先輩後輩の公開会話として記事になった。 後輩の復帰報告 → 自分の空白期ネタで返信 芸能人 公開応酬">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-08-09</div>
+      <h2>納言・薄幸の活動再開報告に「俺が7年休んでいた時も…」</h2>
+    </div>
+    <div class="num">#091</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">公開応酬</span></div>
+  <p>薄幸の活動再開報告へ有吉が返信し、自身の長い不遇期をネタにした一言を投稿。先輩後輩の公開会話として記事になった。</p>
+  <div class="key"><span>流れ</span>後輩の復帰報告 → 自分の空白期ネタで返信</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202508090000207.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2025" data-types="私生活｜話題投稿" data-search="2025-08-24 「怪我しました」とxで写真・状況を報告 有吉が自身のけがをxで報告。詳細を大げさに語らない簡潔な投稿だったが、状態を心配する反応とともにニュースになった。 本人のけが報告が即ニュース化 私生活 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-08-24</div>
+      <h2>「怪我しました」とXで写真・状況を報告</h2>
+    </div>
+    <div class="num">#092</div>
+  </div>
+  <div class="tags"><span class="tag">私生活</span><span class="tag">話題投稿</span></div>
+  <p>有吉が自身のけがをXで報告。詳細を大げさに語らない簡潔な投稿だったが、状態を心配する反応とともにニュースになった。</p>
+  <div class="key"><span>流れ</span>本人のけが報告が即ニュース化</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202508240000171.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2025" data-types="番組｜芸能人" data-search="2025-12-07 ラジオ欠席をxで告知、安田和博へ独特な任せ方 自身のラジオ番組欠席をxで告知し、代役を務める安田和博を有吉らしい言い回しで紹介。安田本人も反応し公開会話になった。 欠席告知 → 相方的存在とのx応酬 番組 芸能人">
+  <div class="card-head">
+    <div>
+      <div class="date">2025-12-07</div>
+      <h2>ラジオ欠席をXで告知、安田和博へ独特な任せ方</h2>
+    </div>
+    <div class="num">#093</div>
+  </div>
+  <div class="tags"><span class="tag">番組</span><span class="tag">芸能人</span></div>
+  <p>自身のラジオ番組欠席をXで告知し、代役を務める安田和博を有吉らしい言い回しで紹介。安田本人も反応し公開会話になった。</p>
+  <div class="key"><span>流れ</span>欠席告知 → 相方的存在とのX応酬</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2423315/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2026" data-types="番組｜私生活" data-search="2026-01-01 紅白終了後「家では遅く帰ってきただけのおじさん」 紅白歌合戦の大役を終えた直後、家庭に戻ればただ帰宅が遅い人になるという趣旨をxへ投稿。大舞台との落差が反響を呼んだ。 紅白の大役 → 家庭目線の自虐投稿 番組 私生活">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-01-01</div>
+      <h2>紅白終了後「家では遅く帰ってきただけのおじさん」</h2>
+    </div>
+    <div class="num">#094</div>
+  </div>
+  <div class="tags"><span class="tag">番組</span><span class="tag">私生活</span></div>
+  <p>紅白歌合戦の大役を終えた直後、家庭に戻ればただ帰宅が遅い人になるという趣旨をXへ投稿。大舞台との落差が反響を呼んだ。</p>
+  <div class="key"><span>流れ</span>紅白の大役 → 家庭目線の自虐投稿</div>
+  <div class="source">出典：<a href="https://contents.oricon.co.jp/news/2428598/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2026" data-types="芸能人｜話題投稿" data-search="2026-02-20 『おかあさんといっしょ』秋元杏月へ感謝投稿 子育て中の生活がうかがえる形で、体操のお姉さん秋元杏月への感謝をxに投稿。普段の毒舌イメージとの違いも含め反響が報じられた。 育児中のテレビ視聴が見える投稿 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-02-20</div>
+      <h2>『おかあさんといっしょ』秋元杏月へ感謝投稿</h2>
+    </div>
+    <div class="num">#095</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>子育て中の生活がうかがえる形で、体操のお姉さん秋元杏月への感謝をXに投稿。普段の毒舌イメージとの違いも含め反響が報じられた。</p>
+  <div class="key"><span>流れ</span>育児中のテレビ視聴が見える投稿</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2437740/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2026" data-types="スポーツ｜私生活" data-search="2026-03-06 wbc大量得点に「13点って何!!」— 子どもの寝かしつけ後に結果を知る wbcの試合中に子どもの寝かしつけをしていた有吉が、後から大量得点を知りxで驚きを投稿。家庭生活とスポーツ観戦が交差する投稿として話題に。 育児 → 試合結果確認 → 驚きのx投稿 スポーツ 私生活">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-03-06</div>
+      <h2>WBC大量得点に「13点って何!!」— 子どもの寝かしつけ後に結果を知る</h2>
+    </div>
+    <div class="num">#096</div>
+  </div>
+  <div class="tags"><span class="tag">スポーツ</span><span class="tag">私生活</span></div>
+  <p>WBCの試合中に子どもの寝かしつけをしていた有吉が、後から大量得点を知りXで驚きを投稿。家庭生活とスポーツ観戦が交差する投稿として話題に。</p>
+  <div class="key"><span>流れ</span>育児 → 試合結果確認 → 驚きのX投稿</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2440717/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2026" data-types="私生活｜話題投稿" data-search="2026-03-15 紙おむつを洗濯し「ポリマー爆発。絶望しかありません」 紙おむつを誤って洗濯してしまった家庭内トラブルをxで報告。子育て経験者を中心に共感や対処法の返信が相次ぎ、芸人仲間も反応した。 育児の失敗談 → 大量共感リプ 私生活 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-03-15</div>
+      <h2>紙おむつを洗濯し「ポリマー爆発。絶望しかありません」</h2>
+    </div>
+    <div class="num">#097</div>
+  </div>
+  <div class="tags"><span class="tag">私生活</span><span class="tag">話題投稿</span></div>
+  <p>紙おむつを誤って洗濯してしまった家庭内トラブルをXで報告。子育て経験者を中心に共感や対処法の返信が相次ぎ、芸人仲間も反応した。</p>
+  <div class="key"><span>流れ</span>育児の失敗談 → 大量共感リプ</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2442401/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2026" data-types="意味深投稿｜炎上・騒動" data-search="2026-05-29 「ゾンビ大丈夫？」の短文だけ投稿し憶測広がる 対象を明記せず「ゾンビ大丈夫？」とだけxへ投稿。投稿時期の周辺ニュースとの関連を推測する反応が相次ぎ、意味深投稿として記事化された。 対象を書かない短文 → 周囲が文脈を推測 意味深投稿 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-05-29</div>
+      <h2>「ゾンビ大丈夫？」の短文だけ投稿し憶測広がる</h2>
+    </div>
+    <div class="num">#098</div>
+  </div>
+  <div class="tags"><span class="tag">意味深投稿</span><span class="tag">炎上・騒動</span></div>
+  <p>対象を明記せず「ゾンビ大丈夫？」とだけXへ投稿。投稿時期の周辺ニュースとの関連を推測する反応が相次ぎ、意味深投稿として記事化された。</p>
+  <div class="key"><span>流れ</span>対象を書かない短文 → 周囲が文脈を推測</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202605290000138.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2026" data-types="芸能人｜話題投稿" data-search="2026-06-02 スリムクラブ内間の長文投稿に「文章が長い」→ さらに質問を拒否 内間政成の長文x投稿に有吉がツッコミ。内間が質問で返すと、有吉が「俺には何も聞くな」という趣旨で再度返し、一連の会話が記事になった。 芸人同士のx会話そのものがニュース化 芸能人 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-06-02</div>
+      <h2>スリムクラブ内間の長文投稿に「文章が長い」→ さらに質問を拒否</h2>
+    </div>
+    <div class="num">#099</div>
+  </div>
+  <div class="tags"><span class="tag">芸能人</span><span class="tag">話題投稿</span></div>
+  <p>内間政成の長文X投稿に有吉がツッコミ。内間が質問で返すと、有吉が「俺には何も聞くな」という趣旨で再度返し、一連の会話が記事になった。</p>
+  <div class="key"><span>流れ</span>芸人同士のX会話そのものがニュース化</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202606030000039.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2026" data-types="X自体｜一般人" data-search="2026-06-28 xの反応やエゴサをあまり見なくなったと説明 xの環境変化やai的な返信などにも触れながら、以前ほど自身への反応を細かく見なくなったとラジオで説明。初期twitter時代との距離感の変化がニュースになった。 一般人と頻繁に応酬した初期から現在への変化 x自体 一般人">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-06-28</div>
+      <h2>Xの反応やエゴサをあまり見なくなったと説明</h2>
+    </div>
+    <div class="num">#100</div>
+  </div>
+  <div class="tags"><span class="tag">X自体</span><span class="tag">一般人</span></div>
+  <p>Xの環境変化やAI的な返信などにも触れながら、以前ほど自身への反応を細かく見なくなったとラジオで説明。初期Twitter時代との距離感の変化がニュースになった。</p>
+  <div class="key"><span>流れ</span>一般人と頻繁に応酬した初期から現在への変化</div>
+  <div class="source">出典：<a href="https://news.mynavi.jp/article/20260628-4639650/" target="_blank" rel="noopener">マイナビニュース</a></div>
+</article>
+<article class="card" data-year="2026" data-types="意味深投稿｜炎上・騒動" data-search="2026-07-11 「マジの方だったんだ。軽蔑ー♪」で憶測拡大 対象を明記せず短文を投稿。直前にアンジャッシュ渡部の投稿をリポストしていたことなどから、鬼越トマホーク良ちゃんとの騒動に関連するのではという推測が広がった。本人は対象を特定していない。 対象不明の短文 → 周囲が文脈を推測 → ニュース化 意味深投稿 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-07-11</div>
+      <h2>「マジの方だったんだ。軽蔑ー♪」で憶測拡大</h2>
+    </div>
+    <div class="num">#101</div>
+  </div>
+  <div class="tags"><span class="tag">意味深投稿</span><span class="tag">炎上・騒動</span></div>
+  <p>対象を明記せず短文を投稿。直前にアンジャッシュ渡部の投稿をリポストしていたことなどから、鬼越トマホーク良ちゃんとの騒動に関連するのではという推測が広がった。本人は対象を特定していない。</p>
+  <div class="key"><span>流れ</span>対象不明の短文 → 周囲が文脈を推測 → ニュース化</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/m/entertainment/news/amp/202607120000101.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2026" data-types="意味深投稿｜炎上・騒動" data-search="2026-07-21 「謝るならしっかりと」投稿、鬼越の謝罪動画との関連が推測される 有吉が謝罪と言い訳について短文投稿。具体的対象は書かなかったが、直前の鬼越トマホーク側の動画との関連を推測する反応が相次いだ。 具体名なし → 時系列から対象を推測される 意味深投稿 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-07-21</div>
+      <h2>「謝るならしっかりと」投稿、鬼越の謝罪動画との関連が推測される</h2>
+    </div>
+    <div class="num">#102</div>
+  </div>
+  <div class="tags"><span class="tag">意味深投稿</span><span class="tag">炎上・騒動</span></div>
+  <p>有吉が謝罪と言い訳について短文投稿。具体的対象は書かなかったが、直前の鬼越トマホーク側の動画との関連を推測する反応が相次いだ。</p>
+  <div class="key"><span>流れ</span>具体名なし → 時系列から対象を推測される</div>
+  <div class="source">出典：<a href="https://www.oricon.co.jp/news/2469290/full/" target="_blank" rel="noopener">ORICON NEWS</a></div>
+</article>
+<article class="card" data-year="2026" data-types="意味深投稿｜話題投稿" data-search="2026-08-23 「俺もしたいよ　クソみたいな重大発表」だけを投稿 具体的な対象や背景を示さない短文を投稿。「重大発表」商法への皮肉なのか、何かの予告なのかと憶測が広がりニュース化。 短文だけでニュースになる現在の有吉x 意味深投稿 話題投稿">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-08-23</div>
+      <h2>「俺もしたいよ　クソみたいな重大発表」だけを投稿</h2>
+    </div>
+    <div class="num">#103</div>
+  </div>
+  <div class="tags"><span class="tag">意味深投稿</span><span class="tag">話題投稿</span></div>
+  <p>具体的な対象や背景を示さない短文を投稿。「重大発表」商法への皮肉なのか、何かの予告なのかと憶測が広がりニュース化。</p>
+  <div class="key"><span>流れ</span>短文だけでニュースになる現在の有吉X</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/entertainment/news/202608240000088.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article>
+<article class="card" data-year="2026" data-types="一般人｜ファン絡み｜炎上・騒動" data-search="2026-09-27 深澤辰哉へのイジり批判に「2度と出ないでくれと本人に伝えます」 番組での深澤辰哉へのイジりを批判し「出ないで」と投稿したユーザーに、有吉が引用で返答。翌朝までに元投稿とアカウントは削除されたと報じられ、その後深澤本人は再共演を望む内容を発信。 ファン投稿 → 有吉が文字通り返す → 投稿・アカウント削除 一般人 ファン絡み 炎上・騒動">
+  <div class="card-head">
+    <div>
+      <div class="date">2026-09-27</div>
+      <h2>深澤辰哉へのイジり批判に「2度と出ないでくれと本人に伝えます」</h2>
+    </div>
+    <div class="num">#104</div>
+  </div>
+  <div class="tags"><span class="tag">一般人</span><span class="tag">ファン絡み</span><span class="tag">炎上・騒動</span></div>
+  <p>番組での深澤辰哉へのイジりを批判し「出ないで」と投稿したユーザーに、有吉が引用で返答。翌朝までに元投稿とアカウントは削除されたと報じられ、その後深澤本人は再共演を望む内容を発信。</p>
+  <div class="key"><span>流れ</span>ファン投稿 → 有吉が文字通り返す → 投稿・アカウント削除</div>
+  <div class="source">出典：<a href="https://www.nikkansports.com/m/entertainment/news/amp/202609280000132.html" target="_blank" rel="noopener">日刊スポーツ</a></div>
+</article></main>
+<footer>報道記事・当時の記録を確認できたTwitter / X関連事例を収録。古い削除済み投稿は記事に残る記録を要約。</footer>
+</div>
+
+<script>
+const cards=[...document.querySelectorAll('.card')];
+const q=document.getElementById('q'), result=document.getElementById('result');
+let year='all', type='all';
+function apply(){
+ const s=q.value.trim().toLowerCase();
+ let n=0;
+ cards.forEach(c=>{
+   const types=c.dataset.types.split('｜');
+   const ok=(year==='all'||c.dataset.year===year)&&(type==='all'||types.includes(type))&&(!s||c.dataset.search.includes(s));
+   c.classList.toggle('hidden',!ok); if(ok)n++;
+ });
+ result.textContent=n+'件表示 / 全'+cards.length+'件';
+}
+q.addEventListener('input',apply);
+document.querySelectorAll('.year').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.year').forEach(x=>x.classList.remove('active'));b.classList.add('active');year=b.dataset.year;apply();
+});
+document.querySelectorAll('.type').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.type').forEach(x=>x.classList.remove('active'));b.classList.add('active');type=b.dataset.type;apply();
+});
+apply();
+</script>
+</body>
+</html>

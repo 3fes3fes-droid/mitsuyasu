@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[3716,[],""]
+3:I[4338,[],""]
+:HL["/mitsuyasu/collections/_next/static/css/9d7390567e5e0c35.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/mitsuyasu/collections/_next/static/css/9d7390567e5e0c35.css","precedence":"next"}]],["$","div",null,{"className":"embedded-meals","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"k-8q7tWhSlj2fPjAyflhz"}
