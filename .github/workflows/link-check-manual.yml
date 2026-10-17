@@ -1,0 +1,67 @@
+name: Public link audit (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the public link registry only
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            site-links.json
+          sparse-checkout-cone-mode: false
+
+      - name: Check public page URLs on demand
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, sys
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+          from urllib.parse import urlparse
+
+          with open("site-links.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          results = []
+          failed = []
+          for entry in data["pages"]:
+              url = entry["public_url"]
+              if urlparse(url).hostname != "3fes3fes-droid.github.io":
+                  failed.append(f"UNSAFE HOST: {url}")
+                  continue
+              try:
+                  req = Request(url, method="HEAD", headers={"User-Agent": "mitsuyasu-link-audit/1.0"})
+                  with urlopen(req, timeout=15) as resp:
+                      status = resp.status
+              except HTTPError as exc:
+                  status = exc.code
+              except (URLError, TimeoutError, OSError) as exc:
+                  status = f"ERROR: {exc}"
+              state = entry["state"]
+              label = entry["label"]
+              line = f"{status} | {state} | {label} | {url}"
+              results.append(line)
+              print(line, flush=True)
+              if state == "active" and status != 200:
+                  failed.append(line)
+
+          summary = ["# GitHub Pages public link check", "", f"Checked {len(results)} registered URLs.", ""]
+          summary.append("## Results")
+          summary.extend(f"- {line}" for line in results)
+          summary.extend(["", f"Active URLs failed: {len(failed)}"])
+          step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if step_summary:
+              with open(step_summary, "a", encoding="utf-8") as f:
+                  f.write("\n".join(summary) + "\n")
+          if failed:
+              print("FAILED:", *failed, sep="\n")
+              sys.exit(1)
+          PY

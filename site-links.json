@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "last_http_checked": "2026-10-17",
+  "purpose": "GitHub Pagesで実際に公開されているURLとリポジトリ内の実体を対応付ける台帳。ChatGPT Sitesメニューのonclick/hrefは未検証。",
+  "sites_entry": "https://mitsuyasu-memory.mitsuyasuuu.chatgpt.site/",
+  "github_pages_base": "https://3fes3fes-droid.github.io/mitsuyasu/",
+  "note": "http_2026_10_17 は HTTP HEAD 応答。200=URL正常応答であり、ブラウザでの動作やSitesのボタン遷移先の証明ではない。state=known_brokenは公開コレクションからの既知のリンク切れ。",
+  "pages": [
+    {
+      "id": "collections",
+      "label": "公開コレクション一覧",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "actress-directory",
+      "label": "FANZA女優一覧",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/actress-directory/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/actress-directory/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "ariyoshi-x",
+      "label": "有吉 Twitter・X年表",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/ariyoshi-x/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/ariyoshi-x/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "baccarat",
+      "label": "バカラ",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/baccarat/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/baccarat/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "custom-pc",
+      "label": "有名人の自作PC図鑑",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/custom-pc/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/custom-pc/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "device-compare",
+      "label": "Fold6とPixel 10aの比較",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/device-compare/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/device-compare/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "fighting-game",
+      "label": "格闘ゲーマー名鑑",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/fighting-game/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/fighting-game/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "greetings",
+      "label": "アイドル挨拶一覧",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/greetings/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/greetings/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "hit-gags",
+      "label": "一発ネタ",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/hit-gags/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/hit-gags/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "idol",
+      "label": "アイドル一覧",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/idol/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/idol/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "ilife",
+      "label": "iLiFE! Color Archive",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/ilife/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/ilife/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "kuwazugirai",
+      "label": "食わず嫌い王 年表",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/kuwazugirai/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/kuwazugirai/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "living-cost",
+      "label": "静岡市・一人暮らし生活費",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/living-cost/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/living-cost/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "maps",
+      "label": "日本・世界地図",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/maps/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/maps/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "mcu",
+      "label": "MCU アベンジャーズ雑学",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/mcu/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/mcu/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "meals",
+      "label": "食べ物一覧・お菓子・菓子パン",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/meals/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/meals/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "movie-catalogue",
+      "label": "映画カタログ（映画棚との対応は未確認）",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/movie-catalogue/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/movie-catalogue/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "muscats",
+      "label": "恵比寿マスカッツ",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/muscats/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/muscats/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "pazudora-titles",
+      "label": "パズドラ称号一覧",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/pazudora-titles/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/pazudora-titles/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "saw-game",
+      "label": "SAW 全ゲーム記録",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/saw-game/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/saw-game/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "sigmarion",
+      "label": "シグマリオンの歴史",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/sigmarion/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/sigmarion/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "suiyobi",
+      "label": "水ダウ・すべらない話・SAVE MONEY",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/suiyobi/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/suiyobi/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "trivia",
+      "label": "雑学",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/collections/integrated/trivia/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "collections/integrated/trivia/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "football",
+      "label": "NO SPOILER FOOTBALL",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/football/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "football/index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "football-archive",
+      "label": "サッカー保存アーカイブ",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/Football_archive_single.html",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "Football_archive_single.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "media-main",
+      "label": "m.html メディア画面",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/m.html",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": "m.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "manga-j",
+      "label": "呪術廻戦GitHub版",
+      "public_url": "https://3fes3fes-droid.github.io/J/",
+      "repo": "3fes3fes-droid/J",
+      "source_path": "index.html",
+      "state": "active",
+      "http_2026_10_17": 200,
+      "site_menu_link_verified": false
+    },
+    {
+      "id": "youtube-old",
+      "label": "YouTube 54チャンネル（公開コレクション内の旧リンク）",
+      "public_url": "https://3fes3fes-droid.github.io/mitsuyasu/youtube/",
+      "repo": "3fes3fes-droid/mitsuyasu",
+      "source_path": null,
+      "state": "known_broken",
+      "http_2026_10_17": 404,
+      "site_menu_link_verified": false
+    }
+  ]
+}
