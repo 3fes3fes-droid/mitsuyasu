@@ -1,0 +1,56 @@
+name: ONE LOVE ONE HEART all thumbnail HTML
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/oneloveoneheart-official-thumbnails.yml"
+      - "oneloveoneheart_official_thumbnail_builder/**"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Deno for YouTube extraction
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade "yt-dlp[default]" requests
+
+      - name: Download channel-specific builder
+        run: |
+          curl --fail --location --silent --show-error \
+            "https://raw.githubusercontent.com/3fes3fes-droid/mitsuyasu/${GITHUB_SHA}/oneloveoneheart_official_thumbnail_builder/build.py" \
+            --output build.py
+
+      - name: Build embedded thumbnail HTML
+        run: python -u build.py
+
+      - name: Collect HTML and diagnostics
+        if: always()
+        run: |
+          mkdir -p output
+          cp -f "$HOME/Downloads/oneloveoneheart_official_all_thumbnails.html" output/ || true
+          cp -f "/tmp/oneloveoneheart_official_thumbnails_work/report.json" output/ || true
+
+      - name: Upload result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oneloveoneheart-official-all-thumbnails
+          path: output/*
+          if-no-files-found: error
+          retention-days: 7
