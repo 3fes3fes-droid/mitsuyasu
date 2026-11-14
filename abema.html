@@ -194,7 +194,7 @@ body {
 
 <div id="header">
   <img class="service-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Abema_logo.svg" alt="">
-  <button id="refresh-btn" onclick="runUpdate()">↺ 更新</button>
+  <button id="refresh-btn" onclick="runUpdate()">↻ 再読み込み</button>
   <span id="meta-bar">—</span>
 </div>
 
@@ -516,15 +516,7 @@ function render() {
 
 
 // 更新
-async function runUpdate() {
-  const btn = document.getElementById('refresh-btn');
-  if (btn) { btn.disabled = true; btn.textContent = '更新中…'; }
-  try {
-    const res = await fetch('http://localhost:8000/run/abema', { method: 'POST' });
-    if (res.ok) { setTimeout(function(){ location.reload(); }, 800); return; }
-  } catch (_) {}
-  setTimeout(function(){ location.reload(); }, 200);
-}
+function runUpdate() { location.reload(); }
 
 render();
 </script>

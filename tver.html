@@ -134,7 +134,7 @@ body {
 <body>
 <div id="header">
   <img class="service-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/TVer_logo.svg" alt="">
-  <button id="refresh-btn" onclick="runUpdate()">↺ 更新</button>
+  <button id="refresh-btn" onclick="runUpdate()">↻ 再読み込み</button>
 </div>
 <div id="bar">
   <span id="count">—</span>
@@ -314,16 +314,7 @@ function onDL(e) {
     el.textContent = 'コピー失敗: ' + (err && err.message ? err.message : err);
   });
 }
-async function runUpdate() {
-  const btn = document.getElementById('refresh-btn');
-  btn.disabled = true;
-  btn.textContent = '更新中…';
-  try {
-    const res = await fetch('http://localhost:8000/run/tver', { method: 'POST' });
-    if (res.ok) { setTimeout(() => location.reload(), 800); return; }
-  } catch (e) { /* server なしならただリロード */ }
-  setTimeout(() => location.reload(), 200);
-}
+function runUpdate() { location.reload(); }
 document.getElementById('grid').addEventListener('click', onDL, true);
 render();
 </script>
