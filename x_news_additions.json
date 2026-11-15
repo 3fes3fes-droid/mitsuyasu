@@ -1,0 +1,907 @@
+{
+  "version": 1,
+  "created_at": "2026-11-15T16:25:02.986908+09:00",
+  "base": "tw.py:HARDCODED_FOLLOWING",
+  "entries": [
+    {
+      "handle": "M1GRANDPRIX",
+      "category": "お笑い・テレビ",
+      "name": "M-1グランプリ",
+      "group": "first50"
+    },
+    {
+      "handle": "R1GRANDPRIX",
+      "category": "お笑い・テレビ",
+      "name": "R-1グランプリ",
+      "group": "first50"
+    },
+    {
+      "handle": "fujitv",
+      "category": "お笑い・テレビ",
+      "name": "フジテレビ",
+      "group": "first50"
+    },
+    {
+      "handle": "nittele_ntv",
+      "category": "お笑い・テレビ",
+      "name": "日テレ",
+      "group": "first50"
+    },
+    {
+      "handle": "TVTOKYO_PR",
+      "category": "お笑い・テレビ",
+      "name": "テレ東",
+      "group": "first50"
+    },
+    {
+      "handle": "tv_asahi_PR",
+      "category": "お笑い・テレビ",
+      "name": "テレビ朝日宣伝部",
+      "group": "first50"
+    },
+    {
+      "handle": "nhk_life_comedy",
+      "category": "お笑い・テレビ",
+      "name": "LIFE！",
+      "group": "first50"
+    },
+    {
+      "handle": "NHK_PR",
+      "category": "お笑い・テレビ",
+      "name": "NHK PR",
+      "group": "first50"
+    },
+    {
+      "handle": "TBS_VIVANT",
+      "category": "映画・ドラマ",
+      "name": "『VIVANT』【公式】",
+      "group": "first50"
+    },
+    {
+      "handle": "VIVANT_SUB",
+      "category": "映画・ドラマ",
+      "name": "ヴィヴァンちゃん🐈‍⬛【公式】",
+      "group": "first50"
+    },
+    {
+      "handle": "cinema_cafe",
+      "category": "映画・ドラマ",
+      "name": "シネマカフェ／cinemacafe.net",
+      "group": "first50"
+    },
+    {
+      "handle": "MarvelStudios_J",
+      "category": "映画・ドラマ",
+      "name": "マーベル・スタジオ［公式］",
+      "group": "first50"
+    },
+    {
+      "handle": "DisneyPlusJP",
+      "category": "映画・ドラマ",
+      "name": "ディズニープラス公式",
+      "group": "first50"
+    },
+    {
+      "handle": "SonyPicturesJP",
+      "category": "映画・ドラマ",
+      "name": "ソニー・ピクチャーズ",
+      "group": "first50"
+    },
+    {
+      "handle": "toho_movie",
+      "category": "映画・ドラマ",
+      "name": "東宝映画情報【公式】",
+      "group": "first50"
+    },
+    {
+      "handle": "netflixanime",
+      "category": "映画・ドラマ",
+      "name": "Netflix Anime",
+      "group": "first50"
+    },
+    {
+      "handle": "watch_UNEXT_A",
+      "category": "映画・ドラマ",
+      "name": "U-NEXTアニメ・マンガ＠公式",
+      "group": "first50"
+    },
+    {
+      "handle": "nhk_dramas",
+      "category": "映画・ドラマ",
+      "name": "NHKドラマ",
+      "group": "first50"
+    },
+    {
+      "handle": "yosugala_info",
+      "category": "アイドル・タレント",
+      "name": "yosugala",
+      "group": "first50"
+    },
+    {
+      "handle": "matoi_ysgl",
+      "category": "アイドル・タレント",
+      "name": "汐見まとい",
+      "group": "first50"
+    },
+    {
+      "handle": "nagi_ysgl",
+      "category": "アイドル・タレント",
+      "name": "君島 凪",
+      "group": "first50"
+    },
+    {
+      "handle": "chia_ysgl",
+      "category": "アイドル・タレント",
+      "name": "未白ちあ",
+      "group": "first50"
+    },
+    {
+      "handle": "miku_ysgl",
+      "category": "アイドル・タレント",
+      "name": "黒坂未来",
+      "group": "first50"
+    },
+    {
+      "handle": "fruits_zipper",
+      "category": "アイドル・タレント",
+      "name": "FRUITS ZIPPER【Official】",
+      "group": "first50"
+    },
+    {
+      "handle": "CUTIE_STREET_",
+      "category": "アイドル・タレント",
+      "name": "CUTIE STREET【Official】",
+      "group": "first50"
+    },
+    {
+      "handle": "SWEET_STEADY",
+      "category": "アイドル・タレント",
+      "name": "SWEET STEADY【Official】",
+      "group": "first50"
+    },
+    {
+      "handle": "KAWAII__LAB",
+      "category": "アイドル・タレント",
+      "name": "KAWAII LAB.",
+      "group": "first50"
+    },
+    {
+      "handle": "otani_emiri",
+      "category": "アイドル・タレント",
+      "name": "大谷 映美里",
+      "group": "first50"
+    },
+    {
+      "handle": "yamamoto_anna_",
+      "category": "アイドル・タレント",
+      "name": "山本 杏奈",
+      "group": "first50"
+    },
+    {
+      "handle": "Nearlyequal_joy",
+      "category": "アイドル・タレント",
+      "name": "≒JOY_official",
+      "group": "first50"
+    },
+    {
+      "handle": "takanenofficial",
+      "category": "アイドル・タレント",
+      "name": "高嶺のなでしこ",
+      "group": "first50"
+    },
+    {
+      "handle": "AORINGOHUZIN",
+      "category": "音楽",
+      "name": "Mrs. GREEN APPLE",
+      "group": "first50"
+    },
+    {
+      "handle": "YOASOBI_staff",
+      "category": "音楽",
+      "name": "YOASOBI",
+      "group": "first50"
+    },
+    {
+      "handle": "Ayase_0404",
+      "category": "音楽",
+      "name": "Ayase",
+      "group": "first50"
+    },
+    {
+      "handle": "ikutalilas",
+      "category": "音楽",
+      "name": "幾田 りら",
+      "group": "first50"
+    },
+    {
+      "handle": "KingGnu_JP",
+      "category": "音楽",
+      "name": "King Gnu",
+      "group": "first50"
+    },
+    {
+      "handle": "officialhige",
+      "category": "音楽",
+      "name": "Official髭男dism",
+      "group": "first50"
+    },
+    {
+      "handle": "The_FirstTake",
+      "category": "音楽",
+      "name": "THE FIRST TAKE",
+      "group": "first50"
+    },
+    {
+      "handle": "Billboard_JAPAN",
+      "category": "音楽",
+      "name": "Billboard JAPAN（ビルボードジャパン）",
+      "group": "first50"
+    },
+    {
+      "handle": "Nintendo",
+      "category": "ゲーム",
+      "name": "任天堂株式会社",
+      "group": "first50"
+    },
+    {
+      "handle": "SEGA_OFFICIAL",
+      "category": "ゲーム",
+      "name": "セガ公式アカウント🦔",
+      "group": "first50"
+    },
+    {
+      "handle": "FINALFANTASY",
+      "category": "ゲーム",
+      "name": "FINAL FANTASY",
+      "group": "first50"
+    },
+    {
+      "handle": "FF_XIV_JP",
+      "category": "ゲーム",
+      "name": "FINAL FANTASY XIV／FF14",
+      "group": "first50"
+    },
+    {
+      "handle": "gamewith_pad",
+      "category": "ゲーム",
+      "name": "パズドラ攻略@GameWith",
+      "group": "first50"
+    },
+    {
+      "handle": "Game8jp",
+      "category": "ゲーム",
+      "name": "ゲームエイト @ Game8.jp",
+      "group": "first50"
+    },
+    {
+      "handle": "Pokemon_cojp",
+      "category": "ゲーム",
+      "name": "ポケモン公式",
+      "group": "first50"
+    },
+    {
+      "handle": "PC_Watch",
+      "category": "ガジェット・IT",
+      "name": "PC Watch",
+      "group": "first50"
+    },
+    {
+      "handle": "AVWatch",
+      "category": "ガジェット・IT",
+      "name": "AV Watch",
+      "group": "first50"
+    },
+    {
+      "handle": "Lenovo_JP",
+      "category": "ガジェット・IT",
+      "name": "Lenovo Japan",
+      "group": "first50"
+    },
+    {
+      "handle": "JRCentral_OFL",
+      "category": "地域・暮らし",
+      "name": "ＪＲ東海News【公式】",
+      "group": "first50"
+    },
+    {
+      "handle": "tbs_pr",
+      "category": "お笑い・テレビ",
+      "name": "TBS",
+      "group": "new100"
+    },
+    {
+      "handle": "radiko_jp",
+      "category": "お笑い・テレビ",
+      "name": "radiko（ラジコ）",
+      "group": "new100"
+    },
+    {
+      "handle": "MarvelStudios",
+      "category": "映画・ドラマ",
+      "name": "Marvel Studios",
+      "group": "new100"
+    },
+    {
+      "handle": "DisneyStudioJ_A",
+      "category": "映画・ドラマ",
+      "name": "ディズニー・スタジオ（アニメーション）公式",
+      "group": "new100"
+    },
+    {
+      "handle": "disneyjp",
+      "category": "映画・ドラマ",
+      "name": "ディズニー公式",
+      "group": "new100"
+    },
+    {
+      "handle": "warnerjp",
+      "category": "映画・ドラマ",
+      "name": "ワーナー ブラザース ジャパン",
+      "group": "new100"
+    },
+    {
+      "handle": "TOHOanimation",
+      "category": "映画・ドラマ",
+      "name": "TOHO animation",
+      "group": "new100"
+    },
+    {
+      "handle": "Paramount_Japan",
+      "category": "映画・ドラマ",
+      "name": "パラマウント・ピクチャーズ 公式",
+      "group": "new100"
+    },
+    {
+      "handle": "Hulu_Japan",
+      "category": "映画・ドラマ",
+      "name": "Hulu Japan",
+      "group": "new100"
+    },
+    {
+      "handle": "tver_official",
+      "category": "映画・ドラマ",
+      "name": "TVer",
+      "group": "new100"
+    },
+    {
+      "handle": "unext_kaidora",
+      "category": "映画・ドラマ",
+      "name": "U-NEXT海外ドラマ公式",
+      "group": "new100"
+    },
+    {
+      "handle": "watch_UNEXT_K",
+      "category": "映画・ドラマ",
+      "name": "U-NEXT韓流・アジア♥公式",
+      "group": "new100"
+    },
+    {
+      "handle": "eigaland",
+      "category": "映画・ドラマ",
+      "name": "映画ランド EIGALAND",
+      "group": "new100"
+    },
+    {
+      "handle": "mcz517_official",
+      "category": "アイドル・タレント",
+      "name": "ももいろクローバーZ（ももクロ）",
+      "group": "new100"
+    },
+    {
+      "handle": "hinatazaka46",
+      "category": "アイドル・タレント",
+      "name": "日向坂46",
+      "group": "new100"
+    },
+    {
+      "handle": "nogizaka46",
+      "category": "アイドル・タレント",
+      "name": "乃木坂46",
+      "group": "new100"
+    },
+    {
+      "handle": "sakurazaka46",
+      "category": "アイドル・タレント",
+      "name": "櫻坂46",
+      "group": "new100"
+    },
+    {
+      "handle": "JamsCollection",
+      "category": "アイドル・タレント",
+      "name": "［公式］JamsCollection",
+      "group": "new100"
+    },
+    {
+      "handle": "anthurium0317",
+      "category": "アイドル・タレント",
+      "name": "アンスリューム",
+      "group": "new100"
+    },
+    {
+      "handle": "SPYAIRSTAFF",
+      "category": "音楽",
+      "name": "SPYAIR STAFF",
+      "group": "new100"
+    },
+    {
+      "handle": "backnumberstaff",
+      "category": "音楽",
+      "name": "back number staff",
+      "group": "new100"
+    },
+    {
+      "handle": "ONEOKROCK_japan",
+      "category": "音楽",
+      "name": "ONE OK ROCK_official",
+      "group": "new100"
+    },
+    {
+      "handle": "SonyMusic_JPN",
+      "category": "音楽",
+      "name": "ソニーミュージック",
+      "group": "new100"
+    },
+    {
+      "handle": "SpotifyJP",
+      "category": "音楽",
+      "name": "Spotify Japan",
+      "group": "new100"
+    },
+    {
+      "handle": "LiSA_STAFF",
+      "category": "音楽",
+      "name": "LiSA_STAFF",
+      "group": "new100"
+    },
+    {
+      "handle": "RADWIMPS",
+      "category": "音楽",
+      "name": "RADWIMPS",
+      "group": "new100"
+    },
+    {
+      "handle": "ado1024imokenp",
+      "category": "音楽",
+      "name": "Ado",
+      "group": "new100"
+    },
+    {
+      "handle": "Vaundy_Engawa",
+      "category": "音楽",
+      "name": "Vaundy",
+      "group": "new100"
+    },
+    {
+      "handle": "musicvoicejp",
+      "category": "音楽",
+      "name": "MusicVoice - ミュージックヴォイス公式",
+      "group": "new100"
+    },
+    {
+      "handle": "UVERworld_dR2",
+      "category": "音楽",
+      "name": "UVERworld_Staff_",
+      "group": "new100"
+    },
+    {
+      "handle": "Genshin_7",
+      "category": "ゲーム",
+      "name": "原神（Genshin）公式",
+      "group": "new100"
+    },
+    {
+      "handle": "poke_times",
+      "category": "ゲーム",
+      "name": "【公式】ポケモン情報局",
+      "group": "new100"
+    },
+    {
+      "handle": "GameWith_review",
+      "category": "ゲーム",
+      "name": "GameWith@最新ゲーム情報局",
+      "group": "new100"
+    },
+    {
+      "handle": "Xbox_JP",
+      "category": "ゲーム",
+      "name": "XBOX Japan",
+      "group": "new100"
+    },
+    {
+      "handle": "KONAMI573ch",
+      "category": "ゲーム",
+      "name": "KONAMI コナミ公式",
+      "group": "new100"
+    },
+    {
+      "handle": "TOKYO_GAME_SHOW",
+      "category": "ゲーム",
+      "name": "TOKYO GAME SHOW／東京ゲームショウ",
+      "group": "new100"
+    },
+    {
+      "handle": "gizmodojapan",
+      "category": "ガジェット・IT",
+      "name": "ギズモード・ジャパン（公式）",
+      "group": "new100"
+    },
+    {
+      "handle": "iPhoneMania_jp",
+      "category": "ガジェット・IT",
+      "name": "iPhone Mania",
+      "group": "new100"
+    },
+    {
+      "handle": "PHILEWEB",
+      "category": "ガジェット・IT",
+      "name": "PHILE WEB",
+      "group": "new100"
+    },
+    {
+      "handle": "SonyGroup_JP",
+      "category": "ガジェット・IT",
+      "name": "Sony - Japan",
+      "group": "new100"
+    },
+    {
+      "handle": "GoogleAI",
+      "category": "ガジェット・IT",
+      "name": "Google AI",
+      "group": "new100"
+    },
+    {
+      "handle": "AnthropicAI",
+      "category": "ガジェット・IT",
+      "name": "Anthropic",
+      "group": "new100"
+    },
+    {
+      "handle": "AndroidDev",
+      "category": "ガジェット・IT",
+      "name": "Android Developers",
+      "group": "new100"
+    },
+    {
+      "handle": "kakakucom",
+      "category": "ガジェット・IT",
+      "name": "価格.com 公式",
+      "group": "new100"
+    },
+    {
+      "handle": "Nikkei_TRENDY",
+      "category": "ガジェット・IT",
+      "name": "日経トレンディ",
+      "group": "new100"
+    },
+    {
+      "handle": "SBSnewsbot",
+      "category": "地域・暮らし",
+      "name": "SBS NEWS【SBSテレビ公式】",
+      "group": "new100"
+    },
+    {
+      "handle": "SBS6ch",
+      "category": "地域・暮らし",
+      "name": "SBSテレビ【公式】",
+      "group": "new100"
+    },
+    {
+      "handle": "JREast_official",
+      "category": "地域・暮らし",
+      "name": "JR東日本（公式）",
+      "group": "new100"
+    },
+    {
+      "handle": "walkerplus_news",
+      "category": "地域・暮らし",
+      "name": "ウォーカープラス",
+      "group": "new100"
+    },
+    {
+      "handle": "annkw5tyb",
+      "category": "お笑い・テレビ",
+      "name": "オードリーのオールナイトニッポン",
+      "group": "new100"
+    },
+    {
+      "handle": "iizukakun",
+      "category": "お笑い・テレビ",
+      "name": "飯塚🤓",
+      "group": "new100"
+    },
+    {
+      "handle": "SANSHIRO_AIDA",
+      "category": "お笑い・テレビ",
+      "name": "三四郎・相田周二",
+      "group": "new100"
+    },
+    {
+      "handle": "Ann_Since1967",
+      "category": "お笑い・テレビ",
+      "name": "オールナイトニッポン",
+      "group": "new100"
+    },
+    {
+      "handle": "brunch_TBS",
+      "category": "お笑い・テレビ",
+      "name": "王様のブランチ",
+      "group": "new100"
+    },
+    {
+      "handle": "tbsyoutuboo",
+      "category": "お笑い・テレビ",
+      "name": "TBSテレビYouTuboo",
+      "group": "new100"
+    },
+    {
+      "handle": "tvtokyo_fan",
+      "category": "お笑い・テレビ",
+      "name": "あつまれ テレ東ファン",
+      "group": "new100"
+    },
+    {
+      "handle": "TVTOKYO_DOUGA",
+      "category": "お笑い・テレビ",
+      "name": "テレ東配信おすすめ",
+      "group": "new100"
+    },
+    {
+      "handle": "TVTOKYO_nanana",
+      "category": "お笑い・テレビ",
+      "name": "ナナナ【公式】",
+      "group": "new100"
+    },
+    {
+      "handle": "renampme",
+      "category": "映画・ドラマ",
+      "name": "松井玲奈",
+      "group": "new100"
+    },
+    {
+      "handle": "VIVANT_MISSION",
+      "category": "映画・ドラマ",
+      "name": "【公式】VIVANT IMMERSIVE MISSION",
+      "group": "new100"
+    },
+    {
+      "handle": "VIVANT_AKUYAKU",
+      "category": "映画・ドラマ",
+      "name": "『VIVANT 悪役会議室』【公式】",
+      "group": "new100"
+    },
+    {
+      "handle": "disneystudiojp",
+      "category": "映画・ドラマ",
+      "name": "ディズニー・スタジオ",
+      "group": "new100"
+    },
+    {
+      "handle": "marvel_jp",
+      "category": "映画・ドラマ",
+      "name": "Marvel",
+      "group": "new100"
+    },
+    {
+      "handle": "foolnight_anime",
+      "category": "映画・ドラマ",
+      "name": "「フールナイト」アニメ公式",
+      "group": "new100"
+    },
+    {
+      "handle": "theop_official",
+      "category": "映画・ドラマ",
+      "name": "THE ONE PIECE",
+      "group": "new100"
+    },
+    {
+      "handle": "animehaikyu_com",
+      "category": "映画・ドラマ",
+      "name": "アニメ「ハイキュー!!」",
+      "group": "new100"
+    },
+    {
+      "handle": "TOHOanimeSTORE",
+      "category": "映画・ドラマ",
+      "name": "TOHO animation STORE ONLINE",
+      "group": "new100"
+    },
+    {
+      "handle": "jumpfesta",
+      "category": "映画・ドラマ",
+      "name": "KAIZOくん＠ジャンプフェスタ",
+      "group": "new100"
+    },
+    {
+      "handle": "karen_fz0328",
+      "category": "アイドル・タレント",
+      "name": "松本かれん( FRUITS ZIPPER )",
+      "group": "new100"
+    },
+    {
+      "handle": "yui_fz0221",
+      "category": "アイドル・タレント",
+      "name": "櫻井優衣(FRUITS ZIPPER)",
+      "group": "new100"
+    },
+    {
+      "handle": "suzuka_fz1124",
+      "category": "アイドル・タレント",
+      "name": "鎮西寿々歌(FRUITS ZIPPER)",
+      "group": "new100"
+    },
+    {
+      "handle": "amane_fz1026",
+      "category": "アイドル・タレント",
+      "name": "月足天音 (FRUITS ZIPPER)",
+      "group": "new100"
+    },
+    {
+      "handle": "luna_fz0703",
+      "category": "アイドル・タレント",
+      "name": "仲川瑠夏(FRUITS ZIPPER)",
+      "group": "new100"
+    },
+    {
+      "handle": "noel_fz1229",
+      "category": "アイドル・タレント",
+      "name": "早瀬ノエル（FRUITS ZIPPER）",
+      "group": "new100"
+    },
+    {
+      "handle": "manafy_fz0422",
+      "category": "アイドル・タレント",
+      "name": "真中まな(FRUITS ZIPPER)",
+      "group": "new100"
+    },
+    {
+      "handle": "saitou_kiara",
+      "category": "アイドル・タレント",
+      "name": "齋藤 樹愛羅",
+      "group": "new100"
+    },
+    {
+      "handle": "takamatsuhitomi",
+      "category": "アイドル・タレント",
+      "name": "髙松 瞳",
+      "group": "new100"
+    },
+    {
+      "handle": "hana_oba",
+      "category": "アイドル・タレント",
+      "name": "大場 花菜",
+      "group": "new100"
+    },
+    {
+      "handle": "morohashi_sana",
+      "category": "アイドル・タレント",
+      "name": "諸橋 沙夏",
+      "group": "new100"
+    },
+    {
+      "handle": "MORE_STAR_",
+      "category": "アイドル・タレント",
+      "name": "MORE STAR【Official】",
+      "group": "new100"
+    },
+    {
+      "handle": "MotokiOhmori_ST",
+      "category": "音楽",
+      "name": "大森元貴STAFF",
+      "group": "new100"
+    },
+    {
+      "handle": "disneymusicjp",
+      "category": "音楽",
+      "name": "ディズニー・ミュージック",
+      "group": "new100"
+    },
+    {
+      "handle": "live_natalie_mu",
+      "category": "音楽",
+      "name": "ライブナタリー",
+      "group": "new100"
+    },
+    {
+      "handle": "N_Officialstore",
+      "category": "ゲーム",
+      "name": "Nintendo TOKYO/OSAKA/KYOTO/FUKUOKA",
+      "group": "new100"
+    },
+    {
+      "handle": "SmashBrosJP",
+      "category": "ゲーム",
+      "name": "大乱闘スマッシュブラザーズ【スマブラ公式】",
+      "group": "new100"
+    },
+    {
+      "handle": "ZeldaOfficialJP",
+      "category": "ゲーム",
+      "name": "ゼルダの伝説",
+      "group": "new100"
+    },
+    {
+      "handle": "XenobladeJP",
+      "category": "ゲーム",
+      "name": "ゼノブレイド総合",
+      "group": "new100"
+    },
+    {
+      "handle": "IndieWorldJP",
+      "category": "ゲーム",
+      "name": "Indie World（インディーワールド）",
+      "group": "new100"
+    },
+    {
+      "handle": "KirbyAirRiderJP",
+      "category": "ゲーム",
+      "name": "カービィのエアライダー",
+      "group": "new100"
+    },
+    {
+      "handle": "PikminBloom_jp",
+      "category": "ゲーム",
+      "name": "Pikmin Bloom Japan │ ピクミンブルーム",
+      "group": "new100"
+    },
+    {
+      "handle": "Museum_Nintendo",
+      "category": "ゲーム",
+      "name": "ニンテンドーミュージアム",
+      "group": "new100"
+    },
+    {
+      "handle": "watch_akiba",
+      "category": "ガジェット・IT",
+      "name": "AKIBA PC Hotline! （秋葉原）",
+      "group": "new100"
+    },
+    {
+      "handle": "madonomori",
+      "category": "ガジェット・IT",
+      "name": "窓の杜",
+      "group": "new100"
+    },
+    {
+      "handle": "lifehackerjapan",
+      "category": "ガジェット・IT",
+      "name": "ライフハッカー・ジャパン｜Lifehacker Japan【公式】",
+      "group": "new100"
+    },
+    {
+      "handle": "tobalog",
+      "category": "ガジェット・IT",
+      "name": "トバログの人 ｜鳥羽恒彰",
+      "group": "new100"
+    },
+    {
+      "handle": "ASUSJapan",
+      "category": "ガジェット・IT",
+      "name": "ASUS JAPAN",
+      "group": "new100"
+    },
+    {
+      "handle": "AcerJapan",
+      "category": "ガジェット・IT",
+      "name": "Acer Japan (日本エイサー)",
+      "group": "new100"
+    },
+    {
+      "handle": "nikkeibusiness",
+      "category": "ガジェット・IT",
+      "name": "日経ビジネス",
+      "group": "new100"
+    },
+    {
+      "handle": "shizushin",
+      "category": "地域・暮らし",
+      "name": "静岡新聞DIGITAL（編集部からおすすめ記事をお届けします）",
+      "group": "new100"
+    },
+    {
+      "handle": "natasha_inc",
+      "category": "地域・暮らし",
+      "name": "ナタリー（株式会社ナターシャ）広報",
+      "group": "new100"
+    }
+  ]
+}
