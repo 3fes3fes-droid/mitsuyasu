@@ -380,6 +380,16 @@ main {
   *,*::before,*::after { animation:none!important; transition:none!important; }
 }
 </style>
+<style id="gallery-standard">
+/* GALLERY-STANDARD v1: edge-to-edge / 3-4 columns */
+:root{--gallery-columns:3}
+@media(min-width:1600px){:root{--gallery-columns:4}}
+.event-grid{grid-template-columns:repeat(var(--gallery-columns),minmax(0,1fr))!important;gap:0!important;padding-inline:0!important;padding-block-start:0!important;margin-inline:0!important;max-width:none!important;width:100%!important;box-sizing:border-box}
+.event-grid > .event-card{border:0!important;border-radius:0!important;box-shadow:none!important;margin:0!important;min-width:0;}
+main{width:100%!important;max-width:none!important}
+.event-grid .event-button{width:100%;padding:0!important;border:0!important;border-radius:0!important}
+.event-grid .event-button img{width:100%;height:auto;border-radius:0!important}
+</style>
 </head>
 <body>
 <main>

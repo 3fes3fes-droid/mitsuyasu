@@ -87,10 +87,10 @@ def get_thumb(video):
 
 def render(items, thumbnails):
     styles = """html,body{margin:0;padding:0;background:#000;overscroll-behavior-y:none}
-#grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:4px}
+#grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:0}
 .thumb{display:block;min-width:0;overflow:hidden;background:#050505;outline-offset:-2px}
 .thumb img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
-@media(max-width:600px){#grid{gap:2px;padding:2px}}
+@media(min-width:1600px){#grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}"""
     js = """(()=>{'use strict';
 const grid=document.getElementById('grid');

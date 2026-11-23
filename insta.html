@@ -58,6 +58,15 @@ a{color:inherit;text-decoration:none}
   #as-btn{display:flex}
 }
 </style>
+<style id="gallery-standard">
+/* GALLERY-STANDARD v1: edge-to-edge / 3-4 columns */
+:root{--gallery-columns:3}
+@media(min-width:1600px){:root{--gallery-columns:4}}
+#feed{grid-template-columns:repeat(var(--gallery-columns),minmax(0,1fr))!important;gap:0!important;padding-inline:0!important;padding-block-start:0!important;margin-inline:0!important;max-width:none!important;width:100%!important;box-sizing:border-box}
+#feed > .tile{border:0!important;border-radius:0!important;box-shadow:none!important;margin:0!important;min-width:0;}
+#feed{grid-auto-rows:1px!important;padding-bottom:76px!important}
+#feed .media-box,#feed .thumb{border:0!important;border-radius:0!important}
+</style>
 </head>
 <body>
 <div id="exclude-bar"><button id="save-exclusions" type="button" title="除外一覧を保存" aria-label="除外一覧を保存">💾</button></div>
@@ -325442,9 +325451,9 @@ hinako menu·͜· ︎︎ᕷ
 
   function resizeTile(tile){
     if(!tile || tile.style.display === 'none') return;
-    var gap = window.matchMedia('(max-width:760px)').matches ? 1 : 2;
+    var gap = 0;
     var height = tile.getBoundingClientRect().height;
-    tile.style.gridRowEnd = 'span ' + Math.max(1, Math.ceil((height + gap) / (2 + gap)));
+    tile.style.gridRowEnd = 'span ' + Math.max(1, Math.ceil((height + gap) / (1 + gap)));
   }
 
   function resizeAll(){

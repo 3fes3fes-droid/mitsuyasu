@@ -76,6 +76,14 @@ body.news-slide #grid .candidate-footer{display:none}
  .candidate-actions button{font-size:11px;padding:5px 8px}
 }
 </style>
+<style id="gallery-standard">
+/* GALLERY-STANDARD v1: edge-to-edge / 3-4 columns */
+:root{--gallery-columns:3}
+@media(min-width:1600px){:root{--gallery-columns:4}}
+body:not(.news-slide) #grid{grid-template-columns:repeat(var(--gallery-columns),minmax(0,1fr))!important;gap:0!important;padding-inline:0!important;padding-block-start:0!important;margin-inline:0!important;max-width:none!important;width:100%!important;box-sizing:border-box}
+body:not(.news-slide) #grid > .card{border:0!important;border-radius:0!important;box-shadow:none!important;margin:0!important;min-width:0;}
+
+</style>
 </head>
 <body>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
